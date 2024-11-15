@@ -271,6 +271,8 @@ Date,Team A,Team B,Home/Away,Result
 11/09/2024,Anna Maria,Worcester St,Home,L
 11/09/2024,Clark MA,WPI,Road,W
 11/09/2024,WPI,Clark MA,Home,L
+11/09/2024,Wooster,Thiel,Road,W
+11/09/2024,Thiel,Wooster,Home,L
 11/09/2024,St. Norbert,Calvin,Road,W
 11/09/2024,Calvin,St. Norbert,Home,L
 11/09/2024,Case Western,Allegheny,Road,W
@@ -447,8 +449,6 @@ Date,Team A,Team B,Home/Away,Result
 11/11/2024,S Virginia,Washington & Lee,Home,L
 11/11/2024,Christopher Newport,Puget Sound,Road,W
 11/11/2024,Puget Sound,Christopher Newport,Home,L
-11/11/2024,Maryville TN,Methodist,Road,W
-11/11/2024,Methodist,Maryville TN,Home,L
 11/11/2024,Scranton,Cortland,Road,W
 11/11/2024,Cortland,Scranton,Home,L
 11/11/2024,Gettysburg,Eastern Univ,Road,W
@@ -493,8 +493,6 @@ Date,Team A,Team B,Home/Away,Result
 11/12/2024,St. John Fisher,Penn State-Behrend,Home,L
 11/12/2024,Rutgers-Camden,Valley Forge,Road,W
 11/12/2024,Valley Forge,Rutgers-Camden,Home,L
-11/12/2024,Methodist,Averett,Road,W
-11/12/2024,Averett,Methodist,Home,L
 11/12/2024,Calvin,Wilmington OH,Road,W
 11/12/2024,Wilmington OH,Calvin,Home,L
 11/12/2024,Chicago,North Park,Road,W
@@ -681,3 +679,29 @@ Date,Team A,Team B,Home/Away,Result
 11/13/2024,Widener,Swarthmore,Home,L
 11/13/2024,Brooklyn Col,St. Joseph's NY,Road,W
 11/13/2024,St. Joseph's NY,Brooklyn Col,Home,L
+11/14/2024,UC Santa Cruz,La Verne,Road,W
+11/14/2024,La Verne,UC Santa Cruz,Home,L
+11/14/2024,Marywood,Rutgers-Newark,Road,W
+11/14/2024,Rutgers-Newark,Marywood,Home,L
+11/14/2024,St. Thomas TX,Howard Payne,Road,W
+11/14/2024,Howard Payne,St. Thomas TX,Home,L
+11/14/2024,Dickinson,Marymount,Road,W
+11/14/2024,Marymount,Dickinson,Home,L
+11/14/2024,FDU Madison,St. Elizabeth,Road,W
+11/14/2024,St. Elizabeth,FDU Madison,Home,L
+11/14/2024,Centenary,Le Tourneau,Road,W
+11/14/2024,Le Tourneau,Centenary,Home,L
+11/14/2024,Wheaton MA,Curry,Road,W
+11/14/2024,Curry,Wheaton MA,Home,L
+11/14/2024,Wilmington OH,Earlham,Road,W
+11/14/2024,Earlham,Wilmington OH,Home,L
+11/14/2024,Hanover,Asbury,Road,W
+11/14/2024,Asbury,Hanover,Home,L
+11/14/2024,Aurora,Beloit,Road,W
+11/14/2024,Beloit,Aurora,Home,L
+11/14/2024,Elmhurst,Mt. Mary,Road,W
+11/14/2024,Mt. Mary,Elmhurst,Home,L
+11/14/2024,Rose-Hulman,Principia,Road,W
+11/14/2024,Principia,Rose-Hulman,Home,L
+11/14/2024,Gustavus Adolphus,UW-Stout,Road,W
+11/14/2024,UW-Stout,Gustavus Adolphus,Home,L
