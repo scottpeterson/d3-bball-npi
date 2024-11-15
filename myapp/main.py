@@ -4,23 +4,11 @@ from pathlib import Path
 import time
 
 def load_teams(base_path, year):
-    """
-    Load valid teams from teams.txt and teams_mapping.txt in the specified year directory.
-    Uses column 2 from teams_mapping.txt when available, falling back to teams.txt name.
-    
-    Args:
-        base_path: Path object pointing to the base data directory
-        year: String or int representing the year (e.g., "2024" or 2024)
-    
-    Returns:
-        Dictionary mapping team IDs to team names
-    """
     teams = {}
     year_str = str(year)
     teams_path = base_path / year_str / 'teams.txt'
     mapping_path = base_path / year_str / 'teams_mapping.txt'
     
-    # First load the standard teams file as fallback
     try:
         with open(teams_path, 'r') as file:
             for line in file:
@@ -32,19 +20,18 @@ def load_teams(base_path, year):
         print(f"Loaded {len(teams)} teams from {year_str}/teams.txt")
     except FileNotFoundError:
         print(f"Warning: Could not find teams file at {teams_path}")
-        return teams  # Return empty dict if no teams file
+        return teams
     
-    # Now try to load and apply the mappings
     mapping_count = 0
     try:
         with open(mapping_path, 'r') as file:
             for line in file:
                 try:
                     parts = line.strip().split(',')
-                    if len(parts) >= 3:  # Ensure we have at least 3 columns
+                    if len(parts) >= 3:
                         team_id = parts[0].strip()
-                        mapped_name = parts[2].strip()  # Use column 2 (third column)
-                        if team_id in teams:  # Only update if it's a valid team
+                        mapped_name = parts[2].strip()
+                        if team_id in teams:
                             teams[team_id] = mapped_name
                             mapping_count += 1
                 except Exception as e:
@@ -56,38 +43,28 @@ def load_teams(base_path, year):
     return teams
 
 def calculate_game_npi(won, opponent_npi):
-    """Calculate Game NPI for a single game."""
-    # Base win component
     win_component = 100 if won else 0
     base_npi = (win_component * 0.20) + (opponent_npi * 0.80)
     
-    # Calculate quality bonus based on the opponent's pure NPI
     quality_bonus = max(0, (opponent_npi - 54.00) * (2/3)) if won else 0
     
     total_npi = base_npi + quality_bonus
     return total_npi
 
 def calculate_initial_npi(wins, losses, ties, owp):
-    """Calculate initial NPI using 20% winning percentage and 80% OWP"""
     total_games = wins + losses + ties
     winning_percentage = (wins / total_games * 100) if total_games > 0 else 0
     return (0.20 * winning_percentage) + (0.80 * owp)
 
 def calculate_owp(games, valid_teams):
-    """
-    Calculate Opponents' Winning Percentage for each team.
-    """
-    # Initialize win-loss records
     records = defaultdict(lambda: {'wins': 0, 'losses': 0, 'games': 0})
     
-    # Calculate raw records, skipping 0-0 games
     for game in games:
         team1_id = game['team1_id']
         team2_id = game['team2_id']
         team1_score = game['team1_score']
         team2_score = game['team2_score']
         
-        # Skip invalid teams and 0-0 games
         if (team1_id not in valid_teams or 
             team2_id not in valid_teams or 
             (team1_score == 0 and team2_score == 0)):
@@ -103,24 +80,20 @@ def calculate_owp(games, valid_teams):
             records[team2_id]['wins'] += 1
             records[team1_id]['losses'] += 1
     
-    # Calculate OWP for each team
     owp = {}
     for team_id in valid_teams:
         opponents_total_wins = 0
         opponents_total_losses = 0
         
-        # Look through all games for this team's opponents
         for game in games:
             if game['team1_score'] == 0 and game['team2_score'] == 0:
                 continue
                 
             if game['team1_id'] == team_id and game['team2_id'] in records:
-                # Add opponent's record excluding games against this team
                 opp_record = records[game['team2_id']]
                 opp_wins = opp_record['wins']
                 opp_losses = opp_record['losses']
                 
-                # Remove this game from opponent's record
                 if game['team1_score'] > game['team2_score']:
                     opp_losses -= 1
                 elif game['team2_score'] > game['team1_score']:
@@ -130,12 +103,10 @@ def calculate_owp(games, valid_teams):
                 opponents_total_losses += opp_losses
                 
             elif game['team2_id'] == team_id and game['team1_id'] in records:
-                # Add opponent's record excluding games against this team
                 opp_record = records[game['team1_id']]
                 opp_wins = opp_record['wins']
                 opp_losses = opp_record['losses']
                 
-                # Remove this game from opponent's record
                 if game['team2_score'] > game['team1_score']:
                     opp_losses -= 1
                 elif game['team1_score'] > game['team2_score']:
@@ -144,20 +115,15 @@ def calculate_owp(games, valid_teams):
                 opponents_total_wins += opp_wins
                 opponents_total_losses += opp_losses
         
-        # Calculate OWP
         total_games = opponents_total_wins + opponents_total_losses
         owp[team_id] = (opponents_total_wins / total_games * 100) if total_games > 0 else 50
     
     return owp
 
 def process_games_iteration(games, valid_teams, previous_iteration_npis=None, iteration_number=1):
-    """Process one iteration of games with given initial NPIs."""
-    
-    # First get OWP and basic records for initial NPI calculation
     owp = calculate_owp(games, valid_teams)
     records = defaultdict(lambda: {'wins': 0, 'losses': 0, 'ties': 0})
     
-    # Calculate records for winning percentage
     for game in games:
         team1_id = game['team1_id']
         team2_id = game['team2_id']
@@ -179,14 +145,12 @@ def process_games_iteration(games, valid_teams, previous_iteration_npis=None, it
             records[team1_id]['ties'] += 1
             records[team2_id]['ties'] += 1
     
-    # Calculate initial NPIs
     if iteration_number == 1:
         opponent_npis = {team_id: 50 for team_id in valid_teams}
     else:
         opponent_npis = {team_id: previous_iteration_npis[team_id] 
                         for team_id in valid_teams 
                         if team_id in previous_iteration_npis}
-        # Handle any teams that don't have a previous NPI
         for team_id in valid_teams:
             if team_id not in opponent_npis:
                 opponent_npis[team_id] = owp[team_id]
@@ -206,7 +170,6 @@ def process_games_iteration(games, valid_teams, previous_iteration_npis=None, it
         'has_games': False
     })
     
-    # Initialize all valid teams
     for team_id, team_name in valid_teams.items():
         teams[team_id]['team_id'] = team_id
         teams[team_id]['team_name'] = team_name
@@ -309,12 +272,8 @@ def process_games_iteration(games, valid_teams, previous_iteration_npis=None, it
     return teams
 
 def load_games(base_path, year, valid_teams):
-    """
-    Load games from games.txt with enhanced validation and debugging.
-    Only returns games where both teams are in the valid_teams dictionary.
-    """
     games = []
-    seen_games = set()  # Track unique games
+    seen_games = set()
     year_str = str(year)
     games_path = base_path / year_str / 'games.txt'
     zero_zero_count = 0
