@@ -384,14 +384,16 @@ def load_games(base_path, year, valid_teams):
 def save_npi_results_to_csv(teams):
     """Write results for an iteration to CSV."""
     data_path = Path(__file__).parent / "data" / "2025" / "npi.csv"
-
-    # Load old rankings
+    
+    # Load old rankings and find max rank
     old_rankings = {}
+    max_rank = 0
     try:
         with open(data_path, "r", newline="") as csvfile:
             csv_data = list(csv.reader(csvfile))
             for row in csv_data[1:]:
-                old_rankings[row[1]] = int(row[0])
+                old_rankings[row[0]] = int(row[6])
+            max_rank = max(max_rank, int(row[6]))
     except FileNotFoundError:
         pass
 
@@ -400,37 +402,36 @@ def save_npi_results_to_csv(teams):
 
     with open(data_path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(
-            [
-                "Rank",
-                "Team Name",
-                "Games",
-                "Wins",
-                "Qualifying Wins",
-                "Qualifying Losses",
-                "NPI",
-                "Old Rank",
-                "Rank Change",
-            ]
-        )
-
+        writer.writerow([
+            "Team Name",
+            "Games",
+            "Wins",
+            "Qualifying Wins",
+            "Qualifying Losses",
+            "NPI",
+            "Rank",
+            "Old Rank",
+            "Rank Change",
+        ])
+        
         for rank, team in enumerate(sorted_teams, 1):
-            old_rank = old_rankings.get(team["team_name"], rank)
+            if team["team_name"] in old_rankings:
+                old_rank = old_rankings[team["team_name"]]
+            else:
+                old_rank = max_rank + 1
             rank_change = old_rank - rank
-
-            writer.writerow(
-                [
-                    rank,
-                    team["team_name"],
-                    team["games"],
-                    team["wins"],
-                    team.get("qualifying_wins", 0),
-                    team.get("qualifying_losses", 0),
-                    f"{team['npi']:.2f}",
-                    old_rank if team["team_name"] in old_rankings else "NEW",
-                    rank_change if team["team_name"] in old_rankings else "N/A",
-                ]
-            )
+            rank_change_str = f"+{rank_change}" if rank_change > 0 else str(rank_change)
+            writer.writerow([
+                team["team_name"],
+                team["games"],
+                team["wins"],
+                team.get("qualifying_wins", 0),
+                team.get("qualifying_losses", 0),
+                "{:.2f}".format(team["npi"]),
+                rank,
+                old_rank,
+                rank_change_str,
+            ])
 
 
 def process_games_bidirectional(file_path, teams_dict):
@@ -439,13 +440,14 @@ def process_games_bidirectional(file_path, teams_dict):
     Each game generates two rows - one from each team's perspective.
     Reformats date from yyyymmdd to mm/dd/yyyy.
     Only processes games where both teams exist in teams_dict.
-    Uses column 6 value to determine Home/Road status (1 = Home, -1 = Road)
-    for the first team listed.
+    Uses column 4 and 6 values to determine Home/Road/Neutral status:
+    - For team1: column 4 (1 = Home, 0 = Neutral)
+    - For team2: column 6 (1 = Home, 0 = Neutral)
     """
     results = []
     skipped_games = 0
     processed_games = 0
-
+    
     try:
         with open(file_path, "r") as file:
             for line in file:
@@ -453,30 +455,27 @@ def process_games_bidirectional(file_path, teams_dict):
                     cols = line.strip().split(",")
                     if len(cols) < 8:
                         continue
-
+                        
                     team1_id = cols[2].strip()
                     team2_id = cols[5].strip()
-
-                    # Skip if either team ID is not in our teams dictionary
+                    
                     if team1_id not in teams_dict or team2_id not in teams_dict:
                         skipped_games += 1
                         continue
-
-                    # Format date from yyyymmdd to mm/dd/yyyy
+                        
                     date_str = cols[1].strip()
                     year = date_str[:4]
                     month = date_str[4:6]
                     day = date_str[6:8]
                     formatted_date = f"{month}/{day}/{year}"
-
+                    
                     team1_score = int(cols[4])
                     team2_score = int(cols[7])
-                    location_indicator = int(cols[5].strip())
-
+                    team1_location = int(cols[3].strip())
+                    team2_location = int(cols[5].strip())
                     team1_name = teams_dict[team1_id]
                     team2_name = teams_dict[team2_id]
-
-                    # Determine game result
+                    
                     if team1_score > team2_score:
                         team1_result = "W"
                         team2_result = "L"
@@ -485,41 +484,29 @@ def process_games_bidirectional(file_path, teams_dict):
                         team2_result = "W"
                     else:
                         team1_result = team2_result = "T"
-
-                    # Use location_indicator to determine home/road
-                    if location_indicator == 1:
-                        # Team 1 is home
-                        results.append(
-                            f"{formatted_date},{team1_name},{team2_name},Home,{team1_result}"
-                        )
-                        results.append(
-                            f"{formatted_date},{team2_name},{team1_name},Road,{team2_result}"
-                        )
-                    else:  # location_indicator == -1
-                        # Team 1 is road
-                        results.append(
-                            f"{formatted_date},{team1_name},{team2_name},Road,{team1_result}"
-                        )
-                        results.append(
-                            f"{formatted_date},{team2_name},{team1_name},Home,{team2_result}"
-                        )
-
+                    
+                    # Determine locations based on both indicators
+                    team1_status = "Neutral" if team1_location == 0 else ("Home" if team1_location == 1 else "Road")
+                    team2_status = "Neutral" if team2_location == 0 else ("Home" if team2_location == 1 else "Road")
+                    
+                    results.append(
+                        f"{formatted_date},{team1_name},{team2_name},{team1_status},{team1_result}"
+                    )
+                    results.append(
+                        f"{formatted_date},{team2_name},{team1_name},{team2_status},{team2_result}"
+                    )
+                    
                     processed_games += 1
-
                 except Exception as e:
                     skipped_games += 1
                     continue
-
-        print(
-            f"Processed {processed_games} games into {len(results)} bidirectional results"
-        )
+                    
+        print(f"Processed {processed_games} games into {len(results)} bidirectional results")
         print(f"Skipped {skipped_games} games due to missing teams or invalid data")
-
     except Exception as e:
         print(f"Error processing games file: {e}")
-
+        
     return results
-
 
 def main():
     """Main entry point for the application."""
