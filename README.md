@@ -10,7 +10,9 @@ This application is NOT currently designed to be super user-friendly for the non
 
 Games and teams live in their own games.txt and teams.txt files, each in year directories.
 
-The data comes from Massey's data and needs to be manually uploaded (working on changing that).
+The data comes from Massey's data.
+
+Most functions do not have parameters to control: (Sport, Gender, Year)
 
 ## Generating NPI
 
@@ -28,7 +30,11 @@ The weights for Win%, SOS, QWB, etc are all currently hardcoded for WBB.
 
 ## Ideas for future development
 
-- Programmatic fetching of Massey data via command. I don't want to set up automatic fetching on some cadence, but cutting out the manual copy/paste step would make the app more resilient.
+- Set up modeling of conference tournaments
+- Simulations of the rest of season. I'm unsure what I want to use as the basis for win probabilities, and how I want to inject noise/randomness into the simulation, but simulations are critical to understanding what the range of possible outcomes are for a team, given their schedule.
 - Running of commands at the command line should take in a year parameter
 - Weights/dials being used should be variabilized, so the user can configure by sport. Though unsure if this code is flexible enough to work for all sports. It definitely is not set up to calculate MBB NPI, due to the different weighting of Home/Away games and Conference/Non-Conference games.
-- Simulations of the rest of season. I'm unsure what I want to use as the basis for win probabilities, and how I want to inject noise/randomness into the simulation, but simulations are critical to understanding what the range of possible outcomes are for a team, given their schedule.
+
+## Completed Ideas
+
+- Programmatic fetching of Massey data via command. I don't want to set up automatic fetching on some cadence, but cutting out the manual copy/paste step would make the app more resilient. (2024/11/28)
