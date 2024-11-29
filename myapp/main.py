@@ -273,17 +273,24 @@ def process_games_iteration(
             key=lambda x: x[0],
         )
 
-        # Include the worst loss, even if it's greater than the initial NPI
+# Include the worst loss and any losses with identical NPI
+        included_loss_npis = set()
         if loss_npis:
             worst_loss_npi = loss_npis[0][0]
+            included_loss_npis.add(worst_loss_npi)
             for loss_npi, _ in loss_npis:
                 if loss_npi == worst_loss_npi:
                     used_npis.append(loss_npi)
 
-        # Include all other losses below initial NPI
+        # Include all other losses below initial NPI, including identical NPIs
+        processed_npi_values = set()
         for loss_npi, _ in loss_npis:
-            if loss_npi < initial_npi and loss_npi not in used_npis:
-                used_npis.append(loss_npi)
+            if loss_npi < initial_npi and loss_npi not in included_loss_npis:
+                if loss_npi not in processed_npi_values:
+                    processed_npi_values.add(loss_npi)
+                    for other_loss_npi, _ in loss_npis:
+                        if other_loss_npi == loss_npi:
+                            used_npis.append(other_loss_npi)
 
         if used_npis:
             team_data["game_npis"] = used_npis
@@ -398,6 +405,7 @@ def save_npi_results_to_csv(teams):
         pass
 
     active_teams = [team for team in teams.values() if team["has_games"]]
+    active_teams = [dict(team, npi=float("{:.2f}".format(team["npi"]))) for team in teams.values() if team["has_games"]]
     sorted_teams = sorted(active_teams, key=lambda x: x["npi"], reverse=True)
 
     with open(data_path, "w", newline="") as csvfile:
@@ -427,7 +435,7 @@ def save_npi_results_to_csv(teams):
                 team["wins"],
                 team.get("qualifying_wins", 0),
                 team.get("qualifying_losses", 0),
-                "{:.2f}".format(team["npi"]),
+                "{:.2f}".format(float(team["npi"])),
                 rank,
                 old_rank,
                 rank_change_str,
