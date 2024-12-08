@@ -3,6 +3,8 @@ import math
 from typing import Dict, List, Tuple, Any
 import random
 from dataclasses import dataclass
+from .game_simulation import simulate_game, GameResult
+from .conf_tournaments import load_conference_data, load_tournament_structures, calculate_conference_standings, simulate_conference_tournaments
 
 @dataclass
 class GameResult:
@@ -372,4 +374,85 @@ def simulate_season(base_path: Path, year: str, valid_teams: Dict[str, str],
         
     except Exception as e:
         print(f"Error saving results: {e}")
+        return False
+    
+def simulate_full_season(base_path: Path, year: str, valid_teams: Dict[str, str], 
+                        team_data: Dict[str, Tuple[float, float]]) -> bool:
+    """
+    Simulate remaining regular season games and conference tournaments.
+    """
+    try:
+        # Load conference data
+        conference_teams = load_conference_data(base_path, year)
+        tournament_structures = load_tournament_structures(base_path, year)
+        
+        # Simulate regular season
+        completed_games, future_games = load_all_games(base_path, year, valid_teams)
+        simulated_regular_season = []
+        
+        # Simulate remaining regular season games
+        for game in future_games:
+            try:
+                team_a_id = game['team1_id']
+                team_b_id = game['team2_id']
+                home_advantage = 3.5 if game['team2_home'] == 1 else -3.5
+                
+                result = simulate_game(team_data, team_a_id, team_b_id, home_advantage)
+                
+                simulated_game = {
+                    "game_id": game['game_id'],
+                    "date": game['date'],
+                    "team1_id": game['team1_id'],
+                    "team2_id": game['team2_id'],
+                    "team1_home": game['team1_home'],
+                    "team2_home": game['team2_home'],
+                    "team1_score": result.winning_score if result.winner_id == team_a_id else result.losing_score,
+                    "team2_score": result.winning_score if result.winner_id == team_b_id else result.losing_score
+                }
+                simulated_regular_season.append(simulated_game)
+                
+            except Exception as e:
+                print(f"Error simulating regular season game {game['game_id']}: {e}")
+                continue
+        
+        # Calculate conference standings
+        all_regular_season_games = completed_games + simulated_regular_season
+        conference_standings = calculate_conference_standings(all_regular_season_games, conference_teams)
+        
+        # Simulate conference tournaments
+        tournament_date = "20240301"  # You might want to make this configurable
+        tournament_games, conference_champions = simulate_conference_tournaments(
+            conference_teams,
+            tournament_structures,
+            conference_standings,
+            team_data,
+            tournament_date
+        )
+        
+        # Print conference champions
+        print("\nConference Tournament Champions:")
+        print("-" * 60)
+        for conf, champion_id in conference_champions.items():
+            champion_name = valid_teams[champion_id]
+            print(f"{conf}: {champion_name}")
+        
+        # Combine all results
+        all_results = completed_games + simulated_regular_season + tournament_games
+        
+        # Save all results
+        output_path = base_path / year / "season_results.txt"
+        with open(output_path, "w") as file:
+            for game in all_results:
+                line = f"{game['game_id']},{game['date']},{game['team1_id']:>6},{game['team1_home']:>3},{game['team1_score']:>4},{game['team2_id']:>6},{game['team2_home']:>3},{game['team2_score']:>4}\n"
+                file.write(line)
+                
+        print(f"\nSaved {len(all_results)} total games to season_results.txt")
+        print(f"- {len(completed_games)} completed games")
+        print(f"- {len(simulated_regular_season)} simulated regular season games")
+        print(f"- {len(tournament_games)} conference tournament games")
+        
+        return True
+        
+    except Exception as e:
+        print(f"Error in season simulation: {e}")
         return False

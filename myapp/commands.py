@@ -3,11 +3,11 @@ from pathlib import Path
 import csv
 from .main import load_teams, process_games_bidirectional, predict_and_simulate_game
 from .games_getter import games_getter
-from .simulation import load_efficiency_data, simulate_season
+from .simulation import load_efficiency_data, simulate_season, simulate_full_season
 
 def run_simulate_season():
     """
-    Simulate all remaining games in the season
+    Simulate all remaining games in the season including conference tournaments
     """
     year = "2025"
     base_path = Path(__file__).parent / "data"
@@ -19,11 +19,11 @@ def run_simulate_season():
         # Load efficiency data
         team_data = load_efficiency_data(base_path, int(year))
         
-        # Run simulation with focus on Ohio Wesleyan
-        if simulate_season(base_path, year, valid_teams, team_data, focus_team_id="267"):
-            print("\nSeason simulation completed successfully")
+        # Run full season simulation
+        if simulate_full_season(base_path, year, valid_teams, team_data):
+            print("\nFull season simulation completed successfully")
         else:
-            print("\nSeason simulation failed")
+            print("\nFull season simulation failed")
             
     except Exception as e:
         print(f"Error in season simulation: {e}")
