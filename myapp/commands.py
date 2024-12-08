@@ -1,9 +1,73 @@
 import sys
 from pathlib import Path
 import csv
-from .main import load_teams, process_games_bidirectional
+from .main import load_teams, process_games_bidirectional, predict_and_simulate_game
 from .games_getter import games_getter
+from .simulation import load_efficiency_data, simulate_season
 
+def run_simulate_season():
+    """
+    Simulate all remaining games in the season
+    """
+    year = "2025"
+    base_path = Path(__file__).parent / "data"
+    
+    try:
+        # Load teams first
+        valid_teams = load_teams(base_path, year)
+        
+        # Load efficiency data
+        team_data = load_efficiency_data(base_path, int(year))
+        
+        # Run simulation with focus on Ohio Wesleyan
+        if simulate_season(base_path, year, valid_teams, team_data, focus_team_id="267"):
+            print("\nSeason simulation completed successfully")
+        else:
+            print("\nSeason simulation failed")
+            
+    except Exception as e:
+        print(f"Error in season simulation: {e}")
+        
+def run_predict_game():
+    # Hardcoded values
+    team_a_id = "262"
+    team_b_id = "371"
+    year = "2025"
+    
+    base_path = Path(__file__).parent / "data"
+        
+    try:
+        # Load teams first to validate IDs
+        valid_teams = load_teams(base_path, year)
+        if team_a_id not in valid_teams or team_b_id not in valid_teams:
+            print(f"Error: Invalid team ID(s)")
+            print(f"Team A ({team_a_id}): {'Found' if team_a_id in valid_teams else 'Not found'}")
+            print(f"Team B ({team_b_id}): {'Found' if team_b_id in valid_teams else 'Not found'}")
+            return
+        
+        probabilities, result = predict_and_simulate_game(base_path, team_a_id, team_b_id, int(year))
+        
+        # Print predictions
+        print("\nPredicted Win Probabilities:")
+        print(f"{'Team':<30} {'Win Probability':<15}")
+        print("-" * 45)
+        for team_id, prob in probabilities.items():
+            team_name = valid_teams[team_id]
+            print(f"{team_name:<30} {prob:>6.1%}")
+        
+        # Print simulation result
+        print("\nSimulated Game Result:")
+        print("-" * 45)
+        winner_name = valid_teams[result.winner_id]
+        loser_name = valid_teams[result.loser_id]
+        print(f"{winner_name} {result.winning_score}, {loser_name} {result.losing_score}")
+        if result.was_upset:
+            print("UPSET!")
+            
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def run_bidirectional():
     if len(sys.argv) > 2:
@@ -59,24 +123,23 @@ def run_main():
 
     main()
 
-
 if __name__ == "__main__":
-    import sys
-
     commands = {
         "bidirectional": run_bidirectional,
         "main": run_main,
         "get_games": run_games_getter,
+        "predict_game": run_predict_game,
+        "simulate_season": run_simulate_season,
     }
-
+    
     if len(sys.argv) < 2 or sys.argv[1] not in commands:
         print("Available commands:")
         for cmd in commands:
-            print(f"  - {cmd}")
+            print(f" - {cmd}")
         print("\nUsage:")
-        print(
-            "  bidirectional [year]  - Process games for specified year (default: 2024)"
-        )
+        print(" bidirectional [year] - Process games for specified year (default: 2024)")
+        print(" predict_game - Predict game outcome for hardcoded teams")
+        print(" simulate_season - Simulate all remaining games in the season")
         sys.exit(1)
-
+        
     commands[sys.argv[1]]()

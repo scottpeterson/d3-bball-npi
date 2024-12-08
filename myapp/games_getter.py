@@ -1,7 +1,6 @@
 import requests
 from pathlib import Path
 
-
 def games_getter(url, year="2025"):
     output_path = Path(__file__).parent / "data" / year
     output_path.mkdir(parents=True, exist_ok=True)
