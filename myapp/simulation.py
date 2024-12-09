@@ -6,95 +6,6 @@ from dataclasses import dataclass
 from .game_simulation import simulate_game, GameResult
 from .conf_tournaments import load_conference_data, load_tournament_structures, calculate_conference_standings, simulate_conference_tournaments
 
-@dataclass
-class GameResult:
-    winner_id: str
-    loser_id: str
-    winning_score: int
-    losing_score: int
-    was_upset: bool
-
-def simulate_game(team_data: Dict[str, Tuple[float, float]], team_a_id: str, team_b_id: str, 
-                 home_advantage: float = 3.5) -> GameResult:
-    """
-    Simulate a game between two teams based on their win probabilities and efficiency metrics.
-    
-    Args:
-        team_data: Dictionary mapping team_id to tuple of (adjEM, adjT)
-        team_a_id: ID of first team
-        team_b_id: ID of second team (home team)
-        home_advantage: Points to adjust for home court advantage
-        
-    Returns:
-        GameResult object containing winner, loser, scores, and whether it was an upset
-    """
-    # Get win probabilities first
-    probs = calculate_win_probability(team_data, team_a_id, team_b_id, home_advantage)
-    
-    # Simulate winner based on probabilities
-    teams = list(probs.keys())
-    winner_id = random.choices(teams, weights=[probs[team_a_id], probs[team_b_id]], k=1)[0]
-    loser_id = team_b_id if winner_id == team_a_id else team_a_id
-    
-    # Calculate expected point differential
-    team_a_stats = team_data[team_a_id]
-    team_b_stats = team_data[team_b_id]
-    adj_em_diff = team_a_stats[0] - team_b_stats[0]
-    avg_tempo = (team_a_stats[1] + team_b_stats[1]) / 2  # Average tempo of both teams
-    expected_diff = adj_em_diff * (avg_tempo/100) - home_advantage
-    
-    # Generate random point differential using normal distribution
-    actual_diff = random.gauss(expected_diff, 11)
-    
-    # Calculate expected points per possession for each team
-    # Division by 100 because efficiency metrics are per 100 possessions
-    base_efficiency = 102  # Average team scores about 102 points per 100 possessions
-    team_a_efficiency = base_efficiency + (team_a_stats[0] / 2)  # Add half the efficiency margin
-    team_b_efficiency = base_efficiency - (team_a_stats[0] / 2)  # Subtract half the efficiency margin
-    
-    # Calculate expected points based on tempo and efficiency
-    possessions = avg_tempo  # This is already possessions per game
-    team_a_expected = (team_a_efficiency * possessions) / 100
-    team_b_expected = (team_b_efficiency * possessions) / 100
-    expected_total = team_a_expected + team_b_expected
-    
-    # Add some random variation to total points
-    total_points = random.gauss(expected_total, 10)
-    
-    if winner_id == team_a_id:
-        actual_diff = abs(actual_diff)
-    else:
-        actual_diff = -abs(actual_diff)
-    
-    # Calculate individual team scores
-    winner_score = round((total_points + abs(actual_diff)) / 2)
-    loser_score = round((total_points - abs(actual_diff)) / 2)
-    
-    # Ensure scores are reasonable (minimum 55 points per team in modern college basketball)
-    if winner_score < 55:
-        winner_score = round(random.uniform(55, 65))
-    if loser_score < 55:
-        loser_score = round(random.uniform(55, winner_score - 3))
-        
-    # Cap extremely high scores (rare to see above 100 in college basketball)
-    if winner_score > 100:
-        winner_score = round(random.uniform(90, 100))
-        loser_score = winner_score - round(abs(actual_diff))
-    if loser_score > 95:
-        loser_score = round(random.uniform(85, 95))
-    
-    # Determine if it was an upset
-    was_upset = (winner_id == team_b_id and probs[team_a_id] > 0.5) or \
-                (winner_id == team_a_id and probs[team_b_id] > 0.5)
-    
-    return GameResult(
-        winner_id=winner_id,
-        loser_id=loser_id,
-        winning_score=winner_score,
-        losing_score=loser_score,
-        was_upset=was_upset
-    )
-
 def calculate_win_probability(team_data: Dict[str, Tuple[float, float]], team_a_id: str, team_b_id: str, home_advantage: float = 3.5) -> Dict[str, float]:
     """
     Calculate win probabilities for two teams based on their adjusted efficiency margins and tempo.
@@ -382,11 +293,14 @@ def simulate_full_season(base_path: Path, year: str, valid_teams: Dict[str, str]
     Simulate remaining regular season games and conference tournaments.
     """
     try:
+        # Initialize lists to store results
+        all_results = []  # Initialize this at the start
+        
         # Load conference data
         conference_teams = load_conference_data(base_path, year)
         tournament_structures = load_tournament_structures(base_path, year)
         
-        # Simulate regular season
+        # Load and separate games
         completed_games, future_games = load_all_games(base_path, year, valid_teams)
         simulated_regular_season = []
         
@@ -420,7 +334,7 @@ def simulate_full_season(base_path: Path, year: str, valid_teams: Dict[str, str]
         conference_standings = calculate_conference_standings(all_regular_season_games, conference_teams)
         
         # Simulate conference tournaments
-        tournament_date = "20240301"  # You might want to make this configurable
+        tournament_date = "20250302"  # You might want to make this configurable
         tournament_games, conference_champions = simulate_conference_tournaments(
             conference_teams,
             tournament_structures,
@@ -428,13 +342,6 @@ def simulate_full_season(base_path: Path, year: str, valid_teams: Dict[str, str]
             team_data,
             tournament_date
         )
-        
-        # Print conference champions
-        print("\nConference Tournament Champions:")
-        print("-" * 60)
-        for conf, champion_id in conference_champions.items():
-            champion_name = valid_teams[champion_id]
-            print(f"{conf}: {champion_name}")
         
         # Combine all results
         all_results = completed_games + simulated_regular_season + tournament_games
@@ -446,11 +353,6 @@ def simulate_full_season(base_path: Path, year: str, valid_teams: Dict[str, str]
                 line = f"{game['game_id']},{game['date']},{game['team1_id']:>6},{game['team1_home']:>3},{game['team1_score']:>4},{game['team2_id']:>6},{game['team2_home']:>3},{game['team2_score']:>4}\n"
                 file.write(line)
                 
-        print(f"\nSaved {len(all_results)} total games to season_results.txt")
-        print(f"- {len(completed_games)} completed games")
-        print(f"- {len(simulated_regular_season)} simulated regular season games")
-        print(f"- {len(tournament_games)} conference tournament games")
-        
         return True
         
     except Exception as e:

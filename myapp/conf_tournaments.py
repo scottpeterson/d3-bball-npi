@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from typing import Dict, List, Tuple, Set, Optional
 from pathlib import Path
+import datetime
 from .game_simulation import simulate_game, GameResult
 
 @dataclass
@@ -150,12 +151,14 @@ def simulate_tournament_game(team1_id: str, team2_id: str, team_data: Dict[str, 
         "team2_score": result.winning_score if result.winner_id == team2_id else result.losing_score
     }
 
+from collections import defaultdict
+
 def simulate_conference_tournaments(
     conference_teams: Dict[str, ConferenceTeam],
     tournament_structures: Dict[str, ConferenceTournament],
     conference_standings: Dict[str, List[ConferenceStanding]],
     team_data: Dict[str, Tuple[float, float]],
-    tournament_date: str
+    tournament_start_date: str
 ) -> Tuple[List[dict], Dict[str, str]]:
     """
     Simulate all conference tournaments.
@@ -164,26 +167,27 @@ def simulate_conference_tournaments(
     all_tournament_games = []
     conference_champions = {}
     game_counter = 1
-    
+
     for conf, structure in tournament_structures.items():
         if structure.total_teams == 0:  # Skip conferences with no tournament
             continue
-            
+
         if conf not in conference_standings:
             continue
-            
+
         standings = conference_standings[conf]
         if len(standings) < structure.total_teams:
             continue
-            
+
         # Get tournament teams
         tournament_teams = standings[:structure.total_teams]
         first_round_teams = tournament_teams[structure.byes:]
         bye_teams = tournament_teams[:structure.byes]
-        
+
         # First round matchups
         remaining_teams = []
         if len(first_round_teams) > 0:
+            tournament_date = tournament_start_date
             for i in range(0, len(first_round_teams), 2):
                 if i + 1 < len(first_round_teams):
                     game = simulate_tournament_game(
@@ -195,21 +199,25 @@ def simulate_conference_tournaments(
                     )
                     game_counter += 1
                     all_tournament_games.append(game)
-                    
+
                     # Add winner to remaining teams
                     winner_id = first_round_teams[i].team_id if game['team1_score'] > game['team2_score'] else first_round_teams[i+1].team_id
                     remaining_teams.append(winner_id)
-        
+
+                # Increment date for next round
+                tournament_date = str(int(tournament_date) + 1).zfill(8)
+
         # Add bye teams to remaining teams
         remaining_teams.extend([team.team_id for team in bye_teams])
-        
+
         # Continue tournament until champion is crowned
         while len(remaining_teams) > 1:
             next_round_teams = []
             if structure.reseeding:
                 # Re-seed remaining teams based on original seed
                 remaining_teams.sort(key=lambda x: standings.index(next(s for s in standings if s.team_id == x)))
-            
+
+            tournament_date = str(int(tournament_date) + 1).zfill(8)
             for i in range(0, len(remaining_teams), 2):
                 if i + 1 < len(remaining_teams):
                     game = simulate_tournament_game(
@@ -221,15 +229,15 @@ def simulate_conference_tournaments(
                     )
                     game_counter += 1
                     all_tournament_games.append(game)
-                    
+
                     # Add winner to next round
                     winner_id = remaining_teams[i] if game['team1_score'] > game['team2_score'] else remaining_teams[i+1]
                     next_round_teams.append(winner_id)
-            
+
             remaining_teams = next_round_teams
-        
+
         # Record conference champion
         if remaining_teams:
             conference_champions[conf] = remaining_teams[0]
-    
+
     return all_tournament_games, conference_champions

@@ -4,6 +4,32 @@ import csv
 from .main import load_teams, process_games_bidirectional, predict_and_simulate_game
 from .games_getter import games_getter
 from .simulation import load_efficiency_data, simulate_season, simulate_full_season
+from .multi_season_simulator import save_simulation_stats, find_latest_conference_games
+from .conf_tournaments import load_conference_data
+
+def run_multiple_simulations_command():
+    """Run multiple season simulations and generate statistics."""
+    year = "2025"
+    base_path = Path(__file__).parent / "data"
+    NUM_SIMULATIONS = 25
+    
+    try:
+        print(f"\nStarting {NUM_SIMULATIONS} simulations...")
+        print("-" * 50)
+        
+        # Create our results processor and run simulations
+        from .multi_season_simulator import run_multiple_simulations, save_simulation_stats, load_conference_data
+        
+        # Load conference data
+        conference_teams = load_conference_data(base_path, year)
+        
+        stats = run_multiple_simulations(base_path, year, NUM_SIMULATIONS)
+        save_simulation_stats(stats, base_path, year, conference_teams)
+        
+        print("\nSimulation statistics have been saved to simulation_stats.csv")
+    
+    except Exception as e:
+        print(f"Error in simulations: {e}")
 
 def run_simulate_season():
     """
@@ -30,8 +56,8 @@ def run_simulate_season():
         
 def run_predict_game():
     # Hardcoded values
-    team_a_id = "262"
-    team_b_id = "371"
+    team_a_id = "325"
+    team_b_id = "388"
     year = "2025"
     
     base_path = Path(__file__).parent / "data"
@@ -130,6 +156,7 @@ if __name__ == "__main__":
         "get_games": run_games_getter,
         "predict_game": run_predict_game,
         "simulate_season": run_simulate_season,
+        "run_multiple": run_multiple_simulations_command
     }
     
     if len(sys.argv) < 2 or sys.argv[1] not in commands:
@@ -140,6 +167,7 @@ if __name__ == "__main__":
         print(" bidirectional [year] - Process games for specified year (default: 2024)")
         print(" predict_game - Predict game outcome for hardcoded teams")
         print(" simulate_season - Simulate all remaining games in the season")
+        print(" simulate multiple seasons")
         sys.exit(1)
-        
+    
     commands[sys.argv[1]]()
