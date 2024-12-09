@@ -33,6 +33,7 @@ class TeamStats:
     median_losses: float
     auto_bid_pct: float
     at_large_pct: float
+    alwyni: float
     tournament_pct: float
     median_rank: float    # This is actually storing the NPI value
     min_rank: float      # Change to float since it's NPI
@@ -139,14 +140,12 @@ def run_single_simulation(base_path: Path, year: str, sim_number: int) -> Dict[s
 def calculate_team_stats(all_results: Dict[str, List[TeamSimResult]]) -> Dict[str, TeamStats]:
     """Calculate statistics across all simulations for each team."""
     team_stats = {}
-    
-    print(f"\nProcessing results for {len(all_results)} teams")  # Debug print
-    
+    print(f"\nProcessing results for {len(all_results)} teams")
     for team_id, results in all_results.items():
         if not results:
-            print(f"No results for team {team_id}")  # Debug print
+            print(f"No results for team {team_id}")
             continue
-                        
+        
         wins = [r.wins for r in results]
         losses = [r.losses for r in results]
         ranks = [r.npi_rank for r in results]
@@ -155,18 +154,22 @@ def calculate_team_stats(all_results: Dict[str, List[TeamSimResult]]) -> Dict[st
         tournament_appearances = sum(1 for r in results if r.made_tournament)
         total_sims = len(results)
         
+        # Calculate ALWYNI (At-Large When You Need It)
+        non_auto_bid_sims = sum(1 for r in results if not r.got_auto_bid)
+        alwyni = (at_large_bids / non_auto_bid_sims * 100) if non_auto_bid_sims > 0 else 0
+        
         team_stats[team_id] = TeamStats(
             median_wins=statistics.median(wins),
             median_losses=statistics.median(losses),
             auto_bid_pct=(auto_bids / total_sims) * 100,
             at_large_pct=(at_large_bids / total_sims) * 100,
             tournament_pct=(tournament_appearances / total_sims) * 100,
+            alwyni=alwyni,
             median_rank=statistics.median(ranks),
             min_rank=min(ranks),
             max_rank=max(ranks)
         )
-    
-    print(f"\nCalculated stats for {len(team_stats)} teams")  # Debug print
+    print(f"\nCalculated stats for {len(team_stats)} teams")
     return team_stats
 
 def run_multiple_simulations(base_path: Path, year: str, num_sims: int = 1000) -> Dict[str, TeamStats]:
@@ -245,8 +248,8 @@ def save_simulation_stats(stats: Dict[str, TeamStats], base_path: Path, year: st
     with open(output_path, 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow([
-            'Team', 'Conf', 'Med-W', 'Med-L', 'Auto Bid %',
-            'At-Large %', 'Tourn %', 'Med-NPI', 'Min', 'Max'
+            'Team', 'Conf', 'MedW', 'MedL', 'AutoBid %',
+            'AtLarge %', 'ALWYNI', 'Tourn %', 'Med-NPI', 'Min', 'Max'
         ])
         
         for team_id, team_stats in sorted_teams:
@@ -263,6 +266,7 @@ def save_simulation_stats(stats: Dict[str, TeamStats], base_path: Path, year: st
                 f"{team_stats.median_losses:.1f}",
                 f"{team_stats.auto_bid_pct:.1f}%",
                 f"{team_stats.at_large_pct:.1f}%",
+                f"{team_stats.alwyni:.1f}%",
                 f"{team_stats.tournament_pct:.1f}%",
                 f"{team_stats.median_rank:.1f}",
                 team_stats.min_rank,

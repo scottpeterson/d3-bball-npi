@@ -138,7 +138,7 @@ def run_bidirectional():
 
 def run_games_getter():
     url = (
-        "https://masseyratings.com/scores.php?s=604303&sub=11620&all=1&mode=2&format=1"
+        "https://masseyratings.com/scores.php?s=604303&sub=11620&all=1&mode=2&sch=on&format=1"
     )
     if games_getter(url, "2025"):
         print("Successfully saved webpage data to games.txt")
