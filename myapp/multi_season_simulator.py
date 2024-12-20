@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from typing import Dict, List, Tuple, Optional, Set
 from pathlib import Path
 import csv
@@ -23,9 +23,9 @@ class TeamSimResult:
     wins: int
     losses: int
     npi_rank: int
-    got_auto_bid: bool  # A
-    got_at_large: bool  # C
-    made_tournament: bool  # in/out
+    got_auto_bid: bool
+    got_at_large: bool
+    made_tournament: bool
 
 @dataclass
 class TeamStats:
@@ -35,9 +35,10 @@ class TeamStats:
     at_large_pct: float
     alwyni: float
     tournament_pct: float
-    median_rank: float    # This is actually storing the NPI value
-    min_rank: float      # Change to float since it's NPI
-    max_rank: float      # Change to float since it's NPI
+    median_rank: float
+    min_rank: float
+    max_rank: float
+    rank: int
 
 @dataclass
 class TeamSimResult:
@@ -46,9 +47,9 @@ class TeamSimResult:
     wins: int
     losses: int
     npi_rank: int
-    got_auto_bid: bool  # A
-    got_at_large: bool  # C
-    made_tournament: bool  # in/out
+    got_auto_bid: bool
+    got_at_large: bool
+    made_tournament: bool
 
 def run_single_simulation(base_path: Path, year: str, sim_number: int) -> Dict[str, TeamSimResult]:
     """Run a single season simulation and process results."""
@@ -141,11 +142,13 @@ def calculate_team_stats(all_results: Dict[str, List[TeamSimResult]]) -> Dict[st
     """Calculate statistics across all simulations for each team."""
     team_stats = {}
     print(f"\nProcessing results for {len(all_results)} teams")
+    
+    # First pass - calculate all basic stats
     for team_id, results in all_results.items():
         if not results:
             print(f"No results for team {team_id}")
             continue
-        
+            
         wins = [r.wins for r in results]
         losses = [r.losses for r in results]
         ranks = [r.npi_rank for r in results]
@@ -167,8 +170,22 @@ def calculate_team_stats(all_results: Dict[str, List[TeamSimResult]]) -> Dict[st
             alwyni=alwyni,
             median_rank=statistics.median(ranks),
             min_rank=min(ranks),
-            max_rank=max(ranks)
+            max_rank=max(ranks),
+            rank=0  # temporary placeholder
         )
+
+    # Second pass - assign ranks based on tournament_pct
+    # Sort teams by tournament_pct in descending order
+    sorted_teams = sorted(
+        team_stats.items(),
+        key=lambda x: x[1].tournament_pct,
+        reverse=True
+    )
+    
+    # Assign ranks (1-based ranking)
+    for rank, (team_id, stats) in enumerate(sorted_teams, 1):
+        team_stats[team_id] = replace(stats, rank=rank)
+        
     print(f"\nCalculated stats for {len(team_stats)} teams")
     return team_stats
 
@@ -209,10 +226,6 @@ def run_multiple_simulations(base_path: Path, year: str, num_sims: int = 1000) -
     # Calculate final statistics
     return calculate_team_stats(all_results)
 
-import csv
-
-import csv
-
 def save_simulation_stats(stats: Dict[str, TeamStats], base_path: Path, year: str, conference_teams: Dict[str, ConferenceTeam]):
     """Save simulation statistics to CSV with team names and conferences."""
     output_path = base_path / year / "simulation_stats.csv"
@@ -248,8 +261,8 @@ def save_simulation_stats(stats: Dict[str, TeamStats], base_path: Path, year: st
     with open(output_path, 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow([
-            'Team', 'Conf', 'MedW', 'MedL', 'AutoBid %',
-            'AtLarge %', 'ALWYNI', 'Tourn %', 'Med-NPI', 'Min', 'Max'
+            'Team', 'Conf', 'MedW', 'MedL', 'A%',
+            'C%', 'ALWYNI%', 'Tourn%', 'Med-NPI', 'Min', 'Max', 'Rank'
         ])
         
         for team_id, team_stats in sorted_teams:
@@ -270,7 +283,8 @@ def save_simulation_stats(stats: Dict[str, TeamStats], base_path: Path, year: st
                 f"{team_stats.tournament_pct:.1f}%",
                 f"{team_stats.median_rank:.1f}",
                 team_stats.min_rank,
-                team_stats.max_rank
+                team_stats.max_rank,
+                team_stats.rank
             ])
 
 def get_uaa_standings(season_results: List[dict], conference_teams: Dict[str, ConferenceTeam]) -> List[str]:

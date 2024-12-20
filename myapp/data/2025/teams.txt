@@ -347,7 +347,7 @@
  357, SUNY_New_Paltz
  358, SUNY_Oneonta
  359, SUNY_Potsdam
- 360, SUNYIT
+ 360, SUNY_Poly
  361, Susquehanna
  362, SW_Univ_TX
  363, Swarthmore

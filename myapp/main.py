@@ -12,7 +12,7 @@ def main():
     """Main entry point for the application."""
     data_path = Path(__file__).parent / "data"
     year = "2025"
-    NUM_ITERATIONS = 99
+    NUM_ITERATIONS = 70
     try:
         valid_teams = load_teams(data_path, year)
         games = load_games(data_path, year, valid_teams)

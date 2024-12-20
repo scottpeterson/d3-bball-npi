@@ -355,7 +355,7 @@ Massey_id,Massey_Name,Scott_Name
 357, SUNY_New_Paltz,SUNY New Paltz
 358, SUNY_Oneonta,SUNY Oneonta
 359, SUNY_Potsdam,SUNY Potsdam
-360, SUNYIT,SUNYIT
+360, SUNY_Poly,SUNYIT
 361, Susquehanna,Susquehanna
 362, SW_Univ_TX,SW Univ TX
 363, Swarthmore,Swarthmore

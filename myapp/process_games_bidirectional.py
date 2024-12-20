@@ -27,7 +27,7 @@ def process_games_bidirectional(file_path, teams_dict):
                     team1_score = int(cols[4])
                     team2_score = int(cols[7])
                     team1_location = int(cols[3].strip())
-                    team2_location = int(cols[5].strip())
+                    team2_location = int(cols[6].strip())
                     team1_name = teams_dict[team1_id]
                     team2_name = teams_dict[team2_id]
                     
