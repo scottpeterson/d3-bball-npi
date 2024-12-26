@@ -2,6 +2,7 @@ from collections import defaultdict
 from .calculate_owp import calculate_owp
 from .calculate_game_npi import calculate_game_npi
 
+
 def process_games_iteration(
     games, valid_teams, previous_iteration_npis=None, iteration_number=1
 ):
@@ -143,7 +144,7 @@ def process_games_iteration(
             key=lambda x: x[0],
         )
 
-# Include the worst loss and any losses with identical NPI
+        # Include the worst loss and any losses with identical NPI
         included_loss_npis = set()
         if loss_npis:
             worst_loss_npi = loss_npis[0][0]

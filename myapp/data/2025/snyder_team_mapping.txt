@@ -1,0 +1,418 @@
+SNYDER NAME,NAME NEEDED
+York (Pa.),York PA
+York (N.Y.),York NY
+Yeshiva,Yeshiva
+WPI,WPI
+Worcester State,Worcester St
+Wooster,Wooster
+William Paterson,Wm Paterson
+Wittenberg,Wittenberg
+Wisconsin Lutheran,Wisconsin Lutheran
+Wilson,Wilson
+Wilmington,Wilmington OH
+Williams,Williams
+Willamette,Willamette
+Wilkes,Wilkes
+Widener,Widener
+Whitworth,Whitworth
+Whittier,Whittier
+Whitman,Whitman
+Wheaton (Mass.),Wheaton MA
+Wheaton (Ill.),Wheaton (IL)
+Westminster (Pa.),Westminster PA
+Westminster (Mo.),Westminster MO
+Westfield State,Westfield St.
+Western Connecticut,Western Connecticut
+Wesleyan (Ga.),Wesleyan GA
+Wesleyan,Wesleyan CT
+Wentworth,Wentworth Tech
+Wellesley,Wellesley
+Webster,Webster
+Waynesburg,Waynesburg
+Washington U.,WashU
+Washington College,Washington MD
+Washington and Lee,Washington & Lee
+Washington and Jefferson,Washington & Jefferson
+Wartburg,Wartburg
+Warren Wilson,Warren Wilson
+Western New England,W New England
+Vassar,Vassar
+Valley Forge,Valley Forge
+Virginia Wesleyan,VA Wesleyan
+UW-Whitewater,UW-Whitewater
+UW-Superior,UW-Superior
+UW-Stout,UW-Stout
+UW-Stevens Point,UW-Stevens Point
+UW-River Falls,UW-River Falls
+UW-Platteville,UW-Platteville
+UW-Oshkosh,UW-Oshkosh
+UW-La Crosse,UW-La Crosse
+UW-Eau Claire,UW-Eau Claire
+Utica,Utica
+Ursinus,Ursinus
+University of the Ozarks,Univ Ozarks
+Union,Union NY
+UC Santa Cruz,UC Santa Cruz
+University of New England,U New England
+Texas Lutheran,TX Lutheran
+Tufts,Tufts
+Trinity (D.C.),Trinity DC
+Trinity (Texas),Trinity (Texas)
+Trinity (Conn.),Trinity (Conn)
+Trine,Trine
+Transylvania,Transylvania
+Thomas,Thomas ME
+Thiel,Thiel
+TCNJ,TCNJ
+Swarthmore,Swarthmore
+Southwestern,SW Univ TX
+Susquehanna,Susquehanna
+SUNYIT,SUNYIT
+SUNY Potsdam,SUNY Potsdam
+SUNY Oneonta,SUNY Oneonta
+SUNY New Paltz,SUNY New Paltz
+Fredonia,SUNY Fredonia
+SUNY Delhi,SUNY Delhi
+SUNY-Cobleskill,SUNY Cobleskill
+SUNY-Canton,SUNY Canton
+Suffolk,Suffolk
+Stockton,Stockton
+Stevenson,Stevenson
+Stevens,Stevens
+St. Vincent,St. Vincent
+St. Thomas (Texas),St. Thomas TX
+St. Scholastica,St. Scholastica
+St. Olaf,St. Olaf
+St. Norbert,St. Norbert
+St. Marys (Minn.),St. Mary's MN
+St. Marys (Md.),St. Mary's MD
+St. Marys (Ind.),St. Mary's IN
+St. Lawrence,St. Lawrence
+St. Josephs (Bklyn.),St. Joseph's NY
+St. Josephs (Maine),St. Joseph's ME
+St. Josephs (L.I.),St. Joseph's LI
+St. Joseph (Conn.),St. Joseph CT
+St. John Fisher,St. John Fisher
+St. Elizabeth,St. Elizabeth
+St. Catherine,St. Catherine
+St. Benedict,St. Benedict
+Springfield,Springfield
+Spalding,Spalding
+Smith,Smith
+Skidmore,Skidmore
+Simpson,Simpson (Iowa)
+Shenandoah,Shenandoah
+Sewanee,Sewanee
+Scranton,Scranton
+Schreiner,Schreiner
+Sarah Lawrence,Sarah Lawrence
+Salve Regina,Salve Regina
+Salisbury,Salisbury
+Salem,Salem NC
+Salem State,Salem MA
+Sage,Sage
+Southern Virginia,S Virginia
+Southern Maine,S Maine
+Rutgers-Newark,Rutgers-Newark
+Rutgers-Camden,Rutgers-Camden
+Rowan,Rowan
+Rosemont,Rosemont
+Rose-Hulman,Rose-Hulman
+Roger Williams,Roger Williams
+Rockford,Rockford
+Rochester Tech,Rochester Tech
+Rochester,Rochester
+Roanoke,Roanoke
+Rivier,Rivier
+Ripon,Ripon
+Rhodes,Rhodes
+Rhode Island College,Rhode Island College
+RPI,Rensselaer
+Regis (Mass.),Regis MA
+Redlands,Redlands
+Randolph-Macon,Randolph-Macon
+Randolph,Randolph Col
+Ramapo,Ramapo
+SUNY-Purchase,Purchase
+Puget Sound,Puget Sound
+Penn State-Harrisburg,PSU-Harrisburg
+Penn State-Berks,PSU-Berks
+Penn State-Altoona,PSU-Altoona
+Penn State-Abington,PSU-Abington
+Principia,Principia
+Pomona-Pitzer,Pomona-Pitzer
+Plymouth State,Plymouth St.
+Plattsburgh State,Plattsburgh St.
+Pitt-Greensburg,Pitt-Greensburg
+Pitt-Bradford,Pitt-Bradford
+Piedmont,Piedmont
+Pfeiffer,Pfeiffer
+Penn State-Behrend,Penn State-Behrend
+Penn College,Penn Col Tech
+William Peace,Peace
+Pacific,Pacific
+Pacific Lutheran,Pac Lutheran
+Otterbein,Otterbein
+Oswego State,Oswego St.
+Olivet,Olivet MI
+SUNY-Old Westbury,Old Westbury
+Ohio Wesleyan,Ohio Wesleyan
+Ohio Northern,Ohio Northern
+Oglethorpe,Oglethorpe
+Occidental,Occidental
+Oberlin,Oberlin
+New York University,NYU
+NVU-Lyndon,NVU-Lyndon
+NVU-Johnson,NVU-Johnson
+Notre Dame (Md.),Notre Dame MD
+Norwich,Norwich
+Northwestern (Minn.),Northwestern MN
+Northland,Northland
+North Park,North Park
+Nichols,Nichols
+New Jersey City,New Jersey City
+Neumann,Neumann
+Nebraska Wesleyan,NE Wesleyan
+N.C. Wesleyan,NC Wesleyan
+Nazareth,Nazareth
+New England College,N England Col
+North Central (Minn.),N Central MN
+North Central (Ill.),N Central IL
+Muskingum,Muskingum
+Muhlenberg,Muhlenberg
+Mount Union,Mt. Union
+Mount St. Vincent,Mt. St. Vincent
+Mount St. Mary,Mt. St. Mary
+Mount St. Joseph,Mt. St. Joseph
+Mount Mary,Mt. Mary
+Mount Holyoke,Mt. Holyoke
+Mount Aloysius,Mt. Aloysius
+MUW,MS Women
+Morrisville State,Morrisville St.
+Moravian,Moravian
+Montclair State,Montclair St.
+Monmouth,Monmouth IL
+Minnesota-Morris,MN Morris
+Mitchell,Mitchell
+MIT,MIT
+Misericordia,Misericordia
+MSOE,Milwaukee Eng
+Millsaps,Millsaps
+Millikin,Millikin
+Middlebury,Middlebury
+Methodist,Methodist
+Messiah,Messiah
+Meredith,Meredith
+Merchant Marine,Merchant Marine
+Medgar Evers,Medgar Evers
+Maine-Presque Isle,ME Presque Isle
+Maine Maritime,ME Maritime
+Maine-Farmington,ME Farmington
+McMurry,McMurry
+McDaniel,McDaniel
+Marywood,Marywood
+Maryville (Tenn.),Maryville TN
+Marymount,Marymount
+Mary Washington,Mary Washington
+Mary Hardin-Baylor,Mary Hardin-Baylor
+Martin Luther,Martin Luther
+Marietta,Marietta
+Marian,Marian WI
+Maranatha Baptist,Maranatha Bap
+Manhattanville,Manhattanville
+Manchester,Manchester
+Macalester,Macalester
+Mass-Dartmouth,MA Dartmouth
+Mass-Boston,MA Boston
+Lyon,Lyon
+Lynchburg,Lynchburg
+Lycoming,Lycoming
+Luther,Luther
+Loras,Loras
+Linfield,Linfield
+Lewis and Clark,Lewis & Clark
+LeTourneau,LeTourneau
+Lesley,Lesley
+Lehman,Lehman
+Lebanon Valley,Lebanon Val
+Lawrence,Lawrence
+Lasell,Lasell
+Lancaster Bible,Lancaster Bib
+Lakeland,Lakeland
+Lake Forest,Lake Forest
+LaGrange,LaGrange
+La Verne,La Verne
+La Roche,La Roche
+Knox,Knox
+Kings,King's PA
+Keystone,Keystone
+Keuka,Keuka
+Kenyon,Kenyon
+Keene State,Keene St.
+Kean,Kean
+Kalamazoo,Kalamazoo
+Juniata,Juniata
+Johns Hopkins,Johns Hopkins
+John Jay,John Jay
+John Carroll,John Carroll
+Johnson and Wales,J&W RI
+Ithaca,Ithaca
+Immaculata,Immaculata
+Illinois Wesleyan,Illinois Wesleyan
+Illinois College,Illinois Col
+Illinois Tech,IL Tech
+Husson,Husson
+Huntingdon,Huntingdon
+Hunter,Hunter
+Howard Payne,Howard Payne
+Houghton,Houghton
+Hope,Hope
+Hood,Hood
+Hollins,Hollins
+William Smith,Hobart & Smith
+Hiram,Hiram
+Hilbert,Hilbert
+Hendrix,Hendrix
+Heidelberg,Heidelberg
+Haverford,Haverford
+Hartwick,Hartwick
+Hartford,Hartford
+Hardin-Simmons,Hardin-Simmons
+Hanover,Hanover
+Hamline,Hamline
+Hamilton,Hamilton
+Gwynedd Mercy,Gwynedd-Mercy
+Gustavus Adolphus,Gustavus Adolphus
+Guilford,Guilford
+Grove City,Grove City
+Grinnell,Grinnell
+Greenville,Greenville
+Greensboro,Greensboro
+Goucher,Goucher
+Gordon,Gordon
+Gettysburg,Gettysburg
+George Fox,George Fox
+Geneva,Geneva
+SUNY Geneseo,Geneseo St.
+Gallaudet,Gallaudet
+Franklin,Franklin
+Franklin and Marshall,Frank & Marsh
+Franciscan (Ohio),Franciscan OH
+Framingham State,Framingham St.
+Fontbonne,Fontbonne
+Fitchburg State,Fitchburg St.
+Ferrum,Ferrum
+FDU-Florham,FDU Madison
+Farmingdale State,Farmingdale
+Eureka,Eureka
+Endicott,Endicott
+Emory,Emory
+Emmanuel,Emmanuel
+Emerson,Emerson
+Elms,Elms
+Elmira,Elmira
+Elmhurst,Elmhurst
+Elizabethtown,Elizabethtown
+Edgewood,Edgewood
+Eastern,Eastern Univ
+Eastern Connecticut,Eastern Connecticut
+East Texas Baptist,East Texas Baptist
+Earlham,Earlham
+Eastern Mennonite,E Mennonite
+Dubuque,Dubuque
+Drew,Drew
+Dominican,Dominican IL
+Dickinson,Dickinson
+DeSales,DeSales
+DePauw,DePauw
+Denison,Denison
+Delaware Valley,Delaware Val
+Dean,Dean
+University of Dallas,Dallas Univ
+Curry,Curry
+Connecticut College,CT College
+Crown,Crown MN
+Covenant,Covenant
+Cortland,Cortland
+Cornell,Cornell IA
+Concordia (Wis.),Concordia WI
+Concordia (Texas),Concordia TX
+Concordia-Moorhead,Concordia Moorhead
+Concordia-Chicago,Concordia IL
+Colorado College,Colorado Col
+Colby-Sawyer,Colby-Sawyer
+Colby,Colby
+Coe,Coe
+Coast Guard,Coast Guard
+Clarkson,Clarkson
+Clark,Clark MA
+Claremont-Mudd-Scripps,Claremont-Mudd-Scripps
+CCNY,City Col NY
+Christopher Newport,Christopher Newport
+Chicago,Chicago
+Chatham,Chatham
+Chapman,Chapman
+Centre,Centre
+Central,Central IA
+Centenary (N.J.),Centenary NJ
+Centenary (La.),Centenary
+Cedar Crest,Cedar Crest
+Catholic,Catholic
+Castleton,Castleton
+Case Western Reserve,Case Western
+Carthage,Carthage
+Carroll,Carroll
+Carnegie Mellon,Carnegie Mellon
+Carleton,Carleton
+Capital,Capital
+Calvin,Calvin
+Caltech,Caltech
+Cal Lutheran,Cal Lutheran
+Cairn,Cairn
+Buffalo State,Buffalo St.
+Buena Vista,Buena Vista
+Bryn Mawr,Bryn Mawr
+Bryn Athyn,Bryn Athyn
+Brooklyn,Brooklyn Col
+Brockport,Brockport St.
+Bridgewater State,Bridgewater MA
+Bridgewater (Va.),Bridgewater (Va)
+Brevard,Brevard
+Brandeis,Brandeis
+Bowdoin,Bowdoin
+Bluffton,Bluffton
+Blackburn,Blackburn
+Bethel,Bethel
+Bethany,Bethany WV
+Bethany Lutheran,Bethany Luth
+Berry,Berry
+Berea,Berea
+Benedictine,Benedictine IL
+Beloit,Beloit
+Belhaven,Belhaven MS
+Bates,Bates
+Baruch,Baruch
+Bard,Bard
+Baldwin Wallace,Baldwin Wallace
+Babson,Babson
+Averett,Averett
+Austin,Austin Col
+Aurora,Aurora
+Augustana,Augustana
+Augsburg,Augsburg
+Asbury,Asbury
+Arcadia,Arcadia
+Anna Maria,Anna Maria
+Anderson,Anderson IN
+Amherst,Amherst
+Alverno,Alverno
+Alvernia,Alvernia
+Alma,Alma
+Allegheny,Allegheny
+Alfred State,Alfred St.
+Alfred,Alfred
+Albright,Albright
+Albion,Albion
+Albertus Magnus,Albertus Magnus
+Agnes Scott,Agnes Scott
+Adrian,Adrian

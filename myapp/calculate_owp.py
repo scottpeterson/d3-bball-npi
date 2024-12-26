@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 def calculate_owp(games, valid_teams):
     records = defaultdict(lambda: {"wins": 0, "losses": 0, "games": 0})
 

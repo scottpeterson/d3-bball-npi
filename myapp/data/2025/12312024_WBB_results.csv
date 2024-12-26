@@ -189,8 +189,8 @@ Date,Team A,Team B,Home/Away,Result
 11/09/2024,Westminster MO,Bethel,Neutral,L
 11/09/2024,SUNY Oneonta,Western Connecticut,Home,W
 11/09/2024,Western Connecticut,SUNY Oneonta,Road,L
-11/09/2024,Rensselaer,SUNYIT,Home,W
-11/09/2024,SUNYIT,Rensselaer,Road,L
+11/09/2024,Rensselaer,SUNY Potsdam,Home,W
+11/09/2024,SUNY Potsdam,Rensselaer,Road,L
 11/09/2024,Goucher,Valley Forge,Home,W
 11/09/2024,Valley Forge,Goucher,Road,L
 11/09/2024,Mt. Union,Westminster PA,Home,W
@@ -473,8 +473,8 @@ Date,Team A,Team B,Home/Away,Result
 11/12/2024,Rutgers-Newark,Lehman,Road,L
 11/12/2024,Marymount,Lynchburg,Home,W
 11/12/2024,Lynchburg,Marymount,Road,L
-11/12/2024,St. Lawrence,SUNYIT,Home,W
-11/12/2024,SUNYIT,St. Lawrence,Road,L
+11/12/2024,St. Lawrence,SUNY Potsdam,Home,W
+11/12/2024,SUNY Potsdam,St. Lawrence,Road,L
 11/12/2024,Drew,St. Elizabeth,Home,W
 11/12/2024,St. Elizabeth,Drew,Road,L
 11/12/2024,Carroll,Beloit,Road,W
@@ -485,8 +485,8 @@ Date,Team A,Team B,Home/Away,Result
 11/12/2024,Salem MA,Suffolk,Home,L
 11/12/2024,Salve Regina,Mitchell,Road,W
 11/12/2024,Mitchell,Salve Regina,Home,L
-11/12/2024,Morrisville St.,SUNY Potsdam,Road,W
-11/12/2024,SUNY Potsdam,Morrisville St.,Home,L
+11/12/2024,Morrisville St.,SUNYIT,Road,W
+11/12/2024,SUNYIT,Morrisville St.,Home,L
 11/12/2024,Union NY,Utica,Road,W
 11/12/2024,Utica,Union NY,Home,L
 11/12/2024,Penn State-Behrend,St. John Fisher,Home,W
@@ -711,16 +711,16 @@ Date,Team A,Team B,Home/Away,Result
 11/15/2024,Hood,Bridgewater (VA),Road,L
 11/15/2024,Lancaster Bib,Lehman,Neutral,W
 11/15/2024,Lehman,Lancaster Bib,Neutral,L
-11/15/2024,Oswego St.,SUNY Potsdam,Home,W
-11/15/2024,SUNY Potsdam,Oswego St.,Road,L
+11/15/2024,Oswego St.,SUNYIT,Home,W
+11/15/2024,SUNYIT,Oswego St.,Road,L
 11/15/2024,Rochester,SUNY Oneonta,Neutral,W
 11/15/2024,SUNY Oneonta,Rochester,Neutral,L
 11/15/2024,UW-La Crosse,Bethel,Home,W
 11/15/2024,Bethel,UW-La Crosse,Road,L
 11/15/2024,Hardin-Simmons,St. Thomas TX,Home,W
 11/15/2024,St. Thomas TX,Hardin-Simmons,Road,L
-11/15/2024,SUNYIT,Utica,Neutral,W
-11/15/2024,Utica,SUNYIT,Neutral,L
+11/15/2024,SUNY Potsdam,Utica,Neutral,W
+11/15/2024,Utica,SUNY Potsdam,Neutral,L
 11/15/2024,Wheaton (IL),Anderson IN,Home,W
 11/15/2024,Anderson IN,Wheaton (IL),Road,L
 11/15/2024,N Central IL,NE Wesleyan,Neutral,W
@@ -873,8 +873,8 @@ Date,Team A,Team B,Home/Away,Result
 11/16/2024,Salve Regina,Roger Williams,Home,L
 11/16/2024,Bowdoin,Skidmore,Home,W
 11/16/2024,Skidmore,Bowdoin,Road,L
-11/16/2024,SUNYIT,Castleton,Neutral,W
-11/16/2024,Castleton,SUNYIT,Neutral,L
+11/16/2024,SUNY Potsdam,Castleton,Neutral,W
+11/16/2024,Castleton,SUNY Potsdam,Neutral,L
 11/16/2024,Central IA,UW-Eau Claire,Home,W
 11/16/2024,UW-Eau Claire,Central IA,Road,L
 11/16/2024,Willamette,La Verne,Neutral,W
@@ -951,8 +951,8 @@ Date,Team A,Team B,Home/Away,Result
 11/16/2024,Keuka,Spalding,Neutral,L
 11/16/2024,Messiah,Rowan,Home,W
 11/16/2024,Rowan,Messiah,Road,L
-11/16/2024,Geneseo St.,SUNY Potsdam,Neutral,W
-11/16/2024,SUNY Potsdam,Geneseo St.,Neutral,L
+11/16/2024,Geneseo St.,SUNYIT,Neutral,W
+11/16/2024,SUNYIT,Geneseo St.,Neutral,L
 11/16/2024,Centenary NJ,Keystone,Road,W
 11/16/2024,Keystone,Centenary NJ,Home,L
 11/16/2024,Coast Guard,Dean,Neutral,W
@@ -1733,8 +1733,8 @@ Date,Team A,Team B,Home/Away,Result
 11/23/2024,TCNJ,Stevens,Road,L
 11/23/2024,St. Catherine,UW-Superior,Road,W
 11/23/2024,UW-Superior,St. Catherine,Home,L
-11/23/2024,SUNY Potsdam,Alfred St.,Home,W
-11/23/2024,Alfred St.,SUNY Potsdam,Road,L
+11/23/2024,SUNYIT,Alfred St.,Home,W
+11/23/2024,Alfred St.,SUNYIT,Road,L
 11/23/2024,Concordia Moorhead,UW-Stout,Road,W
 11/23/2024,UW-Stout,Concordia Moorhead,Home,L
 11/23/2024,WPI,Curry,Home,W
@@ -1987,8 +1987,8 @@ Date,Team A,Team B,Home/Away,Result
 11/26/2024,Fitchburg St.,Dean,Road,L
 11/26/2024,Frank & Marsh,Centenary NJ,Home,W
 11/26/2024,Centenary NJ,Frank & Marsh,Road,L
-11/26/2024,Hamilton,SUNY Potsdam,Road,W
-11/26/2024,SUNY Potsdam,Hamilton,Home,L
+11/26/2024,Hamilton,SUNYIT,Road,W
+11/26/2024,SUNYIT,Hamilton,Home,L
 11/26/2024,St. Joseph's ME,ME Farmington,Road,W
 11/26/2024,ME Farmington,St. Joseph's ME,Home,L
 11/26/2024,Manhattanville,St. Joseph's NY,Road,W
@@ -2015,8 +2015,8 @@ Date,Team A,Team B,Home/Away,Result
 11/26/2024,Centenary,Hendrix,Home,L
 11/26/2024,Christopher Newport,Greensboro,Road,W
 11/26/2024,Greensboro,Christopher Newport,Home,L
-11/26/2024,Clarkson,SUNYIT,Road,W
-11/26/2024,SUNYIT,Clarkson,Home,L
+11/26/2024,Clarkson,SUNY Potsdam,Road,W
+11/26/2024,SUNY Potsdam,Clarkson,Home,L
 11/26/2024,Coe,Loras,Road,W
 11/26/2024,Loras,Coe,Home,L
 11/26/2024,U New England,Colby,Home,W
@@ -2363,8 +2363,8 @@ Date,Team A,Team B,Home/Away,Result
 12/03/2024,Emmanuel,Tufts,Home,L
 12/03/2024,Union NY,Mt. Holyoke,Home,W
 12/03/2024,Mt. Holyoke,Union NY,Road,L
-12/03/2024,Clarkson,SUNY Potsdam,Home,W
-12/03/2024,SUNY Potsdam,Clarkson,Road,L
+12/03/2024,Clarkson,SUNYIT,Home,W
+12/03/2024,SUNYIT,Clarkson,Road,L
 12/03/2024,Bates,Colby,Home,W
 12/03/2024,Colby,Bates,Road,L
 12/03/2024,Alfred,Buffalo St.,Road,W
@@ -2677,8 +2677,8 @@ Date,Team A,Team B,Home/Away,Result
 12/06/2024,Hobart & Smith,Union NY,Home,L
 12/06/2024,Skidmore,Clarkson,Road,W
 12/06/2024,Clarkson,Skidmore,Home,L
-12/06/2024,Cortland,SUNYIT,Home,W
-12/06/2024,SUNYIT,Cortland,Road,L
+12/06/2024,Cortland,SUNY Potsdam,Home,W
+12/06/2024,SUNY Potsdam,Cortland,Road,L
 12/06/2024,Crown MN,Maranatha Bap,Home,W
 12/06/2024,Maranatha Bap,Crown MN,Road,L
 12/06/2024,Gwynedd-Mercy,Valley Forge,Road,W
@@ -2743,8 +2743,8 @@ Date,Team A,Team B,Home/Away,Result
 12/07/2024,St. Lawrence,Skidmore,Home,L
 12/07/2024,St. Scholastica,St. Mary's MN,Home,W
 12/07/2024,St. Mary's MN,St. Scholastica,Road,L
-12/07/2024,Morrisville St.,SUNYIT,Home,W
-12/07/2024,SUNYIT,Morrisville St.,Road,L
+12/07/2024,Morrisville St.,SUNY Potsdam,Home,W
+12/07/2024,SUNY Potsdam,Morrisville St.,Road,L
 12/07/2024,Transylvania,Mt. St. Joseph,Road,W
 12/07/2024,Mt. St. Joseph,Transylvania,Home,L
 12/07/2024,Trinity (Conn),Stevens,Home,W
@@ -3225,8 +3225,8 @@ Date,Team A,Team B,Home/Away,Result
 12/13/2024,PSU-Berks,Penn Col Tech,Home,L
 12/13/2024,Mary Hardin-Baylor,Whitworth,Road,W
 12/13/2024,Whitworth,Mary Hardin-Baylor,Home,L
-12/13/2024,Brooklyn Col,SUNY Potsdam,Home,W
-12/13/2024,SUNY Potsdam,Brooklyn Col,Road,L
+12/13/2024,Brooklyn Col,SUNYIT,Home,W
+12/13/2024,SUNYIT,Brooklyn Col,Road,L
 12/14/2024,Albion,Kalamazoo,Road,W
 12/14/2024,Kalamazoo,Albion,Home,L
 12/14/2024,Alma,Olivet MI,Home,W
@@ -3361,8 +3361,8 @@ Date,Team A,Team B,Home/Away,Result
 12/14/2024,Muskingum,Baldwin Wallace,Home,L
 12/14/2024,Neumann,Delaware Val,Home,W
 12/14/2024,Delaware Val,Neumann,Road,L
-12/14/2024,Baruch,SUNY Potsdam,Home,W
-12/14/2024,SUNY Potsdam,Baruch,Road,L
+12/14/2024,Baruch,SUNYIT,Home,W
+12/14/2024,SUNYIT,Baruch,Road,L
 12/14/2024,Wheaton (IL),North Park,Home,W
 12/14/2024,North Park,Wheaton (IL),Road,L
 12/14/2024,Gustavus Adolphus,Northwestern MN,Home,W
@@ -3423,12 +3423,12 @@ Date,Team A,Team B,Home/Away,Result
 12/16/2024,Caltech,St. Benedict,Neutral,L
 12/16/2024,McDaniel,Wilson,Home,W
 12/16/2024,Wilson,McDaniel,Road,L
+12/16/2024,Plattsburgh St.,Brockport St.,Neutral,W
+12/16/2024,Brockport St.,Plattsburgh St.,Neutral,L
 12/16/2024,SW Univ TX,Howard Payne,Home,W
 12/16/2024,Howard Payne,SW Univ TX,Road,L
 12/16/2024,Penn Col Tech,Centenary NJ,Home,W
 12/16/2024,Centenary NJ,Penn Col Tech,Road,L
-12/16/2024,Plattsburgh St.,Brockport St.,Neutral,W
-12/16/2024,Brockport St.,Plattsburgh St.,Neutral,L
 12/16/2024,Capital,Ohio Wesleyan,Home,W
 12/16/2024,Ohio Wesleyan,Capital,Road,L
 12/16/2024,Hardin-Simmons,Hobart & Smith,Neutral,W
@@ -3457,6 +3457,8 @@ Date,Team A,Team B,Home/Away,Result
 12/17/2024,Arcadia,Elizabethtown,Home,L
 12/17/2024,Franklin,Mt. St. Joseph,Home,W
 12/17/2024,Mt. St. Joseph,Franklin,Road,L
+12/17/2024,John Carroll,St. Benedict,Neutral,W
+12/17/2024,St. Benedict,John Carroll,Neutral,L
 12/17/2024,Montclair St.,Delaware Val,Road,W
 12/17/2024,Delaware Val,Montclair St.,Home,L
 12/17/2024,Kalamazoo,Wooster,Home,W
@@ -3465,6 +3467,8 @@ Date,Team A,Team B,Home/Away,Result
 12/17/2024,La Roche,Carnegie Mellon,Road,L
 12/17/2024,Eureka,Beloit,Home,W
 12/17/2024,Beloit,Eureka,Road,L
+12/17/2024,Geneva,Bethany WV,Home,W
+12/17/2024,Bethany WV,Geneva,Road,L
 12/17/2024,Caltech,Alverno,Neutral,W
 12/17/2024,Alverno,Caltech,Neutral,L
 12/17/2024,Catholic,Maryville TN,Home,W
@@ -3475,14 +3479,10 @@ Date,Team A,Team B,Home/Away,Result
 12/17/2024,N Central MN,Central IA,Home,L
 12/17/2024,Lebanon Val,Albright,Road,W
 12/17/2024,Albright,Lebanon Val,Home,L
-12/17/2024,Brockport St.,Hobart & Smith,Neutral,W
-12/17/2024,Hobart & Smith,Brockport St.,Neutral,L
 12/17/2024,Hardin-Simmons,Plattsburgh St.,Neutral,W
 12/17/2024,Plattsburgh St.,Hardin-Simmons,Neutral,L
-12/17/2024,John Carroll,St. Benedict,Neutral,W
-12/17/2024,St. Benedict,John Carroll,Neutral,L
-12/17/2024,Geneva,Bethany WV,Home,W
-12/17/2024,Bethany WV,Geneva,Road,L
+12/17/2024,Brockport St.,Hobart & Smith,Neutral,W
+12/17/2024,Hobart & Smith,Brockport St.,Neutral,L
 12/17/2024,Chapman,Whitworth,Home,W
 12/17/2024,Whitworth,Chapman,Road,L
 12/17/2024,Illinois Wesleyan,Chicago,Home,W
@@ -3545,10 +3545,10 @@ Date,Team A,Team B,Home/Away,Result
 12/18/2024,Brevard,Methodist,Road,L
 12/18/2024,Stevenson,Alverno,Neutral,W
 12/18/2024,Alverno,Stevenson,Neutral,L
+12/18/2024,Hope,Muskingum,Neutral,W
+12/18/2024,Muskingum,Hope,Neutral,L
 12/18/2024,Edgewood,Fontbonne,Neutral,W
 12/18/2024,Fontbonne,Edgewood,Neutral,L
-12/18/2024,Hope,Muskingum,Home,W
-12/18/2024,Muskingum,Hope,Road,L
 12/18/2024,TCNJ,Chapman,Road,W
 12/18/2024,Chapman,TCNJ,Home,L
 12/18/2024,Christopher Newport,Wilmington OH,Home,W
@@ -3587,8 +3587,12 @@ Date,Team A,Team B,Home/Away,Result
 12/19/2024,Millikin,Albion,Neutral,L
 12/19/2024,Frank & Marsh,Lynchburg,Neutral,W
 12/19/2024,Lynchburg,Frank & Marsh,Neutral,L
+12/19/2024,Randolph-Macon,S Maine,Neutral,W
+12/19/2024,S Maine,Randolph-Macon,Neutral,L
 12/19/2024,Immaculata,Delaware Val,Home,W
 12/19/2024,Delaware Val,Immaculata,Road,L
+12/19/2024,Williams,Concordia WI,Neutral,W
+12/19/2024,Concordia WI,Williams,Neutral,L
 12/19/2024,Hope,Wittenberg,Road,W
 12/19/2024,Wittenberg,Hope,Home,L
 12/19/2024,Bates,WPI,Road,W
@@ -3597,6 +3601,8 @@ Date,Team A,Team B,Home/Away,Result
 12/19/2024,Mt. St. Joseph,Trine,Road,L
 12/19/2024,Carthage,St. Joseph CT,Neutral,W
 12/19/2024,St. Joseph CT,Carthage,Neutral,L
+12/19/2024,MA Dartmouth,Randolph Col,Neutral,W
+12/19/2024,Randolph Col,MA Dartmouth,Neutral,L
 12/19/2024,Bridgewater (VA),SUNY Oneonta,Neutral,W
 12/19/2024,SUNY Oneonta,Bridgewater (VA),Neutral,L
 12/19/2024,Rhode Island College,Ohio Wesleyan,Neutral,W
@@ -3605,10 +3611,6 @@ Date,Team A,Team B,Home/Away,Result
 12/19/2024,Asbury,Wilmington OH,Neutral,L
 12/19/2024,Christopher Newport,Shenandoah,Home,W
 12/19/2024,Shenandoah,Christopher Newport,Road,L
-12/19/2024,MA Dartmouth,Randolph Col,Neutral,W
-12/19/2024,Randolph Col,MA Dartmouth,Neutral,L
-12/19/2024,Williams,Concordia WI,Neutral,W
-12/19/2024,Concordia WI,Williams,Neutral,L
 12/19/2024,Calvin,Lakeland,Home,W
 12/19/2024,Lakeland,Calvin,Road,L
 12/19/2024,Case Western,Pitt-Greensburg,Home,W
@@ -3631,94 +3633,96 @@ Date,Team A,Team B,Home/Away,Result
 12/19/2024,Univ Ozarks,Millsaps,Home,L
 12/19/2024,St. Vincent,Westminster PA,Road,W
 12/19/2024,Westminster PA,St. Vincent,Home,L
-12/20/2024,Albion,Mt. St. Joseph,Neutral,T
-12/20/2024,Mt. St. Joseph,Albion,Neutral,T
-12/20/2024,Randolph Col,SUNY Oneonta,Neutral,T
-12/20/2024,SUNY Oneonta,Randolph Col,Neutral,T
-12/20/2024,Ohio Wesleyan,S Maine,Neutral,T
-12/20/2024,S Maine,Ohio Wesleyan,Neutral,T
-12/20/2024,Concordia WI,Emerson,Neutral,T
-12/20/2024,Emerson,Concordia WI,Neutral,T
-12/20/2024,Gettysburg,Williams,Neutral,T
-12/20/2024,Williams,Gettysburg,Neutral,T
-12/20/2024,Hanover,Stevenson,Neutral,T
-12/20/2024,Stevenson,Hanover,Neutral,T
-12/20/2024,La Roche,Hiram,Road,T
-12/20/2024,Hiram,La Roche,Home,T
-12/20/2024,Lakeland,Kalamazoo,Road,T
-12/20/2024,Kalamazoo,Lakeland,Home,T
-12/20/2024,Mt. Union,Simpson (Iowa),Neutral,T
-12/20/2024,Simpson (Iowa),Mt. Union,Neutral,T
-12/20/2024,DePauw,Lawrence,Neutral,T
-12/20/2024,Lawrence,DePauw,Neutral,T
-12/20/2024,Carroll,St. Norbert,Road,T
-12/20/2024,St. Norbert,Carroll,Home,T
-12/20/2024,TCNJ,Cal Lutheran,Road,T
-12/20/2024,Cal Lutheran,TCNJ,Home,T
-12/20/2024,Concordia IL,Northwestern MN,Neutral,T
-12/20/2024,Northwestern MN,Concordia IL,Neutral,T
-12/20/2024,Luther,Cornell IA,Road,T
-12/20/2024,Cornell IA,Luther,Home,T
-12/20/2024,UC Santa Cruz,George Fox,Road,T
-12/20/2024,George Fox,UC Santa Cruz,Home,T
-12/20/2024,Grove City,UW-Stout,Neutral,T
-12/20/2024,UW-Stout,Grove City,Neutral,T
-12/20/2024,Hendrix,Dallas Univ,Road,T
-12/20/2024,Dallas Univ,Hendrix,Home,T
-12/20/2024,LeTourneau,Lycoming,Neutral,T
-12/20/2024,Lycoming,LeTourneau,Neutral,T
-12/20/2024,Augustana,UW-Oshkosh,Road,T
-12/20/2024,UW-Oshkosh,Augustana,Home,T
-12/20/2024,Babson,Frank & Marsh,Neutral,T
-12/20/2024,Frank & Marsh,Babson,Neutral,T
-12/20/2024,Millikin,Trine,Road,T
-12/20/2024,Trine,Millikin,Home,T
-12/20/2024,Berry,North Park,Neutral,T
-12/20/2024,North Park,Berry,Neutral,T
-12/20/2024,Rose-Hulman,Spalding,Road,T
-12/20/2024,Spalding,Rose-Hulman,Home,T
-12/20/2024,Lynchburg,Webster,Neutral,T
-12/20/2024,Webster,Lynchburg,Neutral,T
-12/20/2024,Anna Maria,UW-Whitewater,Neutral,T
-12/20/2024,UW-Whitewater,Anna Maria,Neutral,T
-12/21/2024,Olivet MI,Kenyon,Road,T
-12/21/2024,Kenyon,Olivet MI,Home,T
-12/21/2024,DePauw,LeTourneau,Neutral,T
-12/21/2024,LeTourneau,DePauw,Neutral,T
-12/21/2024,Occidental,Puget Sound,Neutral,T
-12/21/2024,Puget Sound,Occidental,Neutral,T
-12/21/2024,St. Mary's IN,Elmhurst,Road,T
-12/21/2024,Elmhurst,St. Mary's IN,Home,T
-12/21/2024,Emerson,Gettysburg,Neutral,T
-12/21/2024,Gettysburg,Emerson,Neutral,T
-12/21/2024,Anna Maria,Mt. Union,Neutral,T
-12/21/2024,Mt. Union,Anna Maria,Neutral,T
-12/21/2024,UC Santa Cruz,Lewis & Clark,Road,T
-12/21/2024,Lewis & Clark,UC Santa Cruz,Home,T
-12/21/2024,Lawrence,Simpson (Iowa),Neutral,T
-12/21/2024,Simpson (Iowa),Lawrence,Neutral,T
-12/21/2024,Augustana,Concordia IL,Neutral,T
-12/21/2024,Concordia IL,Augustana,Neutral,T
-12/21/2024,Lycoming,UW-Whitewater,Neutral,T
-12/21/2024,UW-Whitewater,Lycoming,Neutral,T
-12/21/2024,Marietta,Otterbein,Road,T
-12/21/2024,Otterbein,Marietta,Home,T
-12/21/2024,Adrian,Bluffton,Road,T
-12/21/2024,Bluffton,Adrian,Home,T
-12/21/2024,Northwestern MN,UW-Oshkosh,Neutral,T
-12/21/2024,UW-Oshkosh,Northwestern MN,Neutral,T
-12/21/2024,Rhodes,Univ Ozarks,Road,T
-12/21/2024,Univ Ozarks,Rhodes,Home,T
-12/21/2024,Westminster MO,Wheaton (IL),Road,T
-12/21/2024,Wheaton (IL),Westminster MO,Home,T
-12/21/2024,Centre,Willamette,Neutral,T
-12/21/2024,Willamette,Centre,Neutral,T
-12/22/2024,Centre,Puget Sound,Neutral,T
-12/22/2024,Puget Sound,Centre,Neutral,T
-12/22/2024,Occidental,Willamette,Neutral,T
-12/22/2024,Willamette,Occidental,Neutral,T
-12/23/2024,UW-Superior,Milwaukee Eng,Road,T
-12/23/2024,Milwaukee Eng,UW-Superior,Home,T
+12/20/2024,Mt. St. Joseph,Albion,Neutral,W
+12/20/2024,Albion,Mt. St. Joseph,Neutral,L
+12/20/2024,SUNY Oneonta,Randolph Col,Neutral,W
+12/20/2024,Randolph Col,SUNY Oneonta,Neutral,L
+12/20/2024,Ohio Wesleyan,S Maine,Neutral,W
+12/20/2024,S Maine,Ohio Wesleyan,Neutral,L
+12/20/2024,Emerson,Concordia WI,Neutral,W
+12/20/2024,Concordia WI,Emerson,Neutral,L
+12/20/2024,Williams,Gettysburg,Neutral,W
+12/20/2024,Gettysburg,Williams,Neutral,L
+12/20/2024,Hanover,Stevenson,Neutral,W
+12/20/2024,Stevenson,Hanover,Neutral,L
+12/20/2024,La Roche,Hiram,Road,W
+12/20/2024,Hiram,La Roche,Home,L
+12/20/2024,Kalamazoo,Lakeland,Home,W
+12/20/2024,Lakeland,Kalamazoo,Road,L
+12/20/2024,Mt. Union,Simpson (Iowa),Neutral,W
+12/20/2024,Simpson (Iowa),Mt. Union,Neutral,L
+12/20/2024,Lawrence,DePauw,Neutral,W
+12/20/2024,DePauw,Lawrence,Neutral,L
+12/20/2024,St. Norbert,Carroll,Home,W
+12/20/2024,Carroll,St. Norbert,Road,L
+12/20/2024,Albright,Westfield St.,Home,W
+12/20/2024,Westfield St.,Albright,Road,L
+12/20/2024,Cal Lutheran,TCNJ,Home,W
+12/20/2024,TCNJ,Cal Lutheran,Road,L
+12/20/2024,Northwestern MN,Concordia IL,Neutral,W
+12/20/2024,Concordia IL,Northwestern MN,Neutral,L
+12/20/2024,Luther,Cornell IA,Road,W
+12/20/2024,Cornell IA,Luther,Home,L
+12/20/2024,George Fox,UC Santa Cruz,Home,W
+12/20/2024,UC Santa Cruz,George Fox,Road,L
+12/20/2024,UW-Stout,Grove City,Neutral,W
+12/20/2024,Grove City,UW-Stout,Neutral,L
+12/20/2024,Dallas Univ,Hendrix,Home,W
+12/20/2024,Hendrix,Dallas Univ,Road,L
+12/20/2024,LeTourneau,Lycoming,Neutral,W
+12/20/2024,Lycoming,LeTourneau,Neutral,L
+12/20/2024,UW-Oshkosh,Augustana,Home,W
+12/20/2024,Augustana,UW-Oshkosh,Road,L
+12/20/2024,Babson,Frank & Marsh,Neutral,W
+12/20/2024,Frank & Marsh,Babson,Neutral,L
+12/20/2024,Trine,Millikin,Home,W
+12/20/2024,Millikin,Trine,Road,L
+12/20/2024,Berry,North Park,Neutral,W
+12/20/2024,North Park,Berry,Neutral,L
+12/20/2024,Rose-Hulman,Spalding,Road,W
+12/20/2024,Spalding,Rose-Hulman,Home,L
+12/20/2024,Lynchburg,Webster,Neutral,W
+12/20/2024,Webster,Lynchburg,Neutral,L
+12/20/2024,UW-Whitewater,Anna Maria,Neutral,W
+12/20/2024,Anna Maria,UW-Whitewater,Neutral,L
+12/21/2024,Olivet MI,Kenyon,Road,W
+12/21/2024,Kenyon,Olivet MI,Home,L
+12/21/2024,DePauw,LeTourneau,Neutral,W
+12/21/2024,LeTourneau,DePauw,Neutral,L
+12/21/2024,Occidental,Puget Sound,Neutral,W
+12/21/2024,Puget Sound,Occidental,Neutral,L
+12/21/2024,Elmhurst,St. Mary's IN,Home,W
+12/21/2024,St. Mary's IN,Elmhurst,Road,L
+12/21/2024,Gettysburg,Emerson,Neutral,W
+12/21/2024,Emerson,Gettysburg,Neutral,L
+12/21/2024,Mt. Union,Anna Maria,Neutral,W
+12/21/2024,Anna Maria,Mt. Union,Neutral,L
+12/21/2024,Lewis & Clark,UC Santa Cruz,Home,W
+12/21/2024,UC Santa Cruz,Lewis & Clark,Road,L
+12/21/2024,Simpson (Iowa),Lawrence,Neutral,W
+12/21/2024,Lawrence,Simpson (Iowa),Neutral,L
+12/21/2024,Augustana,Concordia IL,Neutral,W
+12/21/2024,Concordia IL,Augustana,Neutral,L
+12/21/2024,UW-Whitewater,Lycoming,Neutral,W
+12/21/2024,Lycoming,UW-Whitewater,Neutral,L
+12/21/2024,Otterbein,Marietta,Home,W
+12/21/2024,Marietta,Otterbein,Road,L
+12/21/2024,Bluffton,Adrian,Home,W
+12/21/2024,Adrian,Bluffton,Road,L
+12/21/2024,UW-Oshkosh,Northwestern MN,Neutral,W
+12/21/2024,Northwestern MN,UW-Oshkosh,Neutral,L
+12/21/2024,Univ Ozarks,Rhodes,Home,W
+12/21/2024,Rhodes,Univ Ozarks,Road,L
+12/21/2024,Wheaton (IL),Westminster MO,Home,W
+12/21/2024,Westminster MO,Wheaton (IL),Road,L
+12/21/2024,Willamette,Centre,Neutral,W
+12/21/2024,Centre,Willamette,Neutral,L
+12/22/2024,Centre,Puget Sound,Neutral,W
+12/22/2024,Puget Sound,Centre,Neutral,L
+12/22/2024,Occidental,Willamette,Neutral,W
+12/22/2024,Willamette,Occidental,Neutral,L
+12/23/2024,UW-Superior,Milwaukee Eng,Road,W
+12/23/2024,Milwaukee Eng,UW-Superior,Home,L
 12/27/2024,St. Joseph CT,Trinity (Conn),Neutral,T
 12/27/2024,Trinity (Conn),St. Joseph CT,Neutral,T
 12/27/2024,Illinois Wesleyan,Trinity (Texas),Road,T
@@ -4137,8 +4141,8 @@ Date,Team A,Team B,Home/Away,Result
 01/03/2025,Whitworth,Pac Lutheran,Home,T
 01/03/2025,Linfield,Pacific,Road,T
 01/03/2025,Pacific,Linfield,Home,T
-01/03/2025,SUNY Potsdam,SUNY Canton,Road,T
-01/03/2025,SUNY Canton,SUNY Potsdam,Home,T
+01/03/2025,SUNYIT,SUNY Canton,Road,T
+01/03/2025,SUNY Canton,SUNYIT,Home,T
 01/03/2025,Belhaven MS,Wesleyan GA,Road,T
 01/03/2025,Wesleyan GA,Belhaven MS,Home,T
 01/03/2025,Puget Sound,Whitman,Road,T
@@ -4189,8 +4193,8 @@ Date,Team A,Team B,Home/Away,Result
 01/04/2025,Valley Forge,Cedar Crest,Home,T
 01/04/2025,Kalamazoo,Olivet MI,Road,T
 01/04/2025,Olivet MI,Kalamazoo,Home,T
-01/04/2025,Sage,SUNYIT,Road,T
-01/04/2025,SUNYIT,Sage,Home,T
+01/04/2025,Sage,SUNY Potsdam,Road,T
+01/04/2025,SUNY Potsdam,Sage,Home,T
 01/04/2025,MA Boston,Fitchburg St.,Road,T
 01/04/2025,Fitchburg St.,MA Boston,Home,T
 01/04/2025,Arcadia,CT College,Road,T
@@ -4535,8 +4539,8 @@ Date,Team A,Team B,Home/Away,Result
 01/07/2025,Asbury,Covenant,Home,T
 01/07/2025,Curry,Wentworth Tech,Road,T
 01/07/2025,Wentworth Tech,Curry,Home,T
-01/07/2025,Geneseo St.,SUNY Potsdam,Road,T
-01/07/2025,SUNY Potsdam,Geneseo St.,Home,T
+01/07/2025,Geneseo St.,SUNYIT,Road,T
+01/07/2025,SUNYIT,Geneseo St.,Home,T
 01/07/2025,NC Wesleyan,Greensboro,Road,T
 01/07/2025,Greensboro,NC Wesleyan,Home,T
 01/07/2025,Nazareth,Houghton,Road,T
@@ -4845,8 +4849,8 @@ Date,Team A,Team B,Home/Away,Result
 01/10/2025,Rensselaer,Skidmore,Home,T
 01/10/2025,St. Thomas TX,TX Lutheran,Road,T
 01/10/2025,TX Lutheran,St. Thomas TX,Home,T
-01/10/2025,SUNYIT,Buffalo St.,Road,T
-01/10/2025,Buffalo St.,SUNYIT,Home,T
+01/10/2025,SUNY Potsdam,Buffalo St.,Road,T
+01/10/2025,Buffalo St.,SUNY Potsdam,Home,T
 01/10/2025,Old Westbury,Mt. St. Vincent,Road,T
 01/10/2025,Mt. St. Vincent,Old Westbury,Home,T
 01/10/2025,Mt. St. Mary,Merchant Marine,Road,T
@@ -4859,8 +4863,8 @@ Date,Team A,Team B,Home/Away,Result
 01/10/2025,Amherst,Bates,Home,T
 01/10/2025,Ithaca,Union NY,Road,T
 01/10/2025,Union NY,Ithaca,Home,T
-01/10/2025,SUNY Potsdam,St. John Fisher,Road,T
-01/10/2025,St. John Fisher,SUNY Potsdam,Home,T
+01/10/2025,SUNYIT,St. John Fisher,Road,T
+01/10/2025,St. John Fisher,SUNYIT,Home,T
 01/10/2025,Austin Col,Centenary,Road,T
 01/10/2025,Centenary,Austin Col,Home,T
 01/10/2025,Bard,Clarkson,Road,T
@@ -4929,8 +4933,8 @@ Date,Team A,Team B,Home/Away,Result
 01/11/2025,Central IA,Loras,Home,T
 01/11/2025,Misericordia,Stevens,Road,T
 01/11/2025,Stevens,Misericordia,Home,T
-01/11/2025,SUNY Potsdam,Nazareth,Road,T
-01/11/2025,Nazareth,SUNY Potsdam,Home,T
+01/11/2025,SUNYIT,Nazareth,Road,T
+01/11/2025,Nazareth,SUNYIT,Home,T
 01/11/2025,Bard,St. Lawrence,Road,T
 01/11/2025,St. Lawrence,Bard,Home,T
 01/11/2025,Anna Maria,Regis MA,Road,T
@@ -5205,8 +5209,8 @@ Date,Team A,Team B,Home/Away,Result
 01/11/2025,Morrisville St.,SUNY Canton,Home,T
 01/11/2025,Bluffton,Franklin,Road,T
 01/11/2025,Franklin,Bluffton,Home,T
-01/11/2025,SUNYIT,SUNY Fredonia,Road,T
-01/11/2025,SUNY Fredonia,SUNYIT,Home,T
+01/11/2025,SUNY Potsdam,SUNY Fredonia,Road,T
+01/11/2025,SUNY Fredonia,SUNY Potsdam,Home,T
 01/11/2025,SUNY New Paltz,SUNY Oneonta,Road,T
 01/11/2025,SUNY Oneonta,SUNY New Paltz,Home,T
 01/11/2025,Dallas Univ,Univ Ozarks,Road,T
@@ -5291,6 +5295,8 @@ Date,Team A,Team B,Home/Away,Result
 01/13/2025,SUNY Cobleskill,ME Presque Isle,Home,T
 01/13/2025,Mt. Holyoke,Worcester St,Road,T
 01/13/2025,Worcester St,Mt. Holyoke,Home,T
+01/13/2025,Case Western,Marietta,Road,T
+01/13/2025,Marietta,Case Western,Home,T
 01/13/2025,Chatham,Thiel,Road,T
 01/13/2025,Thiel,Chatham,Home,T
 01/13/2025,Johns Hopkins,Mary Washington,Road,T
@@ -5305,8 +5311,8 @@ Date,Team A,Team B,Home/Away,Result
 01/14/2025,Rhode Island College,Western Connecticut,Home,T
 01/14/2025,PSU-Abington,Gallaudet,Road,T
 01/14/2025,Gallaudet,PSU-Abington,Home,T
-01/14/2025,SUNY Potsdam,Brockport St.,Road,T
-01/14/2025,Brockport St.,SUNY Potsdam,Home,T
+01/14/2025,SUNYIT,Brockport St.,Road,T
+01/14/2025,Brockport St.,SUNYIT,Home,T
 01/14/2025,Ithaca,Rochester Tech,Road,T
 01/14/2025,Rochester Tech,Ithaca,Home,T
 01/14/2025,MA Dartmouth,MA Boston,Road,T
@@ -5359,8 +5365,8 @@ Date,Team A,Team B,Home/Away,Result
 01/14/2025,Bryn Athyn,PSU-Harrisburg,Home,T
 01/14/2025,Penn Col Tech,Rosemont,Road,T
 01/14/2025,Rosemont,Penn Col Tech,Home,T
-01/14/2025,Plattsburgh St.,SUNYIT,Road,T
-01/14/2025,SUNYIT,Plattsburgh St.,Home,T
+01/14/2025,Plattsburgh St.,SUNY Potsdam,Road,T
+01/14/2025,SUNY Potsdam,Plattsburgh St.,Home,T
 01/14/2025,Castleton,Plymouth St.,Road,T
 01/14/2025,Plymouth St.,Castleton,Home,T
 01/14/2025,Principia,Greenville,Road,T
@@ -5659,8 +5665,8 @@ Date,Team A,Team B,Home/Away,Result
 01/17/2025,Hartwick,Nazareth,Home,T
 01/17/2025,Hunter,City Col NY,Road,T
 01/17/2025,City Col NY,Hunter,Home,T
-01/17/2025,Oswego St.,SUNYIT,Road,T
-01/17/2025,SUNYIT,Oswego St.,Home,T
+01/17/2025,Oswego St.,SUNY Potsdam,Road,T
+01/17/2025,SUNY Potsdam,Oswego St.,Home,T
 01/17/2025,Rochester Tech,Skidmore,Road,T
 01/17/2025,Skidmore,Rochester Tech,Home,T
 01/17/2025,Morrisville St.,SUNY Oneonta,Road,T
@@ -5689,8 +5695,8 @@ Date,Team A,Team B,Home/Away,Result
 01/17/2025,Chicago,Carnegie Mellon,Home,T
 01/17/2025,Clarkson,Ithaca,Road,T
 01/17/2025,Ithaca,Clarkson,Home,T
-01/17/2025,Alfred,SUNY Potsdam,Road,T
-01/17/2025,SUNY Potsdam,Alfred,Home,T
+01/17/2025,Alfred,SUNYIT,Road,T
+01/17/2025,SUNYIT,Alfred,Home,T
 01/17/2025,Cortland,SUNY New Paltz,Road,T
 01/17/2025,SUNY New Paltz,Cortland,Home,T
 01/17/2025,Geneseo St.,Keuka,Road,T
@@ -5937,8 +5943,8 @@ Date,Team A,Team B,Home/Away,Result
 01/18/2025,VA Wesleyan,Hollins,Home,T
 01/18/2025,Hope,Alma,Road,T
 01/18/2025,Alma,Hope,Home,T
-01/18/2025,Houghton,SUNY Potsdam,Road,T
-01/18/2025,SUNY Potsdam,Houghton,Home,T
+01/18/2025,Houghton,SUNYIT,Road,T
+01/18/2025,SUNYIT,Houghton,Home,T
 01/18/2025,SUNY Cobleskill,Husson,Road,T
 01/18/2025,Husson,SUNY Cobleskill,Home,T
 01/18/2025,Lake Forest,Illinois Col,Road,T
@@ -6049,8 +6055,8 @@ Date,Team A,Team B,Home/Away,Result
 01/18/2025,Salem NC,Peace,Home,T
 01/18/2025,Catholic,Scranton,Road,T
 01/18/2025,Scranton,Catholic,Home,T
-01/18/2025,SUNY Canton,SUNYIT,Road,T
-01/18/2025,SUNYIT,SUNY Canton,Home,T
+01/18/2025,SUNY Canton,SUNY Potsdam,Road,T
+01/18/2025,SUNY Potsdam,SUNY Canton,Home,T
 01/18/2025,Manhattanville,Farmingdale,Road,T
 01/18/2025,Farmingdale,Manhattanville,Home,T
 01/18/2025,Morrisville St.,SUNY New Paltz,Road,T
@@ -6475,8 +6481,8 @@ Date,Team A,Team B,Home/Away,Result
 01/24/2025,Skidmore,Bard,Home,T
 01/24/2025,Buffalo St.,Oswego St.,Road,T
 01/24/2025,Oswego St.,Buffalo St.,Home,T
-01/24/2025,Sage,SUNY Potsdam,Road,T
-01/24/2025,SUNY Potsdam,Sage,Home,T
+01/24/2025,Sage,SUNYIT,Road,T
+01/24/2025,SUNYIT,Sage,Home,T
 01/24/2025,Univ Ozarks,St. Thomas TX,Road,T
 01/24/2025,St. Thomas TX,Univ Ozarks,Home,T
 01/24/2025,NVU-Johnson,SUNY Delhi,Road,T
@@ -6537,8 +6543,8 @@ Date,Team A,Team B,Home/Away,Result
 01/24/2025,Rochester,WashU,Home,T
 01/24/2025,SUNY Fredonia,SUNY Canton,Road,T
 01/24/2025,SUNY Canton,SUNY Fredonia,Home,T
-01/24/2025,SUNY New Paltz,SUNYIT,Road,T
-01/24/2025,SUNYIT,SUNY New Paltz,Home,T
+01/24/2025,SUNY New Paltz,SUNY Potsdam,Road,T
+01/24/2025,SUNY Potsdam,SUNY New Paltz,Home,T
 01/24/2025,City Col NY,Brooklyn Col,Road,T
 01/24/2025,Brooklyn Col,City Col NY,Home,T
 01/25/2025,Albion,Trine,Road,T
@@ -6553,8 +6559,8 @@ Date,Team A,Team B,Home/Away,Result
 01/25/2025,Washington & Lee,Guilford,Home,T
 01/25/2025,Hamilton,Amherst,Road,T
 01/25/2025,Amherst,Hamilton,Home,T
-01/25/2025,SUNY Potsdam,Hartwick,Road,T
-01/25/2025,Hartwick,SUNY Potsdam,Home,T
+01/25/2025,SUNYIT,Hartwick,Road,T
+01/25/2025,Hartwick,SUNYIT,Home,T
 01/25/2025,Hilbert,PSU-Altoona,Road,T
 01/25/2025,PSU-Altoona,Hilbert,Home,T
 01/25/2025,John Carroll,Ohio Northern,Road,T
@@ -6579,8 +6585,8 @@ Date,Team A,Team B,Home/Away,Result
 01/25/2025,Rochester Tech,St. Lawrence,Home,T
 01/25/2025,Ithaca,Skidmore,Road,T
 01/25/2025,Skidmore,Ithaca,Home,T
-01/25/2025,SUNY Oneonta,SUNYIT,Road,T
-01/25/2025,SUNYIT,SUNY Oneonta,Home,T
+01/25/2025,SUNY Oneonta,SUNY Potsdam,Road,T
+01/25/2025,SUNY Potsdam,SUNY Oneonta,Home,T
 01/25/2025,Trinity (Conn),Wesleyan CT,Road,T
 01/25/2025,Wesleyan CT,Trinity (Conn),Home,T
 01/25/2025,Stevenson,Alvernia,Road,T
@@ -6949,8 +6955,8 @@ Date,Team A,Team B,Home/Away,Result
 01/28/2025,Manhattanville,Merchant Marine,Home,T
 01/28/2025,Skidmore,Vassar,Road,T
 01/28/2025,Vassar,Skidmore,Home,T
-01/28/2025,SUNY Potsdam,Utica,Road,T
-01/28/2025,Utica,SUNY Potsdam,Home,T
+01/28/2025,SUNYIT,Utica,Road,T
+01/28/2025,Utica,SUNYIT,Home,T
 01/28/2025,S Virginia,Peace,Road,T
 01/28/2025,Peace,S Virginia,Home,T
 01/28/2025,Houghton,Alfred,Road,T
@@ -6987,8 +6993,8 @@ Date,Team A,Team B,Home/Away,Result
 01/28/2025,PSU-Harrisburg,Gallaudet,Home,T
 01/28/2025,Agnes Scott,Piedmont,Road,T
 01/28/2025,Piedmont,Agnes Scott,Home,T
-01/28/2025,SUNYIT,Plattsburgh St.,Road,T
-01/28/2025,Plattsburgh St.,SUNYIT,Home,T
+01/28/2025,SUNY Potsdam,Plattsburgh St.,Road,T
+01/28/2025,Plattsburgh St.,SUNY Potsdam,Home,T
 01/28/2025,Principia,Spalding,Road,T
 01/28/2025,Spalding,Principia,Home,T
 01/28/2025,Purchase,Farmingdale,Road,T
@@ -7259,12 +7265,12 @@ Date,Team A,Team B,Home/Away,Result
 01/31/2025,Hunter,John Jay,Home,T
 01/31/2025,ME Farmington,ME Presque Isle,Road,T
 01/31/2025,ME Presque Isle,ME Farmington,Home,T
-01/31/2025,Nazareth,SUNY Potsdam,Road,T
-01/31/2025,SUNY Potsdam,Nazareth,Home,T
+01/31/2025,Nazareth,SUNYIT,Road,T
+01/31/2025,SUNYIT,Nazareth,Home,T
 01/31/2025,St. Lawrence,Bard,Road,T
 01/31/2025,Bard,St. Lawrence,Home,T
-01/31/2025,Morrisville St.,SUNYIT,Road,T
-01/31/2025,SUNYIT,Morrisville St.,Home,T
+01/31/2025,Morrisville St.,SUNY Potsdam,Road,T
+01/31/2025,SUNY Potsdam,Morrisville St.,Home,T
 01/31/2025,Trinity (Conn),CT College,Road,T
 01/31/2025,CT College,Trinity (Conn),Home,T
 01/31/2025,Rensselaer,Rochester Tech,Road,T
@@ -7461,8 +7467,8 @@ Date,Team A,Team B,Home/Away,Result
 02/01/2025,Manhattanville,St. Joseph's NY,Home,T
 02/01/2025,Salve Regina,Smith,Road,T
 02/01/2025,Smith,Salve Regina,Home,T
-02/01/2025,St. John Fisher,SUNY Potsdam,Road,T
-02/01/2025,SUNY Potsdam,St. John Fisher,Home,T
+02/01/2025,St. John Fisher,SUNYIT,Road,T
+02/01/2025,SUNYIT,St. John Fisher,Home,T
 02/01/2025,St. Benedict,Carleton,Road,T
 02/01/2025,Carleton,St. Benedict,Home,T
 02/01/2025,Caltech,Claremont-Mudd-Scripps,Road,T
@@ -7501,8 +7507,8 @@ Date,Team A,Team B,Home/Away,Result
 02/01/2025,Allegheny,Waynesburg,Home,T
 02/01/2025,Ripon,Cornell IA,Road,T
 02/01/2025,Cornell IA,Ripon,Home,T
-02/01/2025,Cortland,SUNYIT,Road,T
-02/01/2025,SUNYIT,Cortland,Home,T
+02/01/2025,Cortland,SUNY Potsdam,Road,T
+02/01/2025,SUNY Potsdam,Cortland,Home,T
 02/01/2025,Crown MN,Bethany Luth,Road,T
 02/01/2025,Bethany Luth,Crown MN,Home,T
 02/01/2025,Curry,Nichols,Road,T
@@ -8051,8 +8057,8 @@ Date,Team A,Team B,Home/Away,Result
 02/07/2025,SW Univ TX,Schreiner,Home,T
 02/07/2025,Skidmore,Ithaca,Road,T
 02/07/2025,Ithaca,Skidmore,Home,T
-02/07/2025,SUNYIT,SUNY Oneonta,Road,T
-02/07/2025,SUNY Oneonta,SUNYIT,Home,T
+02/07/2025,SUNY Potsdam,SUNY Oneonta,Road,T
+02/07/2025,SUNY Oneonta,SUNY Potsdam,Home,T
 02/07/2025,Bates,Trinity (Conn),Road,T
 02/07/2025,Trinity (Conn),Bates,Home,T
 02/07/2025,Rensselaer,Union NY,Road,T
@@ -8063,8 +8069,8 @@ Date,Team A,Team B,Home/Away,Result
 02/07/2025,Carnegie Mellon,Emory,Home,T
 02/07/2025,City Col NY,Medgar Evers,Road,T
 02/07/2025,Medgar Evers,City Col NY,Home,T
-02/07/2025,SUNY Potsdam,Sage,Road,T
-02/07/2025,Sage,SUNY Potsdam,Home,T
+02/07/2025,Utica,Sage,Road,T
+02/07/2025,Sage,Utica,Home,T
 02/07/2025,Concordia TX,Centenary,Road,T
 02/07/2025,Centenary,Concordia TX,Home,T
 02/07/2025,Chicago,NYU,Road,T
@@ -8129,8 +8135,8 @@ Date,Team A,Team B,Home/Away,Result
 02/08/2025,Bridgewater (VA),Guilford,Home,T
 02/08/2025,Hanover,Manchester,Road,T
 02/08/2025,Manchester,Hanover,Home,T
-02/08/2025,Hartwick,SUNY Potsdam,Road,T
-02/08/2025,SUNY Potsdam,Hartwick,Home,T
+02/08/2025,Hartwick,SUNYIT,Road,T
+02/08/2025,SUNYIT,Hartwick,Home,T
 02/08/2025,Hilbert,La Roche,Road,T
 02/08/2025,La Roche,Hilbert,Home,T
 02/08/2025,John Carroll,Wilmington OH,Road,T
@@ -8413,8 +8419,8 @@ Date,Team A,Team B,Home/Away,Result
 02/08/2025,SUNY Fredonia,SUNY Canton,Home,T
 02/08/2025,Transylvania,Bluffton,Road,T
 02/08/2025,Bluffton,Transylvania,Home,T
-02/08/2025,SUNYIT,SUNY New Paltz,Road,T
-02/08/2025,SUNY New Paltz,SUNYIT,Home,T
+02/08/2025,SUNY Potsdam,SUNY New Paltz,Road,T
+02/08/2025,SUNY New Paltz,SUNY Potsdam,Home,T
 02/08/2025,Tufts,Hamilton,Road,T
 02/08/2025,Hamilton,Tufts,Home,T
 02/08/2025,Gordon,U New England,Road,T
@@ -8859,8 +8865,8 @@ Date,Team A,Team B,Home/Away,Result
 02/14/2025,Hendrix,Centre,Home,T
 02/14/2025,Skidmore,Hobart & Smith,Road,T
 02/14/2025,Hobart & Smith,Skidmore,Home,T
-02/14/2025,SUNY Potsdam,Keuka,Road,T
-02/14/2025,Keuka,SUNY Potsdam,Home,T
+02/14/2025,SUNYIT,Keuka,Road,T
+02/14/2025,Keuka,SUNYIT,Home,T
 02/14/2025,Linfield,Willamette,Road,T
 02/14/2025,Willamette,Linfield,Home,T
 02/14/2025,NVU-Lyndon,SUNY Delhi,Road,T
@@ -8881,8 +8887,8 @@ Date,Team A,Team B,Home/Away,Result
 02/14/2025,Rhodes,Sewanee,Home,T
 02/14/2025,Brandeis,Rochester,Road,T
 02/14/2025,Rochester,Brandeis,Home,T
-02/14/2025,SUNYIT,SUNY Canton,Road,T
-02/14/2025,SUNY Canton,SUNYIT,Home,T
+02/14/2025,SUNY Potsdam,SUNY Canton,Road,T
+02/14/2025,SUNY Canton,SUNY Potsdam,Home,T
 02/14/2025,SUNY Fredonia,Buffalo St.,Road,T
 02/14/2025,Buffalo St.,SUNY Fredonia,Home,T
 02/14/2025,SUNY New Paltz,Morrisville St.,Road,T
@@ -8897,8 +8903,8 @@ Date,Team A,Team B,Home/Away,Result
 02/15/2025,Coast Guard,WPI,Home,T
 02/15/2025,St. Mary's IN,Alma,Road,T
 02/15/2025,Alma,St. Mary's IN,Home,T
-02/15/2025,SUNY Potsdam,Elmira,Road,T
-02/15/2025,Elmira,SUNY Potsdam,Home,T
+02/15/2025,SUNYIT,Elmira,Road,T
+02/15/2025,Elmira,SUNYIT,Home,T
 02/15/2025,Franklin,Hanover,Road,T
 02/15/2025,Hanover,Franklin,Home,T
 02/15/2025,Guilford,Randolph Col,Road,T
@@ -8927,8 +8933,8 @@ Date,Team A,Team B,Home/Away,Result
 02/15/2025,Agnes Scott,Maryville TN,Home,T
 02/15/2025,Mt. Holyoke,Wellesley,Road,T
 02/15/2025,Wellesley,Mt. Holyoke,Home,T
-02/15/2025,SUNYIT,Oswego St.,Road,T
-02/15/2025,Oswego St.,SUNYIT,Home,T
+02/15/2025,SUNY Potsdam,Oswego St.,Road,T
+02/15/2025,Oswego St.,SUNY Potsdam,Home,T
 02/15/2025,Regis MA,Albertus Magnus,Road,T
 02/15/2025,Albertus Magnus,Regis MA,Home,T
 02/15/2025,Gordon,Roger Williams,Road,T
@@ -9301,8 +9307,8 @@ Date,Team A,Team B,Home/Away,Result
 02/18/2025,Medgar Evers,John Jay,Home,T
 02/18/2025,Methodist,Meredith,Road,T
 02/18/2025,Meredith,Methodist,Home,T
-02/18/2025,Utica,SUNY Potsdam,Road,T
-02/18/2025,SUNY Potsdam,Utica,Home,T
+02/18/2025,Utica,SUNYIT,Road,T
+02/18/2025,SUNYIT,Utica,Home,T
 02/18/2025,Eastern Univ,Albright,Road,T
 02/18/2025,Albright,Eastern Univ,Home,T
 02/18/2025,Alfred,Houghton,Road,T
@@ -9617,8 +9623,8 @@ Date,Team A,Team B,Home/Away,Result
 02/21/2025,WashU,Rochester,Home,T
 02/21/2025,Morrisville St.,SUNY Canton,Road,T
 02/21/2025,SUNY Canton,Morrisville St.,Home,T
-02/21/2025,SUNY Fredonia,SUNYIT,Road,T
-02/21/2025,SUNYIT,SUNY Fredonia,Home,T
+02/21/2025,SUNY Fredonia,SUNY Potsdam,Road,T
+02/21/2025,SUNY Potsdam,SUNY Fredonia,Home,T
 02/21/2025,Univ Ozarks,Dallas Univ,Road,T
 02/21/2025,Dallas Univ,Univ Ozarks,Home,T
 02/21/2025,Willamette,Puget Sound,Road,T
@@ -9647,8 +9653,8 @@ Date,Team A,Team B,Home/Away,Result
 02/22/2025,Rensselaer,St. Lawrence,Home,T
 02/22/2025,Macalester,St. Mary's MN,Road,T
 02/22/2025,St. Mary's MN,Macalester,Home,T
-02/22/2025,Buffalo St.,SUNYIT,Road,T
-02/22/2025,SUNYIT,Buffalo St.,Home,T
+02/22/2025,Buffalo St.,SUNY Potsdam,Road,T
+02/22/2025,SUNY Potsdam,Buffalo St.,Home,T
 02/22/2025,Alvernia,Stevenson,Road,T
 02/22/2025,Stevenson,Alvernia,Home,T
 02/22/2025,Endicott,W New England,Road,T
