@@ -3723,24 +3723,28 @@ Date,Team A,Team B,Home/Away,Result
 12/22/2024,Willamette,Occidental,Neutral,L
 12/23/2024,UW-Superior,Milwaukee Eng,Road,W
 12/23/2024,Milwaukee Eng,UW-Superior,Home,L
-12/27/2024,St. Joseph CT,Trinity (Conn),Neutral,T
-12/27/2024,Trinity (Conn),St. Joseph CT,Neutral,T
-12/27/2024,Illinois Wesleyan,Trinity (Texas),Road,T
-12/27/2024,Trinity (Texas),Illinois Wesleyan,Home,T
-12/27/2024,Neumann,Lehman,Road,T
-12/27/2024,Lehman,Neumann,Home,T
+12/27/2024,Trinity (Conn),St. Joseph CT,Neutral,W
+12/27/2024,St. Joseph CT,Trinity (Conn),Neutral,L
+12/27/2024,Illinois Wesleyan,Trinity (Texas),Road,W
+12/27/2024,Trinity (Texas),Illinois Wesleyan,Home,L
+12/27/2024,Neumann,Lehman,Road,W
+12/27/2024,Lehman,Neumann,Home,L
 12/28/2024,Colorado Col,Susquehanna,Neutral,T
 12/28/2024,Susquehanna,Colorado Col,Neutral,T
 12/28/2024,UW-La Crosse,Guilford,Road,T
 12/28/2024,Guilford,UW-La Crosse,Home,T
-12/28/2024,Bridgewater MA,Dickinson,Neutral,T
-12/28/2024,Dickinson,Bridgewater MA,Neutral,T
+12/28/2024,Dickinson,Bridgewater MA,Neutral,W
+12/28/2024,Bridgewater MA,Dickinson,Neutral,L
 12/28/2024,MA Boston,Stevens,Neutral,T
 12/28/2024,Stevens,MA Boston,Neutral,T
 12/28/2024,Elmhurst,Kalamazoo,Road,T
 12/28/2024,Kalamazoo,Elmhurst,Home,T
 12/28/2024,Amherst,Bethel,Neutral,T
 12/28/2024,Bethel,Amherst,Neutral,T
+12/28/2024,St. Joseph CT,Lehman,Road,T
+12/28/2024,Lehman,St. Joseph CT,Home,T
+12/28/2024,Neumann,Trinity (Conn),Neutral,T
+12/28/2024,Trinity (Conn),Neumann,Neutral,T
 12/28/2024,Brooklyn Col,Chapman,Road,T
 12/28/2024,Chapman,Brooklyn Col,Home,T
 12/28/2024,New Jersey City,DeSales,Road,T
