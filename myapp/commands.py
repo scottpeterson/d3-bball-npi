@@ -75,8 +75,8 @@ def run_simulate_season():
 
 def run_predict_game():
     # Hardcoded values
-    team_a_id = "34"
-    team_b_id = "413"
+    team_a_id = "227"
+    team_b_id = "54"
     year = "2025"
 
     base_path = Path(__file__).parent / "data"

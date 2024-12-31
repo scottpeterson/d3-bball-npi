@@ -95,7 +95,7 @@ def predict_and_simulate_game(
         Tuple of (win probabilities dict, GameResult object)
     """
     team_data = load_efficiency_data(base_path, year)
-    probabilities = calculate_win_probability(team_data, team_a_id, team_b_id)
+    probabilities = calculate_win_probability(team_data, team_a_id, team_b_id, 0)
     result = simulate_game(team_data, team_a_id, team_b_id)
     return probabilities, result
 
