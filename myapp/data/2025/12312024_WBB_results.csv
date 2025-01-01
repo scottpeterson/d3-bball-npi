@@ -3807,6 +3807,8 @@ Date,Team A,Team B,Home/Away,Result
 12/29/2024,WPI,Hartford,Home,L
 12/29/2024,Catholic,Messiah,Neutral,W
 12/29/2024,Messiah,Catholic,Neutral,L
+12/29/2024,Concordia Moorhead,Washington & Lee,Neutral,W
+12/29/2024,Washington & Lee,Concordia Moorhead,Neutral,L
 12/29/2024,Christopher Newport,Wm Paterson,Neutral,W
 12/29/2024,Wm Paterson,Christopher Newport,Neutral,L
 12/29/2024,Colby,Lake Forest,Neutral,W
@@ -3859,204 +3861,208 @@ Date,Team A,Team B,Home/Away,Result
 12/29/2024,Loras,UW-River Falls,Neutral,L
 12/29/2024,Wittenberg,Susquehanna,Neutral,W
 12/29/2024,Susquehanna,Wittenberg,Neutral,L
-12/30/2024,Centre,Franklin,Neutral,T
-12/30/2024,Franklin,Centre,Neutral,T
-12/30/2024,Albion,Hamilton,Neutral,T
-12/30/2024,Hamilton,Albion,Neutral,T
-12/30/2024,Ursinus,Elizabethtown,Road,T
-12/30/2024,Elizabethtown,Ursinus,Home,T
-12/30/2024,Elmira,Hunter,Road,T
-12/30/2024,Hunter,Elmira,Home,T
-12/30/2024,Lancaster Bib,Centenary NJ,Road,T
-12/30/2024,Centenary NJ,Lancaster Bib,Home,T
-12/30/2024,Loras,Olivet MI,Neutral,T
-12/30/2024,Olivet MI,Loras,Neutral,T
-12/30/2024,Oswego St.,Smith,Road,T
-12/30/2024,Smith,Oswego St.,Home,T
-12/30/2024,Stockton,PSU-Abington,Road,T
-12/30/2024,PSU-Abington,Stockton,Home,T
-12/30/2024,Roger Williams,Wesleyan CT,Neutral,T
-12/30/2024,Wesleyan CT,Roger Williams,Neutral,T
-12/30/2024,Castleton,Rensselaer,Road,T
-12/30/2024,Rensselaer,Castleton,Home,T
-12/30/2024,Rowan,Delaware Val,Road,T
-12/30/2024,Delaware Val,Rowan,Home,T
-12/30/2024,Emmanuel,La Verne,Road,T
-12/30/2024,La Verne,Emmanuel,Home,T
-12/30/2024,Wheaton MA,Claremont-Mudd-Scripps,Road,T
-12/30/2024,Claremont-Mudd-Scripps,Wheaton MA,Home,T
-12/30/2024,John Jay,St. Joseph's LI,Road,T
-12/30/2024,St. Joseph's LI,John Jay,Home,T
-12/30/2024,SW Univ TX,Howard Payne,Road,T
-12/30/2024,Howard Payne,SW Univ TX,Home,T
-12/30/2024,Bethany WV,Kean,Neutral,T
-12/30/2024,Kean,Bethany WV,Neutral,T
-12/30/2024,Luther,Carthage,Road,T
-12/30/2024,Carthage,Luther,Home,T
-12/30/2024,Catholic,Vassar,Neutral,T
-12/30/2024,Vassar,Catholic,Neutral,T
-12/30/2024,Shenandoah,Montclair St.,Road,T
-12/30/2024,Montclair St.,Shenandoah,Home,T
-12/30/2024,Bowdoin,Emory,Neutral,T
-12/30/2024,Emory,Bowdoin,Neutral,T
-12/30/2024,Ferrum,Maryville TN,Neutral,T
-12/30/2024,Maryville TN,Ferrum,Neutral,T
-12/30/2024,Carroll,Benedictine IL,Road,T
-12/30/2024,Benedictine IL,Carroll,Home,T
-12/30/2024,Bridgewater MA,WashU,Neutral,T
-12/30/2024,WashU,Bridgewater MA,Neutral,T
-12/30/2024,Wisconsin Lutheran,UW-Platteville,Neutral,T
-12/30/2024,UW-Platteville,Wisconsin Lutheran,Neutral,T
-12/30/2024,St. Elizabeth,Wm Paterson,Neutral,T
-12/30/2024,Wm Paterson,St. Elizabeth,Neutral,T
-12/30/2024,Christopher Newport,Moravian,Road,T
-12/30/2024,Moravian,Christopher Newport,Home,T
-12/30/2024,Washington & Lee,Transylvania,Road,T
-12/30/2024,Transylvania,Washington & Lee,Home,T
-12/30/2024,Alma,UW-Eau Claire,Neutral,T
-12/30/2024,UW-Eau Claire,Alma,Neutral,T
-12/30/2024,Elms,WPI,Neutral,T
-12/30/2024,WPI,Elms,Neutral,T
-12/30/2024,Adrian,Capital,Neutral,T
-12/30/2024,Capital,Adrian,Neutral,T
-12/30/2024,Case Western,Concordia Moorhead,Neutral,T
-12/30/2024,Concordia Moorhead,Case Western,Neutral,T
-12/30/2024,Carnegie Mellon,Baldwin Wallace,Road,T
-12/30/2024,Baldwin Wallace,Carnegie Mellon,Home,T
-12/30/2024,Hartford,Nazareth,Road,T
-12/30/2024,Nazareth,Hartford,Home,T
-12/30/2024,Milwaukee Eng,DePauw,Road,T
-12/30/2024,DePauw,Milwaukee Eng,Home,T
-12/30/2024,Calvin,UW-Whitewater,Road,T
-12/30/2024,UW-Whitewater,Calvin,Home,T
-12/30/2024,Monmouth IL,Coe,Road,T
-12/30/2024,Coe,Monmouth IL,Home,T
-12/30/2024,Colby,Scranton,Neutral,T
-12/30/2024,Scranton,Colby,Neutral,T
-12/30/2024,St. Catherine,Buena Vista,Road,T
-12/30/2024,Buena Vista,St. Catherine,Home,T
-12/30/2024,Augsburg,Crown MN,Neutral,T
-12/30/2024,Crown MN,Augsburg,Neutral,T
-12/30/2024,Denison,Johns Hopkins,Neutral,T
-12/30/2024,Johns Hopkins,Denison,Neutral,T
-12/30/2024,Earlham,Wooster,Road,T
-12/30/2024,Wooster,Earlham,Home,T
-12/30/2024,Kenyon,Heidelberg,Road,T
-12/30/2024,Heidelberg,Kenyon,Home,T
-12/30/2024,Hendrix,Univ Ozarks,Road,T
-12/30/2024,Univ Ozarks,Hendrix,Home,T
-12/30/2024,Husson,Messiah,Neutral,T
-12/30/2024,Messiah,Husson,Neutral,T
-12/30/2024,Illinois Col,Marywood,Neutral,T
-12/30/2024,Marywood,Illinois Col,Neutral,T
-12/30/2024,Asbury,Spalding,Road,T
-12/30/2024,Spalding,Asbury,Home,T
-12/30/2024,King's PA,Juniata,Road,T
-12/30/2024,Juniata,King's PA,Home,T
-12/30/2024,Colby-Sawyer,Keene St.,Road,T
-12/30/2024,Keene St.,Colby-Sawyer,Home,T
-12/30/2024,Keystone,Rutgers-Newark,Road,T
-12/30/2024,Rutgers-Newark,Keystone,Home,T
-12/30/2024,Lake Forest,York PA,Neutral,T
-12/30/2024,York PA,Lake Forest,Neutral,T
-12/30/2024,Marian WI,UW-Oshkosh,Road,T
-12/30/2024,UW-Oshkosh,Marian WI,Home,T
-12/30/2024,Austin Col,Dallas Univ,Road,T
-12/30/2024,Dallas Univ,Austin Col,Home,T
-12/30/2024,Endicott,MIT,Road,T
-12/30/2024,MIT,Endicott,Home,T
-12/30/2024,Averett,Methodist,Road,T
-12/30/2024,Methodist,Averett,Home,T
-12/30/2024,CT College,Babson,Road,T
-12/30/2024,Babson,CT College,Home,T
-12/30/2024,Mt. Aloysius,UW-Stevens Point,Neutral,T
-12/30/2024,UW-Stevens Point,Mt. Aloysius,Neutral,T
-12/30/2024,Beloit,Mt. Mary,Road,T
-12/30/2024,Mt. Mary,Beloit,Home,T
-12/30/2024,Baruch,Coast Guard,Road,T
-12/30/2024,Coast Guard,Baruch,Home,T
-12/30/2024,NE Wesleyan,Northwestern MN,Road,T
-12/30/2024,Northwestern MN,NE Wesleyan,Home,T
-12/30/2024,Oberlin,Otterbein,Road,T
-12/30/2024,Otterbein,Oberlin,Home,T
-12/30/2024,Oglethorpe,Roanoke,Road,T
-12/30/2024,Roanoke,Oglethorpe,Home,T
-12/30/2024,PSU-Harrisburg,Alvernia,Road,T
-12/30/2024,Alvernia,PSU-Harrisburg,Home,T
-12/30/2024,Pitt-Greensburg,Thiel,Road,T
-12/30/2024,Thiel,Pitt-Greensburg,Home,T
-12/30/2024,Principia,Ohio Wesleyan,Road,T
-12/30/2024,Ohio Wesleyan,Principia,Home,T
-12/30/2024,Redlands,St. Vincent,Neutral,T
-12/30/2024,St. Vincent,Redlands,Neutral,T
-12/30/2024,Berea,Rhodes,Neutral,T
-12/30/2024,Rhodes,Berea,Neutral,T
-12/30/2024,Ripon,Trine,Neutral,T
-12/30/2024,Trine,Ripon,Neutral,T
-12/30/2024,Bethany Luth,Gustavus Adolphus,Road,T
-12/30/2024,Gustavus Adolphus,Bethany Luth,Home,T
-12/30/2024,Salisbury,Westminster PA,Neutral,T
-12/30/2024,Westminster PA,Salisbury,Neutral,T
-12/30/2024,Huntingdon,Sewanee,Road,T
-12/30/2024,Sewanee,Huntingdon,Home,T
-12/30/2024,Colorado Col,SUNY New Paltz,Neutral,T
-12/30/2024,SUNY New Paltz,Colorado Col,Neutral,T
-12/30/2024,Penn State-Behrend,Washington & Jefferson,Road,T
-12/30/2024,Washington & Jefferson,Penn State-Behrend,Home,T
-12/30/2024,Hiram,Waynesburg,Road,T
-12/30/2024,Waynesburg,Hiram,Home,T
-12/30/2024,Knox,Webster,Road,T
-12/30/2024,Webster,Knox,Home,T
-12/30/2024,Brooklyn Col,Whittier,Road,T
-12/30/2024,Whittier,Brooklyn Col,Home,T
-12/30/2024,UW-River Falls,Dubuque,Road,T
-12/30/2024,Dubuque,UW-River Falls,Home,T
-12/30/2024,Cal Lutheran,Wittenberg,Neutral,T
-12/30/2024,Wittenberg,Cal Lutheran,Neutral,T
-12/31/2024,Frank & Marsh,Drew,Road,T
-12/31/2024,Drew,Frank & Marsh,Home,T
-12/31/2024,Augsburg,Northwestern MN,Road,T
-12/31/2024,Northwestern MN,Augsburg,Home,T
-12/31/2024,Mary Hardin-Baylor,St. Thomas TX,Road,T
-12/31/2024,St. Thomas TX,Mary Hardin-Baylor,Home,T
-12/31/2024,Randolph Col,Methodist,Road,T
-12/31/2024,Methodist,Randolph Col,Home,T
-12/31/2024,Luther,Rockford,Road,T
-12/31/2024,Rockford,Luther,Home,T
-12/31/2024,Roger Williams,Smith,Road,T
-12/31/2024,Smith,Roger Williams,Home,T
-12/31/2024,UW-Stout,Bethel,Road,T
-12/31/2024,Bethel,UW-Stout,Home,T
-12/31/2024,Oswego St.,Wesleyan CT,Neutral,T
-12/31/2024,Wesleyan CT,Oswego St.,Neutral,T
-12/31/2024,Wilson,Goucher,Road,T
-12/31/2024,Goucher,Wilson,Home,T
-12/31/2024,Ohio Northern,Ohio Wesleyan,Road,T
-12/31/2024,Ohio Wesleyan,Ohio Northern,Home,T
-12/31/2024,Wheaton MA,Pomona-Pitzer,Road,T
-12/31/2024,Pomona-Pitzer,Wheaton MA,Home,T
-12/31/2024,Meredith,Salem NC,Road,T
-12/31/2024,Salem NC,Meredith,Home,T
-12/31/2024,Chatham,Franciscan OH,Road,T
-12/31/2024,Franciscan OH,Chatham,Home,T
-12/31/2024,Alfred,Gordon,Road,T
-12/31/2024,Gordon,Alfred,Home,T
-12/31/2024,MN Morris,St. Catherine,Road,T
-12/31/2024,St. Catherine,MN Morris,Home,T
-12/31/2024,Crown MN,NE Wesleyan,Neutral,T
-12/31/2024,NE Wesleyan,Crown MN,Neutral,T
-12/31/2024,Curry,J&W RI,Road,T
-12/31/2024,J&W RI,Curry,Home,T
-12/31/2024,N Central IL,Edgewood,Road,T
-12/31/2024,Edgewood,N Central IL,Home,T
-12/31/2024,Martin Luther,Hamline,Road,T
-12/31/2024,Hamline,Martin Luther,Home,T
-12/31/2024,Middlebury,Springfield,Road,T
-12/31/2024,Springfield,Middlebury,Home,T
-12/31/2024,Ithaca,Tufts,Neutral,T
-12/31/2024,Tufts,Ithaca,Neutral,T
-12/31/2024,UW-Platteville,Wartburg,Road,T
-12/31/2024,Wartburg,UW-Platteville,Home,T
+12/30/2024,Franklin,Centre,Neutral,W
+12/30/2024,Centre,Franklin,Neutral,L
+12/30/2024,Hamilton,Albion,Neutral,W
+12/30/2024,Albion,Hamilton,Neutral,L
+12/30/2024,Elizabethtown,Ursinus,Home,W
+12/30/2024,Ursinus,Elizabethtown,Road,L
+12/30/2024,Hunter,Elmira,Home,W
+12/30/2024,Elmira,Hunter,Road,L
+12/30/2024,Centenary NJ,Lancaster Bib,Home,W
+12/30/2024,Lancaster Bib,Centenary NJ,Road,L
+12/30/2024,Smith,Oswego St.,Home,W
+12/30/2024,Oswego St.,Smith,Road,L
+12/30/2024,PSU-Abington,Stockton,Home,W
+12/30/2024,Stockton,PSU-Abington,Road,L
+12/30/2024,Roger Williams,Wesleyan CT,Neutral,W
+12/30/2024,Wesleyan CT,Roger Williams,Neutral,L
+12/30/2024,Rensselaer,Castleton,Home,W
+12/30/2024,Castleton,Rensselaer,Road,L
+12/30/2024,Rowan,Delaware Val,Road,W
+12/30/2024,Delaware Val,Rowan,Home,L
+12/30/2024,Emmanuel,La Verne,Road,W
+12/30/2024,La Verne,Emmanuel,Home,L
+12/30/2024,Claremont-Mudd-Scripps,Wheaton MA,Home,W
+12/30/2024,Wheaton MA,Claremont-Mudd-Scripps,Road,L
+12/30/2024,St. Joseph's LI,John Jay,Home,W
+12/30/2024,John Jay,St. Joseph's LI,Road,L
+12/30/2024,Howard Payne,SW Univ TX,Home,W
+12/30/2024,SW Univ TX,Howard Payne,Road,L
+12/30/2024,Bethany WV,Kean,Neutral,W
+12/30/2024,Kean,Bethany WV,Neutral,L
+12/30/2024,Carthage,Luther,Home,W
+12/30/2024,Luther,Carthage,Road,L
+12/30/2024,Catholic,Vassar,Neutral,W
+12/30/2024,Vassar,Catholic,Neutral,L
+12/30/2024,Shenandoah,Montclair St.,Road,W
+12/30/2024,Montclair St.,Shenandoah,Home,L
+12/30/2024,Bowdoin,Emory,Neutral,W
+12/30/2024,Emory,Bowdoin,Neutral,L
+12/30/2024,Ferrum,Maryville TN,Neutral,W
+12/30/2024,Maryville TN,Ferrum,Neutral,L
+12/30/2024,Carroll,Benedictine IL,Road,W
+12/30/2024,Benedictine IL,Carroll,Home,L
+12/30/2024,WashU,Bridgewater MA,Neutral,W
+12/30/2024,Bridgewater MA,WashU,Neutral,L
+12/30/2024,Wisconsin Lutheran,UW-Platteville,Neutral,W
+12/30/2024,UW-Platteville,Wisconsin Lutheran,Neutral,L
+12/30/2024,Wm Paterson,St. Elizabeth,Neutral,W
+12/30/2024,St. Elizabeth,Wm Paterson,Neutral,L
+12/30/2024,Christopher Newport,Moravian,Road,W
+12/30/2024,Moravian,Christopher Newport,Home,L
+12/30/2024,Washington & Lee,Transylvania,Road,W
+12/30/2024,Transylvania,Washington & Lee,Home,L
+12/30/2024,UW-Eau Claire,Alma,Neutral,W
+12/30/2024,Alma,UW-Eau Claire,Neutral,L
+12/30/2024,WPI,Elms,Neutral,W
+12/30/2024,Elms,WPI,Neutral,L
+12/30/2024,Baldwin Wallace,Carnegie Mellon,Home,W
+12/30/2024,Carnegie Mellon,Baldwin Wallace,Road,L
+12/30/2024,Nazareth,Hartford,Home,W
+12/30/2024,Hartford,Nazareth,Road,L
+12/30/2024,DePauw,Milwaukee Eng,Home,W
+12/30/2024,Milwaukee Eng,DePauw,Road,L
+12/30/2024,Capital,Adrian,Neutral,W
+12/30/2024,Adrian,Capital,Neutral,L
+12/30/2024,Johns Hopkins,Denison,Neutral,W
+12/30/2024,Denison,Johns Hopkins,Neutral,L
+12/30/2024,Loras,Olivet MI,Neutral,W
+12/30/2024,Olivet MI,Loras,Neutral,L
+12/30/2024,UW-Oshkosh,Marian WI,Home,W
+12/30/2024,Marian WI,UW-Oshkosh,Road,L
+12/30/2024,Cal Lutheran,Wittenberg,Neutral,W
+12/30/2024,Wittenberg,Cal Lutheran,Neutral,L
+12/30/2024,Concordia Moorhead,Case Western,Neutral,W
+12/30/2024,Case Western,Concordia Moorhead,Neutral,L
+12/30/2024,UW-Whitewater,Calvin,Home,W
+12/30/2024,Calvin,UW-Whitewater,Road,L
+12/30/2024,Coe,Monmouth IL,Home,W
+12/30/2024,Monmouth IL,Coe,Road,L
+12/30/2024,Scranton,Colby,Neutral,W
+12/30/2024,Colby,Scranton,Neutral,L
+12/30/2024,St. Catherine,Buena Vista,Road,W
+12/30/2024,Buena Vista,St. Catherine,Home,L
+12/30/2024,Augsburg,Crown MN,Neutral,W
+12/30/2024,Crown MN,Augsburg,Neutral,L
+12/30/2024,Earlham,Wooster,Road,W
+12/30/2024,Wooster,Earlham,Home,L
+12/30/2024,Heidelberg,Kenyon,Home,W
+12/30/2024,Kenyon,Heidelberg,Road,L
+12/30/2024,Univ Ozarks,Hendrix,Home,W
+12/30/2024,Hendrix,Univ Ozarks,Road,L
+12/30/2024,Messiah,Husson,Neutral,W
+12/30/2024,Husson,Messiah,Neutral,L
+12/30/2024,Illinois Col,Marywood,Neutral,W
+12/30/2024,Marywood,Illinois Col,Neutral,L
+12/30/2024,Asbury,Spalding,Road,W
+12/30/2024,Spalding,Asbury,Home,L
+12/30/2024,Juniata,King's PA,Home,W
+12/30/2024,King's PA,Juniata,Road,L
+12/30/2024,Keene St.,Colby-Sawyer,Home,W
+12/30/2024,Colby-Sawyer,Keene St.,Road,L
+12/30/2024,Keystone,Rutgers-Newark,Road,W
+12/30/2024,Rutgers-Newark,Keystone,Home,L
+12/30/2024,York PA,Lake Forest,Neutral,W
+12/30/2024,Lake Forest,York PA,Neutral,L
+12/30/2024,Austin Col,Dallas Univ,Road,W
+12/30/2024,Dallas Univ,Austin Col,Home,L
+12/30/2024,Endicott,MIT,Road,W
+12/30/2024,MIT,Endicott,Home,L
+12/30/2024,Methodist,Averett,Home,W
+12/30/2024,Averett,Methodist,Road,L
+12/30/2024,Babson,CT College,Home,W
+12/30/2024,CT College,Babson,Road,L
+12/30/2024,UW-Stevens Point,Mt. Aloysius,Neutral,W
+12/30/2024,Mt. Aloysius,UW-Stevens Point,Neutral,L
+12/30/2024,Beloit,Mt. Mary,Road,W
+12/30/2024,Mt. Mary,Beloit,Home,L
+12/30/2024,Coast Guard,Baruch,Home,W
+12/30/2024,Baruch,Coast Guard,Road,L
+12/30/2024,Northwestern MN,NE Wesleyan,Home,W
+12/30/2024,NE Wesleyan,Northwestern MN,Road,L
+12/30/2024,Otterbein,Oberlin,Home,W
+12/30/2024,Oberlin,Otterbein,Road,L
+12/30/2024,Oglethorpe,Roanoke,Road,W
+12/30/2024,Roanoke,Oglethorpe,Home,L
+12/30/2024,PSU-Harrisburg,Alvernia,Road,W
+12/30/2024,Alvernia,PSU-Harrisburg,Home,L
+12/30/2024,Pitt-Greensburg,Thiel,Road,W
+12/30/2024,Thiel,Pitt-Greensburg,Home,L
+12/30/2024,Ohio Wesleyan,Principia,Home,W
+12/30/2024,Principia,Ohio Wesleyan,Road,L
+12/30/2024,Redlands,St. Vincent,Neutral,W
+12/30/2024,St. Vincent,Redlands,Neutral,L
+12/30/2024,Berea,Rhodes,Neutral,W
+12/30/2024,Rhodes,Berea,Neutral,L
+12/30/2024,Trine,Ripon,Neutral,W
+12/30/2024,Ripon,Trine,Neutral,L
+12/30/2024,Gustavus Adolphus,Bethany Luth,Home,W
+12/30/2024,Bethany Luth,Gustavus Adolphus,Road,L
+12/30/2024,Salisbury,Westminster PA,Neutral,W
+12/30/2024,Westminster PA,Salisbury,Neutral,L
+12/30/2024,Sewanee,Huntingdon,Home,W
+12/30/2024,Huntingdon,Sewanee,Road,L
+12/30/2024,Colorado Col,SUNY New Paltz,Neutral,W
+12/30/2024,SUNY New Paltz,Colorado Col,Neutral,L
+12/30/2024,Washington & Jefferson,Penn State-Behrend,Home,W
+12/30/2024,Penn State-Behrend,Washington & Jefferson,Road,L
+12/30/2024,Waynesburg,Hiram,Home,W
+12/30/2024,Hiram,Waynesburg,Road,L
+12/30/2024,Webster,Knox,Home,W
+12/30/2024,Knox,Webster,Road,L
+12/30/2024,Whittier,Brooklyn Col,Home,W
+12/30/2024,Brooklyn Col,Whittier,Road,L
+12/30/2024,UW-River Falls,Dubuque,Road,W
+12/30/2024,Dubuque,UW-River Falls,Home,L
+12/31/2024,Frank & Marsh,Drew,Road,W
+12/31/2024,Drew,Frank & Marsh,Home,L
+12/31/2024,Northwestern MN,Augsburg,Home,W
+12/31/2024,Augsburg,Northwestern MN,Road,L
+12/31/2024,Mary Hardin-Baylor,St. Thomas TX,Road,W
+12/31/2024,St. Thomas TX,Mary Hardin-Baylor,Home,L
+12/31/2024,Methodist,Randolph Col,Home,W
+12/31/2024,Randolph Col,Methodist,Road,L
+12/31/2024,Luther,Rockford,Road,W
+12/31/2024,Rockford,Luther,Home,L
+12/31/2024,Smith,Roger Williams,Home,W
+12/31/2024,Roger Williams,Smith,Road,L
+12/31/2024,UW-Stout,Bethel,Road,W
+12/31/2024,Bethel,UW-Stout,Home,L
+12/31/2024,Oswego St.,Wesleyan CT,Neutral,W
+12/31/2024,Wesleyan CT,Oswego St.,Neutral,L
+12/31/2024,Goucher,Wilson,Home,W
+12/31/2024,Wilson,Goucher,Road,L
+12/31/2024,Ohio Wesleyan,Ohio Northern,Home,W
+12/31/2024,Ohio Northern,Ohio Wesleyan,Road,L
+12/31/2024,Pomona-Pitzer,Wheaton MA,Home,W
+12/31/2024,Wheaton MA,Pomona-Pitzer,Road,L
+12/31/2024,Meredith,Salem NC,Road,W
+12/31/2024,Salem NC,Meredith,Home,L
+12/31/2024,King's PA,Westminster PA,Neutral,W
+12/31/2024,Westminster PA,King's PA,Neutral,L
+12/31/2024,Juniata,Salisbury,Home,W
+12/31/2024,Salisbury,Juniata,Road,L
+12/31/2024,Chatham,Franciscan OH,Road,W
+12/31/2024,Franciscan OH,Chatham,Home,L
+12/31/2024,Gordon,Alfred,Home,W
+12/31/2024,Alfred,Gordon,Road,L
+12/31/2024,St. Catherine,MN Morris,Home,W
+12/31/2024,MN Morris,St. Catherine,Road,L
+12/31/2024,NE Wesleyan,Crown MN,Neutral,W
+12/31/2024,Crown MN,NE Wesleyan,Neutral,L
+12/31/2024,J&W RI,Curry,Home,W
+12/31/2024,Curry,J&W RI,Road,L
+12/31/2024,Edgewood,N Central IL,Home,W
+12/31/2024,N Central IL,Edgewood,Road,L
+12/31/2024,Hamline,Martin Luther,Home,W
+12/31/2024,Martin Luther,Hamline,Road,L
+12/31/2024,Springfield,Middlebury,Home,W
+12/31/2024,Middlebury,Springfield,Road,L
+12/31/2024,Tufts,Ithaca,Neutral,W
+12/31/2024,Ithaca,Tufts,Neutral,L
+12/31/2024,Wartburg,UW-Platteville,Home,W
+12/31/2024,UW-Platteville,Wartburg,Road,L
 01/01/2025,Peace,Hollins,Road,T
 01/01/2025,Hollins,Peace,Home,T
 01/01/2025,Martin Luther,St. Olaf,Road,T

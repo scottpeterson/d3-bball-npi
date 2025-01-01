@@ -330,7 +330,7 @@ def save_simulation_stats(
                     f"{team_stats.alwyni:.1f}%",
                     f"{team_stats.tournament_pct:.1f}%",
                     f"{team_stats.median_rank:.1f}",
-                    f"{team_stats.min_rank:.1f}", 
+                    f"{team_stats.min_rank:.1f}",
                     f"{team_stats.max_rank:.1f}",
                     team_stats.rank,
                 ]
