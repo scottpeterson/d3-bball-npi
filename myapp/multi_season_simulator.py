@@ -6,6 +6,7 @@ import statistics
 import time
 from collections import defaultdict
 from .load_teams import load_teams
+from .bid_thieves import analyze_tournament_bid_thieves 
 from .simulation import (
     load_efficiency_data,
     simulate_full_season,
@@ -64,7 +65,7 @@ class TeamSimResult:
 
 def run_single_simulation(
     base_path: Path, year: str, sim_number: int
-) -> Dict[str, TeamSimResult]:
+) -> Tuple[Dict[str, TeamSimResult], List[str]]:
     """Run a single season simulation and process results."""
     results = {}
 
@@ -120,6 +121,18 @@ def run_single_simulation(
             ):
                 auto_bid_recipients.add(team_id)
 
+        # Filter tournament games from season_results
+        tournament_games = [game for game in season_results if game["date"] >= "20250302"]
+        conference_champions = get_conference_champions(season_results, conference_teams)
+        
+        # Analyze bid thieves
+        bid_thieves, _ = analyze_tournament_bid_thieves(
+            tournament_games,
+            conference_champions,
+            conference_teams,
+            final_teams,
+            auto_bid_recipients
+        )
         # Now process all teams for complete results
         for team_id, team_stats in final_teams.items():
             if not team_stats["has_games"]:
@@ -151,7 +164,7 @@ def run_single_simulation(
                 made_tournament=got_auto_bid or got_at_large,
             )
 
-        return results
+        return results, bid_thieves
 
     except Exception as e:
         print(f"Error in simulation {sim_number}: {e}")
@@ -218,42 +231,41 @@ def calculate_team_stats(
 
 def run_multiple_simulations(
     base_path: Path, year: str, num_sims: int = 1000
-) -> Dict[str, TeamStats]:
-    """Run multiple season simulations and compile statistics."""
+) -> Tuple[Dict[str, TeamStats], Dict[str, int], List[int]]:
     all_results = defaultdict(list)
+    bid_thief_counts = defaultdict(int)
+    per_sim_bid_count = []  # Just store count per sim
     total_start_time = time.time()
 
     for sim_number in range(1, num_sims + 1):
         try:
             sim_start_time = time.time()
             print(f"\nStarting simulation {sim_number}")
-
-            # Add progress indicators for each major step
             print("  Running season simulation...", flush=True)
-            sim_results = run_single_simulation(base_path, year, sim_number)
-
+            
+            sim_results, sim_bid_thieves = run_single_simulation(base_path, year, sim_number)
             print("  Processing results...", flush=True)
-            # Collect results for each team
+            
             for team_id, result in sim_results.items():
                 all_results[team_id].append(result)
+            for team_id in sim_bid_thieves:
+                bid_thief_counts[team_id] += 1
+                
+            per_sim_bid_count.append(len(sim_bid_thieves))
 
-            sim_end_time = time.time()
-            sim_duration = sim_end_time - sim_start_time
+            sim_duration = time.time() - sim_start_time
             print(f"Completed simulation {sim_number} in {sim_duration:.2f} seconds")
 
         except Exception as e:
             print(f"Error in simulation {sim_number}:")
             print(f"  {str(e)}")
-            print("Continuing with next simulation...")
             continue
 
-    total_end_time = time.time()
-    total_duration = total_end_time - total_start_time
+    total_duration = time.time() - total_start_time
     print(f"\nAll simulations completed in {total_duration:.2f} seconds")
     print(f"Average time per simulation: {total_duration/num_sims:.2f} seconds")
 
-    # Calculate final statistics
-    return calculate_team_stats(all_results)
+    return calculate_team_stats(all_results), bid_thief_counts, per_sim_bid_count
 
 
 def save_simulation_stats(

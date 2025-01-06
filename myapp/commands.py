@@ -36,12 +36,41 @@ def run_multiple_simulations_command():
             save_simulation_stats,
             load_conference_data,
         )
+        # Load team mappings
+        teams_mapping = {}
+        mapping_path = base_path / year / "teams_mapping.txt"
+        with open(mapping_path, "r") as file:
+            next(file)  # Skip header
+            for line in file:
+                parts = line.strip().split(",")
+                if len(parts) >= 3:
+                    team_id = parts[0].strip()
+                    scott_name = parts[2].strip()
+                    teams_mapping[team_id] = scott_name
 
         # Load conference data
         conference_teams = load_conference_data(base_path, year)
 
-        stats = run_multiple_simulations(base_path, year, NUM_SIMULATIONS)
+        stats, bid_thief_counts, per_sim_bid_thieves = run_multiple_simulations(base_path, year, NUM_SIMULATIONS)
         save_simulation_stats(stats, base_path, year, conference_teams)
+
+        # Save bid thief stats
+        bid_thief_path = base_path / year / "bid_thieves.csv"
+        with open(bid_thief_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Team", "Bid Thief Count", "Percentage"])
+            for team_id, count in sorted(bid_thief_counts.items(), key=lambda x: x[1], reverse=True):
+                team_name = teams_mapping.get(team_id, team_id)  # Fallback to ID if mapping not found
+                percentage = (count / NUM_SIMULATIONS) * 100
+                writer.writerow([team_name, count, f"{percentage:.1f}%"])
+        print("Bid thief statistics have been saved to bid_thieves.csv")
+
+        bid_thief_details_path = base_path / year / "bid_thieves_per_sim.csv"
+        with open(bid_thief_details_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Simulation", "Bid Thief Count"])
+            for sim_num, count in enumerate(per_sim_bid_thieves, 1):
+                writer.writerow([sim_num, count])
 
         print("\nSimulation statistics have been saved to simulation_stats.csv")
 
@@ -75,8 +104,8 @@ def run_simulate_season():
 
 def run_predict_game():
     # Hardcoded values
-    team_a_id = "410"
-    team_b_id = "412"
+    team_a_id = "162"
+    team_b_id = "262"
     year = "2025"
 
     base_path = Path(__file__).parent / "data"
