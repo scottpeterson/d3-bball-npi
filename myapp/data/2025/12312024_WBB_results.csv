@@ -4465,156 +4465,156 @@ Date,Team A,Team B,Home/Away,Result
 01/04/2025,PSU-Berks,Bryn Athyn,Road,L
 01/04/2025,Luther,Buena Vista,Home,W
 01/04/2025,Buena Vista,Luther,Road,L
-01/05/2025,Hunter,Merchant Marine,Road,T
-01/05/2025,Merchant Marine,Hunter,Home,T
-01/05/2025,Trinity (Conn),Rhode Island College,Road,T
-01/05/2025,Rhode Island College,Trinity (Conn),Home,T
-01/05/2025,Wheaton MA,Bates,Road,T
-01/05/2025,Bates,Wheaton MA,Home,T
-01/05/2025,Hendrix,Howard Payne,Neutral,T
-01/05/2025,Howard Payne,Hendrix,Neutral,T
-01/05/2025,Haverford,Christopher Newport,Road,T
-01/05/2025,Christopher Newport,Haverford,Home,T
-01/05/2025,Colby,Wellesley,Road,T
-01/05/2025,Wellesley,Colby,Home,T
-01/05/2025,UC Santa Cruz,East Texas Baptist,Road,T
-01/05/2025,East Texas Baptist,UC Santa Cruz,Home,T
-01/05/2025,Emory,Oglethorpe,Road,T
-01/05/2025,Oglethorpe,Emory,Home,T
-01/05/2025,Tufts,Skidmore,Road,T
-01/05/2025,Skidmore,Tufts,Home,T
-01/05/2025,VA Wesleyan,Washington & Lee,Road,T
-01/05/2025,Washington & Lee,VA Wesleyan,Home,T
-01/06/2025,Mary Hardin-Baylor,Concordia TX,Road,T
-01/06/2025,Concordia TX,Mary Hardin-Baylor,Home,T
+01/05/2025,Merchant Marine,Hunter,Home,W
+01/05/2025,Hunter,Merchant Marine,Road,L
+01/05/2025,Rhode Island College,Trinity (Conn),Home,W
+01/05/2025,Trinity (Conn),Rhode Island College,Road,L
+01/05/2025,Bates,Wheaton MA,Home,W
+01/05/2025,Wheaton MA,Bates,Road,L
+01/05/2025,Hendrix,Howard Payne,Neutral,W
+01/05/2025,Howard Payne,Hendrix,Neutral,L
+01/05/2025,Christopher Newport,Haverford,Home,W
+01/05/2025,Haverford,Christopher Newport,Road,L
+01/05/2025,Colby,Wellesley,Road,W
+01/05/2025,Wellesley,Colby,Home,L
+01/05/2025,East Texas Baptist,UC Santa Cruz,Home,W
+01/05/2025,UC Santa Cruz,East Texas Baptist,Road,L
+01/05/2025,Emory,Oglethorpe,Road,W
+01/05/2025,Oglethorpe,Emory,Home,L
+01/05/2025,Tufts,Skidmore,Road,W
+01/05/2025,Skidmore,Tufts,Home,L
+01/05/2025,Washington & Lee,VA Wesleyan,Home,W
+01/05/2025,VA Wesleyan,Washington & Lee,Road,L
+01/06/2025,Mary Hardin-Baylor,Concordia TX,Road,W
+01/06/2025,Concordia TX,Mary Hardin-Baylor,Home,L
 01/06/2025,Kenyon,Anderson IN,Road,T
 01/06/2025,Anderson IN,Kenyon,Home,T
-01/06/2025,Schreiner,Trinity (Texas),Road,T
-01/06/2025,Trinity (Texas),Schreiner,Home,T
-01/06/2025,Worcester St,Brandeis,Road,T
-01/06/2025,Brandeis,Worcester St,Home,T
-01/06/2025,Wesleyan CT,John Jay,Road,T
-01/06/2025,John Jay,Wesleyan CT,Home,T
-01/06/2025,Rutgers-Camden,Drew,Road,T
-01/06/2025,Drew,Rutgers-Camden,Home,T
-01/06/2025,SUNY Cobleskill,Thomas ME,Road,T
-01/06/2025,Thomas ME,SUNY Cobleskill,Home,T
-01/06/2025,St. Lawrence,Clarkson,Road,T
-01/06/2025,Clarkson,St. Lawrence,Home,T
-01/06/2025,Allegheny,Grove City,Road,T
-01/06/2025,Grove City,Allegheny,Home,T
-01/06/2025,Heidelberg,Wooster,Road,T
-01/06/2025,Wooster,Heidelberg,Home,T
-01/06/2025,NVU-Lyndon,Husson,Road,T
-01/06/2025,Husson,NVU-Lyndon,Home,T
-01/06/2025,NVU-Johnson,ME Maritime,Road,T
-01/06/2025,ME Maritime,NVU-Johnson,Home,T
-01/06/2025,Benedictine IL,Mt. Mary,Road,T
-01/06/2025,Mt. Mary,Benedictine IL,Home,T
+01/06/2025,Trinity (Texas),Schreiner,Home,W
+01/06/2025,Schreiner,Trinity (Texas),Road,L
+01/06/2025,Brandeis,Worcester St,Home,W
+01/06/2025,Worcester St,Brandeis,Road,L
+01/06/2025,Wesleyan CT,John Jay,Road,W
+01/06/2025,John Jay,Wesleyan CT,Home,L
+01/06/2025,Drew,Rutgers-Camden,Home,W
+01/06/2025,Rutgers-Camden,Drew,Road,L
+01/06/2025,SUNY Cobleskill,Thomas ME,Road,W
+01/06/2025,Thomas ME,SUNY Cobleskill,Home,L
+01/06/2025,St. Lawrence,Clarkson,Road,W
+01/06/2025,Clarkson,St. Lawrence,Home,L
+01/06/2025,Allegheny,Grove City,Road,W
+01/06/2025,Grove City,Allegheny,Home,L
+01/06/2025,Wooster,Heidelberg,Home,W
+01/06/2025,Heidelberg,Wooster,Road,L
+01/06/2025,Husson,NVU-Lyndon,Home,W
+01/06/2025,NVU-Lyndon,Husson,Road,L
+01/06/2025,ME Maritime,NVU-Johnson,Home,W
+01/06/2025,NVU-Johnson,ME Maritime,Road,L
+01/06/2025,Benedictine IL,Mt. Mary,Road,W
+01/06/2025,Mt. Mary,Benedictine IL,Home,L
 01/06/2025,Washington MD,Notre Dame MD,Road,T
 01/06/2025,Notre Dame MD,Washington MD,Home,T
 01/06/2025,PSU-Harrisburg,Lancaster Bib,Road,T
 01/06/2025,Lancaster Bib,PSU-Harrisburg,Home,T
 01/06/2025,PSU-Berks,Penn Col Tech,Road,T
 01/06/2025,Penn Col Tech,PSU-Berks,Home,T
-01/06/2025,SUNY Delhi,ME Farmington,Road,T
-01/06/2025,ME Farmington,SUNY Delhi,Home,T
-01/06/2025,WPI,Williams,Road,T
-01/06/2025,Williams,WPI,Home,T
-01/07/2025,Hartwick,Elmira,Road,T
-01/07/2025,Elmira,Hartwick,Home,T
-01/07/2025,Smith,Hamilton,Road,T
-01/07/2025,Hamilton,Smith,Home,T
-01/07/2025,Huntingdon,Agnes Scott,Road,T
-01/07/2025,Agnes Scott,Huntingdon,Home,T
-01/07/2025,Lesley,ME Presque Isle,Road,T
-01/07/2025,ME Presque Isle,Lesley,Home,T
-01/07/2025,Regis MA,St. Joseph's ME,Road,T
-01/07/2025,St. Joseph's ME,Regis MA,Home,T
-01/07/2025,Roger Williams,W New England,Road,T
-01/07/2025,W New England,Roger Williams,Home,T
-01/07/2025,Brockport St.,Utica,Road,T
-01/07/2025,Utica,Brockport St.,Home,T
-01/07/2025,Manhattanville,Old Westbury,Road,T
-01/07/2025,Old Westbury,Manhattanville,Home,T
-01/07/2025,Bard,Union NY,Road,T
-01/07/2025,Union NY,Bard,Home,T
-01/07/2025,Gordon,Suffolk,Road,T
-01/07/2025,Suffolk,Gordon,Home,T
-01/07/2025,Hartford,Nichols,Road,T
-01/07/2025,Nichols,Hartford,Home,T
-01/07/2025,Albertus Magnus,Dean,Road,T
-01/07/2025,Dean,Albertus Magnus,Home,T
-01/07/2025,St. Joseph CT,N England Col,Road,T
-01/07/2025,N England Col,St. Joseph CT,Home,T
-01/07/2025,Morrisville St.,Buffalo St.,Road,T
-01/07/2025,Buffalo St.,Morrisville St.,Home,T
-01/07/2025,Meredith,Methodist,Road,T
-01/07/2025,Methodist,Meredith,Home,T
-01/07/2025,SUNY Cobleskill,ME Farmington,Road,T
-01/07/2025,ME Farmington,SUNY Cobleskill,Home,T
-01/07/2025,Coast Guard,Merchant Marine,Road,T
-01/07/2025,Merchant Marine,Coast Guard,Home,T
-01/07/2025,Hardin-Simmons,Trinity (Texas),Road,T
-01/07/2025,Trinity (Texas),Hardin-Simmons,Home,T
-01/07/2025,St. John Fisher,Alfred,Road,T
-01/07/2025,Alfred,St. John Fisher,Home,T
-01/07/2025,Cortland,SUNY Fredonia,Road,T
-01/07/2025,SUNY Fredonia,Cortland,Home,T
+01/06/2025,ME Farmington,SUNY Delhi,Home,W
+01/06/2025,SUNY Delhi,ME Farmington,Road,L
+01/06/2025,Williams,WPI,Home,W
+01/06/2025,WPI,Williams,Road,L
+01/07/2025,Elmira,Hartwick,Home,W
+01/07/2025,Hartwick,Elmira,Road,L
+01/07/2025,Smith,Hamilton,Road,W
+01/07/2025,Hamilton,Smith,Home,L
+01/07/2025,Huntingdon,Agnes Scott,Road,W
+01/07/2025,Agnes Scott,Huntingdon,Home,L
+01/07/2025,ME Presque Isle,Lesley,Home,W
+01/07/2025,Lesley,ME Presque Isle,Road,L
+01/07/2025,St. Joseph's ME,Regis MA,Home,W
+01/07/2025,Regis MA,St. Joseph's ME,Road,L
+01/07/2025,W New England,Roger Williams,Home,W
+01/07/2025,Roger Williams,W New England,Road,L
+01/07/2025,Brockport St.,Utica,Road,W
+01/07/2025,Utica,Brockport St.,Home,L
+01/07/2025,Manhattanville,Old Westbury,Road,W
+01/07/2025,Old Westbury,Manhattanville,Home,L
+01/07/2025,Union NY,Bard,Home,W
+01/07/2025,Bard,Union NY,Road,L
+01/07/2025,Gordon,Suffolk,Road,W
+01/07/2025,Suffolk,Gordon,Home,L
+01/07/2025,Hartford,Nichols,Road,W
+01/07/2025,Nichols,Hartford,Home,L
+01/07/2025,Albertus Magnus,Dean,Road,W
+01/07/2025,Dean,Albertus Magnus,Home,L
+01/07/2025,St. Joseph CT,N England Col,Road,W
+01/07/2025,N England Col,St. Joseph CT,Home,L
+01/07/2025,Buffalo St.,Morrisville St.,Home,W
+01/07/2025,Morrisville St.,Buffalo St.,Road,L
+01/07/2025,Methodist,Meredith,Home,W
+01/07/2025,Meredith,Methodist,Road,L
+01/07/2025,SUNY Cobleskill,ME Farmington,Road,W
+01/07/2025,ME Farmington,SUNY Cobleskill,Home,L
+01/07/2025,Merchant Marine,Coast Guard,Home,W
+01/07/2025,Coast Guard,Merchant Marine,Road,L
+01/07/2025,Hardin-Simmons,Trinity (Texas),Road,W
+01/07/2025,Trinity (Texas),Hardin-Simmons,Home,L
+01/07/2025,Middlebury,MIT,Home,W
+01/07/2025,MIT,Middlebury,Road,L
+01/07/2025,St. John Fisher,Alfred,Road,W
+01/07/2025,Alfred,St. John Fisher,Home,L
+01/07/2025,Cortland,SUNY Fredonia,Road,W
+01/07/2025,SUNY Fredonia,Cortland,Home,L
 01/07/2025,Covenant,Asbury,Road,T
 01/07/2025,Asbury,Covenant,Home,T
-01/07/2025,Curry,Wentworth Tech,Road,T
-01/07/2025,Wentworth Tech,Curry,Home,T
-01/07/2025,Geneseo St.,SUNYIT,Road,T
-01/07/2025,SUNYIT,Geneseo St.,Home,T
-01/07/2025,NC Wesleyan,Greensboro,Road,T
-01/07/2025,Greensboro,NC Wesleyan,Home,T
-01/07/2025,Nazareth,Houghton,Road,T
-01/07/2025,Houghton,Nazareth,Home,T
-01/07/2025,NVU-Johnson,Husson,Road,T
-01/07/2025,Husson,NVU-Johnson,Home,T
-01/07/2025,Emmanuel,J&W RI,Road,T
-01/07/2025,J&W RI,Emmanuel,Home,T
-01/07/2025,Sage,Keuka,Road,T
-01/07/2025,Keuka,Sage,Home,T
-01/07/2025,LaGrange,Belhaven MS,Road,T
-01/07/2025,Belhaven MS,LaGrange,Home,T
-01/07/2025,Lasell,Colby-Sawyer,Road,T
-01/07/2025,Colby-Sawyer,Lasell,Home,T
-01/07/2025,NVU-Lyndon,ME Maritime,Road,T
-01/07/2025,ME Maritime,NVU-Lyndon,Home,T
-01/07/2025,MIT,Middlebury,Road,T
-01/07/2025,Middlebury,MIT,Home,T
-01/07/2025,Babson,Bates,Road,T
-01/07/2025,Bates,Babson,Home,T
-01/07/2025,Mt. St. Vincent,Mt. St. Mary,Road,T
-01/07/2025,Mt. St. Mary,Mt. St. Vincent,Home,T
-01/07/2025,Anna Maria,Norwich,Road,T
-01/07/2025,Norwich,Anna Maria,Home,T
-01/07/2025,George Fox,Pacific,Road,T
-01/07/2025,Pacific,George Fox,Home,T
-01/07/2025,S Virginia,Pfeiffer,Road,T
-01/07/2025,Pfeiffer,S Virginia,Home,T
-01/07/2025,Sarah Lawrence,Purchase,Road,T
-01/07/2025,Purchase,Sarah Lawrence,Home,T
-01/07/2025,Elms,Rivier,Road,T
-01/07/2025,Rivier,Elms,Home,T
-01/07/2025,Rochester Tech,Rochester,Road,T
-01/07/2025,Rochester,Rochester Tech,Home,T
-01/07/2025,Salem NC,Peace,Road,T
-01/07/2025,Peace,Salem NC,Home,T
-01/07/2025,SUNY Delhi,Thomas ME,Road,T
-01/07/2025,Thomas ME,SUNY Delhi,Home,T
-01/07/2025,SUNY Oneonta,SUNY Canton,Road,T
-01/07/2025,SUNY Canton,SUNY Oneonta,Home,T
-01/07/2025,St. Joseph's LI,Farmingdale,Road,T
-01/07/2025,Farmingdale,St. Joseph's LI,Home,T
-01/07/2025,SUNY New Paltz,Oswego St.,Road,T
-01/07/2025,Oswego St.,SUNY New Paltz,Home,T
-01/07/2025,U New England,Endicott,Road,T
-01/07/2025,Endicott,U New England,Home,T
-01/07/2025,Wesleyan GA,Maryville TN,Road,T
-01/07/2025,Maryville TN,Wesleyan GA,Home,T
+01/07/2025,Curry,Wentworth Tech,Road,W
+01/07/2025,Wentworth Tech,Curry,Home,L
+01/07/2025,Geneseo St.,SUNYIT,Road,W
+01/07/2025,SUNYIT,Geneseo St.,Home,L
+01/07/2025,NC Wesleyan,Greensboro,Road,W
+01/07/2025,Greensboro,NC Wesleyan,Home,L
+01/07/2025,Nazareth,Houghton,Road,W
+01/07/2025,Houghton,Nazareth,Home,L
+01/07/2025,Husson,NVU-Johnson,Home,W
+01/07/2025,NVU-Johnson,Husson,Road,L
+01/07/2025,J&W RI,Emmanuel,Home,W
+01/07/2025,Emmanuel,J&W RI,Road,L
+01/07/2025,Sage,Keuka,Road,W
+01/07/2025,Keuka,Sage,Home,L
+01/07/2025,LaGrange,Belhaven MS,Road,W
+01/07/2025,Belhaven MS,LaGrange,Home,L
+01/07/2025,Lasell,Colby-Sawyer,Road,W
+01/07/2025,Colby-Sawyer,Lasell,Home,L
+01/07/2025,ME Maritime,NVU-Lyndon,Home,W
+01/07/2025,NVU-Lyndon,ME Maritime,Road,L
+01/07/2025,Bates,Babson,Home,W
+01/07/2025,Babson,Bates,Road,L
+01/07/2025,Mt. St. Mary,Mt. St. Vincent,Home,W
+01/07/2025,Mt. St. Vincent,Mt. St. Mary,Road,L
+01/07/2025,Anna Maria,Norwich,Road,W
+01/07/2025,Norwich,Anna Maria,Home,L
+01/07/2025,George Fox,Pacific,Road,W
+01/07/2025,Pacific,George Fox,Home,L
+01/07/2025,S Virginia,Pfeiffer,Road,W
+01/07/2025,Pfeiffer,S Virginia,Home,L
+01/07/2025,Sarah Lawrence,Purchase,Road,W
+01/07/2025,Purchase,Sarah Lawrence,Home,L
+01/07/2025,Rivier,Elms,Home,W
+01/07/2025,Elms,Rivier,Road,L
+01/07/2025,Rochester,Rochester Tech,Home,W
+01/07/2025,Rochester Tech,Rochester,Road,L
+01/07/2025,Peace,Salem NC,Home,W
+01/07/2025,Salem NC,Peace,Road,L
+01/07/2025,Thomas ME,SUNY Delhi,Home,W
+01/07/2025,SUNY Delhi,Thomas ME,Road,L
+01/07/2025,SUNY Canton,SUNY Oneonta,Home,W
+01/07/2025,SUNY Oneonta,SUNY Canton,Road,L
+01/07/2025,St. Joseph's LI,Farmingdale,Road,W
+01/07/2025,Farmingdale,St. Joseph's LI,Home,L
+01/07/2025,SUNY New Paltz,Oswego St.,Road,W
+01/07/2025,Oswego St.,SUNY New Paltz,Home,L
+01/07/2025,Endicott,U New England,Home,W
+01/07/2025,U New England,Endicott,Road,L
+01/07/2025,Maryville TN,Wesleyan GA,Home,W
+01/07/2025,Wesleyan GA,Maryville TN,Road,L
 01/08/2025,Albion,Olivet MI,Road,T
 01/08/2025,Olivet MI,Albion,Home,T
 01/08/2025,Trine,Alma,Road,T
@@ -4851,6 +4851,12 @@ Date,Team A,Team B,Home/Away,Result
 01/09/2025,Mt. Holyoke,Colby-Sawyer,Home,T
 01/09/2025,Wellesley,Dean,Road,T
 01/09/2025,Dean,Wellesley,Home,T
+01/09/2025,LaGrange,Covenant,Road,T
+01/09/2025,Covenant,LaGrange,Home,T
+01/09/2025,Huntingdon,Piedmont,Road,T
+01/09/2025,Piedmont,Huntingdon,Home,T
+01/09/2025,Old Westbury,Mt. St. Vincent,Road,T
+01/09/2025,Mt. St. Vincent,Old Westbury,Home,T
 01/09/2025,Fontbonne,Lyon,Road,T
 01/09/2025,Lyon,Fontbonne,Home,T
 01/09/2025,Principia,MS Women,Road,T
