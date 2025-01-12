@@ -33,395 +33,391 @@ Massey_id,Massey_Name,Scott_Name
 32, Bethany_Luth,Bethany Luth
 33, Bethany_WV,Bethany WV
 34, Bethel_MN,Bethel
-35, Birmingham_So,Birmingham So
-36, Blackburn,Blackburn
-37, Bluffton,Bluffton
-39, Bowdoin,Bowdoin
-40, Brandeis,Brandeis
-41, Brevard,Brevard
-42, Bridgewater_MA,Bridgewater MA
-43, Bridgewater_VA,Bridgewater (VA)
-44, Brockport_St,Brockport St.
-45, Brooklyn_Col,Brooklyn Col
-46, Bryn_Athyn,Bryn Athyn
-47, Bryn_Mawr,Bryn Mawr
-48, Buena_Vista,Buena Vista
-49, Buffalo_St,Buffalo St.
-50, Cairn,Cairn
-51, Cal_Lutheran,Cal Lutheran
-52, Caltech,Caltech
-53, Calvin,Calvin
-54, Capital,Capital
-55, Carleton_MN,Carleton
-57, Carnegie_Mellon,Carnegie Mellon
-58, Carroll_WI,Carroll
-59, Carthage,Carthage
-60, Case_Western,Case Western
-61, Castleton,Castleton
-62, Catholic,Catholic
-63, Cedar_Crest,Cedar Crest
-64, Centenary,Centenary
-65, Centenary_NJ,Centenary NJ
-66, Central_IA,Central IA
-67, Centre,Centre
-68, Chapman,Chapman
-69, Chatham,Chatham
-70, Chicago,Chicago
-71, Chris_Newport,Christopher Newport
-72, City_Col_NY,City Col NY
-73, Claremont_M.S.,Claremont-Mudd-Scripps
-74, Clark_MA,Clark MA
-75, Clarkson,Clarkson
-76, Coast_Guard,Coast Guard
-77, Coe,Coe
-78, Colby,Colby
-79, Colby-Sawyer,Colby-Sawyer
-80, College_of_NJ,TCNJ
-81, Colorado_Col,Colorado Col
-82, Concordia_IL,Concordia IL
-83, Concordia_Mhd,Concordia Moorhead
-84, Concordia_TX,Concordia TX
-85, Concordia_WI,Concordia WI
-86, Cornell_IA,Cornell IA
-87, Cortland_St,Cortland
-88, Covenant,Covenant
-89, Crown_MN,Crown MN
-90, CT_College,CT College
-91, Curry,Curry
-92, Dallas_Univ,Dallas Univ
-93, Dean,Dean
-94, Delaware_Val,Delaware Val
-95, Denison,Denison
-96, DePauw,DePauw
-97, DeSales,DeSales
-98, Dickinson,Dickinson
-99, Dominican_IL,Dominican IL
-100, Drew,Drew
-101, Dubuque,Dubuque
-102, E_Connecticut,Eastern Connecticut
-103, E_Mennonite,E Mennonite
-104, E_Nazarene,E Nazarene
-105, E_Texas_Bap,East Texas Baptist
-106, Earlham,Earlham
-107, Eastern_Univ,Eastern Univ
-108, Edgewood,Edgewood
-109, Elizabethtown,Elizabethtown
-110, Elmhurst,Elmhurst
-111, Elmira,Elmira
-112, Elms,Elms
-113, Emerson,Emerson
-114, Emmanuel_MA,Emmanuel
-115, Emory,Emory
-116, Endicott,Endicott
-117, Eureka,Eureka
-118, Farmingdale,Farmingdale
-119, FDU_Madison,FDU Madison
-120, Ferrum,Ferrum
-121, Fitchburg_St,Fitchburg St.
-122, Fontbonne,Fontbonne
-123, Framingham_St,Framingham St.
-124, Franciscan_OH,Franciscan OH
-125, Frank_&_Marsh,Frank & Marsh
-126, Franklin,Franklin
-127, Gallaudet,Gallaudet
-128, Geneseo_St,Geneseo St.
-129, Geneva,Geneva
-130, George_Fox,George Fox
-131, Gettysburg,Gettysburg
-132, Gordon,Gordon
-133, Goucher,Goucher
-134, Greensboro,Greensboro
-135, Greenville,Greenville
-136, Grinnell,Grinnell
-137, Grove_City,Grove City
-138, Guilford,Guilford
-139, Gust_Adolphus,Gustavus Adolphus
-140, Gwynedd-Mercy,Gwynedd-Mercy
-141, Hamilton,Hamilton
-142, Hamline,Hamline
-143, Hanover,Hanover
-144, Hardin-Simmons,Hardin-Simmons
-145, Hartford,Hartford
-146, Hartwick,Hartwick
-147, Haverford,Haverford
-148, Heidelberg,Heidelberg
-149, Hendrix,Hendrix
-150, Hilbert,Hilbert
-151, Hiram,Hiram
-152, Hobart_&_Smith,Hobart & Smith
-153, Hollins,Hollins
-154, Hood,Hood
-155, Hope,Hope
-156, Houghton,Houghton
-157, Howard_Payne,Howard Payne
-158, Hunter,Hunter
-159, Huntingdon,Huntingdon
-160, Husson,Husson
-161, IL_Tech,IL Tech
-162, IL_Wesleyan,Illinois Wesleyan
-163, Illinois_Col,Illinois Col
-164, Immaculata,Immaculata
-165, Ithaca,Ithaca
-166, J&W_RI,J&W RI
-167, John_Carroll,John Carroll
-168, John_Jay,John Jay
-169, Johns_Hopkins,Johns Hopkins
-170, Juniata,Juniata
-171, Kalamazoo,Kalamazoo
-172, Kean,Kean
-173, Keene_St,Keene St.
-174, Kenyon,Kenyon
-175, Keuka,Keuka
-176, Keystone,Keystone
-177, King's_PA,King's PA
-178, Knox,Knox
-179, La_Roche,La Roche
-180, La_Verne,La Verne
-181, LaGrange,LaGrange
-182, Lake_Forest,Lake Forest
-183, Lakeland,Lakeland
-184, Lancaster_Bib,Lancaster Bib
-185, Lasell,Lasell
-186, Lawrence,Lawrence
-187, Le_Tourneau,LeTourneau
-188, Lebanon_Val,Lebanon Val
-189, Lehman,Lehman
-190, Lesley,Lesley
-191, Lewis_&_Clark,Lewis & Clark
-192, Linfield,Linfield
-193, Loras,Loras
-194, Luther_IA,Luther
-195, Lycoming,Lycoming
-196, Lynchburg,Lynchburg
-197, Lyon,Lyon
-198, M_Hardin-Baylor,Mary Hardin-Baylor
-199, MA_Boston,MA Boston
-200, MA_Col_Lib_Arts,MA Col Lib Arts
-201, MA_Dartmouth,MA Dartmouth
-202, Macalester,Macalester
-203, Manchester,Manchester
-204, Manhattanville,Manhattanville
-205, Maranatha_Bap,Maranatha Bap
-206, Marian_WI,Marian WI
-207, Marietta,Marietta
-208, Martin_Luther,Martin Luther
-209, Mary_Baldwin,Mary Baldwin
-210, Mary_Washington,Mary Washington
-211, Marymount_VA,Marymount
-212, Maryville_TN,Maryville TN
-213, Marywood,Marywood
-214, McDaniel,McDaniel
-215, McMurry,McMurry
-216, ME_Farmington,ME Farmington
-217, ME_Maritime,ME Maritime
-218, ME_Presque_Isle,ME Presque Isle
-219, Medgar_Evers,Medgar Evers
-220, Merchant_Marine,Merchant Marine
-221, Meredith,Meredith
-222, Messiah,Messiah
-223, Methodist,Methodist
-224, Middlebury,Middlebury
-225, Millikin,Millikin
-226, Millsaps,Millsaps
-227, Milwaukee_Eng,Milwaukee Eng
-228, Misericordia,Misericordia
-229, MIT,MIT
-230, Mitchell,Mitchell
-231, MN_Morris,MN Morris
-232, Monmouth_IL,Monmouth IL
-233, Montclair_St,Montclair St.
-234, Moravian,Moravian
-235, Morrisville_St,Morrisville St.
-236, MS_Women,MS Women
-237, Mt_Aloysius,Mt. Aloysius
-238, Mt_Holyoke,Mt. Holyoke
-239, Mt_Mary,Mt. Mary
-240, Mt_St_Joseph,Mt. St. Joseph
-241, Mt_St_Mary_NY,Mt. St. Mary
-242, Mt_St_Vincent,Mt. St. Vincent
-243, Mt_Union,Mt. Union
-244, Muhlenberg,Muhlenberg
-245, Muskingum,Muskingum
-246, N_Central_IL,N Central IL
-247, N_Central_MN,N Central MN
-248, N_England_Col,N England Col
-249, Nazareth,Nazareth
-250, NC_Wesleyan,NC Wesleyan
-251, NE_Wesleyan,NE Wesleyan
-252, Neumann,Neumann
-253, Nichols,Nichols
-254, NJ_City,New Jersey City
-255, North_Park,North Park
-256, Northland,Northland
-257, Northwestern_MN,Northwestern MN
-258, Norwich,Norwich
-259, Notre_Dame_MD,Notre Dame MD
-260, NVU-Johnson,NVU-Johnson
-261, NVU-Lyndon,NVU-Lyndon
-262, NYU,NYU
-263, Oberlin,Oberlin
-264, Occidental,Occidental
-265, Oglethorpe,Oglethorpe
-266, Ohio_Northern,Ohio Northern
-267, Ohio_Wesleyan,Ohio Wesleyan
-268, Old_Westbury,Old Westbury
-269, Olivet_MI,Olivet MI
-270, Oswego_St,Oswego St.
-271, Otterbein,Otterbein
-272, Pac_Lutheran,Pac Lutheran
-273, Pacific_OR,Pacific
-274, Peace,Peace
-275, Penn_Col_Tech,Penn Col Tech
-276, Pfeiffer,Pfeiffer
-277, Piedmont,Piedmont
-278, Pitt-Bradford,Pitt-Bradford
-279, Pitt-Greensburg,Pitt-Greensburg
-280, Plattsburgh_St,Plattsburgh St.
-281, Plymouth_St,Plymouth St.
-282, Pomona-Pitzer,Pomona-Pitzer
-283, Pratt_Inst,Pratt Inst
-284, Principia,Principia
-285, PSU-Abington,PSU-Abington
-286, PSU-Altoona,PSU-Altoona
-287, PSU-Behrend,Penn State-Behrend
-288, PSU-Berks,PSU-Berks
-290, PSU-Harrisburg,PSU-Harrisburg
-291, Puget_Sound,Puget Sound
-292, Purchase,Purchase
-293, R_Stockton,Stockton
-294, Ramapo,Ramapo
-295, Randolph_Col,Randolph Col
-296, Randolph-Macon,Randolph-Macon
-297, Redlands,Redlands
-298, Regis_MA,Regis MA
-299, Rensselaer,Rensselaer
-300, Rhodes,Rhodes
-301, RI_College,Rhode Island College
-302, Ripon,Ripon
-303, Rivier,Rivier
-304, Roanoke,Roanoke
-305, Rochester_NY,Rochester
-306, Rochester_Tech,Rochester Tech
-307, Rockford,Rockford
-308, Roger_Williams,Roger Williams
-309, Rose-Hulman,Rose-Hulman
-310, Rosemont,Rosemont
-311, Rowan,Rowan
-312, Russell_Sage,Sage
-313, Rutgers-Camden,Rutgers-Camden
-314, Rutgers-Newark,Rutgers-Newark
-315, S_Maine,S Maine
-316, S_Virginia,S Virginia
-317, Salem_MA,Salem MA
-318, Salem_NC,Salem NC
-319, Salisbury,Salisbury
-320, Salve_Regina,Salve Regina
-321, Sarah_Lawrence,Sarah Lawrence
-322, Schreiner,Schreiner
-323, Scranton,Scranton
-324, Sewanee,Sewanee
-325, Shenandoah,Shenandoah
-326, Simpson_IA,Simpson (Iowa)
-327, Skidmore,Skidmore
-328, Smith,Smith
-329, Spalding,Spalding
-330, Springfield,Springfield
-331, St_Benedict,St. Benedict
-332, St_Catherine,St. Catherine
-333, St_Elizabeth,St. Elizabeth
-334, St_John_Fisher,St. John Fisher
-335, St_Joseph_CT,St. Joseph CT
-336, St_Joseph's_LI,St. Joseph's LI
-337, St_Joseph's_ME,St. Joseph's ME
-338, St_Joseph's_NY,St. Joseph's NY
-339, St_Lawrence,St. Lawrence
-340, St_Mary's_IN,St. Mary's IN
-341, St_Mary's_MD,St. Mary's MD
-342, St_Mary's_MN,St. Mary's MN
-343, St_Norbert,St. Norbert
-344, St_Olaf,St. Olaf
-345, St_Scholastica,St. Scholastica
-346, St_Thomas_TX,St. Thomas TX
-347, St_Vincent,St. Vincent
-348, Stevens,Stevens
-349, Stevenson,Stevenson
-350, Suffolk,Suffolk
-351, Sul_Ross,Sul Ross
-352, Summit,Summit
-353, SUNY_Canton,SUNY Canton
-354, SUNY_Cobleskill,SUNY Cobleskill
-355, SUNY_Delhi,SUNY Delhi
-356, SUNY_Fredonia,SUNY Fredonia
-357, SUNY_New_Paltz,SUNY New Paltz
-358, SUNY_Oneonta,SUNY Oneonta
-359, SUNY_Poly,SUNYIT
-360, SUNY_Potsdam,SUNY Potsdam
-361, Susquehanna,Susquehanna
-362, SW_Univ_TX,SW Univ TX
-363, Swarthmore,Swarthmore
-364, Thiel,Thiel
-365, Thomas_ME,Thomas ME
-366, Transylvania,Transylvania
-367, Trine,Trine
-368, Trinity_CT,Trinity (Conn)
-369, Trinity_DC,Trinity DC
-370, Trinity_TX,Trinity (Texas)
-371, Tufts,Tufts
-372, TX_Lutheran,TX Lutheran
-373, U_New_England,U New England
-374, UC_Santa_Cruz,UC Santa Cruz
-375, Union_NY,Union NY
-376, Univ_Ozarks,Univ Ozarks
-377, Ursinus,Ursinus
-378, UT_Dallas,UT Dallas
-379, Utica,Utica
-380, VA_Wesleyan,VA Wesleyan
-381, Valley_Forge,Valley Forge
-382, Vassar,Vassar
-383, W_Connecticut,Western Connecticut
-384, W_New_England,W New England
-385, Warren_Wilson,Warren Wilson
-386, Wartburg,Wartburg
-387, Wash_&_Jeff,Washington & Jefferson
-388, Washington_&_Lee,Washington & Lee
-389, Washington_MD,Washington MD
-390, Washington_StL,WashU
-391, Waynesburg,Waynesburg
-392, Webster,Webster
-393, Wellesley,Wellesley
-394, Wells,Wells
-395, Wentworth_Tech,Wentworth Tech
-396, Wesleyan_CT,Wesleyan CT
-397, Wesleyan_GA,Wesleyan GA
-398, Westfield_St,Westfield St.
-399, Westminster_MO,Westminster MO
-400, Westminster_PA,Westminster PA
-401, Wheaton_IL,Wheaton (IL)
-402, Wheaton_MA,Wheaton MA
-403, Whitman,Whitman
-404, Whittier,Whittier
-405, Whitworth,Whitworth
-406, WI_Eau_Claire,UW-Eau Claire
-407, WI_LaCrosse,UW-La Crosse
-408, WI_Lutheran,Wisconsin Lutheran
-409, WI_Oshkosh,UW-Oshkosh
-410, WI_Platteville,UW-Platteville
-411, WI_River_Falls,UW-River Falls
-412, WI_Stevens_Pt,UW-Stevens Point
-413, WI_Stout,UW-Stout
-414, WI_Superior,UW-Superior
-415, WI_Whitewater,UW-Whitewater
-416, Widener,Widener
-417, Wilkes,Wilkes
-418, Willamette,Willamette
-419, Williams,Williams
-420, Wilmington_OH,Wilmington OH
-421, Wilson,Wilson
-422, Wittenberg,Wittenberg
-423, Wm_Paterson,Wm Paterson
-424, Wooster,Wooster
-425, Worcester_St,Worcester St
-426, Worcester_Tech,WPI
-427, Yeshiva,Yeshiva
-428, York_NY,York NY
-429, York_PA,York PA
+35, Blackburn,Blackburn
+36, Bluffton,Bluffton
+38, Bowdoin,Bowdoin
+39, Brandeis,Brandeis
+40, Brevard,Brevard
+41, Bridgewater_MA,Bridgewater MA
+42, Bridgewater_VA,Bridgewater (VA)
+43, Brockport_St,Brockport St.
+44, Brooklyn_Col,Brooklyn Col
+45, Bryn_Athyn,Bryn Athyn
+46, Bryn_Mawr,Bryn Mawr
+47, Buena_Vista,Buena Vista
+48, Buffalo_St,Buffalo St.
+49, Cairn,Cairn
+50, Cal_Lutheran,Cal Lutheran
+51, Caltech,Caltech
+52, Calvin,Calvin
+53, Capital,Capital
+54, Carleton_MN,Carleton
+56, Carnegie_Mellon,Carnegie Mellon
+57, Carroll_WI,Carroll
+58, Carthage,Carthage
+59, Case_Western,Case Western
+60, Castleton,Castleton
+61, Catholic,Catholic
+62, Cedar_Crest,Cedar Crest
+63, Centenary,Centenary
+64, Centenary_NJ,Centenary NJ
+65, Central_IA,Central IA
+66, Centre,Centre
+67, Chapman,Chapman
+68, Chatham,Chatham
+69, Chicago,Chicago
+70, Chris_Newport,Christopher Newport
+71, City_Col_NY,City Col NY
+72, Claremont_M.S.,Claremont-Mudd-Scripps
+73, Clark_MA,Clark MA
+74, Clarkson,Clarkson
+75, Coast_Guard,Coast Guard
+76, Coe,Coe
+77, Colby,Colby
+78, Colby-Sawyer,Colby-Sawyer
+79, College_of_NJ,TCNJ
+80, Colorado_Col,Colorado Col
+81, Concordia_IL,Concordia IL
+82, Concordia_Mhd,Concordia Moorhead
+83, Concordia_TX,Concordia TX
+84, Concordia_WI,Concordia WI
+85, Cornell_IA,Cornell IA
+86, Cortland_St,Cortland
+87, Covenant,Covenant
+88, Crown_MN,Crown MN
+89, CT_College,CT College
+90, Curry,Curry
+91, Dallas_Univ,Dallas Univ
+92, Dean,Dean
+93, Delaware_Val,Delaware Val
+94, Denison,Denison
+95, DePauw,DePauw
+96, DeSales,DeSales
+97, Dickinson,Dickinson
+98, Dominican_IL,Dominican IL
+99, Drew,Drew
+100, Dubuque,Dubuque
+101, E_Connecticut,Eastern Connecticut
+102, E_Mennonite,E Mennonite
+103, E_Texas_Bap,East Texas Baptist
+104, Earlham,Earlham
+105, Eastern_Univ,Eastern Univ
+106, Edgewood,Edgewood
+107, Elizabethtown,Elizabethtown
+108, Elmhurst,Elmhurst
+109, Elmira,Elmira
+110, Elms,Elms
+111, Emerson,Emerson
+112, Emmanuel_MA,Emmanuel
+113, Emory,Emory
+114, Endicott,Endicott
+115, Eureka,Eureka
+116, Farmingdale,Farmingdale
+117, FDU_Madison,FDU Madison
+118, Ferrum,Ferrum
+119, Fitchburg_St,Fitchburg St.
+120, Fontbonne,Fontbonne
+121, Framingham_St,Framingham St.
+122, Franciscan_OH,Franciscan OH
+123, Frank_&_Marsh,Frank & Marsh
+124, Franklin,Franklin
+125, Gallaudet,Gallaudet
+126, Geneseo_St,Geneseo St.
+127, Geneva,Geneva
+128, George_Fox,George Fox
+129, Gettysburg,Gettysburg
+130, Gordon,Gordon
+131, Goucher,Goucher
+132, Greensboro,Greensboro
+133, Greenville,Greenville
+134, Grinnell,Grinnell
+135, Grove_City,Grove City
+136, Guilford,Guilford
+137, Gust_Adolphus,Gustavus Adolphus
+138, Gwynedd-Mercy,Gwynedd-Mercy
+139, Hamilton,Hamilton
+140, Hamline,Hamline
+141, Hanover,Hanover
+142, Hardin-Simmons,Hardin-Simmons
+143, Hartford,Hartford
+144, Hartwick,Hartwick
+145, Haverford,Haverford
+146, Heidelberg,Heidelberg
+147, Hendrix,Hendrix
+148, Hilbert,Hilbert
+149, Hiram,Hiram
+150, Hobart_&_Smith,Hobart & Smith
+151, Hollins,Hollins
+152, Hood,Hood
+153, Hope,Hope
+154, Houghton,Houghton
+155, Howard_Payne,Howard Payne
+156, Hunter,Hunter
+157, Huntingdon,Huntingdon
+158, Husson,Husson
+159, IL_Tech,IL Tech
+160, IL_Wesleyan,Illinois Wesleyan
+161, Illinois_Col,Illinois Col
+162, Immaculata,Immaculata
+163, Ithaca,Ithaca
+164, J&W_RI,J&W RI
+165, John_Carroll,John Carroll
+166, John_Jay,John Jay
+167, Johns_Hopkins,Johns Hopkins
+168, Juniata,Juniata
+169, Kalamazoo,Kalamazoo
+170, Kean,Kean
+171, Keene_St,Keene St.
+172, Kenyon,Kenyon
+173, Keuka,Keuka
+174, Keystone,Keystone
+175, King's_PA,King's PA
+176, Knox,Knox
+177, La_Roche,La Roche
+178, La_Verne,La Verne
+179, LaGrange,LaGrange
+180, Lake_Forest,Lake Forest
+181, Lakeland,Lakeland
+182, Lancaster_Bib,Lancaster Bib
+183, Lasell,Lasell
+184, Lawrence,Lawrence
+185, Le_Tourneau,LeTourneau
+186, Lebanon_Val,Lebanon Val
+187, Lehman,Lehman
+188, Lesley,Lesley
+189, Lewis_&_Clark,Lewis & Clark
+190, Linfield,Linfield
+191, Loras,Loras
+192, Luther_IA,Luther
+193, Lycoming,Lycoming
+194, Lynchburg,Lynchburg
+195, Lyon,Lyon
+196, M_Hardin-Baylor,Mary Hardin-Baylor
+197, MA_Boston,MA Boston
+198, MA_Col_Lib_Arts,MA Col Lib Arts
+199, MA_Dartmouth,MA Dartmouth
+200, Macalester,Macalester
+201, Manchester,Manchester
+202, Manhattanville,Manhattanville
+203, Maranatha_Bap,Maranatha Bap
+204, Marian_WI,Marian WI
+205, Marietta,Marietta
+206, Martin_Luther,Martin Luther
+207, Mary_Washington,Mary Washington
+208, Marymount_VA,Marymount
+209, Maryville_TN,Maryville TN
+210, Marywood,Marywood
+211, McDaniel,McDaniel
+212, McMurry,McMurry
+213, ME_Farmington,ME Farmington
+214, ME_Maritime,ME Maritime
+215, ME_Presque_Isle,ME Presque Isle
+216, Medgar_Evers,Medgar Evers
+217, Merchant_Marine,Merchant Marine
+218, Meredith,Meredith
+219, Messiah,Messiah
+220, Methodist,Methodist
+221, Middlebury,Middlebury
+222, Millikin,Millikin
+223, Millsaps,Millsaps
+224, Milwaukee_Eng,Milwaukee Eng
+225, Misericordia,Misericordia
+226, MIT,MIT
+227, Mitchell,Mitchell
+228, MN_Morris,MN Morris
+229, Monmouth_IL,Monmouth IL
+230, Montclair_St,Montclair St.
+231, Moravian,Moravian
+232, Morrisville_St,Morrisville St.
+233, MS_Women,MS Women
+234, Mt_Aloysius,Mt. Aloysius
+235, Mt_Holyoke,Mt. Holyoke
+236, Mt_Mary,Mt. Mary
+237, Mt_St_Joseph,Mt. St. Joseph
+238, Mt_St_Mary_NY,Mt. St. Mary
+239, Mt_St_Vincent,Mt. St. Vincent
+240, Mt_Union,Mt. Union
+241, Muhlenberg,Muhlenberg
+242, Muskingum,Muskingum
+243, N_Central_IL,N Central IL
+244, N_Central_MN,N Central MN
+245, N_England_Col,N England Col
+246, Nazareth,Nazareth
+247, NC_Wesleyan,NC Wesleyan
+248, NE_Wesleyan,NE Wesleyan
+249, Neumann,Neumann
+250, Nichols,Nichols
+251, NJ_City,New Jersey City
+252, North_Park,North Park
+253, Northland,Northland
+254, Northwestern_MN,Northwestern MN
+255, Norwich,Norwich
+256, Notre_Dame_MD,Notre Dame MD
+257, NVU-Johnson,NVU-Johnson
+258, NVU-Lyndon,NVU-Lyndon
+259, NYU,NYU
+260, Oberlin,Oberlin
+261, Occidental,Occidental
+262, Oglethorpe,Oglethorpe
+263, Ohio_Northern,Ohio Northern
+264, Ohio_Wesleyan,Ohio Wesleyan
+265, Old_Westbury,Old Westbury
+266, Olivet_MI,Olivet MI
+267, Oswego_St,Oswego St.
+268, Otterbein,Otterbein
+269, Pac_Lutheran,Pac Lutheran
+270, Pacific_OR,Pacific
+271, Peace,Peace
+272, Penn_Col_Tech,Penn Col Tech
+273, Pfeiffer,Pfeiffer
+274, Piedmont,Piedmont
+275, Pitt-Bradford,Pitt-Bradford
+276, Pitt-Greensburg,Pitt-Greensburg
+277, Plattsburgh_St,Plattsburgh St.
+278, Plymouth_St,Plymouth St.
+279, Pomona-Pitzer,Pomona-Pitzer
+280, Pratt_Inst,Pratt Inst
+281, Principia,Principia
+282, PSU-Abington,PSU-Abington
+283, PSU-Altoona,PSU-Altoona
+284, PSU-Behrend,Penn State-Behrend
+285, PSU-Berks,PSU-Berks
+287, PSU-Harrisburg,PSU-Harrisburg
+288, Puget_Sound,Puget Sound
+289, Purchase,Purchase
+290, R_Stockton,Stockton
+291, Ramapo,Ramapo
+292, Randolph_Col,Randolph Col
+293, Randolph-Macon,Randolph-Macon
+294, Redlands,Redlands
+295, Regis_MA,Regis MA
+296, Rensselaer,Rensselaer
+297, Rhodes,Rhodes
+298, RI_College,Rhode Island College
+299, Ripon,Ripon
+300, Rivier,Rivier
+301, Roanoke,Roanoke
+302, Rochester_NY,Rochester
+303, Rochester_Tech,Rochester Tech
+304, Rockford,Rockford
+305, Roger_Williams,Roger Williams
+306, Rose-Hulman,Rose-Hulman
+307, Rosemont,Rosemont
+308, Rowan,Rowan
+309, Russell_Sage,Sage
+310, Rutgers-Camden,Rutgers-Camden
+311, Rutgers-Newark,Rutgers-Newark
+312, S_Maine,S Maine
+313, S_Virginia,S Virginia
+314, Salem_MA,Salem MA
+315, Salem_NC,Salem NC
+316, Salisbury,Salisbury
+317, Salve_Regina,Salve Regina
+318, Sarah_Lawrence,Sarah Lawrence
+319, Schreiner,Schreiner
+320, Scranton,Scranton
+321, Sewanee,Sewanee
+322, Shenandoah,Shenandoah
+323, Simpson_IA,Simpson (Iowa)
+324, Skidmore,Skidmore
+325, Smith,Smith
+326, Spalding,Spalding
+327, Springfield,Springfield
+328, St_Benedict,St. Benedict
+329, St_Catherine,St. Catherine
+330, St_Elizabeth,St. Elizabeth
+331, St_John_Fisher,St. John Fisher
+332, St_Joseph_CT,St. Joseph CT
+333, St_Joseph's_LI,St. Joseph's LI
+334, St_Joseph's_ME,St. Joseph's ME
+335, St_Joseph's_NY,St. Joseph's NY
+336, St_Lawrence,St. Lawrence
+337, St_Mary's_IN,St. Mary's IN
+338, St_Mary's_MD,St. Mary's MD
+339, St_Mary's_MN,St. Mary's MN
+340, St_Norbert,St. Norbert
+341, St_Olaf,St. Olaf
+342, St_Scholastica,St. Scholastica
+343, St_Thomas_TX,St. Thomas TX
+344, St_Vincent,St. Vincent
+345, Stevens,Stevens
+346, Stevenson,Stevenson
+347, Suffolk,Suffolk
+348, Sul_Ross,Sul Ross
+349, Summit,Summit
+350, SUNY_Canton,SUNY Canton
+351, SUNY_Cobleskill,SUNY Cobleskill
+352, SUNY_Delhi,SUNY Delhi
+353, SUNY_Fredonia,SUNY Fredonia
+354, SUNY_New_Paltz,SUNY New Paltz
+355, SUNY_Oneonta,SUNY Oneonta
+356, SUNY_Poly,SUNYIT
+357, SUNY_Potsdam,SUNY Potsdam
+358, Susquehanna,Susquehanna
+359, SW_Univ_TX,SW Univ TX
+360, Swarthmore,Swarthmore
+361, Thiel,Thiel
+362, Thomas_ME,Thomas ME
+363, Transylvania,Transylvania
+364, Trine,Trine
+365, Trinity_CT,Trinity (Conn)
+366, Trinity_DC,Trinity DC
+367, Trinity_TX,Trinity (Texas)
+368, Tufts,Tufts
+369, TX_Lutheran,TX Lutheran
+370, U_New_England,U New England
+371, UC_Santa_Cruz,UC Santa Cruz
+372, Union_NY,Union NY
+373, Univ_Ozarks,Univ Ozarks
+374, Ursinus,Ursinus
+375, UT_Dallas,UT Dallas
+376, Utica,Utica
+377, VA_Wesleyan,VA Wesleyan
+378, Valley_Forge,Valley Forge
+379, Vassar,Vassar
+380, W_Connecticut,Western Connecticut
+381, W_New_England,W New England
+382, Warren_Wilson,Warren Wilson
+383, Wartburg,Wartburg
+384, Wash_&_Jeff,Washington & Jefferson
+385, Washington_&_Lee,Washington & Lee
+386, Washington_MD,Washington MD
+387, Washington_StL,WashU
+388, Waynesburg,Waynesburg
+389, Webster,Webster
+390, Wellesley,Wellesley
+391, Wentworth_Tech,Wentworth Tech
+392, Wesleyan_CT,Wesleyan CT
+393, Wesleyan_GA,Wesleyan GA
+394, Westfield_St,Westfield St.
+395, Westminster_MO,Westminster MO
+396, Westminster_PA,Westminster PA
+397, Wheaton_IL,Wheaton (IL)
+398, Wheaton_MA,Wheaton MA
+399, Whitman,Whitman
+400, Whittier,Whittier
+401, Whitworth,Whitworth
+402, WI_Eau_Claire,UW-Eau Claire
+403, WI_LaCrosse,UW-La Crosse
+404, WI_Lutheran,Wisconsin Lutheran
+405, WI_Oshkosh,UW-Oshkosh
+406, WI_Platteville,UW-Platteville
+407, WI_River_Falls,UW-River Falls
+408, WI_Stevens_Pt,UW-Stevens Point
+409, WI_Stout,UW-Stout
+410, WI_Superior,UW-Superior
+411, WI_Whitewater,UW-Whitewater
+412, Widener,Widener
+413, Wilkes,Wilkes
+414, Willamette,Willamette
+415, Williams,Williams
+416, Wilmington_OH,Wilmington OH
+417, Wilson,Wilson
+418, Wittenberg,Wittenberg
+419, Wm_Paterson,Wm Paterson
+420, Wooster,Wooster
+421, Worcester_St,Worcester St
+422, Worcester_Tech,WPI
+423, Yeshiva,Yeshiva
+424, York_NY,York NY
+425, York_PA,York PA

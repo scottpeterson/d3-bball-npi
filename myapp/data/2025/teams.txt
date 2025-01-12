@@ -1,417 +1,417 @@
-   1, Adrian
-   2, Agnes_Scott
-   3, Albertus_Magnus
-   4, Albion
-   5, Albright
-   6, Alfred
-   7, Alfred_St
-   8, Allegheny
-   9, Alma
-  10, Alvernia
-  11, Alverno
-  12, Amherst
-  13, Anderson_IN
-  14, Anna_Maria
-  15, Arcadia
-  16, Asbury
-  17, Augsburg
-  18, Augustana_IL
-  19, Aurora
-  20, Austin_Col
-  21, Averett
-  22, Babson
-  23, Baldwin-Wallace
-  24, Bard
-  25, Baruch
-  26, Bates
-  27, Belhaven_MS
-  28, Beloit
-  29, Benedictine_IL
-  30, Berea
-  31, Berry
-  32, Bethany_Luth
-  33, Bethany_WV
-  34, Bethel_MN
-  36, Blackburn
-  37, Bluffton
-  39, Bowdoin
-  40, Brandeis
-  41, Brevard
-  42, Bridgewater_MA
-  43, Bridgewater_VA
-  44, Brockport_St
-  45, Brooklyn_Col
-  46, Bryn_Athyn
-  47, Bryn_Mawr
-  48, Buena_Vista
-  49, Buffalo_St
-  50, Cairn
-  51, Cal_Lutheran
-  52, Caltech
-  53, Calvin
-  54, Capital
-  55, Carleton_MN
-  57, Carnegie_Mellon
-  58, Carroll_WI
-  59, Carthage
-  60, Case_Western
-  61, Castleton
-  62, Catholic
-  63, Cedar_Crest
-  64, Centenary
-  65, Centenary_NJ
-  66, Central_IA
-  67, Centre
-  68, Chapman
-  69, Chatham
-  70, Chicago
-  71, Chris_Newport
-  72, City_Col_NY
-  73, Claremont_M.S.
-  74, Clark_MA
-  75, Clarkson
-  76, Coast_Guard
-  77, Coe
-  78, Colby
-  79, Colby-Sawyer
-  80, College_of_NJ
-  81, Colorado_Col
-  82, Concordia_IL
-  83, Concordia_Mhd
-  84, Concordia_TX
-  85, Concordia_WI
-  86, Cornell_IA
-  87, Cortland_St
-  88, Covenant
-  89, Crown_MN
-  90, CT_College
-  91, Curry
-  92, Dallas_Univ
-  93, Dean
-  94, Delaware_Val
-  95, Denison
-  96, DePauw
-  97, DeSales
-  98, Dickinson
-  99, Dominican_IL
- 100, Drew
- 101, Dubuque
- 102, E_Connecticut
- 103, E_Mennonite
- 105, E_Texas_Bap
- 106, Earlham
- 107, Eastern_Univ
- 108, Edgewood
- 109, Elizabethtown
- 110, Elmhurst
- 111, Elmira
- 112, Elms
- 113, Emerson
- 114, Emmanuel_MA
- 115, Emory
- 116, Endicott
- 117, Eureka
- 118, Farmingdale
- 119, FDU_Madison
- 120, Ferrum
- 121, Fitchburg_St
- 122, Fontbonne
- 123, Framingham_St
- 124, Franciscan_OH
- 125, Frank_&_Marsh
- 126, Franklin
- 127, Gallaudet
- 128, Geneseo_St
- 129, Geneva
- 130, George_Fox
- 131, Gettysburg
- 132, Gordon
- 133, Goucher
- 134, Greensboro
- 135, Greenville
- 136, Grinnell
- 137, Grove_City
- 138, Guilford
- 139, Gust_Adolphus
- 140, Gwynedd-Mercy
- 141, Hamilton
- 142, Hamline
- 143, Hanover
- 144, Hardin-Simmons
- 145, Hartford
- 146, Hartwick
- 147, Haverford
- 148, Heidelberg
- 149, Hendrix
- 150, Hilbert
- 151, Hiram
- 152, Hobart_&_Smith
- 153, Hollins
- 154, Hood
- 155, Hope
- 156, Houghton
- 157, Howard_Payne
- 158, Hunter
- 159, Huntingdon
- 160, Husson
- 161, IL_Tech
- 162, IL_Wesleyan
- 163, Illinois_Col
- 164, Immaculata
- 165, Ithaca
- 166, J&W_RI
- 167, John_Carroll
- 168, John_Jay
- 169, Johns_Hopkins
- 170, Juniata
- 171, Kalamazoo
- 172, Kean
- 173, Keene_St
- 174, Kenyon
- 175, Keuka
- 176, Keystone
- 177, King's_PA
- 178, Knox
- 179, La_Roche
- 180, La_Verne
- 181, LaGrange
- 182, Lake_Forest
- 183, Lakeland
- 184, Lancaster_Bib
- 185, Lasell
- 186, Lawrence
- 187, Le_Tourneau
- 188, Lebanon_Val
- 189, Lehman
- 190, Lesley
- 191, Lewis_&_Clark
- 192, Linfield
- 193, Loras
- 194, Luther_IA
- 195, Lycoming
- 196, Lynchburg
- 197, Lyon
- 198, M_Hardin-Baylor
- 199, MA_Boston
- 201, MA_Dartmouth
- 202, Macalester
- 203, Manchester
- 204, Manhattanville
- 205, Maranatha_Bap
- 206, Marian_WI
- 207, Marietta
- 208, Martin_Luther
- 210, Mary_Washington
- 211, Marymount_VA
- 212, Maryville_TN
- 213, Marywood
- 214, McDaniel
- 215, McMurry
- 216, ME_Farmington
- 217, ME_Maritime
- 218, ME_Presque_Isle
- 219, Medgar_Evers
- 220, Merchant_Marine
- 221, Meredith
- 222, Messiah
- 223, Methodist
- 224, Middlebury
- 225, Millikin
- 226, Millsaps
- 227, Milwaukee_Eng
- 228, Misericordia
- 229, MIT
- 230, Mitchell
- 231, MN_Morris
- 232, Monmouth_IL
- 233, Montclair_St
- 234, Moravian
- 235, Morrisville_St
- 236, MS_Women
- 237, Mt_Aloysius
- 238, Mt_Holyoke
- 239, Mt_Mary
- 240, Mt_St_Joseph
- 241, Mt_St_Mary_NY
- 242, Mt_St_Vincent
- 243, Mt_Union
- 244, Muhlenberg
- 245, Muskingum
- 246, N_Central_IL
- 247, N_Central_MN
- 248, N_England_Col
- 249, Nazareth
- 250, NC_Wesleyan
- 251, NE_Wesleyan
- 252, Neumann
- 253, Nichols
- 254, NJ_City
- 255, North_Park
- 256, Northland
- 257, Northwestern_MN
- 258, Norwich
- 259, Notre_Dame_MD
- 260, NVU-Johnson
- 261, NVU-Lyndon
- 262, NYU
- 263, Oberlin
- 264, Occidental
- 265, Oglethorpe
- 266, Ohio_Northern
- 267, Ohio_Wesleyan
- 268, Old_Westbury
- 269, Olivet_MI
- 270, Oswego_St
- 271, Otterbein
- 272, Pac_Lutheran
- 273, Pacific_OR
- 274, Peace
- 275, Penn_Col_Tech
- 276, Pfeiffer
- 277, Piedmont
- 278, Pitt-Bradford
- 279, Pitt-Greensburg
- 280, Plattsburgh_St
- 281, Plymouth_St
- 282, Pomona-Pitzer
- 284, Principia
- 285, PSU-Abington
- 286, PSU-Altoona
- 287, PSU-Behrend
- 288, PSU-Berks
- 290, PSU-Harrisburg
- 291, Puget_Sound
- 292, Purchase
- 293, R_Stockton
- 294, Ramapo
- 295, Randolph_Col
- 296, Randolph-Macon
- 297, Redlands
- 298, Regis_MA
- 299, Rensselaer
- 300, Rhodes
- 301, RI_College
- 302, Ripon
- 303, Rivier
- 304, Roanoke
- 305, Rochester_NY
- 306, Rochester_Tech
- 307, Rockford
- 308, Roger_Williams
- 309, Rose-Hulman
- 310, Rosemont
- 311, Rowan
- 312, Russell_Sage
- 313, Rutgers-Camden
- 314, Rutgers-Newark
- 315, S_Maine
- 316, S_Virginia
- 317, Salem_MA
- 318, Salem_NC
- 319, Salisbury
- 320, Salve_Regina
- 321, Sarah_Lawrence
- 322, Schreiner
- 323, Scranton
- 324, Sewanee
- 325, Shenandoah
- 326, Simpson_IA
- 327, Skidmore
- 328, Smith
- 329, Spalding
- 330, Springfield
- 331, St_Benedict
- 332, St_Catherine
- 333, St_Elizabeth
- 334, St_John_Fisher
- 335, St_Joseph_CT
- 336, St_Joseph's_LI
- 337, St_Joseph's_ME
- 338, St_Joseph's_NY
- 339, St_Lawrence
- 340, St_Mary's_IN
- 341, St_Mary's_MD
- 342, St_Mary's_MN
- 343, St_Norbert
- 344, St_Olaf
- 345, St_Scholastica
- 346, St_Thomas_TX
- 347, St_Vincent
- 348, Stevens
- 349, Stevenson
- 350, Suffolk
- 353, SUNY_Canton
- 354, SUNY_Cobleskill
- 355, SUNY_Delhi
- 356, SUNY_Fredonia
- 357, SUNY_New_Paltz
- 358, SUNY_Oneonta
- 359, SUNY_Potsdam
- 360, SUNY_Poly
- 361, Susquehanna
- 362, SW_Univ_TX
- 363, Swarthmore
- 364, Thiel
- 365, Thomas_ME
- 366, Transylvania
- 367, Trine
- 368, Trinity_CT
- 369, Trinity_DC
- 370, Trinity_TX
- 371, Tufts
- 372, TX_Lutheran
- 373, U_New_England
- 374, UC_Santa_Cruz
- 375, Union_NY
- 376, Univ_Ozarks
- 377, Ursinus
- 379, Utica
- 380, VA_Wesleyan
- 381, Valley_Forge
- 382, Vassar
- 383, W_Connecticut
- 384, W_New_England
- 385, Warren_Wilson
- 386, Wartburg
- 387, Wash_&_Jeff
- 388, Washington_&_Lee
- 389, Washington_MD
- 390, Washington_StL
- 391, Waynesburg
- 392, Webster
- 393, Wellesley
- 395, Wentworth_Tech
- 396, Wesleyan_CT
- 397, Wesleyan_GA
- 398, Westfield_St
- 399, Westminster_MO
- 400, Westminster_PA
- 401, Wheaton_IL
- 402, Wheaton_MA
- 403, Whitman
- 404, Whittier
- 405, Whitworth
- 406, WI_Eau_Claire
- 407, WI_LaCrosse
- 408, WI_Lutheran
- 409, WI_Oshkosh
- 410, WI_Platteville
- 411, WI_River_Falls
- 412, WI_Stevens_Pt
- 413, WI_Stout
- 414, WI_Superior
- 415, WI_Whitewater
- 416, Widener
- 417, Wilkes
- 418, Willamette
- 419, Williams
- 420, Wilmington_OH
- 421, Wilson
- 422, Wittenberg
- 423, Wm_Paterson
- 424, Wooster
- 425, Worcester_St
- 426, Worcester_Tech
- 427, Yeshiva
- 428, York_NY
- 429, York_PA
+1, Adrian
+2, Agnes_Scott
+3, Albertus_Magnus
+4, Albion
+5, Albright
+6, Alfred
+7, Alfred_St
+8, Allegheny
+9, Alma
+10, Alvernia
+11, Alverno
+12, Amherst
+13, Anderson_IN
+14, Anna_Maria
+15, Arcadia
+16, Asbury
+17, Augsburg
+18, Augustana_IL
+19, Aurora
+20, Austin_Col
+21, Averett
+22, Babson
+23, Baldwin-Wallace
+24, Bard
+25, Baruch
+26, Bates
+27, Belhaven_MS
+28, Beloit
+29, Benedictine_IL
+30, Berea
+31, Berry
+32, Bethany_Luth
+33, Bethany_WV
+34, Bethel_MN
+35, Blackburn
+36, Bluffton
+38, Bowdoin
+39, Brandeis
+40, Brevard
+41, Bridgewater_MA
+42, Bridgewater_VA
+43, Brockport_St
+44, Brooklyn_Col
+45, Bryn_Athyn
+46, Bryn_Mawr
+47, Buena_Vista
+48, Buffalo_St
+49, Cairn
+50, Cal_Lutheran
+51, Caltech
+52, Calvin
+53, Capital
+54, Carleton_MN
+56, Carnegie_Mellon
+57, Carroll_WI
+58, Carthage
+59, Case_Western
+60, Castleton
+61, Catholic
+62, Cedar_Crest
+63, Centenary
+64, Centenary_NJ
+65, Central_IA
+66, Centre
+67, Chapman
+68, Chatham
+69, Chicago
+70, Chris_Newport
+71, City_Col_NY
+72, Claremont_M.S.
+73, Clark_MA
+74, Clarkson
+75, Coast_Guard
+76, Coe
+77, Colby
+78, Colby-Sawyer
+79, College_of_NJ
+80, Colorado_Col
+81, Concordia_IL
+82, Concordia_Mhd
+83, Concordia_TX
+84, Concordia_WI
+85, Cornell_IA
+86, Cortland_St
+87, Covenant
+88, Crown_MN
+89, CT_College
+90, Curry
+91, Dallas_Univ
+92, Dean
+93, Delaware_Val
+94, Denison
+95, DePauw
+96, DeSales
+97, Dickinson
+98, Dominican_IL
+99, Drew
+100, Dubuque
+101, E_Connecticut
+102, E_Mennonite
+103, E_Texas_Bap
+104, Earlham
+105, Eastern_Univ
+106, Edgewood
+107, Elizabethtown
+108, Elmhurst
+109, Elmira
+110, Elms
+111, Emerson
+112, Emmanuel_MA
+113, Emory
+114, Endicott
+115, Eureka
+116, Farmingdale
+117, FDU_Madison
+118, Ferrum
+119, Fitchburg_St
+120, Fontbonne
+121, Framingham_St
+122, Franciscan_OH
+123, Frank_&_Marsh
+124, Franklin
+125, Gallaudet
+126, Geneseo_St
+127, Geneva
+128, George_Fox
+129, Gettysburg
+130, Gordon
+131, Goucher
+132, Greensboro
+133, Greenville
+134, Grinnell
+135, Grove_City
+136, Guilford
+137, Gust_Adolphus
+138, Gwynedd-Mercy
+139, Hamilton
+140, Hamline
+141, Hanover
+142, Hardin-Simmons
+143, Hartford
+144, Hartwick
+145, Haverford
+146, Heidelberg
+147, Hendrix
+148, Hilbert
+149, Hiram
+150, Hobart_&_Smith
+151, Hollins
+152, Hood
+153, Hope
+154, Houghton
+155, Howard_Payne
+156, Hunter
+157, Huntingdon
+158, Husson
+159, IL_Tech
+160, IL_Wesleyan
+161, Illinois_Col
+162, Immaculata
+163, Ithaca
+164, J&W_RI
+165, John_Carroll
+166, John_Jay
+167, Johns_Hopkins
+168, Juniata
+169, Kalamazoo
+170, Kean
+171, Keene_St
+172, Kenyon
+173, Keuka
+174, Keystone
+175, King's_PA
+176, Knox
+177, La_Roche
+178, La_Verne
+179, LaGrange
+180, Lake_Forest
+181, Lakeland
+182, Lancaster_Bib
+183, Lasell
+184, Lawrence
+185, Le_Tourneau
+186, Lebanon_Val
+187, Lehman
+188, Lesley
+189, Lewis_&_Clark
+190, Linfield
+191, Loras
+192, Luther_IA
+193, Lycoming
+194, Lynchburg
+195, Lyon
+196, M_Hardin-Baylor
+197, MA_Boston
+199, MA_Dartmouth
+200, Macalester
+201, Manchester
+202, Manhattanville
+203, Maranatha_Bap
+204, Marian_WI
+205, Marietta
+206, Martin_Luther
+207, Mary_Washington
+208, Marymount_VA
+209, Maryville_TN
+210, Marywood
+211, McDaniel
+212, McMurry
+213, ME_Farmington
+214, ME_Maritime
+215, ME_Presque_Isle
+216, Medgar_Evers
+217, Merchant_Marine
+218, Meredith
+219, Messiah
+220, Methodist
+221, Middlebury
+222, Millikin
+223, Millsaps
+224, Milwaukee_Eng
+225, Misericordia
+226, MIT
+227, Mitchell
+228, MN_Morris
+229, Monmouth_IL
+230, Montclair_St
+231, Moravian
+232, Morrisville_St
+233, MS_Women
+234, Mt_Aloysius
+235, Mt_Holyoke
+236, Mt_Mary
+237, Mt_St_Joseph
+238, Mt_St_Mary_NY
+239, Mt_St_Vincent
+240, Mt_Union
+241, Muhlenberg
+242, Muskingum
+243, N_Central_IL
+244, N_Central_MN
+245, N_England_Col
+246, Nazareth
+247, NC_Wesleyan
+248, NE_Wesleyan
+249, Neumann
+250, Nichols
+251, NJ_City
+252, North_Park
+253, Northland
+254, Northwestern_MN
+255, Norwich
+256, Notre_Dame_MD
+257, NVU-Johnson
+258, NVU-Lyndon
+259, NYU
+260, Oberlin
+261, Occidental
+262, Oglethorpe
+263, Ohio_Northern
+264, Ohio_Wesleyan
+265, Old_Westbury
+266, Olivet_MI
+267, Oswego_St
+268, Otterbein
+269, Pac_Lutheran
+270, Pacific_OR
+271, Peace
+272, Penn_Col_Tech
+273, Pfeiffer
+274, Piedmont
+275, Pitt-Bradford
+276, Pitt-Greensburg
+277, Plattsburgh_St
+278, Plymouth_St
+279, Pomona-Pitzer
+281, Principia
+282, PSU-Abington
+283, PSU-Altoona
+284, PSU-Behrend
+285, PSU-Berks
+287, PSU-Harrisburg
+288, Puget_Sound
+289, Purchase
+290, R_Stockton
+291, Ramapo
+292, Randolph_Col
+293, Randolph-Macon
+294, Redlands
+295, Regis_MA
+296, Rensselaer
+297, Rhodes
+298, RI_College
+299, Ripon
+300, Rivier
+301, Roanoke
+302, Rochester_NY
+303, Rochester_Tech
+304, Rockford
+305, Roger_Williams
+306, Rose-Hulman
+307, Rosemont
+308, Rowan
+309, Russell_Sage
+310, Rutgers-Camden
+311, Rutgers-Newark
+312, S_Maine
+313, S_Virginia
+314, Salem_MA
+315, Salem_NC
+316, Salisbury
+317, Salve_Regina
+318, Sarah_Lawrence
+319, Schreiner
+320, Scranton
+321, Sewanee
+322, Shenandoah
+323, Simpson_IA
+324, Skidmore
+325, Smith
+326, Spalding
+327, Springfield
+328, St_Benedict
+329, St_Catherine
+330, St_Elizabeth
+331, St_John_Fisher
+332, St_Joseph_CT
+333, St_Joseph's_LI
+334, St_Joseph's_ME
+335, St_Joseph's_NY
+336, St_Lawrence
+337, St_Mary's_IN
+338, St_Mary's_MD
+339, St_Mary's_MN
+340, St_Norbert
+341, St_Olaf
+342, St_Scholastica
+343, St_Thomas_TX
+344, St_Vincent
+345, Stevens
+346, Stevenson
+347, Suffolk
+350, SUNY_Canton
+351, SUNY_Cobleskill
+352, SUNY_Delhi
+353, SUNY_Fredonia
+354, SUNY_New_Paltz
+355, SUNY_Oneonta
+357, SUNY_Potsdam
+356, SUNY_Poly
+358, Susquehanna
+359, SW_Univ_TX
+360, Swarthmore
+361, Thiel
+362, Thomas_ME
+363, Transylvania
+364, Trine
+365, Trinity_CT
+366, Trinity_DC
+367, Trinity_TX
+368, Tufts
+369, TX_Lutheran
+370, U_New_England
+371, UC_Santa_Cruz
+372, Union_NY
+373, Univ_Ozarks
+374, Ursinus
+376, Utica
+377, VA_Wesleyan
+378, Valley_Forge
+379, Vassar
+380, W_Connecticut
+381, W_New_England
+382, Warren_Wilson
+383, Wartburg
+384, Wash_&_Jeff
+385, Washington_&_Lee
+386, Washington_MD
+387, Washington_StL
+388, Waynesburg
+389, Webster
+390, Wellesley
+391, Wentworth_Tech
+392, Wesleyan_CT
+393, Wesleyan_GA
+394, Westfield_St
+395, Westminster_MO
+396, Westminster_PA
+397, Wheaton_IL
+398, Wheaton_MA
+399, Whitman
+400, Whittier
+401, Whitworth
+402, WI_Eau_Claire
+403, WI_LaCrosse
+404, WI_Lutheran
+405, WI_Oshkosh
+406, WI_Platteville
+407, WI_River_Falls
+408, WI_Stevens_Pt
+409, WI_Stout
+410, WI_Superior
+411, WI_Whitewater
+412, Widener
+413, Wilkes
+414, Willamette
+415, Williams
+416, Wilmington_OH
+417, Wilson
+418, Wittenberg
+419, Wm_Paterson
+420, Wooster
+421, Worcester_St
+422, Worcester_Tech
+423, Yeshiva
+424, York_NY
+425, York_PA
