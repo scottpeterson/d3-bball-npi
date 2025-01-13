@@ -1,7 +1,8 @@
 from pathlib import Path
 import math
 from typing import Dict, List, Tuple
-from .game_simulation import simulate_game, GameResult
+from myapp.game_simulation import simulate_game, GameResult
+from .elo_simulator import EloSimulator
 from .conf_tournaments import (
     load_conference_data,
     load_tournament_structures,
@@ -179,10 +180,23 @@ def simulate_full_season(
 ) -> bool:
     """
     Simulate remaining regular season games and conference tournaments.
+
+    Args:
+        base_path: Base path to data directory
+        year: str: Year to simulate
+        valid_teams: Dictionary mapping team IDs to names
+        team_data: Dictionary mapping team_id to tuple of (adjEM, adjT)
+
+    Returns:
+        bool: True if simulation completed successfully
     """
     try:
+        # Initialize Elo simulator
+        simulator = EloSimulator()
+        simulator.initialize_ratings(team_data)
+        
         # Initialize lists to store results
-        all_results = []  # Initialize this at the start
+        all_results = []
 
         # Load conference data
         conference_teams = load_conference_data(base_path, year)
@@ -197,9 +211,9 @@ def simulate_full_season(
             try:
                 team_a_id = game["team1_id"]
                 team_b_id = game["team2_id"]
-                home_advantage = 3.5 if game["team2_home"] == 1 else -3.5
+                team_b_is_home = game["team2_home"] == 1
 
-                result = simulate_game(team_data, team_a_id, team_b_id, home_advantage)
+                result = simulator.simulate_game(team_a_id, team_b_id, team_b_is_home)
 
                 simulated_game = {
                     "game_id": game["game_id"],
@@ -225,14 +239,14 @@ def simulate_full_season(
                 print(f"Error simulating regular season game {game['game_id']}: {e}")
                 continue
 
-        # Calculate conference standings
+        # Calculate conference standings using all regular season games
         all_regular_season_games = completed_games + simulated_regular_season
         conference_standings = calculate_conference_standings(
             all_regular_season_games, conference_teams
         )
 
         # Simulate conference tournaments
-        tournament_date = "20250302"  # You might want to make this configurable
+        tournament_date = "20250302"  # Conference tournament start date
         tournament_games, conference_champions = simulate_conference_tournaments(
             conference_teams,
             tournament_structures,

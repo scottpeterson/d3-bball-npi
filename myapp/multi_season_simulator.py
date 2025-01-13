@@ -11,7 +11,6 @@ from .simulation import (
     load_efficiency_data,
     simulate_full_season,
     load_conference_data,
-    load_tournament_structures,
 )
 from .main import main
 

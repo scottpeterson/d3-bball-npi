@@ -32,389 +32,388 @@
 32,Bethany Luth,UMAC
 33,Bethany WV,PAC
 34,Bethel,MIAC
-36,Blackburn,SLIAC
-37,Bluffton,HCAC
-39,Bowdoin,NESCAC
-40,Brandeis,UAA
-41,Brevard,USAC
-42,Bridgewater MA,MASCAC
-43,Bridgewater (VA),ODAC
-44,Brockport St.,E8
-45,Brooklyn Col,CUNYAC
-46,Bryn Athyn,UEC
-47,Bryn Mawr,CC
-48,Buena Vista,ARC
-49,Buffalo St.,SUNYAC
-50,Cairn,UEC
-51,Cal Lutheran,SCIAC
-52,Caltech,SCIAC
-53,Calvin,MIAA
-54,Capital,OAC
-55,Carleton,MIAC
-57,Carnegie Mellon,UAA
-58,Carroll,CCIW
-59,Carthage,CCIW
-60,Case Western,UAA
-61,Castleton,LEC
-62,Catholic,LAND
-63,Cedar Crest,UEC
-64,Centenary,SCAC
-65,Centenary NJ,AEC
-66,Central IA,ARC
-67,Centre,SAA
-68,Chapman,SCIAC
-69,Chatham,PAC
-70,Chicago,UAA
-71,Christopher Newport,C2C
-72,City Col NY,CUNYAC
-73,Claremont-Mudd-Scripps,SCIAC
-74,Clark MA,NEWMAC
-75,Clarkson,LL
-76,Coast Guard,NEWMAC
-77,Coe,ARC
-78,Colby,NESCAC
-79,Colby-Sawyer,GNAC
-80,TCNJ,NJAC
-81,Colorado Col,SCAC
-82,Concordia IL,NACC
-83,Concordia Moorhead,MIAC
-84,Concordia TX,SCAC
-85,Concordia WI,NACC
-86,Cornell IA,MWC
-87,Cortland,SUNYAC
-88,Covenant,CCS
-89,Crown MN,UMAC
-90,CT College,NESCAC
-91,Curry,CNE
-92,Dallas Univ,SCAC
-93,Dean,GNAC
-94,Delaware Val,MACF
-95,Denison,NCAC
-96,DePauw,NCAC
-97,DeSales,MACF
-98,Dickinson,CC
-99,Dominican IL,NACC
-100,Drew,LAND
-101,Dubuque,ARC
-102,Eastern Connecticut,LEC
-103,E Mennonite,ODAC
-105,East Texas Baptist,ASC
-106,Earlham,HCAC
-107,Eastern Univ,MACC
-108,Edgewood,NACC
-109,Elizabethtown,LAND
-110,Elmhurst,CCIW
-111,Elmira,E8
-112,Elms,GNAC
-113,Emerson,NEWMAC
-114,Emmanuel,GNAC
-115,Emory,UAA
-116,Endicott,CNE
-117,Eureka,SLIAC
-118,Farmingdale,SKY
-119,FDU Madison,MACF
-120,Ferrum,ODAC
-121,Fitchburg St.,MASCAC
-122,Fontbonne,SLIAC
-123,Framingham St.,MASCAC
-124,Franciscan OH,PAC
-125,Frank & Marsh,CC
-126,Franklin,HCAC
-127,Gallaudet,UEC
-128,Geneseo St.,E8
-129,Geneva,PAC
-130,George Fox,NWC
-131,Gettysburg,CC
-132,Gordon,CNE
-133,Goucher,LAND
-134,Greensboro,USAC
-135,Greenville,SLIAC
-136,Grinnell,MWC
-137,Grove City,PAC
-138,Guilford,ODAC
-139,Gustavus Adolphus,MIAC
-140,Gwynedd-Mercy,AEC
-141,Hamilton,NESCAC
-142,Hamline,MIAC
-143,Hanover,HCAC
-144,Hardin-Simmons,ASC
-145,Hartford,CNE
-146,Hartwick,E8
-147,Haverford,CC
-148,Heidelberg,OAC
-149,Hendrix,SAA
-150,Hilbert,AMCC
-151,Hiram,NCAC
-152,Hobart & Smith,LL
-153,Hollins,ODAC
-154,Hood,MACC
-155,Hope,MIAA
-156,Houghton,E8
-157,Howard Payne,ASC
-158,Hunter,CUNYAC
-159,Huntingdon,CCS
-160,Husson,NAC
-161,IL Tech,NACC
-162,Illinois Wesleyan,CCIW
-163,Illinois Col,MWC
-164,Immaculata,AEC
-165,Ithaca,LL
-166,J&W RI,GNAC
-167,John Carroll,OAC
-168,John Jay,CUNYAC
-169,Johns Hopkins,CC
-170,Juniata,LAND
-171,Kalamazoo,MIAA
-172,Kean,NJAC
-173,Keene St.,LEC
-174,Kenyon,NCAC
-175,Keuka,E8
-176,Keystone,UEC
-177,King's PA,MACF
-178,Knox,MWC
-179,La Roche,AMCC
-180,La Verne,SCIAC
-181,LaGrange,CCS
-182,Lake Forest,MWC
-183,Lakeland,NACC
-184,Lancaster Bib,UEC
-185,Lasell,GNAC
-186,Lawrence,MWC
-187,LeTourneau,ASC
-188,Lebanon Val,MACF
-189,Lehman,CUNYAC
-190,Lesley,NAC
-191,Lewis & Clark,NWC
-192,Linfield,NWC
-193,Loras,ARC
-194,Luther,ARC
-195,Lycoming,LAND
-196,Lynchburg,ODAC
-197,Lyon,SLIAC
-198,Mary Hardin-Baylor,ASC
-199,MA Boston,LEC
-200,MA Col Lib Arts,MASCAC
-201,MA Dartmouth,LEC
-202,Macalester,MIAC
-203,Manchester,HCAC
-204,Manhattanville,SKY
-205,Maranatha Bap,IND
-206,Marian WI,NACC
-207,Marietta,OAC
-208,Martin Luther,UMAC
-209,Mary Baldwin,USAC
-210,Mary Washington,C2C
-211,Marymount,AEC
-212,Maryville TN,CCS
-213,Marywood,AEC
-214,McDaniel,CC
-215,McMurry,SCAC
-216,ME Farmington,NAC
-217,ME Maritime,NAC
-218,ME Presque Isle,NAC
-219,Medgar Evers,CUNYAC
-220,Merchant Marine,SKY
-221,Meredith,USAC
-222,Messiah,MACC
-223,Methodist,USAC
-224,Middlebury,NESCAC
-225,Millikin,CCIW
-226,Millsaps,SAA
-227,Milwaukee Eng,NACC
-228,Misericordia,MACF
-229,MIT,NEWMAC
-230,Mitchell,GNAC
-231,MN Morris,UMAC
-232,Monmouth IL,MWC
-233,Montclair St.,NJAC
-234,Moravian,LAND
-235,Morrisville St.,SUNYAC
-236,MS Women,SLIAC
-237,Mt. Aloysius,AMCC
-238,Mt. Holyoke,NEWMAC
-239,Mt. Mary,C2C
-240,Mt. St. Joseph,HCAC
-241,Mt. St. Mary,SKY
-242,Mt. St. Vincent,SKY
-243,Mt. Union,OAC
-244,Muhlenberg,CC
-245,Muskingum,OAC
-246,N Central IL,CCIW
-247,N Central MN,UMAC
-248,N England Col,GNAC
-249,Nazareth,E8
-250,NC Wesleyan,USAC
-251,NE Wesleyan,ARC
-252,Neumann,AEC
-253,Nichols,CNE
-254,New Jersey City,NJAC
-255,North Park,CCIW
-256,Northland,UMAC
-257,Northwestern MN,UMAC
-258,Norwich,GNAC
-259,Notre Dame MD,UEC
-260,NVU-Johnson,NAC
-261,NVU-Lyndon,NAC
-262,NYU,UAA
-263,Oberlin,NCAC
-264,Occidental,SCIAC
-265,Oglethorpe,SAA
-266,Ohio Northern,OAC
-267,Ohio Wesleyan,NCAC
-268,Old Westbury,SKY
-269,Olivet MI,MIAA
-270,Oswego St.,SUNYAC
-271,Otterbein,OAC
-272,Pac Lutheran,NWC
-273,Pacific,NWC
-274,Peace,USAC
-275,Penn Col Tech,UEC
-276,Pfeiffer,USAC
-277,Piedmont,CCS
-278,Pitt-Bradford,AMCC
-279,Pitt-Greensburg,AMCC
-280,Plattsburgh St.,SUNYAC
-281,Plymouth St.,LEC
-282,Pomona-Pitzer,SCIAC
-283,Pratt Inst,AEC
-284,Principia,SLIAC
-285,PSU-Abington,UEC
-286,PSU-Altoona,AMCC
-287,Penn State-Behrend,AMCC
-288,PSU-Berks,UEC
-290,PSU-Harrisburg,UEC
-291,Puget Sound,NWC
-292,Purchase,SKY
-293,Stockton,NJAC
-294,Ramapo,NJAC
-295,Randolph Col,ODAC
-296,Randolph-Macon,ODAC
-297,Redlands,SCIAC
-298,Regis MA,GNAC
-299,Rensselaer,LL
-300,Rhodes,SAA
-301,Rhode Island College,LEC
-302,Ripon,MWC
-303,Rivier,GNAC
-304,Roanoke,ODAC
-305,Rochester,UAA
-306,Rochester Tech,LL
-307,Rockford,NACC
-308,Roger Williams,CNE
-309,Rose-Hulman,HCAC
-310,Rosemont,UEC
-311,Rowan,NJAC
-312,Sage,E8
-313,Rutgers-Camden,NJAC
-314,Rutgers-Newark,NJAC
-315,S Maine,LEC
-316,S Virginia,USAC
-317,Salem MA,MASCAC
-318,Salem NC,USAC
-319,Salisbury,C2C
-320,Salve Regina,NEWMAC
-321,Sarah Lawrence,SKY
-322,Schreiner,SCAC
-323,Scranton,LAND
-324,Sewanee,SAA
-325,Shenandoah,ODAC
-326,Simpson (Iowa),ARC
-327,Skidmore,LL
-328,Smith,NEWMAC
-329,Spalding,SLIAC
-330,Springfield,NEWMAC
-331,St. Benedict,MIAC
-332,St. Catherine,MIAC
-333,St. Elizabeth,UEC
-334,St. John Fisher,E8
-335,St. Joseph CT,GNAC
-336,St. Joseph's LI,SKY
-337,St. Joseph's ME,GNAC
-338,St. Joseph's NY,SKY
-339,St. Lawrence,LL
-340,St. Mary's IN,MIAA
-341,St. Mary's MD,UEC
-342,St. Mary's MN,MIAC
-343,St. Norbert,NACC
-344,St. Olaf,MIAC
-345,St. Scholastica,MIAC
-346,St. Thomas TX,SCAC
-347,St. Vincent,PAC
-348,Stevens,MACF
-349,Stevenson,MACC
-350,Suffolk,CNE
-353,SUNY Canton,SUNYAC
-354,SUNY Cobleskill,NAC
-355,SUNY Delhi,NAC
-356,SUNY Fredonia,SUNYAC
-357,SUNY New Paltz,SUNYAC
-358,SUNY Oneonta,SUNYAC
-359,SUNY Potsdam,SUNYAC
-360,SUNY_Poly,E8
-361,Susquehanna,LAND
-362,SW Univ TX,SCAC
-363,Swarthmore,CC
-364,Thiel,PAC
-365,Thomas ME,NAC
-366,Transylvania,HCAC
-367,Trine,MIAA
-368,Trinity (Conn),NESCAC
-369,Trinity DC,IND
-370,Trinity (Texas),SCAC
-371,Tufts,NESCAC
-372,TX Lutheran,SCAC
-373,U New England,CNE
-374,UC Santa Cruz,C2C
-375,Union NY,LL
-376,Univ Ozarks,SCAC
-377,Ursinus,CC
-379,Utica,E8
-380,VA Wesleyan,ODAC
-381,Valley Forge,UEC
-382,Vassar,LL
-383,Western Connecticut,LEC
-384,W New England,CNE
-385,Warren Wilson,C2C
-386,Wartburg,ARC
-387,Washington & Jefferson,PAC
-388,Washington & Lee,ODAC
-389,Washington MD,CC
-390,WashU,UAA
-391,Waynesburg,PAC
-392,Webster,SLIAC
-393,Wellesley,NEWMAC
-395,Wentworth Tech,CNE
-396,Wesleyan CT,NESCAC
-397,Wesleyan GA,CCS
-398,Westfield St.,MASCAC
-399,Westminster MO,SLIAC
-400,Westminster PA,PAC
-401,Wheaton (IL),CCIW
-402,Wheaton MA,NEWMAC
-403,Whitman,NWC
-404,Whittier,SCIAC
-405,Whitworth,NWC
-406,UW-Eau Claire,WIAC
-407,UW-La Crosse,WIAC
-408,Wisconsin Lutheran,NACC
-409,UW-Oshkosh,WIAC
-410,UW-Platteville,WIAC
-411,UW-River Falls,WIAC
-412,UW-Stevens Point,WIAC
-413,UW-Stout,WIAC
-414,UW-Superior,UMAC
-415,UW-Whitewater,WIAC
-416,Widener,MACC
-417,Wilkes,LAND
-418,Willamette,NWC
-419,Williams,NESCAC
-420,Wilmington OH,OAC
-421,Wilson,UEC
-422,Wittenberg,NCAC
-423,Wm Paterson,NJAC
-424,Wooster,NCAC
-425,Worcester St,MASCAC
-426,WPI,NEWMAC
-427,Yeshiva,SKY
-428,York NY,CUNYAC
-429,York PA,MACC
+35,Blackburn,SLIAC
+36,Bluffton,HCAC
+38,Bowdoin,NESCAC
+39,Brandeis,UAA
+40,Brevard,USAC
+41,Bridgewater MA,MASCAC
+42,Bridgewater (VA),ODAC
+43,Brockport St.,E8
+44,Brooklyn Col,CUNYAC
+45,Bryn Athyn,UEC
+46,Bryn Mawr,CC
+47,Buena Vista,ARC
+48,Buffalo St.,SUNYAC
+49,Cairn,UEC
+50,Cal Lutheran,SCIAC
+51,Caltech,SCIAC
+52,Calvin,MIAA
+53,Capital,OAC
+54,Carleton,MIAC
+56,Carnegie Mellon,UAA
+57,Carroll,CCIW
+58,Carthage,CCIW
+59,Case Western,UAA
+60,Castleton,LEC
+61,Catholic,LAND
+62,Cedar Crest,UEC
+63,Centenary,SCAC
+64,Centenary NJ,AEC
+65,Central IA,ARC
+66,Centre,SAA
+67,Chapman,SCIAC
+68,Chatham,PAC
+69,Chicago,UAA
+70,Christopher Newport,C2C
+71,City Col NY,CUNYAC
+72,Claremont-Mudd-Scripps,SCIAC
+73,Clark MA,NEWMAC
+74,Clarkson,LL
+75,Coast Guard,NEWMAC
+76,Coe,ARC
+77,Colby,NESCAC
+78,Colby-Sawyer,GNAC
+79,TCNJ,NJAC
+80,Colorado Col,SCAC
+81,Concordia IL,NACC
+82,Concordia Moorhead,MIAC
+83,Concordia TX,SCAC
+84,Concordia WI,NACC
+85,Cornell IA,MWC
+86,Cortland,SUNYAC
+87,Covenant,CCS
+88,Crown MN,UMAC
+89,CT College,NESCAC
+90,Curry,CNE
+91,Dallas Univ,SCAC
+92,Dean,GNAC
+93,Delaware Val,MACF
+94,Denison,NCAC
+95,DePauw,NCAC
+96,DeSales,MACF
+97,Dickinson,CC
+98,Dominican IL,NACC
+99,Drew,LAND
+100,Dubuque,ARC
+101,Eastern Connecticut,LEC
+102,E Mennonite,ODAC
+103,East Texas Baptist,ASC
+104,Earlham,HCAC
+105,Eastern Univ,MACC
+106,Edgewood,NACC
+107,Elizabethtown,LAND
+108,Elmhurst,CCIW
+109,Elmira,E8
+110,Elms,GNAC
+111,Emerson,NEWMAC
+112,Emmanuel,GNAC
+113,Emory,UAA
+114,Endicott,CNE
+115,Eureka,SLIAC
+116,Farmingdale,SKY
+117,FDU Madison,MACF
+118,Ferrum,ODAC
+119,Fitchburg St.,MASCAC
+120,Fontbonne,SLIAC
+121,Framingham St.,MASCAC
+122,Franciscan OH,PAC
+123,Frank & Marsh,CC
+124,Franklin,HCAC
+125,Gallaudet,UEC
+126,Geneseo St.,E8
+127,Geneva,PAC
+128,George Fox,NWC
+129,Gettysburg,CC
+130,Gordon,CNE
+131,Goucher,LAND
+132,Greensboro,USAC
+133,Greenville,SLIAC
+134,Grinnell,MWC
+135,Grove City,PAC
+136,Guilford,ODAC
+137,Gustavus Adolphus,MIAC
+138,Gwynedd-Mercy,AEC
+139,Hamilton,NESCAC
+140,Hamline,MIAC
+141,Hanover,HCAC
+142,Hardin-Simmons,ASC
+143,Hartford,CNE
+144,Hartwick,E8
+145,Haverford,CC
+146,Heidelberg,OAC
+147,Hendrix,SAA
+148,Hilbert,AMCC
+149,Hiram,NCAC
+150,Hobart & Smith,LL
+151,Hollins,ODAC
+152,Hood,MACC
+153,Hope,MIAA
+154,Houghton,E8
+155,Howard Payne,ASC
+156,Hunter,CUNYAC
+157,Huntingdon,CCS
+158,Husson,NAC
+159,IL Tech,NACC
+160,Illinois Wesleyan,CCIW
+161,Illinois Col,MWC
+162,Immaculata,AEC
+163,Ithaca,LL
+164,J&W RI,GNAC
+165,John Carroll,OAC
+166,John Jay,CUNYAC
+167,Johns Hopkins,CC
+168,Juniata,LAND
+169,Kalamazoo,MIAA
+170,Kean,NJAC
+171,Keene St.,LEC
+172,Kenyon,NCAC
+173,Keuka,E8
+174,Keystone,UEC
+175,King's PA,MACF
+176,Knox,MWC
+177,La Roche,AMCC
+178,La Verne,SCIAC
+179,LaGrange,CCS
+180,Lake Forest,MWC
+181,Lakeland,NACC
+182,Lancaster Bib,UEC
+183,Lasell,GNAC
+184,Lawrence,MWC
+185,LeTourneau,ASC
+186,Lebanon Val,MACF
+187,Lehman,CUNYAC
+188,Lesley,NAC
+189,Lewis & Clark,NWC
+190,Linfield,NWC
+191,Loras,ARC
+192,Luther,ARC
+193,Lycoming,LAND
+194,Lynchburg,ODAC
+195,Lyon,SLIAC
+196,Mary Hardin-Baylor,ASC
+197,MA Boston,LEC
+198,MA Col Lib Arts,MASCAC
+199,MA Dartmouth,LEC
+200,Macalester,MIAC
+201,Manchester,HCAC
+202,Manhattanville,SKY
+203,Maranatha Bap,IND
+204,Marian WI,NACC
+205,Marietta,OAC
+206,Martin Luther,UMAC
+207,Mary Washington,C2C
+208,Marymount,AEC
+209,Maryville TN,CCS
+210,Marywood,AEC
+211,McDaniel,CC
+212,McMurry,SCAC
+213,ME Farmington,NAC
+214,ME Maritime,NAC
+215,ME Presque Isle,NAC
+216,Medgar Evers,CUNYAC
+217,Merchant Marine,SKY
+218,Meredith,USAC
+219,Messiah,MACC
+220,Methodist,USAC
+221,Middlebury,NESCAC
+222,Millikin,CCIW
+223,Millsaps,SAA
+224,Milwaukee Eng,NACC
+225,Misericordia,MACF
+226,MIT,NEWMAC
+227,Mitchell,GNAC
+228,MN Morris,UMAC
+229,Monmouth IL,MWC
+230,Montclair St.,NJAC
+231,Moravian,LAND
+232,Morrisville St.,SUNYAC
+233,MS Women,SLIAC
+234,Mt. Aloysius,AMCC
+235,Mt. Holyoke,NEWMAC
+236,Mt. Mary,C2C
+237,Mt. St. Joseph,HCAC
+238,Mt. St. Mary,SKY
+239,Mt. St. Vincent,SKY
+240,Mt. Union,OAC
+241,Muhlenberg,CC
+242,Muskingum,OAC
+243,N Central IL,CCIW
+244,N Central MN,UMAC
+245,N England Col,GNAC
+246,Nazareth,E8
+247,NC Wesleyan,USAC
+248,NE Wesleyan,ARC
+249,Neumann,AEC
+250,Nichols,CNE
+251,New Jersey City,NJAC
+252,North Park,CCIW
+253,Northland,UMAC
+254,Northwestern MN,UMAC
+255,Norwich,GNAC
+256,Notre Dame MD,UEC
+257,NVU-Johnson,NAC
+258,NVU-Lyndon,NAC
+259,NYU,UAA
+260,Oberlin,NCAC
+261,Occidental,SCIAC
+262,Oglethorpe,SAA
+263,Ohio Northern,OAC
+264,Ohio Wesleyan,NCAC
+265,Old Westbury,SKY
+266,Olivet MI,MIAA
+267,Oswego St.,SUNYAC
+268,Otterbein,OAC
+269,Pac Lutheran,NWC
+270,Pacific,NWC
+271,Peace,USAC
+272,Penn Col Tech,UEC
+273,Pfeiffer,USAC
+274,Piedmont,CCS
+275,Pitt-Bradford,AMCC
+276,Pitt-Greensburg,AMCC
+277,Plattsburgh St.,SUNYAC
+278,Plymouth St.,LEC
+279,Pomona-Pitzer,SCIAC
+280,Pratt Inst,AEC
+281,Principia,SLIAC
+282,PSU-Abington,UEC
+283,PSU-Altoona,AMCC
+284,Penn State-Behrend,AMCC
+285,PSU-Berks,UEC
+287,PSU-Harrisburg,UEC
+288,Puget Sound,NWC
+289,Purchase,SKY
+290,Stockton,NJAC
+291,Ramapo,NJAC
+292,Randolph Col,ODAC
+293,Randolph-Macon,ODAC
+294,Redlands,SCIAC
+295,Regis MA,GNAC
+296,Rensselaer,LL
+297,Rhodes,SAA
+298,Rhode Island College,LEC
+299,Ripon,MWC
+300,Rivier,GNAC
+301,Roanoke,ODAC
+302,Rochester,UAA
+303,Rochester Tech,LL
+304,Rockford,NACC
+305,Roger Williams,CNE
+306,Rose-Hulman,HCAC
+307,Rosemont,UEC
+308,Rowan,NJAC
+309,Sage,E8
+310,Rutgers-Camden,NJAC
+311,Rutgers-Newark,NJAC
+312,S Maine,LEC
+313,S Virginia,USAC
+314,Salem MA,MASCAC
+315,Salem NC,USAC
+316,Salisbury,C2C
+317,Salve Regina,NEWMAC
+318,Sarah Lawrence,SKY
+319,Schreiner,SCAC
+320,Scranton,LAND
+321,Sewanee,SAA
+322,Shenandoah,ODAC
+323,Simpson (Iowa),ARC
+324,Skidmore,LL
+325,Smith,NEWMAC
+326,Spalding,SLIAC
+327,Springfield,NEWMAC
+328,St. Benedict,MIAC
+329,St. Catherine,MIAC
+330,St. Elizabeth,UEC
+331,St. John Fisher,E8
+332,St. Joseph CT,GNAC
+333,St. Joseph's LI,SKY
+334,St. Joseph's ME,GNAC
+335,St. Joseph's NY,SKY
+336,St. Lawrence,LL
+337,St. Mary's IN,MIAA
+338,St. Mary's MD,UEC
+339,St. Mary's MN,MIAC
+340,St. Norbert,NACC
+341,St. Olaf,MIAC
+342,St. Scholastica,MIAC
+343,St. Thomas TX,SCAC
+344,St. Vincent,PAC
+345,Stevens,MACF
+346,Stevenson,MACC
+347,Suffolk,CNE
+350,SUNY Canton,SUNYAC
+351,SUNY Cobleskill,NAC
+352,SUNY Delhi,NAC
+353,SUNY Fredonia,SUNYAC
+354,SUNY New Paltz,SUNYAC
+355,SUNY Oneonta,SUNYAC
+357,SUNY Potsdam,SUNYAC
+356,SUNYIT,E8
+358,Susquehanna,LAND
+359,SW Univ TX,SCAC
+360,Swarthmore,CC
+361,Thiel,PAC
+362,Thomas ME,NAC
+363,Transylvania,HCAC
+364,Trine,MIAA
+365,Trinity (Conn),NESCAC
+366,Trinity DC,IND
+367,Trinity (Texas),SCAC
+368,Tufts,NESCAC
+369,TX Lutheran,SCAC
+370,U New England,CNE
+371,UC Santa Cruz,C2C
+372,Union NY,LL
+373,Univ Ozarks,SCAC
+374,Ursinus,CC
+376,Utica,E8
+377,VA Wesleyan,ODAC
+378,Valley Forge,UEC
+379,Vassar,LL
+380,Western Connecticut,LEC
+381,W New England,CNE
+382,Warren Wilson,C2C
+383,Wartburg,ARC
+384,Washington & Jefferson,PAC
+385,Washington & Lee,ODAC
+386,Washington MD,CC
+387,WashU,UAA
+388,Waynesburg,PAC
+389,Webster,SLIAC
+390,Wellesley,NEWMAC
+391,Wentworth Tech,CNE
+392,Wesleyan CT,NESCAC
+393,Wesleyan GA,CCS
+394,Westfield St.,MASCAC
+395,Westminster MO,SLIAC
+396,Westminster PA,PAC
+397,Wheaton (IL),CCIW
+398,Wheaton MA,NEWMAC
+399,Whitman,NWC
+400,Whittier,SCIAC
+401,Whitworth,NWC
+402,UW-Eau Claire,WIAC
+403,UW-La Crosse,WIAC
+404,Wisconsin Lutheran,NACC
+405,UW-Oshkosh,WIAC
+406,UW-Platteville,WIAC
+407,UW-River Falls,WIAC
+408,UW-Stevens Point,WIAC
+409,UW-Stout,WIAC
+410,UW-Superior,UMAC
+411,UW-Whitewater,WIAC
+412,Widener,MACC
+413,Wilkes,LAND
+414,Willamette,NWC
+415,Williams,NESCAC
+416,Wilmington OH,OAC
+417,Wilson,UEC
+418,Wittenberg,NCAC
+419,Wm Paterson,NJAC
+420,Wooster,NCAC
+421,Worcester St,MASCAC
+422,WPI,NEWMAC
+423,Yeshiva,SKY
+424,York NY,CUNYAC
+425,York PA,MACC

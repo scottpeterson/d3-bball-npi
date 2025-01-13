@@ -8,6 +8,11 @@ from .multi_season_simulator import save_simulation_stats
 from .conf_tournaments import load_conference_data
 from .eff_getter import efficiency_getter
 from .massey_ratings_getter import massey_ratings_getter
+from .team_id_getter import team_ids_getter
+
+def run_team_ids_getter():
+    url = "https://masseyratings.com/scores.php?s=604303&sub=11620&all=1&mode=3&sch=on&format=2"
+    team_ids_getter(url)
 
 
 def run_massey_ratings_getter():
@@ -104,8 +109,8 @@ def run_simulate_season():
 
 def run_predict_game():
     # Hardcoded values
-    team_a_id = "12"
-    team_b_id = "26"
+    team_a_id = "325"
+    team_b_id = "160"
     year = "2025"
 
     base_path = Path(__file__).parent / "data"
@@ -215,6 +220,7 @@ if __name__ == "__main__":
         "run_multiple": run_multiple_simulations_command,
         "eff": run_efficiency_getter,
         "massey": run_massey_ratings_getter,
+        "teams": run_team_ids_getter
     }
 
     if len(sys.argv) < 2 or sys.argv[1] not in commands:
@@ -230,6 +236,7 @@ if __name__ == "__main__":
         print(" simulate multiple seasons")
         print("run efficiency getter")
         print("run massey ratings getter")
+        print("run team ids getter")
         sys.exit(1)
 
     commands[sys.argv[1]]()
