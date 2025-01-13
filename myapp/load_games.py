@@ -1,9 +1,9 @@
-def load_games(base_path, year, valid_teams):
+def load_games(base_path, year, valid_teams, use_season_results=False):
     games = []
     seen_games = set()
     year_str = str(year)
-    # games_path = base_path / year_str / "games.txt"
-    games_path = base_path / year_str / "season_results.txt"
+    games_path = (base_path / year_str / "season_results.txt" if use_season_results 
+                  else base_path / year_str / "games.txt")
     zero_zero_count = 0
     duplicate_count = 0
     skipped_due_to_invalid_teams = 0

@@ -29,7 +29,7 @@ def run_multiple_simulations_command():
     """Run multiple season simulations and generate statistics."""
     year = "2025"
     base_path = Path(__file__).parent / "data"
-    NUM_SIMULATIONS = 1
+    NUM_SIMULATIONS = 100
 
     try:
         print(f"\nStarting {NUM_SIMULATIONS} simulations...")
@@ -175,8 +175,8 @@ def run_bidirectional():
     base_path = Path(__file__).parent / "data"
 
     valid_teams = load_teams(base_path, year)
-    # games_path = base_path / year / "games.txt"
-    games_path = base_path / year / "season_results.txt"
+    games_path = base_path / year / "games.txt"
+    # games_path = base_path / year / "season_results.txt"
     results = process_games_bidirectional(games_path, valid_teams)
 
     if not results:

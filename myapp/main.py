@@ -9,14 +9,14 @@ from .process_games_bidirectional import process_games_bidirectional
 from .simulation import simulate_game, predict_and_simulate_game
 
 
-def main():
+def main(use_season_results=False):
     """Main entry point for the application."""
     data_path = Path(__file__).parent / "data"
     year = "2025"
     NUM_ITERATIONS = 50
     try:
         valid_teams = load_teams(data_path, year)
-        games = load_games(data_path, year, valid_teams)
+        games = load_games(data_path, year, valid_teams, use_season_results)
         print(f"Total number of loaded games: {len(games)}")
 
         start_total_time = time.time()

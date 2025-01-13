@@ -111,7 +111,7 @@ def run_single_simulation(
                     )
 
         # Run NPI calculations
-        final_teams = main()
+        final_teams = main(use_season_results=True)
 
         if final_teams is None:
             raise ValueError("NPI calculations failed to return results")
@@ -240,17 +240,17 @@ def calculate_team_stats(
         qf_pool_c_pct = (
             (tourn_stats.quarterfinal_pool_c / tourn_stats.quarterfinal_total * 100)
             if tourn_stats.quarterfinal_total > 0
-            else 0.0
+            else "-"
         )
         sf_pool_c_pct = (
             (tourn_stats.semifinal_pool_c / tourn_stats.semifinal_total * 100)
             if tourn_stats.semifinal_total > 0
-            else 0.0
+            else "-"
         )
         f_pool_c_pct = (
             (tourn_stats.final_pool_c / tourn_stats.final_total * 100)
             if tourn_stats.final_total > 0
-            else 0.0
+            else "-"
         )
 
         team_stats[team_id] = TeamStats(
@@ -349,7 +349,7 @@ def save_simulation_stats(
 ):
     """Save simulation statistics to CSV with team names and conferences."""
     output_path = base_path / year / "simulation_stats.csv"
-
+    
     # Load team mappings
     teams_mapping = {}
     mapping_path = base_path / year / "teams_mapping.txt"
@@ -365,46 +365,40 @@ def save_simulation_stats(
     except Exception as e:
         print(f"Error loading team mappings: {e}")
         return
-
+    
     # Sort by median rank (since we're storing NPIs in median_rank field)
     sorted_teams = sorted(
         stats.items(), key=lambda x: x[1].median_rank, reverse=True
     )  # Higher NPI is better
-
+    
     # Debug top teams before writing
     print("\nTop 5 teams by NPI:")
     for team_id, team_stats in sorted_teams[:5]:
         team_name = teams_mapping.get(team_id, f"Unknown ({team_id})")
         conference = conference_teams[team_id].conference
         print(f"{team_name} ({conference}): NPI = {team_stats.median_rank:.2f}")
-
+    
     with open(output_path, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([
-            "Team",
-            "Conf",
-            "MedW",
-            "MedL",
-            "A%",
-            "C%",
-            "ALWYNI%",
-            "Tourn%",
-            "QF-C%",
-            "SF-C%",
-            "F-C%",
-            "Med-NPI",
-            "Min",
-            "Max",
-            "Rank",
+            "Team", "Conf", "MedW", "MedL", "A%", "C%", "ALWYNI%", "Tourn%", 
+            "QF-C%", "SF-C%", "F-C%", "Med-NPI", "Min", "Max", "Rank"
         ])
-
+        
         for team_id, team_stats in sorted_teams:
             if team_id not in teams_mapping:
                 print(f"Warning: No mapping found for team ID {team_id}")
                 continue
-
+            
             team_name = teams_mapping[team_id]
             conference = conference_teams[team_id].conference
+            
+            # Handle formatting for Pool C percentages
+            def format_pool_c_pct(pct):
+                if isinstance(pct, str):
+                    return pct
+                return f"{pct:.1f}%"
+            
             writer.writerow([
                 team_name,
                 conference,
@@ -414,61 +408,14 @@ def save_simulation_stats(
                 f"{team_stats.at_large_pct:.1f}%",
                 f"{team_stats.alwyni:.1f}%",
                 f"{team_stats.tournament_pct:.1f}%",
-                f"{team_stats.qf_pool_c_pct:.1f}%",
-                f"{team_stats.sf_pool_c_pct:.1f}%",
-                f"{team_stats.f_pool_c_pct:.1f}%",
+                format_pool_c_pct(team_stats.qf_pool_c_pct),
+                format_pool_c_pct(team_stats.sf_pool_c_pct),
+                format_pool_c_pct(team_stats.f_pool_c_pct),
                 f"{team_stats.median_rank:.1f}",
                 f"{team_stats.min_rank:.1f}",
                 f"{team_stats.max_rank:.1f}",
                 team_stats.rank,
             ])
-        writer = csv.writer(f)
-        writer.writerow(
-            [
-                "Team",
-                "Conf",
-                "MedW",
-                "MedL",
-                "A%",
-                "C%",
-                "ALWYNI%",
-                "Tourn%",
-                "QF-C%",  # New column for Pool C % after QF loss
-                "SF-C%",  # New column for Pool C % after SF loss
-                "F-C%",   # New column for Pool C % after F loss
-                "Med-NPI",
-                "Min",
-                "Max",
-                "Rank",
-            ]
-        )
-
-        for team_id, team_stats in sorted_teams:
-            if team_id not in teams_mapping:
-                print(f"Warning: No mapping found for team ID {team_id}")
-                continue
-
-            team_name = teams_mapping[team_id]
-            conference = conference_teams[team_id].conference
-            writer.writerow(
-                [
-                    team_name,
-                    conference,
-                    f"{team_stats.median_wins:.1f}",
-                    f"{team_stats.median_losses:.1f}",
-                    f"{team_stats.auto_bid_pct:.1f}%",
-                    f"{team_stats.at_large_pct:.1f}%",
-                    f"{team_stats.alwyni:.1f}%",
-                    f"{team_stats.tournament_pct:.1f}%",
-                    f"{team_stats.median_rank:.1f}",
-                    f"{team_stats.min_rank:.1f}",
-                    f"{team_stats.max_rank:.1f}",
-                    team_stats.rank,
-                    f"{team_stats.qf_pool_c_pct:.1f}%",
-                    f"{team_stats.sf_pool_c_pct:.1f}%",
-                    f"{team_stats.f_pool_c_pct:.1f}%",
-                ]
-            )
 
 
 def get_uaa_standings(
@@ -525,42 +472,42 @@ def get_conference_champions(
 ) -> Dict[str, str]:
     """Extract conference tournament champions and their conferences."""
     champions = {}
-
-    # 1. Load all the games in season_results
-    all_games = season_results
-
-    # 2. Group the games by conference, excluding UAA
+    
+    # Filter for tournament games (assuming tournament games are after a specific date)
+    tournament_games = [game for game in season_results if game["date"] >= "20250302"]
+    
+    # Group tournament games by conference
     conference_games = defaultdict(list)
-    for game in all_games:
+    for game in tournament_games:
         team1_conf = conference_teams[game["team1_id"]].conference
         team2_conf = conference_teams[game["team2_id"]].conference
-
-        # Skip games where either team is in the UAA conference
+        
+        # Skip UAA conference games
         if team1_conf == "UAA" or team2_conf == "UAA":
             continue
-
-        # Add the game to the appropriate conference's list
-        conference_games[team1_conf].append(game)
-        conference_games[team2_conf].append(game)
-
-    # 3. For each conference, find the game with the latest date where 2 teams from the same conference faced each other
+        
+        # Only consider games within the same conference
+        if team1_conf == team2_conf:
+            conference_games[team1_conf].append(game)
+    
+    # Find the championship game for each conference
     for conf, conf_games in conference_games.items():
-        # Sort the games by date in descending order
+        # Sort games by date to get the last (championship) game
         conf_games.sort(key=lambda x: x["date"], reverse=True)
-
-        # Find the first game where the teams are in the same conference
-        for game in conf_games:
-            team1_conf = conference_teams[game["team1_id"]].conference
-            team2_conf = conference_teams[game["team2_id"]].conference
-            if team1_conf == team2_conf:
-                winner_id = (
-                    game["team1_id"]
-                    if game["team1_score"] > game["team2_score"]
-                    else game["team2_id"]
-                )
-                champions[winner_id] = team1_conf
-                break
-
+        
+        if conf_games:
+            # Take the first game after sorting (latest game)
+            championship_game = conf_games[0]
+            
+            # Determine the winner
+            winner_id = (
+                championship_game["team1_id"]
+                if championship_game["team1_score"] > championship_game["team2_score"]
+                else championship_game["team2_id"]
+            )
+            
+            champions[winner_id] = conf
+    
     return champions
 
 
