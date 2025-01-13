@@ -61,6 +61,7 @@ def process_games_bidirectional(file_path, teams_dict):
 
                     processed_games += 1
                 except Exception as e:
+                    print(line)
                     skipped_games += 1
                     continue
 

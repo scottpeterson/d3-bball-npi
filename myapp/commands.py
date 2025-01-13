@@ -29,18 +29,19 @@ def run_multiple_simulations_command():
     """Run multiple season simulations and generate statistics."""
     year = "2025"
     base_path = Path(__file__).parent / "data"
-    NUM_SIMULATIONS = 100
+    NUM_SIMULATIONS = 1
 
     try:
         print(f"\nStarting {NUM_SIMULATIONS} simulations...")
         print("-" * 50)
-
-        # Create our results processor and run simulations
+        
+        # Import necessary functions
         from .multi_season_simulator import (
             run_multiple_simulations,
             save_simulation_stats,
             load_conference_data,
         )
+
         # Load team mappings
         teams_mapping = {}
         mapping_path = base_path / year / "teams_mapping.txt"
@@ -56,7 +57,12 @@ def run_multiple_simulations_command():
         # Load conference data
         conference_teams = load_conference_data(base_path, year)
 
-        stats, bid_thief_counts, per_sim_bid_thieves = run_multiple_simulations(base_path, year, NUM_SIMULATIONS)
+        # Run simulations - now includes tournament_stats
+        stats, bid_thief_counts, per_sim_bid_thieves, _ = run_multiple_simulations(
+            base_path, year, NUM_SIMULATIONS
+        )
+
+        # Save regular simulation stats (now includes tournament stats)
         save_simulation_stats(stats, base_path, year, conference_teams)
 
         # Save bid thief stats
@@ -70,6 +76,7 @@ def run_multiple_simulations_command():
                 writer.writerow([team_name, count, f"{percentage:.1f}%"])
         print("Bid thief statistics have been saved to bid_thieves.csv")
 
+        # Save per-simulation bid thief details
         bid_thief_details_path = base_path / year / "bid_thieves_per_sim.csv"
         with open(bid_thief_details_path, "w", newline="") as f:
             writer = csv.writer(f)
@@ -168,7 +175,8 @@ def run_bidirectional():
     base_path = Path(__file__).parent / "data"
 
     valid_teams = load_teams(base_path, year)
-    games_path = base_path / year / "games.txt"
+    # games_path = base_path / year / "games.txt"
+    games_path = base_path / year / "season_results.txt"
     results = process_games_bidirectional(games_path, valid_teams)
 
     if not results:

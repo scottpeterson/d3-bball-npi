@@ -44,11 +44,13 @@ class TeamStats:
     at_large_pct: float
     alwyni: float
     tournament_pct: float
+    qf_pool_c_pct: float  # New field for Pool C % after QF loss
+    sf_pool_c_pct: float  # New field for Pool C % after SF loss
+    f_pool_c_pct: float   # New field for Pool C % after F loss
     median_rank: float
     min_rank: float
     max_rank: float
     rank: int
-
 
 @dataclass
 class TeamSimResult:
@@ -61,10 +63,25 @@ class TeamSimResult:
     got_at_large: bool
     made_tournament: bool
 
+@dataclass
+class TeamTournamentResult:
+    team_id: str
+    conference: str
+    exit_round: str  # 'quarterfinal', 'semifinal', 'final', or 'champion'
+    got_pool_c: bool
+
+@dataclass
+class ConferenceTournamentStats:
+    quarterfinal_total: int = 0
+    quarterfinal_pool_c: int = 0
+    semifinal_total: int = 0
+    semifinal_pool_c: int = 0
+    final_total: int = 0
+    final_pool_c: int = 0
 
 def run_single_simulation(
     base_path: Path, year: str, sim_number: int
-) -> Tuple[Dict[str, TeamSimResult], List[str]]:
+) -> Tuple[Dict[str, TeamSimResult], List[str], Dict[str, TeamTournamentResult]]:
     """Run a single season simulation and process results."""
     results = {}
 
@@ -163,7 +180,21 @@ def run_single_simulation(
                 made_tournament=got_auto_bid or got_at_large,
             )
 
-        return results, bid_thieves
+            # Get at-large bids for tournament analysis
+            at_large_bids = {
+                team_id for team_id, result in results.items() 
+                if result.got_at_large
+            }
+        
+            # Get tournament results
+            tournament_results = get_conference_tournament_results(
+                tournament_games,
+                conference_teams,
+                conference_champions,
+                at_large_bids
+            )
+
+        return results, bid_thieves, tournament_results
 
     except Exception as e:
         print(f"Error in simulation {sim_number}: {e}")
@@ -175,7 +206,8 @@ def run_single_simulation(
 
 
 def calculate_team_stats(
-    all_results: Dict[str, List[TeamSimResult]]
+    all_results: Dict[str, List[TeamSimResult]],
+    tournament_stats: Dict[str, ConferenceTournamentStats]
 ) -> Dict[str, TeamStats]:
     """Calculate statistics across all simulations for each team."""
     team_stats = {}
@@ -201,6 +233,26 @@ def calculate_team_stats(
             (at_large_bids / non_auto_bid_sims * 100) if non_auto_bid_sims > 0 else 0
         )
 
+        # Get tournament stats for this team
+        tourn_stats = tournament_stats.get(team_id, ConferenceTournamentStats())
+        
+        # Calculate Pool C percentages for each round
+        qf_pool_c_pct = (
+            (tourn_stats.quarterfinal_pool_c / tourn_stats.quarterfinal_total * 100)
+            if tourn_stats.quarterfinal_total > 0
+            else 0.0
+        )
+        sf_pool_c_pct = (
+            (tourn_stats.semifinal_pool_c / tourn_stats.semifinal_total * 100)
+            if tourn_stats.semifinal_total > 0
+            else 0.0
+        )
+        f_pool_c_pct = (
+            (tourn_stats.final_pool_c / tourn_stats.final_total * 100)
+            if tourn_stats.final_total > 0
+            else 0.0
+        )
+
         team_stats[team_id] = TeamStats(
             median_wins=statistics.median(wins),
             median_losses=statistics.median(losses),
@@ -212,6 +264,9 @@ def calculate_team_stats(
             min_rank=min(ranks),
             max_rank=max(ranks),
             rank=0,  # temporary placeholder
+            qf_pool_c_pct=qf_pool_c_pct,
+            sf_pool_c_pct=sf_pool_c_pct,
+            f_pool_c_pct=f_pool_c_pct
         )
 
     # Second pass - assign ranks based on tournament_pct
@@ -230,10 +285,11 @@ def calculate_team_stats(
 
 def run_multiple_simulations(
     base_path: Path, year: str, num_sims: int = 1000
-) -> Tuple[Dict[str, TeamStats], Dict[str, int], List[int]]:
+) -> Tuple[Dict[str, TeamStats], Dict[str, int], List[int], Dict[str, ConferenceTournamentStats]]:
     all_results = defaultdict(list)
     bid_thief_counts = defaultdict(int)
-    per_sim_bid_count = []  # Just store count per sim
+    per_sim_bid_count = []
+    tournament_stats = defaultdict(ConferenceTournamentStats)
     total_start_time = time.time()
 
     for sim_number in range(1, num_sims + 1):
@@ -242,15 +298,32 @@ def run_multiple_simulations(
             print(f"\nStarting simulation {sim_number}")
             print("  Running season simulation...", flush=True)
             
-            sim_results, sim_bid_thieves = run_single_simulation(base_path, year, sim_number)
+            sim_results, sim_bid_thieves, tourn_results = run_single_simulation(
+                base_path, year, sim_number
+            )
             print("  Processing results...", flush=True)
             
             for team_id, result in sim_results.items():
                 all_results[team_id].append(result)
             for team_id in sim_bid_thieves:
                 bid_thief_counts[team_id] += 1
-                
             per_sim_bid_count.append(len(sim_bid_thieves))
+
+            # Process tournament results
+            for team_id, result in tourn_results.items():
+                stats = tournament_stats[team_id]
+                if result.exit_round == 'Quarterfinal':
+                    stats.quarterfinal_total += 1
+                    if result.got_pool_c:
+                        stats.quarterfinal_pool_c += 1
+                elif result.exit_round == 'Semifinal':
+                    stats.semifinal_total += 1
+                    if result.got_pool_c:
+                        stats.semifinal_pool_c += 1
+                elif result.exit_round == 'Final':
+                    stats.final_total += 1
+                    if result.got_pool_c:
+                        stats.final_pool_c += 1
 
             sim_duration = time.time() - sim_start_time
             print(f"Completed simulation {sim_number} in {sim_duration:.2f} seconds")
@@ -264,7 +337,8 @@ def run_multiple_simulations(
     print(f"\nAll simulations completed in {total_duration:.2f} seconds")
     print(f"Average time per simulation: {total_duration/num_sims:.2f} seconds")
 
-    return calculate_team_stats(all_results), bid_thief_counts, per_sim_bid_count
+    team_stats = calculate_team_stats(all_results, tournament_stats)
+    return team_stats, bid_thief_counts, per_sim_bid_count, tournament_stats
 
 
 def save_simulation_stats(
@@ -306,6 +380,49 @@ def save_simulation_stats(
 
     with open(output_path, "w", newline="") as f:
         writer = csv.writer(f)
+        writer.writerow([
+            "Team",
+            "Conf",
+            "MedW",
+            "MedL",
+            "A%",
+            "C%",
+            "ALWYNI%",
+            "Tourn%",
+            "QF-C%",
+            "SF-C%",
+            "F-C%",
+            "Med-NPI",
+            "Min",
+            "Max",
+            "Rank",
+        ])
+
+        for team_id, team_stats in sorted_teams:
+            if team_id not in teams_mapping:
+                print(f"Warning: No mapping found for team ID {team_id}")
+                continue
+
+            team_name = teams_mapping[team_id]
+            conference = conference_teams[team_id].conference
+            writer.writerow([
+                team_name,
+                conference,
+                f"{team_stats.median_wins:.1f}",
+                f"{team_stats.median_losses:.1f}",
+                f"{team_stats.auto_bid_pct:.1f}%",
+                f"{team_stats.at_large_pct:.1f}%",
+                f"{team_stats.alwyni:.1f}%",
+                f"{team_stats.tournament_pct:.1f}%",
+                f"{team_stats.qf_pool_c_pct:.1f}%",
+                f"{team_stats.sf_pool_c_pct:.1f}%",
+                f"{team_stats.f_pool_c_pct:.1f}%",
+                f"{team_stats.median_rank:.1f}",
+                f"{team_stats.min_rank:.1f}",
+                f"{team_stats.max_rank:.1f}",
+                team_stats.rank,
+            ])
+        writer = csv.writer(f)
         writer.writerow(
             [
                 "Team",
@@ -316,6 +433,9 @@ def save_simulation_stats(
                 "C%",
                 "ALWYNI%",
                 "Tourn%",
+                "QF-C%",  # New column for Pool C % after QF loss
+                "SF-C%",  # New column for Pool C % after SF loss
+                "F-C%",   # New column for Pool C % after F loss
                 "Med-NPI",
                 "Min",
                 "Max",
@@ -344,6 +464,9 @@ def save_simulation_stats(
                     f"{team_stats.min_rank:.1f}",
                     f"{team_stats.max_rank:.1f}",
                     team_stats.rank,
+                    f"{team_stats.qf_pool_c_pct:.1f}%",
+                    f"{team_stats.sf_pool_c_pct:.1f}%",
+                    f"{team_stats.f_pool_c_pct:.1f}%",
                 ]
             )
 
@@ -473,3 +596,97 @@ def determine_at_large_bid(
     at_large_bids = {team["team_id"] for team in non_auto_bid_teams[:21]}
 
     return team_id in at_large_bids
+
+def get_conference_tournament_results(
+    tournament_games: List[dict],
+    conference_teams: Dict[str, ConferenceTeam],
+    conference_champions: Set[str],
+    at_large_bids: Set[str]
+) -> Dict[str, TeamTournamentResult]:
+    """
+    Analyze conference tournament performance and Pool C bid correlation.
+    Determines round based on date ordering since round info isn't in game data.
+    """
+    # Track results for each team
+    results: Dict[str, TeamTournamentResult] = {}
+    
+    # Group games by conference
+    conference_games: Dict[str, List[dict]] = {}
+    for game in tournament_games:
+        team1_id = game['team1_id']
+        team2_id = game['team2_id']
+        
+        if team1_id not in conference_teams or team2_id not in conference_teams:
+            continue
+            
+        conf = conference_teams[team1_id].conference
+        if conf not in conference_games:
+            conference_games[conf] = []
+        conference_games[conf].append(game)
+    
+    # Process each conference's tournament
+    for conf, games in conference_games.items():
+        # Sort games chronologically 
+        sorted_games = sorted(games, key=lambda x: x['date'])
+        
+        # Determine number of rounds based on game count
+        num_games = len(sorted_games)
+        if num_games >= 7:  # Traditional bracket with quarterfinals
+            rounds = ['Quarterfinal'] * 4 + ['Semifinal'] * 2 + ['Final']
+        elif num_games >= 3:  # Semifinals only
+            rounds = ['Semifinal'] * 2 + ['Final']
+        else:  # Championship only
+            rounds = ['Final']
+            
+        # Track teams eliminated in each round
+        eliminated_teams = set()
+        for game_idx, game in enumerate(sorted_games):
+            if game_idx >= len(rounds):  # Skip if we've run out of round names
+                continue
+                
+            round_name = rounds[game_idx]
+            team1_id = game['team1_id']
+            team2_id = game['team2_id']
+            
+            # Determine winner and loser
+            loser_id = team1_id if game['team1_score'] < game['team2_score'] else team2_id
+            winner_id = team2_id if game['team1_score'] < game['team2_score'] else team1_id
+            
+            # Record result for losing team if not already eliminated
+            if loser_id not in eliminated_teams:
+                eliminated_teams.add(loser_id)
+                results[loser_id] = TeamTournamentResult(
+                    team_id=loser_id,
+                    conference=conf,
+                    exit_round=round_name,
+                    got_pool_c=loser_id in at_large_bids
+                )
+            
+            # If this is the final game, record champion
+            if round_name == 'Final':
+                results[winner_id] = TeamTournamentResult(
+                    team_id=winner_id,
+                    conference=conf,
+                    exit_round='Final',
+                    got_pool_c=winner_id in at_large_bids
+                )
+
+    return results
+
+def analyze_pool_c_by_round(tournament_results: Dict[str, TeamTournamentResult]) -> Dict[str, Dict[str, int]]:
+    """
+    Analyze Pool C bid distribution by conference tournament round.
+    """
+    stats = {
+        'Quarterfinal': {'total': 0, 'pool_c': 0},
+        'Semifinal': {'total': 0, 'pool_c': 0},
+        'Final': {'total': 0, 'pool_c': 0}
+    }
+    
+    for result in tournament_results.values():
+        if result.exit_round in stats:
+            stats[result.exit_round]['total'] += 1
+            if result.got_pool_c:
+                stats[result.exit_round]['pool_c'] += 1
+    
+    return stats

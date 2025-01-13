@@ -150,7 +150,6 @@ def simulate_tournament_game(
     team2_id: str,
     team_data: Dict[str, Tuple[float, float]],
     game_date: str,
-    game_counter: int,
     team1_home: bool = False,
     team2_home: bool = False,
     conference: str = "",
@@ -171,8 +170,8 @@ def simulate_tournament_game(
         "date": game_date,
         "team1_id": team1_id,
         "team2_id": team2_id,
-        "team1_home": 1 if team1_home else 0,
-        "team2_home": 1 if team2_home else 0,
+        "team1_home": 1 if team1_home else -1,
+        "team2_home": 1 if team2_home else -1,
         "team1_score": (
             result.winning_score
             if result.winner_id == team1_id
@@ -225,7 +224,9 @@ def simulate_conference_tournaments(
             
             # Create first round matchups (highest vs lowest seed)
             matchups = pair_teams_by_seed(first_round_teams)
-            round_name = get_round_name(len(first_round_teams))
+            # Count total teams still in tournament (playing + byes)
+            total_remaining = len(first_round_teams) + len(bye_teams)
+            round_name = get_round_name(total_remaining)
             
             for higher_seed, lower_seed in matchups:
                 game = simulate_tournament_game(
@@ -233,7 +234,6 @@ def simulate_conference_tournaments(
                     lower_seed.team_id,
                     team_data,
                     tournament_date,
-                    game_counter,
                     team1_home=True,  # Higher seed gets home court
                     team2_home=False,
                     conference=conf,
@@ -274,7 +274,7 @@ def simulate_conference_tournaments(
                 
             # Create matchups based on seeds
             matchups = pair_teams_by_seed(current_team_standings)
-            round_name = get_round_name(len(remaining_teams))
+            round_name = get_round_name(len(remaining_teams))  # No more byes to consider
             tournament_date = str(int(tournament_date) + 1).zfill(8)
             
             for higher_seed, lower_seed in matchups:
@@ -286,7 +286,6 @@ def simulate_conference_tournaments(
                     lower_seed.team_id,
                     team_data,
                     tournament_date,
-                    game_counter,
                     team1_home=team1_home,
                     team2_home=False,
                     conference=conf,
@@ -332,12 +331,21 @@ def pair_teams_by_seed(teams: List[ConferenceStanding]) -> List[Tuple[Conference
 def get_round_name(remaining_teams: int) -> str:
     """
     Get the name of the tournament round based on number of teams remaining.
+    Args:
+        remaining_teams: Total number of teams still in tournament (including byes)
+        
+    Returns:
+        String indicating tournament round:
+        - 2 teams = Final
+        - 4 teams = Semifinal
+        - 5-8 teams = Quarterfinal 
+        - 9+ teams = Other
     """
     if remaining_teams == 2:
         return "Final"
     elif remaining_teams == 4:
         return "Semifinal"
-    elif remaining_teams == 8:
+    elif 5 <= remaining_teams <= 8:
         return "Quarterfinal"
     else:
         return "Other"
