@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Dict, List, Tuple, Set
 from pathlib import Path
-from .game_simulation import simulate_game, GameResult
+from .game_simulation import simulate_game
 
 
 @dataclass

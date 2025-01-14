@@ -44,9 +44,9 @@ class TeamStats:
     at_large_pct: float
     alwyni: float
     tournament_pct: float
-    qf_pool_c_pct: float  # New field for Pool C % after QF loss
-    sf_pool_c_pct: float  # New field for Pool C % after SF loss
-    f_pool_c_pct: float   # New field for Pool C % after F loss
+    qf_pool_c_pct: float
+    sf_pool_c_pct: float
+    f_pool_c_pct: float
     median_rank: float
     min_rank: float
     max_rank: float
@@ -67,7 +67,7 @@ class TeamSimResult:
 class TeamTournamentResult:
     team_id: str
     conference: str
-    exit_round: str  # 'quarterfinal', 'semifinal', 'final', or 'champion'
+    exit_round: str
     got_pool_c: bool
 
 @dataclass
@@ -159,7 +159,7 @@ def run_single_simulation(
             losses = team_stats["losses"]
             npi = team_stats[
                 "npi"
-            ]  # This is what's actually in the team_stats dictionary
+            ]
 
             # Auto bid status already determined
             got_auto_bid = team_id in auto_bid_recipients
@@ -174,7 +174,7 @@ def run_single_simulation(
                 team_name=team_name,
                 wins=wins,
                 losses=losses,
-                npi_rank=npi,  # Using the NPI value directly
+                npi_rank=npi,
                 got_auto_bid=got_auto_bid,
                 got_at_large=got_at_large,
                 made_tournament=got_auto_bid or got_at_large,
@@ -185,8 +185,7 @@ def run_single_simulation(
                 team_id for team_id, result in results.items() 
                 if result.got_at_large
             }
-        
-            # Get tournament results
+
             tournament_results = get_conference_tournament_results(
                 tournament_games,
                 conference_teams,
@@ -263,7 +262,7 @@ def calculate_team_stats(
             median_rank=statistics.median(ranks),
             min_rank=min(ranks),
             max_rank=max(ranks),
-            rank=0,  # temporary placeholder
+            rank=0,
             qf_pool_c_pct=qf_pool_c_pct,
             sf_pool_c_pct=sf_pool_c_pct,
             f_pool_c_pct=f_pool_c_pct
@@ -301,7 +300,17 @@ def run_multiple_simulations(
             sim_results, sim_bid_thieves, tourn_results = run_single_simulation(
                 base_path, year, sim_number
             )
+            print("\nPOST-UNPACK DEBUG:")
+            print(f"Type of tourn_results: {type(tourn_results)}")
+            print(f"Team 325 in tourn_results post-unpack: {'325' in tourn_results}")
             print("  Processing results...", flush=True)
+
+            # Right after getting results from run_single_simulation:
+            print(f"\nDEBUG Sim {sim_number}:")
+            print(f"Team 325 in tourn_results: {'325' in tourn_results}")
+            if '325' in tourn_results:
+                result = tourn_results['325']
+                print(f"Raw result for 325: exit_round={result.exit_round}, got_pool_c={result.got_pool_c}")
             
             for team_id, result in sim_results.items():
                 all_results[team_id].append(result)
@@ -312,6 +321,16 @@ def run_multiple_simulations(
             # Process tournament results
             for team_id, result in tourn_results.items():
                 stats = tournament_stats[team_id]
+
+                # Validate exit_round and got_pool_c
+                if result.exit_round not in {'Quarterfinal', 'Semifinal', 'Final'}:
+                    print(f"Warning: Unexpected exit_round '{result.exit_round}' for team {team_id}")
+                    continue
+                    
+                if result.got_pool_c is None:
+                    print(f"Warning: got_pool_c is None for team {team_id}")
+                    continue
+
                 if result.exit_round == 'Quarterfinal':
                     stats.quarterfinal_total += 1
                     if result.got_pool_c:
@@ -369,7 +388,7 @@ def save_simulation_stats(
     # Sort by median rank (since we're storing NPIs in median_rank field)
     sorted_teams = sorted(
         stats.items(), key=lambda x: x[1].median_rank, reverse=True
-    )  # Higher NPI is better
+    )
     
     # Debug top teams before writing
     print("\nTop 5 teams by NPI:")
@@ -382,7 +401,7 @@ def save_simulation_stats(
         writer = csv.writer(f)
         writer.writerow([
             "Team", "Conf", "MedW", "MedL", "A%", "C%", "ALWYNI%", "Tourn%", 
-            "QF-C%", "SF-C%", "F-C%", "Med-NPI", "Min", "Max", "Rank"
+            "F-C%", "SF-C%", "QF-C%", "Med-NPI", "Min", "Max", "Rank"
         ])
         
         for team_id, team_stats in sorted_teams:
@@ -408,9 +427,9 @@ def save_simulation_stats(
                 f"{team_stats.at_large_pct:.1f}%",
                 f"{team_stats.alwyni:.1f}%",
                 f"{team_stats.tournament_pct:.1f}%",
-                format_pool_c_pct(team_stats.qf_pool_c_pct),
-                format_pool_c_pct(team_stats.sf_pool_c_pct),
                 format_pool_c_pct(team_stats.f_pool_c_pct),
+                format_pool_c_pct(team_stats.sf_pool_c_pct),
+                format_pool_c_pct(team_stats.qf_pool_c_pct),
                 f"{team_stats.median_rank:.1f}",
                 f"{team_stats.min_rank:.1f}",
                 f"{team_stats.max_rank:.1f}",
@@ -550,20 +569,16 @@ def get_conference_tournament_results(
     conference_champions: Set[str],
     at_large_bids: Set[str]
 ) -> Dict[str, TeamTournamentResult]:
-    """
-    Analyze conference tournament performance and Pool C bid correlation.
-    Determines round based on date ordering since round info isn't in game data.
-    """
-    # Track results for each team
+    """Analyze conference tournament performance and Pool C bid correlation."""
     results: Dict[str, TeamTournamentResult] = {}
     
-    # Group games by conference
+    # First group games by conference
     conference_games: Dict[str, List[dict]] = {}
     for game in tournament_games:
         team1_id = game['team1_id']
         team2_id = game['team2_id']
-        
         if team1_id not in conference_teams or team2_id not in conference_teams:
+            print(f"DEBUG: Skipping game due to missing team: {team1_id} vs {team2_id}")
             continue
             
         conf = conference_teams[team1_id].conference
@@ -571,52 +586,81 @@ def get_conference_tournament_results(
             conference_games[conf] = []
         conference_games[conf].append(game)
     
-    # Process each conference's tournament
+    # Process each conference tournament
     for conf, games in conference_games.items():
-        # Sort games chronologically 
-        sorted_games = sorted(games, key=lambda x: x['date'])
+
+        # Sort games by date and count games per date
+        games_by_date = {}
+        for game in sorted(games, key=lambda x: x['date']):
+            date = game['date']
+            if date not in games_by_date:
+                games_by_date[date] = []
+            games_by_date[date].append(game)
         
-        # Determine number of rounds based on game count
-        num_games = len(sorted_games)
-        if num_games >= 7:  # Traditional bracket with quarterfinals
-            rounds = ['Quarterfinal'] * 4 + ['Semifinal'] * 2 + ['Final']
-        elif num_games >= 3:  # Semifinals only
-            rounds = ['Semifinal'] * 2 + ['Final']
-        else:  # Championship only
-            rounds = ['Final']
-            
-        # Track teams eliminated in each round
+        dates = sorted(games_by_date.keys())
+        games_per_date = {date: len(games_by_date[date]) for date in dates}
+        
+        # Map each date to a round
+        round_by_date = {}
+        remaining_dates = sorted(dates)
+        
+        # Find quarterfinal date
+        max_games = max(games_per_date.values())
+        qf_games = [d for d in dates if games_per_date[d] >= 4]
+        if qf_games:
+            qf_date = min(qf_games)
+            round_by_date[qf_date] = 'Quarterfinal'
+            remaining_dates.remove(qf_date)
+        
+        # Find final date
+        final_candidates = [d for d in remaining_dates if games_per_date[d] == 1]
+        if final_candidates:
+            final_date = max(final_candidates)
+            round_by_date[final_date] = 'Final'
+            if final_date in remaining_dates:
+                remaining_dates.remove(final_date)
+        
+        # Assign semifinals
+        for date in remaining_dates:
+            round_by_date[date] = 'Semifinal'
+                    
+        # Process each game
         eliminated_teams = set()
-        for game_idx, game in enumerate(sorted_games):
-            if game_idx >= len(rounds):  # Skip if we've run out of round names
+        for date in dates:
+            if date not in round_by_date:
+                print(f"WARNING: Date {date} has no round assignment")
                 continue
                 
-            round_name = rounds[game_idx]
-            team1_id = game['team1_id']
-            team2_id = game['team2_id']
-            
-            # Determine winner and loser
-            loser_id = team1_id if game['team1_score'] < game['team2_score'] else team2_id
-            winner_id = team2_id if game['team1_score'] < game['team2_score'] else team1_id
-            
-            # Record result for losing team if not already eliminated
-            if loser_id not in eliminated_teams:
-                eliminated_teams.add(loser_id)
-                results[loser_id] = TeamTournamentResult(
-                    team_id=loser_id,
-                    conference=conf,
-                    exit_round=round_name,
-                    got_pool_c=loser_id in at_large_bids
-                )
-            
-            # If this is the final game, record champion
-            if round_name == 'Final':
-                results[winner_id] = TeamTournamentResult(
-                    team_id=winner_id,
-                    conference=conf,
-                    exit_round='Final',
-                    got_pool_c=winner_id in at_large_bids
-                )
+            round_name = round_by_date[date]
+            for game in games_by_date[date]:
+                team1_id = game['team1_id'] 
+                team2_id = game['team2_id']
+                team1_score = game['team1_score']
+                team2_score = game['team2_score']
+                
+                team1_is_winner = team1_score > team2_score
+                winner_id = team1_id if team1_is_winner else team2_id
+                loser_id = team2_id if team1_is_winner else team1_id
+                
+                if loser_id not in eliminated_teams:
+                    eliminated_teams.add(loser_id)
+                    results[loser_id] = TeamTournamentResult(
+                        team_id=loser_id,
+                        conference=conf,
+                        exit_round=round_name,
+                        got_pool_c=loser_id in at_large_bids
+                    )
+                
+                if round_name == 'Final':
+                    # Remove recording of winner - only record the loser
+                    if loser_id not in eliminated_teams:
+                        eliminated_teams.add(loser_id)
+                        results[loser_id] = TeamTournamentResult(
+                            team_id=loser_id,
+                            conference=conf,
+                            exit_round=round_name,
+                            got_pool_c=loser_id in at_large_bids
+                        )
 
     return results
 

@@ -4,7 +4,7 @@ import csv
 from .main import load_teams, process_games_bidirectional, predict_and_simulate_game
 from .games_getter import games_getter
 from .simulation import load_efficiency_data, simulate_full_season
-from .multi_season_simulator import save_simulation_stats
+from .multi_season_simulator import run_multiple_simulations, save_simulation_stats, load_conference_data
 from .conf_tournaments import load_conference_data
 from .eff_getter import efficiency_getter
 from .massey_ratings_getter import massey_ratings_getter
@@ -35,13 +35,6 @@ def run_multiple_simulations_command():
         print(f"\nStarting {NUM_SIMULATIONS} simulations...")
         print("-" * 50)
         
-        # Import necessary functions
-        from .multi_season_simulator import (
-            run_multiple_simulations,
-            save_simulation_stats,
-            load_conference_data,
-        )
-
         # Load team mappings
         teams_mapping = {}
         mapping_path = base_path / year / "teams_mapping.txt"
