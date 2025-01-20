@@ -13,7 +13,7 @@ def main(use_season_results=False):
     """Main entry point for the application."""
     data_path = Path(__file__).parent / "data"
     year = "2025"
-    NUM_ITERATIONS = 50
+    NUM_ITERATIONS = 30
     try:
         valid_teams = load_teams(data_path, year)
         games = load_games(data_path, year, valid_teams, use_season_results)
@@ -30,16 +30,10 @@ def main(use_season_results=False):
             if iteration_number == 1:
                 opponent_npis = {team_id: 50 for team_id in valid_teams}
             else:
-                opponent_npis = {
-                    team_id: previous_iteration_npis[team_id]
-                    for team_id in valid_teams
-                    if team_id in previous_iteration_npis
-                }
-
-            # Handle any teams that don't have a previous NPI
-            for team_id in valid_teams:
-                if team_id not in opponent_npis:
-                    opponent_npis[team_id] = 50  # Default to 50 if no previous NPI
+                # Faster dict creation by using get() instead of membership test
+                opponent_npis = {}
+                for team_id in valid_teams:
+                    opponent_npis[team_id] = previous_iteration_npis.get(team_id, 50)
 
             teams = process_games_iteration(
                 games, valid_teams, previous_iteration_npis, iteration_number
