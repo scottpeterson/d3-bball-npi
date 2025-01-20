@@ -29,7 +29,7 @@ def run_multiple_simulations_command():
     """Run multiple season simulations and generate statistics."""
     year = "2025"
     base_path = Path(__file__).parent / "data"
-    NUM_SIMULATIONS = 20
+    NUM_SIMULATIONS = 2
     try:
         print(f"\nStarting {NUM_SIMULATIONS} simulations...")
         print("-" * 50)
@@ -103,7 +103,7 @@ def run_simulate_season():
             print("\nFull season simulation failed")
 
     except Exception as e:
-        print(f"Error in season simulation: {e}")
+        print(f"Error in season simulation inside run_simulate_season: {e}")
 
 
 def run_predict_game():

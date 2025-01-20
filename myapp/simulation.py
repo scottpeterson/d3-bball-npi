@@ -246,13 +246,12 @@ def simulate_full_season(
         )
 
         # Simulate conference tournaments
-        tournament_date = "20250302"  # Conference tournament start date
         tournament_games, conference_champions = simulate_conference_tournaments(
-            conference_teams,
-            tournament_structures,
-            conference_standings,
-            team_data,
-            tournament_date,
+        conference_teams=conference_teams,
+        tournament_structures=tournament_structures,
+        conference_standings=conference_standings,
+        team_data=team_data,
+        completed_games=all_regular_season_games  # Pass all regular season games
         )
 
         # Combine all results
@@ -268,5 +267,5 @@ def simulate_full_season(
         return True
 
     except Exception as e:
-        print(f"Error in season simulation: {e}")
+        print(f"Error in season simulation inside simulate_full_season(): {e}")
         return False
