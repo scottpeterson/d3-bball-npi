@@ -192,7 +192,7 @@ def run_single_simulation(
                 conference_champions,
                 at_large_bids
             )
-
+        
         return results, bid_thieves, tournament_results
 
     except Exception as e:
@@ -300,23 +300,13 @@ def run_multiple_simulations(
             sim_results, sim_bid_thieves, tourn_results = run_single_simulation(
                 base_path, year, sim_number
             )
-            print("\nPOST-UNPACK DEBUG:")
-            print(f"Type of tourn_results: {type(tourn_results)}")
-            print(f"Team 325 in tourn_results post-unpack: {'325' in tourn_results}")
-            print("  Processing results...", flush=True)
-
-            # Right after getting results from run_single_simulation:
-            print(f"\nDEBUG Sim {sim_number}:")
-            print(f"Team 325 in tourn_results: {'325' in tourn_results}")
-            if '325' in tourn_results:
-                result = tourn_results['325']
-                print(f"Raw result for 325: exit_round={result.exit_round}, got_pool_c={result.got_pool_c}")
             
             for team_id, result in sim_results.items():
                 all_results[team_id].append(result)
             for team_id in sim_bid_thieves:
                 bid_thief_counts[team_id] += 1
             per_sim_bid_count.append(len(sim_bid_thieves))
+
 
             # Process tournament results
             for team_id, result in tourn_results.items():
@@ -331,18 +321,23 @@ def run_multiple_simulations(
                     print(f"Warning: got_pool_c is None for team {team_id}")
                     continue
 
-                if result.exit_round == 'Quarterfinal':
+                # Update stats based on exit round
+                if result.exit_round == 'Final':
+                    stats.final_total += 1
+                    stats.semifinal_total += 1
                     stats.quarterfinal_total += 1
                     if result.got_pool_c:
-                        stats.quarterfinal_pool_c += 1
+                        stats.final_pool_c += 1  # Only increment pool_c for the exit round
                 elif result.exit_round == 'Semifinal':
                     stats.semifinal_total += 1
+                    stats.quarterfinal_total += 1
                     if result.got_pool_c:
-                        stats.semifinal_pool_c += 1
-                elif result.exit_round == 'Final':
-                    stats.final_total += 1
+                        stats.semifinal_pool_c += 1  # Only increment pool_c for the exit round
+                elif result.exit_round == 'Quarterfinal':
+                    stats.quarterfinal_total += 1
                     if result.got_pool_c:
-                        stats.final_pool_c += 1
+                        stats.quarterfinal_pool_c += 1  # Only increment pool_c for the exit round
+
 
             sim_duration = time.time() - sim_start_time
             print(f"Completed simulation {sim_number} in {sim_duration:.2f} seconds")
@@ -357,6 +352,7 @@ def run_multiple_simulations(
     print(f"Average time per simulation: {total_duration/num_sims:.2f} seconds")
 
     team_stats = calculate_team_stats(all_results, tournament_stats)
+
     return team_stats, bid_thief_counts, per_sim_bid_count, tournament_stats
 
 
