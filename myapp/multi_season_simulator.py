@@ -364,7 +364,6 @@ def save_simulation_stats(
 ):
     """Save simulation statistics to CSV with team names and conferences."""
     output_path = base_path / year / "simulation_stats.csv"
-    
     # Load team mappings
     teams_mapping = {}
     mapping_path = base_path / year / "teams_mapping.txt"
@@ -380,49 +379,49 @@ def save_simulation_stats(
     except Exception as e:
         print(f"Error loading team mappings: {e}")
         return
-    
+
     # Sort by median rank (since we're storing NPIs in median_rank field)
     sorted_teams = sorted(
         stats.items(), key=lambda x: x[1].median_rank, reverse=True
     )
-    
+
     # Debug top teams before writing
     print("\nTop 5 teams by NPI:")
     for team_id, team_stats in sorted_teams[:5]:
         team_name = teams_mapping.get(team_id, f"Unknown ({team_id})")
         conference = conference_teams[team_id].conference
         print(f"{team_name} ({conference}): NPI = {team_stats.median_rank:.2f}")
-    
+
     with open(output_path, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([
-            "Team", "Conf", "MedW", "MedL", "A%", "C%", "ALWYNI%", "Tourn%", 
+            "Team", "Conf", "MedW", "MedL", "Tourn%", "A%", "C%", "ALWYNI%",
             "F-C%", "SF-C%", "QF-C%", "Med-NPI", "Min", "Max", "Rank"
         ])
-        
+
         for team_id, team_stats in sorted_teams:
             if team_id not in teams_mapping:
                 print(f"Warning: No mapping found for team ID {team_id}")
                 continue
-            
+
             team_name = teams_mapping[team_id]
             conference = conference_teams[team_id].conference
-            
+
             # Handle formatting for Pool C percentages
             def format_pool_c_pct(pct):
                 if isinstance(pct, str):
                     return pct
                 return f"{pct:.1f}%"
-            
+
             writer.writerow([
                 team_name,
                 conference,
                 f"{team_stats.median_wins:.1f}",
                 f"{team_stats.median_losses:.1f}",
+                f"{team_stats.tournament_pct:.1f}%",
                 f"{team_stats.auto_bid_pct:.1f}%",
                 f"{team_stats.at_large_pct:.1f}%",
                 f"{team_stats.alwyni:.1f}%",
-                f"{team_stats.tournament_pct:.1f}%",
                 format_pool_c_pct(team_stats.f_pool_c_pct),
                 format_pool_c_pct(team_stats.sf_pool_c_pct),
                 format_pool_c_pct(team_stats.qf_pool_c_pct),
