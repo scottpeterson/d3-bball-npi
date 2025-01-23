@@ -29,7 +29,7 @@ def run_multiple_simulations_command():
     """Run multiple season simulations and generate statistics."""
     year = "2025"
     base_path = Path(__file__).parent / "data"
-    NUM_SIMULATIONS = 2
+    NUM_SIMULATIONS = 1000
     try:
         print(f"\nStarting {NUM_SIMULATIONS} simulations...")
         print("-" * 50)
@@ -108,8 +108,8 @@ def run_simulate_season():
 
 def run_predict_game():
     # Hardcoded values
-    team_a_id = "9"
-    team_b_id = "153"
+    team_a_id = "402"
+    team_b_id = "334"
     year = "2025"
 
     base_path = Path(__file__).parent / "data"
