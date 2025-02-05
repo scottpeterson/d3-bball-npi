@@ -90,13 +90,9 @@ def run_simulate_season():
     base_path = Path(__file__).parent / "data"
 
     try:
-        # Load teams first
         valid_teams = load_teams(base_path, year)
-
-        # Load efficiency data
         team_data = load_efficiency_data(base_path, int(year))
 
-        # Run full season simulation
         if simulate_full_season(base_path, year, valid_teams, team_data):
             print("\nFull season simulation completed successfully")
         else:
@@ -108,14 +104,13 @@ def run_simulate_season():
 
 def run_predict_game():
     # Hardcoded values
-    team_a_id = "34"
-    team_b_id = "137"
+    team_a_id = "160"
+    team_b_id = "57"
     year = "2025"
 
     base_path = Path(__file__).parent / "data"
 
     try:
-        # Load teams first to validate IDs
         valid_teams = load_teams(base_path, year)
         if team_a_id not in valid_teams or team_b_id not in valid_teams:
             print(f"Error: Invalid team ID(s)")
@@ -131,7 +126,6 @@ def run_predict_game():
             base_path, team_a_id, team_b_id, int(year)
         )
 
-        # Print predictions
         print("\nPredicted Win Probabilities:")
         print(f"{'Team':<30} {'Win Probability':<15}")
         print("-" * 45)
@@ -139,7 +133,6 @@ def run_predict_game():
             team_name = valid_teams[team_id]
             print(f"{team_name:<30} {prob:>6.1%}")
 
-        # Print simulation result
         print("\nSimulated Game Result:")
         print("-" * 45)
         winner_name = valid_teams[result.winner_id]
