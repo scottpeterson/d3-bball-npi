@@ -251,7 +251,7 @@ def simulate_full_season(
         tournament_structures=tournament_structures,
         conference_standings=conference_standings,
         team_data=team_data,
-        completed_games=all_regular_season_games  # Pass all regular season games
+        completed_games=all_regular_season_games
         )
 
         # Combine all results
