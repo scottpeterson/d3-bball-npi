@@ -234,13 +234,25 @@ def simulate_conference_tournaments(
             
             next_round_teams = []
             for higher_seed, lower_seed in matchups:
+                # Handle C2C conference venue logic
+                team1_home = True  # Default: higher seed is home
+                team2_home = False
+                if conf == "C2C":
+                    if lower_seed.team_id == "236":
+                        # Mt. Mary is lower seed - swap home teams
+                        team1_home = False
+                        team2_home = True
+                    elif higher_seed.team_id != "236":
+                        # Neither team is Mt. Mary - neutral site
+                        team1_home = False
+                        team2_home = False
                 game = simulate_tournament_game(
                     higher_seed.team_id,
                     lower_seed.team_id,
                     team_data,
                     tournament_date,
-                    team1_home=True,
-                    team2_home=False,
+                    team1_home=team1_home,
+                    team2_home=team2_home,
                     conference=conf,
                     round_name=round_name,
                 )
@@ -270,13 +282,25 @@ def simulate_conference_tournaments(
             next_round_teams = []
             
             for higher_seed, lower_seed in matchups:
+                # Handle C2C conference venue logic
+                team1_home = True  # Default: higher seed is home
+                team2_home = False
+                if conf == "C2C":
+                    if lower_seed.team_id == "236":
+                        # Mt. Mary is lower seed - swap home teams
+                        team1_home = False
+                        team2_home = True
+                    elif higher_seed.team_id != "236":
+                        # Neither team is Mt. Mary - neutral site
+                        team1_home = False
+                        team2_home = False
                 game = simulate_tournament_game(
                     higher_seed.team_id,
                     lower_seed.team_id,
                     team_data,
                     tournament_date,
-                    team1_home=True,
-                    team2_home=False,
+                    team1_home=team1_home,
+                    team2_home=team2_home,
                     conference=conf,
                     round_name=round_name,
                 )

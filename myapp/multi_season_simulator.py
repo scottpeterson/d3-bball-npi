@@ -12,6 +12,8 @@ from .simulation import (
     simulate_full_season,
     load_conference_data,
 )
+from .conf_tournaments import load_tournament_structures
+from .bid_thieves import determine_at_large_bid
 from .main import main
 
 
@@ -141,14 +143,22 @@ def run_single_simulation(
         tournament_games = [game for game in season_results if game["date"] >= "20250302"]
         conference_champions = get_conference_champions(season_results, conference_teams)
         
+         # Get provisional teams from all conferences
+        provisional_teams = set()
+        tournament_structures = load_tournament_structures(base_path, year)
+        for structure in tournament_structures.values():
+           provisional_teams.update(structure.provisional_teams)
+
         # Analyze bid thieves
         bid_thieves, _ = analyze_tournament_bid_thieves(
             tournament_games,
             conference_champions,
             conference_teams,
             final_teams,
-            auto_bid_recipients
+            auto_bid_recipients,
+            provisional_teams
         )
+
         # Now process all teams for complete results
         for team_id, team_stats in final_teams.items():
             if not team_stats["has_games"]:
@@ -166,8 +176,11 @@ def run_single_simulation(
 
             # Determine at-large bid (C)
             got_at_large = determine_at_large_bid(
-                team_id, final_teams, auto_bid_recipients
-            )
+               team_id, 
+               final_teams, 
+               auto_bid_recipients,
+               provisional_teams
+           )
 
             results[team_id] = TeamSimResult(
                 simulation_number=sim_number,
@@ -524,39 +537,6 @@ def get_conference_champions(
     
     return champions
 
-
-def determine_at_large_bid(
-    team_id: str, all_teams: Dict[str, Dict], auto_bid_recipients: Set[str]
-) -> bool:
-    """
-    Determine if a team receives an at-large bid.
-
-    Args:
-        team_id: The team being evaluated
-        all_teams: Dictionary of all teams and their stats from NPI calculation
-        auto_bid_recipients: Set of team IDs that received automatic bids
-
-    Returns:
-        bool: True if team receives an at-large bid, False otherwise
-    """
-    # If team already has an auto bid, they don't need an at-large
-    if team_id in auto_bid_recipients:
-        return False
-
-    # Get NPI values for all teams without automatic bids
-    non_auto_bid_teams = [
-        {"team_id": tid, "npi": stats["npi"]}
-        for tid, stats in all_teams.items()
-        if tid not in auto_bid_recipients and stats.get("has_games", False)
-    ]
-
-    # Sort the teams by NPI in descending order (higher NPI is better)
-    non_auto_bid_teams.sort(key=lambda x: x["npi"], reverse=True)
-
-    # Take the top 21 teams for at-large bids
-    at_large_bids = {team["team_id"] for team in non_auto_bid_teams[:21]}
-
-    return team_id in at_large_bids
 
 def get_conference_tournament_results(
     tournament_games: List[dict],
