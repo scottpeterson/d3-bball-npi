@@ -8053,92 +8053,92 @@ Date,Team A,Team B,Home/Away,Result
 02/06/2025,Fontbonne,MS Women,Home,L
 02/06/2025,Eureka,Spalding,Home,W
 02/06/2025,Spalding,Eureka,Road,L
-02/07/2025,CT College,Hamilton,Road,T
-02/07/2025,Hamilton,CT College,Home,T
-02/07/2025,Huntingdon,Maryville TN,Road,T
-02/07/2025,Maryville TN,Huntingdon,Home,T
-02/07/2025,York NY,Lehman,Road,T
-02/07/2025,Lehman,York NY,Home,T
-02/07/2025,Nazareth,Brockport St.,Road,T
-02/07/2025,Brockport St.,Nazareth,Home,T
-02/07/2025,Vassar,Bard,Road,T
-02/07/2025,Bard,Vassar,Home,T
-02/07/2025,Rochester Tech,St. Lawrence,Road,T
-02/07/2025,St. Lawrence,Rochester Tech,Home,T
-02/07/2025,Schreiner,SW Univ TX,Road,T
-02/07/2025,SW Univ TX,Schreiner,Home,T
-02/07/2025,Skidmore,Ithaca,Road,T
-02/07/2025,Ithaca,Skidmore,Home,T
-02/07/2025,SUNY Potsdam,SUNY Oneonta,Road,T
-02/07/2025,SUNY Oneonta,SUNY Potsdam,Home,T
-02/07/2025,Bates,Trinity (Conn),Road,T
-02/07/2025,Trinity (Conn),Bates,Home,T
-02/07/2025,Rensselaer,Union NY,Road,T
-02/07/2025,Union NY,Rensselaer,Home,T
-02/07/2025,Trinity (Texas),TX Lutheran,Road,T
-02/07/2025,TX Lutheran,Trinity (Texas),Home,T
-02/07/2025,Emory,Carnegie Mellon,Road,T
-02/07/2025,Carnegie Mellon,Emory,Home,T
-02/07/2025,City Col NY,Medgar Evers,Road,T
-02/07/2025,Medgar Evers,City Col NY,Home,T
-02/07/2025,SUNYIT,Sage,Road,T
-02/07/2025,Sage,SUNYIT,Home,T
-02/07/2025,Utica,Hartwick,Road,T
-02/07/2025,Hartwick,Utica,Home,T
-02/07/2025,Methodist,Greensboro,Road,T
-02/07/2025,Greensboro,Methodist,Home,T
-02/07/2025,Concordia TX,Centenary,Road,T
-02/07/2025,Centenary,Concordia TX,Home,T
-02/07/2025,Chicago,NYU,Road,T
-02/07/2025,NYU,Chicago,Home,T
-02/07/2025,Hobart & Smith,Clarkson,Road,T
-02/07/2025,Clarkson,Hobart & Smith,Home,T
-02/07/2025,Williams,Colby,Road,T
-02/07/2025,Colby,Williams,Home,T
-02/07/2025,Alfred,Keuka,Road,T
-02/07/2025,Keuka,Alfred,Home,T
-02/07/2025,Morrisville St.,Cortland,Road,T
-02/07/2025,Cortland,Morrisville St.,Home,T
-02/07/2025,St. John Fisher,Geneseo St.,Road,T
-02/07/2025,Geneseo St.,St. John Fisher,Home,T
-02/07/2025,Pac Lutheran,George Fox,Road,T
-02/07/2025,George Fox,Pac Lutheran,Home,T
-02/07/2025,Houghton,Elmira,Road,T
-02/07/2025,Elmira,Houghton,Home,T
-02/07/2025,LaGrange,Asbury,Road,T
-02/07/2025,Asbury,LaGrange,Home,T
-02/07/2025,Puget Sound,Linfield,Road,T
-02/07/2025,Linfield,Puget Sound,Home,T
-02/07/2025,Austin Col,Colorado Col,Road,T
-02/07/2025,Colorado Col,Austin Col,Home,T
-02/07/2025,McMurry,Univ Ozarks,Road,T
-02/07/2025,Univ Ozarks,McMurry,Home,T
-02/07/2025,Middlebury,Bowdoin,Road,T
-02/07/2025,Bowdoin,Middlebury,Home,T
-02/07/2025,Oglethorpe,Centre,Road,T
-02/07/2025,Centre,Oglethorpe,Home,T
-02/07/2025,Plattsburgh St.,SUNY New Paltz,Road,T
-02/07/2025,SUNY New Paltz,Plattsburgh St.,Home,T
-02/07/2025,Berry,Sewanee,Road,T
-02/07/2025,Sewanee,Berry,Home,T
-02/07/2025,Rochester,Case Western,Road,T
-02/07/2025,Case Western,Rochester,Home,T
-02/07/2025,Dallas Univ,St. Thomas TX,Road,T
-02/07/2025,St. Thomas TX,Dallas Univ,Home,T
-02/07/2025,SUNY Delhi,Lesley,Road,T
-02/07/2025,Lesley,SUNY Delhi,Home,T
-02/07/2025,SUNY Canton,Buffalo St.,Road,T
-02/07/2025,Buffalo St.,SUNY Canton,Home,T
-02/07/2025,Oswego St.,SUNY Fredonia,Road,T
-02/07/2025,SUNY Fredonia,Oswego St.,Home,T
-02/07/2025,Tufts,Amherst,Road,T
-02/07/2025,Amherst,Tufts,Home,T
-02/07/2025,WashU,Brandeis,Road,T
-02/07/2025,Brandeis,WashU,Home,T
-02/07/2025,Whitman,Willamette,Road,T
-02/07/2025,Willamette,Whitman,Home,T
-02/07/2025,Whitworth,Lewis & Clark,Road,T
-02/07/2025,Lewis & Clark,Whitworth,Home,T
+02/07/2025,Hamilton,CT College,Home,W
+02/07/2025,CT College,Hamilton,Road,L
+02/07/2025,Maryville TN,Huntingdon,Home,W
+02/07/2025,Huntingdon,Maryville TN,Road,L
+02/07/2025,Lehman,York NY,Home,W
+02/07/2025,York NY,Lehman,Road,L
+02/07/2025,Brockport St.,Nazareth,Home,W
+02/07/2025,Nazareth,Brockport St.,Road,L
+02/07/2025,Vassar,Bard,Road,W
+02/07/2025,Bard,Vassar,Home,L
+02/07/2025,St. Lawrence,Rochester Tech,Home,W
+02/07/2025,Rochester Tech,St. Lawrence,Road,L
+02/07/2025,SW Univ TX,Schreiner,Home,W
+02/07/2025,Schreiner,SW Univ TX,Road,L
+02/07/2025,Ithaca,Skidmore,Home,W
+02/07/2025,Skidmore,Ithaca,Road,L
+02/07/2025,SUNY Potsdam,SUNY Oneonta,Road,W
+02/07/2025,SUNY Oneonta,SUNY Potsdam,Home,L
+02/07/2025,Bates,Trinity (Conn),Road,W
+02/07/2025,Trinity (Conn),Bates,Home,L
+02/07/2025,Union NY,Rensselaer,Home,W
+02/07/2025,Rensselaer,Union NY,Road,L
+02/07/2025,TX Lutheran,Trinity (Texas),Home,W
+02/07/2025,Trinity (Texas),TX Lutheran,Road,L
+02/07/2025,Carnegie Mellon,Emory,Home,W
+02/07/2025,Emory,Carnegie Mellon,Road,L
+02/07/2025,Medgar Evers,City Col NY,Home,W
+02/07/2025,City Col NY,Medgar Evers,Road,L
+02/07/2025,Sage,SUNYIT,Home,W
+02/07/2025,SUNYIT,Sage,Road,L
+02/07/2025,Hartwick,Utica,Home,W
+02/07/2025,Utica,Hartwick,Road,L
+02/07/2025,Methodist,Greensboro,Road,W
+02/07/2025,Greensboro,Methodist,Home,L
+02/07/2025,Concordia TX,Centenary,Road,W
+02/07/2025,Centenary,Concordia TX,Home,L
+02/07/2025,NYU,Chicago,Home,W
+02/07/2025,Chicago,NYU,Road,L
+02/07/2025,Clarkson,Hobart & Smith,Home,W
+02/07/2025,Hobart & Smith,Clarkson,Road,L
+02/07/2025,Williams,Colby,Road,W
+02/07/2025,Colby,Williams,Home,L
+02/07/2025,Alfred,Keuka,Road,W
+02/07/2025,Keuka,Alfred,Home,L
+02/07/2025,Cortland,Morrisville St.,Home,W
+02/07/2025,Morrisville St.,Cortland,Road,L
+02/07/2025,Geneseo St.,St. John Fisher,Home,W
+02/07/2025,St. John Fisher,Geneseo St.,Road,L
+02/07/2025,George Fox,Pac Lutheran,Home,W
+02/07/2025,Pac Lutheran,George Fox,Road,L
+02/07/2025,Houghton,Elmira,Road,W
+02/07/2025,Elmira,Houghton,Home,L
+02/07/2025,Asbury,LaGrange,Home,W
+02/07/2025,LaGrange,Asbury,Road,L
+02/07/2025,Puget Sound,Linfield,Road,W
+02/07/2025,Linfield,Puget Sound,Home,L
+02/07/2025,Colorado Col,Austin Col,Home,W
+02/07/2025,Austin Col,Colorado Col,Road,L
+02/07/2025,McMurry,Univ Ozarks,Road,W
+02/07/2025,Univ Ozarks,McMurry,Home,L
+02/07/2025,Bowdoin,Middlebury,Home,W
+02/07/2025,Middlebury,Bowdoin,Road,L
+02/07/2025,Centre,Oglethorpe,Home,W
+02/07/2025,Oglethorpe,Centre,Road,L
+02/07/2025,SUNY New Paltz,Plattsburgh St.,Home,W
+02/07/2025,Plattsburgh St.,SUNY New Paltz,Road,L
+02/07/2025,Sewanee,Berry,Home,W
+02/07/2025,Berry,Sewanee,Road,L
+02/07/2025,Case Western,Rochester,Home,W
+02/07/2025,Rochester,Case Western,Road,L
+02/07/2025,St. Thomas TX,Dallas Univ,Home,W
+02/07/2025,Dallas Univ,St. Thomas TX,Road,L
+02/07/2025,Lesley,SUNY Delhi,Home,W
+02/07/2025,SUNY Delhi,Lesley,Road,L
+02/07/2025,SUNY Canton,Buffalo St.,Road,W
+02/07/2025,Buffalo St.,SUNY Canton,Home,L
+02/07/2025,Oswego St.,SUNY Fredonia,Road,W
+02/07/2025,SUNY Fredonia,Oswego St.,Home,L
+02/07/2025,Amherst,Tufts,Home,W
+02/07/2025,Tufts,Amherst,Road,L
+02/07/2025,Brandeis,WashU,Home,W
+02/07/2025,WashU,Brandeis,Road,L
+02/07/2025,Whitman,Willamette,Road,W
+02/07/2025,Willamette,Whitman,Home,L
+02/07/2025,Whitworth,Lewis & Clark,Road,W
+02/07/2025,Lewis & Clark,Whitworth,Home,L
 02/08/2025,Olivet MI,Albion,Road,T
 02/08/2025,Albion,Olivet MI,Home,T
 02/08/2025,Smith,Clark MA,Road,T
@@ -8519,6 +8519,14 @@ Date,Team A,Team B,Home/Away,Result
 02/09/2025,NYU,WashU,Home,T
 02/10/2025,Cal Lutheran,Occidental,Road,T
 02/10/2025,Occidental,Cal Lutheran,Home,T
+02/10/2025,Rockford,Concordia IL,Road,T
+02/10/2025,Concordia IL,Rockford,Home,T
+02/10/2025,Elms,Emmanuel,Road,T
+02/10/2025,Emmanuel,Elms,Home,T
+02/10/2025,Misericordia,Lebanon Val,Road,T
+02/10/2025,Lebanon Val,Misericordia,Home,T
+02/10/2025,Salisbury,Shenandoah,Road,T
+02/10/2025,Shenandoah,Salisbury,Home,T
 02/10/2025,Pfeiffer,Warren Wilson,Road,T
 02/10/2025,Warren Wilson,Pfeiffer,Home,T
 02/11/2025,City Col NY,Hunter,Road,T
