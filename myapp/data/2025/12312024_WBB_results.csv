@@ -8475,32 +8475,32 @@ Date,Team A,Team B,Home/Away,Result
 02/08/2025,Lancaster Bib,Bryn Athyn,Road,L
 02/08/2025,Buena Vista,Dubuque,Road,W
 02/08/2025,Dubuque,Buena Vista,Home,L
-02/09/2025,Dallas Univ,Colorado Col,Road,T
-02/09/2025,Colorado Col,Dallas Univ,Home,T
-02/09/2025,Bates,Wesleyan CT,Road,T
-02/09/2025,Wesleyan CT,Bates,Home,T
-02/09/2025,Emory,Case Western,Road,T
-02/09/2025,Case Western,Emory,Home,T
-02/09/2025,McMurry,Centenary,Road,T
-02/09/2025,Centenary,McMurry,Home,T
-02/09/2025,Chicago,Brandeis,Road,T
-02/09/2025,Brandeis,Chicago,Home,T
-02/09/2025,Hendrix,Millsaps,Road,T
-02/09/2025,Millsaps,Hendrix,Home,T
-02/09/2025,Austin Col,St. Thomas TX,Road,T
-02/09/2025,St. Thomas TX,Austin Col,Home,T
-02/09/2025,Oglethorpe,Sewanee,Road,T
-02/09/2025,Sewanee,Oglethorpe,Home,T
-02/09/2025,Berry,Centre,Road,T
-02/09/2025,Centre,Berry,Home,T
-02/09/2025,Rochester,Carnegie Mellon,Road,T
-02/09/2025,Carnegie Mellon,Rochester,Home,T
+02/09/2025,Colorado Col,Dallas Univ,Home,W
+02/09/2025,Dallas Univ,Colorado Col,Road,L
+02/09/2025,Bates,Wesleyan CT,Road,W
+02/09/2025,Wesleyan CT,Bates,Home,L
+02/09/2025,Emory,Case Western,Road,W
+02/09/2025,Case Western,Emory,Home,L
+02/09/2025,McMurry,Centenary,Road,W
+02/09/2025,Centenary,McMurry,Home,L
+02/09/2025,Chicago,Brandeis,Road,W
+02/09/2025,Brandeis,Chicago,Home,L
+02/09/2025,Millsaps,Hendrix,Home,W
+02/09/2025,Hendrix,Millsaps,Road,L
+02/09/2025,St. Thomas TX,Austin Col,Home,W
+02/09/2025,Austin Col,St. Thomas TX,Road,L
+02/09/2025,Oglethorpe,Sewanee,Road,W
+02/09/2025,Sewanee,Oglethorpe,Home,L
+02/09/2025,Centre,Berry,Home,W
+02/09/2025,Berry,Centre,Road,L
+02/09/2025,Carnegie Mellon,Rochester,Home,W
+02/09/2025,Rochester,Carnegie Mellon,Road,L
 02/09/2025,Farmingdale,Yeshiva,Road,T
 02/09/2025,Yeshiva,Farmingdale,Home,T
-02/09/2025,Concordia TX,Univ Ozarks,Road,T
-02/09/2025,Univ Ozarks,Concordia TX,Home,T
-02/09/2025,WashU,NYU,Road,T
-02/09/2025,NYU,WashU,Home,T
+02/09/2025,Univ Ozarks,Concordia TX,Home,W
+02/09/2025,Concordia TX,Univ Ozarks,Road,L
+02/09/2025,NYU,WashU,Home,W
+02/09/2025,WashU,NYU,Road,L
 02/10/2025,Cal Lutheran,Occidental,Road,T
 02/10/2025,Occidental,Cal Lutheran,Home,T
 02/10/2025,Elms,Emmanuel,Road,T
@@ -8663,6 +8663,8 @@ Date,Team A,Team B,Home/Away,Result
 02/12/2025,Dean,Mitchell,Home,T
 02/12/2025,Carleton,Hamline,Road,T
 02/12/2025,Hamline,Carleton,Home,T
+02/12/2025,Lawrence,Lake Forest,Road,T
+02/12/2025,Lake Forest,Lawrence,Home,T
 02/12/2025,Pomona-Pitzer,Caltech,Road,T
 02/12/2025,Caltech,Pomona-Pitzer,Home,T
 02/12/2025,Albion,Calvin,Road,T
