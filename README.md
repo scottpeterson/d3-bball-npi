@@ -28,13 +28,3 @@ The command to generate NPI is currently not configurable by year. You'll have t
 
 The weights for Win%, SOS, QWB, etc are all currently hardcoded for WBB.
 
-## Ideas for future development
-
-- Set up modeling of conference tournaments
-- Running of commands at the command line should take in a year parameter
-- Weights/dials being used should be variabilized, so the user can configure by sport. Though unsure if this code is flexible enough to work for all sports. It definitely is not set up to calculate MBB NPI, due to the different weighting of Home/Away games and Conference/Non-Conference games.
-
-## Completed Ideas
-
-- Programmatic fetching of Massey data via command. I don't want to set up automatic fetching on some cadence, but cutting out the manual copy/paste step would make the app more resilient. (2024/11/28)
-- Simulations of the rest of season. I'm unsure what I want to use as the basis for win probabilities, and how I want to inject noise/randomness into the simulation, but simulations are critical to understanding what the range of possible outcomes are for a team, given their schedule.

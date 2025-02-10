@@ -76,7 +76,6 @@ def efficiency_getter(url, year="2025"):
             skipinitialspace=True,
         )
 
-        # Filter out header rows
         df = df[
             ~df["Team"].str.contains("Nat'l", na=True)
             & ~df["Team"].str.contains("Team", na=True)

@@ -35,16 +35,15 @@ def run_multiple_simulations_command():
     """Run multiple season simulations and generate statistics."""
     year = "2025"
     base_path = Path(__file__).parent / "data"
-    NUM_SIMULATIONS = 10
+    NUM_SIMULATIONS = 1000
     try:
         print(f"\nStarting {NUM_SIMULATIONS} simulations...")
         print("-" * 50)
 
-        # Load team mappings
         teams_mapping = {}
         mapping_path = base_path / year / "teams_mapping.txt"
         with open(mapping_path, "r") as file:
-            next(file)  # Skip header
+            next(file)
             for line in file:
                 parts = line.strip().split(",")
                 if len(parts) >= 3:

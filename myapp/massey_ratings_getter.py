@@ -30,7 +30,6 @@ def massey_ratings_getter(url, year="2025"):
             zip(team_mappings["Massey_Name"], team_mappings["Scott_Name"])
         )
 
-        # Set up Chrome options for headless browsing
         chrome_options = Options()
         chrome_options.add_argument("--headless")
         chrome_options.add_argument("--no-sandbox")
@@ -62,7 +61,6 @@ def massey_ratings_getter(url, year="2025"):
                     team_cell = row.find_element(By.CLASS_NAME, "fteam")
                     massey_name = team_cell.find_element(By.TAG_NAME, "a").text
 
-                    # Replace whitespace with underscore for mapping
                     massey_name_underscored = massey_name.replace(" ", "_")
                     scott_name = massey_map.get(massey_name_underscored, massey_name)
 

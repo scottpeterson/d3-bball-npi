@@ -19,14 +19,12 @@ def load_games(base_path, year, valid_teams, use_season_results=False):
                     if len(cols) < 8:
                         continue
 
-                    # Extract game data
                     date = cols[0].strip()
                     team1_id = cols[2].strip()
                     team2_id = cols[5].strip()
                     team1_score = int(cols[4])
                     team2_score = int(cols[7])
 
-                    # Skip 0-0 games
                     if team1_score == 0 and team2_score == 0:
                         zero_zero_count += 1
                         continue

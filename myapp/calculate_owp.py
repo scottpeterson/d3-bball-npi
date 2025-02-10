@@ -58,7 +58,7 @@ def calculate_owp(games, valid_teams):
                     opp_losses -= 1
                 elif game["team2_score"] > game["team1_score"]:
                     opp_wins -= 1
-            else:  # team_id is team2
+            else:
                 if game["team2_score"] > game["team1_score"]:
                     opp_losses -= 1
                 elif game["team1_score"] > game["team2_score"]:

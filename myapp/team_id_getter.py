@@ -116,7 +116,6 @@ def team_ids_getter(url: str, year: str = "2025") -> bool:
             massey_teams, existing_teams
         )
 
-        # Report results
         print("\nComparison Results:")
         print(f"Teams in Massey but not in mappings ({len(new_teams)}):")
         for team_id in sorted(new_teams):

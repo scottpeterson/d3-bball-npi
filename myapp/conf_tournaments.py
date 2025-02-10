@@ -84,7 +84,6 @@ def calculate_conference_standings(
     conference_records: Dict[str, Dict[str, Tuple[int, int]]] = {}
     c2c_records: Dict[str, Tuple[int, int]] = {}  # Special handling for C2C
 
-    # Process each game
     for game in season_results:
         team1_id = game["team1_id"]
         team2_id = game["team2_id"]
