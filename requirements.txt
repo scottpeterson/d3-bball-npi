@@ -1,4 +1,4 @@
-pytest==7.4.0
+pytest==8.3.4
 python-dotenv==1.0.0
 requests==2.31.0
 vulture==2.10
