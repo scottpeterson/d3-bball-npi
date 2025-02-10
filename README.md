@@ -28,3 +28,6 @@ The command to generate NPI is currently not configurable by year. You'll have t
 
 The weights for Win%, SOS, QWB, etc are all currently hardcoded for WBB.
 
+## Generating other data
+
+The repository also includes simulation logic, with extensive data being saved in csv files
