@@ -1,12 +1,13 @@
 import csv
 from pathlib import Path
+
 from .process_games_bidirectional import process_games_bidirectional
 
 
 def save_npi_results_to_csv(teams):
     """Write results for an iteration to CSV."""
     data_path = Path(__file__).parent / "data" / "2025" / "npi.csv"
-    
+
     # Load old rankings and find max rank
     old_rankings = {}
     max_rank = 0
@@ -25,35 +26,39 @@ def save_npi_results_to_csv(teams):
 
     with open(data_path, "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow([
-            "Team Name",
-            "Games",
-            "Wins",
-            "Qualifying Wins",
-            "Qualifying Losses",
-            "NPI",
-            "Rank",
-            "Old Rank",
-            "Rank Change",
-        ])
-        
+        writer.writerow(
+            [
+                "Team Name",
+                "Games",
+                "Wins",
+                "Qualifying Wins",
+                "Qualifying Losses",
+                "NPI",
+                "Rank",
+                "Old Rank",
+                "Rank Change",
+            ]
+        )
+
         for rank, team in enumerate(sorted_teams, 1):
             if team["team_name"] in old_rankings:
                 old_rank = old_rankings[team["team_name"]]
             else:
                 old_rank = max_rank + 1
-            
+
             rank_change = old_rank - rank
             rank_change_str = f"+{rank_change}" if rank_change > 0 else str(rank_change)
-            
-            writer.writerow([
-                team["team_name"],
-                team["games"],
-                team["wins"],
-                team.get("qualifying_wins", 0),
-                team.get("qualifying_losses", 0),
-                f"{team['npi']:.6f}",  # Increased precision to 6 decimal places
-                rank,
-                old_rank,
-                rank_change_str,
-            ])
+
+            writer.writerow(
+                [
+                    team["team_name"],
+                    team["games"],
+                    team["wins"],
+                    team.get("qualifying_wins", 0),
+                    team.get("qualifying_losses", 0),
+                    f"{team['npi']:.6f}",  # Increased precision to 6 decimal places
+                    rank,
+                    old_rank,
+                    rank_change_str,
+                ]
+            )

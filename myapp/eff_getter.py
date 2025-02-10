@@ -1,8 +1,9 @@
-import requests
-from pathlib import Path
-import pandas as pd
 import re
 from io import StringIO
+from pathlib import Path
+
+import pandas as pd
+import requests
 
 
 def efficiency_getter(url, year="2025"):

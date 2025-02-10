@@ -1,7 +1,7 @@
-from dataclasses import dataclass
-from typing import Dict, Tuple, Optional
 import math
 import random
+from dataclasses import dataclass
+from typing import Dict, Tuple
 
 
 @dataclass
@@ -77,32 +77,33 @@ class EloSimulator:
 
         return {team_a_id: prob_a, team_b_id: prob_b}
 
-    def update_ratings(self, winner_id: str, loser_id: str, team_b_home: bool = True):
+    def update_ratings(self, winner_id: str, loser_id: str, winner_was_home: bool):
         """
         Update ELO ratings after a game result using correct ELO formula
 
         Args:
             winner_id: ID of winning team
             loser_id: ID of losing team
-            team_b_home: Whether team B was home
+            winner_was_home: Whether the winning team was the home team
         """
         rating_winner = self.team_ratings[winner_id]
         rating_loser = self.team_ratings[loser_id]
 
-        # Apply home court for probability calculation
-        if team_b_home and winner_id == loser_id:
-            rating_loser += self.home_advantage
-        elif team_b_home:
+        # Apply home court advantage to the appropriate team
+        if winner_was_home:
             rating_winner += self.home_advantage
+        else:
+            rating_loser += self.home_advantage
 
-        # Calculate probabilities
+        # Calculate probability of winner winning
         prob_winner = self.probability(rating_winner, rating_loser)
-        prob_loser = self.probability(rating_loser, rating_winner)
 
         # Update ratings using correct formula
         # Winner won (outcome = 1), loser lost (outcome = 0)
         self.team_ratings[winner_id] = rating_winner + self.k_factor * (1 - prob_winner)
-        self.team_ratings[loser_id] = rating_loser + self.k_factor * (0 - prob_loser)
+        self.team_ratings[loser_id] = rating_loser + self.k_factor * (
+            0 - (1 - prob_winner)
+        )
 
     def simulate_game(
         self, team_a_id: str, team_b_id: str, team_b_home: bool = True
@@ -118,35 +119,37 @@ class EloSimulator:
         Returns:
             GameResult object with winner and scores
         """
+        # Calculate win probabilities first
         probabilities = self.calculate_win_probability(
             team_a_id, team_b_id, team_b_home
         )
+        team_a_win_probability = probabilities[team_a_id]
 
-        # Generate random outcome
+        # Determine winner/loser based on probabilities
         random_value = random.random()
-        team_a_wins = random_value < probabilities[team_a_id]
-
-        # Generate plausible scores
-        # Higher rated team tends to score more
-        rating_diff = abs(self.team_ratings[team_a_id] - self.team_ratings[team_b_id])
-        base_score = 65  # Average D3 score
-        score_variance = 10  # Points of variance
-
-        if team_a_wins:
+        if random_value < team_a_win_probability:
             winner_id = team_a_id
             loser_id = team_b_id
-            winner_rating = self.team_ratings[team_a_id]
-            loser_rating = self.team_ratings[team_b_id]
-            was_upset = probabilities[team_b_id] > 0.5
+            was_upset = team_a_win_probability < 0.5
         else:
             winner_id = team_b_id
             loser_id = team_a_id
-            winner_rating = self.team_ratings[team_b_id]
-            loser_rating = self.team_ratings[team_a_id]
-            was_upset = probabilities[team_a_id] > 0.5
+            was_upset = team_a_win_probability > 0.5
 
-        # Generate scores based on rating difference
+        # Determine if winner was the home team
+        winner_was_home = (team_b_home and winner_id == team_b_id) or (
+            not team_b_home and winner_id == team_a_id
+        )
+
+        # Calculate score margin based on rating difference
+        winner_rating = self.team_ratings[winner_id]
+        loser_rating = self.team_ratings[loser_id]
+        rating_diff = abs(winner_rating - loser_rating)
         rating_factor = min(rating_diff / 400, 1.0)  # Cap the effect
+
+        # Generate plausible scores
+        base_score = 65  # Average D3 score
+        score_variance = 10  # Points of variance
         margin = random.gauss(8 * rating_factor, 4)
         winner_score = int(random.gauss(base_score + margin / 2, score_variance))
         loser_score = int(random.gauss(base_score - margin / 2, score_variance))
@@ -155,8 +158,8 @@ class EloSimulator:
         if winner_score <= loser_score:
             winner_score = loser_score + 1
 
-        # Update ratings based on result using correct formula
-        self.update_ratings(winner_id, loser_id, team_b_home)
+        # Update ratings based on result
+        self.update_ratings(winner_id, loser_id, winner_was_home)
 
         return GameResult(
             winner_id=winner_id,

@@ -3,11 +3,8 @@ from collections import defaultdict
 
 def calculate_owp(games, valid_teams):
     # Pre-initialize records with known structure
-    records = {
-        team_id: {"wins": 0, "losses": 0, "games": 0}
-        for team_id in valid_teams
-    }
-    
+    records = {team_id: {"wins": 0, "losses": 0, "games": 0} for team_id in valid_teams}
+
     # Build opponent records per team
     opponent_stats = {
         team_id: {"total_wins": 0, "total_losses": 0, "games": []}
@@ -71,6 +68,8 @@ def calculate_owp(games, valid_teams):
             opponents_total_losses += opp_losses
 
         total_games = opponents_total_wins + opponents_total_losses
-        owp[team_id] = (opponents_total_wins / total_games * 100) if total_games > 0 else 50
+        owp[team_id] = (
+            (opponents_total_wins / total_games * 100) if total_games > 0 else 50
+        )
 
     return owp

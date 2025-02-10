@@ -1,14 +1,20 @@
+import csv
 import sys
 from pathlib import Path
-import csv
-from .main import load_teams, process_games_bidirectional, predict_and_simulate_game
-from .games_getter import games_getter
-from .simulation import load_efficiency_data, simulate_full_season
-from .multi_season_simulator import run_multiple_simulations, save_simulation_stats, load_conference_data
+
 from .conf_tournaments import load_conference_data
 from .eff_getter import efficiency_getter
+from .games_getter import games_getter
+from .main import load_teams, predict_and_simulate_game, process_games_bidirectional
 from .massey_ratings_getter import massey_ratings_getter
+from .multi_season_simulator import (
+    load_conference_data,
+    run_multiple_simulations,
+    save_simulation_stats,
+)
+from .simulation import load_efficiency_data, simulate_full_season
 from .team_id_getter import team_ids_getter
+
 
 def run_team_ids_getter():
     url = "https://masseyratings.com/scores.php?s=604303&sub=11620&all=1&mode=3&sch=on&format=2"
@@ -29,11 +35,11 @@ def run_multiple_simulations_command():
     """Run multiple season simulations and generate statistics."""
     year = "2025"
     base_path = Path(__file__).parent / "data"
-    NUM_SIMULATIONS = 1000
+    NUM_SIMULATIONS = 10
     try:
         print(f"\nStarting {NUM_SIMULATIONS} simulations...")
         print("-" * 50)
-        
+
         # Load team mappings
         teams_mapping = {}
         mapping_path = base_path / year / "teams_mapping.txt"
@@ -62,8 +68,12 @@ def run_multiple_simulations_command():
         with open(bid_thief_path, "w", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(["Team", "Bid Thief Count", "Percentage"])
-            for team_id, count in sorted(bid_thief_counts.items(), key=lambda x: x[1], reverse=True):
-                team_name = teams_mapping.get(team_id, team_id)  # Fallback to ID if mapping not found
+            for team_id, count in sorted(
+                bid_thief_counts.items(), key=lambda x: x[1], reverse=True
+            ):
+                team_name = teams_mapping.get(
+                    team_id, team_id
+                )  # Fallback to ID if mapping not found
                 percentage = (count / NUM_SIMULATIONS) * 100
                 writer.writerow([team_name, count, f"{percentage:.1f}%"])
         print("Bid thief statistics have been saved to bid_thieves.csv")
@@ -213,7 +223,7 @@ if __name__ == "__main__":
         "run_multiple": run_multiple_simulations_command,
         "eff": run_efficiency_getter,
         "massey": run_massey_ratings_getter,
-        "teams": run_team_ids_getter
+        "teams": run_team_ids_getter,
     }
 
     if len(sys.argv) < 2 or sys.argv[1] not in commands:

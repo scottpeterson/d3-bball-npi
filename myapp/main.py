@@ -1,12 +1,13 @@
 # src/myapp/main.py
-from pathlib import Path
 import time
-from .load_teams import load_teams
-from .process_games_iteration import process_games_iteration
+from pathlib import Path
+
 from .load_games import load_games
-from .save_npi_results_to_csv import save_npi_results_to_csv
+from .load_teams import load_teams
 from .process_games_bidirectional import process_games_bidirectional
-from .simulation import simulate_game, predict_and_simulate_game
+from .process_games_iteration import process_games_iteration
+from .save_npi_results_to_csv import save_npi_results_to_csv
+from .simulation import predict_and_simulate_game, simulate_game
 
 
 def main(use_season_results=False):

@@ -1,14 +1,16 @@
-from pathlib import Path
 import math
+from pathlib import Path
 from typing import Dict, List, Tuple
-from myapp.game_simulation import simulate_game, GameResult
-from .elo_simulator import EloSimulator
+
+from myapp.game_simulation import GameResult, simulate_game
+
 from .conf_tournaments import (
+    calculate_conference_standings,
     load_conference_data,
     load_tournament_structures,
-    calculate_conference_standings,
     simulate_conference_tournaments,
 )
+from .elo_simulator import EloSimulator
 
 
 def calculate_win_probability(
@@ -194,7 +196,7 @@ def simulate_full_season(
         # Initialize Elo simulator
         simulator = EloSimulator()
         simulator.initialize_ratings(team_data)
-        
+
         # Initialize lists to store results
         all_results = []
 
@@ -247,11 +249,11 @@ def simulate_full_season(
 
         # Simulate conference tournaments
         tournament_games, conference_champions = simulate_conference_tournaments(
-        conference_teams=conference_teams,
-        tournament_structures=tournament_structures,
-        conference_standings=conference_standings,
-        team_data=team_data,
-        completed_games=all_regular_season_games
+            conference_teams=conference_teams,
+            tournament_structures=tournament_structures,
+            conference_standings=conference_standings,
+            team_data=team_data,
+            completed_games=all_regular_season_games,
         )
 
         # Combine all results

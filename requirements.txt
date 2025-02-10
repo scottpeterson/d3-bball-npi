@@ -3,3 +3,5 @@ python-dotenv==1.0.0
 requests==2.31.0
 vulture==2.10
 black==24.1.1
+pre-commit==3.6.0
+isort==5.13.2

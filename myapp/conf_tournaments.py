@@ -1,6 +1,7 @@
 from dataclasses import dataclass
-from typing import Dict, List, Tuple, Set
 from pathlib import Path
+from typing import Dict, List, Set, Tuple
+
 from .game_simulation import simulate_game
 
 
@@ -42,26 +43,32 @@ def load_conference_data(base_path: Path, year: str) -> Dict[str, ConferenceTeam
     return teams
 
 
-def load_tournament_structures(base_path: Path, year: str) -> Dict[str, ConferenceTournament]:
+def load_tournament_structures(
+    base_path: Path, year: str
+) -> Dict[str, ConferenceTournament]:
     tournaments = {}
     path = base_path / year / "conf_tournaments.txt"
-    
+
     with open(path, "r") as file:
         header = next(file).strip().split(",")
         has_provisional = "provisional_teams" in header
-        
+
         for line in file:
             fields = line.strip().split(",")
             conf, teams, byes, reseeding, end_date = fields[:5]
-            provisional_teams = set(fields[5].split(";")) if has_provisional and len(fields) > 5 and fields[5] else set()
-            
+            provisional_teams = (
+                set(fields[5].split(";"))
+                if has_provisional and len(fields) > 5 and fields[5]
+                else set()
+            )
+
             tournaments[conf] = ConferenceTournament(
                 conference=conf,
                 total_teams=int(teams),
                 byes=int(byes),
                 reseeding=reseeding.upper() == "TRUE",
                 regular_season_end_date=end_date,
-                provisional_teams=provisional_teams
+                provisional_teams=provisional_teams,
             )
 
     return tournaments
@@ -168,7 +175,7 @@ def simulate_tournament_game(
         home_advantage = -3.5  # Negative because sim func assumes team2 is home
     elif team2_home:
         home_advantage = 3.5
-        
+
     result = simulate_game(team_data, team1_id, team2_id, home_advantage)
 
     return {
@@ -192,6 +199,7 @@ def simulate_tournament_game(
         "round": round_name,
     }
 
+
 def simulate_conference_tournaments(
     conference_teams: Dict[str, ConferenceTeam],
     tournament_structures: Dict[str, ConferenceTournament],
@@ -201,7 +209,7 @@ def simulate_conference_tournaments(
 ) -> Tuple[List[dict], Dict[str, str]]:
     all_tournament_games = []
     conference_champions = {}
-    
+
     for conf, structure in tournament_structures.items():
         if structure.total_teams == 0 or conf not in conference_standings:
             continue
@@ -212,26 +220,23 @@ def simulate_conference_tournaments(
 
         # Get current tournament state
         conf_completed_games = get_completed_tournament_games(
-            completed_games, 
-            structure.regular_season_end_date,
-            conf
+            completed_games, structure.regular_season_end_date, conf
         )
         remaining_teams, bye_teams, tournament_date = determine_tournament_state(
-            conf_completed_games,
-            structure,
-            standings[:structure.total_teams]
+            conf_completed_games, structure, standings[: structure.total_teams]
         )
 
         # Handle first round if tournament hasn't started
         if not conf_completed_games and remaining_teams:
             # Create first round matchups (highest vs lowest seed)
             first_round_standings = [
-                s for s in standings[:structure.total_teams] 
+                s
+                for s in standings[: structure.total_teams]
                 if s.team_id in remaining_teams
             ]
             matchups = pair_teams_by_seed(first_round_standings)
             round_name = get_round_name(len(remaining_teams) + len(bye_teams))
-            
+
             next_round_teams = []
             for higher_seed, lower_seed in matchups:
                 # Handle C2C conference venue logic
@@ -263,7 +268,7 @@ def simulate_conference_tournaments(
                     else lower_seed.team_id
                 )
                 next_round_teams.append(winner_id)
-            
+
             remaining_teams = next_round_teams + [t for t in bye_teams]
             tournament_date = str(int(tournament_date) + 1).zfill(8)
 
@@ -273,14 +278,14 @@ def simulate_conference_tournaments(
                 next(s for s in standings if s.team_id == team_id)
                 for team_id in remaining_teams
             ]
-            
+
             if structure.reseeding:
                 current_team_standings.sort(key=lambda x: standings.index(x))
-                
+
             matchups = pair_teams_by_seed(current_team_standings)
             round_name = get_round_name(len(remaining_teams))
             next_round_teams = []
-            
+
             for higher_seed, lower_seed in matchups:
                 # Handle C2C conference venue logic
                 team1_home = True  # Default: higher seed is home
@@ -316,44 +321,46 @@ def simulate_conference_tournaments(
             tournament_date = str(int(tournament_date) + 1).zfill(8)
 
         champion_id = get_conference_champion(
-            conf,
-            structure.provisional_teams,
-            all_tournament_games
+            conf, structure.provisional_teams, all_tournament_games
         )
         if champion_id:
             conference_champions[conf] = champion_id
 
     return all_tournament_games, conference_champions
 
-def pair_teams_by_seed(teams: List[ConferenceStanding]) -> List[Tuple[ConferenceStanding, ConferenceStanding]]:
+
+def pair_teams_by_seed(
+    teams: List[ConferenceStanding],
+) -> List[Tuple[ConferenceStanding, ConferenceStanding]]:
     """
     Create matchups pairing highest and lowest seeds.
-    
+
     Args:
         teams: List of teams in seed order (best to worst)
-        
+
     Returns:
         List of (higher_seed, lower_seed) tuples
     """
     num_teams = len(teams)
     matchups = []
-    
+
     for i in range(num_teams // 2):
         matchups.append((teams[i], teams[-(i + 1)]))
-        
+
     return matchups
+
 
 def get_round_name(remaining_teams: int) -> str:
     """
     Get the name of the tournament round based on number of teams remaining.
     Args:
         remaining_teams: Total number of teams still in tournament (including byes)
-        
+
     Returns:
         String indicating tournament round:
         - 2 teams = Final
         - 4 teams = Semifinal
-        - 5-8 teams = Quarterfinal 
+        - 5-8 teams = Quarterfinal
         - 9+ teams = Other
     """
     if remaining_teams == 2:
@@ -365,41 +372,44 @@ def get_round_name(remaining_teams: int) -> str:
     else:
         return "Other"
 
+
 def get_completed_tournament_games(
-    games: List[dict],
-    regular_season_end_date: str,
-    conference: str
+    games: List[dict], regular_season_end_date: str, conference: str
 ) -> List[dict]:
     """
     Extract completed tournament games for a specific conference.
-    
+
     Args:
         games: List of all completed games
         regular_season_end_date: Date string marking end of regular season (YYYYMMDD)
         conference: Conference identifier to filter games
-        
+
     Returns:
         List of completed tournament games for the conference
     """
     return [
-        game for game in games
-        if (game["date"] > regular_season_end_date and 
-            game.get("conference") == conference)
+        game
+        for game in games
+        if (
+            game["date"] > regular_season_end_date
+            and game.get("conference") == conference
+        )
     ]
+
 
 def determine_tournament_state(
     completed_games: List[dict],
     tournament_structure: ConferenceTournament,
-    standings: List[ConferenceStanding]
+    standings: List[ConferenceStanding],
 ) -> Tuple[List[str], List[str], str]:
     """
     Determine the current state of a conference tournament.
-    
+
     Args:
         completed_games: List of completed tournament games for this conference
         tournament_structure: Tournament configuration
         standings: Conference standings in seed order
-        
+
     Returns:
         Tuple containing:
         - List of team IDs still active in tournament
@@ -408,59 +418,69 @@ def determine_tournament_state(
     """
     if not completed_games:
         # Tournament hasn't started - get initial tournament teams and byes
-        tournament_teams = standings[:tournament_structure.total_teams]
-        bye_teams = [team.team_id for team in tournament_teams[:tournament_structure.byes]]
-        active_teams = [team.team_id for team in tournament_teams[tournament_structure.byes:]]
+        tournament_teams = standings[: tournament_structure.total_teams]
+        bye_teams = [
+            team.team_id for team in tournament_teams[: tournament_structure.byes]
+        ]
+        active_teams = [
+            team.team_id for team in tournament_teams[tournament_structure.byes :]
+        ]
         return active_teams, bye_teams, "20250302"  # Start date
-        
+
     # Sort games chronologically
     completed_games.sort(key=lambda x: x["date"])
     next_game_date = str(int(completed_games[-1]["date"]) + 1).zfill(8)
-    
+
     # Track winners from each completed game
     winners = []
     for game in completed_games:
         winner_id = (
-            game["team1_id"] 
+            game["team1_id"]
             if game["team1_score"] > game["team2_score"]
             else game["team2_id"]
         )
         winners.append(winner_id)
-    
+
     # Get teams that had byes and haven't played yet
-    tournament_teams = standings[:tournament_structure.total_teams]
-    bye_teams = [team.team_id for team in tournament_teams[:tournament_structure.byes]]
+    tournament_teams = standings[: tournament_structure.total_teams]
+    bye_teams = [team.team_id for team in tournament_teams[: tournament_structure.byes]]
     all_played_teams = set()
     for game in completed_games:
         all_played_teams.add(game["team1_id"])
         all_played_teams.add(game["team2_id"])
-    unplayed_bye_teams = [team_id for team_id in bye_teams if team_id not in all_played_teams]
-    
+    unplayed_bye_teams = [
+        team_id for team_id in bye_teams if team_id not in all_played_teams
+    ]
+
     # Active teams are winners of last round plus unplayed bye teams
-    round_sizes = get_tournament_round_sizes(len(tournament_teams), tournament_structure.byes)
-    current_round_size = next(
-        size for size in round_sizes 
-        if size >= len(winners) + len(unplayed_bye_teams)
+    round_sizes = get_tournament_round_sizes(
+        len(tournament_teams), tournament_structure.byes
     )
-    active_teams = winners[-(current_round_size - len(unplayed_bye_teams)):] + unplayed_bye_teams
-    
+    current_round_size = next(
+        size for size in round_sizes if size >= len(winners) + len(unplayed_bye_teams)
+    )
+    active_teams = (
+        winners[-(current_round_size - len(unplayed_bye_teams)) :] + unplayed_bye_teams
+    )
+
     return active_teams, [], next_game_date
+
 
 def get_tournament_round_sizes(total_teams: int, byes: int) -> List[int]:
     """
     Calculate number of teams in each round of tournament.
-    
+
     Args:
         total_teams: Total teams in tournament
         byes: Number of first round byes
-        
+
     Returns:
         List of integers representing teams per round, from first round to championship
     """
     first_round_teams = total_teams - byes
     if first_round_teams % 2 != 0:
         raise ValueError("First round teams must be even number")
-        
+
     sizes = []
     remaining = first_round_teams // 2 + byes
     while remaining > 1:
@@ -469,30 +489,29 @@ def get_tournament_round_sizes(total_teams: int, byes: int) -> List[int]:
     sizes.append(2)  # Championship game
     return sizes
 
+
 def get_conference_champion(
-conference: str,
-provisional_teams: Set[str],
-tournament_games: List[dict]
+    conference: str, provisional_teams: Set[str], tournament_games: List[dict]
 ) -> str:
     """Get eligible conference champion, accounting for provisional teams."""
     championship_game = next(
-        game for game in reversed(tournament_games)
-        if (game["conference"] == conference and 
-            game["round"] == "Final")
+        game
+        for game in reversed(tournament_games)
+        if (game["conference"] == conference and game["round"] == "Final")
     )
 
     winner_id = (
-        championship_game["team1_id"] 
+        championship_game["team1_id"]
         if championship_game["team1_score"] > championship_game["team2_score"]
         else championship_game["team2_id"]
     )
 
     if winner_id not in provisional_teams:
         return winner_id
-        
+
     # If winner is provisional, return runner-up if eligible
     runner_up = (
-        championship_game["team2_id"] 
+        championship_game["team2_id"]
         if championship_game["team1_id"] == winner_id
         else championship_game["team1_id"]
     )

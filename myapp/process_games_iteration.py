@@ -1,11 +1,14 @@
 from collections import defaultdict
-from .calculate_owp import calculate_owp
+
 from .calculate_game_npi import calculate_game_npi
+from .calculate_owp import calculate_owp
 
 
-def process_games_iteration(games, valid_teams, previous_iteration_npis=None, iteration_number=1):
+def process_games_iteration(
+    games, valid_teams, previous_iteration_npis=None, iteration_number=1
+):
     owp = calculate_owp(games, valid_teams)
-    
+
     # Set up opponent_npis early
     if iteration_number == 1:
         opponent_npis = {team_id: 50 for team_id in valid_teams}
@@ -90,7 +93,7 @@ def process_games_iteration(games, valid_teams, previous_iteration_npis=None, it
                 wins.append(npi)
             else:
                 losses.append(npi)
-                
+
         # Sort once
         wins.sort(reverse=True)
         losses.sort()
@@ -119,7 +122,9 @@ def process_games_iteration(games, valid_teams, previous_iteration_npis=None, it
             team_data["npi"] = sum(used_npis) / len(used_npis)
             # Count qualifying games more efficiently
             team_data["qualifying_wins"] = sum(1 for npi in used_npis if npi in wins)
-            team_data["qualifying_losses"] = sum(1 for npi in used_npis if npi in losses)
+            team_data["qualifying_losses"] = sum(
+                1 for npi in used_npis if npi in losses
+            )
         else:
             team_data["game_npis"] = []
             team_data["npi"] = initial_npi
