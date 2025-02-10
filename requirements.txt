@@ -4,4 +4,4 @@ requests==2.32.3
 vulture==2.14
 black==25.1.0
 pre-commit==4.1.0
-isort==5.13.2
+isort==6.0.0
