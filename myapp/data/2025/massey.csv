@@ -25,8 +25,8 @@ UW-Stevens Point,23
 WashU,24
 Johns Hopkins,25
 Chicago,26
-Catholic,27
-Colorado Col,28
+Colorado Col,27
+Catholic,28
 UW-River Falls,29
 DePauw,30
 UT Dallas,31
@@ -53,11 +53,11 @@ Washington & Jefferson,51
 Whittier,52
 Carthage,53
 Messiah,54
-Bates,55
-McMurry,56
+McMurry,55
+Bates,56
 Hamline,57
-Middlebury,58
-George Fox,59
+George Fox,58
+Middlebury,59
 Rhode Island College,60
 UW-Platteville,61
 St. Norbert,62
@@ -66,35 +66,35 @@ Cortland,64
 Webster,65
 Amherst,66
 Simpson (Iowa),67
-Cal Lutheran,68
-Wisconsin Lutheran,69
-Trinity (Texas),70
+Wisconsin Lutheran,68
+Trinity (Texas),69
+Calvin,70
 Wittenberg,71
-Calvin,72
+Cal Lutheran,72
 Marietta,73
 Rochester,74
 Colby,75
 Hamilton,76
-Williams,77
-UW-Eau Claire,78
+UW-Eau Claire,77
+Williams,78
 Wheaton (IL),79
 St. John Fisher,80
 Springfield,81
 Brandeis,82
 Denison,83
-S Virginia,84
-Hanover,85
+Hanover,84
+S Virginia,85
 Loras,86
 Mt. St. Joseph,87
 Bridgewater (VA),88
-Babson,89
-Shenandoah,90
+Shenandoah,89
+Babson,90
 Vassar,91
 Luther,92
 Puget Sound,93
 Bridgewater MA,94
-Roger Williams,95
-Chatham,96
+Chatham,95
+Roger Williams,96
 Millikin,97
 Millsaps,98
 St. Catherine,99
@@ -114,23 +114,23 @@ Sul Ross,112
 Coast Guard,113
 Pacific,114
 Pomona-Pitzer,115
-Dickinson,116
-Penn State-Behrend,117
+Penn State-Behrend,116
+Dickinson,117
 TCNJ,118
 Oberlin,119
-St. Joseph's ME,120
-Willamette,121
-Knox,122
-McDaniel,123
+Willamette,120
+St. Joseph's ME,121
+Occidental,122
+Knox,123
 Augustana,124
-N Central IL,125
-Aurora,126
-SUNY New Paltz,127
+McDaniel,125
+N Central IL,126
+Aurora,127
 Elmhurst,128
-Westminster MO,129
-St. Mary's MN,130
-Dubuque,131
-Occidental,132
+SUNY New Paltz,129
+Westminster MO,130
+St. Mary's MN,131
+Dubuque,132
 Asbury,133
 St. Scholastica,134
 Montclair St.,135
@@ -150,10 +150,10 @@ Guilford,148
 Berry,149
 Frank & Marsh,150
 Concordia TX,151
-Skidmore,152
-Grinnell,153
-Rowan,154
-St. Thomas TX,155
+Grinnell,152
+Skidmore,153
+St. Thomas TX,154
+Rowan,155
 Ursinus,156
 La Roche,157
 Widener,158
@@ -165,12 +165,12 @@ CT College,163
 St. Lawrence,164
 UW-Superior,165
 Rose-Hulman,166
-Allegheny,167
-Pac Lutheran,168
-Union NY,169
-Framingham St.,170
-DeSales,171
-Lebanon Val,172
+Pac Lutheran,167
+Allegheny,168
+Lebanon Val,169
+Union NY,170
+Framingham St.,171
+DeSales,172
 Washington MD,173
 Wilmington OH,174
 SUNY Cobleskill,175
@@ -194,13 +194,13 @@ Univ Ozarks,192
 Albertus Magnus,193
 La Verne,194
 Roanoke,195
-Clark MA,196
-St. Olaf,197
+St. Olaf,196
+Clark MA,197
 Suffolk,198
-Salve Regina,199
-St. Joseph CT,200
-Westfield St.,201
-Emmanuel,202
+Emmanuel,199
+Salve Regina,200
+St. Joseph CT,201
+Westfield St.,202
 Cornell IA,203
 Caltech,204
 Mary Washington,205
@@ -210,16 +210,16 @@ Benedictine IL,208
 Concordia WI,209
 Bluffton,210
 Husson,211
-Stevens,212
-Swarthmore,213
-Bethany WV,214
+Bethany WV,212
+Stevens,213
+Swarthmore,214
 Marymount,215
-Hartford,216
-LaGrange,217
+LaGrange,216
+Hartford,217
 Rivier,218
 Belhaven MS,219
-Randolph Col,220
-Albright,221
+Albright,220
+Randolph Col,221
 Martin Luther,222
 New Jersey City,223
 Drew,224
@@ -228,29 +228,29 @@ Bethany Luth,226
 Rensselaer,227
 Houghton,228
 Muskingum,229
-Kean,230
-Wheaton MA,231
+Wheaton MA,230
+Kean,231
 Ferrum,232
 Illinois Col,233
 Manchester,234
 Haverford,235
 SW Univ TX,236
-Salisbury,237
-Augsburg,238
+Augsburg,237
+Salisbury,238
 Alvernia,239
-Eastern Connecticut,240
-Buena Vista,241
+Buena Vista,240
+Eastern Connecticut,241
 Mt. St. Mary,242
 NC Wesleyan,243
 MN Morris,244
 Lewis & Clark,245
 Schreiner,246
 Adrian,247
-Brevard,248
-Greenville,249
+Greenville,248
+Brevard,249
 SUNY Oneonta,250
-Lynchburg,251
-Principia,252
+Principia,251
+Lynchburg,252
 Neumann,253
 Rhodes,254
 Austin Col,255
@@ -263,25 +263,25 @@ Lakeland,261
 LeTourneau,262
 North Park,263
 Manhattanville,264
-Methodist,265
-Maryville TN,266
-Nichols,267
-Sewanee,268
+Maryville TN,265
+Methodist,266
+Sewanee,267
+Nichols,268
 Geneva,269
 Stockton,270
-Eureka,271
-Juniata,272
-Waynesburg,273
-Hollins,274
-Stevenson,275
+Stevenson,271
+Eureka,272
+Juniata,273
+Waynesburg,274
+Hollins,275
 Olivet MI,276
 SUNY Potsdam,277
 MA Boston,278
 Alfred,279
 Moravian,280
 St. Mary's IN,281
-Goucher,282
-Huntingdon,283
+Huntingdon,282
+Goucher,283
 Hunter,284
 Howard Payne,285
 Kalamazoo,286
@@ -293,8 +293,8 @@ Worcester St,291
 Gordon,292
 SUNY Fredonia,293
 Castleton,294
-Earlham,295
-Hendrix,296
+Hendrix,295
+Earlham,296
 Clarkson,297
 PSU-Abington,298
 Brooklyn Col,299
@@ -304,27 +304,27 @@ Lasell,302
 Spalding,303
 Wellesley,304
 Mt. Aloysius,305
-Anna Maria,306
-St. Mary's MD,307
-Hood,308
-Monmouth IL,309
-Marian WI,310
+Rockford,306
+Anna Maria,307
+St. Mary's MD,308
+Hood,309
+Monmouth IL,310
 Lake Forest,311
-Gallaudet,312
+Marian WI,312
 Covenant,313
-Sage,314
-Rockford,315
-Misericordia,316
-Centenary NJ,317
+Gallaudet,314
+Sage,315
+Centenary NJ,316
+Misericordia,317
 Mt. St. Vincent,318
 Pfeiffer,319
 PSU-Altoona,320
-Concordia IL,321
-NE Wesleyan,322
-Hobart & Smith,323
-N Central MN,324
-Elmira,325
-Gwynedd-Mercy,326
+NE Wesleyan,321
+Hobart & Smith,322
+N Central MN,323
+Elmira,324
+Gwynedd-Mercy,325
+Concordia IL,326
 Regis MA,327
 Carlow,328
 ME Farmington,329
@@ -334,8 +334,8 @@ Hartwick,332
 King's PA,333
 Dallas Univ,334
 Westminster PA,335
-N England Col,336
-Marywood,337
+Marywood,336
+N England Col,337
 Wooster,338
 VA Wesleyan,339
 Western Connecticut,340
@@ -345,15 +345,15 @@ MS Women,343
 Buffalo St.,344
 Lycoming,345
 Baruch,346
-Eastern Univ,347
-Notre Dame MD,348
+Notre Dame MD,347
+Eastern Univ,348
 Averett,349
 Beloit,350
 Kenyon,351
 FDU Madison,352
 Colby-Sawyer,353
-Elms,354
-Rutgers-Camden,355
+Rutgers-Camden,354
+Elms,355
 Delaware Val,356
 Utica,357
 Bryn Athyn,358
@@ -390,19 +390,19 @@ Lehman,388
 ME Presque Isle,389
 Bard,390
 Wilson,391
-MA Col Lib Arts,392
-Agnes Scott,393
+Agnes Scott,392
+MA Col Lib Arts,393
 Fitchburg St.,394
 Alverno,395
 Mt. Holyoke,396
 Yeshiva,397
 Pitt-Bradford,398
-PSU-Brandywine,399
-Mt. Mary,400
+Mt. Mary,399
+PSU-Brandywine,400
 Cedar Crest,401
-Summit,402
-Sarah Lawrence,403
-Dean,404
+Sarah Lawrence,402
+Dean,403
+Summit,404
 Salem NC,405
 Hilbert,406
 Lesley,407

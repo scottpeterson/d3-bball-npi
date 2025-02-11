@@ -69124,3 +69124,291 @@ Illinois Wesleyan (CCIW): NPI = 66.33
 Bid thief statistics have been saved to bid_thieves.csv
 
 Simulation statistics have been saved to simulation_stats.csv
+Successfully saved webpage data to games.txt
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 4257
+Skipped 0-0 games: 739
+Skipped duplicates: 0
+Skipped due to invalid teams: 68
+Total number of loaded games: 4257
+
+Total processing time: 0.843 seconds
+Average time per iteration: 0.011 seconds
+Total number of games in the data: 4257
+Total number of games processed in the final iteration: 8514
+Processing data for year 2025
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Successfully saved data with 417 rows
+
+Starting 10 simulations...
+--------------------------------------------------
+
+Starting simulation 1
+ Running season simulation...
+
+Simulation 1:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 0.395 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 1 in 0.55 seconds
+
+Starting simulation 2
+ Running season simulation...
+
+Simulation 2:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 0.392 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 2 in 0.54 seconds
+
+Starting simulation 3
+ Running season simulation...
+
+Simulation 3:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 0.393 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 3 in 0.55 seconds
+
+Starting simulation 4
+ Running season simulation...
+
+Simulation 4:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 0.399 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 4 in 0.60 seconds
+
+Starting simulation 5
+ Running season simulation...
+
+Simulation 5:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 0.390 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 5 in 0.55 seconds
+
+Starting simulation 6
+ Running season simulation...
+
+Simulation 6:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 0.393 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 6 in 0.55 seconds
+
+Starting simulation 7
+ Running season simulation...
+
+Simulation 7:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 0.381 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 7 in 0.55 seconds
+
+Starting simulation 8
+ Running season simulation...
+
+Simulation 8:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 0.391 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 8 in 0.55 seconds
+
+Starting simulation 9
+ Running season simulation...
+
+Simulation 9:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 0.390 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 9 in 0.55 seconds
+
+Starting simulation 10
+ Running season simulation...
+
+Simulation 10:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 4257 completed games and 728 future games
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5206
+Skipped 0-0 games: 0
+Skipped duplicates: 0
+Skipped due to invalid teams: 0
+Total number of loaded games: 5206
+
+Total processing time: 288.306 seconds
+Average time per iteration: 9.610 seconds
+Total number of games in the data: 5206
+Total number of games processed in the final iteration: 10412
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 10 in 288.47 seconds
+
+All simulations completed in 293.44 seconds
+Average time per simulation: 29.34 seconds
+
+Processing results for 417 teams
+
+Calculated stats for 417 teams
+
+Top 5 teams by NPI:
+NYU (UAA): NPI = 68.29
+Scranton (LAND): NPI = 67.56
+Bowdoin (NESCAC): NPI = 67.37
+Illinois Wesleyan (CCIW): NPI = 66.19
+UW-Oshkosh (WIAC): NPI = 66.16
+Bid thief statistics have been saved to bid_thieves.csv
+
+Simulation statistics have been saved to simulation_stats.csv
