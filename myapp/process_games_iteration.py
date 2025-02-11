@@ -1,5 +1,3 @@
-from collections import defaultdict
-
 from .calculate_game_npi import calculate_game_npi
 from .calculate_owp import calculate_owp
 

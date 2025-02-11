@@ -1,3 +1,4 @@
+import functools
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Set, Tuple
@@ -75,15 +76,22 @@ def load_tournament_structures(
 
 
 def calculate_conference_standings(
-    season_results: List[dict], conference_teams: Dict[str, ConferenceTeam]
+    season_results: List[dict],
+    conference_teams: Dict[str, ConferenceTeam],
+    team_data: Dict[str, Tuple[float, float]],
 ) -> Dict[str, List[ConferenceStanding]]:
     """
-    Calculate conference standings, using total record for C2C and conference games for others.
+    Calculate conference standings:
+    - C2C conference: Seed by NPI only
+    - All other conferences:
+        1. Conference win%
+        2. Head-to-head record
+        3. NPI
     """
-    # Initialize records
+    # Initialize records for non-C2C conferences
     conference_records: Dict[str, Dict[str, Tuple[int, int]]] = {}
-    c2c_records: Dict[str, Tuple[int, int]] = {}  # Special handling for C2C
 
+    # Handle regular conference games
     for game in season_results:
         team1_id = game["team1_id"]
         team2_id = game["team2_id"]
@@ -95,25 +103,7 @@ def calculate_conference_standings(
         team1_conf = conference_teams[team1_id].conference
         team2_conf = conference_teams[team2_id].conference
 
-        # Special handling for C2C teams - track all games
-        for team_id, conf in [(team1_id, team1_conf), (team2_id, team2_conf)]:
-            if conf == "C2C":
-                if team_id not in c2c_records:
-                    c2c_records[team_id] = [0, 0]  # [wins, losses]
-
-        if team1_conf == "C2C" and team1_id in c2c_records:
-            if game["team1_score"] > game["team2_score"]:
-                c2c_records[team1_id][0] += 1
-            else:
-                c2c_records[team1_id][1] += 1
-
-        if team2_conf == "C2C" and team2_id in c2c_records:
-            if game["team2_score"] > game["team1_score"]:
-                c2c_records[team2_id][0] += 1
-            else:
-                c2c_records[team2_id][1] += 1
-
-        # Regular conference standings for all other conferences
+        # Process conference games for non-C2C conferences
         if team1_conf == team2_conf and team1_conf != "C2C":
             if team1_conf not in conference_records:
                 conference_records[team1_conf] = {}
@@ -121,7 +111,7 @@ def calculate_conference_standings(
             # Initialize team records if needed
             for team_id in [team1_id, team2_id]:
                 if team_id not in conference_records[team1_conf]:
-                    conference_records[team1_conf][team_id] = [0, 0]  # [wins, losses]
+                    conference_records[team1_conf][team_id] = [0, 0]
 
             # Update conference records
             if game["team1_score"] > game["team2_score"]:
@@ -134,25 +124,48 @@ def calculate_conference_standings(
     # Convert records to standings
     conference_standings = {}
 
-    # Process regular conference standings
+    # Process regular conference standings with tiebreakers
     for conf in conference_records:
         standings = []
+
+        # Create initial standings
         for team_id, (wins, losses) in conference_records[conf].items():
             win_pct = wins / (wins + losses) if (wins + losses) > 0 else 0.0
-            standings.append(ConferenceStanding(team_id, wins, losses, win_pct))
+            npi = team_data[team_id][0] if team_id in team_data else 0.0
+            standing = ConferenceStanding(team_id, wins, losses, win_pct)
+            standing.npi = npi
+            standings.append(standing)
 
-        standings.sort(key=lambda x: (-x.win_pct, -x.wins))
+        # Custom sort with tiebreakers
+        def conference_sort_key(a, b):
+            if abs(a.win_pct - b.win_pct) < 0.0001:  # Win% tie
+                h2h_wins, h2h_losses = calculate_head_to_head(
+                    season_results, a.team_id, b.team_id
+                )
+                if h2h_wins != h2h_losses:  # Head-to-head decides
+                    return -1 if h2h_wins > h2h_losses else 1
+                # If head-to-head tied, use NPI
+                return -1 if a.npi > b.npi else 1
+            return -1 if a.win_pct > b.win_pct else 1
+
+        # Sort using custom comparison
+        standings.sort(key=functools.cmp_to_key(conference_sort_key))
         conference_standings[conf] = standings
 
-    # Process C2C standings using total record
-    if c2c_records:
-        c2c_standings = []
-        for team_id, (wins, losses) in c2c_records.items():
-            win_pct = wins / (wins + losses) if (wins + losses) > 0 else 0.0
-            c2c_standings.append(ConferenceStanding(team_id, wins, losses, win_pct))
+    # Process C2C standings using NPI only
+    c2c_standings = []
+    for team_id, team in conference_teams.items():
+        if team.conference == "C2C":
+            npi = team_data[team_id][0] if team_id in team_data else 0.0
+            standing = ConferenceStanding(
+                team_id, 0, 0, 0.0
+            )  # wins/losses/win_pct not used
+            standing.npi = npi
+            c2c_standings.append(standing)
 
-        c2c_standings.sort(key=lambda x: (-x.win_pct, -x.wins))
-        conference_standings["C2C"] = c2c_standings
+    # Sort C2C teams by NPI only
+    c2c_standings.sort(key=lambda x: -x.npi)
+    conference_standings["C2C"] = c2c_standings
 
     return conference_standings
 
@@ -296,6 +309,20 @@ def simulate_conference_tournaments(
                         team2_home = True
                     elif higher_seed.team_id != "236":
                         # Neither team is Mt. Mary - neutral site
+                        team1_home = False
+                        team2_home = False
+                elif conf == "CCIW":
+                    if round_name in ["Final", "Semifinal"]:
+                        # All games at Illinois Wesleyan (team_id 160)
+                        team1_home = higher_seed.team_id == "160"
+                        team2_home = lower_seed.team_id == "160"
+                        if not (team1_home or team2_home):
+                            # Neither team is Illinois Wesleyan - neutral site
+                            team1_home = False
+                            team2_home = False
+                elif conf == "ODAC":
+                    if round_name in ["Final", "Semifinal"]:
+                        # All games at neutral site
                         team1_home = False
                         team2_home = False
                 game = simulate_tournament_game(
@@ -516,3 +543,23 @@ def get_conference_champion(
     )
 
     return runner_up if runner_up not in provisional_teams else None
+
+
+def calculate_head_to_head(
+    season_results: List[dict], team_a: str, team_b: str
+) -> Tuple[int, int]:
+    """Calculate head-to-head record between two teams."""
+    wins_a = 0
+    wins_b = 0
+    for game in season_results:
+        if game["team1_id"] == team_a and game["team2_id"] == team_b:
+            if game["team1_score"] > game["team2_score"]:
+                wins_a += 1
+            else:
+                wins_b += 1
+        elif game["team1_id"] == team_b and game["team2_id"] == team_a:
+            if game["team1_score"] > game["team2_score"]:
+                wins_b += 1
+            else:
+                wins_a += 1
+    return (wins_a, wins_b)

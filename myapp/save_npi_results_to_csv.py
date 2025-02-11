@@ -1,14 +1,11 @@
 import csv
 from pathlib import Path
 
-from .process_games_bidirectional import process_games_bidirectional
-
 
 def save_npi_results_to_csv(teams):
     """Write results for an iteration to CSV."""
     data_path = Path(__file__).parent / "data" / "2025" / "npi.csv"
 
-    # Load old rankings and find max rank
     old_rankings = {}
     max_rank = 0
     try:
@@ -20,7 +17,6 @@ def save_npi_results_to_csv(teams):
     except FileNotFoundError:
         pass
 
-    # Don't format NPIs when creating active_teams list
     active_teams = [team for team in teams.values() if team["has_games"]]
     sorted_teams = sorted(active_teams, key=lambda x: x["npi"], reverse=True)
 
@@ -56,7 +52,7 @@ def save_npi_results_to_csv(teams):
                     team["wins"],
                     team.get("qualifying_wins", 0),
                     team.get("qualifying_losses", 0),
-                    f"{team['npi']:.6f}",  # Increased precision to 6 decimal places
+                    f"{team['npi']:.6f}",
                     rank,
                     old_rank,
                     rank_change_str,

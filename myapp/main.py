@@ -4,10 +4,8 @@ from pathlib import Path
 
 from .load_games import load_games
 from .load_teams import load_teams
-from .process_games_bidirectional import process_games_bidirectional
 from .process_games_iteration import process_games_iteration
 from .save_npi_results_to_csv import save_npi_results_to_csv
-from .simulation import predict_and_simulate_game, simulate_game
 
 
 def main(use_season_results=False):
@@ -62,7 +60,7 @@ def main(use_season_results=False):
         print(f"Total number of games in the data: {len(games)}")
         print(f"Total number of games processed in the final iteration: {total_games}")
 
-        return final_teams  # Add this return statement
+        return final_teams
 
     except Exception as e:
         print(f"Error processing: {e}")

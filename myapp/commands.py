@@ -5,14 +5,18 @@ from pathlib import Path
 from .conf_tournaments import load_conference_data
 from .eff_getter import efficiency_getter
 from .games_getter import games_getter
-from .main import load_teams, predict_and_simulate_game, process_games_bidirectional
+from .load_teams import load_teams
 from .massey_ratings_getter import massey_ratings_getter
 from .multi_season_simulator import (
     load_conference_data,
     run_multiple_simulations,
     save_simulation_stats,
 )
-from .simulation import load_efficiency_data, simulate_full_season
+from .simulation import (
+    load_efficiency_data,
+    predict_and_simulate_game,
+    simulate_full_season,
+)
 from .team_id_getter import team_ids_getter
 
 
@@ -35,7 +39,7 @@ def run_multiple_simulations_command():
     """Run multiple season simulations and generate statistics."""
     year = "2025"
     base_path = Path(__file__).parent / "data"
-    NUM_SIMULATIONS = 1000
+    NUM_SIMULATIONS = 10
     try:
         print(f"\nStarting {NUM_SIMULATIONS} simulations...")
         print("-" * 50)

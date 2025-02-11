@@ -244,11 +244,11 @@ def simulate_full_season(
         # Calculate conference standings using all regular season games
         all_regular_season_games = completed_games + simulated_regular_season
         conference_standings = calculate_conference_standings(
-            all_regular_season_games, conference_teams
+            all_regular_season_games, conference_teams, team_data
         )
 
         # Simulate conference tournaments
-        tournament_games, conference_champions = simulate_conference_tournaments(
+        tournament_games, _ = simulate_conference_tournaments(
             conference_teams=conference_teams,
             tournament_structures=tournament_structures,
             conference_standings=conference_standings,
