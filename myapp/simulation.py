@@ -1,6 +1,6 @@
 import math
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Set, Tuple
 
 from myapp.game_simulation import GameResult, simulate_game
 
@@ -103,6 +103,35 @@ def predict_and_simulate_game(
     return probabilities, result
 
 
+def load_skip_list(base_path: Path, year: str) -> Set[Tuple]:
+    """Load list of games to skip using the same format as games.txt"""
+    skip_path = base_path / year / "skip_games.txt"
+    skip_games = set()
+
+    try:
+        with open(skip_path, "r") as file:
+            for line in file:
+                try:
+                    cols = line.strip().split(",")
+                    if len(cols) < 8:
+                        continue
+
+                    game_id = cols[0].strip()
+                    date = cols[1].strip()
+                    team1_id = cols[2].strip()
+                    team2_id = cols[5].strip()
+
+                    # Create the same game key format as in load_all_games
+                    game_key = tuple(sorted([team1_id, team2_id]) + [date])
+                    skip_games.add(game_key)
+                except Exception:
+                    continue
+    except FileNotFoundError:
+        return set()
+
+    return skip_games
+
+
 def load_all_games(
     base_path: Path, year: str, valid_teams: Dict[str, str]
 ) -> Tuple[List[Dict], List[Dict]]:
@@ -113,6 +142,7 @@ def load_all_games(
     completed_games = []
     future_games = []
     seen_games = set()
+    skip_games = load_skip_list(base_path, year)
 
     games_path = base_path / year / "games.txt"
 
@@ -140,7 +170,7 @@ def load_all_games(
 
                     # Create unique game identifier
                     game_key = tuple(sorted([team1_id, team2_id]) + [date])
-                    if game_key in seen_games:
+                    if game_key in seen_games or game_key in skip_games:
                         continue
                     seen_games.add(game_key)
 
