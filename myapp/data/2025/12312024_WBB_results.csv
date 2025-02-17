@@ -8933,6 +8933,8 @@ Date,Team A,Team B,Home/Away,Result
 02/15/2025,Kenyon,DePauw,Road,L
 02/15/2025,Knox,Beloit,Home,W
 02/15/2025,Beloit,Knox,Road,L
+02/15/2025,Simpson (Iowa),Loras,Road,W
+02/15/2025,Loras,Simpson (Iowa),Home,L
 02/15/2025,E Mennonite,Lynchburg,Home,W
 02/15/2025,Lynchburg,E Mennonite,Road,L
 02/15/2025,Marymount,Marywood,Road,W
@@ -9261,34 +9263,34 @@ Date,Team A,Team B,Home/Away,Result
 02/15/2025,UW-Platteville,UW-Stout,Road,L
 02/15/2025,Bryn Athyn,Gallaudet,Home,W
 02/15/2025,Gallaudet,Bryn Athyn,Road,L
-02/16/2025,Dallas Univ,Concordia TX,Road,T
-02/16/2025,Concordia TX,Dallas Univ,Home,T
-02/16/2025,ME Presque Isle,Thomas ME,Road,T
-02/16/2025,Thomas ME,ME Presque Isle,Home,T
-02/16/2025,Brandeis,Emory,Road,T
-02/16/2025,Emory,Brandeis,Home,T
-02/16/2025,Chicago,Case Western,Road,T
-02/16/2025,Case Western,Chicago,Home,T
-02/16/2025,St. Thomas TX,Centenary,Road,T
-02/16/2025,Centenary,St. Thomas TX,Home,T
-02/16/2025,Austin Col,McMurry,Road,T
-02/16/2025,McMurry,Austin Col,Home,T
-02/16/2025,Millsaps,Berry,Road,T
-02/16/2025,Berry,Millsaps,Home,T
-02/16/2025,Centre,Rhodes,Road,T
-02/16/2025,Rhodes,Centre,Home,T
-02/16/2025,NYU,Rochester,Road,T
-02/16/2025,Rochester,NYU,Home,T
-02/16/2025,Sewanee,Hendrix,Road,T
-02/16/2025,Hendrix,Sewanee,Home,T
-02/16/2025,Tufts,Bates,Road,T
-02/16/2025,Bates,Tufts,Home,T
-02/16/2025,Colorado Col,Univ Ozarks,Road,T
-02/16/2025,Univ Ozarks,Colorado Col,Home,T
-02/16/2025,WashU,Carnegie Mellon,Road,T
-02/16/2025,Carnegie Mellon,WashU,Home,T
-02/16/2025,Yeshiva,Manhattanville,Road,T
-02/16/2025,Manhattanville,Yeshiva,Home,T
+02/16/2025,Concordia TX,Dallas Univ,Home,W
+02/16/2025,Dallas Univ,Concordia TX,Road,L
+02/16/2025,Thomas ME,ME Presque Isle,Home,W
+02/16/2025,ME Presque Isle,Thomas ME,Road,L
+02/16/2025,Emory,Brandeis,Home,W
+02/16/2025,Brandeis,Emory,Road,L
+02/16/2025,Chicago,Case Western,Road,W
+02/16/2025,Case Western,Chicago,Home,L
+02/16/2025,St. Thomas TX,Centenary,Road,W
+02/16/2025,Centenary,St. Thomas TX,Home,L
+02/16/2025,McMurry,Austin Col,Home,W
+02/16/2025,Austin Col,McMurry,Road,L
+02/16/2025,Berry,Millsaps,Home,W
+02/16/2025,Millsaps,Berry,Road,L
+02/16/2025,Centre,Rhodes,Road,W
+02/16/2025,Rhodes,Centre,Home,L
+02/16/2025,NYU,Rochester,Road,W
+02/16/2025,Rochester,NYU,Home,L
+02/16/2025,Hendrix,Sewanee,Home,W
+02/16/2025,Sewanee,Hendrix,Road,L
+02/16/2025,Bates,Tufts,Home,W
+02/16/2025,Tufts,Bates,Road,L
+02/16/2025,Colorado Col,Univ Ozarks,Road,W
+02/16/2025,Univ Ozarks,Colorado Col,Home,L
+02/16/2025,Carnegie Mellon,WashU,Home,W
+02/16/2025,WashU,Carnegie Mellon,Road,L
+02/16/2025,Manhattanville,Yeshiva,Home,W
+02/16/2025,Yeshiva,Manhattanville,Road,L
 02/17/2025,Thomas ME,Worcester St,Road,T
 02/17/2025,Worcester St,Thomas ME,Home,T
 02/17/2025,Plymouth St.,NVU-Lyndon,Road,T
@@ -9331,6 +9333,10 @@ Date,Team A,Team B,Home/Away,Result
 02/18/2025,Meredith,Methodist,Home,T
 02/18/2025,Utica,SUNYIT,Road,T
 02/18/2025,SUNYIT,Utica,Home,T
+02/18/2025,Ferrum,Hollins,Road,T
+02/18/2025,Hollins,Ferrum,Home,T
+02/18/2025,Randolph Col,Lynchburg,Road,T
+02/18/2025,Lynchburg,Randolph Col,Home,T
 02/18/2025,Eastern Univ,Albright,Road,T
 02/18/2025,Albright,Eastern Univ,Home,T
 02/18/2025,Alfred,Houghton,Road,T
@@ -9469,6 +9475,8 @@ Date,Team A,Team B,Home/Away,Result
 02/19/2025,Carleton,Gustavus Adolphus,Home,T
 02/19/2025,Utica,Keuka,Road,T
 02/19/2025,Keuka,Utica,Home,T
+02/19/2025,York PA,Widener,Road,T
+02/19/2025,Widener,York PA,Home,T
 02/19/2025,Whittier,Caltech,Road,T
 02/19/2025,Caltech,Whittier,Home,T
 02/19/2025,Carthage,Elmhurst,Road,T

@@ -8,8 +8,8 @@ Bowdoin,6
 Whitman,7
 Trine,8
 Baldwin Wallace,9
-UW-Stout,10
-UW-Whitewater,11
+UW-Whitewater,10
+UW-Stout,11
 Smith,12
 Wartburg,13
 Hope,14
@@ -22,21 +22,21 @@ East Texas Baptist,20
 Gettysburg,21
 Carroll,22
 UW-Stevens Point,23
-WashU,24
-Johns Hopkins,25
-DePauw,26
-Catholic,27
-Colorado Col,28
-UT Dallas,29
-UW-River Falls,30
-Chicago,31
+Johns Hopkins,24
+DePauw,25
+WashU,26
+Chicago,27
+Catholic,28
+Colorado Col,29
+UT Dallas,30
+UW-River Falls,31
 Washington & Lee,32
 Hardin-Simmons,33
 Elizabethtown,34
-Tufts,35
-Ohio Northern,36
+Ohio Northern,35
+Emory,36
 Concordia Moorhead,37
-Emory,38
+Tufts,38
 Transylvania,39
 Coe,40
 Ripon,41
@@ -46,24 +46,24 @@ TX Lutheran,44
 W New England,45
 Trinity (Conn),46
 John Carroll,47
-Messiah,48
-Bates,49
-Mary Hardin-Baylor,50
-McMurry,51
+Bates,48
+McMurry,49
+Messiah,50
+Mary Hardin-Baylor,51
 Capital,52
 Amherst,53
 Linfield,54
 Whittier,55
 Carthage,56
-George Fox,57
+Simpson (Iowa),57
 Rhode Island College,58
-St. Norbert,59
-Cortland,60
-Hamline,61
-Washington & Jefferson,62
-St. Benedict,63
-Middlebury,64
-Simpson (Iowa),65
+George Fox,59
+St. Norbert,60
+Cortland,61
+Hamline,62
+Washington & Jefferson,63
+St. Benedict,64
+Middlebury,65
 Webster,66
 Wisconsin Lutheran,67
 Calvin,68
@@ -81,38 +81,38 @@ Williams,79
 Babson,80
 Hanover,81
 Hamilton,82
-Loras,83
-Springfield,84
-Vassar,85
+Springfield,83
+Vassar,84
+Luther,85
 Mt. St. Joseph,86
-Luther,87
-Brandeis,88
-Puget Sound,89
-Chatham,90
+Puget Sound,87
+Chatham,88
+Brandeis,89
+Loras,90
 St. John Fisher,91
 Denison,92
 Roger Williams,93
-Millsaps,94
-St. Catherine,95
-Ithaca,96
-ME Maritime,97
-Bridgewater (VA),98
-Bridgewater MA,99
-Endicott,100
-Case Western,101
-Otterbein,102
-Shenandoah,103
-Millikin,104
+St. Catherine,94
+Ithaca,95
+ME Maritime,96
+Bridgewater (VA),97
+Bridgewater MA,98
+Endicott,99
+Millsaps,100
+Otterbein,101
+Shenandoah,102
+Millikin,103
+Case Western,104
 Central IA,105
 Mt. Union,106
 Geneseo St.,107
 Brockport St.,108
 MIT,109
 Redlands,110
-Pacific,111
+St. Joseph's ME,111
 TCNJ,112
-St. Joseph's ME,113
-Penn State-Behrend,114
+Penn State-Behrend,113
+Pacific,114
 Chapman,115
 Sul Ross,116
 N Central IL,117
@@ -129,35 +129,35 @@ Westminster MO,127
 SUNY New Paltz,128
 McDaniel,129
 Pomona-Pitzer,130
-Willamette,131
-Dubuque,132
+Dubuque,131
+Willamette,132
 Occidental,133
 Aurora,134
-Berea,135
-Macalester,136
-St. Scholastica,137
-Asbury,138
-Albion,139
-Susquehanna,140
-Nazareth,141
-Franklin,142
-Emerson,143
-Berry,144
-Skidmore,145
-Centre,146
-Grinnell,147
+Berry,135
+Berea,136
+Macalester,137
+St. Scholastica,138
+Centre,139
+Asbury,140
+Albion,141
+Susquehanna,142
+Nazareth,143
+Franklin,144
+Emerson,145
+Grinnell,146
+Skidmore,147
 Allegheny,148
 Piedmont,149
-UC Santa Cruz,150
+St. Thomas TX,150
 Northwestern MN,151
-St. Thomas TX,152
+UC Santa Cruz,152
 Concordia TX,153
 U New England,154
 Ursinus,155
 La Roche,156
 Frank & Marsh,157
-Whitworth,158
-Lebanon Val,159
+Lebanon Val,158
+Whitworth,159
 Guilford,160
 Widener,161
 Pac Lutheran,162
@@ -175,16 +175,16 @@ Edgewood,173
 Muhlenberg,174
 Washington MD,175
 Immaculata,176
-Wilmington OH,177
-UW-Superior,178
-S Maine,179
+S Maine,177
+Wilmington OH,178
+UW-Superior,179
 Merchant Marine,180
-Arcadia,181
-Wm Paterson,182
+Wm Paterson,181
+Arcadia,182
 St. Vincent,183
 Caltech,184
-Grove City,185
-York PA,186
+York PA,185
+Grove City,186
 Wesleyan CT,187
 Milwaukee Eng,188
 Anderson IN,189
@@ -194,10 +194,10 @@ La Verne,192
 Mary Washington,193
 Salve Regina,194
 Roanoke,195
-Rochester Tech,196
-Suffolk,197
-Concordia WI,198
-Westfield St.,199
+Suffolk,196
+Rochester Tech,197
+Westfield St.,198
+Concordia WI,199
 Univ Ozarks,200
 Benedictine IL,201
 Oswego St.,202
@@ -208,8 +208,8 @@ Albertus Magnus,206
 St. Joseph CT,207
 Bluffton,208
 Clark MA,209
-Cornell IA,210
-Husson,211
+Husson,210
+Cornell IA,211
 Belhaven MS,212
 Bethany Luth,213
 Marymount,214
@@ -241,26 +241,26 @@ Alvernia,239
 Brevard,240
 Buena Vista,241
 Principia,242
-Rhodes,243
-Kean,244
-Augsburg,245
-SUNY Oneonta,246
+Kean,243
+Augsburg,244
+SUNY Oneonta,245
+Wheaton MA,246
 Adrian,247
 SW Univ TX,248
-Wheaton MA,249
-Mt. St. Mary,250
+Mt. St. Mary,249
+Rhodes,250
 Manchester,251
 Salem MA,252
 Keene St.,253
 Greenville,254
 SUNY Canton,255
-Austin Col,256
-Lynchburg,257
-Hiram,258
+Lynchburg,256
+Hiram,257
+Austin Col,258
 Neumann,259
 Lakeland,260
-Carleton,261
-Manhattanville,262
+Manhattanville,261
+Carleton,262
 Maryville TN,263
 Methodist,264
 Eureka,265
@@ -270,8 +270,8 @@ St. Mary's IN,268
 Nichols,269
 North Park,270
 Geneva,271
-Sewanee,272
-Juniata,273
+Juniata,272
+Sewanee,273
 MA Boston,274
 Stockton,275
 Hollins,276
@@ -286,14 +286,14 @@ Howard Payne,284
 Gordon,285
 Kalamazoo,286
 PSU-Harrisburg,287
-Moravian,288
-Earlham,289
-Goucher,290
-St. Joseph's LI,291
-Worcester St,292
-Brooklyn Col,293
-Heidelberg,294
-Hendrix,295
+Hendrix,288
+Moravian,289
+Earlham,290
+Goucher,291
+St. Joseph's LI,292
+Worcester St,293
+Brooklyn Col,294
+Heidelberg,295
 Lyon,296
 E Mennonite,297
 Wellesley,298
@@ -356,8 +356,8 @@ Kenyon,354
 Bryn Athyn,355
 FDU Madison,356
 Eastern Univ,357
-Centenary,358
-Ramapo,359
+Ramapo,358
+Centenary,359
 SUNYIT,360
 Utica,361
 Delaware Val,362
@@ -367,9 +367,9 @@ St. Elizabeth,365
 Crown MN,366
 Meredith,367
 Bryn Mawr,368
-Keystone,369
-Lancaster Bib,370
-Thomas ME,371
+Thomas ME,369
+Keystone,370
+Lancaster Bib,371
 Bob Jones,372
 Fontbonne,373
 Greensboro,374
@@ -386,16 +386,16 @@ NVU-Lyndon,384
 Warren Wilson,385
 Wilson,386
 Pitt-Greensburg,387
-ME Presque Isle,388
-Mitchell,389
-Lehman,390
-Agnes Scott,391
+Mitchell,388
+Lehman,389
+Agnes Scott,390
+ME Presque Isle,391
 Bard,392
 MA Col Lib Arts,393
 Fitchburg St.,394
 Alverno,395
-Yeshiva,396
-Pitt-Bradford,397
+Pitt-Bradford,396
+Yeshiva,397
 Mt. Holyoke,398
 Mt. Mary,399
 PSU-Brandywine,400

@@ -12,6 +12,7 @@ from .multi_season_simulator import (
     run_multiple_simulations,
     save_simulation_stats,
 )
+from .ncaa_bracket import BracketGenerator, write_bracket_to_file
 from .process_games_bidirectional import process_games_bidirectional
 from .simulation import (
     load_efficiency_data,
@@ -217,6 +218,50 @@ def run_main():
     main()
 
 
+def run_bracket_generator():
+    """Generate NCAA tournament bracket based on input data."""
+    year = "2025"  # Hard-coded year
+    base_path = Path(__file__).parent / "data"
+    print(f"\nGenerating NCAA DIII Women's Basketball bracket for {year}")
+    print("-" * 50)
+    try:
+        # Initialize bracket generator
+        generator = BracketGenerator(base_path, year)
+        # Print teams with quadrant seeds
+        generator.print_teams_with_quadrant_seeds()
+        # Print initial data summary
+        print(f"\nLoaded {len(generator.teams)} teams")
+        for team in generator.get_teams_by_seed_range(1, 8):
+            print(
+                f"{team.overall_seed}. {team.team} ({team.conference}, Region {team.region})"
+            )
+
+        # Generate bracket
+        print("\nGenerating initial bracket...")
+        bracket = generator.generate_bracket()
+
+        # Score the bracket
+        bracket_score = generator.score_bracket(bracket)
+        print(f"\nInitial Bracket Score: {bracket_score}")
+
+        # Save bracket to file
+        output_filename = f"bracket_{year}.csv"
+        output_path = base_path / year / output_filename
+        write_bracket_to_file(bracket, output_path)
+        print(f"\nBracket has been saved to: {output_filename}")
+
+        # Print bracket summary
+        print("\nBracket Summary:")
+        print("-" * 50)
+        for matchup in bracket:
+            print(f"{matchup.quadrant_name} - {matchup.pod_name}:")
+            print(
+                f"#{matchup.team_a_actual_seed} {matchup.team_a} vs #{matchup.team_b_actual_seed} {matchup.team_b}"
+            )
+    except Exception as e:
+        print(f"Error generating bracket: {e}")
+
+
 if __name__ == "__main__":
     commands = {
         "bidirectional": run_bidirectional,
@@ -228,6 +273,7 @@ if __name__ == "__main__":
         "eff": run_efficiency_getter,
         "massey": run_massey_ratings_getter,
         "teams": run_team_ids_getter,
+        "generate_bracket": run_bracket_generator,
     }
 
     if len(sys.argv) < 2 or sys.argv[1] not in commands:
@@ -244,6 +290,7 @@ if __name__ == "__main__":
         print("run efficiency getter")
         print("run massey ratings getter")
         print("run team ids getter")
+        print(" generate_bracket - Generate NCAA tournament bracket")
         sys.exit(1)
 
     commands[sys.argv[1]]()

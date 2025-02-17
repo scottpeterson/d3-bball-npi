@@ -1,0 +1,4033 @@
+Origin_School,Destination_School,Distance
+Whitman,Webster,1864
+Whitman,WashU,1868
+Whitman,Washington & Lee,2555
+Whitman,Wartburg,1638
+Whitman,W New England,2837
+Whitman,Vassar,2747
+Whitman,UW-Whitewater,1794
+Whitman,UW-Stout,1558
+Whitman,UW-Stevens Point,1694
+Whitman,UW-Oshkosh,1770
+Whitman,UW-La Crosse,1651
+Whitman,TX Lutheran,1947
+Whitman,Tufts,2922
+Whitman,Trinity (Conn),2823
+Whitman,Trine,2102
+Whitman,Transylvania,2205
+Whitman,TCNJ,2716
+Whitman,St. Norbert,1770
+Whitman,St. Joseph's ME,3032
+Whitman,Smith,2839
+Whitman,Scranton,2635
+Whitman,S Virginia,2562
+Whitman,Roger Williams,2913
+Whitman,Ripon,1750
+Whitman,Rhode Island College,2898
+Whitman,Randolph-Macon,2695
+Whitman,PSU-Abington,3012
+Whitman,Penn State-Behrend,2379
+Whitman,Ohio Wesleyan,2250
+Whitman,NYU,2722
+Whitman,Northwestern MN,1490
+Whitman,Millsaps,2274
+Whitman,Messiah,2585
+Whitman,Merchant Marine,2743
+Whitman,ME Maritime,3154
+Whitman,McMurry,1672
+Whitman,MA Dartmouth,3021
+Whitman,Lebanon Val,2608
+Whitman,Johns Hopkins,2635
+Whitman,Immaculata,2506
+Whitman,Illinois Wesleyan,1918
+Whitman,Hunter,2723
+Whitman,Hope,2083
+Whitman,Hardin-Simmons,1673
+Whitman,Gustavus Adolphus,1521
+Whitman,Gettysburg,2572
+Whitman,Geneseo St.,2517
+Whitman,Elizabethtown,2608
+Whitman,East Texas Baptist,1992
+Whitman,Cortland,2643
+Whitman,Colorado Col,1134
+Whitman,Christopher Newport,2757
+Whitman,Chatham,2398
+Whitman,Catholic,2631
+Whitman,Carnegie Mellon,2392
+Whitman,Cal Lutheran,1053
+Whitman,Bridgewater MA,2931
+Whitman,Bowdoin,3043
+Whitman,Bethel,1489
+Whitman,Belhaven MS,2300
+Whitman,Bates,3047
+Whitman,Baldwin Wallace,2271
+Whitman,Amherst,2846
+Webster,Whitman,1864
+Webster,WashU,7
+Webster,Washington & Lee,699
+Webster,Wartburg,356
+Webster,W New England,1123
+Webster,Vassar,1015
+Webster,UW-Whitewater,352
+Webster,UW-Stout,566
+Webster,UW-Stevens Point,486
+Webster,UW-Oshkosh,449
+Webster,UW-La Crosse,505
+Webster,TX Lutheran,869
+Webster,Tufts,1195
+Webster,Trinity (Conn),1089
+Webster,Trine,420
+Webster,Transylvania,348
+Webster,TCNJ,921
+Webster,St. Norbert,492
+Webster,St. Joseph's ME,1306
+Webster,Smith,1127
+Webster,Scranton,901
+Webster,S Virginia,704
+Webster,Roger Williams,1160
+Webster,Ripon,438
+Webster,Rhode Island College,1144
+Webster,Randolph-Macon,837
+Webster,PSU-Abington,1222
+Webster,Penn State-Behrend,666
+Webster,Ohio Wesleyan,439
+Webster,NYU,962
+Webster,Northwestern MN,535
+Webster,Millsaps,488
+Webster,Messiah,792
+Webster,Merchant Marine,989
+Webster,ME Maritime,1427
+Webster,McMurry,783
+Webster,MA Dartmouth,1278
+Webster,Lebanon Val,816
+Webster,Johns Hopkins,830
+Webster,Immaculata,772
+Webster,Illinois Wesleyan,176
+Webster,Hunter,962
+Webster,Hope,432
+Webster,Hardin-Simmons,778
+Webster,Gustavus Adolphus,537
+Webster,Gettysburg,778
+Webster,Geneseo St.,804
+Webster,Elizabethtown,814
+Webster,East Texas Baptist,562
+Webster,Cortland,931
+Webster,Colorado Col,830
+Webster,Christopher Newport,900
+Webster,Chatham,616
+Webster,Catholic,826
+Webster,Carnegie Mellon,611
+Webster,Cal Lutheran,1857
+Webster,Bridgewater MA,1179
+Webster,Bowdoin,1315
+Webster,Bethel,539
+Webster,Belhaven MS,489
+Webster,Bates,1320
+Webster,Baldwin Wallace,557
+Webster,Amherst,1133
+WashU,Whitman,1868
+WashU,Webster,7
+WashU,Washington & Lee,688
+WashU,Wartburg,360
+WashU,W New England,1114
+WashU,Vassar,1004
+WashU,UW-Whitewater,350
+WashU,UW-Stout,557
+WashU,UW-Stevens Point,476
+WashU,UW-Oshkosh,438
+WashU,UW-La Crosse,463
+WashU,TX Lutheran,880
+WashU,Tufts,1186
+WashU,Trinity (Conn),1079
+WashU,Trine,409
+WashU,Transylvania,347
+WashU,TCNJ,911
+WashU,St. Norbert,483
+WashU,St. Joseph's ME,1297
+WashU,Smith,1117
+WashU,Scranton,891
+WashU,S Virginia,695
+WashU,Roger Williams,1150
+WashU,Ripon,438
+WashU,Rhode Island College,1135
+WashU,Randolph-Macon,828
+WashU,PSU-Abington,1219
+WashU,Penn State-Behrend,657
+WashU,Ohio Wesleyan,436
+WashU,NYU,962
+WashU,Northwestern MN,541
+WashU,Millsaps,490
+WashU,Messiah,781
+WashU,Merchant Marine,980
+WashU,ME Maritime,1419
+WashU,McMurry,793
+WashU,MA Dartmouth,1258
+WashU,Lebanon Val,805
+WashU,Johns Hopkins,820
+WashU,Immaculata,761
+WashU,Illinois Wesleyan,163
+WashU,Hunter,953
+WashU,Hope,420
+WashU,Hardin-Simmons,788
+WashU,Gustavus Adolphus,537
+WashU,Gettysburg,768
+WashU,Geneseo St.,795
+WashU,Elizabethtown,803
+WashU,East Texas Baptist,560
+WashU,Cortland,921
+WashU,Colorado Col,835
+WashU,Christopher Newport,890
+WashU,Chatham,607
+WashU,Catholic,816
+WashU,Carnegie Mellon,605
+WashU,Cal Lutheran,1867
+WashU,Bridgewater MA,1170
+WashU,Bowdoin,1308
+WashU,Bethel,542
+WashU,Belhaven MS,490
+WashU,Bates,1312
+WashU,Baldwin Wallace,547
+WashU,Amherst,1137
+Washington & Lee,Whitman,2555
+Washington & Lee,Webster,699
+Washington & Lee,WashU,688
+Washington & Lee,Wartburg,955
+Washington & Lee,W New England,556
+Washington & Lee,Vassar,471
+Washington & Lee,UW-Whitewater,779
+Washington & Lee,UW-Stout,1017
+Washington & Lee,UW-Stevens Point,936
+Washington & Lee,UW-Oshkosh,849
+Washington & Lee,UW-La Crosse,955
+Washington & Lee,TX Lutheran,1386
+Washington & Lee,Tufts,630
+Washington & Lee,Trinity (Conn),530
+Washington & Lee,Trine,536
+Washington & Lee,Transylvania,357
+Washington & Lee,TCNJ,371
+Washington & Lee,St. Norbert,881
+Washington & Lee,St. Joseph's ME,742
+Washington & Lee,Smith,568
+Washington & Lee,Scranton,361
+Washington & Lee,S Virginia,7
+Washington & Lee,Roger Williams,606
+Washington & Lee,Ripon,848
+Washington & Lee,Rhode Island College,591
+Washington & Lee,Randolph-Macon,143
+Washington & Lee,PSU-Abington,623
+Washington & Lee,Penn State-Behrend,439
+Washington & Lee,Ohio Wesleyan,370
+Washington & Lee,NYU,409
+Washington & Lee,Northwestern MN,1082
+Washington & Lee,Millsaps,796
+Washington & Lee,Messiah,232
+Washington & Lee,Merchant Marine,437
+Washington & Lee,ME Maritime,864
+Washington & Lee,McMurry,1326
+Washington & Lee,MA Dartmouth,686
+Washington & Lee,Lebanon Val,263
+Washington & Lee,Johns Hopkins,228
+Washington & Lee,Immaculata,291
+Washington & Lee,Illinois Wesleyan,664
+Washington & Lee,Hunter,409
+Washington & Lee,Hope,687
+Washington & Lee,Hardin-Simmons,1325
+Washington & Lee,Gustavus Adolphus,1114
+Washington & Lee,Gettysburg,214
+Washington & Lee,Geneseo St.,466
+Washington & Lee,Elizabethtown,263
+Washington & Lee,East Texas Baptist,1047
+Washington & Lee,Cortland,460
+Washington & Lee,Colorado Col,1520
+Washington & Lee,Christopher Newport,208
+Washington & Lee,Chatham,312
+Washington & Lee,Catholic,196
+Washington & Lee,Carnegie Mellon,316
+Washington & Lee,Cal Lutheran,2525
+Washington & Lee,Bridgewater MA,627
+Washington & Lee,Bowdoin,748
+Washington & Lee,Bethel,1083
+Washington & Lee,Belhaven MS,794
+Washington & Lee,Bates,753
+Washington & Lee,Baldwin Wallace,433
+Washington & Lee,Amherst,581
+Wartburg,Whitman,1638
+Wartburg,Webster,356
+Wartburg,WashU,360
+Wartburg,Washington & Lee,955
+Wartburg,W New England,1212
+Wartburg,Vassar,1123
+Wartburg,UW-Whitewater,245
+Wartburg,UW-Stout,188
+Wartburg,UW-Stevens Point,254
+Wartburg,UW-Oshkosh,294
+Wartburg,UW-La Crosse,131
+Wartburg,TX Lutheran,1086
+Wartburg,Tufts,1296
+Wartburg,Trinity (Conn),1198
+Wartburg,Trine,476
+Wartburg,Transylvania,652
+Wartburg,TCNJ,1091
+Wartburg,St. Norbert,339
+Wartburg,St. Joseph's ME,1407
+Wartburg,Smith,1213
+Wartburg,Scranton,1010
+Wartburg,S Virginia,962
+Wartburg,Roger Williams,1287
+Wartburg,Ripon,286
+Wartburg,Rhode Island College,1271
+Wartburg,Randolph-Macon,1090
+Wartburg,PSU-Abington,1313
+Wartburg,Penn State-Behrend,754
+Wartburg,Ohio Wesleyan,646
+Wartburg,NYU,1096
+Wartburg,Northwestern MN,210
+Wartburg,Millsaps,834
+Wartburg,Messiah,960
+Wartburg,Merchant Marine,1118
+Wartburg,ME Maritime,1529
+Wartburg,McMurry,977
+Wartburg,MA Dartmouth,1347
+Wartburg,Lebanon Val,984
+Wartburg,Johns Hopkins,1008
+Wartburg,Immaculata,881
+Wartburg,Illinois Wesleyan,293
+Wartburg,Hunter,1098
+Wartburg,Hope,458
+Wartburg,Hardin-Simmons,972
+Wartburg,Gustavus Adolphus,178
+Wartburg,Gettysburg,948
+Wartburg,Geneseo St.,893
+Wartburg,Elizabethtown,983
+Wartburg,East Texas Baptist,880
+Wartburg,Cortland,1017
+Wartburg,Colorado Col,880
+Wartburg,Christopher Newport,1166
+Wartburg,Chatham,773
+Wartburg,Catholic,1004
+Wartburg,Carnegie Mellon,767
+Wartburg,Cal Lutheran,1865
+Wartburg,Bridgewater MA,1306
+Wartburg,Bowdoin,1414
+Wartburg,Bethel,211
+Wartburg,Belhaven MS,835
+Wartburg,Bates,1418
+Wartburg,Baldwin Wallace,646
+Wartburg,Amherst,1221
+W New England,Whitman,2837
+W New England,Webster,1123
+W New England,WashU,1114
+W New England,Washington & Lee,556
+W New England,Wartburg,1212
+W New England,Vassar,128
+W New England,UW-Whitewater,1009
+W New England,UW-Stout,1247
+W New England,UW-Stevens Point,1167
+W New England,UW-Oshkosh,1080
+W New England,UW-La Crosse,1186
+W New England,TX Lutheran,1936
+W New England,Tufts,95
+W New England,Trinity (Conn),32
+W New England,Trine,744
+W New England,Transylvania,851
+W New England,TCNJ,206
+W New England,St. Norbert,1110
+W New England,St. Joseph's ME,206
+W New England,Smith,23
+W New England,Scranton,222
+W New England,S Virginia,557
+W New England,Roger Williams,102
+W New England,Ripon,1079
+W New England,Rhode Island College,84
+W New England,Randolph-Macon,463
+W New England,PSU-Abington,88
+W New England,Penn State-Behrend,464
+W New England,Ohio Wesleyan,683
+W New England,NYU,148
+W New England,Northwestern MN,1313
+W New England,Millsaps,1346
+W New England,Messiah,325
+W New England,Merchant Marine,142
+W New England,ME Maritime,328
+W New England,McMurry,1878
+W New England,MA Dartmouth,133
+W New England,Lebanon Val,304
+W New England,Johns Hopkins,338
+W New England,Immaculata,361
+W New England,Illinois Wesleyan,1011
+W New England,Hunter,147
+W New England,Hope,780
+W New England,Hardin-Simmons,1877
+W New England,Gustavus Adolphus,1344
+W New England,Gettysburg,357
+W New England,Geneseo St.,332
+W New England,Elizabethtown,323
+W New England,East Texas Baptist,1590
+W New England,Cortland,246
+W New England,Colorado Col,1940
+W New England,Christopher Newport,544
+W New England,Chatham,497
+W New England,Catholic,370
+W New England,Carnegie Mellon,501
+W New England,Cal Lutheran,2947
+W New England,Bridgewater MA,104
+W New England,Bowdoin,214
+W New England,Bethel,1313
+W New England,Belhaven MS,1371
+W New England,Bates,219
+W New England,Baldwin Wallace,577
+W New England,Amherst,32
+Vassar,Whitman,2750
+Vassar,Webster,1015
+Vassar,WashU,1005
+Vassar,Washington & Lee,471
+Vassar,Wartburg,1123
+Vassar,W New England,128
+Vassar,UW-Whitewater,920
+Vassar,UW-Stout,1160
+Vassar,UW-Stevens Point,1080
+Vassar,UW-Oshkosh,993
+Vassar,UW-La Crosse,1098
+Vassar,TX Lutheran,1853
+Vassar,Tufts,206
+Vassar,Trinity (Conn),98
+Vassar,Trine,656
+Vassar,Transylvania,766
+Vassar,TCNJ,133
+Vassar,St. Norbert,1025
+Vassar,St. Joseph's ME,316
+Vassar,Smith,129
+Vassar,Scranton,118
+Vassar,S Virginia,475
+Vassar,Roger Williams,203
+Vassar,Ripon,991
+Vassar,Rhode Island College,183
+Vassar,Randolph-Macon,402
+Vassar,PSU-Abington,197
+Vassar,Penn State-Behrend,402
+Vassar,Ohio Wesleyan,573
+Vassar,NYU,85
+Vassar,Northwestern MN,1225
+Vassar,Millsaps,1263
+Vassar,Messiah,243
+Vassar,Merchant Marine,91
+Vassar,ME Maritime,438
+Vassar,McMurry,1794
+Vassar,MA Dartmouth,240
+Vassar,Lebanon Val,219
+Vassar,Johns Hopkins,274
+Vassar,Immaculata,258
+Vassar,Illinois Wesleyan,924
+Vassar,Hunter,83
+Vassar,Hope,770
+Vassar,Hardin-Simmons,1793
+Vassar,Gustavus Adolphus,1257
+Vassar,Gettysburg,272
+Vassar,Geneseo St.,281
+Vassar,Elizabethtown,234
+Vassar,East Texas Baptist,1514
+Vassar,Cortland,178
+Vassar,Colorado Col,1830
+Vassar,Christopher Newport,480
+Vassar,Chatham,393
+Vassar,Catholic,307
+Vassar,Carnegie Mellon,397
+Vassar,Cal Lutheran,2859
+Vassar,Bridgewater MA,215
+Vassar,Bowdoin,327
+Vassar,Bethel,1226
+Vassar,Belhaven MS,1280
+Vassar,Bates,332
+Vassar,Baldwin Wallace,488
+Vassar,Amherst,139
+UW-Whitewater,Whitman,1794
+UW-Whitewater,Webster,352
+UW-Whitewater,WashU,350
+UW-Whitewater,Washington & Lee,779
+UW-Whitewater,Wartburg,245
+UW-Whitewater,W New England,1009
+UW-Whitewater,Vassar,920
+UW-Whitewater,UW-Stout,241
+UW-Whitewater,UW-Stevens Point,161
+UW-Whitewater,UW-Oshkosh,90
+UW-Whitewater,UW-La Crosse,180
+UW-Whitewater,TX Lutheran,1218
+UW-Whitewater,Tufts,1093
+UW-Whitewater,Trinity (Conn),995
+UW-Whitewater,Trine,273
+UW-Whitewater,Transylvania,478
+UW-Whitewater,TCNJ,888
+UW-Whitewater,St. Norbert,135
+UW-Whitewater,St. Joseph's ME,1204
+UW-Whitewater,Smith,1011
+UW-Whitewater,Scranton,807
+UW-Whitewater,S Virginia,786
+UW-Whitewater,Roger Williams,1084
+UW-Whitewater,Ripon,82
+UW-Whitewater,Rhode Island College,1070
+UW-Whitewater,Randolph-Macon,887
+UW-Whitewater,PSU-Abington,1091
+UW-Whitewater,Penn State-Behrend,551
+UW-Whitewater,Ohio Wesleyan,419
+UW-Whitewater,NYU,894
+UW-Whitewater,Northwestern MN,307
+UW-Whitewater,Millsaps,829
+UW-Whitewater,Messiah,757
+UW-Whitewater,Merchant Marine,915
+UW-Whitewater,ME Maritime,1326
+UW-Whitewater,McMurry,1132
+UW-Whitewater,MA Dartmouth,1085
+UW-Whitewater,Lebanon Val,781
+UW-Whitewater,Johns Hopkins,807
+UW-Whitewater,Immaculata,678
+UW-Whitewater,Illinois Wesleyan,182
+UW-Whitewater,Hunter,895
+UW-Whitewater,Hope,254
+UW-Whitewater,Hardin-Simmons,1131
+UW-Whitewater,Gustavus Adolphus,338
+UW-Whitewater,Gettysburg,744
+UW-Whitewater,Geneseo St.,689
+UW-Whitewater,Elizabethtown,780
+UW-Whitewater,East Texas Baptist,899
+UW-Whitewater,Cortland,814
+UW-Whitewater,Colorado Col,1072
+UW-Whitewater,Christopher Newport,965
+UW-Whitewater,Chatham,570
+UW-Whitewater,Catholic,803
+UW-Whitewater,Carnegie Mellon,565
+UW-Whitewater,Cal Lutheran,2059
+UW-Whitewater,Bridgewater MA,1103
+UW-Whitewater,Bowdoin,1215
+UW-Whitewater,Bethel,307
+UW-Whitewater,Belhaven MS,829
+UW-Whitewater,Bates,1219
+UW-Whitewater,Baldwin Wallace,443
+UW-Whitewater,Amherst,1018
+UW-Stout,Whitman,1558
+UW-Stout,Webster,566
+UW-Stout,WashU,557
+UW-Stout,Washington & Lee,1017
+UW-Stout,Wartburg,188
+UW-Stout,W New England,1246
+UW-Stout,Vassar,1160
+UW-Stout,UW-Whitewater,241
+UW-Stout,UW-Stevens Point,140
+UW-Stout,UW-Oshkosh,216
+UW-Stout,UW-La Crosse,114
+UW-Stout,TX Lutheran,1249
+UW-Stout,Tufts,1331
+UW-Stout,Trinity (Conn),1233
+UW-Stout,Trine,512
+UW-Stout,Transylvania,716
+UW-Stout,TCNJ,1126
+UW-Stout,St. Norbert,217
+UW-Stout,St. Joseph's ME,1442
+UW-Stout,Smith,1249
+UW-Stout,Scranton,1045
+UW-Stout,S Virginia,1024
+UW-Stout,Roger Williams,1323
+UW-Stout,Ripon,196
+UW-Stout,Rhode Island College,1308
+UW-Stout,Randolph-Macon,1125
+UW-Stout,PSU-Abington,1323
+UW-Stout,Penn State-Behrend,789
+UW-Stout,Ohio Wesleyan,657
+UW-Stout,NYU,1144
+UW-Stout,Northwestern MN,71
+UW-Stout,Millsaps,1043
+UW-Stout,Messiah,995
+UW-Stout,Merchant Marine,1153
+UW-Stout,ME Maritime,1563
+UW-Stout,McMurry,1140
+UW-Stout,MA Dartmouth,1290
+UW-Stout,Lebanon Val,1021
+UW-Stout,Johns Hopkins,1045
+UW-Stout,Immaculata,916
+UW-Stout,Illinois Wesleyan,394
+UW-Stout,Hunter,1132
+UW-Stout,Hope,494
+UW-Stout,Hardin-Simmons,1135
+UW-Stout,Gustavus Adolphus,134
+UW-Stout,Gettysburg,982
+UW-Stout,Geneseo St.,927
+UW-Stout,Elizabethtown,1018
+UW-Stout,East Texas Baptist,1043
+UW-Stout,Cortland,1053
+UW-Stout,Colorado Col,1043
+UW-Stout,Christopher Newport,1203
+UW-Stout,Chatham,808
+UW-Stout,Catholic,1041
+UW-Stout,Carnegie Mellon,803
+UW-Stout,Cal Lutheran,2028
+UW-Stout,Bridgewater MA,1340
+UW-Stout,Bowdoin,1452
+UW-Stout,Bethel,71
+UW-Stout,Belhaven MS,1046
+UW-Stout,Bates,1457
+UW-Stout,Baldwin Wallace,681
+UW-Stout,Amherst,1255
+UW-Stevens Point,Whitman,1694
+UW-Stevens Point,Webster,486
+UW-Stevens Point,WashU,476
+UW-Stevens Point,Washington & Lee,936
+UW-Stevens Point,Wartburg,254
+UW-Stevens Point,W New England,1167
+UW-Stevens Point,Vassar,1080
+UW-Stevens Point,UW-Whitewater,161
+UW-Stevens Point,UW-Stout,140
+UW-Stevens Point,UW-Oshkosh,73
+UW-Stevens Point,UW-La Crosse,125
+UW-Stevens Point,TX Lutheran,1353
+UW-Stevens Point,Tufts,1251
+UW-Stevens Point,Trinity (Conn),1153
+UW-Stevens Point,Trine,432
+UW-Stevens Point,Transylvania,634
+UW-Stevens Point,TCNJ,1046
+UW-Stevens Point,St. Norbert,109
+UW-Stevens Point,St. Joseph's ME,1362
+UW-Stevens Point,Smith,1169
+UW-Stevens Point,Scranton,965
+UW-Stevens Point,S Virginia,943
+UW-Stevens Point,Roger Williams,1243
+UW-Stevens Point,Ripon,92
+UW-Stevens Point,Rhode Island College,1228
+UW-Stevens Point,Randolph-Macon,1045
+UW-Stevens Point,PSU-Abington,1229
+UW-Stevens Point,Penn State-Behrend,709
+UW-Stevens Point,Ohio Wesleyan,577
+UW-Stevens Point,NYU,1051
+UW-Stevens Point,Northwestern MN,199
+UW-Stevens Point,Millsaps,964
+UW-Stevens Point,Messiah,915
+UW-Stevens Point,Merchant Marine,1073
+UW-Stevens Point,ME Maritime,1484
+UW-Stevens Point,McMurry,1222
+UW-Stevens Point,MA Dartmouth,1199
+UW-Stevens Point,Lebanon Val,940
+UW-Stevens Point,Johns Hopkins,965
+UW-Stevens Point,Immaculata,836
+UW-Stevens Point,Illinois Wesleyan,317
+UW-Stevens Point,Hunter,1055
+UW-Stevens Point,Hope,414
+UW-Stevens Point,Hardin-Simmons,1217
+UW-Stevens Point,Gustavus Adolphus,272
+UW-Stevens Point,Gettysburg,902
+UW-Stevens Point,Geneseo St.,848
+UW-Stevens Point,Elizabethtown,938
+UW-Stevens Point,East Texas Baptist,1033
+UW-Stevens Point,Cortland,973
+UW-Stevens Point,Colorado Col,1130
+UW-Stevens Point,Christopher Newport,1123
+UW-Stevens Point,Chatham,728
+UW-Stevens Point,Catholic,961
+UW-Stevens Point,Carnegie Mellon,725
+UW-Stevens Point,Cal Lutheran,2115
+UW-Stevens Point,Bridgewater MA,1261
+UW-Stevens Point,Bowdoin,1373
+UW-Stevens Point,Bethel,209
+UW-Stevens Point,Belhaven MS,953
+UW-Stevens Point,Bates,1377
+UW-Stevens Point,Baldwin Wallace,601
+UW-Stevens Point,Amherst,1180
+UW-Oshkosh,Whitman,1772
+UW-Oshkosh,Webster,449
+UW-Oshkosh,WashU,438
+UW-Oshkosh,Washington & Lee,849
+UW-Oshkosh,Wartburg,294
+UW-Oshkosh,W New England,1080
+UW-Oshkosh,Vassar,992
+UW-Oshkosh,UW-Whitewater,90
+UW-Oshkosh,UW-Stout,216
+UW-Oshkosh,UW-Stevens Point,73
+UW-Oshkosh,UW-La Crosse,151
+UW-Oshkosh,TX Lutheran,1316
+UW-Oshkosh,Tufts,1165
+UW-Oshkosh,Trinity (Conn),1067
+UW-Oshkosh,Trine,345
+UW-Oshkosh,Transylvania,548
+UW-Oshkosh,TCNJ,959
+UW-Oshkosh,St. Norbert,46
+UW-Oshkosh,St. Joseph's ME,1275
+UW-Oshkosh,Smith,1086
+UW-Oshkosh,Scranton,879
+UW-Oshkosh,S Virginia,856
+UW-Oshkosh,Roger Williams,1156
+UW-Oshkosh,Ripon,21
+UW-Oshkosh,Rhode Island College,1142
+UW-Oshkosh,Randolph-Macon,959
+UW-Oshkosh,PSU-Abington,1157
+UW-Oshkosh,Penn State-Behrend,622
+UW-Oshkosh,Ohio Wesleyan,493
+UW-Oshkosh,NYU,966
+UW-Oshkosh,Northwestern MN,284
+UW-Oshkosh,Millsaps,914
+UW-Oshkosh,Messiah,829
+UW-Oshkosh,Merchant Marine,987
+UW-Oshkosh,ME Maritime,1397
+UW-Oshkosh,McMurry,1229
+UW-Oshkosh,MA Dartmouth,1126
+UW-Oshkosh,Lebanon Val,853
+UW-Oshkosh,Johns Hopkins,879
+UW-Oshkosh,Immaculata,749
+UW-Oshkosh,Illinois Wesleyan,277
+UW-Oshkosh,Hunter,970
+UW-Oshkosh,Hope,328
+UW-Oshkosh,Hardin-Simmons,1224
+UW-Oshkosh,Gustavus Adolphus,311
+UW-Oshkosh,Gettysburg,816
+UW-Oshkosh,Geneseo St.,761
+UW-Oshkosh,Elizabethtown,851
+UW-Oshkosh,East Texas Baptist,996
+UW-Oshkosh,Cortland,886
+UW-Oshkosh,Colorado Col,1122
+UW-Oshkosh,Christopher Newport,1036
+UW-Oshkosh,Chatham,641
+UW-Oshkosh,Catholic,875
+UW-Oshkosh,Carnegie Mellon,636
+UW-Oshkosh,Cal Lutheran,2107
+UW-Oshkosh,Bridgewater MA,1174
+UW-Oshkosh,Bowdoin,1286
+UW-Oshkosh,Bethel,285
+UW-Oshkosh,Belhaven MS,928
+UW-Oshkosh,Bates,1291
+UW-Oshkosh,Baldwin Wallace,514
+UW-Oshkosh,Amherst,1092
+UW-La Crosse,Whitman,1651
+UW-La Crosse,Webster,505
+UW-La Crosse,WashU,463
+UW-La Crosse,Washington & Lee,955
+UW-La Crosse,Wartburg,131
+UW-La Crosse,W New England,1186
+UW-La Crosse,Vassar,1098
+UW-La Crosse,UW-Whitewater,180
+UW-La Crosse,UW-Stout,114
+UW-La Crosse,UW-Stevens Point,125
+UW-La Crosse,UW-Oshkosh,151
+UW-La Crosse,TX Lutheran,1218
+UW-La Crosse,Tufts,1270
+UW-La Crosse,Trinity (Conn),1173
+UW-La Crosse,Trine,449
+UW-La Crosse,Transylvania,652
+UW-La Crosse,TCNJ,1065
+UW-La Crosse,St. Norbert,195
+UW-La Crosse,St. Joseph's ME,1381
+UW-La Crosse,Smith,1188
+UW-La Crosse,Scranton,984
+UW-La Crosse,S Virginia,961
+UW-La Crosse,Roger Williams,1262
+UW-La Crosse,Ripon,136
+UW-La Crosse,Rhode Island College,1247
+UW-La Crosse,Randolph-Macon,1064
+UW-La Crosse,PSU-Abington,1260
+UW-La Crosse,Penn State-Behrend,728
+UW-La Crosse,Ohio Wesleyan,595
+UW-La Crosse,NYU,1072
+UW-La Crosse,Northwestern MN,159
+UW-La Crosse,Millsaps,983
+UW-La Crosse,Messiah,936
+UW-La Crosse,Merchant Marine,1092
+UW-La Crosse,ME Maritime,1501
+UW-La Crosse,McMurry,1113
+UW-La Crosse,MA Dartmouth,1293
+UW-La Crosse,Lebanon Val,959
+UW-La Crosse,Johns Hopkins,981
+UW-La Crosse,Immaculata,855
+UW-La Crosse,Illinois Wesleyan,333
+UW-La Crosse,Hunter,1071
+UW-La Crosse,Hope,433
+UW-La Crosse,Hardin-Simmons,1103
+UW-La Crosse,Gustavus Adolphus,169
+UW-La Crosse,Gettysburg,922
+UW-La Crosse,Geneseo St.,867
+UW-La Crosse,Elizabethtown,957
+UW-La Crosse,East Texas Baptist,1003
+UW-La Crosse,Cortland,992
+UW-La Crosse,Colorado Col,1012
+UW-La Crosse,Christopher Newport,1142
+UW-La Crosse,Chatham,747
+UW-La Crosse,Catholic,980
+UW-La Crosse,Carnegie Mellon,743
+UW-La Crosse,Cal Lutheran,1997
+UW-La Crosse,Bridgewater MA,1279
+UW-La Crosse,Bowdoin,1389
+UW-La Crosse,Bethel,161
+UW-La Crosse,Belhaven MS,921
+UW-La Crosse,Bates,1394
+UW-La Crosse,Baldwin Wallace,619
+UW-La Crosse,Amherst,1195
+TX Lutheran,Whitman,1947
+TX Lutheran,Webster,869
+TX Lutheran,WashU,880
+TX Lutheran,Washington & Lee,1386
+TX Lutheran,Wartburg,1086
+TX Lutheran,W New England,1936
+TX Lutheran,Vassar,1853
+TX Lutheran,UW-Whitewater,1218
+TX Lutheran,UW-Stout,1249
+TX Lutheran,UW-Stevens Point,1353
+TX Lutheran,UW-Oshkosh,1316
+TX Lutheran,UW-La Crosse,1218
+TX Lutheran,Tufts,2015
+TX Lutheran,Trinity (Conn),1908
+TX Lutheran,Trine,1315
+TX Lutheran,Transylvania,1124
+TX Lutheran,TCNJ,1753
+TX Lutheran,St. Norbert,1360
+TX Lutheran,St. Joseph's ME,2126
+TX Lutheran,Smith,1950
+TX Lutheran,Scranton,1743
+TX Lutheran,S Virginia,1387
+TX Lutheran,Roger Williams,1990
+TX Lutheran,Ripon,1307
+TX Lutheran,Rhode Island College,1973
+TX Lutheran,Randolph-Macon,1505
+TX Lutheran,PSU-Abington,2020
+TX Lutheran,Penn State-Behrend,1528
+TX Lutheran,Ohio Wesleyan,1315
+TX Lutheran,NYU,1791
+TX Lutheran,Northwestern MN,1197
+TX Lutheran,Millsaps,606
+TX Lutheran,Messiah,1613
+TX Lutheran,Merchant Marine,1821
+TX Lutheran,ME Maritime,2242
+TX Lutheran,McMurry,280
+TX Lutheran,MA Dartmouth,2090
+TX Lutheran,Lebanon Val,1645
+TX Lutheran,Johns Hopkins,1610
+TX Lutheran,Immaculata,1634
+TX Lutheran,Illinois Wesleyan,1041
+TX Lutheran,Hunter,1793
+TX Lutheran,Hope,1334
+TX Lutheran,Hardin-Simmons,287
+TX Lutheran,Gustavus Adolphus,1169
+TX Lutheran,Gettysburg,1596
+TX Lutheran,Geneseo St.,1666
+TX Lutheran,Elizabethtown,1645
+TX Lutheran,East Texas Baptist,345
+TX Lutheran,Cortland,1793
+TX Lutheran,Colorado Col,915
+TX Lutheran,Christopher Newport,1548
+TX Lutheran,Chatham,1474
+TX Lutheran,Catholic,1583
+TX Lutheran,Carnegie Mellon,1472
+TX Lutheran,Cal Lutheran,1432
+TX Lutheran,Bridgewater MA,2007
+TX Lutheran,Bowdoin,2130
+TX Lutheran,Bethel,1200
+TX Lutheran,Belhaven MS,608
+TX Lutheran,Bates,2135
+TX Lutheran,Baldwin Wallace,1419
+TX Lutheran,Amherst,1957
+Tufts,Whitman,2922
+Tufts,Webster,1195
+Tufts,WashU,1186
+Tufts,Washington & Lee,630
+Tufts,Wartburg,1296
+Tufts,W New England,95
+Tufts,Vassar,206
+Tufts,UW-Whitewater,1093
+Tufts,UW-Stout,1331
+Tufts,UW-Stevens Point,1251
+Tufts,UW-Oshkosh,1165
+Tufts,UW-La Crosse,1270
+Tufts,TX Lutheran,2015
+Tufts,Trinity (Conn),110
+Tufts,Trine,828
+Tufts,Transylvania,927
+Tufts,TCNJ,281
+Tufts,St. Norbert,1195
+Tufts,St. Joseph's ME,122
+Tufts,Smith,109
+Tufts,Scranton,299
+Tufts,S Virginia,635
+Tufts,Roger Williams,68
+Tufts,Ripon,1163
+Tufts,Rhode Island College,58
+Tufts,Randolph-Macon,539
+Tufts,PSU-Abington,8
+Tufts,Penn State-Behrend,549
+Tufts,Ohio Wesleyan,754
+Tufts,NYU,223
+Tufts,Northwestern MN,1396
+Tufts,Millsaps,1425
+Tufts,Messiah,403
+Tufts,Merchant Marine,219
+Tufts,ME Maritime,245
+Tufts,McMurry,1953
+Tufts,MA Dartmouth,129
+Tufts,Lebanon Val,379
+Tufts,Johns Hopkins,414
+Tufts,Immaculata,440
+Tufts,Illinois Wesleyan,1095
+Tufts,Hunter,223
+Tufts,Hope,867
+Tufts,Hardin-Simmons,1952
+Tufts,Gustavus Adolphus,1432
+Tufts,Gettysburg,432
+Tufts,Geneseo St.,418
+Tufts,Elizabethtown,400
+Tufts,East Texas Baptist,1668
+Tufts,Cortland,331
+Tufts,Colorado Col,2012
+Tufts,Christopher Newport,619
+Tufts,Chatham,575
+Tufts,Catholic,446
+Tufts,Carnegie Mellon,578
+Tufts,Cal Lutheran,3031
+Tufts,Bridgewater MA,38
+Tufts,Bowdoin,134
+Tufts,Bethel,1398
+Tufts,Belhaven MS,1451
+Tufts,Bates,138
+Tufts,Baldwin Wallace,661
+Tufts,Amherst,85
+Trinity (Conn),Whitman,2823
+Trinity (Conn),Webster,1089
+Trinity (Conn),WashU,1079
+Trinity (Conn),Washington & Lee,530
+Trinity (Conn),Wartburg,1198
+Trinity (Conn),W New England,32
+Trinity (Conn),Vassar,98
+Trinity (Conn),UW-Whitewater,994
+Trinity (Conn),UW-Stout,1233
+Trinity (Conn),UW-Stevens Point,1153
+Trinity (Conn),UW-Oshkosh,1067
+Trinity (Conn),UW-La Crosse,1173
+Trinity (Conn),TX Lutheran,1908
+Trinity (Conn),Tufts,110
+Trinity (Conn),Trine,730
+Trinity (Conn),Transylvania,821
+Trinity (Conn),TCNJ,177
+Trinity (Conn),St. Norbert,1098
+Trinity (Conn),St. Joseph's ME,220
+Trinity (Conn),Smith,47
+Trinity (Conn),Scranton,192
+Trinity (Conn),S Virginia,530
+Trinity (Conn),Roger Williams,109
+Trinity (Conn),Ripon,1065
+Trinity (Conn),Rhode Island College,89
+Trinity (Conn),Randolph-Macon,437
+Trinity (Conn),PSU-Abington,102
+Trinity (Conn),Penn State-Behrend,488
+Trinity (Conn),Ohio Wesleyan,647
+Trinity (Conn),NYU,106
+Trinity (Conn),Northwestern MN,1299
+Trinity (Conn),Millsaps,1318
+Trinity (Conn),Messiah,301
+Trinity (Conn),Merchant Marine,117
+Trinity (Conn),ME Maritime,342
+Trinity (Conn),McMurry,1852
+Trinity (Conn),MA Dartmouth,154
+Trinity (Conn),Lebanon Val,277
+Trinity (Conn),Johns Hopkins,309
+Trinity (Conn),Immaculata,331
+Trinity (Conn),Illinois Wesleyan,998
+Trinity (Conn),Hunter,116
+Trinity (Conn),Hope,803
+Trinity (Conn),Hardin-Simmons,1847
+Trinity (Conn),Gustavus Adolphus,1331
+Trinity (Conn),Gettysburg,327
+Trinity (Conn),Geneseo St.,356
+Trinity (Conn),Elizabethtown,295
+Trinity (Conn),East Texas Baptist,1569
+Trinity (Conn),Cortland,270
+Trinity (Conn),Colorado Col,1904
+Trinity (Conn),Christopher Newport,514
+Trinity (Conn),Chatham,467
+Trinity (Conn),Catholic,342
+Trinity (Conn),Carnegie Mellon,471
+Trinity (Conn),Cal Lutheran,2933
+Trinity (Conn),Bridgewater MA,118
+Trinity (Conn),Bowdoin,228
+Trinity (Conn),Bethel,1300
+Trinity (Conn),Belhaven MS,1330
+Trinity (Conn),Bates,233
+Trinity (Conn),Baldwin Wallace,562
+Trinity (Conn),Amherst,53
+Trine,Whitman,2102
+Trine,Webster,420
+Trine,WashU,409
+Trine,Washington & Lee,536
+Trine,Wartburg,476
+Trine,W New England,744
+Trine,Vassar,656
+Trine,UW-Whitewater,273
+Trine,UW-Stout,513
+Trine,UW-Stevens Point,432
+Trine,UW-Oshkosh,345
+Trine,UW-La Crosse,449
+Trine,TX Lutheran,1315
+Trine,Tufts,828
+Trine,Trinity (Conn),731
+Trine,Transylvania,308
+Trine,TCNJ,623
+Trine,St. Norbert,378
+Trine,St. Joseph's ME,939
+Trine,Smith,747
+Trine,Scranton,543
+Trine,S Virginia,543
+Trine,Roger Williams,820
+Trine,Ripon,344
+Trine,Rhode Island College,805
+Trine,Randolph-Macon,623
+Trine,PSU-Abington,846
+Trine,Penn State-Behrend,286
+Trine,Ohio Wesleyan,188
+Trine,NYU,650
+Trine,Northwestern MN,578
+Trine,Millsaps,837
+Trine,Messiah,493
+Trine,Merchant Marine,650
+Trine,ME Maritime,1061
+Trine,McMurry,1199
+Trine,MA Dartmouth,801
+Trine,Lebanon Val,517
+Trine,Johns Hopkins,543
+Trine,Immaculata,575
+Trine,Illinois Wesleyan,277
+Trine,Hunter,630
+Trine,Hope,152
+Trine,Hardin-Simmons,1195
+Trine,Gustavus Adolphus,610
+Trine,Gettysburg,480
+Trine,Geneseo St.,425
+Trine,Elizabethtown,515
+Trine,East Texas Baptist,962
+Trine,Cortland,550
+Trine,Colorado Col,1227
+Trine,Christopher Newport,700
+Trine,Chatham,305
+Trine,Catholic,538
+Trine,Carnegie Mellon,301
+Trine,Cal Lutheran,2212
+Trine,Bridgewater MA,838
+Trine,Bowdoin,950
+Trine,Bethel,579
+Trine,Belhaven MS,836
+Trine,Bates,954
+Trine,Baldwin Wallace,178
+Trine,Amherst,753
+Transylvania,Whitman,2205
+Transylvania,Webster,348
+Transylvania,WashU,347
+Transylvania,Washington & Lee,357
+Transylvania,Wartburg,651
+Transylvania,W New England,851
+Transylvania,Vassar,766
+Transylvania,UW-Whitewater,478
+Transylvania,UW-Stout,716
+Transylvania,UW-Stevens Point,634
+Transylvania,UW-Oshkosh,548
+Transylvania,UW-La Crosse,652
+Transylvania,TX Lutheran,1124
+Transylvania,Tufts,927
+Transylvania,Trinity (Conn),825
+Transylvania,Trine,308
+Transylvania,TCNJ,658
+Transylvania,St. Norbert,579
+Transylvania,St. Joseph's ME,1037
+Transylvania,Smith,863
+Transylvania,Scranton,656
+Transylvania,S Virginia,363
+Transylvania,Roger Williams,901
+Transylvania,Ripon,545
+Transylvania,Rhode Island College,886
+Transylvania,Randolph-Macon,496
+Transylvania,PSU-Abington,930
+Transylvania,Penn State-Behrend,428
+Transylvania,Ohio Wesleyan,214
+Transylvania,NYU,704
+Transylvania,Northwestern MN,779
+Transylvania,Millsaps,625
+Transylvania,Messiah,528
+Transylvania,Merchant Marine,732
+Transylvania,ME Maritime,1159
+Transylvania,McMurry,1058
+Transylvania,MA Dartmouth,1011
+Transylvania,Lebanon Val,558
+Transylvania,Johns Hopkins,538
+Transylvania,Immaculata,511
+Transylvania,Illinois Wesleyan,362
+Transylvania,Hunter,705
+Transylvania,Hope,415
+Transylvania,Hardin-Simmons,1057
+Transylvania,Gustavus Adolphus,811
+Transylvania,Gettysburg,509
+Transylvania,Geneseo St.,567
+Transylvania,Elizabethtown,551
+Transylvania,East Texas Baptist,772
+Transylvania,Cortland,693
+Transylvania,Colorado Col,1170
+Transylvania,Christopher Newport,558
+Transylvania,Chatham,375
+Transylvania,Catholic,534
+Transylvania,Carnegie Mellon,370
+Transylvania,Cal Lutheran,2202
+Transylvania,Bridgewater MA,922
+Transylvania,Bowdoin,1043
+Transylvania,Bethel,780
+Transylvania,Belhaven MS,624
+Transylvania,Bates,1048
+Transylvania,Baldwin Wallace,318
+Transylvania,Amherst,872
+TCNJ,Whitman,2716
+TCNJ,Webster,921
+TCNJ,WashU,911
+TCNJ,Washington & Lee,371
+TCNJ,Wartburg,1091
+TCNJ,W New England,206
+TCNJ,Vassar,133
+TCNJ,UW-Whitewater,888
+TCNJ,UW-Stout,1126
+TCNJ,UW-Stevens Point,1046
+TCNJ,UW-Oshkosh,959
+TCNJ,UW-La Crosse,1065
+TCNJ,TX Lutheran,1753
+TCNJ,Tufts,281
+TCNJ,Trinity (Conn),177
+TCNJ,Trine,623
+TCNJ,Transylvania,658
+TCNJ,St. Norbert,991
+TCNJ,St. Joseph's ME,392
+TCNJ,Smith,219
+TCNJ,Scranton,121
+TCNJ,S Virginia,375
+TCNJ,Roger Williams,256
+TCNJ,Ripon,958
+TCNJ,Rhode Island College,242
+TCNJ,Randolph-Macon,268
+TCNJ,PSU-Abington,274
+TCNJ,Penn State-Behrend,438
+TCNJ,Ohio Wesleyan,519
+TCNJ,NYU,61
+TCNJ,Northwestern MN,1192
+TCNJ,Millsaps,1163
+TCNJ,Messiah,137
+TCNJ,Merchant Marine,86
+TCNJ,ME Maritime,514
+TCNJ,McMurry,1693
+TCNJ,MA Dartmouth,327
+TCNJ,Lebanon Val,114
+TCNJ,Johns Hopkins,140
+TCNJ,Immaculata,237
+TCNJ,Illinois Wesleyan,840
+TCNJ,Hunter,60
+TCNJ,Hope,761
+TCNJ,Hardin-Simmons,1693
+TCNJ,Gustavus Adolphus,1227
+TCNJ,Gettysburg,166
+TCNJ,Geneseo St.,320
+TCNJ,Elizabethtown,119
+TCNJ,East Texas Baptist,1412
+TCNJ,Cortland,434
+TCNJ,Colorado Col,1737
+TCNJ,Christopher Newport,346
+TCNJ,Chatham,325
+TCNJ,Catholic,172
+TCNJ,Carnegie Mellon,329
+TCNJ,Cal Lutheran,2776
+TCNJ,Bridgewater MA,276
+TCNJ,Bowdoin,399
+TCNJ,Bethel,1192
+TCNJ,Belhaven MS,1154
+TCNJ,Bates,403
+TCNJ,Baldwin Wallace,455
+TCNJ,Amherst,231
+St. Norbert,Whitman,1770
+St. Norbert,Webster,492
+St. Norbert,WashU,483
+St. Norbert,Washington & Lee,881
+St. Norbert,Wartburg,339
+St. Norbert,W New England,1110
+St. Norbert,Vassar,1025
+St. Norbert,UW-Whitewater,135
+St. Norbert,UW-Stout,217
+St. Norbert,UW-Stevens Point,109
+St. Norbert,UW-Oshkosh,46
+St. Norbert,UW-La Crosse,195
+St. Norbert,TX Lutheran,1360
+St. Norbert,Tufts,1196
+St. Norbert,Trinity (Conn),1098
+St. Norbert,Trine,378
+St. Norbert,Transylvania,579
+St. Norbert,TCNJ,991
+St. Norbert,St. Joseph's ME,1304
+St. Norbert,Smith,1115
+St. Norbert,Scranton,910
+St. Norbert,S Virginia,888
+St. Norbert,Roger Williams,1189
+St. Norbert,Ripon,66
+St. Norbert,Rhode Island College,1173
+St. Norbert,Randolph-Macon,989
+St. Norbert,PSU-Abington,1187
+St. Norbert,Penn State-Behrend,653
+St. Norbert,Ohio Wesleyan,522
+St. Norbert,NYU,998
+St. Norbert,Northwestern MN,282
+St. Norbert,Millsaps,946
+St. Norbert,Messiah,862
+St. Norbert,Merchant Marine,1017
+St. Norbert,ME Maritime,1427
+St. Norbert,McMurry,1274
+St. Norbert,MA Dartmouth,1156
+St. Norbert,Lebanon Val,886
+St. Norbert,Johns Hopkins,910
+St. Norbert,Immaculata,781
+St. Norbert,Illinois Wesleyan,324
+St. Norbert,Hunter,1002
+St. Norbert,Hope,360
+St. Norbert,Hardin-Simmons,1268
+St. Norbert,Gustavus Adolphus,346
+St. Norbert,Gettysburg,848
+St. Norbert,Geneseo St.,793
+St. Norbert,Elizabethtown,884
+St. Norbert,East Texas Baptist,1072
+St. Norbert,Cortland,918
+St. Norbert,Colorado Col,1168
+St. Norbert,Christopher Newport,1068
+St. Norbert,Chatham,673
+St. Norbert,Catholic,906
+St. Norbert,Carnegie Mellon,667
+St. Norbert,Cal Lutheran,2152
+St. Norbert,Bridgewater MA,1205
+St. Norbert,Bowdoin,1316
+St. Norbert,Bethel,283
+St. Norbert,Belhaven MS,990
+St. Norbert,Bates,1320
+St. Norbert,Baldwin Wallace,545
+St. Norbert,Amherst,1121
+St. Joseph's ME,Whitman,3032
+St. Joseph's ME,Webster,1304
+St. Joseph's ME,WashU,1297
+St. Joseph's ME,Washington & Lee,742
+St. Joseph's ME,Wartburg,1407
+St. Joseph's ME,W New England,203
+St. Joseph's ME,Vassar,316
+St. Joseph's ME,UW-Whitewater,1204
+St. Joseph's ME,UW-Stout,1442
+St. Joseph's ME,UW-Stevens Point,1362
+St. Joseph's ME,UW-Oshkosh,1275
+St. Joseph's ME,UW-La Crosse,1381
+St. Joseph's ME,TX Lutheran,2126
+St. Joseph's ME,Tufts,122
+St. Joseph's ME,Trinity (Conn),220
+St. Joseph's ME,Trine,936
+St. Joseph's ME,Transylvania,1037
+St. Joseph's ME,TCNJ,392
+St. Joseph's ME,St. Norbert,1305
+St. Joseph's ME,Smith,220
+St. Joseph's ME,Scranton,409
+St. Joseph's ME,S Virginia,741
+St. Joseph's ME,Roger Williams,184
+St. Joseph's ME,Ripon,1271
+St. Joseph's ME,Rhode Island College,174
+St. Joseph's ME,Randolph-Macon,649
+St. Joseph's ME,PSU-Abington,132
+St. Joseph's ME,Penn State-Behrend,657
+St. Joseph's ME,Ohio Wesleyan,865
+St. Joseph's ME,NYU,334
+St. Joseph's ME,Northwestern MN,1507
+St. Joseph's ME,Millsaps,1529
+St. Joseph's ME,Messiah,513
+St. Joseph's ME,Merchant Marine,325
+St. Joseph's ME,ME Maritime,140
+St. Joseph's ME,McMurry,2064
+St. Joseph's ME,MA Dartmouth,128
+St. Joseph's ME,Lebanon Val,490
+St. Joseph's ME,Johns Hopkins,524
+St. Joseph's ME,Immaculata,551
+St. Joseph's ME,Illinois Wesleyan,1206
+St. Joseph's ME,Hunter,326
+St. Joseph's ME,Hope,975
+St. Joseph's ME,Hardin-Simmons,2063
+St. Joseph's ME,Gustavus Adolphus,1543
+St. Joseph's ME,Gettysburg,543
+St. Joseph's ME,Geneseo St.,528
+St. Joseph's ME,Elizabethtown,506
+St. Joseph's ME,East Texas Baptist,1778
+St. Joseph's ME,Cortland,441
+St. Joseph's ME,Colorado Col,2123
+St. Joseph's ME,Christopher Newport,726
+St. Joseph's ME,Chatham,682
+St. Joseph's ME,Catholic,556
+St. Joseph's ME,Carnegie Mellon,689
+St. Joseph's ME,Cal Lutheran,3142
+St. Joseph's ME,Bridgewater MA,154
+St. Joseph's ME,Bowdoin,47
+St. Joseph's ME,Bethel,1506
+St. Joseph's ME,Belhaven MS,1534
+St. Joseph's ME,Bates,29
+St. Joseph's ME,Baldwin Wallace,772
+St. Joseph's ME,Amherst,191
+Smith,Whitman,2839
+Smith,Webster,1127
+Smith,WashU,1117
+Smith,Washington & Lee,568
+Smith,Wartburg,1213
+Smith,W New England,23
+Smith,Vassar,129
+Smith,UW-Whitewater,1010
+Smith,UW-Stout,1249
+Smith,UW-Stevens Point,1169
+Smith,UW-Oshkosh,1086
+Smith,UW-La Crosse,1188
+Smith,TX Lutheran,1950
+Smith,Tufts,109
+Smith,Trinity (Conn),47
+Smith,Trine,747
+Smith,Transylvania,863
+Smith,TCNJ,219
+Smith,St. Norbert,1115
+Smith,St. Joseph's ME,220
+Smith,Scranton,236
+Smith,S Virginia,572
+Smith,Roger Williams,117
+Smith,Ripon,1080
+Smith,Rhode Island College,97
+Smith,Randolph-Macon,479
+Smith,PSU-Abington,102
+Smith,Penn State-Behrend,467
+Smith,Ohio Wesleyan,685
+Smith,NYU,158
+Smith,Northwestern MN,1315
+Smith,Millsaps,1360
+Smith,Messiah,340
+Smith,Merchant Marine,157
+Smith,ME Maritime,342
+Smith,McMurry,1893
+Smith,MA Dartmouth,109
+Smith,Lebanon Val,318
+Smith,Johns Hopkins,351
+Smith,Immaculata,376
+Smith,Illinois Wesleyan,1014
+Smith,Hunter,162
+Smith,Hope,782
+Smith,Hardin-Simmons,1890
+Smith,Gustavus Adolphus,1347
+Smith,Gettysburg,369
+Smith,Geneseo St.,335
+Smith,Elizabethtown,337
+Smith,East Texas Baptist,1605
+Smith,Cortland,249
+Smith,Colorado Col,1942
+Smith,Christopher Newport,556
+Smith,Chatham,512
+Smith,Catholic,384
+Smith,Carnegie Mellon,516
+Smith,Cal Lutheran,2949
+Smith,Bridgewater MA,119
+Smith,Bowdoin,231
+Smith,Bethel,1316
+Smith,Belhaven MS,1382
+Smith,Bates,235
+Smith,Baldwin Wallace,579
+Smith,Amherst,7
+Scranton,Whitman,2635
+Scranton,Webster,901
+Scranton,WashU,891
+Scranton,Washington & Lee,361
+Scranton,Wartburg,1009
+Scranton,W New England,222
+Scranton,Vassar,118
+Scranton,UW-Whitewater,807
+Scranton,UW-Stout,1045
+Scranton,UW-Stevens Point,965
+Scranton,UW-Oshkosh,879
+Scranton,UW-La Crosse,984
+Scranton,TX Lutheran,1743
+Scranton,Tufts,299
+Scranton,Trinity (Conn),192
+Scranton,Trine,543
+Scranton,Transylvania,656
+Scranton,TCNJ,121
+Scranton,St. Norbert,910
+Scranton,St. Joseph's ME,409
+Scranton,Smith,236
+Scranton,S Virginia,364
+Scranton,Roger Williams,302
+Scranton,Ripon,877
+Scranton,Rhode Island College,287
+Scranton,Randolph-Macon,327
+Scranton,PSU-Abington,291
+Scranton,Penn State-Behrend,323
+Scranton,Ohio Wesleyan,459
+Scranton,NYU,121
+Scranton,Northwestern MN,1111
+Scranton,Millsaps,1153
+Scranton,Messiah,132
+Scranton,Merchant Marine,142
+Scranton,ME Maritime,531
+Scranton,McMurry,1683
+Scranton,MA Dartmouth,318
+Scranton,Lebanon Val,108
+Scranton,Johns Hopkins,201
+Scranton,Immaculata,143
+Scranton,Illinois Wesleyan,810
+Scranton,Hunter,121
+Scranton,Hope,679
+Scranton,Hardin-Simmons,1682
+Scranton,Gustavus Adolphus,1143
+Scranton,Gettysburg,162
+Scranton,Geneseo St.,202
+Scranton,Elizabethtown,138
+Scranton,East Texas Baptist,1404
+Scranton,Cortland,99
+Scranton,Colorado Col,1716
+Scranton,Christopher Newport,404
+Scranton,Chatham,279
+Scranton,Catholic,238
+Scranton,Carnegie Mellon,283
+Scranton,Cal Lutheran,2745
+Scranton,Bridgewater MA,308
+Scranton,Bowdoin,418
+Scranton,Bethel,1112
+Scranton,Belhaven MS,1152
+Scranton,Bates,422
+Scranton,Baldwin Wallace,374
+Scranton,Amherst,243
+S Virginia,Whitman,2562
+S Virginia,Webster,705
+S Virginia,WashU,695
+S Virginia,Washington & Lee,7
+S Virginia,Wartburg,962
+S Virginia,W New England,559
+S Virginia,Vassar,475
+S Virginia,UW-Whitewater,786
+S Virginia,UW-Stout,1024
+S Virginia,UW-Stevens Point,943
+S Virginia,UW-Oshkosh,856
+S Virginia,UW-La Crosse,961
+S Virginia,TX Lutheran,1387
+S Virginia,Tufts,635
+S Virginia,Trinity (Conn),530
+S Virginia,Trine,543
+S Virginia,Transylvania,363
+S Virginia,TCNJ,375
+S Virginia,St. Norbert,888
+S Virginia,St. Joseph's ME,745
+S Virginia,Smith,572
+S Virginia,Scranton,364
+S Virginia,Roger Williams,610
+S Virginia,Ripon,854
+S Virginia,Rhode Island College,595
+S Virginia,Randolph-Macon,146
+S Virginia,PSU-Abington,627
+S Virginia,Penn State-Behrend,442
+S Virginia,Ohio Wesleyan,378
+S Virginia,NYU,413
+S Virginia,Northwestern MN,1088
+S Virginia,Millsaps,797
+S Virginia,Messiah,235
+S Virginia,Merchant Marine,440
+S Virginia,ME Maritime,867
+S Virginia,McMurry,1327
+S Virginia,MA Dartmouth,717
+S Virginia,Lebanon Val,267
+S Virginia,Johns Hopkins,232
+S Virginia,Immaculata,294
+S Virginia,Illinois Wesleyan,672
+S Virginia,Hunter,412
+S Virginia,Hope,695
+S Virginia,Hardin-Simmons,1326
+S Virginia,Gustavus Adolphus,1126
+S Virginia,Gettysburg,218
+S Virginia,Geneseo St.,470
+S Virginia,Elizabethtown,267
+S Virginia,East Texas Baptist,1041
+S Virginia,Cortland,464
+S Virginia,Colorado Col,1529
+S Virginia,Christopher Newport,209
+S Virginia,Chatham,315
+S Virginia,Catholic,205
+S Virginia,Carnegie Mellon,639
+S Virginia,Cal Lutheran,2526
+S Virginia,Bridgewater MA,1259
+S Virginia,Bowdoin,752
+S Virginia,Bethel,1089
+S Virginia,Belhaven MS,795
+S Virginia,Bates,757
+S Virginia,Baldwin Wallace,439
+S Virginia,Amherst,579
+Roger Williams,Whitman,2913
+Roger Williams,Webster,1160
+Roger Williams,WashU,1150
+Roger Williams,Washington & Lee,606
+Roger Williams,Wartburg,1287
+Roger Williams,W New England,102
+Roger Williams,Vassar,203
+Roger Williams,UW-Whitewater,1084
+Roger Williams,UW-Stout,1323
+Roger Williams,UW-Stevens Point,1243
+Roger Williams,UW-Oshkosh,1156
+Roger Williams,UW-La Crosse,1262
+Roger Williams,TX Lutheran,1990
+Roger Williams,Tufts,68
+Roger Williams,Trinity (Conn),109
+Roger Williams,Trine,820
+Roger Williams,Transylvania,901
+Roger Williams,TCNJ,256
+Roger Williams,St. Norbert,1189
+Roger Williams,St. Joseph's ME,184
+Roger Williams,Smith,117
+Roger Williams,Scranton,302
+Roger Williams,S Virginia,610
+Roger Williams,Ripon,1155
+Roger Williams,Rhode Island College,22
+Roger Williams,Randolph-Macon,517
+Roger Williams,PSU-Abington,65
+Roger Williams,Penn State-Behrend,556
+Roger Williams,Ohio Wesleyan,737
+Roger Williams,NYU,197
+Roger Williams,Northwestern MN,1388
+Roger Williams,Millsaps,1398
+Roger Williams,Messiah,378
+Roger Williams,Merchant Marine,194
+Roger Williams,ME Maritime,306
+Roger Williams,McMurry,1928
+Roger Williams,MA Dartmouth,203
+Roger Williams,Lebanon Val,354
+Roger Williams,Johns Hopkins,389
+Roger Williams,Immaculata,421
+Roger Williams,Illinois Wesleyan,1088
+Roger Williams,Hunter,193
+Roger Williams,Hope,872
+Roger Williams,Hardin-Simmons,1928
+Roger Williams,Gustavus Adolphus,1421
+Roger Williams,Gettysburg,408
+Roger Williams,Geneseo St.,424
+Roger Williams,Elizabethtown,375
+Roger Williams,East Texas Baptist,1649
+Roger Williams,Cortland,337
+Roger Williams,Colorado Col,1976
+Roger Williams,Christopher Newport,596
+Roger Williams,Chatham,564
+Roger Williams,Catholic,422
+Roger Williams,Carnegie Mellon,568
+Roger Williams,Cal Lutheran,3023
+Roger Williams,Bridgewater MA,36
+Roger Williams,Bowdoin,195
+Roger Williams,Bethel,1390
+Roger Williams,Belhaven MS,1426
+Roger Williams,Bates,199
+Roger Williams,Baldwin Wallace,652
+Roger Williams,Amherst,123
+Ripon,Whitman,1750
+Ripon,Webster,440
+Ripon,WashU,438
+Ripon,Washington & Lee,848
+Ripon,Wartburg,286
+Ripon,W New England,1079
+Ripon,Vassar,991
+Ripon,UW-Whitewater,82
+Ripon,UW-Stout,196
+Ripon,UW-Stevens Point,92
+Ripon,UW-Oshkosh,21
+Ripon,UW-La Crosse,136
+Ripon,TX Lutheran,1307
+Ripon,Tufts,1163
+Ripon,Trinity (Conn),1065
+Ripon,Trine,344
+Ripon,Transylvania,545
+Ripon,TCNJ,958
+Ripon,St. Norbert,66
+Ripon,St. Joseph's ME,1274
+Ripon,Smith,1080
+Ripon,Scranton,877
+Ripon,S Virginia,855
+Ripon,Roger Williams,1155
+Ripon,Rhode Island College,1140
+Ripon,Randolph-Macon,957
+Ripon,PSU-Abington,1166
+Ripon,Penn State-Behrend,621
+Ripon,Ohio Wesleyan,489
+Ripon,NYU,965
+Ripon,Northwestern MN,263
+Ripon,Millsaps,917
+Ripon,Messiah,829
+Ripon,Merchant Marine,985
+Ripon,ME Maritime,1396
+Ripon,McMurry,1220
+Ripon,MA Dartmouth,1188
+Ripon,Lebanon Val,852
+Ripon,Johns Hopkins,877
+Ripon,Immaculata,748
+Ripon,Illinois Wesleyan,270
+Ripon,Hunter,967
+Ripon,Hope,326
+Ripon,Hardin-Simmons,1215
+Ripon,Gustavus Adolphus,298
+Ripon,Gettysburg,815
+Ripon,Geneseo St.,760
+Ripon,Elizabethtown,851
+Ripon,East Texas Baptist,987
+Ripon,Cortland,885
+Ripon,Colorado Col,1200
+Ripon,Christopher Newport,1035
+Ripon,Chatham,640
+Ripon,Catholic,873
+Ripon,Carnegie Mellon,1273
+Ripon,Cal Lutheran,2098
+Ripon,Bridgewater MA,1172
+Ripon,Bowdoin,1283
+Ripon,Bethel,263
+Ripon,Belhaven MS,919
+Ripon,Bates,1287
+Ripon,Baldwin Wallace,512
+Ripon,Amherst,1088
+Rhode Island College,Whitman,2898
+Rhode Island College,Webster,1144
+Rhode Island College,WashU,1135
+Rhode Island College,Washington & Lee,591
+Rhode Island College,Wartburg,1271
+Rhode Island College,W New England,84
+Rhode Island College,Vassar,183
+Rhode Island College,UW-Whitewater,1069
+Rhode Island College,UW-Stout,1308
+Rhode Island College,UW-Stevens Point,1228
+Rhode Island College,UW-Oshkosh,1142
+Rhode Island College,UW-La Crosse,1247
+Rhode Island College,TX Lutheran,1973
+Rhode Island College,Tufts,58
+Rhode Island College,Trinity (Conn),89
+Rhode Island College,Trine,805
+Rhode Island College,Transylvania,886
+Rhode Island College,TCNJ,242
+Rhode Island College,St. Norbert,1173
+Rhode Island College,St. Joseph's ME,174
+Rhode Island College,Smith,98
+Rhode Island College,Scranton,287
+Rhode Island College,S Virginia,595
+Rhode Island College,Roger Williams,22
+Rhode Island College,Ripon,1140
+Rhode Island College,Randolph-Macon,502
+Rhode Island College,PSU-Abington,52
+Rhode Island College,Penn State-Behrend,537
+Rhode Island College,Ohio Wesleyan,722
+Rhode Island College,NYU,184
+Rhode Island College,Northwestern MN,1374
+Rhode Island College,Millsaps,1383
+Rhode Island College,Messiah,363
+Rhode Island College,Merchant Marine,180
+Rhode Island College,ME Maritime,296
+Rhode Island College,McMurry,1914
+Rhode Island College,MA Dartmouth,187
+Rhode Island College,Lebanon Val,339
+Rhode Island College,Johns Hopkins,374
+Rhode Island College,Immaculata,406
+Rhode Island College,Illinois Wesleyan,1073
+Rhode Island College,Hunter,179
+Rhode Island College,Hope,853
+Rhode Island College,Hardin-Simmons,1912
+Rhode Island College,Gustavus Adolphus,1405
+Rhode Island College,Gettysburg,392
+Rhode Island College,Geneseo St.,406
+Rhode Island College,Elizabethtown,360
+Rhode Island College,East Texas Baptist,1628
+Rhode Island College,Cortland,318
+Rhode Island College,Colorado Col,1960
+Rhode Island College,Christopher Newport,581
+Rhode Island College,Chatham,548
+Rhode Island College,Catholic,407
+Rhode Island College,Carnegie Mellon,552
+Rhode Island College,Cal Lutheran,2999
+Rhode Island College,Bridgewater MA,40
+Rhode Island College,Bowdoin,185
+Rhode Island College,Bethel,1374
+Rhode Island College,Belhaven MS,1394
+Rhode Island College,Bates,189
+Rhode Island College,Baldwin Wallace,637
+Rhode Island College,Amherst,104
+Randolph-Macon,Whitman,2695
+Randolph-Macon,Webster,837
+Randolph-Macon,WashU,828
+Randolph-Macon,Washington & Lee,142
+Randolph-Macon,Wartburg,1089
+Randolph-Macon,W New England,463
+Randolph-Macon,Vassar,402
+Randolph-Macon,UW-Whitewater,887
+Randolph-Macon,UW-Stout,1125
+Randolph-Macon,UW-Stevens Point,1045
+Randolph-Macon,UW-Oshkosh,959
+Randolph-Macon,UW-La Crosse,1064
+Randolph-Macon,TX Lutheran,1505
+Randolph-Macon,Tufts,539
+Randolph-Macon,Trinity (Conn),437
+Randolph-Macon,Trine,623
+Randolph-Macon,Transylvania,495
+Randolph-Macon,TCNJ,268
+Randolph-Macon,St. Norbert,989
+Randolph-Macon,St. Joseph's ME,649
+Randolph-Macon,Smith,479
+Randolph-Macon,Scranton,327
+Randolph-Macon,S Virginia,146
+Randolph-Macon,Roger Williams,517
+Randolph-Macon,Ripon,957
+Randolph-Macon,Rhode Island College,502
+Randolph-Macon,PSU-Abington,542
+Randolph-Macon,Penn State-Behrend,452
+Randolph-Macon,Ohio Wesleyan,505
+Randolph-Macon,NYU,321
+Randolph-Macon,Northwestern MN,1191
+Randolph-Macon,Millsaps,934
+Randolph-Macon,Messiah,198
+Randolph-Macon,Merchant Marine,346
+Randolph-Macon,ME Maritime,771
+Randolph-Macon,McMurry,1465
+Randolph-Macon,MA Dartmouth,599
+Randolph-Macon,Lebanon Val,224
+Randolph-Macon,Johns Hopkins,132
+Randolph-Macon,Immaculata,304
+Randolph-Macon,Illinois Wesleyan,803
+Randolph-Macon,Hunter,321
+Randolph-Macon,Hope,760
+Randolph-Macon,Hardin-Simmons,1463
+Randolph-Macon,Gustavus Adolphus,1223
+Randolph-Macon,Gettysburg,170
+Randolph-Macon,Geneseo St.,432
+Randolph-Macon,Elizabethtown,209
+Randolph-Macon,East Texas Baptist,1185
+Randolph-Macon,Cortland,427
+Randolph-Macon,Colorado Col,1661
+Randolph-Macon,Christopher Newport,85
+Randolph-Macon,Chatham,325
+Randolph-Macon,Catholic,96
+Randolph-Macon,Carnegie Mellon,329
+Randolph-Macon,Cal Lutheran,2663
+Randolph-Macon,Bridgewater MA,536
+Randolph-Macon,Bowdoin,659
+Randolph-Macon,Bethel,1192
+Randolph-Macon,Belhaven MS,932
+Randolph-Macon,Bates,663
+Randolph-Macon,Baldwin Wallace,454
+Randolph-Macon,Amherst,484
+PSU-Abington,Whitman,3012
+PSU-Abington,Webster,1222
+PSU-Abington,WashU,1219
+PSU-Abington,Washington & Lee,623
+PSU-Abington,Wartburg,1313
+PSU-Abington,W New England,88
+PSU-Abington,Vassar,197
+PSU-Abington,UW-Whitewater,1091
+PSU-Abington,UW-Stout,1323
+PSU-Abington,UW-Stevens Point,1229
+PSU-Abington,UW-Oshkosh,1157
+PSU-Abington,UW-La Crosse,1260
+PSU-Abington,TX Lutheran,2020
+PSU-Abington,Tufts,8
+PSU-Abington,Trinity (Conn),102
+PSU-Abington,Trine,846
+PSU-Abington,Transylvania,930
+PSU-Abington,TCNJ,274
+PSU-Abington,St. Norbert,1187
+PSU-Abington,St. Joseph's ME,132
+PSU-Abington,Smith,102
+PSU-Abington,Scranton,291
+PSU-Abington,S Virginia,627
+PSU-Abington,Roger Williams,65
+PSU-Abington,Ripon,1166
+PSU-Abington,Rhode Island College,52
+PSU-Abington,Randolph-Macon,542
+PSU-Abington,Penn State-Behrend,561
+PSU-Abington,Ohio Wesleyan,746
+PSU-Abington,NYU,218
+PSU-Abington,Northwestern MN,1389
+PSU-Abington,Millsaps,1420
+PSU-Abington,Messiah,410
+PSU-Abington,Merchant Marine,214
+PSU-Abington,ME Maritime,251
+PSU-Abington,McMurry,1972
+PSU-Abington,MA Dartmouth,131
+PSU-Abington,Lebanon Val,373
+PSU-Abington,Johns Hopkins,417
+PSU-Abington,Immaculata,331
+PSU-Abington,Illinois Wesleyan,1113
+PSU-Abington,Hunter,211
+PSU-Abington,Hope,948
+PSU-Abington,Hardin-Simmons,1967
+PSU-Abington,Gustavus Adolphus,1452
+PSU-Abington,Gettysburg,432
+PSU-Abington,Geneseo St.,410
+PSU-Abington,Elizabethtown,393
+PSU-Abington,East Texas Baptist,1731
+PSU-Abington,Cortland,342
+PSU-Abington,Colorado Col,2064
+PSU-Abington,Christopher Newport,587
+PSU-Abington,Chatham,567
+PSU-Abington,Catholic,437
+PSU-Abington,Carnegie Mellon,569
+PSU-Abington,Cal Lutheran,3053
+PSU-Abington,Bridgewater MA,32
+PSU-Abington,Bowdoin,134
+PSU-Abington,Bethel,1389
+PSU-Abington,Belhaven MS,1423
+PSU-Abington,Bates,148
+PSU-Abington,Baldwin Wallace,677
+PSU-Abington,Amherst,95
+Penn State-Behrend,Whitman,2379
+Penn State-Behrend,Webster,666
+Penn State-Behrend,WashU,655
+Penn State-Behrend,Washington & Lee,439
+Penn State-Behrend,Wartburg,754
+Penn State-Behrend,W New England,465
+Penn State-Behrend,Vassar,402
+Penn State-Behrend,UW-Whitewater,552
+Penn State-Behrend,UW-Stout,789
+Penn State-Behrend,UW-Stevens Point,709
+Penn State-Behrend,UW-Oshkosh,622
+Penn State-Behrend,UW-La Crosse,728
+Penn State-Behrend,TX Lutheran,1528
+Penn State-Behrend,Tufts,549
+Penn State-Behrend,Trinity (Conn),488
+Penn State-Behrend,Trine,286
+Penn State-Behrend,Transylvania,429
+Penn State-Behrend,TCNJ,440
+Penn State-Behrend,St. Norbert,653
+Penn State-Behrend,St. Joseph's ME,660
+Penn State-Behrend,Smith,467
+Penn State-Behrend,Scranton,323
+Penn State-Behrend,S Virginia,442
+Penn State-Behrend,Roger Williams,556
+Penn State-Behrend,Ripon,621
+Penn State-Behrend,Rhode Island College,537
+Penn State-Behrend,Randolph-Macon,452
+Penn State-Behrend,PSU-Abington,561
+Penn State-Behrend,Ohio Wesleyan,225
+Penn State-Behrend,NYU,433
+Penn State-Behrend,Northwestern MN,857
+Penn State-Behrend,Millsaps,1029
+Penn State-Behrend,Messiah,323
+Penn State-Behrend,Merchant Marine,453
+Penn State-Behrend,ME Maritime,780
+Penn State-Behrend,McMurry,1447
+Penn State-Behrend,MA Dartmouth,506
+Penn State-Behrend,Lebanon Val,320
+Penn State-Behrend,Johns Hopkins,371
+Penn State-Behrend,Immaculata,216
+Penn State-Behrend,Illinois Wesleyan,553
+Penn State-Behrend,Hunter,438
+Penn State-Behrend,Hope,424
+Penn State-Behrend,Hardin-Simmons,1442
+Penn State-Behrend,Gustavus Adolphus,890
+Penn State-Behrend,Gettysburg,309
+Penn State-Behrend,Geneseo St.,145
+Penn State-Behrend,Elizabethtown,317
+Penn State-Behrend,East Texas Baptist,1177
+Penn State-Behrend,Cortland,270
+Penn State-Behrend,Colorado Col,1483
+Penn State-Behrend,Christopher Newport,529
+Penn State-Behrend,Chatham,133
+Penn State-Behrend,Catholic,367
+Penn State-Behrend,Carnegie Mellon,128
+Penn State-Behrend,Cal Lutheran,2489
+Penn State-Behrend,Bridgewater MA,552
+Penn State-Behrend,Bowdoin,668
+Penn State-Behrend,Bethel,856
+Penn State-Behrend,Belhaven MS,1030
+Penn State-Behrend,Bates,672
+Penn State-Behrend,Baldwin Wallace,119
+Penn State-Behrend,Amherst,473
+Ohio Wesleyan,Whitman,2250
+Ohio Wesleyan,Webster,439
+Ohio Wesleyan,WashU,436
+Ohio Wesleyan,Washington & Lee,370
+Ohio Wesleyan,Wartburg,646
+Ohio Wesleyan,W New England,683
+Ohio Wesleyan,Vassar,573
+Ohio Wesleyan,UW-Whitewater,419
+Ohio Wesleyan,UW-Stout,657
+Ohio Wesleyan,UW-Stevens Point,577
+Ohio Wesleyan,UW-Oshkosh,493
+Ohio Wesleyan,UW-La Crosse,595
+Ohio Wesleyan,TX Lutheran,1315
+Ohio Wesleyan,Tufts,754
+Ohio Wesleyan,Trinity (Conn),647
+Ohio Wesleyan,Trine,188
+Ohio Wesleyan,Transylvania,214
+Ohio Wesleyan,TCNJ,519
+Ohio Wesleyan,St. Norbert,522
+Ohio Wesleyan,St. Joseph's ME,865
+Ohio Wesleyan,Smith,685
+Ohio Wesleyan,Scranton,459
+Ohio Wesleyan,S Virginia,378
+Ohio Wesleyan,Roger Williams,737
+Ohio Wesleyan,Ripon,489
+Ohio Wesleyan,Rhode Island College,722
+Ohio Wesleyan,Randolph-Macon,507
+Ohio Wesleyan,PSU-Abington,746
+Ohio Wesleyan,Penn State-Behrend,225
+Ohio Wesleyan,NYU,547
+Ohio Wesleyan,Northwestern MN,723
+Ohio Wesleyan,Millsaps,814
+Ohio Wesleyan,Messiah,387
+Ohio Wesleyan,Merchant Marine,567
+Ohio Wesleyan,ME Maritime,987
+Ohio Wesleyan,McMurry,1218
+Ohio Wesleyan,MA Dartmouth,753
+Ohio Wesleyan,Lebanon Val,411
+Ohio Wesleyan,Johns Hopkins,425
+Ohio Wesleyan,Immaculata,330
+Ohio Wesleyan,Illinois Wesleyan,356
+Ohio Wesleyan,Hunter,546
+Ohio Wesleyan,Hope,319
+Ohio Wesleyan,Hardin-Simmons,1214
+Ohio Wesleyan,Gustavus Adolphus,754
+Ohio Wesleyan,Gettysburg,375
+Ohio Wesleyan,Geneseo St.,364
+Ohio Wesleyan,Elizabethtown,411
+Ohio Wesleyan,East Texas Baptist,964
+Ohio Wesleyan,Cortland,489
+Ohio Wesleyan,Colorado Col,1254
+Ohio Wesleyan,Christopher Newport,571
+Ohio Wesleyan,Chatham,215
+Ohio Wesleyan,Catholic,421
+Ohio Wesleyan,Carnegie Mellon,208
+Ohio Wesleyan,Cal Lutheran,2293
+Ohio Wesleyan,Bridgewater MA,764
+Ohio Wesleyan,Bowdoin,873
+Ohio Wesleyan,Bethel,723
+Ohio Wesleyan,Belhaven MS,812
+Ohio Wesleyan,Bates,878
+Ohio Wesleyan,Baldwin Wallace,115
+Ohio Wesleyan,Amherst,692
+NYU,Whitman,2722
+NYU,Webster,962
+NYU,WashU,962
+NYU,Washington & Lee,409
+NYU,Wartburg,1096
+NYU,W New England,148
+NYU,Vassar,85
+NYU,UW-Whitewater,894
+NYU,UW-Stout,1144
+NYU,UW-Stevens Point,1051
+NYU,UW-Oshkosh,966
+NYU,UW-La Crosse,1072
+NYU,TX Lutheran,1791
+NYU,Tufts,223
+NYU,Trinity (Conn),122
+NYU,Trine,650
+NYU,Transylvania,704
+NYU,TCNJ,61
+NYU,St. Norbert,998
+NYU,St. Joseph's ME,334
+NYU,Smith,163
+NYU,Scranton,121
+NYU,S Virginia,413
+NYU,Roger Williams,197
+NYU,Ripon,965
+NYU,Rhode Island College,183
+NYU,Randolph-Macon,321
+NYU,PSU-Abington,218
+NYU,Penn State-Behrend,433
+NYU,Ohio Wesleyan,547
+NYU,Northwestern MN,1199
+NYU,Millsaps,1201
+NYU,Messiah,180
+NYU,Merchant Marine,23
+NYU,ME Maritime,456
+NYU,McMurry,1739
+NYU,MA Dartmouth,273
+NYU,Lebanon Val,157
+NYU,Johns Hopkins,193
+NYU,Immaculata,231
+NYU,Illinois Wesleyan,879
+NYU,Hunter,4
+NYU,Hope,767
+NYU,Hardin-Simmons,1730
+NYU,Gustavus Adolphus,1230
+NYU,Gettysburg,210
+NYU,Geneseo St.,319
+NYU,Elizabethtown,171
+NYU,East Texas Baptist,1452
+NYU,Cortland,228
+NYU,Colorado Col,1777
+NYU,Christopher Newport,398
+NYU,Chatham,366
+NYU,Catholic,226
+NYU,Carnegie Mellon,370
+NYU,Cal Lutheran,2816
+NYU,Bridgewater MA,218
+NYU,Bowdoin,345
+NYU,Bethel,1199
+NYU,Belhaven MS,1220
+NYU,Bates,349
+NYU,Baldwin Wallace,462
+NYU,Amherst,169
+Northwestern MN,Whitman,1490
+Northwestern MN,Webster,535
+Northwestern MN,WashU,541
+Northwestern MN,Washington & Lee,1082
+Northwestern MN,Wartburg,210
+Northwestern MN,W New England,1313
+Northwestern MN,Vassar,1225
+Northwestern MN,UW-Whitewater,307
+Northwestern MN,UW-Stout,71
+Northwestern MN,UW-Stevens Point,199
+Northwestern MN,UW-Oshkosh,284
+Northwestern MN,UW-La Crosse,159
+Northwestern MN,TX Lutheran,1197
+Northwestern MN,Tufts,1396
+Northwestern MN,Trinity (Conn),1299
+Northwestern MN,Trine,578
+Northwestern MN,Transylvania,779
+Northwestern MN,TCNJ,1192
+Northwestern MN,St. Norbert,282
+Northwestern MN,St. Joseph's ME,1507
+Northwestern MN,Smith,1315
+Northwestern MN,Scranton,1111
+Northwestern MN,S Virginia,1088
+Northwestern MN,Roger Williams,1388
+Northwestern MN,Ripon,263
+Northwestern MN,Rhode Island College,1374
+Northwestern MN,Randolph-Macon,1191
+Northwestern MN,PSU-Abington,1389
+Northwestern MN,Penn State-Behrend,857
+Northwestern MN,Ohio Wesleyan,723
+Northwestern MN,NYU,1199
+Northwestern MN,Millsaps,1014
+Northwestern MN,Messiah,1063
+Northwestern MN,Merchant Marine,1219
+Northwestern MN,ME Maritime,1628
+Northwestern MN,McMurry,1089
+Northwestern MN,MA Dartmouth,1426
+Northwestern MN,Lebanon Val,1086
+Northwestern MN,Johns Hopkins,1111
+Northwestern MN,Immaculata,982
+Northwestern MN,Illinois Wesleyan,460
+Northwestern MN,Hunter,1198
+Northwestern MN,Hope,560
+Northwestern MN,Hardin-Simmons,1083
+Northwestern MN,Gustavus Adolphus,78
+Northwestern MN,Gettysburg,1049
+Northwestern MN,Geneseo St.,993
+Northwestern MN,Elizabethtown,1084
+Northwestern MN,East Texas Baptist,982
+Northwestern MN,Cortland,1119
+Northwestern MN,Colorado Col,993
+Northwestern MN,Christopher Newport,1269
+Northwestern MN,Chatham,873
+Northwestern MN,Catholic,1107
+Northwestern MN,Carnegie Mellon,870
+Northwestern MN,Cal Lutheran,1976
+Northwestern MN,Bridgewater MA,1405
+Northwestern MN,Bowdoin,1516
+Northwestern MN,Bethel,3
+Northwestern MN,Belhaven MS,1015
+Northwestern MN,Bates,1521
+Northwestern MN,Baldwin Wallace,746
+Northwestern MN,Amherst,1322
+Millsaps,Whitman,2287
+Millsaps,Webster,489
+Millsaps,WashU,490
+Millsaps,Washington & Lee,796
+Millsaps,Wartburg,834
+Millsaps,W New England,1346
+Millsaps,Vassar,1263
+Millsaps,UW-Whitewater,829
+Millsaps,UW-Stout,1043
+Millsaps,UW-Stevens Point,964
+Millsaps,UW-Oshkosh,914
+Millsaps,UW-La Crosse,983
+Millsaps,TX Lutheran,606
+Millsaps,Tufts,1425
+Millsaps,Trinity (Conn),1318
+Millsaps,Trine,837
+Millsaps,Transylvania,625
+Millsaps,TCNJ,1163
+Millsaps,St. Norbert,946
+Millsaps,St. Joseph's ME,1536
+Millsaps,Smith,1360
+Millsaps,Scranton,1153
+Millsaps,S Virginia,799
+Millsaps,Roger Williams,1398
+Millsaps,Ripon,918
+Millsaps,Rhode Island College,1383
+Millsaps,Randolph-Macon,937
+Millsaps,PSU-Abington,1420
+Millsaps,Penn State-Behrend,1028
+Millsaps,Ohio Wesleyan,814
+Millsaps,NYU,1201
+Millsaps,Northwestern MN,1014
+Millsaps,Messiah,1023
+Millsaps,Merchant Marine,1228
+Millsaps,ME Maritime,1652
+Millsaps,McMurry,589
+Millsaps,MA Dartmouth,1475
+Millsaps,Lebanon Val,1055
+Millsaps,Johns Hopkins,1020
+Millsaps,Immaculata,1083
+Millsaps,Illinois Wesleyan,651
+Millsaps,Hunter,1216
+Millsaps,Hope,856
+Millsaps,Hardin-Simmons,588
+Millsaps,Gustavus Adolphus,1016
+Millsaps,Gettysburg,1006
+Millsaps,Geneseo St.,1167
+Millsaps,Elizabethtown,1057
+Millsaps,East Texas Baptist,259
+Millsaps,Cortland,1252
+Millsaps,Colorado Col,1134
+Millsaps,Christopher Newport,977
+Millsaps,Chatham,975
+Millsaps,Catholic,993
+Millsaps,Carnegie Mellon,973
+Millsaps,Cal Lutheran,1890
+Millsaps,Bridgewater MA,1417
+Millsaps,Bowdoin,1540
+Millsaps,Bethel,1017
+Millsaps,Belhaven MS,1
+Millsaps,Bates,1545
+Millsaps,Baldwin Wallace,920
+Millsaps,Amherst,1367
+Messiah,Whitman,2585
+Messiah,Webster,792
+Messiah,WashU,781
+Messiah,Washington & Lee,232
+Messiah,Wartburg,960
+Messiah,W New England,327
+Messiah,Vassar,243
+Messiah,UW-Whitewater,757
+Messiah,UW-Stout,995
+Messiah,UW-Stevens Point,915
+Messiah,UW-Oshkosh,829
+Messiah,UW-La Crosse,936
+Messiah,TX Lutheran,1613
+Messiah,Tufts,403
+Messiah,Trinity (Conn),304
+Messiah,Trine,493
+Messiah,Transylvania,528
+Messiah,TCNJ,137
+Messiah,St. Norbert,862
+Messiah,St. Joseph's ME,513
+Messiah,Smith,340
+Messiah,Scranton,132
+Messiah,S Virginia,235
+Messiah,Roger Williams,378
+Messiah,Ripon,829
+Messiah,Rhode Island College,363
+Messiah,Randolph-Macon,198
+Messiah,PSU-Abington,410
+Messiah,Penn State-Behrend,323
+Messiah,Ohio Wesleyan,387
+Messiah,NYU,180
+Messiah,Northwestern MN,1063
+Messiah,Millsaps,1023
+Messiah,Merchant Marine,208
+Messiah,ME Maritime,635
+Messiah,McMurry,1554
+Messiah,MA Dartmouth,457
+Messiah,Lebanon Val,29
+Messiah,Johns Hopkins,83
+Messiah,Immaculata,112
+Messiah,Illinois Wesleyan,709
+Messiah,Hunter,185
+Messiah,Hope,630
+Messiah,Hardin-Simmons,1553
+Messiah,Gustavus Adolphus,1094
+Messiah,Gettysburg,32
+Messiah,Geneseo St.,240
+Messiah,Elizabethtown,31
+Messiah,East Texas Baptist,1268
+Messiah,Cortland,232
+Messiah,Colorado Col,1608
+Messiah,Christopher Newport,276
+Messiah,Chatham,196
+Messiah,Catholic,121
+Messiah,Carnegie Mellon,199
+Messiah,Cal Lutheran,2647
+Messiah,Bridgewater MA,398
+Messiah,Bowdoin,520
+Messiah,Bethel,1063
+Messiah,Belhaven MS,1044
+Messiah,Bates,528
+Messiah,Baldwin Wallace,326
+Messiah,Amherst,348
+Merchant Marine,Whitman,2743
+Merchant Marine,Webster,989
+Merchant Marine,WashU,980
+Merchant Marine,Washington & Lee,437
+Merchant Marine,Wartburg,1118
+Merchant Marine,W New England,142
+Merchant Marine,Vassar,91
+Merchant Marine,UW-Whitewater,915
+Merchant Marine,UW-Stout,1153
+Merchant Marine,UW-Stevens Point,1073
+Merchant Marine,UW-Oshkosh,987
+Merchant Marine,UW-La Crosse,1092
+Merchant Marine,TX Lutheran,1821
+Merchant Marine,Tufts,219
+Merchant Marine,Trinity (Conn),117
+Merchant Marine,Trine,650
+Merchant Marine,Transylvania,732
+Merchant Marine,TCNJ,86
+Merchant Marine,St. Norbert,1017
+Merchant Marine,St. Joseph's ME,330
+Merchant Marine,Smith,157
+Merchant Marine,Scranton,142
+Merchant Marine,S Virginia,440
+Merchant Marine,Roger Williams,194
+Merchant Marine,Ripon,985
+Merchant Marine,Rhode Island College,180
+Merchant Marine,Randolph-Macon,346
+Merchant Marine,PSU-Abington,214
+Merchant Marine,Penn State-Behrend,453
+Merchant Marine,Ohio Wesleyan,567
+Merchant Marine,NYU,23
+Merchant Marine,Northwestern MN,1219
+Merchant Marine,Millsaps,1228
+Merchant Marine,Messiah,208
+Merchant Marine,ME Maritime,448
+Merchant Marine,McMurry,1758
+Merchant Marine,MA Dartmouth,265
+Merchant Marine,Lebanon Val,184
+Merchant Marine,Johns Hopkins,218
+Merchant Marine,Immaculata,251
+Merchant Marine,Illinois Wesleyan,917
+Merchant Marine,Hunter,22
+Merchant Marine,Hope,788
+Merchant Marine,Hardin-Simmons,1758
+Merchant Marine,Gustavus Adolphus,1254
+Merchant Marine,Gettysburg,237
+Merchant Marine,Geneseo St.,340
+Merchant Marine,Elizabethtown,205
+Merchant Marine,East Texas Baptist,1472
+Merchant Marine,Cortland,237
+Merchant Marine,Colorado Col,1806
+Merchant Marine,Christopher Newport,421
+Merchant Marine,Chatham,393
+Merchant Marine,Catholic,251
+Merchant Marine,Carnegie Mellon,398
+Merchant Marine,Cal Lutheran,2844
+Merchant Marine,Bridgewater MA,214
+Merchant Marine,Bowdoin,337
+Merchant Marine,Bethel,1219
+Merchant Marine,Belhaven MS,1251
+Merchant Marine,Bates,341
+Merchant Marine,Baldwin Wallace,482
+Merchant Marine,Amherst,163
+ME Maritime,Whitman,3154
+ME Maritime,Webster,1427
+ME Maritime,WashU,1419
+ME Maritime,Washington & Lee,864
+ME Maritime,Wartburg,1529
+ME Maritime,W New England,326
+ME Maritime,Vassar,438
+ME Maritime,UW-Whitewater,1326
+ME Maritime,UW-Stout,1563
+ME Maritime,UW-Stevens Point,1484
+ME Maritime,UW-Oshkosh,1397
+ME Maritime,UW-La Crosse,1501
+ME Maritime,TX Lutheran,2242
+ME Maritime,Tufts,245
+ME Maritime,Trinity (Conn),342
+ME Maritime,Trine,1061
+ME Maritime,Transylvania,1159
+ME Maritime,TCNJ,511
+ME Maritime,St. Norbert,1427
+ME Maritime,St. Joseph's ME,141
+ME Maritime,Smith,342
+ME Maritime,Scranton,531
+ME Maritime,S Virginia,864
+ME Maritime,Roger Williams,306
+ME Maritime,Ripon,1394
+ME Maritime,Rhode Island College,296
+ME Maritime,Randolph-Macon,771
+ME Maritime,PSU-Abington,251
+ME Maritime,Penn State-Behrend,780
+ME Maritime,Ohio Wesleyan,987
+ME Maritime,NYU,456
+ME Maritime,Northwestern MN,1628
+ME Maritime,Millsaps,1652
+ME Maritime,Messiah,635
+ME Maritime,Merchant Marine,448
+ME Maritime,McMurry,2186
+ME Maritime,MA Dartmouth,311
+ME Maritime,Lebanon Val,611
+ME Maritime,Johns Hopkins,646
+ME Maritime,Immaculata,669
+ME Maritime,Illinois Wesleyan,1328
+ME Maritime,Hunter,453
+ME Maritime,Hope,1097
+ME Maritime,Hardin-Simmons,2185
+ME Maritime,Gustavus Adolphus,1665
+ME Maritime,Gettysburg,665
+ME Maritime,Geneseo St.,648
+ME Maritime,Elizabethtown,632
+ME Maritime,East Texas Baptist,1896
+ME Maritime,Cortland,563
+ME Maritime,Colorado Col,2242
+ME Maritime,Christopher Newport,848
+ME Maritime,Chatham,805
+ME Maritime,Catholic,678
+ME Maritime,Carnegie Mellon,809
+ME Maritime,Cal Lutheran,3262
+ME Maritime,Bridgewater MA,277
+ME Maritime,Bowdoin,116
+ME Maritime,Bethel,1629
+ME Maritime,Belhaven MS,1652
+ME Maritime,Bates,116
+ME Maritime,Baldwin Wallace,894
+ME Maritime,Amherst,313
+McMurry,Whitman,1672
+McMurry,Webster,783
+McMurry,WashU,793
+McMurry,Washington & Lee,1326
+McMurry,Wartburg,977
+McMurry,W New England,1878
+McMurry,Vassar,1794
+McMurry,UW-Whitewater,1132
+McMurry,UW-Stout,1140
+McMurry,UW-Stevens Point,1222
+McMurry,UW-Oshkosh,1229
+McMurry,UW-La Crosse,1108
+McMurry,TX Lutheran,280
+McMurry,Tufts,1953
+McMurry,Trinity (Conn),1852
+McMurry,Trine,1199
+McMurry,Transylvania,1058
+McMurry,TCNJ,1693
+McMurry,St. Norbert,1274
+McMurry,St. Joseph's ME,2064
+McMurry,Smith,1893
+McMurry,Scranton,1683
+McMurry,S Virginia,1327
+McMurry,Roger Williams,1928
+McMurry,Ripon,1220
+McMurry,Rhode Island College,1914
+McMurry,Randolph-Macon,1465
+McMurry,PSU-Abington,1972
+McMurry,Penn State-Behrend,1447
+McMurry,Ohio Wesleyan,1218
+McMurry,NYU,1739
+McMurry,Northwestern MN,1089
+McMurry,Millsaps,589
+McMurry,Messiah,1554
+McMurry,Merchant Marine,1758
+McMurry,ME Maritime,2186
+McMurry,MA Dartmouth,2104
+McMurry,Lebanon Val,1589
+McMurry,Johns Hopkins,1550
+McMurry,Immaculata,1552
+McMurry,Illinois Wesleyan,954
+McMurry,Hunter,1731
+McMurry,Hope,1211
+McMurry,Hardin-Simmons,4
+McMurry,Gustavus Adolphus,1056
+McMurry,Gettysburg,1536
+McMurry,Geneseo St.,1586
+McMurry,Elizabethtown,1585
+McMurry,East Texas Baptist,336
+McMurry,Cortland,1711
+McMurry,Colorado Col,652
+McMurry,Christopher Newport,1527
+McMurry,Chatham,1398
+McMurry,Catholic,1518
+McMurry,Carnegie Mellon,1393
+McMurry,Cal Lutheran,1302
+McMurry,Bridgewater MA,1949
+McMurry,Bowdoin,2075
+McMurry,Bethel,1090
+McMurry,Belhaven MS,594
+McMurry,Bates,2079
+McMurry,Baldwin Wallace,1337
+McMurry,Amherst,1899
+MA Dartmouth,Whitman,3021
+MA Dartmouth,Webster,1278
+MA Dartmouth,WashU,1258
+MA Dartmouth,Washington & Lee,682
+MA Dartmouth,Wartburg,1349
+MA Dartmouth,W New England,135
+MA Dartmouth,Vassar,240
+MA Dartmouth,UW-Whitewater,1085
+MA Dartmouth,UW-Stout,1290
+MA Dartmouth,UW-Stevens Point,1199
+MA Dartmouth,UW-Oshkosh,1126
+MA Dartmouth,UW-La Crosse,1293
+MA Dartmouth,TX Lutheran,2090
+MA Dartmouth,Tufts,129
+MA Dartmouth,Trinity (Conn),154
+MA Dartmouth,Trine,801
+MA Dartmouth,Transylvania,994
+MA Dartmouth,TCNJ,327
+MA Dartmouth,St. Norbert,1156
+MA Dartmouth,St. Joseph's ME,128
+MA Dartmouth,Smith,109
+MA Dartmouth,Scranton,360
+MA Dartmouth,S Virginia,717
+MA Dartmouth,Roger Williams,203
+MA Dartmouth,Ripon,1188
+MA Dartmouth,Rhode Island College,187
+MA Dartmouth,Randolph-Macon,593
+MA Dartmouth,PSU-Abington,131
+MA Dartmouth,Penn State-Behrend,506
+MA Dartmouth,Ohio Wesleyan,753
+MA Dartmouth,NYU,273
+MA Dartmouth,Northwestern MN,1426
+MA Dartmouth,Millsaps,1475
+MA Dartmouth,Messiah,457
+MA Dartmouth,Merchant Marine,265
+MA Dartmouth,ME Maritime,311
+MA Dartmouth,McMurry,2104
+MA Dartmouth,Lebanon Val,445
+MA Dartmouth,Johns Hopkins,460
+MA Dartmouth,Immaculata,386
+MA Dartmouth,Illinois Wesleyan,1083
+MA Dartmouth,Hunter,267
+MA Dartmouth,Hope,996
+MA Dartmouth,Hardin-Simmons,2098
+MA Dartmouth,Gustavus Adolphus,1454
+MA Dartmouth,Gettysburg,478
+MA Dartmouth,Geneseo St.,376
+MA Dartmouth,Elizabethtown,462
+MA Dartmouth,East Texas Baptist,1746
+MA Dartmouth,Cortland,291
+MA Dartmouth,Colorado Col,2097
+MA Dartmouth,Christopher Newport,673
+MA Dartmouth,Chatham,641
+MA Dartmouth,Catholic,490
+MA Dartmouth,Carnegie Mellon,641
+MA Dartmouth,Cal Lutheran,3091
+MA Dartmouth,Bridgewater MA,165
+MA Dartmouth,Bowdoin,195
+MA Dartmouth,Bethel,1356
+MA Dartmouth,Belhaven MS,1478
+MA Dartmouth,Bates,155
+MA Dartmouth,Baldwin Wallace,621
+MA Dartmouth,Amherst,108
+Lebanon Val,Whitman,2608
+Lebanon Val,Webster,816
+Lebanon Val,WashU,805
+Lebanon Val,Washington & Lee,263
+Lebanon Val,Wartburg,984
+Lebanon Val,W New England,304
+Lebanon Val,Vassar,219
+Lebanon Val,UW-Whitewater,781
+Lebanon Val,UW-Stout,1021
+Lebanon Val,UW-Stevens Point,940
+Lebanon Val,UW-Oshkosh,853
+Lebanon Val,UW-La Crosse,959
+Lebanon Val,TX Lutheran,1645
+Lebanon Val,Tufts,379
+Lebanon Val,Trinity (Conn),277
+Lebanon Val,Trine,517
+Lebanon Val,Transylvania,558
+Lebanon Val,TCNJ,114
+Lebanon Val,St. Norbert,886
+Lebanon Val,St. Joseph's ME,490
+Lebanon Val,Smith,318
+Lebanon Val,Scranton,108
+Lebanon Val,S Virginia,267
+Lebanon Val,Roger Williams,354
+Lebanon Val,Ripon,852
+Lebanon Val,Rhode Island College,339
+Lebanon Val,Randolph-Macon,224
+Lebanon Val,PSU-Abington,373
+Lebanon Val,Penn State-Behrend,320
+Lebanon Val,Ohio Wesleyan,411
+Lebanon Val,NYU,157
+Lebanon Val,Northwestern MN,1086
+Lebanon Val,Millsaps,1055
+Lebanon Val,Messiah,29
+Lebanon Val,Merchant Marine,184
+Lebanon Val,ME Maritime,611
+Lebanon Val,McMurry,1589
+Lebanon Val,MA Dartmouth,445
+Lebanon Val,Johns Hopkins,98
+Lebanon Val,Immaculata,122
+Lebanon Val,Illinois Wesleyan,733
+Lebanon Val,Hunter,173
+Lebanon Val,Hope,654
+Lebanon Val,Hardin-Simmons,1585
+Lebanon Val,Gustavus Adolphus,1118
+Lebanon Val,Gettysburg,59
+Lebanon Val,Geneseo St.,243
+Lebanon Val,Elizabethtown,19
+Lebanon Val,East Texas Baptist,1300
+Lebanon Val,Cortland,208
+Lebanon Val,Colorado Col,1631
+Lebanon Val,Christopher Newport,302
+Lebanon Val,Chatham,220
+Lebanon Val,Catholic,137
+Lebanon Val,Carnegie Mellon,223
+Lebanon Val,Cal Lutheran,2670
+Lebanon Val,Bridgewater MA,374
+Lebanon Val,Bowdoin,500
+Lebanon Val,Bethel,1087
+Lebanon Val,Belhaven MS,1078
+Lebanon Val,Bates,505
+Lebanon Val,Baldwin Wallace,349
+Lebanon Val,Amherst,325
+Johns Hopkins,Whitman,2635
+Johns Hopkins,Webster,830
+Johns Hopkins,WashU,820
+Johns Hopkins,Washington & Lee,228
+Johns Hopkins,Wartburg,1008
+Johns Hopkins,W New England,338
+Johns Hopkins,Vassar,274
+Johns Hopkins,UW-Whitewater,806
+Johns Hopkins,UW-Stout,1045
+Johns Hopkins,UW-Stevens Point,965
+Johns Hopkins,UW-Oshkosh,879
+Johns Hopkins,UW-La Crosse,981
+Johns Hopkins,TX Lutheran,1610
+Johns Hopkins,Tufts,414
+Johns Hopkins,Trinity (Conn),312
+Johns Hopkins,Trine,543
+Johns Hopkins,Transylvania,538
+Johns Hopkins,TCNJ,140
+Johns Hopkins,St. Norbert,910
+Johns Hopkins,St. Joseph's ME,524
+Johns Hopkins,Smith,353
+Johns Hopkins,Scranton,201
+Johns Hopkins,S Virginia,232
+Johns Hopkins,Roger Williams,389
+Johns Hopkins,Ripon,877
+Johns Hopkins,Rhode Island College,374
+Johns Hopkins,Randolph-Macon,132
+Johns Hopkins,PSU-Abington,417
+Johns Hopkins,Penn State-Behrend,371
+Johns Hopkins,Ohio Wesleyan,425
+Johns Hopkins,NYU,192
+Johns Hopkins,Northwestern MN,1111
+Johns Hopkins,Millsaps,1020
+Johns Hopkins,Messiah,83
+Johns Hopkins,Merchant Marine,218
+Johns Hopkins,ME Maritime,646
+Johns Hopkins,McMurry,1550
+Johns Hopkins,MA Dartmouth,460
+Johns Hopkins,Lebanon Val,98
+Johns Hopkins,Immaculata,178
+Johns Hopkins,Illinois Wesleyan,747
+Johns Hopkins,Hunter,192
+Johns Hopkins,Hope,679
+Johns Hopkins,Hardin-Simmons,1549
+Johns Hopkins,Gustavus Adolphus,1142
+Johns Hopkins,Gettysburg,61
+Johns Hopkins,Geneseo St.,306
+Johns Hopkins,Elizabethtown,76
+Johns Hopkins,East Texas Baptist,1271
+Johns Hopkins,Cortland,301
+Johns Hopkins,Colorado Col,1645
+Johns Hopkins,Christopher Newport,212
+Johns Hopkins,Chatham,244
+Johns Hopkins,Catholic,38
+Johns Hopkins,Carnegie Mellon,248
+Johns Hopkins,Cal Lutheran,2684
+Johns Hopkins,Bridgewater MA,409
+Johns Hopkins,Bowdoin,535
+Johns Hopkins,Bethel,1111
+Johns Hopkins,Belhaven MS,1041
+Johns Hopkins,Bates,539
+Johns Hopkins,Baldwin Wallace,374
+Johns Hopkins,Amherst,359
+Immaculata,Whitman,2506
+Immaculata,Webster,772
+Immaculata,WashU,761
+Immaculata,Washington & Lee,291
+Immaculata,Wartburg,881
+Immaculata,W New England,361
+Immaculata,Vassar,258
+Immaculata,UW-Whitewater,678
+Immaculata,UW-Stout,916
+Immaculata,UW-Stevens Point,836
+Immaculata,UW-Oshkosh,749
+Immaculata,UW-La Crosse,855
+Immaculata,TX Lutheran,1634
+Immaculata,Tufts,440
+Immaculata,Trinity (Conn),331
+Immaculata,Trine,575
+Immaculata,Transylvania,511
+Immaculata,TCNJ,237
+Immaculata,St. Norbert,781
+Immaculata,St. Joseph's ME,551
+Immaculata,Smith,376
+Immaculata,Scranton,143
+Immaculata,S Virginia,294
+Immaculata,Roger Williams,421
+Immaculata,Ripon,748
+Immaculata,Rhode Island College,406
+Immaculata,Randolph-Macon,304
+Immaculata,PSU-Abington,331
+Immaculata,Penn State-Behrend,216
+Immaculata,Ohio Wesleyan,330
+Immaculata,NYU,231
+Immaculata,Northwestern MN,982
+Immaculata,Millsaps,1083
+Immaculata,Messiah,112
+Immaculata,Merchant Marine,251
+Immaculata,ME Maritime,669
+Immaculata,McMurry,1552
+Immaculata,MA Dartmouth,386
+Immaculata,Lebanon Val,122
+Immaculata,Johns Hopkins,178
+Immaculata,Illinois Wesleyan,680
+Immaculata,Hunter,232
+Immaculata,Hope,551
+Immaculata,Hardin-Simmons,1547
+Immaculata,Gustavus Adolphus,1017
+Immaculata,Gettysburg,138
+Immaculata,Geneseo St.,200
+Immaculata,Elizabethtown,120
+Immaculata,East Texas Baptist,1282
+Immaculata,Cortland,197
+Immaculata,Colorado Col,1587
+Immaculata,Christopher Newport,381
+Immaculata,Chatham,136
+Immaculata,Catholic,219
+Immaculata,Carnegie Mellon,141
+Immaculata,Cal Lutheran,2615
+Immaculata,Bridgewater MA,447
+Immaculata,Bowdoin,558
+Immaculata,Bethel,983
+Immaculata,Belhaven MS,1139
+Immaculata,Bates,562
+Immaculata,Baldwin Wallace,245
+Immaculata,Amherst,382
+Illinois Wesleyan,Whitman,1918
+Illinois Wesleyan,Webster,176
+Illinois Wesleyan,WashU,163
+Illinois Wesleyan,Washington & Lee,665
+Illinois Wesleyan,Wartburg,292
+Illinois Wesleyan,W New England,1011
+Illinois Wesleyan,Vassar,924
+Illinois Wesleyan,UW-Whitewater,182
+Illinois Wesleyan,UW-Stout,394
+Illinois Wesleyan,UW-Stevens Point,317
+Illinois Wesleyan,UW-Oshkosh,277
+Illinois Wesleyan,UW-La Crosse,333
+Illinois Wesleyan,TX Lutheran,1041
+Illinois Wesleyan,Tufts,1095
+Illinois Wesleyan,Trinity (Conn),998
+Illinois Wesleyan,Trine,277
+Illinois Wesleyan,Transylvania,363
+Illinois Wesleyan,TCNJ,840
+Illinois Wesleyan,St. Norbert,324
+Illinois Wesleyan,St. Joseph's ME,1206
+Illinois Wesleyan,Smith,1014
+Illinois Wesleyan,Scranton,810
+Illinois Wesleyan,S Virginia,672
+Illinois Wesleyan,Roger Williams,1088
+Illinois Wesleyan,Ripon,270
+Illinois Wesleyan,Rhode Island College,1073
+Illinois Wesleyan,Randolph-Macon,804
+Illinois Wesleyan,PSU-Abington,1113
+Illinois Wesleyan,Penn State-Behrend,553
+Illinois Wesleyan,Ohio Wesleyan,356
+Illinois Wesleyan,NYU,879
+Illinois Wesleyan,Northwestern MN,460
+Illinois Wesleyan,Millsaps,651
+Illinois Wesleyan,Messiah,709
+Illinois Wesleyan,Merchant Marine,917
+Illinois Wesleyan,ME Maritime,1328
+Illinois Wesleyan,McMurry,954
+Illinois Wesleyan,MA Dartmouth,1081
+Illinois Wesleyan,Lebanon Val,733
+Illinois Wesleyan,Johns Hopkins,747
+Illinois Wesleyan,Immaculata,680
+Illinois Wesleyan,Hunter,886
+Illinois Wesleyan,Hope,257
+Illinois Wesleyan,Hardin-Simmons,949
+Illinois Wesleyan,Gustavus Adolphus,472
+Illinois Wesleyan,Gettysburg,696
+Illinois Wesleyan,Geneseo St.,692
+Illinois Wesleyan,Elizabethtown,732
+Illinois Wesleyan,East Texas Baptist,721
+Illinois Wesleyan,Cortland,818
+Illinois Wesleyan,Colorado Col,963
+Illinois Wesleyan,Christopher Newport,866
+Illinois Wesleyan,Chatham,536
+Illinois Wesleyan,Catholic,743
+Illinois Wesleyan,Carnegie Mellon,531
+Illinois Wesleyan,Cal Lutheran,2028
+Illinois Wesleyan,Bridgewater MA,1105
+Illinois Wesleyan,Bowdoin,1215
+Illinois Wesleyan,Bethel,460
+Illinois Wesleyan,Belhaven MS,654
+Illinois Wesleyan,Bates,1220
+Illinois Wesleyan,Baldwin Wallace,445
+Illinois Wesleyan,Amherst,1020
+Hunter,Whitman,2723
+Hunter,Webster,962
+Hunter,WashU,953
+Hunter,Washington & Lee,409
+Hunter,Wartburg,1098
+Hunter,W New England,147
+Hunter,Vassar,83
+Hunter,UW-Whitewater,895
+Hunter,UW-Stout,1132
+Hunter,UW-Stevens Point,1055
+Hunter,UW-Oshkosh,970
+Hunter,UW-La Crosse,1071
+Hunter,TX Lutheran,1793
+Hunter,Tufts,222
+Hunter,Trinity (Conn),116
+Hunter,Trine,630
+Hunter,Transylvania,705
+Hunter,TCNJ,60
+Hunter,St. Norbert,996
+Hunter,St. Joseph's ME,323
+Hunter,Smith,162
+Hunter,Scranton,121
+Hunter,S Virginia,412
+Hunter,Roger Williams,193
+Hunter,Ripon,967
+Hunter,Rhode Island College,179
+Hunter,Randolph-Macon,321
+Hunter,PSU-Abington,211
+Hunter,Penn State-Behrend,433
+Hunter,Ohio Wesleyan,546
+Hunter,NYU,4
+Hunter,Northwestern MN,1198
+Hunter,Millsaps,1216
+Hunter,Messiah,185
+Hunter,Merchant Marine,22
+Hunter,ME Maritime,453
+Hunter,McMurry,1731
+Hunter,MA Dartmouth,267
+Hunter,Lebanon Val,173
+Hunter,Johns Hopkins,192
+Hunter,Immaculata,232
+Hunter,Illinois Wesleyan,886
+Hunter,Hope,768
+Hunter,Hardin-Simmons,1745
+Hunter,Gustavus Adolphus,1234
+Hunter,Gettysburg,210
+Hunter,Geneseo St.,319
+Hunter,Elizabethtown,179
+Hunter,East Texas Baptist,1446
+Hunter,Cortland,220
+Hunter,Colorado Col,1779
+Hunter,Christopher Newport,399
+Hunter,Chatham,367
+Hunter,Catholic,225
+Hunter,Carnegie Mellon,371
+Hunter,Cal Lutheran,2822
+Hunter,Bridgewater MA,219
+Hunter,Bowdoin,341
+Hunter,Bethel,1203
+Hunter,Belhaven MS,1236
+Hunter,Bates,344
+Hunter,Baldwin Wallace,462
+Hunter,Amherst,168
+Hope,Whitman,2083
+Hope,Webster,432
+Hope,WashU,420
+Hope,Washington & Lee,688
+Hope,Wartburg,457
+Hope,W New England,780
+Hope,Vassar,770
+Hope,UW-Whitewater,254
+Hope,UW-Stout,494
+Hope,UW-Stevens Point,414
+Hope,UW-Oshkosh,328
+Hope,UW-La Crosse,433
+Hope,TX Lutheran,1334
+Hope,Tufts,867
+Hope,Trinity (Conn),804
+Hope,Trine,152
+Hope,Transylvania,414
+Hope,TCNJ,761
+Hope,St. Norbert,360
+Hope,St. Joseph's ME,975
+Hope,Smith,782
+Hope,Scranton,680
+Hope,S Virginia,695
+Hope,Roger Williams,872
+Hope,Ripon,326
+Hope,Rhode Island College,853
+Hope,Randolph-Macon,760
+Hope,PSU-Abington,948
+Hope,Penn State-Behrend,424
+Hope,Ohio Wesleyan,319
+Hope,NYU,767
+Hope,Northwestern MN,560
+Hope,Millsaps,856
+Hope,Messiah,630
+Hope,Merchant Marine,788
+Hope,ME Maritime,1097
+Hope,McMurry,1211
+Hope,MA Dartmouth,934
+Hope,Lebanon Val,654
+Hope,Johns Hopkins,679
+Hope,Immaculata,551
+Hope,Illinois Wesleyan,256
+Hope,Hunter,768
+Hope,Hardin-Simmons,1207
+Hope,Gustavus Adolphus,592
+Hope,Gettysburg,617
+Hope,Geneseo St.,470
+Hope,Elizabethtown,653
+Hope,East Texas Baptist,983
+Hope,Cortland,586
+Hope,Colorado Col,1208
+Hope,Christopher Newport,840
+Hope,Chatham,443
+Hope,Catholic,675
+Hope,Carnegie Mellon,438
+Hope,Cal Lutheran,2193
+Hope,Bridgewater MA,874
+Hope,Bowdoin,985
+Hope,Bethel,561
+Hope,Belhaven MS,856
+Hope,Bates,988
+Hope,Baldwin Wallace,316
+Hope,Amherst,789
+Hardin-Simmons,Whitman,1673
+Hardin-Simmons,Webster,778
+Hardin-Simmons,WashU,788
+Hardin-Simmons,Washington & Lee,1325
+Hardin-Simmons,Wartburg,972
+Hardin-Simmons,W New England,1877
+Hardin-Simmons,Vassar,1793
+Hardin-Simmons,UW-Whitewater,1131
+Hardin-Simmons,UW-Stout,1135
+Hardin-Simmons,UW-Stevens Point,1217
+Hardin-Simmons,UW-Oshkosh,1224
+Hardin-Simmons,UW-La Crosse,1103
+Hardin-Simmons,TX Lutheran,287
+Hardin-Simmons,Tufts,1952
+Hardin-Simmons,Trinity (Conn),1847
+Hardin-Simmons,Trine,1195
+Hardin-Simmons,Transylvania,1057
+Hardin-Simmons,TCNJ,1693
+Hardin-Simmons,St. Norbert,1268
+Hardin-Simmons,St. Joseph's ME,2063
+Hardin-Simmons,Smith,1890
+Hardin-Simmons,Scranton,1682
+Hardin-Simmons,S Virginia,1326
+Hardin-Simmons,Roger Williams,1928
+Hardin-Simmons,Ripon,1215
+Hardin-Simmons,Rhode Island College,1912
+Hardin-Simmons,Randolph-Macon,1464
+Hardin-Simmons,PSU-Abington,1967
+Hardin-Simmons,Penn State-Behrend,1442
+Hardin-Simmons,Ohio Wesleyan,1213
+Hardin-Simmons,NYU,1730
+Hardin-Simmons,Northwestern MN,1083
+Hardin-Simmons,Millsaps,588
+Hardin-Simmons,Messiah,1553
+Hardin-Simmons,Merchant Marine,1758
+Hardin-Simmons,ME Maritime,2185
+Hardin-Simmons,McMurry,4
+Hardin-Simmons,MA Dartmouth,2098
+Hardin-Simmons,Lebanon Val,1585
+Hardin-Simmons,Johns Hopkins,1549
+Hardin-Simmons,Immaculata,1547
+Hardin-Simmons,Illinois Wesleyan,949
+Hardin-Simmons,Hunter,1745
+Hardin-Simmons,Hope,1207
+Hardin-Simmons,Gustavus Adolphus,1051
+Hardin-Simmons,Gettysburg,1535
+Hardin-Simmons,Geneseo St.,1581
+Hardin-Simmons,Elizabethtown,1584
+Hardin-Simmons,East Texas Baptist,335
+Hardin-Simmons,Cortland,1706
+Hardin-Simmons,Colorado Col,653
+Hardin-Simmons,Christopher Newport,1526
+Hardin-Simmons,Chatham,1393
+Hardin-Simmons,Catholic,1522
+Hardin-Simmons,Carnegie Mellon,1388
+Hardin-Simmons,Cal Lutheran,1301
+Hardin-Simmons,Bridgewater MA,1948
+Hardin-Simmons,Bowdoin,2069
+Hardin-Simmons,Bethel,1084
+Hardin-Simmons,Belhaven MS,593
+Hardin-Simmons,Bates,2074
+Hardin-Simmons,Baldwin Wallace,1332
+Hardin-Simmons,Amherst,1896
+Gustavus Adolphus,Whitman,1521
+Gustavus Adolphus,Webster,537
+Gustavus Adolphus,WashU,537
+Gustavus Adolphus,Washington & Lee,1114
+Gustavus Adolphus,Wartburg,178
+Gustavus Adolphus,W New England,1348
+Gustavus Adolphus,Vassar,1257
+Gustavus Adolphus,UW-Whitewater,338
+Gustavus Adolphus,UW-Stout,134
+Gustavus Adolphus,UW-Stevens Point,272
+Gustavus Adolphus,UW-Oshkosh,311
+Gustavus Adolphus,UW-La Crosse,169
+Gustavus Adolphus,TX Lutheran,1169
+Gustavus Adolphus,Tufts,1432
+Gustavus Adolphus,Trinity (Conn),1331
+Gustavus Adolphus,Trine,610
+Gustavus Adolphus,Transylvania,811
+Gustavus Adolphus,TCNJ,1227
+Gustavus Adolphus,St. Norbert,346
+Gustavus Adolphus,St. Joseph's ME,1543
+Gustavus Adolphus,Smith,1347
+Gustavus Adolphus,Scranton,1143
+Gustavus Adolphus,S Virginia,1126
+Gustavus Adolphus,Roger Williams,1421
+Gustavus Adolphus,Ripon,298
+Gustavus Adolphus,Rhode Island College,1405
+Gustavus Adolphus,Randolph-Macon,1227
+Gustavus Adolphus,PSU-Abington,1452
+Gustavus Adolphus,Penn State-Behrend,890
+Gustavus Adolphus,Ohio Wesleyan,759
+Gustavus Adolphus,NYU,1230
+Gustavus Adolphus,Northwestern MN,78
+Gustavus Adolphus,Millsaps,1016
+Gustavus Adolphus,Messiah,1094
+Gustavus Adolphus,Merchant Marine,1254
+Gustavus Adolphus,ME Maritime,1665
+Gustavus Adolphus,McMurry,1056
+Gustavus Adolphus,MA Dartmouth,1454
+Gustavus Adolphus,Lebanon Val,1118
+Gustavus Adolphus,Johns Hopkins,1142
+Gustavus Adolphus,Immaculata,1017
+Gustavus Adolphus,Illinois Wesleyan,472
+Gustavus Adolphus,Hunter,1234
+Gustavus Adolphus,Hope,592
+Gustavus Adolphus,Hardin-Simmons,1054
+Gustavus Adolphus,Gettysburg,1084
+Gustavus Adolphus,Geneseo St.,1029
+Gustavus Adolphus,Elizabethtown,1119
+Gustavus Adolphus,East Texas Baptist,963
+Gustavus Adolphus,Cortland,1150
+Gustavus Adolphus,Colorado Col,906
+Gustavus Adolphus,Christopher Newport,1300
+Gustavus Adolphus,Chatham,909
+Gustavus Adolphus,Catholic,1138
+Gustavus Adolphus,Carnegie Mellon,901
+Gustavus Adolphus,Cal Lutheran,1891
+Gustavus Adolphus,Bridgewater MA,1442
+Gustavus Adolphus,Bowdoin,1548
+Gustavus Adolphus,Bethel,79
+Gustavus Adolphus,Belhaven MS,1022
+Gustavus Adolphus,Bates,1552
+Gustavus Adolphus,Baldwin Wallace,778
+Gustavus Adolphus,Amherst,1353
+Gettysburg,Whitman,2572
+Gettysburg,Webster,778
+Gettysburg,WashU,768
+Gettysburg,Washington & Lee,214
+Gettysburg,Wartburg,948
+Gettysburg,W New England,357
+Gettysburg,Vassar,272
+Gettysburg,UW-Whitewater,744
+Gettysburg,UW-Stout,982
+Gettysburg,UW-Stevens Point,902
+Gettysburg,UW-Oshkosh,816
+Gettysburg,UW-La Crosse,922
+Gettysburg,TX Lutheran,1596
+Gettysburg,Tufts,432
+Gettysburg,Trinity (Conn),331
+Gettysburg,Trine,480
+Gettysburg,Transylvania,509
+Gettysburg,TCNJ,166
+Gettysburg,St. Norbert,848
+Gettysburg,St. Joseph's ME,543
+Gettysburg,Smith,369
+Gettysburg,Scranton,162
+Gettysburg,S Virginia,218
+Gettysburg,Roger Williams,408
+Gettysburg,Ripon,815
+Gettysburg,Rhode Island College,392
+Gettysburg,Randolph-Macon,169
+Gettysburg,PSU-Abington,432
+Gettysburg,Penn State-Behrend,309
+Gettysburg,Ohio Wesleyan,373
+Gettysburg,NYU,210
+Gettysburg,Northwestern MN,1049
+Gettysburg,Millsaps,1006
+Gettysburg,Messiah,33
+Gettysburg,Merchant Marine,237
+Gettysburg,ME Maritime,665
+Gettysburg,McMurry,1536
+Gettysburg,MA Dartmouth,478
+Gettysburg,Lebanon Val,59
+Gettysburg,Johns Hopkins,61
+Gettysburg,Immaculata,138
+Gettysburg,Illinois Wesleyan,696
+Gettysburg,Hunter,210
+Gettysburg,Hope,617
+Gettysburg,Hardin-Simmons,1535
+Gettysburg,Gustavus Adolphus,1080
+Gettysburg,Geneseo St.,267
+Gettysburg,Elizabethtown,58
+Gettysburg,East Texas Baptist,1250
+Gettysburg,Cortland,262
+Gettysburg,Colorado Col,1593
+Gettysburg,Christopher Newport,250
+Gettysburg,Chatham,182
+Gettysburg,Catholic,85
+Gettysburg,Carnegie Mellon,186
+Gettysburg,Cal Lutheran,2632
+Gettysburg,Bridgewater MA,428
+Gettysburg,Bowdoin,549
+Gettysburg,Bethel,1049
+Gettysburg,Belhaven MS,1025
+Gettysburg,Bates,554
+Gettysburg,Baldwin Wallace,312
+Gettysburg,Amherst,378
+Geneseo St.,Whitman,2517
+Geneseo St.,Webster,804
+Geneseo St.,WashU,795
+Geneseo St.,Washington & Lee,466
+Geneseo St.,Wartburg,893
+Geneseo St.,W New England,332
+Geneseo St.,Vassar,281
+Geneseo St.,UW-Whitewater,689
+Geneseo St.,UW-Stout,927
+Geneseo St.,UW-Stevens Point,848
+Geneseo St.,UW-Oshkosh,761
+Geneseo St.,UW-La Crosse,866
+Geneseo St.,TX Lutheran,1666
+Geneseo St.,Tufts,417
+Geneseo St.,Trinity (Conn),356
+Geneseo St.,Trine,425
+Geneseo St.,Transylvania,567
+Geneseo St.,TCNJ,320
+Geneseo St.,St. Norbert,791
+Geneseo St.,St. Joseph's ME,525
+Geneseo St.,Smith,335
+Geneseo St.,Scranton,202
+Geneseo St.,S Virginia,470
+Geneseo St.,Roger Williams,425
+Geneseo St.,Ripon,760
+Geneseo St.,Rhode Island College,406
+Geneseo St.,Randolph-Macon,433
+Geneseo St.,PSU-Abington,410
+Geneseo St.,Penn State-Behrend,145
+Geneseo St.,Ohio Wesleyan,364
+Geneseo St.,NYU,319
+Geneseo St.,Northwestern MN,993
+Geneseo St.,Millsaps,1167
+Geneseo St.,Messiah,240
+Geneseo St.,Merchant Marine,340
+Geneseo St.,ME Maritime,648
+Geneseo St.,McMurry,1586
+Geneseo St.,MA Dartmouth,376
+Geneseo St.,Lebanon Val,243
+Geneseo St.,Johns Hopkins,306
+Geneseo St.,Immaculata,200
+Geneseo St.,Illinois Wesleyan,692
+Geneseo St.,Hunter,319
+Geneseo St.,Hope,470
+Geneseo St.,Hardin-Simmons,1581
+Geneseo St.,Gustavus Adolphus,1029
+Geneseo St.,Gettysburg,267
+Geneseo St.,Elizabethtown,248
+Geneseo St.,East Texas Baptist,1315
+Geneseo St.,Cortland,139
+Geneseo St.,Colorado Col,1621
+Geneseo St.,Christopher Newport,509
+Geneseo St.,Chatham,272
+Geneseo St.,Catholic,343
+Geneseo St.,Carnegie Mellon,268
+Geneseo St.,Cal Lutheran,2628
+Geneseo St.,Bridgewater MA,425
+Geneseo St.,Bowdoin,536
+Geneseo St.,Bethel,995
+Geneseo St.,Belhaven MS,1199
+Geneseo St.,Bates,541
+Geneseo St.,Baldwin Wallace,257
+Geneseo St.,Amherst,341
+Elizabethtown,Whitman,2608
+Elizabethtown,Webster,814
+Elizabethtown,WashU,803
+Elizabethtown,Washington & Lee,263
+Elizabethtown,Wartburg,983
+Elizabethtown,W New England,325
+Elizabethtown,Vassar,234
+Elizabethtown,UW-Whitewater,780
+Elizabethtown,UW-Stout,1018
+Elizabethtown,UW-Stevens Point,938
+Elizabethtown,UW-Oshkosh,851
+Elizabethtown,UW-La Crosse,957
+Elizabethtown,TX Lutheran,1645
+Elizabethtown,Tufts,400
+Elizabethtown,Trinity (Conn),295
+Elizabethtown,Trine,515
+Elizabethtown,Transylvania,551
+Elizabethtown,TCNJ,119
+Elizabethtown,St. Norbert,884
+Elizabethtown,St. Joseph's ME,506
+Elizabethtown,Smith,337
+Elizabethtown,Scranton,138
+Elizabethtown,S Virginia,267
+Elizabethtown,Roger Williams,375
+Elizabethtown,Ripon,851
+Elizabethtown,Rhode Island College,360
+Elizabethtown,Randolph-Macon,214
+Elizabethtown,PSU-Abington,393
+Elizabethtown,Penn State-Behrend,317
+Elizabethtown,Ohio Wesleyan,409
+Elizabethtown,NYU,171
+Elizabethtown,Northwestern MN,1084
+Elizabethtown,Millsaps,1055
+Elizabethtown,Messiah,30
+Elizabethtown,Merchant Marine,205
+Elizabethtown,ME Maritime,632
+Elizabethtown,McMurry,1585
+Elizabethtown,MA Dartmouth,462
+Elizabethtown,Lebanon Val,19
+Elizabethtown,Johns Hopkins,76
+Elizabethtown,Immaculata,120
+Elizabethtown,Illinois Wesleyan,732
+Elizabethtown,Hunter,179
+Elizabethtown,Hope,653
+Elizabethtown,Hardin-Simmons,1584
+Elizabethtown,Gustavus Adolphus,1116
+Elizabethtown,Gettysburg,57
+Elizabethtown,Geneseo St.,248
+Elizabethtown,East Texas Baptist,1299
+Elizabethtown,Cortland,238
+Elizabethtown,Colorado Col,1629
+Elizabethtown,Christopher Newport,286
+Elizabethtown,Chatham,218
+Elizabethtown,Catholic,113
+Elizabethtown,Carnegie Mellon,221
+Elizabethtown,Cal Lutheran,2668
+Elizabethtown,Bridgewater MA,395
+Elizabethtown,Bowdoin,517
+Elizabethtown,Bethel,1085
+Elizabethtown,Belhaven MS,1075
+Elizabethtown,Bates,522
+Elizabethtown,Baldwin Wallace,348
+Elizabethtown,Amherst,346
+East Texas Baptist,Whitman,1992
+East Texas Baptist,Webster,562
+East Texas Baptist,WashU,560
+East Texas Baptist,Washington & Lee,1047
+East Texas Baptist,Wartburg,880
+East Texas Baptist,W New England,1592
+East Texas Baptist,Vassar,1514
+East Texas Baptist,UW-Whitewater,899
+East Texas Baptist,UW-Stout,1044
+East Texas Baptist,UW-Stevens Point,1033
+East Texas Baptist,UW-Oshkosh,996
+East Texas Baptist,UW-La Crosse,1003
+East Texas Baptist,TX Lutheran,345
+East Texas Baptist,Tufts,1668
+East Texas Baptist,Trinity (Conn),1569
+East Texas Baptist,Trine,962
+East Texas Baptist,Transylvania,772
+East Texas Baptist,TCNJ,1412
+East Texas Baptist,St. Norbert,1072
+East Texas Baptist,St. Joseph's ME,1778
+East Texas Baptist,Smith,1605
+East Texas Baptist,Scranton,1404
+East Texas Baptist,S Virginia,1041
+East Texas Baptist,Roger Williams,1649
+East Texas Baptist,Ripon,987
+East Texas Baptist,Rhode Island College,1628
+East Texas Baptist,Randolph-Macon,1185
+East Texas Baptist,PSU-Abington,1731
+East Texas Baptist,Penn State-Behrend,1177
+East Texas Baptist,Ohio Wesleyan,964
+East Texas Baptist,NYU,1452
+East Texas Baptist,Northwestern MN,982
+East Texas Baptist,Millsaps,259
+East Texas Baptist,Messiah,1268
+East Texas Baptist,Merchant Marine,1472
+East Texas Baptist,ME Maritime,1896
+East Texas Baptist,McMurry,336
+East Texas Baptist,MA Dartmouth,1746
+East Texas Baptist,Lebanon Val,1300
+East Texas Baptist,Johns Hopkins,1271
+East Texas Baptist,Immaculata,1282
+East Texas Baptist,Illinois Wesleyan,721
+East Texas Baptist,Hunter,1446
+East Texas Baptist,Hope,983
+East Texas Baptist,Hardin-Simmons,335
+East Texas Baptist,Gustavus Adolphus,963
+East Texas Baptist,Gettysburg,1250
+East Texas Baptist,Geneseo St.,1315
+East Texas Baptist,Elizabethtown,1299
+East Texas Baptist,Cortland,1441
+East Texas Baptist,Colorado Col,881
+East Texas Baptist,Christopher Newport,1228
+East Texas Baptist,Chatham,1123
+East Texas Baptist,Catholic,1244
+East Texas Baptist,Carnegie Mellon,1120
+East Texas Baptist,Cal Lutheran,1637
+East Texas Baptist,Bridgewater MA,1668
+East Texas Baptist,Bowdoin,1791
+East Texas Baptist,Bethel,993
+East Texas Baptist,Belhaven MS,264
+East Texas Baptist,Bates,1789
+East Texas Baptist,Baldwin Wallace,1067
+East Texas Baptist,Amherst,1618
+Cortland,Whitman,2643
+Cortland,Webster,931
+Cortland,WashU,921
+Cortland,Washington & Lee,460
+Cortland,Wartburg,1017
+Cortland,W New England,246
+Cortland,Vassar,178
+Cortland,UW-Whitewater,814
+Cortland,UW-Stout,1053
+Cortland,UW-Stevens Point,973
+Cortland,UW-Oshkosh,886
+Cortland,UW-La Crosse,992
+Cortland,TX Lutheran,1793
+Cortland,Tufts,331
+Cortland,Trinity (Conn),270
+Cortland,Trine,550
+Cortland,Transylvania,693
+Cortland,TCNJ,434
+Cortland,St. Norbert,918
+Cortland,St. Joseph's ME,441
+Cortland,Smith,249
+Cortland,Scranton,99
+Cortland,S Virginia,464
+Cortland,Roger Williams,337
+Cortland,Ripon,885
+Cortland,Rhode Island College,318
+Cortland,Randolph-Macon,427
+Cortland,PSU-Abington,342
+Cortland,Penn State-Behrend,270
+Cortland,Ohio Wesleyan,489
+Cortland,NYU,228
+Cortland,Northwestern MN,1119
+Cortland,Millsaps,1252
+Cortland,Messiah,232
+Cortland,Merchant Marine,237
+Cortland,ME Maritime,563
+Cortland,McMurry,1711
+Cortland,MA Dartmouth,291
+Cortland,Lebanon Val,208
+Cortland,Johns Hopkins,301
+Cortland,Immaculata,197
+Cortland,Illinois Wesleyan,818
+Cortland,Hunter,220
+Cortland,Hope,586
+Cortland,Hardin-Simmons,1706
+Cortland,Gustavus Adolphus,1150
+Cortland,Gettysburg,262
+Cortland,Geneseo St.,139
+Cortland,Elizabethtown,238
+Cortland,East Texas Baptist,1441
+Cortland,Colorado Col,1747
+Cortland,Christopher Newport,507
+Cortland,Chatham,337
+Cortland,Catholic,340
+Cortland,Carnegie Mellon,340
+Cortland,Cal Lutheran,2753
+Cortland,Bridgewater MA,339
+Cortland,Bowdoin,452
+Cortland,Bethel,1120
+Cortland,Belhaven MS,1250
+Cortland,Bates,456
+Cortland,Baldwin Wallace,383
+Cortland,Amherst,255
+Colorado Col,Whitman,1134
+Colorado Col,Webster,830
+Colorado Col,WashU,835
+Colorado Col,Washington & Lee,1520
+Colorado Col,Wartburg,880
+Colorado Col,W New England,1940
+Colorado Col,Vassar,1830
+Colorado Col,UW-Whitewater,1072
+Colorado Col,UW-Stout,1044
+Colorado Col,UW-Stevens Point,1130
+Colorado Col,UW-Oshkosh,1122
+Colorado Col,UW-La Crosse,1012
+Colorado Col,TX Lutheran,915
+Colorado Col,Tufts,2012
+Colorado Col,Trinity (Conn),1904
+Colorado Col,Trine,2456
+Colorado Col,Transylvania,1170
+Colorado Col,TCNJ,1737
+Colorado Col,St. Norbert,1168
+Colorado Col,St. Joseph's ME,2123
+Colorado Col,Smith,1942
+Colorado Col,Scranton,1716
+Colorado Col,S Virginia,1527
+Colorado Col,Roger Williams,1976
+Colorado Col,Ripon,1113
+Colorado Col,Rhode Island College,1960
+Colorado Col,Randolph-Macon,1661
+Colorado Col,PSU-Abington,2064
+Colorado Col,Penn State-Behrend,1483
+Colorado Col,Ohio Wesleyan,1254
+Colorado Col,NYU,1777
+Colorado Col,Northwestern MN,993
+Colorado Col,Millsaps,1134
+Colorado Col,Messiah,1608
+Colorado Col,Merchant Marine,1806
+Colorado Col,ME Maritime,2245
+Colorado Col,McMurry,652
+Colorado Col,MA Dartmouth,2097
+Colorado Col,Lebanon Val,1631
+Colorado Col,Johns Hopkins,1645
+Colorado Col,Immaculata,1587
+Colorado Col,Illinois Wesleyan,963
+Colorado Col,Hunter,1779
+Colorado Col,Hope,1208
+Colorado Col,Hardin-Simmons,653
+Colorado Col,Gustavus Adolphus,906
+Colorado Col,Gettysburg,1593
+Colorado Col,Geneseo St.,1621
+Colorado Col,Elizabethtown,1629
+Colorado Col,East Texas Baptist,881
+Colorado Col,Cortland,1746
+Colorado Col,Christopher Newport,1722
+Colorado Col,Chatham,1433
+Colorado Col,Catholic,1641
+Colorado Col,Carnegie Mellon,1429
+Colorado Col,Cal Lutheran,1123
+Colorado Col,Bridgewater MA,1994
+Colorado Col,Bowdoin,2130
+Colorado Col,Bethel,994
+Colorado Col,Belhaven MS,1277
+Colorado Col,Bates,2135
+Colorado Col,Baldwin Wallace,1372
+Colorado Col,Amherst,1949
+Christopher Newport,Whitman,2757
+Christopher Newport,Webster,900
+Christopher Newport,WashU,890
+Christopher Newport,Washington & Lee,208
+Christopher Newport,Wartburg,1166
+Christopher Newport,W New England,544
+Christopher Newport,Vassar,480
+Christopher Newport,UW-Whitewater,964
+Christopher Newport,UW-Stout,1203
+Christopher Newport,UW-Stevens Point,1123
+Christopher Newport,UW-Oshkosh,1036
+Christopher Newport,UW-La Crosse,1142
+Christopher Newport,TX Lutheran,1548
+Christopher Newport,Tufts,619
+Christopher Newport,Trinity (Conn),514
+Christopher Newport,Trine,700
+Christopher Newport,Transylvania,558
+Christopher Newport,TCNJ,346
+Christopher Newport,St. Norbert,1068
+Christopher Newport,St. Joseph's ME,726
+Christopher Newport,Smith,555
+Christopher Newport,Scranton,404
+Christopher Newport,S Virginia,209
+Christopher Newport,Roger Williams,596
+Christopher Newport,Ripon,1035
+Christopher Newport,Rhode Island College,576
+Christopher Newport,Randolph-Macon,85
+Christopher Newport,PSU-Abington,587
+Christopher Newport,Penn State-Behrend,529
+Christopher Newport,Ohio Wesleyan,571
+Christopher Newport,NYU,395
+Christopher Newport,Northwestern MN,1269
+Christopher Newport,Millsaps,977
+Christopher Newport,Messiah,276
+Christopher Newport,Merchant Marine,421
+Christopher Newport,ME Maritime,848
+Christopher Newport,McMurry,1527
+Christopher Newport,MA Dartmouth,673
+Christopher Newport,Lebanon Val,302
+Christopher Newport,Johns Hopkins,208
+Christopher Newport,Immaculata,381
+Christopher Newport,Illinois Wesleyan,866
+Christopher Newport,Hunter,399
+Christopher Newport,Hope,840
+Christopher Newport,Hardin-Simmons,1526
+Christopher Newport,Gustavus Adolphus,1300
+Christopher Newport,Gettysburg,250
+Christopher Newport,Geneseo St.,509
+Christopher Newport,Elizabethtown,286
+Christopher Newport,East Texas Baptist,1228
+Christopher Newport,Cortland,507
+Christopher Newport,Colorado Col,1722
+Christopher Newport,Chatham,402
+Christopher Newport,Catholic,178
+Christopher Newport,Carnegie Mellon,406
+Christopher Newport,Cal Lutheran,2729
+Christopher Newport,Bridgewater MA,611
+Christopher Newport,Bowdoin,737
+Christopher Newport,Bethel,1269
+Christopher Newport,Belhaven MS,1015
+Christopher Newport,Bates,742
+Christopher Newport,Baldwin Wallace,532
+Christopher Newport,Amherst,562
+Chatham,Whitman,2398
+Chatham,Webster,618
+Chatham,WashU,607
+Chatham,Washington & Lee,312
+Chatham,Wartburg,773
+Chatham,W New England,498
+Chatham,Vassar,393
+Chatham,UW-Whitewater,570
+Chatham,UW-Stout,808
+Chatham,UW-Stevens Point,728
+Chatham,UW-Oshkosh,641
+Chatham,UW-La Crosse,747
+Chatham,TX Lutheran,1474
+Chatham,Tufts,574
+Chatham,Trinity (Conn),467
+Chatham,Trine,305
+Chatham,Transylvania,375
+Chatham,TCNJ,325
+Chatham,St. Norbert,671
+Chatham,St. Joseph's ME,686
+Chatham,Smith,512
+Chatham,Scranton,279
+Chatham,S Virginia,316
+Chatham,Roger Williams,564
+Chatham,Ripon,640
+Chatham,Rhode Island College,548
+Chatham,Randolph-Macon,325
+Chatham,PSU-Abington,567
+Chatham,Penn State-Behrend,133
+Chatham,Ohio Wesleyan,215
+Chatham,NYU,366
+Chatham,Northwestern MN,873
+Chatham,Millsaps,977
+Chatham,Messiah,196
+Chatham,Merchant Marine,393
+Chatham,ME Maritime,807
+Chatham,McMurry,1398
+Chatham,MA Dartmouth,641
+Chatham,Lebanon Val,220
+Chatham,Johns Hopkins,244
+Chatham,Immaculata,136
+Chatham,Illinois Wesleyan,536
+Chatham,Hunter,393
+Chatham,Hope,443
+Chatham,Hardin-Simmons,1393
+Chatham,Gustavus Adolphus,909
+Chatham,Gettysburg,182
+Chatham,Geneseo St.,273
+Chatham,Elizabethtown,218
+Chatham,East Texas Baptist,1123
+Chatham,Cortland,337
+Chatham,Colorado Col,1433
+Chatham,Christopher Newport,402
+Chatham,Catholic,240
+Chatham,Carnegie Mellon,5
+Chatham,Cal Lutheran,2472
+Chatham,Bridgewater MA,583
+Chatham,Bowdoin,693
+Chatham,Bethel,875
+Chatham,Belhaven MS,974
+Chatham,Bates,698
+Chatham,Baldwin Wallace,137
+Chatham,Amherst,518
+Catholic,Whitman,2631
+Catholic,Webster,826
+Catholic,WashU,816
+Catholic,Washington & Lee,196
+Catholic,Wartburg,1004
+Catholic,W New England,370
+Catholic,Vassar,307
+Catholic,UW-Whitewater,804
+Catholic,UW-Stout,1041
+Catholic,UW-Stevens Point,961
+Catholic,UW-Oshkosh,875
+Catholic,UW-La Crosse,980
+Catholic,TX Lutheran,1583
+Catholic,Tufts,446
+Catholic,Trinity (Conn),344
+Catholic,Trine,538
+Catholic,Transylvania,534
+Catholic,TCNJ,172
+Catholic,St. Norbert,906
+Catholic,St. Joseph's ME,556
+Catholic,Smith,385
+Catholic,Scranton,238
+Catholic,S Virginia,205
+Catholic,Roger Williams,422
+Catholic,Ripon,873
+Catholic,Rhode Island College,406
+Catholic,Randolph-Macon,96
+Catholic,PSU-Abington,437
+Catholic,Penn State-Behrend,367
+Catholic,Ohio Wesleyan,421
+Catholic,NYU,225
+Catholic,Northwestern MN,1107
+Catholic,Millsaps,993
+Catholic,Messiah,121
+Catholic,Merchant Marine,251
+Catholic,ME Maritime,678
+Catholic,McMurry,1518
+Catholic,MA Dartmouth,490
+Catholic,Lebanon Val,137
+Catholic,Johns Hopkins,37
+Catholic,Immaculata,219
+Catholic,Illinois Wesleyan,743
+Catholic,Hunter,225
+Catholic,Hope,675
+Catholic,Hardin-Simmons,1522
+Catholic,Gustavus Adolphus,1138
+Catholic,Gettysburg,85
+Catholic,Geneseo St.,343
+Catholic,Elizabethtown,113
+Catholic,East Texas Baptist,1244
+Catholic,Cortland,340
+Catholic,Colorado Col,1641
+Catholic,Christopher Newport,176
+Catholic,Chatham,240
+Catholic,Carnegie Mellon,243
+Catholic,Cal Lutheran,2680
+Catholic,Bridgewater MA,441
+Catholic,Bowdoin,567
+Catholic,Bethel,1107
+Catholic,Belhaven MS,1012
+Catholic,Bates,572
+Catholic,Baldwin Wallace,370
+Catholic,Amherst,391
+Carnegie Mellon,Whitman,2393
+Carnegie Mellon,Webster,613
+Carnegie Mellon,WashU,605
+Carnegie Mellon,Washington & Lee,316
+Carnegie Mellon,Wartburg,768
+Carnegie Mellon,W New England,501
+Carnegie Mellon,Vassar,397
+Carnegie Mellon,UW-Whitewater,565
+Carnegie Mellon,UW-Stout,803
+Carnegie Mellon,UW-Stevens Point,725
+Carnegie Mellon,UW-Oshkosh,637
+Carnegie Mellon,UW-La Crosse,743
+Carnegie Mellon,TX Lutheran,1472
+Carnegie Mellon,Tufts,578
+Carnegie Mellon,Trinity (Conn),471
+Carnegie Mellon,Trine,301
+Carnegie Mellon,Transylvania,372
+Carnegie Mellon,TCNJ,329
+Carnegie Mellon,St. Norbert,667
+Carnegie Mellon,St. Joseph's ME,689
+Carnegie Mellon,Smith,515
+Carnegie Mellon,Scranton,283
+Carnegie Mellon,S Virginia,639
+Carnegie Mellon,Roger Williams,568
+Carnegie Mellon,Ripon,1273
+Carnegie Mellon,Rhode Island College,552
+Carnegie Mellon,Randolph-Macon,329
+Carnegie Mellon,PSU-Abington,569
+Carnegie Mellon,Penn State-Behrend,129
+Carnegie Mellon,Ohio Wesleyan,210
+Carnegie Mellon,NYU,370
+Carnegie Mellon,Northwestern MN,870
+Carnegie Mellon,Millsaps,973
+Carnegie Mellon,Messiah,199
+Carnegie Mellon,Merchant Marine,398
+Carnegie Mellon,ME Maritime,809
+Carnegie Mellon,McMurry,1393
+Carnegie Mellon,MA Dartmouth,641
+Carnegie Mellon,Lebanon Val,223
+Carnegie Mellon,Johns Hopkins,248
+Carnegie Mellon,Immaculata,141
+Carnegie Mellon,Illinois Wesleyan,530
+Carnegie Mellon,Hunter,371
+Carnegie Mellon,Hope,438
+Carnegie Mellon,Hardin-Simmons,1388
+Carnegie Mellon,Gustavus Adolphus,905
+Carnegie Mellon,Gettysburg,186
+Carnegie Mellon,Geneseo St.,268
+Carnegie Mellon,Elizabethtown,222
+Carnegie Mellon,East Texas Baptist,1120
+Carnegie Mellon,Cortland,340
+Carnegie Mellon,Colorado Col,1429
+Carnegie Mellon,Christopher Newport,406
+Carnegie Mellon,Chatham,5
+Carnegie Mellon,Catholic,243
+Carnegie Mellon,Cal Lutheran,2467
+Carnegie Mellon,Bridgewater MA,588
+Carnegie Mellon,Bowdoin,697
+Carnegie Mellon,Bethel,870
+Carnegie Mellon,Belhaven MS,995
+Carnegie Mellon,Bates,702
+Carnegie Mellon,Baldwin Wallace,132
+Carnegie Mellon,Amherst,522
+Cal Lutheran,Whitman,1048
+Cal Lutheran,Webster,1857
+Cal Lutheran,WashU,1867
+Cal Lutheran,Washington & Lee,2525
+Cal Lutheran,Wartburg,1865
+Cal Lutheran,W New England,2947
+Cal Lutheran,Vassar,2860
+Cal Lutheran,UW-Whitewater,2059
+Cal Lutheran,UW-Stout,2028
+Cal Lutheran,UW-Stevens Point,2115
+Cal Lutheran,UW-Oshkosh,2108
+Cal Lutheran,UW-La Crosse,1997
+Cal Lutheran,TX Lutheran,1432
+Cal Lutheran,Tufts,3031
+Cal Lutheran,Trinity (Conn),2933
+Cal Lutheran,Trine,2212
+Cal Lutheran,Transylvania,2202
+Cal Lutheran,TCNJ,2776
+Cal Lutheran,St. Norbert,2152
+Cal Lutheran,St. Joseph's ME,3142
+Cal Lutheran,Smith,2950
+Cal Lutheran,Scranton,2746
+Cal Lutheran,S Virginia,2526
+Cal Lutheran,Roger Williams,3023
+Cal Lutheran,Ripon,2099
+Cal Lutheran,Rhode Island College,3009
+Cal Lutheran,Randolph-Macon,2663
+Cal Lutheran,PSU-Abington,3053
+Cal Lutheran,Penn State-Behrend,2489
+Cal Lutheran,Ohio Wesleyan,2292
+Cal Lutheran,NYU,2816
+Cal Lutheran,Northwestern MN,1976
+Cal Lutheran,Millsaps,1890
+Cal Lutheran,Messiah,2645
+Cal Lutheran,Merchant Marine,2844
+Cal Lutheran,ME Maritime,3264
+Cal Lutheran,McMurry,1302
+Cal Lutheran,MA Dartmouth,3098
+Cal Lutheran,Lebanon Val,2670
+Cal Lutheran,Johns Hopkins,2684
+Cal Lutheran,Immaculata,2616
+Cal Lutheran,Illinois Wesleyan,2028
+Cal Lutheran,Hunter,2822
+Cal Lutheran,Hope,2193
+Cal Lutheran,Hardin-Simmons,1301
+Cal Lutheran,Gustavus Adolphus,1890
+Cal Lutheran,Gettysburg,2632
+Cal Lutheran,Geneseo St.,2628
+Cal Lutheran,Elizabethtown,2668
+Cal Lutheran,East Texas Baptist,1637
+Cal Lutheran,Cortland,2753
+Cal Lutheran,Colorado Col,1123
+Cal Lutheran,Christopher Newport,2729
+Cal Lutheran,Chatham,2472
+Cal Lutheran,Catholic,2680
+Cal Lutheran,Carnegie Mellon,2467
+Cal Lutheran,Bridgewater MA,3039
+Cal Lutheran,Bowdoin,3152
+Cal Lutheran,Bethel,1978
+Cal Lutheran,Belhaven MS,1929
+Cal Lutheran,Bates,3158
+Cal Lutheran,Baldwin Wallace,2381
+Cal Lutheran,Amherst,2956
+Bridgewater MA,Whitman,2931
+Bridgewater MA,Webster,1179
+Bridgewater MA,WashU,1170
+Bridgewater MA,Washington & Lee,627
+Bridgewater MA,Wartburg,1306
+Bridgewater MA,W New England,104
+Bridgewater MA,Vassar,215
+Bridgewater MA,UW-Whitewater,1103
+Bridgewater MA,UW-Stout,1340
+Bridgewater MA,UW-Stevens Point,1261
+Bridgewater MA,UW-Oshkosh,1174
+Bridgewater MA,UW-La Crosse,1279
+Bridgewater MA,TX Lutheran,2007
+Bridgewater MA,Tufts,38
+Bridgewater MA,Trinity (Conn),118
+Bridgewater MA,Trine,837
+Bridgewater MA,Transylvania,922
+Bridgewater MA,TCNJ,276
+Bridgewater MA,St. Norbert,1205
+Bridgewater MA,St. Joseph's ME,154
+Bridgewater MA,Smith,119
+Bridgewater MA,Scranton,308
+Bridgewater MA,S Virginia,1259
+Bridgewater MA,Roger Williams,36
+Bridgewater MA,Ripon,1172
+Bridgewater MA,Rhode Island College,40
+Bridgewater MA,Randolph-Macon,536
+Bridgewater MA,PSU-Abington,32
+Bridgewater MA,Penn State-Behrend,552
+Bridgewater MA,Ohio Wesleyan,764
+Bridgewater MA,NYU,218
+Bridgewater MA,Northwestern MN,1405
+Bridgewater MA,Millsaps,1417
+Bridgewater MA,Messiah,398
+Bridgewater MA,Merchant Marine,214
+Bridgewater MA,ME Maritime,275
+Bridgewater MA,McMurry,1949
+Bridgewater MA,MA Dartmouth,165
+Bridgewater MA,Lebanon Val,374
+Bridgewater MA,Johns Hopkins,409
+Bridgewater MA,Immaculata,447
+Bridgewater MA,Illinois Wesleyan,1105
+Bridgewater MA,Hunter,219
+Bridgewater MA,Hope,874
+Bridgewater MA,Hardin-Simmons,1948
+Bridgewater MA,Gustavus Adolphus,1442
+Bridgewater MA,Gettysburg,428
+Bridgewater MA,Geneseo St.,425
+Bridgewater MA,Elizabethtown,394
+Bridgewater MA,East Texas Baptist,1668
+Bridgewater MA,Cortland,339
+Bridgewater MA,Colorado Col,1996
+Bridgewater MA,Christopher Newport,611
+Bridgewater MA,Chatham,583
+Bridgewater MA,Catholic,441
+Bridgewater MA,Carnegie Mellon,587
+Bridgewater MA,Cal Lutheran,3039
+Bridgewater MA,Bowdoin,165
+Bridgewater MA,Bethel,1406
+Bridgewater MA,Belhaven MS,1424
+Bridgewater MA,Bates,169
+Bridgewater MA,Baldwin Wallace,671
+Bridgewater MA,Amherst,110
+Bowdoin,Whitman,3043
+Bowdoin,Webster,1315
+Bowdoin,WashU,1308
+Bowdoin,Washington & Lee,748
+Bowdoin,Wartburg,1414
+Bowdoin,W New England,214
+Bowdoin,Vassar,327
+Bowdoin,UW-Whitewater,1212
+Bowdoin,UW-Stout,1452
+Bowdoin,UW-Stevens Point,1373
+Bowdoin,UW-Oshkosh,1286
+Bowdoin,UW-La Crosse,1389
+Bowdoin,TX Lutheran,2130
+Bowdoin,Tufts,134
+Bowdoin,Trinity (Conn),228
+Bowdoin,Trine,950
+Bowdoin,Transylvania,1043
+Bowdoin,TCNJ,399
+Bowdoin,St. Norbert,1316
+Bowdoin,St. Joseph's ME,47
+Bowdoin,Smith,228
+Bowdoin,Scranton,418
+Bowdoin,S Virginia,752
+Bowdoin,Roger Williams,195
+Bowdoin,Ripon,1283
+Bowdoin,Rhode Island College,185
+Bowdoin,Randolph-Macon,659
+Bowdoin,PSU-Abington,134
+Bowdoin,Penn State-Behrend,668
+Bowdoin,Ohio Wesleyan,873
+Bowdoin,NYU,341
+Bowdoin,Northwestern MN,1516
+Bowdoin,Millsaps,1540
+Bowdoin,Messiah,520
+Bowdoin,Merchant Marine,337
+Bowdoin,ME Maritime,116
+Bowdoin,McMurry,2075
+Bowdoin,MA Dartmouth,195
+Bowdoin,Lebanon Val,500
+Bowdoin,Johns Hopkins,531
+Bowdoin,Immaculata,558
+Bowdoin,Illinois Wesleyan,1215
+Bowdoin,Hunter,341
+Bowdoin,Hope,985
+Bowdoin,Hardin-Simmons,2069
+Bowdoin,Gustavus Adolphus,1548
+Bowdoin,Gettysburg,549
+Bowdoin,Geneseo St.,536
+Bowdoin,Elizabethtown,517
+Bowdoin,East Texas Baptist,1791
+Bowdoin,Cortland,452
+Bowdoin,Colorado Col,2130
+Bowdoin,Christopher Newport,738
+Bowdoin,Chatham,693
+Bowdoin,Catholic,564
+Bowdoin,Carnegie Mellon,700
+Bowdoin,Cal Lutheran,3151
+Bowdoin,Bridgewater MA,165
+Bowdoin,Bethel,1517
+Bowdoin,Belhaven MS,1548
+Bowdoin,Bates,22
+Bowdoin,Baldwin Wallace,780
+Bowdoin,Amherst,202
+Bethel,Whitman,1488
+Bethel,Webster,537
+Bethel,WashU,541
+Bethel,Washington & Lee,1085
+Bethel,Wartburg,212
+Bethel,W New England,1314
+Bethel,Vassar,1227
+Bethel,UW-Whitewater,308
+Bethel,UW-Stout,72
+Bethel,UW-Stevens Point,209
+Bethel,UW-Oshkosh,286
+Bethel,UW-La Crosse,160
+Bethel,TX Lutheran,1200
+Bethel,Tufts,1398
+Bethel,Trinity (Conn),1300
+Bethel,Trine,579
+Bethel,Transylvania,783
+Bethel,TCNJ,1193
+Bethel,St. Norbert,283
+Bethel,St. Joseph's ME,1506
+Bethel,Smith,1316
+Bethel,Scranton,1112
+Bethel,S Virginia,1091
+Bethel,Roger Williams,1390
+Bethel,Ripon,263
+Bethel,Rhode Island College,1375
+Bethel,Randolph-Macon,1192
+Bethel,PSU-Abington,1392
+Bethel,Penn State-Behrend,856
+Bethel,Ohio Wesleyan,724
+Bethel,NYU,1200
+Bethel,Northwestern MN,3
+Bethel,Millsaps,1015
+Bethel,Messiah,1062
+Bethel,Merchant Marine,1219
+Bethel,ME Maritime,1631
+Bethel,McMurry,1090
+Bethel,MA Dartmouth,1362
+Bethel,Lebanon Val,1087
+Bethel,Johns Hopkins,1112
+Bethel,Immaculata,983
+Bethel,Illinois Wesleyan,462
+Bethel,Hunter,1200
+Bethel,Hope,561
+Bethel,Hardin-Simmons,1084
+Bethel,Gustavus Adolphus,79
+Bethel,Gettysburg,1049
+Bethel,Geneseo St.,995
+Bethel,Elizabethtown,1085
+Bethel,East Texas Baptist,993
+Bethel,Cortland,1120
+Bethel,Colorado Col,993
+Bethel,Christopher Newport,1270
+Bethel,Chatham,875
+Bethel,Catholic,1108
+Bethel,Carnegie Mellon,870
+Bethel,Cal Lutheran,1978
+Bethel,Bridgewater MA,1408
+Bethel,Bowdoin,1520
+Bethel,Belhaven MS,1016
+Bethel,Bates,1524
+Bethel,Baldwin Wallace,748
+Bethel,Amherst,1322
+Belhaven MS,Whitman,2300
+Belhaven MS,Webster,489
+Belhaven MS,WashU,490
+Belhaven MS,Washington & Lee,794
+Belhaven MS,Wartburg,835
+Belhaven MS,W New England,1371
+Belhaven MS,Vassar,1280
+Belhaven MS,UW-Whitewater,829
+Belhaven MS,UW-Stout,1046
+Belhaven MS,UW-Stevens Point,953
+Belhaven MS,UW-Oshkosh,928
+Belhaven MS,UW-La Crosse,921
+Belhaven MS,TX Lutheran,608
+Belhaven MS,Tufts,1451
+Belhaven MS,Trinity (Conn),1330
+Belhaven MS,Trine,836
+Belhaven MS,Transylvania,624
+Belhaven MS,TCNJ,1174
+Belhaven MS,St. Norbert,990
+Belhaven MS,St. Joseph's ME,1534
+Belhaven MS,Smith,1382
+Belhaven MS,Scranton,1152
+Belhaven MS,S Virginia,795
+Belhaven MS,Roger Williams,1426
+Belhaven MS,Ripon,919
+Belhaven MS,Rhode Island College,1394
+Belhaven MS,Randolph-Macon,952
+Belhaven MS,PSU-Abington,1423
+Belhaven MS,Penn State-Behrend,1030
+Belhaven MS,Ohio Wesleyan,812
+Belhaven MS,NYU,1220
+Belhaven MS,Northwestern MN,1015
+Belhaven MS,Millsaps,1
+Belhaven MS,Messiah,1044
+Belhaven MS,Merchant Marine,1251
+Belhaven MS,ME Maritime,1652
+Belhaven MS,McMurry,594
+Belhaven MS,MA Dartmouth,1478
+Belhaven MS,Lebanon Val,1078
+Belhaven MS,Johns Hopkins,1041
+Belhaven MS,Immaculata,1139
+Belhaven MS,Illinois Wesleyan,654
+Belhaven MS,Hunter,1236
+Belhaven MS,Hope,856
+Belhaven MS,Hardin-Simmons,593
+Belhaven MS,Gustavus Adolphus,1022
+Belhaven MS,Gettysburg,1025
+Belhaven MS,Geneseo St.,1199
+Belhaven MS,Elizabethtown,1075
+Belhaven MS,East Texas Baptist,264
+Belhaven MS,Cortland,1250
+Belhaven MS,Colorado Col,1277
+Belhaven MS,Christopher Newport,1015
+Belhaven MS,Chatham,974
+Belhaven MS,Catholic,1012
+Belhaven MS,Carnegie Mellon,995
+Belhaven MS,Cal Lutheran,1928
+Belhaven MS,Bridgewater MA,1424
+Belhaven MS,Bowdoin,1548
+Belhaven MS,Bethel,1016
+Belhaven MS,Bates,1559
+Belhaven MS,Baldwin Wallace,925
+Belhaven MS,Amherst,1389
+Bates,Whitman,3047
+Bates,Webster,1320
+Bates,WashU,1312
+Bates,Washington & Lee,753
+Bates,Wartburg,1418
+Bates,W New England,219
+Bates,Vassar,332
+Bates,UW-Whitewater,1216
+Bates,UW-Stout,1457
+Bates,UW-Stevens Point,1377
+Bates,UW-Oshkosh,1291
+Bates,UW-La Crosse,1394
+Bates,TX Lutheran,2135
+Bates,Tufts,138
+Bates,Trinity (Conn),233
+Bates,Trine,954
+Bates,Transylvania,1048
+Bates,TCNJ,403
+Bates,St. Norbert,1320
+Bates,St. Joseph's ME,29
+Bates,Smith,233
+Bates,Scranton,422
+Bates,S Virginia,757
+Bates,Roger Williams,199
+Bates,Ripon,1287
+Bates,Rhode Island College,190
+Bates,Randolph-Macon,663
+Bates,PSU-Abington,148
+Bates,Penn State-Behrend,672
+Bates,Ohio Wesleyan,878
+Bates,NYU,346
+Bates,Northwestern MN,1521
+Bates,Millsaps,1545
+Bates,Messiah,528
+Bates,Merchant Marine,341
+Bates,ME Maritime,116
+Bates,McMurry,2079
+Bates,MA Dartmouth,155
+Bates,Lebanon Val,505
+Bates,Johns Hopkins,535
+Bates,Immaculata,562
+Bates,Illinois Wesleyan,1220
+Bates,Hunter,344
+Bates,Hope,988
+Bates,Hardin-Simmons,2074
+Bates,Gustavus Adolphus,1552
+Bates,Gettysburg,554
+Bates,Geneseo St.,541
+Bates,Elizabethtown,522
+Bates,East Texas Baptist,1789
+Bates,Cortland,456
+Bates,Colorado Col,2135
+Bates,Christopher Newport,741
+Bates,Chatham,698
+Bates,Catholic,568
+Bates,Carnegie Mellon,702
+Bates,Cal Lutheran,3155
+Bates,Bridgewater MA,169
+Bates,Bowdoin,22
+Bates,Bethel,1524
+Bates,Belhaven MS,1559
+Bates,Baldwin Wallace,785
+Bates,Amherst,206
+Baldwin Wallace,Whitman,2271
+Baldwin Wallace,Webster,557
+Baldwin Wallace,WashU,547
+Baldwin Wallace,Washington & Lee,433
+Baldwin Wallace,Wartburg,646
+Baldwin Wallace,W New England,577
+Baldwin Wallace,Vassar,488
+Baldwin Wallace,UW-Whitewater,443
+Baldwin Wallace,UW-Stout,681
+Baldwin Wallace,UW-Stevens Point,601
+Baldwin Wallace,UW-Oshkosh,514
+Baldwin Wallace,UW-La Crosse,619
+Baldwin Wallace,TX Lutheran,1419
+Baldwin Wallace,Tufts,661
+Baldwin Wallace,Trinity (Conn),562
+Baldwin Wallace,Trine,178
+Baldwin Wallace,Transylvania,318
+Baldwin Wallace,TCNJ,455
+Baldwin Wallace,St. Norbert,545
+Baldwin Wallace,St. Joseph's ME,772
+Baldwin Wallace,Smith,579
+Baldwin Wallace,Scranton,374
+Baldwin Wallace,S Virginia,439
+Baldwin Wallace,Roger Williams,652
+Baldwin Wallace,Ripon,512
+Baldwin Wallace,Rhode Island College,637
+Baldwin Wallace,Randolph-Macon,454
+Baldwin Wallace,PSU-Abington,677
+Baldwin Wallace,Penn State-Behrend,119
+Baldwin Wallace,Ohio Wesleyan,115
+Baldwin Wallace,NYU,462
+Baldwin Wallace,Northwestern MN,746
+Baldwin Wallace,Millsaps,920
+Baldwin Wallace,Messiah,324
+Baldwin Wallace,Merchant Marine,482
+Baldwin Wallace,ME Maritime,894
+Baldwin Wallace,McMurry,1337
+Baldwin Wallace,MA Dartmouth,621
+Baldwin Wallace,Lebanon Val,349
+Baldwin Wallace,Johns Hopkins,374
+Baldwin Wallace,Immaculata,245
+Baldwin Wallace,Illinois Wesleyan,445
+Baldwin Wallace,Hunter,462
+Baldwin Wallace,Hope,316
+Baldwin Wallace,Hardin-Simmons,1332
+Baldwin Wallace,Gustavus Adolphus,778
+Baldwin Wallace,Gettysburg,312
+Baldwin Wallace,Geneseo St.,257
+Baldwin Wallace,Elizabethtown,347
+Baldwin Wallace,East Texas Baptist,1067
+Baldwin Wallace,Cortland,383
+Baldwin Wallace,Colorado Col,1372
+Baldwin Wallace,Christopher Newport,532
+Baldwin Wallace,Chatham,137
+Baldwin Wallace,Catholic,370
+Baldwin Wallace,Carnegie Mellon,133
+Baldwin Wallace,Cal Lutheran,2380
+Baldwin Wallace,Bridgewater MA,671
+Baldwin Wallace,Bowdoin,780
+Baldwin Wallace,Bethel,747
+Baldwin Wallace,Belhaven MS,925
+Baldwin Wallace,Bates,785
+Baldwin Wallace,Amherst,586
+Amherst,Whitman,2846
+Amherst,Webster,1133
+Amherst,WashU,1137
+Amherst,Washington & Lee,581
+Amherst,Wartburg,1221
+Amherst,W New England,30
+Amherst,Vassar,139
+Amherst,UW-Whitewater,1018
+Amherst,UW-Stout,1255
+Amherst,UW-Stevens Point,1180
+Amherst,UW-Oshkosh,1092
+Amherst,UW-La Crosse,1195
+Amherst,TX Lutheran,1957
+Amherst,Tufts,85
+Amherst,Trinity (Conn),53
+Amherst,Trine,753
+Amherst,Transylvania,872
+Amherst,TCNJ,225
+Amherst,St. Norbert,1121
+Amherst,St. Joseph's ME,191
+Amherst,Smith,7
+Amherst,Scranton,243
+Amherst,S Virginia,579
+Amherst,Roger Williams,123
+Amherst,Ripon,1088
+Amherst,Rhode Island College,104
+Amherst,Randolph-Macon,484
+Amherst,PSU-Abington,95
+Amherst,Penn State-Behrend,473
+Amherst,Ohio Wesleyan,692
+Amherst,NYU,169
+Amherst,Northwestern MN,1322
+Amherst,Millsaps,1367
+Amherst,Messiah,347
+Amherst,Merchant Marine,163
+Amherst,ME Maritime,313
+Amherst,McMurry,1899
+Amherst,MA Dartmouth,108
+Amherst,Lebanon Val,325
+Amherst,Johns Hopkins,359
+Amherst,Immaculata,382
+Amherst,Illinois Wesleyan,1020
+Amherst,Hunter,168
+Amherst,Hope,789
+Amherst,Hardin-Simmons,1896
+Amherst,Gustavus Adolphus,1353
+Amherst,Gettysburg,376
+Amherst,Geneseo St.,341
+Amherst,Elizabethtown,344
+Amherst,East Texas Baptist,1618
+Amherst,Cortland,255
+Amherst,Colorado Col,1949
+Amherst,Christopher Newport,562
+Amherst,Chatham,518
+Amherst,Catholic,391
+Amherst,Carnegie Mellon,522
+Amherst,Cal Lutheran,2955
+Amherst,Bridgewater MA,125
+Amherst,Bowdoin,202
+Amherst,Bethel,1322
+Amherst,Belhaven MS,1389
+Amherst,Bates,206
+Amherst,Baldwin Wallace,585
