@@ -1,33 +1,33 @@
 team_a,team_a_actual_seed,team_b,team_b_actual_seed,pod_name,quadrant_name,team_a_true_seed,team_a_seed_diff,team_b_true_seed,team_b_seed_diff,team_a_conf,team_b_conf,team_a_reg,team_b_reg
-Bowdoin,1,Hunter,16,Q1_P1,Q1,1,0,16,0,NESCAC,CUNYAC,1,4
-S Virginia,8,McMurry,9,Q1_P1,Q1,8,0,9,0,USAC,SCAC,6,10
-East Texas Baptist,5,Bridgewater MA,12,Q1_P2,Q1,5,0,12,0,ASC,MASCAC,10,1
-Johns Hopkins,4,ME Maritime,13,Q1_P2,Q1,4,0,13,0,CC,NAC,5,1
+East Texas Baptist,1,Hunter,16,Q1_P1,Q1,1,0,16,0,NESCAC,CUNYAC,1,4
+S Virginia,8,Immaculata,9,Q1_P1,Q1,8,0,9,0,USAC,SCAC,6,10
+Colorado Col,5,Bridgewater MA,12,Q1_P2,Q1,5,0,12,0,ASC,MASCAC,10,1
+Johns Hopkins,4,Roger Williams,13,Q1_P2,Q1,4,0,13,0,CC,NAC,5,1
 UW-Stout,6,Rhode Island College,11,Q1_P3,Q1,6,0,11,0,WIAC,LEC,9,2
-Baldwin Wallace,3,Millsaps,14,Q1_P3,Q1,3,0,14,0,OAC,SAA,7,6
-Colorado Col,7,Hope,10,Q1_P4,Q1,7,0,10,0,SCAC,MIAA,10,7
-Illinois Wesleyan,2,TCNJ,15,Q1_P4,Q1,2,0,15,0,CCIW,NJAC,8,4
-UW-Oshkosh,1,Northwestern MN,16,Q2_P1,Q2,1,0,16,0,WIAC,UMAC,9,9
+Baldwin Wallace,3,St. Joseph's ME,14,Q1_P3,Q1,3,0,14,0,OAC,SAA,7,6
+Wartburg,7,Hope,10,Q1_P4,Q1,7,0,10,0,SCAC,MIAA,10,7
+Illinois Wesleyan,2,Lebanon Val,15,Q1_P4,Q1,2,0,15,0,CCIW,NJAC,8,4
+Merchant Marine,1,Northwestern MN,16,Q2_P1,Q2,1,0,16,0,WIAC,UMAC,9,9
 Elizabethtown,8,Trinity (Conn),9,Q2_P1,Q2,8,0,9,0,LAND,NESCAC,5,1
-W New England,5,Hardin-Simmons,12,Q2_P2,Q2,5,0,12,0,CNE,ASC,2,10
-Bethel,4,Vassar,13,Q2_P2,Q2,4,0,13,0,MIAC,LL,9,3
-Carnegie Mellon,6,St. Norbert,11,Q2_P3,Q2,6,0,11,0,UAA,NACC,7,8
-Smith,3,Roger Williams,14,Q2_P3,Q2,3,0,14,0,NEWMAC,CNE,2,2
-UW-Whitewater,7,Ripon,10,Q2_P4,Q2,7,0,10,0,WIAC,MWC,9,9
+NYU,5,Hardin-Simmons,12,Q2_P2,Q2,5,0,12,0,CNE,ASC,2,10
+Bethel,4,Geneseo St.,13,Q2_P2,Q2,4,0,13,0,MIAC,LL,9,3
+Washington & Lee,6,St. Norbert,11,Q2_P3,Q2,6,0,11,0,UAA,NACC,7,8
+Smith,3,Vassar,14,Q2_P3,Q2,3,0,14,0,NEWMAC,CNE,2,2
+Scranton,7,Ripon,10,Q2_P4,Q2,7,0,10,0,WIAC,MWC,9,9
 Gustavus Adolphus,2,Cal Lutheran,15,Q2_P4,Q2,2,0,15,0,MIAC,SCIAC,9,10
-NYU,1,Belhaven MS,16,Q3_P1,Q3,1,0,16,0,UAA,CCS,4,6
+Bowdoin,1,Belhaven MS,16,Q3_P1,Q3,1,0,16,0,UAA,CCS,4,6
 Cortland,8,Amherst,9,Q3_P1,Q3,8,0,9,0,SUNYAC,NESCAC,3,1
-Catholic,5,UW-La Crosse,12,Q3_P2,Q3,5,0,12,0,LAND,WIAC,5,9
-Ohio Wesleyan,4,Geneseo St.,13,Q3_P2,Q3,4,0,13,0,NCAC,E8,7,3
-Messiah,6,TX Lutheran,11,Q3_P3,Q3,6,0,11,0,MACC,SCAC,5,10
-Randolph-Macon,3,St. Joseph's ME,14,Q3_P3,Q3,3,0,14,0,ODAC,GNAC,6,1
-Wartburg,7,Transylvania,10,Q3_P4,Q3,7,0,10,0,ARC,HCAC,9,8
-Whitman,2,Lebanon Val,15,Q3_P4,Q3,2,0,15,0,NWC,MACF,10,4
-Scranton,1,PSU-Abington,16,Q4_P1,Q4,1,0,16,0,LAND,UEC,5,4
-Tufts,8,Bates,9,Q4_P1,Q4,8,0,9,0,NESCAC,NESCAC,1,1
-MA Dartmouth,5,Webster,12,Q4_P2,Q4,5,0,12,0,LEC,SLIAC,2,8
-Christopher Newport,4,Immaculata,13,Q4_P2,Q4,4,0,13,0,C2C,AEC,6,5
-Merchant Marine,6,UW-Stevens Point,11,Q4_P3,Q4,6,0,11,0,SKY,WIAC,3,9
-Trine,3,Chatham,14,Q4_P3,Q4,3,0,14,0,MIAA,PAC,7,7
-Washington & Lee,7,WashU,10,Q4_P4,Q4,7,0,10,0,ODAC,UAA,6,8
-Gettysburg,2,Penn State-Behrend,15,Q4_P4,Q4,2,0,15,0,CC,AMCC,5,7
+MA Dartmouth,5,UW-La Crosse,12,Q3_P2,Q3,5,0,12,0,LAND,WIAC,5,9
+Ohio Wesleyan,4,TCNJ,13,Q3_P2,Q3,4,0,13,0,NCAC,E8,7,3
+UW-Whitewater,6,TX Lutheran,11,Q3_P3,Q3,6,0,11,0,MACC,SCAC,5,10
+Randolph-Macon,3,Chatham,14,Q3_P3,Q3,3,0,14,0,ODAC,GNAC,6,1
+Catholic,7,Transylvania,10,Q3_P4,Q3,7,0,10,0,ARC,HCAC,9,8
+Whitman,2,McMurry,15,Q3_P4,Q3,2,0,15,0,NWC,MACF,10,4
+Messiah,1,PSU-Abington,16,Q4_P1,Q4,1,0,16,0,LAND,UEC,5,4
+Tufts,8,Millsaps,9,Q4_P1,Q4,8,0,9,0,NESCAC,NESCAC,1,1
+Carnegie Mellon,5,Webster,12,Q4_P2,Q4,5,0,12,0,LEC,SLIAC,2,8
+Christopher Newport,4,Penn State-Behrend,13,Q4_P2,Q4,4,0,13,0,C2C,AEC,6,5
+W New England,6,UW-Stevens Point,11,Q4_P3,Q4,6,0,11,0,SKY,WIAC,3,9
+Trine,3,ME Maritime,14,Q4_P3,Q4,3,0,14,0,MIAA,PAC,7,7
+UW-Oshkosh,7,WashU,10,Q4_P4,Q4,7,0,10,0,ODAC,UAA,6,8
+Gettysburg,2,Bates,15,Q4_P4,Q4,2,0,15,0,CC,AMCC,5,7

@@ -227,8 +227,6 @@ def run_bracket_generator():
     try:
         # Initialize bracket generator
         generator = BracketGenerator(base_path, year)
-        # Print teams with quadrant seeds
-        generator.print_teams_with_quadrant_seeds()
         # Print initial data summary
         print(f"\nLoaded {len(generator.teams)} teams")
         for team in generator.get_teams_by_seed_range(1, 8):

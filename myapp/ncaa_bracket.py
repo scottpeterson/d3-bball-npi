@@ -1,9 +1,13 @@
 import csv
+import math
 import random
 from dataclasses import dataclass
 from itertools import combinations
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+
+import numpy as np
+from sklearn.cluster import DBSCAN, KMeans
 
 
 @dataclass
@@ -152,57 +156,45 @@ class BracketGenerator:
             key=lambda x: x.overall_seed,
         )
 
-    def calculate_seed_difference(
-        self, team: NCAABracketTeam, assigned_seed: int
+    def score_matchup(
+        self,
+        team_a: NCAABracketTeam,
+        team_b: NCAABracketTeam,
+        actual_seed_a: int,
+        actual_seed_b: int,
     ) -> float:
         """
-        Calculates the seed difference penalty for a team.
-        Should be zero if the true quadrant seed matches the actual seed.
+        Scores a single matchup based on multiple criteria.
+        Lower score is better.
         """
-        # Get the quadrant seed for this team
-        team_quadrant_seed = self.get_quadrant_seed(team.overall_seed)
+        score = 0.0
 
-        # Calculate difference only if quadrant seeds don't match
-        return -abs(team_quadrant_seed - assigned_seed) * 0.75
+        # Seeding penalty
+        seed_diff_a = abs(self.get_quadrant_seed(team_a.overall_seed) - actual_seed_a)
+        seed_diff_b = abs(self.get_quadrant_seed(team_b.overall_seed) - actual_seed_b)
+        score += (seed_diff_a + seed_diff_b) * 0.75
 
-    def check_pod_travel(
-        self, pod_teams: List[NCAABracketTeam], host_team: NCAABracketTeam
-    ) -> int:
-        """
-        Returns number of necessary flights in a pod.
-        A flight is needed if any team is more than 500 miles from the host.
-        """
-        flights = 0
-        for team in pod_teams:
-            if team.team != host_team.team:
-                if self.get_distance(team.team, host_team.team) > 500:
-                    flights += 1
-        return flights
+        # Non-conference rematch penalty
+        if (team_a.team, team_b.team) in self.regular_season_matchups or (
+            team_b.team,
+            team_a.team,
+        ) in self.regular_season_matchups:
+            score += 3.0
 
-    def score_pod_diversity(
-        self, pod_teams: List[NCAABracketTeam]
-    ) -> Tuple[float, float]:
-        """Returns (region_score, conference_score) for a pod."""
-        # Ensure exactly 4 teams
-        assert len(pod_teams) == 4, f"Expected 4 teams, got {len(pod_teams)}"
+        # Flight penalty
+        distance = self.get_distance(team_a.team, team_b.team)
+        if distance > 500:
+            score += 750.0
 
-        regions = set(team.region for team in pod_teams)
-        conferences = set(team.conference for team in pod_teams)
+        # Same region penalty
+        if team_a.region == team_b.region:
+            score += 1.0
 
-        # Scoring logic that rewards diversity within a 4-team pod
-        region_score = {
-            4: 1.5,  # All 4 regions different
-            3: 1.0,  # 3 different regions
-            2: 0.5,  # 2 different regions
-        }.get(len(regions), 0)
+        # Same conference penalty
+        if team_a.conference == team_b.conference:
+            score += 1220
 
-        conference_score = {
-            4: 1.5,  # All 4 conferences different
-            3: 1.0,  # 3 different conferences
-            2: 0.5,  # 2 different conferences
-        }.get(len(conferences), 0)
-
-        return region_score, conference_score
+        return score
 
     def get_quadrant_seed(self, overall_seed: int) -> int:
         """Calculate quadrant seed (1-16) from overall seed (1-64)"""
@@ -282,13 +274,6 @@ class BracketGenerator:
         # Sort teams by overall seed
         teams_by_seed = sorted(teams, key=lambda x: x.overall_seed)
 
-        # Debug print teams and their quadrant seeds
-        print(f"\nTeams in {quadrant}:")
-        for team in teams_by_seed:
-            print(
-                f"Team: {team.team}, Overall Seed: {team.overall_seed}, Quadrant Seed: {self.get_quadrant_seed(team.overall_seed)}"
-            )
-
         matchups = []
         used_teams = set()
 
@@ -310,16 +295,6 @@ class BracketGenerator:
                     key=lambda x: abs(
                         self.get_quadrant_seed(x.overall_seed) - low_seed
                     ),
-                )
-
-                # Debug print selected teams
-                print(f"\nLooking for {pod_name} matchup:")
-                print(f"Seeking high seed {high_seed}, low seed {low_seed}")
-                print(
-                    f"High Team: {high_team.team} (Quadrant Seed: {self.get_quadrant_seed(high_team.overall_seed)})"
-                )
-                print(
-                    f"Low Team: {low_team.team} (Quadrant Seed: {self.get_quadrant_seed(low_team.overall_seed)})"
                 )
 
                 # Mark teams as used
@@ -387,156 +362,199 @@ class BracketGenerator:
         """
         total_score = 0.0
 
-        # Group matchups by quadrant and pod
-        quadrant_pods = {}
         for matchup in matchups:
-            if matchup.quadrant_name not in quadrant_pods:
-                quadrant_pods[matchup.quadrant_name] = {}
-
-            pod = matchup.pod_name
-            if pod not in quadrant_pods[matchup.quadrant_name]:
-                quadrant_pods[matchup.quadrant_name][pod] = []
-
-            quadrant_pods[matchup.quadrant_name][pod].extend(
-                [matchup.team_a, matchup.team_b]
+            team_a = self.get_team(matchup.team_a)
+            team_b = self.get_team(matchup.team_b)
+            total_score += self.score_matchup(
+                team_a, team_b, matchup.team_a_actual_seed, matchup.team_b_actual_seed
             )
 
-        # Score each pod in each quadrant
-        for quadrant, pods in quadrant_pods.items():
-            for pod, pod_teams in pods.items():
-                # Ensure we have exactly 4 teams in the pod
-                if len(pod_teams) != 4:
-                    raise ValueError(f"Pod {pod} in {quadrant} does not have 4 teams")
-
-                # Look up full team details
-                full_pod_teams = [self.get_team(team) for team in pod_teams]
-
-                # Seed Difference Penalty
-                for team_name in pod_teams:
-                    team = self.get_team(team_name)
-                    # Find the matching matchup to get the actual seed
-                    matchup = next(
-                        m
-                        for m in matchups
-                        if m.pod_name == pod
-                        and (m.team_a == team_name or m.team_b == team_name)
-                    )
-                    seed = (
-                        matchup.team_a_actual_seed
-                        if team_name == matchup.team_a
-                        else matchup.team_b_actual_seed
-                    )
-
-                    diff_penalty = self.calculate_seed_difference(team, seed)
-                    total_score += diff_penalty
-
-                # Host team (first team in the pod)
-                host_team = full_pod_teams[0]
-
-                # Travel Penalty
-                travel_penalty = self.check_pod_travel(full_pod_teams, host_team) * 2.0
-                total_score += travel_penalty
-
-                # Diversity Bonus
-                region_score, conference_score = self.score_pod_diversity(
-                    full_pod_teams
-                )
-                total_score -= region_score + conference_score
-
         return total_score
+
+    def assign_regional_pods(self, teams: List[NCAABracketTeam], num_regions: int = 8):
+        """
+        Groups teams into regional pods based on geographic proximity.
+        Ensures that teams are initially placed in geographically logical regions.
+        """
+
+        # Convert team locations into coordinates
+        team_locations = np.array([(team.latitude, team.longitude) for team in teams])
+
+        # Cluster teams into `num_regions` regions using K-Means
+        kmeans = KMeans(n_clusters=num_regions, n_init=10, random_state=42)
+        clusters = kmeans.fit_predict(team_locations)
+
+        # Assign each team to a regional pod
+        for i, team in enumerate(teams):
+            team.region = clusters[i]
+
+        return teams
+
+    def assign_dynamic_regions(self, teams: List[NCAABracketTeam]):
+        """
+        Dynamically assigns teams to regional pods based on actual travel distances.
+        Uses DBSCAN to form natural clusters instead of forcing an equal number of regions.
+        """
+        coords = np.array([(team.latitude, team.longitude) for team in teams])
+
+        # DBSCAN parameters: eps controls cluster tightness, min_samples ensures enough teams per region
+        clustering = DBSCAN(eps=500, min_samples=4, metric="euclidean").fit(coords)
+
+        for i, team in enumerate(teams):
+            team.region = clustering.labels_[i]  # Assign each team to a region
+
+        return teams
 
     def optimize_bracket(
         self, initial_bracket: List[NCAABracketMatchup], iterations: int = 1000
     ) -> List[NCAABracketMatchup]:
         """
-        Attempts to optimize bracket through iterative improvements.
-
-        Strategy:
-        1. Start with initial bracket
-        2. Generate small random modifications
-        3. Accept modifications that improve the score
-        4. Use simulated annealing-like approach
+        Optimizes the bracket by iteratively swapping teams to improve the overall score.
+        Uses simulated annealing, prioritizing pod-based travel and region balance.
         """
-        import random
 
         current_bracket = initial_bracket.copy()
         current_score = self.score_bracket(current_bracket)
         best_bracket = current_bracket
         best_score = current_score
 
-        for _ in range(iterations):
-            # Create a copy of the current bracket to modify
+        # Simulated annealing parameters
+        initial_temperature = 50.0
+        cooling_rate = 0.95
+        temperature = initial_temperature
+
+        max_flights_allowed = 4  # Hard limit on flights
+
+        # Step 1: Group matchups into 4-team pods
+        pods = [
+            current_bracket[i : i + 2] for i in range(0, len(current_bracket), 2)
+        ]  # Each pod contains 2 matchups
+
+        for iteration in range(iterations):
             modified_bracket = current_bracket.copy()
+            modified_pods = [
+                modified_bracket[i : i + 2] for i in range(0, len(modified_bracket), 2)
+            ]  # Regenerate pods
 
-            # Attempt a small modification (e.g., swap teams within a pod)
             try:
-                # Select a random quadrant
-                quadrants = list(
-                    set(matchup.quadrant_name for matchup in modified_bracket)
-                )
-                selected_quadrant = random.choice(quadrants)
+                # Select a pod to modify
+                pod1 = random.choice(modified_pods)
 
-                # Get matchups in this quadrant
-                quadrant_matchups = [
-                    m for m in modified_bracket if m.quadrant_name == selected_quadrant
+                # Find another pod **preferably within 500 miles**
+                nearby_pods = [
+                    pod
+                    for pod in modified_pods
+                    if self.get_distance(pod1[0].team_a, pod[0].team_a) < 500
                 ]
 
-                # Randomly select two matchups to potentially swap
-                if len(quadrant_matchups) >= 2:
-                    m1, m2 = random.sample(quadrant_matchups, 2)
+                # If we found a nearby pod, prioritize swapping within it
+                if nearby_pods:
+                    pod2 = random.choice(nearby_pods)
+                else:
+                    pod2 = random.choice(modified_pods)  # Fallback to random pod swap
 
-                    # Swap teams while preserving actual seeds
-                    m1.team_a, m2.team_a = m2.team_a, m1.team_a
-                    m1.team_b, m2.team_b = m2.team_b, m1.team_b
+                # Swap only one team between pods
+                if random.random() < 0.5:
+                    pod1[0].team_a, pod2[0].team_a = pod2[0].team_a, pod1[0].team_a
+                else:
+                    pod1[1].team_b, pod2[1].team_b = pod2[1].team_b, pod1[1].team_b
 
-                    # Recalculate score
-                    new_score = self.score_bracket(modified_bracket)
+                # Step 2: Recalculate flights at the pod level
+                current_flights = sum(
+                    self.calculate_flights_per_pod(pod) for pod in pods
+                )
+                new_flights = sum(
+                    self.calculate_flights_per_pod(pod) for pod in modified_pods
+                )
 
-                    # Accept if score improves
-                    if new_score < current_score:
-                        current_bracket = modified_bracket
-                        current_score = new_score
+                # **Enforce a hard cap on flights**
+                if new_flights > max_flights_allowed:
+                    continue  # Reject this swap if flights exceed limit
 
-                        # Update best bracket if needed
-                        if current_score < best_score:
-                            best_bracket = current_bracket
-                            best_score = current_score
+                # **Heavy penalty for flight increase**
+                flight_penalty_weight = 1000
+                flight_score_delta = (
+                    new_flights - current_flights
+                ) * flight_penalty_weight
+                new_score = self.score_bracket(modified_bracket) + flight_score_delta
+
+                # **Region balance score**: favor brackets where regions stay balanced
+                region_balance_score = sum(
+                    abs(
+                        len(
+                            [
+                                match
+                                for match in modified_bracket
+                                if match.team_a.region == r
+                            ]
+                        )
+                        - len(
+                            [
+                                match
+                                for match in modified_bracket
+                                if match.team_b.region == r
+                            ]
+                        )
+                    )
+                    for r in set(match.team_a.region for match in modified_bracket)
+                )
+
+                # Add region balance penalty
+                new_score += region_balance_score * 10  # Adjust weight as needed
+
+                # **Reduce Seeding Penalty Further**
+                seeding_weight = 0.2  # Allows for even more flexibility
+
+                # Calculate acceptance probability (simulated annealing)
+                delta_score = new_score - current_score
+                acceptance_probability = (
+                    math.exp(-delta_score / temperature) if delta_score > 0 else 1.0
+                )
+
+                # Accept swap if score improves or with some probability
+                if random.random() < acceptance_probability:
+                    current_bracket = modified_bracket
+                    current_score = new_score
+                    pods = modified_pods  # Update pods
+
+                    # Update best bracket if needed
+                    if current_score < best_score:
+                        best_bracket = current_bracket
+                        best_score = current_score
 
             except Exception:
-                # If modification fails, continue to next iteration
-                continue
+                continue  # Skip failed swap attempts
+
+            # Cool down temperature
+            temperature *= cooling_rate
 
         return best_bracket
+
+    def calculate_flights_per_pod(self, pod: List[NCAABracketMatchup]) -> int:
+        """
+        Determines the number of flights required for a given 4-team pod.
+        A flight is counted if any team must fly to the pod host.
+        """
+        # The host should ideally be the highest-seeded team (1 or 2)
+        host_team = min(
+            [match.team_a for match in pod] + [match.team_b for match in pod],
+            key=lambda team: team.overall_seed,
+        )
+
+        flights = sum(
+            1
+            for match in pod
+            for team in [match.team_a, match.team_b]
+            if self.get_distance(team, host_team) > 500
+        )
+
+        return flights
 
     def generate_bracket(self) -> List[NCAABracketMatchup]:
         """Main function to generate and optimize bracket."""
         initial_bracket = self.create_initial_bracket()
-        # optimized_bracket = self.optimize_bracket(initial_bracket)
-        # return optimized_bracket
-        return initial_bracket
-
-    def print_teams_with_quadrant_seeds(self):
-        """Prints all teams with their corresponding quadrant seeds (1-16)."""
-
-        # Calculate quadrant seed (1-16) from overall seed (1-64)
-        def get_quadrant_seed(overall_seed):
-            return ((overall_seed - 1) % 16) + 1
-
-        # Sort teams by overall seed
-        sorted_teams = sorted(self.teams, key=lambda x: x.overall_seed)
-
-        print("\nTeams with Quadrant Seeds:")
-        print("-" * 60)
-        print(
-            f"{'Overall Seed':<15} {'Quadrant Seed':<15} {'Team':<30} {'Conference':<10}"
-        )
-        print("-" * 60)
-
-        for team in sorted_teams:
-            quadrant_seed = get_quadrant_seed(team.overall_seed)
-            print(
-                f"{team.overall_seed:<15} {quadrant_seed:<15} {team.team:<30} {team.conference:<10}"
-            )
+        optimized_bracket = self.optimize_bracket(initial_bracket)
+        return optimized_bracket
 
 
 def write_bracket_to_file(bracket: List[NCAABracketMatchup], filename: str):
