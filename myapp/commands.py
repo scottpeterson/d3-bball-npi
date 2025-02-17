@@ -18,6 +18,7 @@ from .simulation import (
     load_efficiency_data,
     predict_and_simulate_game,
     simulate_full_season,
+    simulate_multiple_tournaments,
 )
 from .team_id_getter import team_ids_getter
 
@@ -260,6 +261,49 @@ def run_bracket_generator():
         print(f"Error generating bracket: {e}")
 
 
+def run_multiple_tournament_simulations():
+    """Run multiple tournament simulations and generate statistics"""
+    year = "2025"
+    base_path = Path(__file__).parent / "data"
+    NUM_SIMULATIONS = 1000
+
+    try:
+        print(f"\nStarting {NUM_SIMULATIONS} tournament simulations...")
+        print("-" * 50)
+
+        # Load team data
+        valid_teams = load_teams(base_path, year)
+        team_data = load_efficiency_data(base_path, int(year))
+
+        if simulate_multiple_tournaments(
+            base_path, year, NUM_SIMULATIONS, team_data, valid_teams
+        ):
+            stats_file = base_path / year / "tournament_stats.csv"
+            print(f"\nSimulation statistics have been saved to: {stats_file}")
+
+            # Print top 20 teams by avg wins
+            print("\nTop 20 Teams by Average Wins:")
+            print("-" * 50)
+            with open(stats_file, "r") as f:
+                reader = csv.DictReader(f)
+                sorted_teams = sorted(
+                    reader, key=lambda x: float(x["avg_wins"]), reverse=True
+                )[:20]
+                for team in sorted_teams:
+                    print(
+                        f"{team['team_name']}: {float(team['championship_pct']):.1f}% championships, "
+                        f"avg wins: {float(team['avg_wins']):.2f}"
+                    )
+        else:
+            print("\nSimulations failed")
+
+    except Exception as e:
+        print(f"Error in simulations: {e}")
+        import traceback
+
+        traceback.print_exc()
+
+
 if __name__ == "__main__":
     commands = {
         "bidirectional": run_bidirectional,
@@ -272,6 +316,7 @@ if __name__ == "__main__":
         "massey": run_massey_ratings_getter,
         "teams": run_team_ids_getter,
         "generate_bracket": run_bracket_generator,
+        "simulate_tournament": run_multiple_tournament_simulations,
     }
 
     if len(sys.argv) < 2 or sys.argv[1] not in commands:
@@ -289,6 +334,7 @@ if __name__ == "__main__":
         print("run massey ratings getter")
         print("run team ids getter")
         print(" generate_bracket - Generate NCAA tournament bracket")
+        print(" simulate_tournament - Simulate NCAA tournament games")
         sys.exit(1)
 
     commands[sys.argv[1]]()

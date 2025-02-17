@@ -1,4 +1,5 @@
 import math
+from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Set, Tuple
 
@@ -11,6 +12,11 @@ from .conf_tournaments import (
     simulate_conference_tournaments,
 )
 from .elo_simulator import EloSimulator
+from .ncaa_tournament_simulator import (
+    NCAATournamentSimulator,
+    TeamTournamentStats,
+    save_tournament_stats,
+)
 
 
 def calculate_win_probability(
@@ -300,4 +306,54 @@ def simulate_full_season(
 
     except Exception as e:
         print(f"Error in season simulation inside simulate_full_season(): {e}")
+        return False
+
+
+def simulate_multiple_tournaments(
+    base_path: Path,
+    year: str,
+    num_sims: int,
+    team_data: Dict[str, Tuple[float, float]],
+    valid_teams: Dict[str, str],
+) -> bool:
+    """Run multiple tournament simulations and generate statistics"""
+    try:
+        games_file = base_path / year / "tourn_games.txt"
+        stats_file = base_path / year / "tournament_stats.csv"
+
+        # Initialize empty stats collection
+        all_team_stats: Dict[str, List[TeamTournamentStats]] = defaultdict(list)
+
+        # Run simulations
+        for sim_num in range(num_sims):
+            # Create fresh simulator for each run
+            simulator = EloSimulator()
+            simulator.initialize_ratings(team_data)
+            tourney = NCAATournamentSimulator(simulator)
+
+            # Load fresh tournament games
+            tourney.load_tournament_games(games_file)
+
+            # Simulate each round
+            rounds = [64, 32, 16, 8, 4, 2]
+            for round_num in rounds:
+                tourney.simulate_round(round_num, team_data)
+                if round_num > 2:
+                    tourney.generate_next_round_games(round_num)
+
+            # Record final stats for this simulation
+            current_sim_stats = tourney.get_tournament_stats()
+            for team_id, stats in current_sim_stats.items():
+                all_team_stats[team_id].append(stats)
+
+            # Print progress
+            if (sim_num + 1) % 100 == 0:
+                print(f"Completed {sim_num + 1} simulations")
+
+        # Save aggregated stats
+        save_tournament_stats(stats_file, all_team_stats, valid_teams, num_sims)
+        return True
+
+    except Exception as e:
+        print(f"Error in tournament simulations: {e}")
         return False
