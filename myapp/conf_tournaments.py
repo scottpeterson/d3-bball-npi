@@ -240,7 +240,6 @@ def simulate_conference_tournaments(
 
         # Handle first round if tournament hasn't started
         if not conf_completed_games and remaining_teams:
-            # Create first round matchups (highest vs lowest seed)
             first_round_standings = [
                 s
                 for s in standings[: structure.total_teams]
@@ -251,18 +250,16 @@ def simulate_conference_tournaments(
 
             next_round_teams = []
             for higher_seed, lower_seed in matchups:
-                # Handle C2C conference venue logic
-                team1_home = True  # Default: higher seed is home
+                team1_home = True
                 team2_home = False
                 if conf == "C2C":
                     if lower_seed.team_id == "236":
-                        # Mt. Mary is lower seed - swap home teams
                         team1_home = False
                         team2_home = True
                     elif higher_seed.team_id != "236":
-                        # Neither team is Mt. Mary - neutral site
                         team1_home = False
                         team2_home = False
+
                 game = simulate_tournament_game(
                     higher_seed.team_id,
                     lower_seed.team_id,
@@ -291,40 +288,60 @@ def simulate_conference_tournaments(
                 for team_id in remaining_teams
             ]
 
-            if structure.reseeding:
+            tournament_teams = standings[: structure.total_teams]
+            if len(tournament_teams) == 5 and structure.byes == 3:
+                # Special case: In 5-team/3-bye tournaments, 4/5 winner must play 1 seed
+                current_team_standings.sort(key=lambda x: standings.index(x))
+            elif (
+                len(tournament_teams) == 7
+                and structure.byes == 1
+                and not structure.reseeding
+            ):
+                # Special case: In 7-team/1-bye tournaments:
+                # - 4/5 winner must play 1 seed
+                # - 2/7 winner must play 3/6 winner
+                if len(remaining_teams) == 4:  # Semifinal round
+                    seed_positions = {s.team_id: i for i, s in enumerate(standings)}
+                    # Sort by seed to get 1,2,3,4 ordering
+                    current_team_standings.sort(key=lambda x: seed_positions[x.team_id])
+                    # Reorder to get proper semifinals: 1 vs 4/5 winner, 2/7 winner vs 3/6 winner
+                    # We know 4/5 winner will be seed 4 after sort
+                    # We want: [1, 2/7 winner, 3/6 winner, 4/5 winner]
+                    current_team_standings = [
+                        current_team_standings[0],  # 1 seed
+                        current_team_standings[1],  # Next highest seed (2/7 winner)
+                        current_team_standings[2],  # Next highest seed (3/6 winner)
+                        current_team_standings[3],  # 4/5 winner
+                    ]
+            elif structure.reseeding:
                 current_team_standings.sort(key=lambda x: standings.index(x))
 
             matchups = pair_teams_by_seed(current_team_standings)
             round_name = get_round_name(len(remaining_teams))
-            next_round_teams = []
 
+            next_round_teams = []
             for higher_seed, lower_seed in matchups:
-                # Handle C2C conference venue logic
-                team1_home = True  # Default: higher seed is home
+                team1_home = True
                 team2_home = False
                 if conf == "C2C":
                     if lower_seed.team_id == "236":
-                        # Mt. Mary is lower seed - swap home teams
                         team1_home = False
                         team2_home = True
                     elif higher_seed.team_id != "236":
-                        # Neither team is Mt. Mary - neutral site
                         team1_home = False
                         team2_home = False
                 elif conf == "CCIW":
                     if round_name in ["Final", "Semifinal"]:
-                        # All games at Illinois Wesleyan (team_id 160)
                         team1_home = higher_seed.team_id == "160"
                         team2_home = lower_seed.team_id == "160"
                         if not (team1_home or team2_home):
-                            # Neither team is Illinois Wesleyan - neutral site
                             team1_home = False
                             team2_home = False
                 elif conf == "ODAC":
                     if round_name in ["Final", "Semifinal"]:
-                        # All games at neutral site
                         team1_home = False
                         team2_home = False
+
                 game = simulate_tournament_game(
                     higher_seed.team_id,
                     lower_seed.team_id,
@@ -428,22 +445,8 @@ def determine_tournament_state(
     tournament_structure: ConferenceTournament,
     standings: List[ConferenceStanding],
 ) -> Tuple[List[str], List[str], str]:
-    """
-    Determine the current state of a conference tournament.
-
-    Args:
-        completed_games: List of completed tournament games for this conference
-        tournament_structure: Tournament configuration
-        standings: Conference standings in seed order
-
-    Returns:
-        Tuple containing:
-        - List of team IDs still active in tournament
-        - List of team IDs with first round byes
-        - Date to use for next game (based on last completed game)
-    """
     if not completed_games:
-        # Tournament hasn't started - get initial tournament teams and byes
+        # Tournament hasn't started
         tournament_teams = standings[: tournament_structure.total_teams]
         bye_teams = [
             team.team_id for team in tournament_teams[: tournament_structure.byes]
@@ -451,13 +454,11 @@ def determine_tournament_state(
         active_teams = [
             team.team_id for team in tournament_teams[tournament_structure.byes :]
         ]
-        return active_teams, bye_teams, "20250302"  # Start date
+        return active_teams, bye_teams, "20250302"
 
-    # Sort games chronologically
     completed_games.sort(key=lambda x: x["date"])
     next_game_date = str(int(completed_games[-1]["date"]) + 1).zfill(8)
 
-    # Track winners from each completed game
     winners = []
     for game in completed_games:
         winner_id = (
@@ -466,8 +467,8 @@ def determine_tournament_state(
             else game["team2_id"]
         )
         winners.append(winner_id)
+    print(f"Winners from completed games: {winners}")
 
-    # Get teams that had byes and haven't played yet
     tournament_teams = standings[: tournament_structure.total_teams]
     bye_teams = [team.team_id for team in tournament_teams[: tournament_structure.byes]]
     all_played_teams = set()
@@ -477,8 +478,8 @@ def determine_tournament_state(
     unplayed_bye_teams = [
         team_id for team_id in bye_teams if team_id not in all_played_teams
     ]
+    print(f"Unplayed bye teams: {unplayed_bye_teams}")
 
-    # Active teams are winners of last round plus unplayed bye teams
     round_sizes = get_tournament_round_sizes(
         len(tournament_teams), tournament_structure.byes
     )
@@ -488,6 +489,7 @@ def determine_tournament_state(
     active_teams = (
         winners[-(current_round_size - len(unplayed_bye_teams)) :] + unplayed_bye_teams
     )
+    print(f"Active teams for next round: {active_teams}")
 
     return active_teams, [], next_game_date
 

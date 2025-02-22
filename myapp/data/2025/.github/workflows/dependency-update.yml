@@ -1,0 +1,44 @@
+name: Update Dependencies
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Run weekly at midnight on Sunday
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+          
+      - name: Install pip-tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install pip-tools
+          
+      - name: Update dependencies
+        run: |
+          # Create requirements.in if it doesn't exist
+          if [ ! -f requirements.in ]; then
+            # Extract base packages without versions
+            grep -v '==' requirements.txt | grep -v '^#' > requirements.in
+          fi
+          
+          # Compile with upgraded dependencies
+          pip-compile --upgrade requirements.in -o requirements.txt
+          
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Update dependencies
+          title: Dependency Updates
+          body: |
+            This PR updates Python dependencies to their latest versions.
+            Automatically created by GitHub Actions.
+          branch: dependency-updates
+          base: main
