@@ -141,13 +141,25 @@ def run_single_simulation(base_path: Path, year: str, sim_number: int) -> Tuple[
         ]
 
         # Process conference tournament games
-        tournament_structures = load_tournament_structures(base_path, year)
+        tournament_structures, conference_end_dates = load_tournament_structures(
+            base_path, year
+        )
         for game in tournament_games:
+            # Skip if teams don't exist in conference_teams
+            if (
+                game["team1_id"] not in conference_teams
+                or game["team2_id"] not in conference_teams
+            ):
+                continue
+
             team1_conf = conference_teams[game["team1_id"]].conference
             team2_conf = conference_teams[game["team2_id"]].conference
 
             if team1_conf == team2_conf:
-                tournament = tournament_structures[team1_conf]
+                tournament = tournament_structures.get(team1_conf)
+                if not tournament:
+                    continue
+
                 round_name = determine_tournament_round(tournament)
 
                 conference_games.append(
@@ -174,15 +186,29 @@ def run_single_simulation(base_path: Path, year: str, sim_number: int) -> Tuple[
 
         # Get auto bid recipients
         auto_bid_recipients = set()
+
         for team_id, team_stats in final_teams.items():
             if not team_stats["has_games"]:
                 continue
 
-            if team_id in conference_champions:
+            team_conf = conference_teams.get(team_id)
+            if not team_conf:
+                continue
+
+            conf_name = team_conf.conference
+
+            # Check if this team is a conference champion
+            is_champion = (
+                conf_name in conference_champions
+                and conference_champions[conf_name] == team_id
+            )
+
+            # Award auto bid to conference champions
+            if is_champion:
                 auto_bid_recipients.add(team_id)
-            elif conference_teams[
-                team_id
-            ].conference == "UAA" and is_uaa_regular_season_champion(
+
+            # Special case for UAA
+            elif conf_name == "UAA" and is_uaa_regular_season_champion(
                 team_id, season_results, conference_teams
             ):
                 auto_bid_recipients.add(team_id)
@@ -202,7 +228,7 @@ def run_single_simulation(base_path: Path, year: str, sim_number: int) -> Tuple[
             if not team_stats["has_games"]:
                 continue
 
-            team_name = valid_teams[team_id]
+            team_name = valid_teams.get(team_id, f"Unknown-{team_id}")
             wins = team_stats["wins"]
             losses = team_stats["losses"]
             npi = team_stats["npi"]
@@ -261,6 +287,10 @@ def calculate_team_stats(
     team_stats = {}
     print(f"\nProcessing results for {len(all_results)} teams")
 
+    # Debug counters for Millsaps
+    millsaps_auto_bids = 0
+    millsaps_total_sims = 0
+
     # First pass - calculate all basic stats
     for team_id, results in all_results.items():
         if not results:
@@ -273,9 +303,9 @@ def calculate_team_stats(
         auto_bids = sum(1 for r in results if r.got_auto_bid)
         at_large_bids = sum(1 for r in results if r.got_at_large)
         tournament_appearances = sum(1 for r in results if r.made_tournament)
-        top_4_appearances = sum(1 for r in results if r.made_top_4)  # New calculation
-        top_8_appearances = sum(1 for r in results if r.made_top_8)  # New calculation
-        top_16_appearances = sum(1 for r in results if r.made_top_16)  # New calculation
+        top_4_appearances = sum(1 for r in results if r.made_top_4)
+        top_8_appearances = sum(1 for r in results if r.made_top_8)
+        top_16_appearances = sum(1 for r in results if r.made_top_16)
         total_sims = len(results)
 
         # Calculate ALWYNI (At-Large When You Need It)
@@ -318,9 +348,9 @@ def calculate_team_stats(
             qf_pool_c_pct=qf_pool_c_pct,
             sf_pool_c_pct=sf_pool_c_pct,
             f_pool_c_pct=f_pool_c_pct,
-            top_4_pct=(top_4_appearances / total_sims) * 100,  # New percentage
-            top_8_pct=(top_8_appearances / total_sims) * 100,  # New percentage
-            top_16_pct=(top_16_appearances / total_sims) * 100,  # New percentage
+            top_4_pct=(top_4_appearances / total_sims) * 100,
+            top_8_pct=(top_8_appearances / total_sims) * 100,
+            top_16_pct=(top_16_appearances / total_sims) * 100,
         )
 
     # Second pass - assign ranks based on tournament_pct
@@ -638,22 +668,52 @@ def get_conference_champions(
     """Extract conference tournament champions and their conferences."""
     champions = {}
 
-    # Filter for tournament games (assuming tournament games are after a specific date)
-    tournament_games = [game for game in season_results if game["date"] >= "20250302"]
+    # Load tournament structures to get the end dates for each conference
+    base_path = Path(__file__).parent / "data"
+    year = "2025"  # This should be dynamically determined based on your code
+    tournament_structures, conference_end_dates = load_tournament_structures(
+        base_path, year
+    )
 
-    # Group tournament games by conference
+    # Group tournament games by conference using conference-specific end dates
     conference_games = defaultdict(list)
-    for game in tournament_games:
+    for game in season_results:
+        # Skip games with missing team IDs
+        if (
+            game["team1_id"] not in conference_teams
+            or game["team2_id"] not in conference_teams
+        ):
+            continue
+
         team1_conf = conference_teams[game["team1_id"]].conference
         team2_conf = conference_teams[game["team2_id"]].conference
 
-        # Skip UAA conference games
+        # Skip UAA conference games (as you noted, this is correct)
         if team1_conf == "UAA" or team2_conf == "UAA":
             continue
 
         # Only consider games within the same conference
         if team1_conf == team2_conf:
-            conference_games[team1_conf].append(game)
+            conf = team1_conf
+
+            # Check if this game is after the conference's regular season end date
+            if conf in conference_end_dates:
+                end_date = conference_end_dates[conf]
+                if game["date"] > end_date:
+                    conference_games[conf].append(game)
+
+    # Debug output to verify
+    print(f"Conferences with tournament games: {len(conference_games)}")
+    for conf, games in conference_games.items():
+        print(f"  {conf}: {len(games)} games")
+
+    # Check SAA specifically
+    if "SAA" in conference_games:
+        print(f"SAA games found: {len(conference_games['SAA'])}")
+        for game in sorted(conference_games["SAA"], key=lambda x: x["date"]):
+            print(
+                f"  {game['date']}: {game['team1_id']} vs {game['team2_id']} ({game['team1_score']}-{game['team2_score']})"
+            )
 
     # Find the championship game for each conference
     for conf, conf_games in conference_games.items():
@@ -671,7 +731,8 @@ def get_conference_champions(
                 else championship_game["team2_id"]
             )
 
-            champions[winner_id] = conf
+            # Store as conference -> winner_id
+            champions[conf] = winner_id
 
     return champions
 
@@ -691,7 +752,6 @@ def get_conference_tournament_results(
         team1_id = game["team1_id"]
         team2_id = game["team2_id"]
         if team1_id not in conference_teams or team2_id not in conference_teams:
-            print(f"DEBUG: Skipping game due to missing team: {team1_id} vs {team2_id}")
             continue
 
         conf = conference_teams[team1_id].conference

@@ -72,7 +72,13 @@ def load_tournament_structures(
                 provisional_teams=provisional_teams,
             )
 
-    return tournaments
+    # Build a dictionary with conference names as keys and their regular season end dates as values
+    conference_end_dates = {
+        conf: tournament.regular_season_end_date
+        for conf, tournament in tournaments.items()
+    }
+
+    return tournaments, conference_end_dates
 
 
 def calculate_conference_standings(
@@ -219,8 +225,34 @@ def simulate_conference_tournaments(
     team_data: Dict[str, Tuple[float, float]],
     completed_games: List[dict],
 ) -> Tuple[List[dict], Dict[str, str]]:
+    """
+    Simulate conference tournaments accounting for games already played.
+
+    Args:
+        conference_teams: Dictionary mapping team IDs to conference info
+        tournament_structures: Dictionary of conference tournament structures
+        conference_standings: Dictionary of conference standings
+        team_data: Team performance data (NPI, etc.)
+        completed_games: List of all completed games
+
+    Returns:
+        Tuple of (tournament_games, conference_champions)
+    """
     all_tournament_games = []
     conference_champions = {}
+
+    # Load the base data (conference metadata and conference end dates)
+    base_path = Path(__file__).parent / "data"
+    tournament_structures, conference_end_dates = load_tournament_structures(
+        base_path, "2025"
+    )
+
+    # Get ALL completed tournament games upfront
+    all_completed_tournament_games = get_completed_tournament_games(
+        games=completed_games,
+        team_conference_data=conference_teams,
+        conference_tournament_info=conference_end_dates,
+    )
 
     for conf, structure in tournament_structures.items():
         if structure.total_teams == 0 or conf not in conference_standings:
@@ -230,10 +262,31 @@ def simulate_conference_tournaments(
         if len(standings) < structure.total_teams:
             continue
 
-        # Get current tournament state
-        conf_completed_games = get_completed_tournament_games(
-            completed_games, structure.regular_season_end_date, conf
-        )
+        # Filter tournament games for just this conference
+        conf_completed_games = []
+        for game in all_completed_tournament_games:
+            team1_id = game.get("team1_id")
+            team2_id = game.get("team2_id")
+
+            team1 = conference_teams.get(team1_id)
+            team2 = conference_teams.get(team2_id)
+
+            # Skip if team info missing
+            if not team1 or not team2:
+                continue
+
+            # Check if both teams are from current conference
+            if team1.conference == conf and team2.conference == conf:
+                # Add the conference and potentially the round information if missing
+                if "conference" not in game:
+                    game["conference"] = conf
+
+                conf_completed_games.append(game)
+
+        # Add already completed tournament games to our results
+        all_tournament_games.extend(conf_completed_games)
+
+        # Determine tournament state based on completed games and remaining teams
         remaining_teams, bye_teams, tournament_date = determine_tournament_state(
             conf_completed_games, structure, standings[: structure.total_teams]
         )
@@ -363,11 +416,35 @@ def simulate_conference_tournaments(
             remaining_teams = next_round_teams
             tournament_date = str(int(tournament_date) + 1).zfill(8)
 
-        champion_id = get_conference_champion(
-            conf, structure.provisional_teams, all_tournament_games
-        )
-        if champion_id:
-            conference_champions[conf] = champion_id
+        # Only if we have teams to process, get the conference champion
+        if remaining_teams:
+            # The last team remaining should be the champion
+            final_team_id = remaining_teams[0]
+            print(f"Final team remaining for {conf}: {final_team_id}")
+
+            # Extra verification with get_conference_champion
+            champion_id = get_conference_champion(
+                conf, structure.provisional_teams, all_tournament_games
+            )
+
+            # Log if there's a discrepancy
+            if champion_id != final_team_id and champion_id is not None:
+                print(
+                    f"WARNING: Champion discrepancy for {conf}. Last team: {final_team_id}, get_conference_champion: {champion_id}"
+                )
+
+            # Use the champion from get_conference_champion if available, otherwise use the last remaining team
+            final_champion_id = (
+                champion_id if champion_id is not None else final_team_id
+            )
+
+            if final_champion_id:
+                conference_champions[conf] = final_champion_id
+                print(f"Conference champion for {conf}: {final_champion_id}")
+            else:
+                print(f"WARNING: No eligible champion for {conf}")
+        else:
+            print(f"WARNING: No remaining teams for {conf}")
 
     return all_tournament_games, conference_champions
 
@@ -417,27 +494,37 @@ def get_round_name(remaining_teams: int) -> str:
 
 
 def get_completed_tournament_games(
-    games: List[dict], regular_season_end_date: str, conference: str
-) -> List[dict]:
-    """
-    Extract completed tournament games for a specific conference.
+    games, team_conference_data, conference_tournament_info
+):
+    completed_games = []
+    for game in games:
+        # First check if game is completed
+        team1_score = game.get("team1_score", 0)
+        team2_score = game.get("team2_score", 0)
+        if team1_score == 0 and team2_score == 0:
+            continue  # Skip uncompleted games
 
-    Args:
-        games: List of all completed games
-        regular_season_end_date: Date string marking end of regular season (YYYYMMDD)
-        conference: Conference identifier to filter games
+        game_date = game.get("date")
+        team1_id = game.get("team1_id")
+        team2_id = game.get("team2_id")
 
-    Returns:
-        List of completed tournament games for the conference
-    """
-    return [
-        game
-        for game in games
-        if (
-            game["date"] > regular_season_end_date
-            and game.get("conference") == conference
-        )
-    ]
+        team1_conference = team_conference_data.get(team1_id)
+        team2_conference = team_conference_data.get(team2_id)
+
+        if not team1_conference or not team2_conference:
+            continue
+
+        team1_conf_name = team1_conference.conference
+        team2_conf_name = team2_conference.conference
+
+        if team1_conf_name != team2_conf_name:
+            continue
+
+        reg_season_end_date = conference_tournament_info.get(team1_conf_name)
+        if reg_season_end_date and int(game_date) > int(reg_season_end_date):
+            completed_games.append(game)
+
+    return completed_games
 
 
 def determine_tournament_state(
@@ -445,6 +532,19 @@ def determine_tournament_state(
     tournament_structure: ConferenceTournament,
     standings: List[ConferenceStanding],
 ) -> Tuple[List[str], List[str], str]:
+    """
+    Determine the current state of a conference tournament.
+
+    Args:
+        completed_games: List of completed tournament games for the conference
+        tournament_structure: Structure of the tournament
+        standings: Conference standings in seed order
+
+    Returns:
+        Tuple of (active_teams, bye_teams, next_game_date)
+    """
+    conf = tournament_structure.conference
+
     if not completed_games:
         # Tournament hasn't started
         tournament_teams = standings[: tournament_structure.total_teams]
@@ -456,9 +556,26 @@ def determine_tournament_state(
         ]
         return active_teams, bye_teams, "20250302"
 
+    # Sort games chronologically
     completed_games.sort(key=lambda x: x["date"])
     next_game_date = str(int(completed_games[-1]["date"]) + 1).zfill(8)
 
+    # Analyze the completed games to determine what round we're in
+    # Count how many games have been played
+    num_completed = len(completed_games)
+    total_teams = tournament_structure.total_teams
+    num_byes = tournament_structure.byes
+
+    # Calculate number of teams in each round
+    round_info = get_tournament_rounds(total_teams, num_byes)
+
+    # Find all teams that participated in games
+    participating_teams = set()
+    for game in completed_games:
+        participating_teams.add(game["team1_id"])
+        participating_teams.add(game["team2_id"])
+
+    # Find winner of each game
     winners = []
     for game in completed_games:
         winner_id = (
@@ -467,31 +584,131 @@ def determine_tournament_state(
             else game["team2_id"]
         )
         winners.append(winner_id)
-    print(f"Winners from completed games: {winners}")
 
+    # Get teams with byes that haven't played yet
     tournament_teams = standings[: tournament_structure.total_teams]
     bye_teams = [team.team_id for team in tournament_teams[: tournament_structure.byes]]
-    all_played_teams = set()
-    for game in completed_games:
-        all_played_teams.add(game["team1_id"])
-        all_played_teams.add(game["team2_id"])
     unplayed_bye_teams = [
-        team_id for team_id in bye_teams if team_id not in all_played_teams
+        team_id for team_id in bye_teams if team_id not in participating_teams
     ]
-    print(f"Unplayed bye teams: {unplayed_bye_teams}")
 
-    round_sizes = get_tournament_round_sizes(
-        len(tournament_teams), tournament_structure.byes
-    )
-    current_round_size = next(
-        size for size in round_sizes if size >= len(winners) + len(unplayed_bye_teams)
-    )
-    active_teams = (
-        winners[-(current_round_size - len(unplayed_bye_teams)) :] + unplayed_bye_teams
-    )
-    print(f"Active teams for next round: {active_teams}")
+    # Determine which round we're in based on games played
+    expected_games_so_far = 0
+    current_round_idx = -1
 
+    for i, (round_name, num_teams, num_games) in enumerate(round_info):
+        expected_games_so_far += num_games
+        if num_completed <= expected_games_so_far:
+            current_round_idx = i
+            break
+
+    if current_round_idx == -1:
+        # This shouldn't happen, but in case it does, assume we're in the final round
+        current_round_idx = len(round_info) - 1
+
+    # Get the current round name and details
+    current_round = round_info[current_round_idx]
+    print(
+        f"Current round determined to be: {current_round[0]} with {current_round[1]} teams"
+    )
+
+    # If we've completed exactly the number of games for this round, we move to the next round
+    if (
+        num_completed == expected_games_so_far
+        and current_round_idx < len(round_info) - 1
+    ):
+        # We've completed this round, move to the next one
+        current_round_idx += 1
+        current_round = round_info[current_round_idx]
+        print(
+            f"Advancing to next round: {current_round[0]} with {current_round[1]} teams"
+        )
+
+        # The winners of the completed games plus any unplayed bye teams move to the next round
+        # Only take the most recent winners to form the next round
+        recent_winners = winners[-current_round[1] + len(unplayed_bye_teams) :]
+        active_teams = recent_winners + unplayed_bye_teams
+    else:
+        # We're still in the current round, some games might be finished
+        # Calculate how many games have been played in this round
+        games_in_this_round = num_completed - (expected_games_so_far - current_round[2])
+        games_remaining = current_round[2] - games_in_this_round
+
+        if games_remaining == 0:
+            # All games in this round are done, winners move to next round
+            winners_from_this_round = winners[-games_in_this_round:]
+            active_teams = winners_from_this_round + unplayed_bye_teams
+        else:
+            # Some games remain in this round
+            # Find teams that already played in this round
+            teams_in_this_round = set()
+            recent_games = completed_games[-games_in_this_round:]
+            for game in recent_games:
+                teams_in_this_round.add(game["team1_id"])
+                teams_in_this_round.add(game["team2_id"])
+
+            # Winners from this round so far
+            winners_from_this_round = []
+            for game in recent_games:
+                winner = (
+                    game["team1_id"]
+                    if game["team1_score"] > game["team2_score"]
+                    else game["team2_id"]
+                )
+                winners_from_this_round.append(winner)
+
+            # Calculate teams that still need to play in this round
+            all_teams_this_round = tournament_teams[
+                num_byes : num_byes + current_round[1]
+            ]
+            all_team_ids_this_round = [team.team_id for team in all_teams_this_round]
+            remaining_teams_this_round = [
+                team_id
+                for team_id in all_team_ids_this_round
+                if team_id not in teams_in_this_round
+                or team_id in winners_from_this_round
+            ]
+
+            # Add any unplayed bye teams
+            active_teams = remaining_teams_this_round + unplayed_bye_teams
+
+    print(f"Active teams for next games: {active_teams}")
     return active_teams, [], next_game_date
+
+
+def get_tournament_rounds(total_teams: int, byes: int) -> List[Tuple[str, int, int]]:
+    """
+    Calculate the rounds, number of teams, and number of games for a tournament.
+
+    Args:
+        total_teams: Total number of teams in the tournament
+        byes: Number of teams with first-round byes
+
+    Returns:
+        List of tuples (round_name, num_teams, num_games)
+    """
+    rounds = []
+
+    # Calculate teams in first round (excluding byes)
+    first_round_teams = total_teams - byes
+
+    # First round might not exist if all teams have byes
+    if first_round_teams > 0:
+        num_games = first_round_teams // 2
+        round_name = get_round_name(first_round_teams + byes)
+        rounds.append((round_name, first_round_teams, num_games))
+
+    # Teams after first round (winners + byes)
+    remaining = (first_round_teams // 2) + byes
+
+    # Continue with subsequent rounds
+    while remaining > 1:
+        num_games = remaining // 2
+        round_name = get_round_name(remaining)
+        rounds.append((round_name, remaining, num_games))
+        remaining = remaining // 2
+
+    return rounds
 
 
 def get_tournament_round_sizes(total_teams: int, byes: int) -> List[int]:
@@ -521,30 +738,64 @@ def get_tournament_round_sizes(total_teams: int, byes: int) -> List[int]:
 def get_conference_champion(
     conference: str, provisional_teams: Set[str], tournament_games: List[dict]
 ) -> str:
-    """Get eligible conference champion, accounting for provisional teams."""
-    championship_game = next(
-        game
-        for game in reversed(tournament_games)
-        if (game["conference"] == conference and game["round"] == "Final")
+    """
+    Get eligible conference champion, accounting for provisional teams.
+
+    Args:
+        conference: Conference name
+        provisional_teams: Set of team IDs that are ineligible for autobid
+        tournament_games: List of all tournament games
+
+    Returns:
+        Team ID of the conference champion, or None if no eligible champion
+    """
+    # Add debug output
+    print(f"Finding champion for {conference} from {len(tournament_games)} total games")
+
+    # Find all games for this conference
+    conf_games = [g for g in tournament_games if g.get("conference") == conference]
+    print(f"Found {len(conf_games)} games for conference {conference}")
+
+    # Get all games marked as "Final"
+    final_games = [g for g in conf_games if g.get("round") == "Final"]
+    print(f"Found {len(final_games)} final games for conference {conference}")
+
+    if not final_games:
+        print(f"WARNING: No final game found for conference {conference}")
+        return None
+
+    # Sort by date to ensure we get the latest final (in case there are multiple)
+    final_games.sort(key=lambda x: x.get("date", "00000000"))
+    championship_game = final_games[-1]
+
+    # Debug the championship game
+    team1_id = championship_game.get("team1_id")
+    team2_id = championship_game.get("team2_id")
+    team1_score = championship_game.get("team1_score")
+    team2_score = championship_game.get("team2_score")
+    print(
+        f"Championship game: {team1_id} ({team1_score}) vs {team2_id} ({team2_score})"
     )
 
-    winner_id = (
-        championship_game["team1_id"]
-        if championship_game["team1_score"] > championship_game["team2_score"]
-        else championship_game["team2_id"]
-    )
+    # Determine winner
+    winner_id = team1_id if team1_score > team2_score else team2_id
+    print(f"Winner is {winner_id}")
 
+    # Check if winner is eligible
     if winner_id not in provisional_teams:
+        print(f"Winner {winner_id} is eligible")
         return winner_id
 
     # If winner is provisional, return runner-up if eligible
-    runner_up = (
-        championship_game["team2_id"]
-        if championship_game["team1_id"] == winner_id
-        else championship_game["team1_id"]
-    )
+    print(f"Winner {winner_id} is provisional, checking runner-up")
+    runner_up = team2_id if team1_id == winner_id else team1_id
 
-    return runner_up if runner_up not in provisional_teams else None
+    if runner_up not in provisional_teams:
+        print(f"Runner-up {runner_up} is eligible")
+        return runner_up
+    else:
+        print(f"Runner-up {runner_up} is also provisional, no autobid")
+        return None
 
 
 def calculate_head_to_head(

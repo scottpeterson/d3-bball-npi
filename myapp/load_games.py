@@ -24,7 +24,6 @@ def load_games(base_path, year, valid_teams, use_season_results=False):
                     team2_id = cols[5].strip()
                     team1_score = int(cols[4])
                     team2_score = int(cols[7])
-
                     if team1_score == 0 and team2_score == 0:
                         zero_zero_count += 1
                         continue

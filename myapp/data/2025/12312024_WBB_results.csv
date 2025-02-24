@@ -8933,8 +8933,6 @@ Date,Team A,Team B,Home/Away,Result
 02/15/2025,Kenyon,DePauw,Road,L
 02/15/2025,Knox,Beloit,Home,W
 02/15/2025,Beloit,Knox,Road,L
-02/15/2025,Simpson (Iowa),Loras,Road,W
-02/15/2025,Loras,Simpson (Iowa),Home,L
 02/15/2025,E Mennonite,Lynchburg,Home,W
 02/15/2025,Lynchburg,E Mennonite,Road,L
 02/15/2025,Marymount,Marywood,Road,W
@@ -8997,8 +8995,6 @@ Date,Team A,Team B,Home/Away,Result
 02/15/2025,Worcester St,Salem MA,Road,L
 02/15/2025,Berea,Anderson IN,Home,W
 02/15/2025,Anderson IN,Berea,Road,L
-02/15/2025,Fontbonne,Greenville,Road,T
-02/15/2025,Greenville,Fontbonne,Home,T
 02/15/2025,Endicott,Hartford,Road,W
 02/15/2025,Hartford,Endicott,Home,L
 02/15/2025,Wilson,Cairn,Home,W
@@ -9265,6 +9261,8 @@ Date,Team A,Team B,Home/Away,Result
 02/15/2025,Gallaudet,Bryn Athyn,Road,L
 02/16/2025,Concordia TX,Dallas Univ,Home,W
 02/16/2025,Dallas Univ,Concordia TX,Road,L
+02/16/2025,Simpson (Iowa),Loras,Road,W
+02/16/2025,Loras,Simpson (Iowa),Home,L
 02/16/2025,Thomas ME,ME Presque Isle,Home,W
 02/16/2025,ME Presque Isle,Thomas ME,Road,L
 02/16/2025,Emory,Brandeis,Home,W
@@ -9291,8 +9289,6 @@ Date,Team A,Team B,Home/Away,Result
 02/16/2025,WashU,Carnegie Mellon,Road,L
 02/16/2025,Manhattanville,Yeshiva,Home,W
 02/16/2025,Yeshiva,Manhattanville,Road,L
-02/17/2025,Thomas ME,Worcester St,Road,T
-02/17/2025,Worcester St,Thomas ME,Home,T
 02/17/2025,Plymouth St.,NVU-Lyndon,Road,W
 02/17/2025,NVU-Lyndon,Plymouth St.,Home,L
 02/17/2025,Caltech,Claremont-Mudd-Scripps,Home,W
@@ -9301,6 +9297,8 @@ Date,Team A,Team B,Home/Away,Result
 02/17/2025,Yeshiva,Farmingdale,Home,L
 02/17/2025,Salisbury,VA Wesleyan,Home,W
 02/17/2025,VA Wesleyan,Salisbury,Road,L
+02/18/2025,Transylvania,Hanover,Home,W
+02/18/2025,Hanover,Transylvania,Road,L
 02/18/2025,Sage,Hartwick,Road,W
 02/18/2025,Hartwick,Sage,Home,L
 02/18/2025,Alvernia,Hood,Home,W
@@ -9309,22 +9307,26 @@ Date,Team A,Team B,Home/Away,Result
 02/18/2025,York NY,Hunter,Road,L
 02/18/2025,Huntingdon,Agnes Scott,Home,W
 02/18/2025,Agnes Scott,Huntingdon,Road,L
+02/18/2025,Lynchburg,Randolph Col,Home,W
+02/18/2025,Randolph Col,Lynchburg,Road,L
 02/18/2025,Immaculata,Marywood,Home,W
 02/18/2025,Marywood,Immaculata,Road,L
 02/18/2025,Nazareth,St. John Fisher,Home,W
 02/18/2025,St. John Fisher,Nazareth,Road,L
+02/18/2025,Randolph-Macon,Shenandoah,Home,W
+02/18/2025,Shenandoah,Randolph-Macon,Road,L
 02/18/2025,Regis MA,Colby-Sawyer,Home,W
 02/18/2025,Colby-Sawyer,Regis MA,Road,L
-02/18/2025,Anna Maria,Elms,Road,W
-02/18/2025,Elms,Anna Maria,Home,L
 02/18/2025,Stevens,Delaware Val,Road,W
 02/18/2025,Delaware Val,Stevens,Home,L
+02/18/2025,Washington & Lee,E Mennonite,Road,W
+02/18/2025,E Mennonite,Washington & Lee,Home,L
 02/18/2025,Emmanuel,N England Col,Road,W
 02/18/2025,N England Col,Emmanuel,Home,L
-02/18/2025,FDU Madison,Arcadia,Road,T
-02/18/2025,Arcadia,FDU Madison,Home,T
 02/18/2025,St. Joseph CT,Lasell,Road,W
 02/18/2025,Lasell,St. Joseph CT,Home,L
+02/18/2025,Mt. St. Joseph,Berea,Home,W
+02/18/2025,Berea,Mt. St. Joseph,Road,L
 02/18/2025,Brevard,Pfeiffer,Road,W
 02/18/2025,Pfeiffer,Brevard,Home,L
 02/18/2025,John Jay,Medgar Evers,Road,W
@@ -9333,14 +9335,6 @@ Date,Team A,Team B,Home/Away,Result
 02/18/2025,Meredith,Methodist,Home,L
 02/18/2025,SUNYIT,Utica,Home,W
 02/18/2025,Utica,SUNYIT,Road,L
-02/18/2025,Hollins,Ferrum,Home,W
-02/18/2025,Ferrum,Hollins,Road,L
-02/18/2025,Lynchburg,Randolph Col,Home,W
-02/18/2025,Randolph Col,Lynchburg,Road,L
-02/18/2025,Washington & Lee,E Mennonite,Road,W
-02/18/2025,E Mennonite,Washington & Lee,Home,L
-02/18/2025,Randolph-Macon,Shenandoah,Home,W
-02/18/2025,Shenandoah,Randolph-Macon,Road,L
 02/18/2025,Albright,Eastern Univ,Home,W
 02/18/2025,Eastern Univ,Albright,Road,L
 02/18/2025,Houghton,Alfred,Home,W
@@ -9349,6 +9343,8 @@ Date,Team A,Team B,Home/Away,Result
 02/18/2025,Covenant,Maryville TN,Home,L
 02/18/2025,DeSales,Misericordia,Home,W
 02/18/2025,Misericordia,DeSales,Road,L
+02/18/2025,Hollins,Ferrum,Home,W
+02/18/2025,Ferrum,Hollins,Road,L
 02/18/2025,Brockport St.,Geneseo St.,Home,W
 02/18/2025,Geneseo St.,Brockport St.,Road,L
 02/18/2025,S Virginia,Greensboro,Road,W
@@ -9373,18 +9369,16 @@ Date,Team A,Team B,Home/Away,Result
 02/18/2025,Peace,NC Wesleyan,Home,L
 02/18/2025,St. Joseph's ME,Norwich,Home,W
 02/18/2025,Norwich,St. Joseph's ME,Road,L
-02/18/2025,Principia,Westminster MO,Road,T
-02/18/2025,Westminster MO,Principia,Home,T
 02/18/2025,Rivier,Mitchell,Road,W
 02/18/2025,Mitchell,Rivier,Home,L
+02/18/2025,Bridgewater (VA),Roanoke,Road,W
+02/18/2025,Roanoke,Bridgewater (VA),Home,L
 02/18/2025,LaGrange,Wesleyan GA,Road,W
 02/18/2025,Wesleyan GA,LaGrange,Home,L
 02/18/2025,Whitman,Whitworth,Home,W
 02/18/2025,Whitworth,Whitman,Road,L
 02/18/2025,Brooklyn Col,City Col NY,Road,W
 02/18/2025,City Col NY,Brooklyn Col,Home,L
-02/18/2025,York PA,Widener,Road,T
-02/18/2025,Widener,York PA,Home,T
 02/19/2025,Cal Lutheran,Claremont-Mudd-Scripps,Road,W
 02/19/2025,Claremont-Mudd-Scripps,Cal Lutheran,Home,L
 02/19/2025,Albion,St. Mary's IN,Road,W
@@ -9401,8 +9395,6 @@ Date,Team A,Team B,Home/Away,Result
 02/19/2025,Kenyon,Wooster,Home,L
 02/19/2025,Luther,Loras,Road,W
 02/19/2025,Loras,Luther,Home,L
-02/19/2025,Randolph Col,Lynchburg,Road,T
-02/19/2025,Lynchburg,Randolph Col,Home,T
 02/19/2025,Pomona-Pitzer,Occidental,Home,W
 02/19/2025,Occidental,Pomona-Pitzer,Road,L
 02/19/2025,Rowan,Stockton,Road,W
@@ -9421,6 +9413,8 @@ Date,Team A,Team B,Home/Away,Result
 02/19/2025,DePauw,Ohio Wesleyan,Road,L
 02/19/2025,Trine,Olivet MI,Road,W
 02/19/2025,Olivet MI,Trine,Home,L
+02/19/2025,Anna Maria,Elms,Road,W
+02/19/2025,Elms,Anna Maria,Home,L
 02/19/2025,MA Boston,Castleton,Home,W
 02/19/2025,Castleton,MA Boston,Road,L
 02/19/2025,Smith,Emerson,Home,W
@@ -9433,6 +9427,8 @@ Date,Team A,Team B,Home/Away,Result
 02/19/2025,Wheaton MA,MIT,Road,L
 02/19/2025,UW-Whitewater,UW-Platteville,Road,W
 02/19/2025,UW-Platteville,UW-Whitewater,Home,L
+02/19/2025,Arcadia,FDU Madison,Home,W
+02/19/2025,FDU Madison,Arcadia,Road,L
 02/19/2025,Hartford,Suffolk,Home,W
 02/19/2025,Suffolk,Hartford,Road,L
 02/19/2025,PSU-Altoona,Pitt-Bradford,Home,W
@@ -9475,20 +9471,10 @@ Date,Team A,Team B,Home/Away,Result
 02/19/2025,Lancaster Bib,PSU-Harrisburg,Road,L
 02/19/2025,Notre Dame MD,Wilson,Home,W
 02/19/2025,Wilson,Notre Dame MD,Road,L
-02/19/2025,Widener,York PA,Home,W
-02/19/2025,York PA,Widener,Road,L
 02/19/2025,St. Elizabeth,Keystone,Home,W
 02/19/2025,Keystone,St. Elizabeth,Road,L
 02/19/2025,Bryn Athyn,Cedar Crest,Home,W
 02/19/2025,Cedar Crest,Bryn Athyn,Road,L
-02/19/2025,Arcadia,FDU Madison,Home,W
-02/19/2025,FDU Madison,Arcadia,Road,L
-02/19/2025,Transylvania,Hanover,Home,W
-02/19/2025,Hanover,Transylvania,Road,L
-02/19/2025,Mt. St. Joseph,Berea,Home,W
-02/19/2025,Berea,Mt. St. Joseph,Road,L
-02/19/2025,Bridgewater (VA),Roanoke,Road,W
-02/19/2025,Roanoke,Bridgewater (VA),Home,L
 02/19/2025,Whittier,Caltech,Road,W
 02/19/2025,Caltech,Whittier,Home,L
 02/19/2025,Elmhurst,Carthage,Home,W
@@ -9519,8 +9505,6 @@ Date,Team A,Team B,Home/Away,Result
 02/19/2025,Earlham,Rose-Hulman,Home,L
 02/19/2025,Rhode Island College,Eastern Connecticut,Road,W
 02/19/2025,Eastern Connecticut,Rhode Island College,Home,L
-02/19/2025,Ferrum,Hollins,Road,T
-02/19/2025,Hollins,Ferrum,Home,T
 02/19/2025,Worcester St,Framingham St.,Road,W
 02/19/2025,Framingham St.,Worcester St,Home,L
 02/19/2025,Grove City,Geneva,Road,W
@@ -9609,26 +9593,24 @@ Date,Team A,Team B,Home/Away,Result
 02/19/2025,UW-Eau Claire,UW-Oshkosh,Road,L
 02/19/2025,UW-Stevens Point,UW-Stout,Home,W
 02/19/2025,UW-Stout,UW-Stevens Point,Road,L
+02/19/2025,Widener,York PA,Home,W
+02/19/2025,York PA,Widener,Road,L
 02/19/2025,Simpson (Iowa),Buena Vista,Home,W
 02/19/2025,Buena Vista,Simpson (Iowa),Road,L
 02/20/2025,Mary Hardin-Baylor,Hardin-Simmons,Home,W
 02/20/2025,Hardin-Simmons,Mary Hardin-Baylor,Road,L
 02/20/2025,Asbury,Covenant,Home,W
 02/20/2025,Covenant,Asbury,Road,L
-02/20/2025,NC Wesleyan,Salem NC,Road,T
-02/20/2025,Salem NC,NC Wesleyan,Home,T
 02/20/2025,LaGrange,Agnes Scott,Road,W
 02/20/2025,Agnes Scott,LaGrange,Home,L
-02/20/2025,Westminster MO,Principia,Home,W
-02/20/2025,Principia,Westminster MO,Road,L
-02/20/2025,Christopher Newport,Salisbury,Road,T
-02/20/2025,Salisbury,Christopher Newport,Home,T
 02/20/2025,East Texas Baptist,LeTourneau,Home,W
 02/20/2025,LeTourneau,East Texas Baptist,Road,L
 02/20/2025,Spalding,Lyon,Road,W
 02/20/2025,Lyon,Spalding,Home,L
 02/20/2025,MS Women,Greenville,Home,W
 02/20/2025,Greenville,MS Women,Road,L
+02/20/2025,Westminster MO,Principia,Home,W
+02/20/2025,Principia,Westminster MO,Road,L
 02/21/2025,Colorado Col,Schreiner,Home,W
 02/21/2025,Schreiner,Colorado Col,Road,L
 02/21/2025,Ithaca,Bard,Road,W
@@ -9647,20 +9629,20 @@ Date,Team A,Team B,Home/Away,Result
 02/21/2025,Maryville TN,Belhaven MS,Road,L
 02/21/2025,Lesley,NVU-Lyndon,Neutral,W
 02/21/2025,NVU-Lyndon,Lesley,Neutral,L
+02/21/2025,Husson,ME Farmington,Neutral,W
+02/21/2025,ME Farmington,Husson,Neutral,L
 02/21/2025,ME Maritime,Thomas ME,Home,W
 02/21/2025,Thomas ME,ME Maritime,Road,L
 02/21/2025,SUNY Cobleskill,NVU-Johnson,Home,W
 02/21/2025,NVU-Johnson,SUNY Cobleskill,Road,L
-02/21/2025,Husson,ME Farmington,Neutral,W
-02/21/2025,ME Farmington,Husson,Neutral,L
-02/21/2025,Christopher Newport,Salisbury,Road,W
-02/21/2025,Salisbury,Christopher Newport,Home,L
 02/21/2025,Brandeis,Case Western,Home,W
 02/21/2025,Case Western,Brandeis,Road,L
 02/21/2025,Austin Col,Centenary,Home,W
 02/21/2025,Centenary,Austin Col,Road,L
 02/21/2025,Emory,Chicago,Road,W
 02/21/2025,Chicago,Emory,Home,L
+02/21/2025,Christopher Newport,Salisbury,Road,W
+02/21/2025,Salisbury,Christopher Newport,Home,L
 02/21/2025,Clarkson,Rensselaer,Road,W
 02/21/2025,Rensselaer,Clarkson,Home,L
 02/21/2025,Cortland,Oswego St.,Road,W
@@ -9691,356 +9673,408 @@ Date,Team A,Team B,Home/Away,Result
 02/21/2025,Dallas Univ,Univ Ozarks,Home,L
 02/21/2025,Puget Sound,Willamette,Home,W
 02/21/2025,Willamette,Puget Sound,Road,L
-02/22/2025,Mt. Holyoke,Coast Guard,Road,T
-02/22/2025,Coast Guard,Mt. Holyoke,Home,T
-02/22/2025,Alma,Hope,Road,T
-02/22/2025,Hope,Alma,Home,T
-02/22/2025,Lawrence,Ripon,Road,T
-02/22/2025,Ripon,Lawrence,Home,T
-02/22/2025,Loras,Dubuque,Road,T
-02/22/2025,Dubuque,Loras,Home,T
-02/22/2025,Howard Payne,Mary Hardin-Baylor,Road,T
-02/22/2025,Mary Hardin-Baylor,Howard Payne,Home,T
-02/22/2025,Milwaukee Eng,St. Norbert,Road,T
-02/22/2025,St. Norbert,Milwaukee Eng,Home,T
-02/22/2025,Agnes Scott,Belhaven MS,Road,T
-02/22/2025,Belhaven MS,Agnes Scott,Home,T
-02/22/2025,Rochester Tech,Bard,Road,T
-02/22/2025,Bard,Rochester Tech,Home,T
-02/22/2025,Morrisville St.,Oswego St.,Road,T
-02/22/2025,Oswego St.,Morrisville St.,Home,T
-02/22/2025,St. Benedict,Bethel,Road,T
-02/22/2025,Bethel,St. Benedict,Home,T
-02/22/2025,St. Lawrence,Rensselaer,Road,T
-02/22/2025,Rensselaer,St. Lawrence,Home,T
-02/22/2025,Macalester,St. Mary's MN,Road,T
-02/22/2025,St. Mary's MN,Macalester,Home,T
-02/22/2025,Buffalo St.,SUNY Potsdam,Road,T
-02/22/2025,SUNY Potsdam,Buffalo St.,Home,T
-02/22/2025,Alvernia,Stevenson,Road,T
-02/22/2025,Stevenson,Alvernia,Home,T
-02/22/2025,Endicott,W New England,Road,T
-02/22/2025,W New England,Endicott,Home,T
-02/22/2025,UW-Eau Claire,UW-Whitewater,Road,T
-02/22/2025,UW-Whitewater,UW-Eau Claire,Home,T
-02/22/2025,Old Westbury,Manhattanville,Road,T
-02/22/2025,Manhattanville,Old Westbury,Home,T
-02/22/2025,Eastern Connecticut,Plymouth St.,Road,T
-02/22/2025,Plymouth St.,Eastern Connecticut,Home,T
-02/22/2025,Pomona-Pitzer,La Verne,Road,T
-02/22/2025,La Verne,Pomona-Pitzer,Home,T
-02/22/2025,Blackburn,Principia,Road,T
-02/22/2025,Principia,Blackburn,Home,T
-02/22/2025,Dickinson,Johns Hopkins,Road,T
-02/22/2025,Johns Hopkins,Dickinson,Home,T
-02/22/2025,Drew,Susquehanna,Road,T
-02/22/2025,Susquehanna,Drew,Home,T
-02/22/2025,Carroll,Elmhurst,Road,T
-02/22/2025,Elmhurst,Carroll,Home,T
-02/22/2025,Anna Maria,Emmanuel,Road,T
-02/22/2025,Emmanuel,Anna Maria,Home,T
-02/22/2025,Smith,Wellesley,Road,T
-02/22/2025,Wellesley,Smith,Home,T
-02/22/2025,Western Connecticut,MA Dartmouth,Road,T
-02/22/2025,MA Dartmouth,Western Connecticut,Home,T
-02/22/2025,Muhlenberg,McDaniel,Road,T
-02/22/2025,McDaniel,Muhlenberg,Home,T
-02/22/2025,Salem MA,Westfield St.,Road,T
-02/22/2025,Westfield St.,Salem MA,Home,T
-02/22/2025,WPI,Wheaton MA,Road,T
-02/22/2025,Wheaton MA,WPI,Home,T
-02/22/2025,Wooster,DePauw,Road,T
-02/22/2025,DePauw,Wooster,Home,T
-02/22/2025,PSU-Altoona,La Roche,Road,T
-02/22/2025,La Roche,PSU-Altoona,Home,T
-02/22/2025,Heidelberg,Wilmington OH,Road,T
-02/22/2025,Wilmington OH,Heidelberg,Home,T
-02/22/2025,St. Joseph CT,Colby-Sawyer,Road,T
-02/22/2025,Colby-Sawyer,St. Joseph CT,Home,T
-02/22/2025,Allegheny,Bethany WV,Road,T
-02/22/2025,Bethany WV,Allegheny,Home,T
-02/22/2025,Illinois Wesleyan,Augustana,Road,T
-02/22/2025,Augustana,Illinois Wesleyan,Home,T
-02/22/2025,Baldwin Wallace,Marietta,Road,T
-02/22/2025,Marietta,Baldwin Wallace,Home,T
-02/22/2025,Bryn Mawr,Gettysburg,Road,T
-02/22/2025,Gettysburg,Bryn Mawr,Home,T
-02/22/2025,S Maine,Castleton,Road,T
-02/22/2025,Castleton,S Maine,Home,T
-02/22/2025,Central IA,Luther,Road,T
-02/22/2025,Luther,Central IA,Home,T
-02/22/2025,Methodist,Peace,Road,T
-02/22/2025,Peace,Methodist,Home,T
-02/22/2025,Ohio Northern,Mt. Union,Road,T
-02/22/2025,Mt. Union,Ohio Northern,Home,T
-02/22/2025,Nichols,Suffolk,Road,T
-02/22/2025,Suffolk,Nichols,Home,T
-02/22/2025,FDU Madison,Stevens,Road,T
-02/22/2025,Stevens,FDU Madison,Home,T
-02/22/2025,Haverford,Swarthmore,Road,T
-02/22/2025,Swarthmore,Haverford,Home,T
-02/22/2025,Ithaca,Vassar,Road,T
-02/22/2025,Vassar,Ithaca,Home,T
-02/22/2025,Kalamazoo,Trine,Road,T
-02/22/2025,Trine,Kalamazoo,Home,T
-02/22/2025,N Central MN,Bethany Luth,Road,T
-02/22/2025,Bethany Luth,N Central MN,Home,T
-02/22/2025,Hobart & Smith,Union NY,Road,T
-02/22/2025,Union NY,Hobart & Smith,Home,T
-02/22/2025,Dean,St. Joseph's ME,Road,T
-02/22/2025,St. Joseph's ME,Dean,Home,T
-02/22/2025,Carleton,Concordia Moorhead,Road,T
-02/22/2025,Concordia Moorhead,Carleton,Home,T
-02/22/2025,Lehman,John Jay,Road,T
-02/22/2025,John Jay,Lehman,Home,T
-02/22/2025,Kean,Rowan,Road,T
-02/22/2025,Rowan,Kean,Home,T
-02/22/2025,New Jersey City,Wm Paterson,Road,T
-02/22/2025,Wm Paterson,New Jersey City,Home,T
-02/22/2025,Notre Dame MD,PSU-Abington,Road,T
-02/22/2025,PSU-Abington,Notre Dame MD,Home,T
-02/22/2025,Rose-Hulman,Mt. St. Joseph,Road,T
-02/22/2025,Mt. St. Joseph,Rose-Hulman,Home,T
-02/22/2025,Sage,Nazareth,Road,T
-02/22/2025,Nazareth,Sage,Home,T
-02/22/2025,Bluffton,Transylvania,Road,T
-02/22/2025,Transylvania,Bluffton,Home,T
-02/22/2025,Medgar Evers,Brooklyn Col,Road,T
-02/22/2025,Brooklyn Col,Medgar Evers,Home,T
-02/22/2025,Bryn Athyn,Penn Col Tech,Road,T
-02/22/2025,Penn Col Tech,Bryn Athyn,Home,T
-02/22/2025,Tufts,Trinity (Conn),Road,T
-02/22/2025,Trinity (Conn),Tufts,Home,T
-02/22/2025,Bates,Amherst,Road,T
-02/22/2025,Amherst,Bates,Home,T
-02/22/2025,Williams,Bowdoin,Road,T
-02/22/2025,Bowdoin,Williams,Home,T
-02/22/2025,Middlebury,Colby,Road,T
-02/22/2025,Colby,Middlebury,Home,T
-02/22/2025,PSU-Harrisburg,Gallaudet,Road,T
-02/22/2025,Gallaudet,PSU-Harrisburg,Home,T
-02/22/2025,St. Elizabeth,St. Mary's MD,Road,T
-02/22/2025,St. Mary's MD,St. Elizabeth,Home,T
-02/22/2025,Elmira,Brockport St.,Road,T
-02/22/2025,Brockport St.,Elmira,Home,T
-02/22/2025,Alfred,Geneseo St.,Road,T
-02/22/2025,Geneseo St.,Alfred,Home,T
-02/22/2025,Houghton,St. John Fisher,Road,T
-02/22/2025,St. John Fisher,Houghton,Home,T
-02/22/2025,Berea,Hanover,Road,T
-02/22/2025,Hanover,Berea,Home,T
-02/22/2025,Franklin,Anderson IN,Road,T
-02/22/2025,Anderson IN,Franklin,Home,T
-02/22/2025,Husson,ME Maritime,Road,T
-02/22/2025,ME Maritime,Husson,Home,T
-02/22/2025,Lesley,SUNY Cobleskill,Road,T
-02/22/2025,SUNY Cobleskill,Lesley,Home,T
-02/22/2025,Cal Lutheran,Caltech,Road,T
-02/22/2025,Caltech,Cal Lutheran,Home,T
-02/22/2025,Calvin,Olivet MI,Road,T
-02/22/2025,Olivet MI,Calvin,Home,T
-02/22/2025,Otterbein,Capital,Road,T
-02/22/2025,Capital,Otterbein,Home,T
-02/22/2025,Carthage,Millikin,Road,T
-02/22/2025,Millikin,Carthage,Home,T
-02/22/2025,Centenary,Dallas Univ,Road,T
-02/22/2025,Dallas Univ,Centenary,Home,T
-02/22/2025,Claremont-Mudd-Scripps,Chapman,Road,T
-02/22/2025,Chapman,Claremont-Mudd-Scripps,Home,T
-02/22/2025,Albright,Widener,Road,T
-02/22/2025,Widener,Albright,Home,T
-02/22/2025,Clarkson,Skidmore,Road,T
-02/22/2025,Skidmore,Clarkson,Home,T
-02/22/2025,Coe,Wartburg,Road,T
-02/22/2025,Wartburg,Coe,Home,T
-02/22/2025,St. Catherine,Gustavus Adolphus,Road,T
-02/22/2025,Gustavus Adolphus,St. Catherine,Home,T
-02/22/2025,Concordia IL,Rockford,Road,T
-02/22/2025,Rockford,Concordia IL,Home,T
-02/22/2025,Knox,Cornell IA,Road,T
-02/22/2025,Cornell IA,Knox,Home,T
-02/22/2025,Cortland,SUNY Canton,Road,T
-02/22/2025,SUNY Canton,Cortland,Home,T
-02/22/2025,Covenant,LaGrange,Road,T
-02/22/2025,LaGrange,Covenant,Home,T
-02/22/2025,Crown MN,Northwestern MN,Road,T
-02/22/2025,Northwestern MN,Crown MN,Home,T
-02/22/2025,Hartford,Curry,Road,T
-02/22/2025,Curry,Hartford,Home,T
-02/22/2025,Denison,Ohio Wesleyan,Road,T
-02/22/2025,Ohio Wesleyan,Denison,Home,T
-02/22/2025,DeSales,Delaware Val,Road,T
-02/22/2025,Delaware Val,DeSales,Home,T
-02/22/2025,Dominican IL,Wisconsin Lutheran,Road,T
-02/22/2025,Wisconsin Lutheran,Dominican IL,Home,T
-02/22/2025,E Mennonite,Shenandoah,Road,T
-02/22/2025,Shenandoah,E Mennonite,Home,T
-02/22/2025,Messiah,Eastern Univ,Road,T
-02/22/2025,Eastern Univ,Messiah,Home,T
-02/22/2025,Edgewood,Concordia WI,Road,T
-02/22/2025,Concordia WI,Edgewood,Home,T
-02/22/2025,Ferrum,Bridgewater (VA),Road,T
-02/22/2025,Bridgewater (VA),Ferrum,Home,T
-02/22/2025,Framingham St.,Fitchburg St.,Road,T
-02/22/2025,Fitchburg St.,Framingham St.,Home,T
-02/22/2025,Geneva,Franciscan OH,Road,T
-02/22/2025,Franciscan OH,Geneva,Home,T
-02/22/2025,George Fox,Puget Sound,Road,T
-02/22/2025,Puget Sound,George Fox,Home,T
-02/22/2025,Greensboro,Salem NC,Road,T
-02/22/2025,Salem NC,Greensboro,Home,T
-02/22/2025,Grinnell,Monmouth IL,Road,T
-02/22/2025,Monmouth IL,Grinnell,Home,T
-02/22/2025,Grove City,St. Vincent,Road,T
-02/22/2025,St. Vincent,Grove City,Home,T
-02/22/2025,St. Olaf,Hamline,Road,T
-02/22/2025,Hamline,St. Olaf,Home,T
-02/22/2025,Hollins,Guilford,Road,T
-02/22/2025,Guilford,Hollins,Home,T
-02/22/2025,IL Tech,Alverno,Road,T
-02/22/2025,Alverno,IL Tech,Home,T
-02/22/2025,Regis MA,J&W RI,Road,T
-02/22/2025,J&W RI,Regis MA,Home,T
-02/22/2025,Juniata,Moravian,Road,T
-02/22/2025,Moravian,Juniata,Home,T
-02/22/2025,Keene St.,Rhode Island College,Road,T
-02/22/2025,Rhode Island College,Keene St.,Home,T
-02/22/2025,King's PA,Misericordia,Road,T
-02/22/2025,Misericordia,King's PA,Home,T
-02/22/2025,Lake Forest,Beloit,Road,T
-02/22/2025,Beloit,Lake Forest,Home,T
-02/22/2025,Lasell,Elms,Road,T
-02/22/2025,Elms,Lasell,Home,T
-02/22/2025,Arcadia,Lebanon Val,Road,T
-02/22/2025,Lebanon Val,Arcadia,Home,T
-02/22/2025,Whitworth,Linfield,Road,T
-02/22/2025,Linfield,Whitworth,Home,T
-02/22/2025,St. Scholastica,Augsburg,Road,T
-02/22/2025,Augsburg,St. Scholastica,Home,T
-02/22/2025,Lycoming,Catholic,Road,T
-02/22/2025,Catholic,Lycoming,Home,T
-02/22/2025,Greenville,Lyon,Road,T
-02/22/2025,Lyon,Greenville,Home,T
-02/22/2025,Lakeland,Marian WI,Road,T
-02/22/2025,Marian WI,Lakeland,Home,T
-02/22/2025,Martin Luther,Northland,Road,T
-02/22/2025,Northland,Martin Luther,Home,T
-02/22/2025,Mary Washington,Lynchburg,Road,T
-02/22/2025,Lynchburg,Mary Washington,Home,T
-02/22/2025,Adrian,St. Mary's IN,Road,T
-02/22/2025,St. Mary's IN,Adrian,Home,T
-02/22/2025,Salve Regina,MIT,Road,T
-02/22/2025,MIT,Salve Regina,Home,T
-02/22/2025,Averett,Randolph-Macon,Road,T
-02/22/2025,Randolph-Macon,Averett,Home,T
-02/22/2025,Clark MA,Babson,Road,T
-02/22/2025,Babson,Clark MA,Home,T
-02/22/2025,Spalding,MS Women,Road,T
-02/22/2025,MS Women,Spalding,Home,T
-02/22/2025,Hilbert,Mt. Aloysius,Road,T
-02/22/2025,Mt. Aloysius,Hilbert,Home,T
-02/22/2025,Mt. St. Mary,Mt. St. Vincent,Road,T
-02/22/2025,Mt. St. Vincent,Mt. St. Mary,Home,T
-02/22/2025,John Carroll,Muskingum,Road,T
-02/22/2025,Muskingum,John Carroll,Home,T
-02/22/2025,Albertus Magnus,N England Col,Road,T
-02/22/2025,N England Col,Albertus Magnus,Home,T
-02/22/2025,Brevard,NC Wesleyan,Road,T
-02/22/2025,NC Wesleyan,Brevard,Home,T
-02/22/2025,N Central IL,Wheaton (IL),Road,T
-02/22/2025,Wheaton (IL),N Central IL,Home,T
-02/22/2025,Mitchell,Norwich,Road,T
-02/22/2025,Norwich,Mitchell,Home,T
-02/22/2025,Oberlin,Kenyon,Road,T
-02/22/2025,Kenyon,Oberlin,Home,T
-02/22/2025,Pac Lutheran,Lewis & Clark,Road,T
-02/22/2025,Lewis & Clark,Pac Lutheran,Home,T
-02/22/2025,Pacific,Willamette,Road,T
-02/22/2025,Willamette,Pacific,Home,T
-02/22/2025,Aurora,Benedictine IL,Road,T
-02/22/2025,Benedictine IL,Aurora,Home,T
-02/22/2025,Pfeiffer,S Virginia,Road,T
-02/22/2025,S Virginia,Pfeiffer,Home,T
-02/22/2025,Pitt-Bradford,Pitt-Greensburg,Road,T
-02/22/2025,Pitt-Greensburg,Pitt-Bradford,Home,T
-02/22/2025,SUNY Fredonia,Plattsburgh St.,Road,T
-02/22/2025,Plattsburgh St.,SUNY Fredonia,Home,T
-02/22/2025,Purchase,Sarah Lawrence,Road,T
-02/22/2025,Sarah Lawrence,Purchase,Home,T
-02/22/2025,Redlands,Whittier,Road,T
-02/22/2025,Whittier,Redlands,Home,T
-02/22/2025,Roanoke,Washington & Lee,Road,T
-02/22/2025,Washington & Lee,Roanoke,Home,T
-02/22/2025,Scranton,Elizabethtown,Road,T
-02/22/2025,Elizabethtown,Scranton,Home,T
-02/22/2025,Emerson,Springfield,Road,T
-02/22/2025,Springfield,Emerson,Home,T
-02/22/2025,Farmingdale,St. Joseph's LI,Road,T
-02/22/2025,St. Joseph's LI,Farmingdale,Home,T
-02/22/2025,SUNY Oneonta,SUNY New Paltz,Road,T
-02/22/2025,SUNY New Paltz,SUNY Oneonta,Home,T
-02/22/2025,Thiel,Waynesburg,Road,T
-02/22/2025,Waynesburg,Thiel,Home,T
-02/22/2025,U New England,Roger Williams,Road,T
-02/22/2025,Roger Williams,U New England,Home,T
-02/22/2025,Randolph Col,VA Wesleyan,Road,T
-02/22/2025,VA Wesleyan,Randolph Col,Home,T
-02/22/2025,Ursinus,Washington MD,Road,T
-02/22/2025,Washington MD,Ursinus,Home,T
-02/22/2025,Webster,Fontbonne,Road,T
-02/22/2025,Fontbonne,Webster,Home,T
-02/22/2025,Gordon,Wentworth Tech,Road,T
-02/22/2025,Wentworth Tech,Gordon,Home,T
-02/22/2025,Wesleyan GA,Asbury,Road,T
-02/22/2025,Asbury,Wesleyan GA,Home,T
-02/22/2025,Eureka,Westminster MO,Road,T
-02/22/2025,Westminster MO,Eureka,Home,T
-02/22/2025,Westminster PA,Chatham,Road,T
-02/22/2025,Chatham,Westminster PA,Home,T
-02/22/2025,Wilkes,Goucher,Road,T
-02/22/2025,Goucher,Wilkes,Home,T
-02/22/2025,UW-La Crosse,UW-Stevens Point,Road,T
-02/22/2025,UW-Stevens Point,UW-La Crosse,Home,T
-02/22/2025,UW-Oshkosh,UW-Stout,Road,T
-02/22/2025,UW-Stout,UW-Oshkosh,Home,T
-02/22/2025,UW-Platteville,UW-River Falls,Road,T
-02/22/2025,UW-River Falls,UW-Platteville,Home,T
-02/22/2025,UW-Superior,MN Morris,Road,T
-02/22/2025,MN Morris,UW-Superior,Home,T
-02/22/2025,Hiram,Wittenberg,Road,T
-02/22/2025,Wittenberg,Hiram,Home,T
-02/22/2025,St. Joseph's NY,Yeshiva,Road,T
-02/22/2025,Yeshiva,St. Joseph's NY,Home,T
-02/22/2025,Hood,York PA,Road,T
-02/22/2025,York PA,Hood,Home,T
-02/22/2025,Buena Vista,NE Wesleyan,Road,T
-02/22/2025,NE Wesleyan,Buena Vista,Home,T
-02/23/2025,TX Lutheran,Concordia TX,Road,T
-02/23/2025,Concordia TX,TX Lutheran,Home,T
-02/23/2025,Schreiner,St. Thomas TX,Road,T
-02/23/2025,St. Thomas TX,Schreiner,Home,T
-02/23/2025,Carnegie Mellon,Brandeis,Road,T
-02/23/2025,Brandeis,Carnegie Mellon,Home,T
-02/23/2025,SW Univ TX,McMurry,Road,T
-02/23/2025,McMurry,SW Univ TX,Home,T
-02/23/2025,Trinity (Texas),Colorado Col,Road,T
-02/23/2025,Colorado Col,Trinity (Texas),Home,T
-02/23/2025,Hendrix,Centre,Road,T
-02/23/2025,Centre,Hendrix,Home,T
-02/23/2025,NC Wesleyan,Salem NC,Road,T
-02/23/2025,Salem NC,NC Wesleyan,Home,T
-02/23/2025,Case Western,NYU,Road,T
-02/23/2025,NYU,Case Western,Home,T
-02/23/2025,Rochester,Chicago,Road,T
-02/23/2025,Chicago,Rochester,Home,T
-02/23/2025,Univ Ozarks,Austin Col,Road,T
-02/23/2025,Austin Col,Univ Ozarks,Home,T
-02/23/2025,Emory,WashU,Road,T
-02/23/2025,WashU,Emory,Home,T
+02/22/2025,Coast Guard,Mt. Holyoke,Home,W
+02/22/2025,Mt. Holyoke,Coast Guard,Road,L
+02/22/2025,Hope,Alma,Home,W
+02/22/2025,Alma,Hope,Road,L
+02/22/2025,Ripon,Lawrence,Home,W
+02/22/2025,Lawrence,Ripon,Road,L
+02/22/2025,Dubuque,Loras,Home,W
+02/22/2025,Loras,Dubuque,Road,L
+02/22/2025,Mary Hardin-Baylor,Howard Payne,Home,W
+02/22/2025,Howard Payne,Mary Hardin-Baylor,Road,L
+02/22/2025,St. Norbert,Milwaukee Eng,Home,W
+02/22/2025,Milwaukee Eng,St. Norbert,Road,L
+02/22/2025,Belhaven MS,Agnes Scott,Home,W
+02/22/2025,Agnes Scott,Belhaven MS,Road,L
+02/22/2025,Rochester Tech,Bard,Road,W
+02/22/2025,Bard,Rochester Tech,Home,L
+02/22/2025,Oswego St.,Morrisville St.,Home,W
+02/22/2025,Morrisville St.,Oswego St.,Road,L
+02/22/2025,Bethel,St. Benedict,Home,W
+02/22/2025,St. Benedict,Bethel,Road,L
+02/22/2025,St. Lawrence,Rensselaer,Road,W
+02/22/2025,Rensselaer,St. Lawrence,Home,L
+02/22/2025,St. Mary's MN,Macalester,Home,W
+02/22/2025,Macalester,St. Mary's MN,Road,L
+02/22/2025,SUNY Potsdam,Buffalo St.,Home,W
+02/22/2025,Buffalo St.,SUNY Potsdam,Road,L
+02/22/2025,Stevenson,Alvernia,Home,W
+02/22/2025,Alvernia,Stevenson,Road,L
+02/22/2025,Endicott,W New England,Road,W
+02/22/2025,W New England,Endicott,Home,L
+02/22/2025,UW-Whitewater,UW-Eau Claire,Home,W
+02/22/2025,UW-Eau Claire,UW-Whitewater,Road,L
+02/22/2025,Manhattanville,Old Westbury,Home,W
+02/22/2025,Old Westbury,Manhattanville,Road,L
+02/22/2025,Eastern Connecticut,Plymouth St.,Road,W
+02/22/2025,Plymouth St.,Eastern Connecticut,Home,L
+02/22/2025,Pomona-Pitzer,La Verne,Road,W
+02/22/2025,La Verne,Pomona-Pitzer,Home,L
+02/22/2025,Principia,Blackburn,Home,W
+02/22/2025,Blackburn,Principia,Road,L
+02/22/2025,Johns Hopkins,Dickinson,Home,W
+02/22/2025,Dickinson,Johns Hopkins,Road,L
+02/22/2025,Susquehanna,Drew,Home,W
+02/22/2025,Drew,Susquehanna,Road,L
+02/22/2025,Elmhurst,Carroll,Home,W
+02/22/2025,Carroll,Elmhurst,Road,L
+02/22/2025,Anna Maria,Emmanuel,Road,W
+02/22/2025,Emmanuel,Anna Maria,Home,L
+02/22/2025,Smith,Wellesley,Road,W
+02/22/2025,Wellesley,Smith,Home,L
+02/22/2025,MA Dartmouth,Western Connecticut,Home,W
+02/22/2025,Western Connecticut,MA Dartmouth,Road,L
+02/22/2025,McDaniel,Muhlenberg,Home,W
+02/22/2025,Muhlenberg,McDaniel,Road,L
+02/22/2025,Westfield St.,Salem MA,Home,W
+02/22/2025,Salem MA,Westfield St.,Road,L
+02/22/2025,WPI,Wheaton MA,Road,W
+02/22/2025,Wheaton MA,WPI,Home,L
+02/22/2025,DePauw,Wooster,Home,W
+02/22/2025,Wooster,DePauw,Road,L
+02/22/2025,La Roche,PSU-Altoona,Home,W
+02/22/2025,PSU-Altoona,La Roche,Road,L
+02/22/2025,Wilmington OH,Heidelberg,Home,W
+02/22/2025,Heidelberg,Wilmington OH,Road,L
+02/22/2025,St. Joseph CT,Colby-Sawyer,Road,W
+02/22/2025,Colby-Sawyer,St. Joseph CT,Home,L
+02/22/2025,Allegheny,Bethany WV,Road,W
+02/22/2025,Bethany WV,Allegheny,Home,L
+02/22/2025,Illinois Wesleyan,Augustana,Road,W
+02/22/2025,Augustana,Illinois Wesleyan,Home,L
+02/22/2025,Baldwin Wallace,Marietta,Road,W
+02/22/2025,Marietta,Baldwin Wallace,Home,L
+02/22/2025,Gettysburg,Bryn Mawr,Home,W
+02/22/2025,Bryn Mawr,Gettysburg,Road,L
+02/22/2025,S Maine,Castleton,Road,W
+02/22/2025,Castleton,S Maine,Home,L
+02/22/2025,Luther,Central IA,Home,W
+02/22/2025,Central IA,Luther,Road,L
+02/22/2025,Methodist,Peace,Road,W
+02/22/2025,Peace,Methodist,Home,L
+02/22/2025,Ohio Northern,Mt. Union,Road,W
+02/22/2025,Mt. Union,Ohio Northern,Home,L
+02/22/2025,Suffolk,Nichols,Home,W
+02/22/2025,Nichols,Suffolk,Road,L
+02/22/2025,Stevens,FDU Madison,Home,W
+02/22/2025,FDU Madison,Stevens,Road,L
+02/22/2025,Haverford,Swarthmore,Road,W
+02/22/2025,Swarthmore,Haverford,Home,L
+02/22/2025,Ithaca,Vassar,Road,W
+02/22/2025,Vassar,Ithaca,Home,L
+02/22/2025,Trine,Kalamazoo,Home,W
+02/22/2025,Kalamazoo,Trine,Road,L
+02/22/2025,Bethany Luth,N Central MN,Home,W
+02/22/2025,N Central MN,Bethany Luth,Road,L
+02/22/2025,Union NY,Hobart & Smith,Home,W
+02/22/2025,Hobart & Smith,Union NY,Road,L
+02/22/2025,St. Joseph's ME,Dean,Home,W
+02/22/2025,Dean,St. Joseph's ME,Road,L
+02/22/2025,Concordia Moorhead,Carleton,Home,W
+02/22/2025,Carleton,Concordia Moorhead,Road,L
+02/22/2025,Brockport St.,Elmira,Home,W
+02/22/2025,Elmira,Brockport St.,Road,L
+02/22/2025,Wm Paterson,New Jersey City,Home,W
+02/22/2025,New Jersey City,Wm Paterson,Road,L
+02/22/2025,Bowdoin,Williams,Home,W
+02/22/2025,Williams,Bowdoin,Road,L
+02/22/2025,Anderson IN,Franklin,Home,W
+02/22/2025,Franklin,Anderson IN,Road,L
+02/22/2025,Transylvania,Bluffton,Home,W
+02/22/2025,Bluffton,Transylvania,Road,L
+02/22/2025,Hanover,Berea,Home,W
+02/22/2025,Berea,Hanover,Road,L
+02/22/2025,ME Maritime,Husson,Home,W
+02/22/2025,Husson,ME Maritime,Road,L
+02/22/2025,Mt. St. Joseph,Rose-Hulman,Home,W
+02/22/2025,Rose-Hulman,Mt. St. Joseph,Road,L
+02/22/2025,PSU-Abington,Notre Dame MD,Home,W
+02/22/2025,Notre Dame MD,PSU-Abington,Road,L
+02/22/2025,Geneseo St.,Alfred,Home,W
+02/22/2025,Alfred,Geneseo St.,Road,L
+02/22/2025,Amherst,Bates,Home,W
+02/22/2025,Bates,Amherst,Road,L
+02/22/2025,Colby,Middlebury,Home,W
+02/22/2025,Middlebury,Colby,Road,L
+02/22/2025,Brooklyn Col,Medgar Evers,Home,W
+02/22/2025,Medgar Evers,Brooklyn Col,Road,L
+02/22/2025,Nazareth,Sage,Home,W
+02/22/2025,Sage,Nazareth,Road,L
+02/22/2025,Gallaudet,PSU-Harrisburg,Home,W
+02/22/2025,PSU-Harrisburg,Gallaudet,Road,L
+02/22/2025,Kean,Rowan,Road,W
+02/22/2025,Rowan,Kean,Home,L
+02/22/2025,John Jay,Lehman,Home,W
+02/22/2025,Lehman,John Jay,Road,L
+02/22/2025,St. Mary's MD,St. Elizabeth,Home,W
+02/22/2025,St. Elizabeth,St. Mary's MD,Road,L
+02/22/2025,SUNY Cobleskill,Lesley,Home,W
+02/22/2025,Lesley,SUNY Cobleskill,Road,L
+02/22/2025,St. John Fisher,Houghton,Home,W
+02/22/2025,Houghton,St. John Fisher,Road,L
+02/22/2025,Bryn Athyn,Penn Col Tech,Road,W
+02/22/2025,Penn Col Tech,Bryn Athyn,Home,L
+02/22/2025,Trinity (Conn),Tufts,Home,W
+02/22/2025,Tufts,Trinity (Conn),Road,L
+02/22/2025,Cal Lutheran,Caltech,Road,W
+02/22/2025,Caltech,Cal Lutheran,Home,L
+02/22/2025,Calvin,Olivet MI,Road,W
+02/22/2025,Olivet MI,Calvin,Home,L
+02/22/2025,Capital,Otterbein,Home,W
+02/22/2025,Otterbein,Capital,Road,L
+02/22/2025,Carthage,Millikin,Road,W
+02/22/2025,Millikin,Carthage,Home,L
+02/22/2025,Dallas Univ,Centenary,Home,W
+02/22/2025,Centenary,Dallas Univ,Road,L
+02/22/2025,Claremont-Mudd-Scripps,Chapman,Road,W
+02/22/2025,Chapman,Claremont-Mudd-Scripps,Home,L
+02/22/2025,Widener,Albright,Home,W
+02/22/2025,Albright,Widener,Road,L
+02/22/2025,Skidmore,Clarkson,Home,W
+02/22/2025,Clarkson,Skidmore,Road,L
+02/22/2025,Wartburg,Coe,Home,W
+02/22/2025,Coe,Wartburg,Road,L
+02/22/2025,Gustavus Adolphus,St. Catherine,Home,W
+02/22/2025,St. Catherine,Gustavus Adolphus,Road,L
+02/22/2025,Concordia IL,Rockford,Road,W
+02/22/2025,Rockford,Concordia IL,Home,L
+02/22/2025,Cornell IA,Knox,Home,W
+02/22/2025,Knox,Cornell IA,Road,L
+02/22/2025,Cortland,SUNY Canton,Road,W
+02/22/2025,SUNY Canton,Cortland,Home,L
+02/22/2025,LaGrange,Covenant,Home,W
+02/22/2025,Covenant,LaGrange,Road,L
+02/22/2025,Northwestern MN,Crown MN,Home,W
+02/22/2025,Crown MN,Northwestern MN,Road,L
+02/22/2025,Curry,Hartford,Home,W
+02/22/2025,Hartford,Curry,Road,L
+02/22/2025,Ohio Wesleyan,Denison,Home,W
+02/22/2025,Denison,Ohio Wesleyan,Road,L
+02/22/2025,DeSales,Delaware Val,Road,W
+02/22/2025,Delaware Val,DeSales,Home,L
+02/22/2025,Wisconsin Lutheran,Dominican IL,Home,W
+02/22/2025,Dominican IL,Wisconsin Lutheran,Road,L
+02/22/2025,Shenandoah,E Mennonite,Home,W
+02/22/2025,E Mennonite,Shenandoah,Road,L
+02/22/2025,Messiah,Eastern Univ,Road,W
+02/22/2025,Eastern Univ,Messiah,Home,L
+02/22/2025,Concordia WI,Edgewood,Home,W
+02/22/2025,Edgewood,Concordia WI,Road,L
+02/22/2025,Bridgewater (VA),Ferrum,Home,W
+02/22/2025,Ferrum,Bridgewater (VA),Road,L
+02/22/2025,Framingham St.,Fitchburg St.,Road,W
+02/22/2025,Fitchburg St.,Framingham St.,Home,L
+02/22/2025,Geneva,Franciscan OH,Road,W
+02/22/2025,Franciscan OH,Geneva,Home,L
+02/22/2025,George Fox,Puget Sound,Road,W
+02/22/2025,Puget Sound,George Fox,Home,L
+02/22/2025,Salem NC,Greensboro,Home,W
+02/22/2025,Greensboro,Salem NC,Road,L
+02/22/2025,Grinnell,Monmouth IL,Road,W
+02/22/2025,Monmouth IL,Grinnell,Home,L
+02/22/2025,St. Vincent,Grove City,Home,W
+02/22/2025,Grove City,St. Vincent,Road,L
+02/22/2025,Hamline,St. Olaf,Home,W
+02/22/2025,St. Olaf,Hamline,Road,L
+02/22/2025,Guilford,Hollins,Home,W
+02/22/2025,Hollins,Guilford,Road,L
+02/22/2025,IL Tech,Alverno,Road,W
+02/22/2025,Alverno,IL Tech,Home,L
+02/22/2025,J&W RI,Regis MA,Home,W
+02/22/2025,Regis MA,J&W RI,Road,L
+02/22/2025,Juniata,Moravian,Road,W
+02/22/2025,Moravian,Juniata,Home,L
+02/22/2025,Rhode Island College,Keene St.,Home,W
+02/22/2025,Keene St.,Rhode Island College,Road,L
+02/22/2025,King's PA,Misericordia,Road,W
+02/22/2025,Misericordia,King's PA,Home,L
+02/22/2025,Beloit,Lake Forest,Home,W
+02/22/2025,Lake Forest,Beloit,Road,L
+02/22/2025,Elms,Lasell,Home,W
+02/22/2025,Lasell,Elms,Road,L
+02/22/2025,Lebanon Val,Arcadia,Home,W
+02/22/2025,Arcadia,Lebanon Val,Road,L
+02/22/2025,Linfield,Whitworth,Home,W
+02/22/2025,Whitworth,Linfield,Road,L
+02/22/2025,St. Scholastica,Augsburg,Road,W
+02/22/2025,Augsburg,St. Scholastica,Home,L
+02/22/2025,Catholic,Lycoming,Home,W
+02/22/2025,Lycoming,Catholic,Road,L
+02/22/2025,Greenville,Lyon,Road,W
+02/22/2025,Lyon,Greenville,Home,L
+02/22/2025,Lakeland,Marian WI,Road,W
+02/22/2025,Marian WI,Lakeland,Home,L
+02/22/2025,Martin Luther,Northland,Road,W
+02/22/2025,Northland,Martin Luther,Home,L
+02/22/2025,Lynchburg,Mary Washington,Home,W
+02/22/2025,Mary Washington,Lynchburg,Road,L
+02/22/2025,Adrian,St. Mary's IN,Road,W
+02/22/2025,St. Mary's IN,Adrian,Home,L
+02/22/2025,Salve Regina,MIT,Road,W
+02/22/2025,MIT,Salve Regina,Home,L
+02/22/2025,Randolph-Macon,Averett,Home,W
+02/22/2025,Averett,Randolph-Macon,Road,L
+02/22/2025,Babson,Clark MA,Home,W
+02/22/2025,Clark MA,Babson,Road,L
+02/22/2025,Spalding,MS Women,Road,W
+02/22/2025,MS Women,Spalding,Home,L
+02/22/2025,Mt. Aloysius,Hilbert,Home,W
+02/22/2025,Hilbert,Mt. Aloysius,Road,L
+02/22/2025,Mt. St. Vincent,Mt. St. Mary,Home,W
+02/22/2025,Mt. St. Mary,Mt. St. Vincent,Road,L
+02/22/2025,John Carroll,Muskingum,Road,W
+02/22/2025,Muskingum,John Carroll,Home,L
+02/22/2025,Albertus Magnus,N England Col,Road,W
+02/22/2025,N England Col,Albertus Magnus,Home,L
+02/22/2025,Brevard,NC Wesleyan,Road,W
+02/22/2025,NC Wesleyan,Brevard,Home,L
+02/22/2025,Wheaton (IL),N Central IL,Home,W
+02/22/2025,N Central IL,Wheaton (IL),Road,L
+02/22/2025,Norwich,Mitchell,Home,W
+02/22/2025,Mitchell,Norwich,Road,L
+02/22/2025,Oberlin,Kenyon,Road,W
+02/22/2025,Kenyon,Oberlin,Home,L
+02/22/2025,Lewis & Clark,Pac Lutheran,Home,W
+02/22/2025,Pac Lutheran,Lewis & Clark,Road,L
+02/22/2025,Pacific,Willamette,Road,W
+02/22/2025,Willamette,Pacific,Home,L
+02/22/2025,Aurora,Benedictine IL,Road,W
+02/22/2025,Benedictine IL,Aurora,Home,L
+02/22/2025,S Virginia,Pfeiffer,Home,W
+02/22/2025,Pfeiffer,S Virginia,Road,L
+02/22/2025,Pitt-Greensburg,Pitt-Bradford,Home,W
+02/22/2025,Pitt-Bradford,Pitt-Greensburg,Road,L
+02/22/2025,Plattsburgh St.,SUNY Fredonia,Home,W
+02/22/2025,SUNY Fredonia,Plattsburgh St.,Road,L
+02/22/2025,Sarah Lawrence,Purchase,Home,W
+02/22/2025,Purchase,Sarah Lawrence,Road,L
+02/22/2025,Redlands,Whittier,Road,W
+02/22/2025,Whittier,Redlands,Home,L
+02/22/2025,Washington & Lee,Roanoke,Home,W
+02/22/2025,Roanoke,Washington & Lee,Road,L
+02/22/2025,Elizabethtown,Scranton,Home,W
+02/22/2025,Scranton,Elizabethtown,Road,L
+02/22/2025,Springfield,Emerson,Home,W
+02/22/2025,Emerson,Springfield,Road,L
+02/22/2025,Farmingdale,St. Joseph's LI,Road,W
+02/22/2025,St. Joseph's LI,Farmingdale,Home,L
+02/22/2025,SUNY New Paltz,SUNY Oneonta,Home,W
+02/22/2025,SUNY Oneonta,SUNY New Paltz,Road,L
+02/22/2025,Waynesburg,Thiel,Home,W
+02/22/2025,Thiel,Waynesburg,Road,L
+02/22/2025,Roger Williams,U New England,Home,W
+02/22/2025,U New England,Roger Williams,Road,L
+02/22/2025,Randolph Col,VA Wesleyan,Road,W
+02/22/2025,VA Wesleyan,Randolph Col,Home,L
+02/22/2025,Washington MD,Ursinus,Home,W
+02/22/2025,Ursinus,Washington MD,Road,L
+02/22/2025,Webster,Fontbonne,Road,W
+02/22/2025,Fontbonne,Webster,Home,L
+02/22/2025,Gordon,Wentworth Tech,Road,W
+02/22/2025,Wentworth Tech,Gordon,Home,L
+02/22/2025,Asbury,Wesleyan GA,Home,W
+02/22/2025,Wesleyan GA,Asbury,Road,L
+02/22/2025,Westminster MO,Eureka,Home,W
+02/22/2025,Eureka,Westminster MO,Road,L
+02/22/2025,Chatham,Westminster PA,Home,W
+02/22/2025,Westminster PA,Chatham,Road,L
+02/22/2025,Goucher,Wilkes,Home,W
+02/22/2025,Wilkes,Goucher,Road,L
+02/22/2025,UW-Stevens Point,UW-La Crosse,Home,W
+02/22/2025,UW-La Crosse,UW-Stevens Point,Road,L
+02/22/2025,UW-Stout,UW-Oshkosh,Home,W
+02/22/2025,UW-Oshkosh,UW-Stout,Road,L
+02/22/2025,UW-River Falls,UW-Platteville,Home,W
+02/22/2025,UW-Platteville,UW-River Falls,Road,L
+02/22/2025,UW-Superior,MN Morris,Road,W
+02/22/2025,MN Morris,UW-Superior,Home,L
+02/22/2025,Wittenberg,Hiram,Home,W
+02/22/2025,Hiram,Wittenberg,Road,L
+02/22/2025,St. Joseph's NY,Yeshiva,Road,W
+02/22/2025,Yeshiva,St. Joseph's NY,Home,L
+02/22/2025,York PA,Hood,Home,W
+02/22/2025,Hood,York PA,Road,L
+02/22/2025,NE Wesleyan,Buena Vista,Home,W
+02/22/2025,Buena Vista,NE Wesleyan,Road,L
+02/23/2025,TX Lutheran,Concordia TX,Road,W
+02/23/2025,Concordia TX,TX Lutheran,Home,L
+02/23/2025,St. Thomas TX,Schreiner,Home,W
+02/23/2025,Schreiner,St. Thomas TX,Road,L
+02/23/2025,Carnegie Mellon,Brandeis,Road,W
+02/23/2025,Brandeis,Carnegie Mellon,Home,L
+02/23/2025,McMurry,SW Univ TX,Home,W
+02/23/2025,SW Univ TX,McMurry,Road,L
+02/23/2025,Colorado Col,Trinity (Texas),Home,W
+02/23/2025,Trinity (Texas),Colorado Col,Road,L
+02/23/2025,NC Wesleyan,Salem NC,Road,W
+02/23/2025,Salem NC,NC Wesleyan,Home,L
+02/23/2025,Oglethorpe,Rhodes,Home,W
+02/23/2025,Rhodes,Oglethorpe,Road,L
+02/23/2025,Sewanee,Berry,Road,W
+02/23/2025,Berry,Sewanee,Home,L
+02/23/2025,Centre,Hendrix,Home,W
+02/23/2025,Hendrix,Centre,Road,L
+02/23/2025,NYU,Case Western,Home,W
+02/23/2025,Case Western,NYU,Road,L
+02/23/2025,Rochester,Chicago,Road,W
+02/23/2025,Chicago,Rochester,Home,L
+02/23/2025,Austin Col,Univ Ozarks,Home,W
+02/23/2025,Univ Ozarks,Austin Col,Road,L
+02/23/2025,WashU,Emory,Home,W
+02/23/2025,Emory,WashU,Road,L
 02/24/2025,York NY,Old Westbury,Road,T
 02/24/2025,Old Westbury,York NY,Home,T
+02/24/2025,Lasell,Elms,Road,T
+02/24/2025,Elms,Lasell,Home,T
+02/24/2025,Marywood,Centenary NJ,Road,T
+02/24/2025,Centenary NJ,Marywood,Home,T
+02/25/2025,Brooklyn Col,Baruch,Road,T
+02/25/2025,Baruch,Brooklyn Col,Home,T
+02/25/2025,Gallaudet,PSU-Abington,Road,T
+02/25/2025,PSU-Abington,Gallaudet,Home,T
+02/25/2025,John Jay,Hunter,Road,T
+02/25/2025,Hunter,John Jay,Home,T
+02/25/2025,Bryn Athyn,St. Mary's MD,Road,T
+02/25/2025,St. Mary's MD,Bryn Athyn,Home,T
+02/25/2025,Millikin,Carthage,Road,T
+02/25/2025,Carthage,Millikin,Home,T
+02/25/2025,St. Benedict,Concordia Moorhead,Road,T
+02/25/2025,Concordia Moorhead,St. Benedict,Home,T
+02/25/2025,Greensboro,Brevard,Road,T
+02/25/2025,Brevard,Greensboro,Home,T
+02/25/2025,St. Mary's MN,Hamline,Road,T
+02/25/2025,Hamline,St. Mary's MN,Home,T
+02/25/2025,UW-River Falls,UW-Whitewater,Road,T
+02/25/2025,UW-Whitewater,UW-River Falls,Home,T
+02/25/2025,Meredith,NC Wesleyan,Neutral,T
+02/25/2025,NC Wesleyan,Meredith,Neutral,T
+02/25/2025,Roanoke,Shenandoah,Road,T
+02/25/2025,Shenandoah,Roanoke,Home,T
+02/26/2025,Wm Paterson,Montclair St.,Road,T
+02/26/2025,Montclair St.,Wm Paterson,Home,T
+02/26/2025,Nazareth,Brockport St.,Road,T
+02/26/2025,Brockport St.,Nazareth,Home,T
+02/26/2025,St. John Fisher,Geneseo St.,Road,T
+02/26/2025,Geneseo St.,St. John Fisher,Home,T
+02/26/2025,Kean,TCNJ,Road,T
+02/26/2025,TCNJ,Kean,Home,T
+02/26/2025,Stevens,Arcadia,Road,T
+02/26/2025,Arcadia,Stevens,Home,T
+02/26/2025,Bethany Luth,Northwestern MN,Road,T
+02/26/2025,Northwestern MN,Bethany Luth,Home,T
+02/28/2025,Anderson IN,Transylvania,Road,T
+02/28/2025,Transylvania,Anderson IN,Home,T
+02/28/2025,Hanover,Mt. St. Joseph,Neutral,T
+02/28/2025,Mt. St. Joseph,Hanover,Neutral,T
 03/01/2025,NYU,Brandeis,Road,T
 03/01/2025,Brandeis,NYU,Home,T
+03/01/2025,Amherst,Bowdoin,Road,T
+03/01/2025,Bowdoin,Amherst,Home,T
+03/01/2025,Colby,Trinity (Conn),Neutral,T
+03/01/2025,Trinity (Conn),Colby,Neutral,T
+03/01/2025,ME Maritime,SUNY Cobleskill,Road,T
+03/01/2025,SUNY Cobleskill,ME Maritime,Home,T
 03/01/2025,Case Western,Carnegie Mellon,Road,T
 03/01/2025,Carnegie Mellon,Case Western,Home,T
 03/01/2025,WashU,Chicago,Road,T

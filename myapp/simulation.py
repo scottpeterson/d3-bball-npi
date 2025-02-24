@@ -238,7 +238,9 @@ def simulate_full_season(
 
         # Load conference data
         conference_teams = load_conference_data(base_path, year)
-        tournament_structures = load_tournament_structures(base_path, year)
+        tournament_structures, conference_metadata = load_tournament_structures(
+            base_path, year
+        )
 
         # Load and separate games
         completed_games, future_games = load_all_games(base_path, year, valid_teams)
@@ -249,6 +251,21 @@ def simulate_full_season(
             try:
                 team_a_id = game["team1_id"]
                 team_b_id = game["team2_id"]
+                # Get conference info for both teams
+                team_a_conf = conference_teams.get(team_a_id)
+                team_b_conf = conference_teams.get(team_b_id)
+
+                # If both teams in same conference, check end date
+                if (
+                    team_a_conf
+                    and team_b_conf
+                    and team_a_conf.conference == team_b_conf.conference
+                ):
+                    conf_end_date = conference_metadata.get(team_a_conf.conference)
+                    # Skip if game is after conference regular season
+                    if conf_end_date and int(game["date"]) > int(conf_end_date):
+                        continue
+
                 team_b_is_home = game["team2_home"] == 1
 
                 result = simulator.simulate_game(team_a_id, team_b_id, team_b_is_home)
@@ -282,6 +299,11 @@ def simulate_full_season(
         conference_standings = calculate_conference_standings(
             all_regular_season_games, conference_teams, team_data
         )
+
+        # Debugging: Print the first game in the list
+        if all_regular_season_games:  # Check if there are any games in the list
+            first_game = all_regular_season_games[-1]
+            print(f"Debug - First game date: {first_game.get('date')}")
 
         # Simulate conference tournaments
         tournament_games, _ = simulate_conference_tournaments(
