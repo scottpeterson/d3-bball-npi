@@ -268,6 +268,16 @@ def run_single_simulation(base_path: Path, year: str, sim_number: int) -> Tuple[
             tournament_games, conference_teams, conference_champions, at_large_bids
         )
 
+        semifinal_exits = [
+            team_id
+            for team_id, result in tournament_results.items()
+            if result.exit_round == "Semifinal"
+        ]
+        print(f"Teams exiting in semifinal: {len(semifinal_exits)}")
+        print(
+            f"Teams with Pool C in semifinal: {sum(1 for team_id in semifinal_exits if tournament_results[team_id].got_pool_c)}"
+        )
+
         return results, bid_thieves, tournament_results, conference_games
 
     except Exception as e:
@@ -706,14 +716,6 @@ def get_conference_champions(
     print(f"Conferences with tournament games: {len(conference_games)}")
     for conf, games in conference_games.items():
         print(f"  {conf}: {len(games)} games")
-
-    # Check SAA specifically
-    if "SAA" in conference_games:
-        print(f"SAA games found: {len(conference_games['SAA'])}")
-        for game in sorted(conference_games["SAA"], key=lambda x: x["date"]):
-            print(
-                f"  {game['date']}: {game['team1_id']} vs {game['team2_id']} ({game['team1_score']}-{game['team2_score']})"
-            )
 
     # Find the championship game for each conference
     for conf, conf_games in conference_games.items():

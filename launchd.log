@@ -125356,3 +125356,479 @@ Whitman (NWC): NPI = 65.34
 Bid thief statistics have been saved to bid_thieves.csv
 
 Simulation statistics have been saved to simulation_stats.csv
+Successfully saved webpage data to games.txt
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5016
+Skipped 0-0 games: 80
+Skipped duplicates: 0
+Skipped due to invalid teams: 76
+Total number of loaded games: 5016
+
+Total processing time: 1.057 seconds
+Average time per iteration: 0.013 seconds
+Total number of games in the data: 5016
+Total number of games processed in the final iteration: 10032
+Processing data for year 2025
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Processed 5096 games into 10192 bidirectional results
+Skipped 76 games due to missing teams or invalid data
+Results written to: 12312024_WBB_results.csv
+Total games processed: 5096
+Successfully saved data with 417 rows
+
+Starting 1 simulations...
+--------------------------------------------------
+
+Starting simulation 1
+ Running season simulation...
+
+Simulation 1:
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Loaded efficiency data for 417 teams
+Loaded 5016 completed games and 80 future games
+Debug - First game date: 20250301
+Current round determined to be: Quarterfinal with 2 teams
+Advancing to next round: Semifinal with 4 teams
+Active teams for next games: ['210', '162', '249', '208']
+Final team remaining for AEC: 162
+Finding champion for AEC from 4 total games
+Found 4 games for conference AEC
+Found 1 final games for conference AEC
+Championship game: 162 (85) vs 208 (74)
+Winner is 162
+Winner 162 is eligible
+Conference champion for AEC: 162
+Final team remaining for AMCC: 177
+Finding champion for AMCC from 9 total games
+Found 5 games for conference AMCC
+Found 1 final games for conference AMCC
+Championship game: 177 (87) vs 284 (68)
+Winner is 177
+Winner 177 is eligible
+Conference champion for AMCC: 177
+Final team remaining for ARC: 383
+Finding champion for ARC from 14 total games
+Found 5 games for conference ARC
+Found 1 final games for conference ARC
+Championship game: 323 (75) vs 383 (83)
+Winner is 383
+Winner 383 is eligible
+Conference champion for ARC: 383
+Final team remaining for ASC: 103
+Finding champion for ASC from 18 total games
+Found 4 games for conference ASC
+Found 1 final games for conference ASC
+Championship game: 103 (97) vs 142 (74)
+Winner is 103
+Winner 103 is eligible
+Conference champion for ASC: 103
+Final team remaining for C2C: 70
+Finding champion for C2C from 22 total games
+Found 4 games for conference C2C
+Found 1 final games for conference C2C
+Championship game: 70 (90) vs 207 (67)
+Winner is 70
+Winner 70 is eligible
+Conference champion for C2C: 70
+Final team remaining for CC: 129
+Finding champion for CC from 27 total games
+Found 5 games for conference CC
+Found 1 final games for conference CC
+Championship game: 129 (75) vs 167 (69)
+Winner is 129
+Winner 129 is eligible
+Conference champion for CC: 129
+Final team remaining for CCIW: 57
+Finding champion for CCIW from 32 total games
+Found 5 games for conference CCIW
+Found 1 final games for conference CCIW
+Championship game: 160 (78) vs 57 (88)
+Winner is 57
+Winner 57 is eligible
+Conference champion for CCIW: 57
+Final team remaining for CCS: 27
+Finding champion for CCS from 37 total games
+Found 5 games for conference CCS
+Found 1 final games for conference CCS
+Championship game: 27 (80) vs 16 (72)
+Winner is 27
+Winner 27 is eligible
+Conference champion for CCS: 27
+Final team remaining for CNE: 305
+Finding champion for CNE from 42 total games
+Found 5 games for conference CNE
+Found 1 final games for conference CNE
+Championship game: 305 (77) vs 370 (65)
+Winner is 305
+Winner 305 is eligible
+Conference champion for CNE: 305
+Current round determined to be: Quarterfinal with 4 teams
+Advancing to next round: Semifinal with 4 teams
+Active teams for next games: ['44', '166', '156', '25']
+Final team remaining for CUNYAC: 156
+Finding champion for CUNYAC from 47 total games
+Found 5 games for conference CUNYAC
+Found 1 final games for conference CUNYAC
+Championship game: 44 (72) vs 156 (81)
+Winner is 156
+Winner 156 is eligible
+Conference champion for CUNYAC: 156
+Current round determined to be: Quarterfinal with 8 teams
+Advancing to next round: Semifinal with 4 teams
+Active teams for next games: ['43', '126', '246', '331']
+Final team remaining for E8: 126
+Finding champion for E8 from 54 total games
+Found 7 games for conference E8
+Found 1 final games for conference E8
+Championship game: 331 (58) vs 126 (77)
+Winner is 126
+Winner 126 is eligible
+Conference champion for E8: 126
+Final team remaining for GNAC: 334
+Finding champion for GNAC from 59 total games
+Found 5 games for conference GNAC
+Found 1 final games for conference GNAC
+Championship game: 334 (74) vs 332 (67)
+Winner is 334
+Winner 334 is eligible
+Conference champion for GNAC: 334
+Current round determined to be: Quarterfinal with 8 teams
+Advancing to next round: Semifinal with 4 teams
+Active teams for next games: ['13', '363', '141', '237']
+Final team remaining for HCAC: 363
+Finding champion for HCAC from 66 total games
+Found 7 games for conference HCAC
+Found 1 final games for conference HCAC
+Championship game: 237 (64) vs 363 (73)
+Winner is 363
+Winner 363 is eligible
+Conference champion for HCAC: 363
+Final team remaining for LAND: 320
+Finding champion for LAND from 71 total games
+Found 5 games for conference LAND
+Found 1 final games for conference LAND
+Championship game: 61 (70) vs 320 (79)
+Winner is 320
+Winner 320 is eligible
+Conference champion for LAND: 320
+Final team remaining for LEC: 298
+Finding champion for LEC from 76 total games
+Found 5 games for conference LEC
+Found 1 final games for conference LEC
+Championship game: 298 (81) vs 199 (79)
+Winner is 298
+Winner 298 is eligible
+Conference champion for LEC: 298
+Final team remaining for LL: 163
+Finding champion for LL from 81 total games
+Found 5 games for conference LL
+Found 1 final games for conference LL
+Championship game: 303 (74) vs 163 (82)
+Winner is 163
+Winner 163 is eligible
+Conference champion for LL: 163
+Final team remaining for MACC: 219
+Finding champion for MACC from 84 total games
+Found 3 games for conference MACC
+Found 1 final games for conference MACC
+Championship game: 219 (72) vs 412 (62)
+Winner is 219
+Winner 219 is eligible
+Conference champion for MACC: 219
+Final team remaining for MACF: 186
+Finding champion for MACF from 87 total games
+Found 3 games for conference MACF
+Found 1 final games for conference MACF
+Championship game: 186 (72) vs 345 (61)
+Winner is 186
+Winner 186 is eligible
+Conference champion for MACF: 186
+Final team remaining for MASCAC: 394
+Finding champion for MASCAC from 92 total games
+Found 5 games for conference MASCAC
+Found 1 final games for conference MASCAC
+Championship game: 394 (95) vs 121 (72)
+Winner is 394
+Winner 394 is eligible
+Conference champion for MASCAC: 394
+Final team remaining for MIAA: 364
+Finding champion for MIAA from 97 total games
+Found 5 games for conference MIAA
+Found 1 final games for conference MIAA
+Championship game: 153 (73) vs 364 (76)
+Winner is 364
+Winner 364 is eligible
+Conference champion for MIAA: 364
+Final team remaining for MIAC: 137
+Finding champion for MIAC from 102 total games
+Found 5 games for conference MIAC
+Found 1 final games for conference MIAC
+Championship game: 137 (75) vs 34 (69)
+Winner is 137
+Winner 137 is eligible
+Conference champion for MIAC: 137
+Final team remaining for MWC: 299
+Finding champion for MWC from 105 total games
+Found 3 games for conference MWC
+Found 1 final games for conference MWC
+Championship game: 299 (84) vs 184 (67)
+Winner is 299
+Winner 299 is eligible
+Conference champion for MWC: 299
+Current round determined to be: Semifinal with 4 teams
+Advancing to next round: Final with 2 teams
+Active teams for next games: ['214', '351']
+Final team remaining for NAC: 351
+Finding champion for NAC from 112 total games
+Found 7 games for conference NAC
+Found 1 final games for conference NAC
+Championship game: 214 (71) vs 351 (80)
+Winner is 351
+Winner 351 is eligible
+Conference champion for NAC: 351
+Final team remaining for NACC: 340
+Finding champion for NACC from 119 total games
+Found 7 games for conference NACC
+Found 1 final games for conference NACC
+Championship game: 340 (81) vs 404 (72)
+Winner is 340
+Winner 340 is eligible
+Conference champion for NACC: 340
+Final team remaining for NCAC: 264
+Finding champion for NCAC from 124 total games
+Found 5 games for conference NCAC
+Found 1 final games for conference NCAC
+Championship game: 95 (66) vs 264 (71)
+Winner is 264
+Winner 264 is eligible
+Conference champion for NCAC: 264
+Current round determined to be: Quarterfinal with 8 teams
+Advancing to next round: Semifinal with 4 teams
+Active teams for next games: ['38', '12', '77', '365']
+Final team remaining for NESCAC: 38
+Finding champion for NESCAC from 131 total games
+Found 7 games for conference NESCAC
+Found 1 final games for conference NESCAC
+Championship game: 38 (71) vs 365 (64)
+Winner is 38
+Winner 38 is eligible
+Conference champion for NESCAC: 38
+Final team remaining for NEWMAC: 325
+Finding champion for NEWMAC from 138 total games
+Found 7 games for conference NEWMAC
+Found 1 final games for conference NEWMAC
+Championship game: 325 (97) vs 111 (67)
+Winner is 325
+Winner 325 is eligible
+Conference champion for NEWMAC: 325
+Current round determined to be: Quarterfinal with 4 teams
+Advancing to next round: Semifinal with 4 teams
+Active teams for next games: ['419', '170', '79', '230']
+Final team remaining for NJAC: 79
+Finding champion for NJAC from 143 total games
+Found 5 games for conference NJAC
+Found 1 final games for conference NJAC
+Championship game: 419 (62) vs 79 (65)
+Winner is 79
+Winner 79 is eligible
+Conference champion for NJAC: 79
+Final team remaining for NWC: 399
+Finding champion for NWC from 146 total games
+Found 3 games for conference NWC
+Found 1 final games for conference NWC
+Championship game: 399 (90) vs 128 (59)
+Winner is 399
+Winner 399 is eligible
+Conference champion for NWC: 399
+Final team remaining for OAC: 23
+Finding champion for OAC from 151 total games
+Found 5 games for conference OAC
+Found 1 final games for conference OAC
+Championship game: 165 (63) vs 23 (76)
+Winner is 23
+Winner 23 is eligible
+Conference champion for OAC: 23
+Final team remaining for ODAC: 322
+Finding champion for ODAC from 158 total games
+Found 7 games for conference ODAC
+Found 1 final games for conference ODAC
+Championship game: 322 (78) vs 385 (68)
+Winner is 322
+Winner 322 is eligible
+Conference champion for ODAC: 322
+Final team remaining for PAC: 8
+Finding champion for PAC from 163 total games
+Found 5 games for conference PAC
+Found 1 final games for conference PAC
+Championship game: 8 (72) vs 384 (56)
+Winner is 8
+Winner 8 is eligible
+Conference champion for PAC: 8
+Current round determined to be: Quarterfinal with 6 teams
+Advancing to next round: Semifinal with 4 teams
+Active teams for next games: ['262', '321', '66', '223']
+Final team remaining for SAA: 223
+Finding champion for SAA from 169 total games
+Found 6 games for conference SAA
+Found 1 final games for conference SAA
+Championship game: 223 (77) vs 66 (62)
+Winner is 223
+Winner 223 is eligible
+Conference champion for SAA: 223
+Final team remaining for SCAC: 212
+Finding champion for SCAC from 174 total games
+Found 5 games for conference SCAC
+Found 1 final games for conference SCAC
+Championship game: 212 (86) vs 80 (73)
+Winner is 212
+Winner 212 is eligible
+Conference champion for SCAC: 212
+Final team remaining for SCIAC: 294
+Finding champion for SCIAC from 178 total games
+Found 4 games for conference SCIAC
+Found 1 final games for conference SCIAC
+Championship game: 67 (71) vs 294 (86)
+Winner is 294
+Winner 294 is eligible
+Conference champion for SCIAC: 294
+Final team remaining for SKY: 217
+Finding champion for SKY from 185 total games
+Found 7 games for conference SKY
+Found 1 final games for conference SKY
+Championship game: 217 (73) vs 202 (69)
+Winner is 217
+Winner 217 is eligible
+Conference champion for SKY: 217
+Final team remaining for SLIAC: 389
+Finding champion for SLIAC from 190 total games
+Found 5 games for conference SLIAC
+Found 1 final games for conference SLIAC
+Championship game: 395 (73) vs 389 (77)
+Winner is 389
+Winner 389 is eligible
+Conference champion for SLIAC: 389
+Final team remaining for SUNYAC: 86
+Finding champion for SUNYAC from 195 total games
+Found 5 games for conference SUNYAC
+Found 1 final games for conference SUNYAC
+Championship game: 354 (63) vs 86 (75)
+Winner is 86
+Winner 86 is eligible
+Conference champion for SUNYAC: 86
+Current round determined to be: Quarterfinal with 8 teams
+Advancing to next round: Semifinal with 4 teams
+Active teams for next games: ['282', '125', '338', '45']
+Final team remaining for UEC: 125
+Finding champion for UEC from 206 total games
+Found 11 games for conference UEC
+Found 1 final games for conference UEC
+Championship game: 125 (86) vs 45 (65)
+Winner is 125
+Winner 125 is eligible
+Conference champion for UEC: 125
+Final team remaining for UMAC: 254
+Finding champion for UMAC from 209 total games
+Found 3 games for conference UMAC
+Found 1 final games for conference UMAC
+Championship game: 254 (81) vs 32 (77)
+Winner is 254
+Winner 254 is eligible
+Conference champion for UMAC: 254
+Final team remaining for USAC: 313
+Finding champion for USAC from 216 total games
+Found 7 games for conference USAC
+Found 1 final games for conference USAC
+Championship game: 313 (86) vs 40 (65)
+Winner is 313
+Winner 313 is eligible
+Conference champion for USAC: 313
+Final team remaining for WIAC: 405
+Finding champion for WIAC from 221 total games
+Found 5 games for conference WIAC
+Found 1 final games for conference WIAC
+Championship game: 405 (76) vs 408 (58)
+Winner is 405
+Winner 405 is eligible
+Conference champion for WIAC: 405
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Game Loading Statistics:
+Total games loaded: 5211
+Skipped 0-0 games: 0
+Skipped duplicates: 34
+Skipped due to invalid teams: 0
+Total number of loaded games: 5211
+
+Total processing time: 0.472 seconds
+Average time per iteration: 0.016 seconds
+Total number of games in the data: 5211
+Total number of games processed in the final iteration: 10422
+Conferences with tournament games: 42
+  UEC: 19 games
+  NAC: 13 games
+  E8: 11 games
+  NJAC: 7 games
+  NESCAC: 11 games
+  HCAC: 11 games
+  CUNYAC: 7 games
+  SAA: 9 games
+  AEC: 5 games
+  AMCC: 5 games
+  ARC: 5 games
+  ASC: 4 games
+  C2C: 4 games
+  CC: 5 games
+  CCIW: 5 games
+  CCS: 5 games
+  CNE: 5 games
+  GNAC: 5 games
+  LAND: 5 games
+  LEC: 5 games
+  LL: 5 games
+  MACC: 3 games
+  MACF: 3 games
+  MASCAC: 5 games
+  MIAA: 5 games
+  MIAC: 5 games
+  MWC: 3 games
+  NACC: 7 games
+  NCAC: 5 games
+  NEWMAC: 7 games
+  NWC: 3 games
+  OAC: 5 games
+  ODAC: 7 games
+  PAC: 5 games
+  SCAC: 5 games
+  SCIAC: 4 games
+  SKY: 7 games
+  SLIAC: 5 games
+  SUNYAC: 5 games
+  UMAC: 3 games
+  USAC: 7 games
+  WIAC: 5 games
+Teams exiting in semifinal: 109
+Teams with Pool C in semifinal: 4
+Loaded 417 teams from 2025/teams.txt
+Applied 417 name mappings from 2025/teams_mapping.txt
+Completed simulation 1 in 0.63 seconds
+
+All simulations completed in 0.63 seconds
+Average time per simulation: 0.63 seconds
+
+Processing results for 417 teams
+
+Calculated stats for 417 teams
+
+Top 5 teams by NPI:
+NYU (UAA): NPI = 68.51
+Bowdoin (NESCAC): NPI = 68.47
+Scranton (LAND): NPI = 66.33
+Baldwin Wallace (OAC): NPI = 66.00
+Gustavus Adolphus (MIAC): NPI = 65.64
+Bid thief statistics have been saved to bid_thieves.csv
+
+Simulation statistics have been saved to simulation_stats.csv
