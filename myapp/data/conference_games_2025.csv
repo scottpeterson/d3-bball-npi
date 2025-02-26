@@ -89,198 +89,198 @@ simulation_number,conference,round,team1_id,team2_id,team1_score,team2_score,win
 1,ASC,Final,LeTourneau,Howard Payne,70,58,185
 1,ARC,Semifinal,Central IA,Simpson (Iowa),96,89,65
 1,AEC,Final,Marywood,Centenary NJ,77,73,210
-1,AEC,Final,Immaculata,Marywood,83,57,162
-1,AEC,Final,Neumann,Marymount,70,66,249
-1,AEC,Final,Immaculata,Neumann,71,70,162
+1,AEC,Final,Immaculata,Marywood,93,77,162
+1,AEC,Final,Neumann,Marymount,64,69,208
+1,AEC,Final,Immaculata,Marymount,86,74,162
 1,AMCC,Semifinal,PSU-Altoona,Alfred St.,63,52,283
 1,AMCC,Semifinal,Mt. Aloysius,Pitt-Bradford,74,33,234
-1,AMCC,Semifinal,PSU-Altoona,La Roche,56,89,177
-1,AMCC,Semifinal,Mt. Aloysius,Penn State-Behrend,77,85,284
-1,AMCC,Semifinal,La Roche,Penn State-Behrend,88,79,177
+1,AMCC,Semifinal,PSU-Altoona,La Roche,70,79,177
+1,AMCC,Semifinal,Mt. Aloysius,Penn State-Behrend,70,98,284
+1,AMCC,Semifinal,La Roche,Penn State-Behrend,67,86,284
 1,ARC,Semifinal,Luther,Dubuque,69,53,192
 1,ARC,Semifinal,Central IA,Simpson (Iowa),96,89,65
-1,ARC,Semifinal,Luther,Coe,66,78,76
-1,ARC,Semifinal,Central IA,Wartburg,62,71,383
-1,ARC,Semifinal,Coe,Wartburg,76,75,76
+1,ARC,Semifinal,Luther,Coe,71,73,76
+1,ARC,Semifinal,Central IA,Wartburg,66,73,383
+1,ARC,Semifinal,Coe,Wartburg,63,79,383
 1,ASC,Final,LeTourneau,Howard Payne,70,58,185
-1,ASC,Final,East Texas Baptist,LeTourneau,93,62,103
-1,ASC,Final,Mary Hardin-Baylor,Hardin-Simmons,78,69,196
-1,ASC,Final,East Texas Baptist,Mary Hardin-Baylor,95,69,103
-1,C2C,Final,UC Santa Cruz,Warren Wilson,83,66,371
-1,C2C,Final,Christopher Newport,UC Santa Cruz,91,67,70
-1,C2C,Final,Mary Washington,Salisbury,68,80,316
-1,C2C,Final,Christopher Newport,Salisbury,81,67,70
+1,ASC,Final,East Texas Baptist,LeTourneau,97,61,103
+1,ASC,Final,Mary Hardin-Baylor,Hardin-Simmons,76,77,142
+1,ASC,Final,East Texas Baptist,Hardin-Simmons,83,72,103
+1,C2C,Final,UC Santa Cruz,Warren Wilson,88,70,371
+1,C2C,Final,Christopher Newport,UC Santa Cruz,97,62,70
+1,C2C,Final,Mary Washington,Salisbury,79,81,316
+1,C2C,Final,Christopher Newport,Salisbury,91,74,70
 1,CC,Semifinal,Washington MD,McDaniel,45,40,386
 1,CC,Semifinal,Dickinson,Ursinus,71,57,97
-1,CC,Semifinal,Gettysburg,Dickinson,75,62,129
-1,CC,Semifinal,Johns Hopkins,Washington MD,75,59,167
-1,CC,Semifinal,Gettysburg,Johns Hopkins,77,73,129
+1,CC,Semifinal,Gettysburg,Dickinson,93,65,129
+1,CC,Semifinal,Johns Hopkins,Washington MD,75,63,167
+1,CC,Semifinal,Gettysburg,Johns Hopkins,78,72,129
 1,CCIW,Semifinal,Millikin,Carthage,63,57,222
 1,CCIW,Semifinal,Wheaton (IL),Elmhurst,70,57,397
-1,CCIW,Semifinal,Illinois Wesleyan,Millikin,71,63,160
-1,CCIW,Semifinal,Carroll,Wheaton (IL),70,55,57
-1,CCIW,Semifinal,Illinois Wesleyan,Carroll,92,76,160
+1,CCIW,Semifinal,Illinois Wesleyan,Millikin,91,42,160
+1,CCIW,Semifinal,Carroll,Wheaton (IL),97,66,57
+1,CCIW,Semifinal,Illinois Wesleyan,Carroll,64,67,57
 1,CCS,Semifinal,Belhaven MS,Huntingdon,81,73,27
 1,CCS,Semifinal,LaGrange,Maryville TN,71,69,179
-1,CCS,Semifinal,Belhaven MS,Piedmont,68,81,274
-1,CCS,Semifinal,LaGrange,Asbury,79,90,16
-1,CCS,Semifinal,Piedmont,Asbury,82,66,274
+1,CCS,Semifinal,Belhaven MS,Piedmont,72,79,274
+1,CCS,Semifinal,LaGrange,Asbury,81,93,16
+1,CCS,Semifinal,Piedmont,Asbury,84,83,274
 1,CNE,Semifinal,U New England,Hartford,63,38,370
 1,CNE,Semifinal,Roger Williams,Suffolk,64,59,305
-1,CNE,Semifinal,U New England,Endicott,71,65,370
-1,CNE,Semifinal,Roger Williams,W New England,74,67,305
-1,CNE,Semifinal,U New England,Roger Williams,70,69,370
+1,CNE,Semifinal,U New England,Endicott,67,70,114
+1,CNE,Semifinal,Roger Williams,W New England,74,82,381
+1,CNE,Semifinal,Endicott,W New England,68,73,381
 1,CUNYAC,Semifinal,Brooklyn Col,Medgar Evers,66,34,44
 1,CUNYAC,Semifinal,John Jay,Lehman,67,51,166
 1,CUNYAC,Semifinal,Brooklyn Col,Baruch,62,48,44
 1,CUNYAC,Semifinal,Hunter,John Jay,73,62,156
-1,CUNYAC,Semifinal,Brooklyn Col,Hunter,81,77,44
+1,CUNYAC,Semifinal,Brooklyn Col,Hunter,72,78,156
 1,E8,Quarterfinal,Brockport St.,Elmira,101,62,43
 1,E8,Quarterfinal,Geneseo St.,Alfred,68,43,126
 1,E8,Quarterfinal,Nazareth,Sage,71,48,246
 1,E8,Quarterfinal,St. John Fisher,Houghton,72,55,331
-1,E8,Quarterfinal,Brockport St.,St. John Fisher,87,76,43
-1,E8,Quarterfinal,Geneseo St.,Nazareth,75,73,126
-1,E8,Quarterfinal,Brockport St.,Geneseo St.,56,74,126
+1,E8,Quarterfinal,Brockport St.,St. John Fisher,81,65,43
+1,E8,Quarterfinal,Geneseo St.,Nazareth,71,62,126
+1,E8,Quarterfinal,Brockport St.,Geneseo St.,72,88,126
 1,GNAC,Semifinal,Albertus Magnus,Anna Maria,82,62,3
 1,GNAC,Semifinal,St. Joseph CT,Rivier,93,84,332
 1,GNAC,Semifinal,St. Joseph's ME,Emmanuel,72,65,334
 1,GNAC,Semifinal,J&W RI,Elms,89,50,164
-1,GNAC,Semifinal,St. Joseph's ME,J&W RI,72,87,164
+1,GNAC,Semifinal,St. Joseph's ME,J&W RI,74,62,334
 1,HCAC,Quarterfinal,Anderson IN,Franklin,74,61,13
 1,HCAC,Quarterfinal,Transylvania,Bluffton,58,52,363
 1,HCAC,Quarterfinal,Hanover,Berea,66,53,141
 1,HCAC,Quarterfinal,Mt. St. Joseph,Rose-Hulman,72,61,237
-1,HCAC,Quarterfinal,Anderson IN,Mt. St. Joseph,73,75,237
-1,HCAC,Quarterfinal,Transylvania,Hanover,81,65,363
-1,HCAC,Quarterfinal,Mt. St. Joseph,Transylvania,80,77,237
+1,HCAC,Quarterfinal,Anderson IN,Mt. St. Joseph,80,88,237
+1,HCAC,Quarterfinal,Transylvania,Hanover,76,66,363
+1,HCAC,Quarterfinal,Mt. St. Joseph,Transylvania,68,73,363
 1,LAND,Semifinal,Drew,Susquehanna,76,68,99
 1,LAND,Semifinal,Catholic,Goucher,117,71,61
-1,LAND,Semifinal,Drew,Elizabethtown,71,82,107
-1,LAND,Semifinal,Catholic,Scranton,71,67,61
-1,LAND,Semifinal,Elizabethtown,Catholic,72,68,107
+1,LAND,Semifinal,Drew,Elizabethtown,73,79,107
+1,LAND,Semifinal,Catholic,Scranton,78,89,320
+1,LAND,Semifinal,Elizabethtown,Scranton,69,75,320
 1,LEC,Semifinal,S Maine,MA Boston,59,48,312
 1,LEC,Semifinal,Keene St.,Eastern Connecticut,56,45,171
-1,LEC,Semifinal,S Maine,Rhode Island College,67,75,298
-1,LEC,Semifinal,Keene St.,MA Dartmouth,76,70,171
-1,LEC,Semifinal,Rhode Island College,Keene St.,84,67,298
+1,LEC,Semifinal,S Maine,Rhode Island College,64,81,298
+1,LEC,Semifinal,Keene St.,MA Dartmouth,71,76,199
+1,LEC,Semifinal,Rhode Island College,MA Dartmouth,83,86,199
 1,LL,Semifinal,Skidmore,Union NY,46,43,324
 1,LL,Semifinal,Rochester Tech,St. Lawrence,78,68,303
-1,LL,Semifinal,Skidmore,Vassar,56,95,379
-1,LL,Semifinal,Rochester Tech,Ithaca,63,83,163
-1,LL,Semifinal,Vassar,Ithaca,71,70,379
-1,MACC,Semifinal,Messiah,Albright,89,57,219
-1,MACC,Semifinal,Widener,York PA,82,69,412
-1,MACC,Semifinal,Messiah,Widener,63,64,412
-1,MACF,Semifinal,Lebanon Val,DeSales,83,69,186
-1,MACF,Semifinal,Arcadia,Stevens,76,69,15
-1,MACF,Semifinal,Lebanon Val,Arcadia,73,58,186
-1,MASCAC,Semifinal,Salem MA,Fitchburg St.,86,56,314
-1,MASCAC,Semifinal,Framingham St.,Worcester St,95,65,121
-1,MASCAC,Semifinal,Salem MA,Westfield St.,83,81,314
-1,MASCAC,Semifinal,Framingham St.,Bridgewater MA,82,80,121
-1,MASCAC,Semifinal,Salem MA,Framingham St.,74,80,121
+1,LL,Semifinal,Skidmore,Vassar,73,88,379
+1,LL,Semifinal,Rochester Tech,Ithaca,65,64,303
+1,LL,Semifinal,Vassar,Rochester Tech,72,66,379
+1,MACC,Semifinal,Messiah,Albright,94,59,219
+1,MACC,Semifinal,Widener,York PA,59,81,425
+1,MACC,Semifinal,Messiah,York PA,87,67,219
+1,MACF,Semifinal,Lebanon Val,DeSales,74,66,186
+1,MACF,Semifinal,Arcadia,Stevens,63,75,345
+1,MACF,Semifinal,Lebanon Val,Stevens,76,67,186
+1,MASCAC,Semifinal,Salem MA,Fitchburg St.,81,72,314
+1,MASCAC,Semifinal,Framingham St.,Worcester St,81,70,121
+1,MASCAC,Semifinal,Salem MA,Westfield St.,93,80,314
+1,MASCAC,Semifinal,Framingham St.,Bridgewater MA,80,87,41
+1,MASCAC,Semifinal,Salem MA,Bridgewater MA,82,75,314
 1,MIAA,Semifinal,Albion,Alma,69,52,4
 1,MIAA,Semifinal,Calvin,Adrian,75,61,52
-1,MIAA,Semifinal,Albion,Hope,67,82,153
-1,MIAA,Semifinal,Calvin,Trine,85,68,52
-1,MIAA,Semifinal,Hope,Calvin,82,61,153
+1,MIAA,Semifinal,Albion,Hope,59,69,153
+1,MIAA,Semifinal,Calvin,Trine,68,70,364
+1,MIAA,Semifinal,Hope,Trine,67,82,364
 1,MIAC,Semifinal,St. Benedict,Concordia Moorhead,68,64,328
 1,MIAC,Semifinal,Hamline,St. Mary's MN,73,61,140
-1,MIAC,Semifinal,Gustavus Adolphus,St. Benedict,85,61,137
-1,MIAC,Semifinal,Bethel,Hamline,75,55,34
-1,MIAC,Semifinal,Gustavus Adolphus,Bethel,71,72,34
-1,MWC,Semifinal,Ripon,Knox,79,71,299
-1,MWC,Semifinal,Lawrence,Grinnell,70,61,184
-1,MWC,Semifinal,Ripon,Lawrence,82,73,299
+1,MIAC,Semifinal,Gustavus Adolphus,St. Benedict,76,71,137
+1,MIAC,Semifinal,Bethel,Hamline,70,79,140
+1,MIAC,Semifinal,Gustavus Adolphus,Hamline,70,72,140
+1,MWC,Semifinal,Ripon,Knox,84,71,299
+1,MWC,Semifinal,Lawrence,Grinnell,67,70,134
+1,MWC,Semifinal,Ripon,Grinnell,74,73,299
 1,NAC,Quarterfinal,Lesley,NVU-Lyndon,62,58,188
 1,NAC,Quarterfinal,Husson,ME Farmington,77,64,158
 1,NAC,Quarterfinal,ME Maritime,Thomas ME,69,45,214
 1,NAC,Quarterfinal,SUNY Cobleskill,NVU-Johnson,92,30,351
 1,NAC,Quarterfinal,ME Maritime,Husson,88,59,214
 1,NAC,Quarterfinal,SUNY Cobleskill,Lesley,104,41,351
-1,NAC,Quarterfinal,ME Maritime,SUNY Cobleskill,86,82,214
+1,NAC,Quarterfinal,ME Maritime,SUNY Cobleskill,77,56,214
 1,NACC,Quarterfinal,Wisconsin Lutheran,Edgewood,65,59,404
 1,NACC,Quarterfinal,St. Norbert,Lakeland,58,52,340
 1,NACC,Quarterfinal,Milwaukee Eng,Concordia WI,78,73,224
 1,NACC,Quarterfinal,Benedictine IL,Aurora,82,72,29
-1,NACC,Quarterfinal,Wisconsin Lutheran,Benedictine IL,70,73,29
-1,NACC,Quarterfinal,St. Norbert,Milwaukee Eng,76,65,340
-1,NACC,Quarterfinal,Benedictine IL,St. Norbert,63,68,340
+1,NACC,Quarterfinal,Wisconsin Lutheran,Benedictine IL,71,66,404
+1,NACC,Quarterfinal,St. Norbert,Milwaukee Eng,86,55,340
+1,NACC,Quarterfinal,Wisconsin Lutheran,St. Norbert,77,59,404
 1,NCAC,Semifinal,Wittenberg,Oberlin,60,42,418
 1,NCAC,Semifinal,Hiram,Denison,61,56,149
-1,NCAC,Semifinal,Wittenberg,DePauw,65,89,95
-1,NCAC,Semifinal,Hiram,Ohio Wesleyan,73,85,264
-1,NCAC,Semifinal,DePauw,Ohio Wesleyan,81,67,95
+1,NCAC,Semifinal,Wittenberg,DePauw,73,80,95
+1,NCAC,Semifinal,Hiram,Ohio Wesleyan,68,78,264
+1,NCAC,Semifinal,DePauw,Ohio Wesleyan,66,63,95
 1,NESCAC,Quarterfinal,Bowdoin,Williams,71,46,38
 1,NESCAC,Quarterfinal,Amherst,Bates,61,51,12
 1,NESCAC,Quarterfinal,Colby,Middlebury,100,97,77
 1,NESCAC,Quarterfinal,Trinity (Conn),Tufts,72,64,365
-1,NESCAC,Quarterfinal,Bowdoin,Colby,83,59,38
-1,NESCAC,Quarterfinal,Amherst,Trinity (Conn),62,78,365
-1,NESCAC,Quarterfinal,Bowdoin,Trinity (Conn),75,62,38
-1,NEWMAC,Quarterfinal,Smith,WPI,91,80,325
-1,NEWMAC,Quarterfinal,Babson,Coast Guard,64,68,75
-1,NEWMAC,Quarterfinal,Emerson,Springfield,78,72,111
-1,NEWMAC,Quarterfinal,Salve Regina,MIT,70,73,226
-1,NEWMAC,Quarterfinal,Smith,MIT,81,68,325
-1,NEWMAC,Quarterfinal,Coast Guard,Emerson,81,65,75
-1,NEWMAC,Quarterfinal,Smith,Coast Guard,96,73,325
+1,NESCAC,Quarterfinal,Bowdoin,Colby,66,58,38
+1,NESCAC,Quarterfinal,Amherst,Trinity (Conn),65,86,365
+1,NESCAC,Quarterfinal,Bowdoin,Trinity (Conn),76,61,38
+1,NEWMAC,Quarterfinal,Smith,WPI,67,64,325
+1,NEWMAC,Quarterfinal,Babson,Coast Guard,83,62,22
+1,NEWMAC,Quarterfinal,Emerson,Springfield,75,61,111
+1,NEWMAC,Quarterfinal,Salve Regina,MIT,86,83,317
+1,NEWMAC,Quarterfinal,Smith,Salve Regina,80,56,325
+1,NEWMAC,Quarterfinal,Babson,Emerson,84,63,22
+1,NEWMAC,Quarterfinal,Smith,Babson,96,61,325
 1,NJAC,Semifinal,Wm Paterson,New Jersey City,55,54,419
 1,NJAC,Semifinal,Kean,Rowan,74,68,170
-1,NJAC,Semifinal,Wm Paterson,Montclair St.,85,57,419
-1,NJAC,Semifinal,Kean,TCNJ,65,75,79
-1,NJAC,Semifinal,Wm Paterson,TCNJ,65,60,419
-1,NWC,Semifinal,Whitman,Linfield,100,58,399
-1,NWC,Semifinal,George Fox,Puget Sound,87,68,128
-1,NWC,Semifinal,Whitman,George Fox,77,56,399
+1,NJAC,Semifinal,Wm Paterson,Montclair St.,72,64,419
+1,NJAC,Semifinal,Kean,TCNJ,61,75,79
+1,NJAC,Semifinal,Wm Paterson,TCNJ,70,65,419
+1,NWC,Semifinal,Whitman,Linfield,79,59,399
+1,NWC,Semifinal,George Fox,Puget Sound,77,64,128
+1,NWC,Semifinal,Whitman,George Fox,76,71,399
 1,OAC,Semifinal,Capital,Marietta,70,55,53
 1,OAC,Semifinal,Otterbein,John Carroll,71,54,268
-1,OAC,Semifinal,Capital,Ohio Northern,90,55,53
-1,OAC,Semifinal,Otterbein,Baldwin Wallace,68,79,23
-1,OAC,Semifinal,Capital,Baldwin Wallace,64,79,23
+1,OAC,Semifinal,Capital,Ohio Northern,77,70,53
+1,OAC,Semifinal,Otterbein,Baldwin Wallace,65,67,23
+1,OAC,Semifinal,Capital,Baldwin Wallace,89,69,53
 1,ODAC,Quarterfinal,Washington & Lee,Guilford,87,54,385
 1,ODAC,Quarterfinal,Shenandoah,Roanoke,80,66,322
 1,ODAC,Quarterfinal,Ferrum,Bridgewater (VA),63,57,118
 1,ODAC,Quarterfinal,Randolph-Macon,Randolph Col,63,46,293
-1,ODAC,Quarterfinal,Washington & Lee,Randolph-Macon,67,66,385
-1,ODAC,Quarterfinal,Shenandoah,Ferrum,80,67,322
-1,ODAC,Quarterfinal,Washington & Lee,Shenandoah,75,73,385
+1,ODAC,Quarterfinal,Washington & Lee,Randolph-Macon,78,65,385
+1,ODAC,Quarterfinal,Shenandoah,Ferrum,88,65,322
+1,ODAC,Quarterfinal,Washington & Lee,Shenandoah,75,68,385
 1,PAC,Semifinal,Grove City,St. Vincent,58,38,135
 1,PAC,Semifinal,Chatham,Bethany WV,61,59,68
-1,PAC,Semifinal,Grove City,Washington & Jefferson,58,83,384
+1,PAC,Semifinal,Grove City,Washington & Jefferson,57,84,384
 1,SAA,Quarterfinal,Oglethorpe,Rhodes,79,69,262
 1,SAA,Quarterfinal,Sewanee,Berry,72,66,321
 1,SAA,Quarterfinal,Centre,Hendrix,76,67,66
-1,SAA,Quarterfinal,Millsaps,Sewanee,85,55,223
-1,SAA,Quarterfinal,Centre,Oglethorpe,66,59,66
-1,SAA,Quarterfinal,Millsaps,Centre,92,68,223
-1,SCAC,Semifinal,TX Lutheran,Concordia TX,82,71,369
-1,SCAC,Semifinal,St. Thomas TX,Trinity (Texas),73,77,367
-1,SCAC,Semifinal,TX Lutheran,McMurry,69,68,369
-1,SCAC,Semifinal,Trinity (Texas),Colorado Col,73,77,80
-1,SCAC,Semifinal,TX Lutheran,Colorado Col,82,68,369
-1,SCIAC,Final,Pomona-Pitzer,Redlands,77,74,279
-1,SCIAC,Final,Whittier,Pomona-Pitzer,88,78,400
-1,SCIAC,Final,Cal Lutheran,Chapman,78,71,50
-1,SCIAC,Final,Whittier,Cal Lutheran,66,75,50
-1,SKY,Quarterfinal,Merchant Marine,Sarah Lawrence,93,33,217
-1,SKY,Quarterfinal,Mt. St. Mary,St. Joseph's NY,80,70,238
-1,SKY,Quarterfinal,Manhattanville,St. Joseph's LI,69,63,202
-1,SKY,Quarterfinal,Farmingdale,Mt. St. Vincent,88,65,116
-1,SKY,Quarterfinal,Merchant Marine,Farmingdale,87,77,217
-1,SKY,Quarterfinal,Mt. St. Mary,Manhattanville,79,69,238
-1,SKY,Quarterfinal,Merchant Marine,Mt. St. Mary,77,79,238
+1,SAA,Quarterfinal,Millsaps,Sewanee,80,74,223
+1,SAA,Quarterfinal,Centre,Oglethorpe,77,74,66
+1,SAA,Quarterfinal,Millsaps,Centre,81,77,223
+1,SCAC,Semifinal,TX Lutheran,Concordia TX,69,71,83
+1,SCAC,Semifinal,St. Thomas TX,Trinity (Texas),77,71,343
+1,SCAC,Semifinal,Concordia TX,McMurry,60,76,212
+1,SCAC,Semifinal,St. Thomas TX,Colorado Col,77,78,80
+1,SCAC,Semifinal,McMurry,Colorado Col,69,71,80
+1,SCIAC,Final,Pomona-Pitzer,Redlands,76,65,279
+1,SCIAC,Final,Whittier,Pomona-Pitzer,75,59,400
+1,SCIAC,Final,Cal Lutheran,Chapman,77,81,67
+1,SCIAC,Final,Whittier,Chapman,74,69,400
+1,SKY,Quarterfinal,Merchant Marine,Sarah Lawrence,97,40,217
+1,SKY,Quarterfinal,Mt. St. Mary,St. Joseph's NY,97,70,238
+1,SKY,Quarterfinal,Manhattanville,St. Joseph's LI,90,67,202
+1,SKY,Quarterfinal,Farmingdale,Mt. St. Vincent,86,77,116
+1,SKY,Quarterfinal,Merchant Marine,Farmingdale,75,68,217
+1,SKY,Quarterfinal,Mt. St. Mary,Manhattanville,68,70,202
+1,SKY,Quarterfinal,Merchant Marine,Manhattanville,71,62,217
 1,SLIAC,Semifinal,Eureka,Spalding,84,54,115
 1,SLIAC,Semifinal,Principia,Greenville,71,67,281
-1,SLIAC,Semifinal,Eureka,Westminster MO,85,86,395
-1,SLIAC,Semifinal,Principia,Webster,71,79,389
-1,SLIAC,Semifinal,Westminster MO,Webster,76,87,389
+1,SLIAC,Semifinal,Eureka,Westminster MO,77,89,395
+1,SLIAC,Semifinal,Principia,Webster,73,91,389
+1,SLIAC,Semifinal,Westminster MO,Webster,78,92,389
 1,SUNYAC,Semifinal,Oswego St.,SUNY Oneonta,59,54,267
 1,SUNYAC,Semifinal,SUNY Canton,Plattsburgh St.,61,58,350
-1,SUNYAC,Semifinal,Oswego St.,SUNY New Paltz,72,67,267
-1,SUNYAC,Semifinal,SUNY Canton,Cortland,62,79,86
-1,SUNYAC,Semifinal,Oswego St.,Cortland,66,90,86
+1,SUNYAC,Semifinal,Oswego St.,SUNY New Paltz,96,76,267
+1,SUNYAC,Semifinal,SUNY Canton,Cortland,62,89,86
+1,SUNYAC,Semifinal,Oswego St.,Cortland,60,77,86
 1,UEC,Quarterfinal,PSU-Harrisburg,Lancaster Bib,60,51,287
 1,UEC,Quarterfinal,Notre Dame MD,Wilson,65,57,256
 1,UEC,Quarterfinal,St. Elizabeth,Keystone,72,56,330
@@ -291,19 +291,19 @@ simulation_number,conference,round,team1_id,team2_id,team1_score,team2_score,win
 1,UEC,Quarterfinal,Bryn Athyn,Penn Col Tech,51,47,45
 1,UEC,Quarterfinal,Gallaudet,PSU-Abington,95,85,125
 1,UEC,Quarterfinal,St. Mary's MD,Bryn Athyn,54,46,338
-1,UEC,Quarterfinal,St. Mary's MD,Gallaudet,80,79,338
-1,UMAC,Semifinal,Northwestern MN,Martin Luther,81,69,254
-1,UMAC,Semifinal,UW-Superior,Bethany Luth,71,73,32
-1,UMAC,Semifinal,Northwestern MN,Bethany Luth,72,65,254
+1,UEC,Quarterfinal,St. Mary's MD,Gallaudet,68,73,125
+1,UMAC,Semifinal,Northwestern MN,Martin Luther,74,56,254
+1,UMAC,Semifinal,UW-Superior,Bethany Luth,67,56,410
+1,UMAC,Semifinal,Northwestern MN,UW-Superior,81,62,254
 1,USAC,Quarterfinal,Brevard,Greensboro,103,31,40
 1,USAC,Quarterfinal,NC Wesleyan,Meredith,82,41,247
 1,USAC,Quarterfinal,Methodist,Pfeiffer,63,48,220
 1,USAC,Quarterfinal,S Virginia,Peace,83,43,313
-1,USAC,Quarterfinal,Brevard,S Virginia,72,82,313
-1,USAC,Quarterfinal,NC Wesleyan,Methodist,79,77,247
-1,USAC,Quarterfinal,S Virginia,NC Wesleyan,82,80,313
+1,USAC,Quarterfinal,Brevard,S Virginia,77,90,313
+1,USAC,Quarterfinal,NC Wesleyan,Methodist,70,87,220
+1,USAC,Quarterfinal,S Virginia,Methodist,91,81,313
 1,WIAC,Semifinal,UW-La Crosse,UW-Stevens Point,71,67,403
 1,WIAC,Semifinal,UW-Whitewater,UW-River Falls,66,52,411
-1,WIAC,Semifinal,UW-Oshkosh,UW-La Crosse,69,65,405
-1,WIAC,Semifinal,UW-Stout,UW-Whitewater,77,70,409
-1,WIAC,Semifinal,UW-Oshkosh,UW-Stout,67,61,405
+1,WIAC,Semifinal,UW-Oshkosh,UW-La Crosse,69,60,405
+1,WIAC,Semifinal,UW-Stout,UW-Whitewater,68,75,411
+1,WIAC,Semifinal,UW-Oshkosh,UW-Whitewater,66,62,405

@@ -16,7 +16,8 @@ def analyze_tournament_bid_thieves(
     bid_thieves = []
     bid_thief_counts = {}
 
-    for champion_id, conf in conference_champions.items():
+    for conf, champion_id in conference_champions.items():
+        # Find championship game
         championship_game = next(
             (
                 game
@@ -33,12 +34,14 @@ def analyze_tournament_bid_thieves(
         if not championship_game:
             continue
 
+        # Identify runner-up
         runner_up = (
             championship_game["team2_id"]
             if championship_game["team1_id"] == champion_id
             else championship_game["team1_id"]
         )
 
+        # Check if runner-up would get Pool C
         would_runner_up_get_pool_c = determine_at_large_bid(
             runner_up,
             final_teams,
@@ -49,7 +52,10 @@ def analyze_tournament_bid_thieves(
         if not would_runner_up_get_pool_c:
             continue
 
-        modified_auto_bids = auto_bid_recipients - {champion_id} | {runner_up}
+        # Create hypothetical scenario
+        modified_auto_bids = (auto_bid_recipients - {champion_id}) | {runner_up}
+
+        # Check if champion would get Pool C in this scenario
         would_get_pool_c = determine_at_large_bid(
             champion_id,
             final_teams,

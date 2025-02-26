@@ -420,18 +420,11 @@ def simulate_conference_tournaments(
         if remaining_teams:
             # The last team remaining should be the champion
             final_team_id = remaining_teams[0]
-            print(f"Final team remaining for {conf}: {final_team_id}")
 
             # Extra verification with get_conference_champion
             champion_id = get_conference_champion(
                 conf, structure.provisional_teams, all_tournament_games
             )
-
-            # Log if there's a discrepancy
-            if champion_id != final_team_id and champion_id is not None:
-                print(
-                    f"WARNING: Champion discrepancy for {conf}. Last team: {final_team_id}, get_conference_champion: {champion_id}"
-                )
 
             # Use the champion from get_conference_champion if available, otherwise use the last remaining team
             final_champion_id = (
@@ -440,11 +433,6 @@ def simulate_conference_tournaments(
 
             if final_champion_id:
                 conference_champions[conf] = final_champion_id
-                print(f"Conference champion for {conf}: {final_champion_id}")
-            else:
-                print(f"WARNING: No eligible champion for {conf}")
-        else:
-            print(f"WARNING: No remaining teams for {conf}")
 
     return all_tournament_games, conference_champions
 
@@ -608,9 +596,6 @@ def determine_tournament_state(
 
     # Get the current round name and details
     current_round = round_info[current_round_idx]
-    print(
-        f"Current round determined to be: {current_round[0]} with {current_round[1]} teams"
-    )
 
     # If we've completed exactly the number of games for this round, we move to the next round
     if (
@@ -620,9 +605,6 @@ def determine_tournament_state(
         # We've completed this round, move to the next one
         current_round_idx += 1
         current_round = round_info[current_round_idx]
-        print(
-            f"Advancing to next round: {current_round[0]} with {current_round[1]} teams"
-        )
 
         # The winners of the completed games plus any unplayed bye teams move to the next round
         # Only take the most recent winners to form the next round
@@ -672,7 +654,6 @@ def determine_tournament_state(
             # Add any unplayed bye teams
             active_teams = remaining_teams_this_round + unplayed_bye_teams
 
-    print(f"Active teams for next games: {active_teams}")
     return active_teams, [], next_game_date
 
 
@@ -740,61 +721,44 @@ def get_conference_champion(
 ) -> str:
     """
     Get eligible conference champion, accounting for provisional teams.
-
     Args:
         conference: Conference name
         provisional_teams: Set of team IDs that are ineligible for autobid
         tournament_games: List of all tournament games
-
     Returns:
         Team ID of the conference champion, or None if no eligible champion
     """
-    # Add debug output
-    print(f"Finding champion for {conference} from {len(tournament_games)} total games")
-
     # Find all games for this conference
     conf_games = [g for g in tournament_games if g.get("conference") == conference]
-    print(f"Found {len(conf_games)} games for conference {conference}")
 
     # Get all games marked as "Final"
     final_games = [g for g in conf_games if g.get("round") == "Final"]
-    print(f"Found {len(final_games)} final games for conference {conference}")
 
     if not final_games:
-        print(f"WARNING: No final game found for conference {conference}")
         return None
 
     # Sort by date to ensure we get the latest final (in case there are multiple)
     final_games.sort(key=lambda x: x.get("date", "00000000"))
     championship_game = final_games[-1]
 
-    # Debug the championship game
+    # Get team IDs and scores
     team1_id = championship_game.get("team1_id")
     team2_id = championship_game.get("team2_id")
     team1_score = championship_game.get("team1_score")
     team2_score = championship_game.get("team2_score")
-    print(
-        f"Championship game: {team1_id} ({team1_score}) vs {team2_id} ({team2_score})"
-    )
 
     # Determine winner
     winner_id = team1_id if team1_score > team2_score else team2_id
-    print(f"Winner is {winner_id}")
 
     # Check if winner is eligible
     if winner_id not in provisional_teams:
-        print(f"Winner {winner_id} is eligible")
         return winner_id
 
     # If winner is provisional, return runner-up if eligible
-    print(f"Winner {winner_id} is provisional, checking runner-up")
     runner_up = team2_id if team1_id == winner_id else team1_id
-
     if runner_up not in provisional_teams:
-        print(f"Runner-up {runner_up} is eligible")
         return runner_up
     else:
-        print(f"Runner-up {runner_up} is also provisional, no autobid")
         return None
 
 

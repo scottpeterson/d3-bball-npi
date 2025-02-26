@@ -166,11 +166,6 @@ def run_single_simulation(base_path: Path, year: str, sim_number: int) -> Tuple[
                 # This is a tournament game (after conference regular season)
                 tournament_games.append(game)
 
-        # Debug information
-        print(
-            f"Found tournament games for conferences: {sorted(set(conference_teams[game['team1_id']].conference for game in tournament_games))}"
-        )
-
         for game in tournament_games:
             # Skip if teams don't exist in conference_teams
             if (
@@ -300,10 +295,6 @@ def run_single_simulation(base_path: Path, year: str, sim_number: int) -> Tuple[
             for team_id, result in tournament_results.items()
             if result.exit_round == "Semifinal"
         ]
-        print(f"Teams exiting in semifinal: {len(semifinal_exits)}")
-        print(
-            f"Teams with Pool C in semifinal: {sum(1 for team_id in semifinal_exits if tournament_results[team_id].got_pool_c)}"
-        )
 
         return results, bid_thieves, tournament_results, conference_games
 
@@ -323,10 +314,6 @@ def calculate_team_stats(
     """Calculate statistics across all simulations for each team."""
     team_stats = {}
     print(f"\nProcessing results for {len(all_results)} teams")
-
-    # Debug counters for Millsaps
-    millsaps_auto_bids = 0
-    millsaps_total_sims = 0
 
     # First pass - calculate all basic stats
     for team_id, results in all_results.items():
@@ -463,8 +450,6 @@ def run_multiple_simulations(base_path: Path, year: str, num_sims: int = 1000) -
         for sim_number in range(1, num_sims + 1):
             try:
                 sim_start_time = time.time()
-                print(f"\nStarting simulation {sim_number}")
-                print(" Running season simulation...", flush=True)
 
                 # Run simulation
                 sim_results, sim_bid_thieves, tourn_results, conf_games = (
@@ -506,13 +491,6 @@ def run_multiple_simulations(base_path: Path, year: str, num_sims: int = 1000) -
                         ]
                     )
 
-                # Add this before processing tournament results
-                print(f"Tournament results for sim {sim_number}:")
-                for team_id, result in tourn_results.items():
-                    print(
-                        f"  Team {valid_teams[team_id]}: exit_round={result.exit_round}, got_pool_c={result.got_pool_c}"
-                    )
-
                 # Process tournament results
                 for team_id, result in tourn_results.items():
                     stats = tournament_stats[team_id]
@@ -528,10 +506,6 @@ def run_multiple_simulations(base_path: Path, year: str, num_sims: int = 1000) -
                         stats.quarterfinal_total += 1
                         if result.got_pool_c:
                             stats.quarterfinal_pool_c += 1
-                    else:
-                        print(
-                            f"  WARNING: Team {valid_teams[team_id]} has unrecognized exit_round: {result.exit_round}"
-                        )
 
                 # Update other tracking
                 for team_id, result in sim_results.items():
@@ -540,20 +514,9 @@ def run_multiple_simulations(base_path: Path, year: str, num_sims: int = 1000) -
                     bid_thief_counts[team_id] += 1
                 per_sim_bid_count.append(len(sim_bid_thieves))
 
-                sim_duration = time.time() - sim_start_time
-                print(
-                    f"Completed simulation {sim_number} in {sim_duration:.2f} seconds"
-                )
-
             except Exception as e:
-                print(f"Error in simulation {sim_number}:")
-                print(f" {str(e)}")
                 traceback.print_exc()
                 continue
-
-        total_duration = time.time() - total_start_time
-        print(f"\nAll simulations completed in {total_duration:.2f} seconds")
-        print(f"Average time per simulation: {total_duration/num_sims:.2f} seconds")
 
         team_stats = calculate_team_stats(all_results, tournament_stats)
         return team_stats, bid_thief_counts, per_sim_bid_count, tournament_stats
@@ -781,49 +744,11 @@ def get_conference_tournament_results(
     """Analyze conference tournament performance and Pool C bid correlation."""
     results: Dict[str, TeamTournamentResult] = {}
 
-    # Debug: Check for E8 and other conferences
-    print(f"DEBUG: Number of tournament games: {len(tournament_games)}")
-    print(
-        f"DEBUG: Tournament games date range: {min([g['date'] for g in tournament_games])} to {max([g['date'] for g in tournament_games])}"
-    )
-
-    # Check if the games include E8 team IDs
-    e8_team_ids = [
-        team_id for team_id, team in conference_teams.items() if team.conference == "E8"
-    ]
-    print(f"DEBUG: Found {len(e8_team_ids)} E8 team IDs: {e8_team_ids}")
-
-    # Look for games with E8 teams directly
-    e8_games_found = []
-    for game in tournament_games:
-        if game["team1_id"] in e8_team_ids or game["team2_id"] in e8_team_ids:
-            e8_games_found.append(game)
-
-    print(f"DEBUG: Found {len(e8_games_found)} games with E8 teams directly")
-    for game in e8_games_found[:5]:  # Show first 5 for brevity
-        print(
-            f"  {game['date']}: {game['team1_id']} vs {game['team2_id']} ({game['team1_score']}-{game['team2_score']})"
-        )
-
     # First group games by conference
     conference_games: Dict[str, List[dict]] = {}
     for game in tournament_games:
         team1_id = game["team1_id"]
         team2_id = game["team2_id"]
-
-        # Debug for problematic teams
-        if team1_id in e8_team_ids or team2_id in e8_team_ids:
-            if team1_id not in conference_teams:
-                print(f"DEBUG: E8 team {team1_id} not in conference_teams")
-            if team2_id not in conference_teams:
-                print(f"DEBUG: E8 team {team2_id} not in conference_teams")
-
-            if team1_id in conference_teams and team2_id in conference_teams:
-                team1_conf = conference_teams[team1_id].conference
-                team2_conf = conference_teams[team2_id].conference
-                print(
-                    f"DEBUG: E8 game {team1_id} vs {team2_id} has conferences {team1_conf} and {team2_conf}"
-                )
 
         if team1_id not in conference_teams or team2_id not in conference_teams:
             continue
@@ -840,15 +765,8 @@ def get_conference_tournament_results(
             conference_games[conf] = []
         conference_games[conf].append(game)
 
-    # Print debug info about conferences found
-    print(
-        f"DEBUG: Found games for {len(conference_games)} conferences: {sorted(conference_games.keys())}"
-    )
-
     # Process each conference tournament
     for conf, games in conference_games.items():
-        is_e8 = conf == "E8"
-
         # Sort games by date and count games per date
         games_by_date = {}
         for game in sorted(games, key=lambda x: x["date"]):
@@ -886,9 +804,6 @@ def get_conference_tournament_results(
         eliminated_teams = set()
         for date in dates:
             if date not in round_by_date:
-                print(
-                    f"WARNING: Date {date} has no round assignment for conference {conf}"
-                )
                 continue
 
             round_name = round_by_date[date]
@@ -921,15 +836,6 @@ def get_conference_tournament_results(
                         exit_round=round_name,
                         got_pool_c=loser_id in at_large_bids,
                     )
-
-    # Check results one more time
-    for conf in conference_champions.keys():
-        results_for_conf = [
-            team_id for team_id, result in results.items() if result.conference == conf
-        ]
-        print(
-            f"DEBUG: Conference {conf} has {len(results_for_conf)} teams with results"
-        )
 
     return results
 

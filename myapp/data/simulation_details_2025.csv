@@ -1,418 +1,418 @@
 simulation_number,team_name,wins,losses,npi_rank,got_auto_bid,got_at_large,made_tournament,made_top_4,made_top_8,made_top_16
-1,Adrian,7,18,46.46535922622107,False,False,False,False,False,False
-1,Agnes Scott,3,19,38.43745285159305,False,False,False,False,False,False
-1,Albertus Magnus,17,9,53.9888531353439,False,False,False,False,False,False
-1,Albion,12,15,49.9624606289266,False,False,False,False,False,False
-1,Albright,13,12,51.07330127870665,False,False,False,False,False,False
-1,Alfred,13,13,49.100667258268444,False,False,False,False,False,False
-1,Alfred St.,6,18,40.99177889316408,False,False,False,False,False,False
-1,Allegheny,18,7,53.348454631027565,False,False,False,False,False,False
-1,Alma,10,16,48.43060812918627,False,False,False,False,False,False
-1,Alvernia,12,12,50.549195356476126,False,False,False,False,False,False
-1,Alverno,1,23,34.882028849423484,False,False,False,False,False,False
-1,Amherst,19,7,58.98418827783089,False,True,True,False,False,False
-1,Anderson IN,13,13,50.8599349607644,False,False,False,False,False,False
-1,Anna Maria,14,11,49.824505946182164,False,False,False,False,False,False
-1,Arcadia,18,9,53.481045362185036,False,False,False,False,False,False
-1,Asbury,18,9,51.77309218498945,False,False,False,False,False,False
-1,Augsburg,3,21,43.11811508736397,False,False,False,False,False,False
-1,Augustana,10,15,49.91271103343631,False,False,False,False,False,False
-1,Aurora,15,8,51.413644600220174,False,False,False,False,False,False
-1,Austin Col,9,14,46.65351378371443,False,False,False,False,False,False
-1,Averett,3,20,42.80948333319764,False,False,False,False,False,False
-1,Babson,16,10,55.68771003489613,False,False,False,False,False,False
-1,Baldwin Wallace,26,1,65.22258200946746,True,False,True,False,True,True
-1,Bard,1,23,37.217072804234576,False,False,False,False,False,False
-1,Baruch,14,11,48.33887220533621,False,False,False,False,False,False
-1,Bates,16,8,58.61195512457779,False,True,True,False,False,False
-1,Belhaven MS,16,10,50.17465719931478,False,False,False,False,False,False
-1,Beloit,3,22,40.252877152038955,False,False,False,False,False,False
-1,Benedictine IL,16,12,50.37449083684564,False,False,False,False,False,False
-1,Berea,14,12,52.001743747127094,False,False,False,False,False,False
-1,Berry,18,8,53.43668290047014,False,False,False,False,False,False
-1,Bethany Luth,12,15,46.88190604965371,False,False,False,False,False,False
-1,Bethany WV,12,13,47.767775457711515,False,False,False,False,False,False
-1,Bethel,23,4,62.655345790175716,True,False,True,False,False,True
-1,Blackburn,1,21,32.41809182872891,False,False,False,False,False,False
-1,Bluffton,10,15,48.363206271484025,False,False,False,False,False,False
-1,Bowdoin,27,0,68.54707626641749,True,False,True,True,True,True
-1,Brandeis,12,13,54.61942096556814,False,False,False,False,False,False
-1,Brevard,16,6,51.838791493707234,False,False,False,False,False,False
-1,Bridgewater MA,17,6,57.4247018114692,False,False,False,False,False,False
-1,Bridgewater (VA),21,5,57.130087469647016,False,False,False,False,False,False
-1,Brockport St.,24,4,58.19109824690552,False,False,False,False,False,False
-1,Brooklyn Col,17,11,49.626618270329345,True,False,True,False,False,False
-1,Bryn Athyn,17,7,48.61945262723474,False,False,False,False,False,False
-1,Bryn Mawr,6,18,44.441839553351635,False,False,False,False,False,False
-1,Buena Vista,7,17,45.81728813914703,False,False,False,False,False,False
-1,Buffalo St.,5,20,43.4775826215295,False,False,False,False,False,False
-1,Cairn,1,21,33.466065833205136,False,False,False,False,False,False
-1,Cal Lutheran,19,6,56.4951283066744,True,False,True,False,False,False
-1,Caltech,7,13,47.43279782281573,False,False,False,False,False,False
-1,Calvin,17,11,53.964131453541924,False,False,False,False,False,False
-1,Capital,21,7,57.9396935715246,False,False,False,False,False,False
-1,Carleton,3,22,43.03039078466038,False,False,False,False,False,False
-1,Carnegie Mellon,18,6,60.15695018480672,False,True,True,False,False,False
-1,Carroll,18,9,56.48934967199387,False,False,False,False,False,False
-1,Carthage,17,9,55.79046071214577,False,False,False,False,False,False
-1,Case Western,8,17,50.75693312791082,False,False,False,False,False,False
-1,Castleton,7,18,45.28629467989996,False,False,False,False,False,False
-1,Catholic,24,4,61.51988352983318,False,True,True,False,False,False
-1,Cedar Crest,8,12,42.104270391631886,False,False,False,False,False,False
-1,Centenary,2,22,39.5524455655843,False,False,False,False,False,False
-1,Centenary NJ,14,11,48.88364690361712,False,False,False,False,False,False
-1,Central IA,15,12,51.40269736867214,False,False,False,False,False,False
-1,Centre,20,8,53.43896527748503,False,False,False,False,False,False
-1,Chapman,12,13,50.89816063960562,False,False,False,False,False,False
-1,Chatham,20,5,55.23614434448488,False,False,False,False,False,False
-1,Chicago,14,11,55.631248864671676,False,False,False,False,False,False
-1,Christopher Newport,24,1,61.556693555750826,True,False,True,False,False,False
-1,City Col NY,1,18,35.59750019796069,False,False,False,False,False,False
-1,Claremont-Mudd-Scripps,10,15,49.08076847532814,False,False,False,False,False,False
-1,Clark MA,11,14,49.689950474896676,False,False,False,False,False,False
-1,Clarkson,9,15,46.82361888422303,False,False,False,False,False,False
-1,Coast Guard,18,10,54.886223343064586,False,False,False,False,False,False
-1,Coe,21,6,57.181733409092566,True,False,True,False,False,False
-1,Colby,14,11,56.61374142517302,False,False,False,False,False,False
-1,Colby-Sawyer,9,16,45.09320021150593,False,False,False,False,False,False
-1,TCNJ,21,6,56.02699999428123,False,False,False,False,False,False
-1,Colorado Col,24,3,60.32655242031899,False,True,True,False,False,False
-1,Concordia IL,5,19,42.64486527723957,False,False,False,False,False,False
-1,Concordia Moorhead,15,10,55.298456735517036,False,False,False,False,False,False
-1,Concordia TX,13,13,50.53519548587876,False,False,False,False,False,False
-1,Concordia WI,13,12,50.13266493984857,False,False,False,False,False,False
-1,Cornell IA,14,10,49.75147684572667,False,False,False,False,False,False
-1,Cortland,24,3,59.471017020496205,True,False,True,False,False,False
-1,Covenant,6,13,42.73592849192518,False,False,False,False,False,False
-1,Crown MN,4,20,38.82216701553966,False,False,False,False,False,False
-1,CT College,10,14,51.585238703085835,False,False,False,False,False,False
-1,Curry,8,17,47.338047944412295,False,False,False,False,False,False
-1,Dallas Univ,3,21,40.206773204985026,False,False,False,False,False,False
-1,Dean,5,19,41.372782918029635,False,False,False,False,False,False
-1,Delaware Val,3,22,41.45023721857312,False,False,False,False,False,False
-1,Denison,15,11,52.56922642960146,False,False,False,False,False,False
-1,DePauw,20,6,58.010296129119524,True,False,True,False,False,False
-1,DeSales,15,11,51.280824016181334,False,False,False,False,False,False
-1,Dickinson,14,13,54.74284763454274,False,False,False,False,False,False
-1,Dominican IL,5,19,39.668938099323654,False,False,False,False,False,False
-1,Drew,14,12,51.68710685410807,False,False,False,False,False,False
-1,Dubuque,10,16,49.04369466691641,False,False,False,False,False,False
-1,Eastern Connecticut,11,15,49.626555424592155,False,False,False,False,False,False
-1,E Mennonite,10,14,48.14585006624203,False,False,False,False,False,False
-1,East Texas Baptist,22,3,61.851610566577556,True,False,True,False,False,True
-1,Earlham,5,18,44.65586117731834,False,False,False,False,False,False
-1,Eastern Univ,1,23,41.01758429057734,False,False,False,False,False,False
-1,Edgewood,14,11,49.971525014733864,False,False,False,False,False,False
-1,Elizabethtown,24,3,62.33711566614425,True,False,True,False,False,True
-1,Elmhurst,16,9,53.43152285866798,False,False,False,False,False,False
-1,Elmira,12,14,47.98646291357698,False,False,False,False,False,False
-1,Elms,10,17,46.68293645131341,False,False,False,False,False,False
-1,Emerson,17,10,54.60404045889386,False,False,False,False,False,False
-1,Emmanuel,14,13,50.45060218611412,False,False,False,False,False,False
-1,Emory,16,9,57.48789311740915,False,False,False,False,False,False
-1,Endicott,20,6,57.40425213694406,False,False,False,False,False,False
-1,Eureka,16,11,48.72931920941672,False,False,False,False,False,False
-1,Farmingdale,19,9,51.857907131856706,False,False,False,False,False,False
-1,FDU Madison,7,18,44.61790856441482,False,False,False,False,False,False
-1,Ferrum,14,13,50.933887410433364,False,False,False,False,False,False
-1,Fitchburg St.,3,24,40.88490812816359,False,False,False,False,False,False
-1,Fontbonne,3,18,39.24493624921625,False,False,False,False,False,False
-1,Framingham St.,16,9,53.68296455834797,True,False,True,False,False,False
-1,Franciscan OH,2,22,37.19670959562979,False,False,False,False,False,False
-1,Frank & Marsh,15,10,54.58552780806726,False,False,False,False,False,False
-1,Franklin,15,11,52.14019990480427,False,False,False,False,False,False
-1,Gallaudet,17,11,50.20338217712516,False,False,False,False,False,False
-1,Geneseo St.,22,6,56.94430250773042,True,False,True,False,False,False
-1,Geneva,11,14,46.80418483844612,False,False,False,False,False,False
-1,George Fox,17,7,56.071265001809984,False,False,False,False,False,False
-1,Gettysburg,25,2,64.48165572373144,True,False,True,False,True,True
-1,Gordon,9,16,47.49241671790381,False,False,False,False,False,False
-1,Goucher,14,12,48.515971443091665,False,False,False,False,False,False
-1,Greensboro,3,19,39.94946359685445,False,False,False,False,False,False
-1,Greenville,11,14,47.574839114013805,False,False,False,False,False,False
-1,Grinnell,17,8,51.791234416729864,False,False,False,False,False,False
-1,Grove City,16,11,50.07662588615771,False,False,False,False,False,False
-1,Guilford,15,11,52.77717714472139,False,False,False,False,False,False
-1,Gustavus Adolphus,25,2,64.10957102274035,False,True,True,False,False,True
-1,Gwynedd-Mercy,5,19,44.27245456867044,False,False,False,False,False,False
-1,Hamilton,15,9,56.199390249896446,False,False,False,False,False,False
-1,Hamline,19,8,55.639894332400175,False,False,False,False,False,False
-1,Hanover,19,8,55.8589086205127,False,False,False,False,False,False
-1,Hardin-Simmons,18,6,56.66718203396052,False,False,False,False,False,False
-1,Hartford,10,16,48.786622257624465,False,False,False,False,False,False
-1,Hartwick,6,18,43.7976029372459,False,False,False,False,False,False
-1,Haverford,10,14,49.27262439991364,False,False,False,False,False,False
-1,Heidelberg,3,22,41.747733620766546,False,False,False,False,False,False
-1,Hendrix,8,17,44.66752420256795,False,False,False,False,False,False
-1,Hilbert,2,21,36.99001280810934,False,False,False,False,False,False
-1,Hiram,11,15,46.404175073153624,False,False,False,False,False,False
-1,Hobart & Smith,3,22,42.80342432117219,False,False,False,False,False,False
-1,Hollins,8,12,47.83800789228771,False,False,False,False,False,False
-1,Hood,7,17,46.56064975064226,False,False,False,False,False,False
-1,Hope,23,4,58.66216627744765,True,False,True,False,False,False
-1,Houghton,17,9,51.157173291548105,False,False,False,False,False,False
-1,Howard Payne,4,20,42.70008012663651,False,False,False,False,False,False
-1,Hunter,20,6,52.419929481616634,False,False,False,False,False,False
-1,Huntingdon,11,15,46.01138734457922,False,False,False,False,False,False
-1,Husson,13,12,50.003354348615666,False,False,False,False,False,False
-1,IL Tech,10,14,45.375153537827515,False,False,False,False,False,False
-1,Illinois Wesleyan,26,1,65.49018993495643,True,False,True,True,True,True
-1,Illinois Col,10,15,47.20718871981703,False,False,False,False,False,False
-1,Immaculata,22,3,57.1165276164293,True,False,True,False,False,False
-1,Ithaca,19,8,55.95209687173909,False,False,False,False,False,False
-1,J&W RI,24,2,58.052098660617986,True,False,True,False,False,False
-1,John Carroll,19,7,56.956033321130306,False,False,False,False,False,False
-1,John Jay,12,15,46.078483318751104,False,False,False,False,False,False
-1,Johns Hopkins,21,4,61.587603296664994,False,True,True,False,False,True
-1,Juniata,10,15,48.35250142457543,False,False,False,False,False,False
-1,Kalamazoo,9,16,45.99852724164794,False,False,False,False,False,False
-1,Kean,13,14,49.77562715220427,False,False,False,False,False,False
-1,Keene St.,14,14,50.58635133141778,False,False,False,False,False,False
-1,Kenyon,1,22,36.91565646655281,False,False,False,False,False,False
-1,Keuka,5,20,41.243618079466216,False,False,False,False,False,False
-1,Keystone,13,10,46.198494945060496,False,False,False,False,False,False
-1,King's PA,8,16,44.92995326157256,False,False,False,False,False,False
-1,Knox,15,11,51.988173800326464,False,False,False,False,False,False
-1,La Roche,19,5,54.06766438608774,True,False,True,False,False,False
-1,La Verne,6,17,46.592608695222665,False,False,False,False,False,False
-1,LaGrange,12,11,47.54213923822107,False,False,False,False,False,False
-1,Lake Forest,4,21,42.21949770239756,False,False,False,False,False,False
-1,Lakeland,12,14,47.01924632937254,False,False,False,False,False,False
-1,Lancaster Bib,9,14,44.002580628446836,False,False,False,False,False,False
-1,Lasell,10,15,47.1240170713741,False,False,False,False,False,False
-1,Lawrence,19,8,53.42524513876162,False,False,False,False,False,False
-1,LeTourneau,6,16,45.414806586760534,False,False,False,False,False,False
-1,Lebanon Val,21,5,55.78028456349979,True,False,True,False,False,False
-1,Lehman,11,15,44.04625634519895,False,False,False,False,False,False
-1,Lesley,8,16,40.183770316155886,False,False,False,False,False,False
-1,Lewis & Clark,5,14,46.35106732304307,False,False,False,False,False,False
-1,Linfield,16,7,55.52521767003606,False,False,False,False,False,False
-1,Loras,9,16,49.1744792559629,False,False,False,False,False,False
-1,Luther,18,9,53.59137957672792,False,False,False,False,False,False
-1,Lycoming,4,21,41.95270211467037,False,False,False,False,False,False
-1,Lynchburg,10,14,49.50755439160568,False,False,False,False,False,False
-1,Lyon,8,16,44.08557288550251,False,False,False,False,False,False
-1,Mary Hardin-Baylor,18,7,58.18825060915571,False,False,False,False,False,False
-1,MA Boston,10,16,48.01956555822434,False,False,False,False,False,False
-1,MA Dartmouth,21,5,58.942745314553044,False,True,True,False,False,False
-1,Macalester,12,13,51.264373994204455,False,False,False,False,False,False
-1,Manchester,8,16,47.340723682320935,False,False,False,False,False,False
-1,Manhattanville,19,8,51.644612470429415,False,False,False,False,False,False
-1,Maranatha Bap,0,11,25.934041558292193,False,False,False,False,False,False
-1,Marian WI,7,18,44.130205191962204,False,False,False,False,False,False
-1,Marietta,15,11,53.48189768562015,False,False,False,False,False,False
-1,Martin Luther,16,10,47.61332570333158,False,False,False,False,False,False
-1,Mary Washington,9,17,49.615394182341596,False,False,False,False,False,False
-1,Marymount,9,15,50.15396439990377,False,False,False,False,False,False
-1,Maryville TN,11,15,46.14926488722034,False,False,False,False,False,False
-1,Marywood,12,14,47.1476068704494,False,False,False,False,False,False
-1,McDaniel,17,9,55.13733936346848,False,False,False,False,False,False
-1,McMurry,20,4,59.19916281617689,False,True,True,False,False,False
-1,ME Farmington,8,13,44.749140390061285,False,False,False,False,False,False
-1,ME Maritime,22,4,57.705231251513396,True,False,True,False,False,False
-1,ME Presque Isle,3,14,39.010604805325784,False,False,False,False,False,False
-1,Medgar Evers,3,18,39.24434657701642,False,False,False,False,False,False
-1,Merchant Marine,25,2,59.206835590889355,False,True,True,False,False,False
-1,Meredith,7,15,43.83417622750538,False,False,False,False,False,False
-1,Messiah,24,3,59.910970819297326,False,True,True,False,False,False
-1,Methodist,14,10,49.36852739289799,False,False,False,False,False,False
-1,Middlebury,15,10,56.27126613916416,False,False,False,False,False,False
-1,Millikin,9,18,49.59572100329939,False,False,False,False,False,False
-1,Millsaps,23,4,56.80889638088549,True,False,True,False,False,False
-1,Milwaukee Eng,15,12,50.84002962664744,False,False,False,False,False,False
-1,Misericordia,6,19,44.33283973060278,False,False,False,False,False,False
-1,MIT,12,15,52.7689146416221,False,False,False,False,False,False
-1,Mitchell,2,18,39.77652168654535,False,False,False,False,False,False
-1,MN Morris,9,10,46.216639472619015,False,False,False,False,False,False
-1,Monmouth IL,5,20,42.904656651828276,False,False,False,False,False,False
-1,Montclair St.,21,5,55.856953321141056,False,False,False,False,False,False
-1,Moravian,6,19,45.351229294347974,False,False,False,False,False,False
-1,Morrisville St.,6,19,44.469044750643704,False,False,False,False,False,False
-1,MS Women,8,17,43.72803719846017,False,False,False,False,False,False
-1,Mt. Aloysius,15,10,49.26105494911639,False,False,False,False,False,False
-1,Mt. Holyoke,4,21,40.39482900082848,False,False,False,False,False,False
-1,Mt. Mary,6,11,39.16436062242498,False,False,False,False,False,False
-1,Mt. St. Joseph,21,7,56.677603754243854,True,False,True,False,False,False
-1,Mt. St. Mary,18,10,52.049729684283186,True,False,True,False,False,False
-1,Mt. St. Vincent,15,12,48.96225755175238,False,False,False,False,False,False
-1,Mt. Union,12,13,50.559575309415656,False,False,False,False,False,False
-1,Muhlenberg,15,10,52.29404515191128,False,False,False,False,False,False
-1,Muskingum,3,21,43.61741355204087,False,False,False,False,False,False
-1,N Central IL,10,15,50.10683090762907,False,False,False,False,False,False
-1,N Central MN,4,21,39.474542930604585,False,False,False,False,False,False
-1,N England Col,10,15,45.032848849403415,False,False,False,False,False,False
-1,Nazareth,20,7,54.628674202825664,False,False,False,False,False,False
-1,NC Wesleyan,17,9,51.39860673006546,False,False,False,False,False,False
-1,NE Wesleyan,2,21,41.755972610115755,False,False,False,False,False,False
-1,Neumann,15,10,51.89511673620358,False,False,False,False,False,False
-1,Nichols,13,12,50.01571310196191,False,False,False,False,False,False
-1,New Jersey City,10,16,49.02594468983099,False,False,False,False,False,False
-1,North Park,3,22,42.979011570797496,False,False,False,False,False,False
-1,Northland,0,21,31.05693280008356,False,False,False,False,False,False
-1,Northwestern MN,19,8,51.21848993558061,True,False,True,False,False,False
-1,Norwich,10,14,46.28979335877353,False,False,False,False,False,False
-1,Notre Dame MD,12,13,46.52121717782895,False,False,False,False,False,False
-1,NVU-Johnson,2,18,35.15704109652328,False,False,False,False,False,False
-1,NVU-Lyndon,8,14,41.94767167355982,False,False,False,False,False,False
-1,NYU,25,0,67.93441349133573,True,False,True,True,True,True
-1,Oberlin,14,12,51.80100767374999,False,False,False,False,False,False
-1,Occidental,9,11,50.06381566966651,False,False,False,False,False,False
-1,Oglethorpe,14,12,50.205361928337624,False,False,False,False,False,False
-1,Ohio Northern,18,8,56.89573524536195,False,False,False,False,False,False
-1,Ohio Wesleyan,24,3,61.710400645131585,False,True,True,False,False,True
-1,Old Westbury,0,25,30.162904328205094,False,False,False,False,False,False
-1,Olivet MI,5,20,43.49007407733312,False,False,False,False,False,False
-1,Oswego St.,18,10,53.59951722137863,False,False,False,False,False,False
-1,Otterbein,13,14,52.41486910909157,False,False,False,False,False,False
-1,Pac Lutheran,6,15,47.70674806562208,False,False,False,False,False,False
-1,Pacific,10,14,50.22270004544944,False,False,False,False,False,False
-1,Peace,4,20,40.62381564146202,False,False,False,False,False,False
-1,Penn Col Tech,13,11,47.42983078189775,False,False,False,False,False,False
-1,Pfeiffer,9,10,46.69564963313884,False,False,False,False,False,False
-1,Piedmont,20,7,53.96550651716175,True,False,True,False,False,False
-1,Pitt-Bradford,3,17,39.282010652662514,False,False,False,False,False,False
-1,Pitt-Greensburg,3,19,37.31686336796333,False,False,False,False,False,False
-1,Plattsburgh St.,14,12,50.73551997250984,False,False,False,False,False,False
-1,Plymouth St.,5,20,42.3437069229503,False,False,False,False,False,False
-1,Pomona-Pitzer,15,13,52.121411340674456,False,False,False,False,False,False
-1,Principia,13,12,48.66978602346875,False,False,False,False,False,False
-1,PSU-Abington,16,8,50.12523569990741,False,False,False,False,False,False
-1,PSU-Altoona,13,11,48.37961591611484,False,False,False,False,False,False
-1,Penn State-Behrend,19,6,53.98632068913513,False,False,False,False,False,False
-1,PSU-Berks,3,20,39.2085160773017,False,False,False,False,False,False
-1,PSU-Harrisburg,18,9,51.77000799630078,False,False,False,False,False,False
-1,Puget Sound,10,13,51.51774412683445,False,False,False,False,False,False
-1,Purchase,5,20,39.7304217506005,False,False,False,False,False,False
-1,Stockton,11,14,47.98402249843522,False,False,False,False,False,False
-1,Ramapo,3,22,41.51750411669699,False,False,False,False,False,False
-1,Randolph Col,10,14,49.421237816621115,False,False,False,False,False,False
-1,Randolph-Macon,25,2,62.874101571994544,False,True,True,False,False,True
-1,Redlands,13,13,51.82353726638085,False,False,False,False,False,False
-1,Regis MA,6,19,44.12902501886797,False,False,False,False,False,False
-1,Rensselaer,11,14,48.422491744081306,False,False,False,False,False,False
-1,Rhodes,6,18,46.66270286639479,False,False,False,False,False,False
-1,Rhode Island College,21,6,58.467531336185466,True,False,True,False,False,False
-1,Ripon,23,4,58.08780264255719,True,False,True,False,False,False
-1,Rivier,15,11,51.5043369583437,False,False,False,False,False,False
-1,Roanoke,13,13,51.42155556829351,False,False,False,False,False,False
-1,Rochester,12,13,54.42874435648368,False,False,False,False,False,False
-1,Rochester Tech,15,12,52.3052267001182,False,False,False,False,False,False
-1,Rockford,5,17,43.24901115333523,False,False,False,False,False,False
-1,Roger Williams,19,9,56.36628103961932,False,False,False,False,False,False
-1,Rose-Hulman,12,13,51.103949873677614,False,False,False,False,False,False
-1,Rosemont,2,22,37.294233636864625,False,False,False,False,False,False
-1,Rowan,17,9,52.945118804004615,False,False,False,False,False,False
-1,Sage,11,15,47.76288737490009,False,False,False,False,False,False
-1,Rutgers-Camden,8,16,45.05128268558641,False,False,False,False,False,False
-1,Rutgers-Newark,3,22,39.69174034857442,False,False,False,False,False,False
-1,S Maine,17,10,53.34715724695609,False,False,False,False,False,False
-1,S Virginia,26,2,60.05400024330966,True,False,True,False,False,False
-1,Salem MA,16,13,51.28106277687599,False,False,False,False,False,False
-1,Salem NC,1,19,35.50610763429666,False,False,False,False,False,False
-1,Salisbury,12,14,50.68148237966828,False,False,False,False,False,False
-1,Salve Regina,14,11,52.64067022798351,False,False,False,False,False,False
-1,Sarah Lawrence,6,20,41.423566300260504,False,False,False,False,False,False
-1,Schreiner,5,17,45.83846457985485,False,False,False,False,False,False
-1,Scranton,24,2,64.43254613266629,False,True,True,False,True,True
-1,Sewanee,11,15,47.69883413584196,False,False,False,False,False,False
-1,Shenandoah,18,10,55.124262309506484,False,False,False,False,False,False
-1,Simpson (Iowa),14,11,52.67332187401976,False,False,False,False,False,False
-1,Skidmore,15,12,52.952437105166084,False,False,False,False,False,False
-1,Smith,26,2,63.0884472385686,True,False,True,False,False,True
-1,Spalding,10,16,45.56913437278638,False,False,False,False,False,False
-1,Springfield,15,11,55.18852698027626,False,False,False,False,False,False
-1,St. Benedict,17,10,54.77054535223513,False,False,False,False,False,False
-1,St. Catherine,13,12,52.22853088644476,False,False,False,False,False,False
-1,St. Elizabeth,13,12,47.048597812409064,False,False,False,False,False,False
-1,St. John Fisher,19,8,55.13531947405305,False,False,False,False,False,False
-1,St. Joseph CT,17,9,53.49173707591944,False,False,False,False,False,False
-1,St. Joseph's LI,17,10,50.7036428217061,False,False,False,False,False,False
-1,St. Joseph's ME,20,7,55.8076906848353,False,False,False,False,False,False
-1,St. Joseph's NY,9,16,44.490195658024234,False,False,False,False,False,False
-1,St. Lawrence,16,10,52.55002959485101,False,False,False,False,False,False
-1,St. Mary's IN,6,18,45.290550799672175,False,False,False,False,False,False
-1,St. Mary's MD,21,7,51.74788628211258,True,False,True,False,False,False
-1,St. Mary's MN,13,12,51.87368895071722,False,False,False,False,False,False
-1,St. Norbert,23,4,57.80847339365446,True,False,True,False,False,False
-1,St. Olaf,7,18,46.10812240861707,False,False,False,False,False,False
-1,St. Scholastica,12,13,50.64947309186167,False,False,False,False,False,False
-1,St. Thomas TX,14,8,52.97054395303522,False,False,False,False,False,False
-1,St. Vincent,13,13,48.50514503180416,False,False,False,False,False,False
-1,Stevens,17,9,52.824155228816714,False,False,False,False,False,False
-1,Stevenson,9,16,48.26479550490725,False,False,False,False,False,False
-1,Suffolk,13,13,51.204488909241455,False,False,False,False,False,False
-1,SUNY Canton,15,11,50.94575052716664,False,False,False,False,False,False
-1,SUNY Cobleskill,23,5,54.617631687988116,False,False,False,False,False,False
-1,SUNY Delhi,0,22,28.125240780221503,False,False,False,False,False,False
-1,SUNY Fredonia,8,15,46.27080802035991,False,False,False,False,False,False
-1,SUNY New Paltz,16,10,53.4332246600266,False,False,False,False,False,False
-1,SUNY Oneonta,11,15,48.81591110901897,False,False,False,False,False,False
-1,SUNY Potsdam,9,15,46.94586443139104,False,False,False,False,False,False
-1,SUNYIT,6,19,44.20139189541561,False,False,False,False,False,False
-1,Susquehanna,15,11,52.53631966629204,False,False,False,False,False,False
-1,SW Univ TX,7,17,46.373368880681674,False,False,False,False,False,False
-1,Swarthmore,8,16,48.32252695299707,False,False,False,False,False,False
-1,Thiel,0,24,29.757084459671677,False,False,False,False,False,False
-1,Thomas ME,7,16,43.653784419361656,False,False,False,False,False,False
-1,Transylvania,21,6,57.75989884621953,False,False,False,False,False,False
-1,Trine,23,3,61.05169219835722,False,True,True,False,False,False
-1,Trinity (Conn),19,8,59.825322021857474,False,True,True,False,False,False
-1,Trinity DC,0,10,26.77290812125058,False,False,False,False,False,False
-1,Trinity (Texas),14,12,53.40847321670049,False,False,False,False,False,False
-1,Tufts,15,10,58.75002826454889,False,True,True,False,False,False
-1,TX Lutheran,23,4,59.8745624567087,True,False,True,False,False,False
-1,U New England,17,11,54.31423742240937,True,False,True,False,False,False
-1,UC Santa Cruz,5,13,47.405108418525785,False,False,False,False,False,False
-1,Union NY,13,12,50.380025138628035,False,False,False,False,False,False
-1,Univ Ozarks,13,12,49.88297108865222,False,False,False,False,False,False
-1,Ursinus,15,10,53.37416631031092,False,False,False,False,False,False
-1,Utica,4,21,41.682299513070944,False,False,False,False,False,False
-1,VA Wesleyan,4,19,42.76521433263636,False,False,False,False,False,False
-1,Valley Forge,3,18,37.932764652736786,False,False,False,False,False,False
-1,Vassar,21,6,57.246981403412015,True,False,True,False,False,False
-1,Western Connecticut,5,20,43.640461292527824,False,False,False,False,False,False
-1,W New England,23,3,60.017284973530394,False,True,True,False,False,False
-1,Warren Wilson,2,14,40.09954744627549,False,False,False,False,False,False
-1,Wartburg,24,3,60.080081684129546,False,True,True,False,False,False
-1,Washington & Jefferson,22,4,57.802191856650744,True,False,True,False,False,False
-1,Washington & Lee,25,3,61.55751538277668,True,False,True,False,False,False
-1,Washington MD,17,10,54.22747624679324,False,False,False,False,False,False
-1,WashU,17,8,58.05536225939955,False,False,False,False,False,False
-1,Waynesburg,13,11,47.71064347876361,False,False,False,False,False,False
-1,Webster,25,2,58.44785339376111,True,False,True,False,False,False
-1,Wellesley,8,16,46.100684591532726,False,False,False,False,False,False
-1,Wentworth Tech,2,23,39.52296473225939,False,False,False,False,False,False
-1,Wesleyan CT,8,16,50.95486467254076,False,False,False,False,False,False
-1,Wesleyan GA,0,18,30.749802041365513,False,False,False,False,False,False
-1,Westfield St.,16,10,52.16542776425707,False,False,False,False,False,False
-1,Westminster MO,20,6,54.435520504145416,False,False,False,False,False,False
-1,Westminster PA,4,21,40.32791574335767,False,False,False,False,False,False
-1,Wheaton (IL),15,12,54.27937395300179,False,False,False,False,False,False
-1,Wheaton MA,7,18,47.652482496749045,False,False,False,False,False,False
-1,Whitman,26,0,65.595875129576,True,False,True,True,True,True
-1,Whittier,18,5,56.16805114349232,False,False,False,False,False,False
-1,Whitworth,7,17,47.2917530344908,False,False,False,False,False,False
-1,UW-Eau Claire,8,17,51.733615248446355,False,False,False,False,False,False
-1,UW-La Crosse,16,11,58.01002003668911,False,False,False,False,False,False
-1,Wisconsin Lutheran,19,8,54.92904796647881,False,False,False,False,False,False
-1,UW-Oshkosh,24,3,64.86879078416531,True,False,True,False,True,True
-1,UW-Platteville,8,17,51.5651552828835,False,False,False,False,False,False
-1,UW-River Falls,14,12,55.75983342422637,False,False,False,False,False,False
-1,UW-Stevens Point,18,8,58.12000237717542,False,False,False,False,False,False
-1,UW-Stout,20,7,61.36055779825113,False,True,True,False,False,False
-1,UW-Superior,15,10,49.244357082880036,False,False,False,False,False,False
-1,UW-Whitewater,20,7,60.27651970169689,False,True,True,False,False,False
-1,Widener,18,8,55.83260955104183,True,False,True,False,False,False
-1,Wilkes,0,25,33.56211824276696,False,False,False,False,False,False
-1,Willamette,8,16,48.859265644168204,False,False,False,False,False,False
-1,Williams,14,11,56.29631444311577,False,False,False,False,False,False
-1,Wilmington OH,7,18,47.848513219896816,False,False,False,False,False,False
-1,Wilson,8,16,42.948006712723334,False,False,False,False,False,False
-1,Wittenberg,16,10,52.60380707866009,False,False,False,False,False,False
-1,Wm Paterson,21,7,55.41082606607326,True,False,True,False,False,False
-1,Wooster,5,18,42.403526312970705,False,False,False,False,False,False
-1,Worcester St,9,17,47.50008176963168,False,False,False,False,False,False
-1,WPI,12,14,51.47349316539632,False,False,False,False,False,False
-1,Yeshiva,4,19,40.40146161208342,False,False,False,False,False,False
-1,York NY,3,17,37.70375037348584,False,False,False,False,False,False
-1,York PA,16,10,53.175088018308344,False,False,False,False,False,False
+1,Adrian,7,18,46.315846537183965,False,False,False,False,False,False
+1,Agnes Scott,3,19,38.441062038644006,False,False,False,False,False,False
+1,Albertus Magnus,17,9,53.94430744744526,False,False,False,False,False,False
+1,Albion,12,15,49.904388892238856,False,False,False,False,False,False
+1,Albright,13,12,50.924065715072786,False,False,False,False,False,False
+1,Alfred,13,13,49.123441861670315,False,False,False,False,False,False
+1,Alfred St.,6,18,41.00804774291196,False,False,False,False,False,False
+1,Allegheny,18,7,53.43364145573608,False,False,False,False,False,False
+1,Alma,10,16,48.295315430413496,False,False,False,False,False,False
+1,Alvernia,12,12,50.47146428400382,False,False,False,False,False,False
+1,Alverno,1,23,34.89123378319402,False,False,False,False,False,False
+1,Amherst,19,7,58.937455821786855,False,True,True,False,False,False
+1,Anderson IN,13,13,50.83471747241952,False,False,False,False,False,False
+1,Anna Maria,14,11,49.78940370586981,False,False,False,False,False,False
+1,Arcadia,17,9,52.93973718992875,False,False,False,False,False,False
+1,Asbury,18,9,51.753014316904704,False,False,False,False,False,False
+1,Augsburg,3,21,43.1839046531591,False,False,False,False,False,False
+1,Augustana,10,15,50.00491648997957,False,False,False,False,False,False
+1,Aurora,15,8,51.47310180770693,False,False,False,False,False,False
+1,Austin Col,9,14,46.71666445949977,False,False,False,False,False,False
+1,Averett,3,20,42.81183716514896,False,False,False,False,False,False
+1,Babson,18,10,56.52447429131171,False,False,False,False,False,False
+1,Baldwin Wallace,25,2,64.19496780596421,False,True,True,False,True,True
+1,Bard,1,23,37.19903614413829,False,False,False,False,False,False
+1,Baruch,14,11,48.35839443423203,False,False,False,False,False,False
+1,Bates,16,8,58.69576158539914,False,True,True,False,False,False
+1,Belhaven MS,16,10,50.17969387614194,False,False,False,False,False,False
+1,Beloit,3,22,40.237927959116064,False,False,False,False,False,False
+1,Benedictine IL,15,12,49.78371933903756,False,False,False,False,False,False
+1,Berea,14,12,52.02735448710174,False,False,False,False,False,False
+1,Berry,18,8,53.43242038370753,False,False,False,False,False,False
+1,Bethany Luth,11,15,46.489084018149974,False,False,False,False,False,False
+1,Bethany WV,12,13,47.743309069247005,False,False,False,False,False,False
+1,Bethel,21,5,61.044066670591675,False,True,True,False,False,False
+1,Blackburn,1,21,32.42754127201304,False,False,False,False,False,False
+1,Bluffton,10,15,48.37651548350614,False,False,False,False,False,False
+1,Bowdoin,27,0,68.6286261071729,True,False,True,True,True,True
+1,Brandeis,12,13,54.7607920642569,False,False,False,False,False,False
+1,Brevard,16,6,51.85014400544479,False,False,False,False,False,False
+1,Bridgewater MA,18,6,57.67670830290133,False,False,False,False,False,False
+1,Bridgewater (VA),21,5,57.14882135703248,False,False,False,False,False,False
+1,Brockport St.,24,4,58.32775174537765,False,True,True,False,False,False
+1,Brooklyn Col,16,12,48.94547533053201,False,False,False,False,False,False
+1,Bryn Athyn,17,7,48.642331133503035,False,False,False,False,False,False
+1,Bryn Mawr,6,18,44.40523659579142,False,False,False,False,False,False
+1,Buena Vista,7,17,45.82803363821789,False,False,False,False,False,False
+1,Buffalo St.,5,20,43.500119107667764,False,False,False,False,False,False
+1,Cairn,1,21,33.442343063412885,False,False,False,False,False,False
+1,Cal Lutheran,17,7,55.31273359021105,False,False,False,False,False,False
+1,Caltech,7,13,47.40450944514959,False,False,False,False,False,False
+1,Calvin,16,11,53.35975789183215,False,False,False,False,False,False
+1,Capital,22,6,59.1495333146299,True,False,True,False,False,False
+1,Carleton,3,22,43.10784883778617,False,False,False,False,False,False
+1,Carnegie Mellon,19,5,61.26670453802426,False,True,True,False,False,False
+1,Carroll,19,8,57.598134254881195,True,False,True,False,False,False
+1,Carthage,17,9,55.73588609821962,False,False,False,False,False,False
+1,Case Western,7,18,49.98994287273394,False,False,False,False,False,False
+1,Castleton,7,18,45.23506016038831,False,False,False,False,False,False
+1,Catholic,23,4,60.675490759335986,False,True,True,False,False,False
+1,Cedar Crest,8,12,42.03701927534732,False,False,False,False,False,False
+1,Centenary,2,22,39.58996437545494,False,False,False,False,False,False
+1,Centenary NJ,14,11,48.84368278927686,False,False,False,False,False,False
+1,Central IA,15,12,51.53922834847942,False,False,False,False,False,False
+1,Centre,20,8,53.4492870775989,False,False,False,False,False,False
+1,Chapman,13,13,51.371364068893655,False,False,False,False,False,False
+1,Chatham,20,5,55.28243275785545,False,False,False,False,False,False
+1,Chicago,14,11,55.788158124123854,False,False,False,False,False,False
+1,Christopher Newport,24,1,61.36984249819589,True,False,True,False,False,False
+1,City Col NY,1,18,35.57514383463293,False,False,False,False,False,False
+1,Claremont-Mudd-Scripps,10,15,49.04040608281688,False,False,False,False,False,False
+1,Clark MA,11,14,49.66368600315345,False,False,False,False,False,False
+1,Clarkson,9,15,46.792105265077225,False,False,False,False,False,False
+1,Coast Guard,16,10,53.807207407581174,False,False,False,False,False,False
+1,Coe,20,7,56.343565643006286,False,False,False,False,False,False
+1,Colby,14,11,56.66000547972166,False,False,False,False,False,False
+1,Colby-Sawyer,9,16,45.04804077718535,False,False,False,False,False,False
+1,TCNJ,21,6,55.93348463560976,False,False,False,False,False,False
+1,Colorado Col,25,2,61.56441469775961,True,False,True,False,False,True
+1,Concordia IL,5,19,42.655286414362294,False,False,False,False,False,False
+1,Concordia Moorhead,15,10,55.299246018513415,False,False,False,False,False,False
+1,Concordia TX,14,13,51.01142074970423,False,False,False,False,False,False
+1,Concordia WI,13,12,50.18672092694911,False,False,False,False,False,False
+1,Cornell IA,14,10,49.75969421599229,False,False,False,False,False,False
+1,Cortland,24,3,59.54122538851485,True,False,True,False,False,False
+1,Covenant,6,13,42.737938366384526,False,False,False,False,False,False
+1,Crown MN,4,20,38.83408384775036,False,False,False,False,False,False
+1,CT College,10,14,51.45933319588857,False,False,False,False,False,False
+1,Curry,8,17,47.21141224294806,False,False,False,False,False,False
+1,Dallas Univ,3,21,40.25293941885569,False,False,False,False,False,False
+1,Dean,5,19,41.353879811265735,False,False,False,False,False,False
+1,Delaware Val,3,22,41.397979495942735,False,False,False,False,False,False
+1,Denison,15,11,52.54632641086964,False,False,False,False,False,False
+1,DePauw,20,6,57.96609470099873,True,False,True,False,False,False
+1,DeSales,15,11,51.27245349350714,False,False,False,False,False,False
+1,Dickinson,14,13,54.71634231931248,False,False,False,False,False,False
+1,Dominican IL,5,19,39.67330437586614,False,False,False,False,False,False
+1,Drew,14,12,51.50646596439024,False,False,False,False,False,False
+1,Dubuque,10,16,49.104976253075364,False,False,False,False,False,False
+1,Eastern Connecticut,11,15,49.64676227398171,False,False,False,False,False,False
+1,E Mennonite,10,14,48.1297336843846,False,False,False,False,False,False
+1,East Texas Baptist,22,3,61.7658723955223,True,False,True,False,False,True
+1,Earlham,5,18,44.66544081927891,False,False,False,False,False,False
+1,Eastern Univ,1,23,40.944871670345265,False,False,False,False,False,False
+1,Edgewood,14,11,50.12211106257772,False,False,False,False,False,False
+1,Elizabethtown,23,4,61.17252525654605,False,True,True,False,False,False
+1,Elmhurst,16,9,53.48451335751812,False,False,False,False,False,False
+1,Elmira,12,14,48.04535717213725,False,False,False,False,False,False
+1,Elms,10,17,46.6605983848203,False,False,False,False,False,False
+1,Emerson,17,10,54.62615009047349,False,False,False,False,False,False
+1,Emmanuel,14,13,50.489518817492936,False,False,False,False,False,False
+1,Emory,16,9,57.65092708237308,False,False,False,False,False,False
+1,Endicott,21,6,57.87975534094974,False,False,False,False,False,False
+1,Eureka,16,11,48.75131621788975,False,False,False,False,False,False
+1,Farmingdale,19,9,51.90196605620155,False,False,False,False,False,False
+1,FDU Madison,7,18,44.59382535823055,False,False,False,False,False,False
+1,Ferrum,14,13,50.90630402584394,False,False,False,False,False,False
+1,Fitchburg St.,3,24,40.8694451128519,False,False,False,False,False,False
+1,Fontbonne,3,18,39.259389240175445,False,False,False,False,False,False
+1,Framingham St.,14,10,52.51695340426878,False,False,False,False,False,False
+1,Franciscan OH,2,22,37.17750780594482,False,False,False,False,False,False
+1,Frank & Marsh,15,10,54.59437551936631,False,False,False,False,False,False
+1,Franklin,15,11,52.132999208970695,False,False,False,False,False,False
+1,Gallaudet,18,10,51.07784498859597,True,False,True,False,False,False
+1,Geneseo St.,22,6,57.00212596976404,True,False,True,False,False,False
+1,Geneva,11,14,46.769504116197616,False,False,False,False,False,False
+1,George Fox,17,7,56.0635783664764,False,False,False,False,False,False
+1,Gettysburg,25,2,64.55355221115583,True,False,True,False,True,True
+1,Gordon,9,16,47.40033274067854,False,False,False,False,False,False
+1,Goucher,14,12,48.477043819007456,False,False,False,False,False,False
+1,Greensboro,3,19,40.06881490498407,False,False,False,False,False,False
+1,Greenville,11,14,47.602254900390555,False,False,False,False,False,False
+1,Grinnell,18,8,52.37733956186222,False,False,False,False,False,False
+1,Grove City,16,11,50.06711765596488,False,False,False,False,False,False
+1,Guilford,15,11,52.7832104904152,False,False,False,False,False,False
+1,Gustavus Adolphus,25,2,63.92084880853651,False,True,True,False,False,True
+1,Gwynedd-Mercy,5,19,44.2492879563715,False,False,False,False,False,False
+1,Hamilton,15,9,56.22732092379798,False,False,False,False,False,False
+1,Hamline,21,7,57.51938631546061,True,False,True,False,False,False
+1,Hanover,19,8,55.96886713245664,False,False,False,False,False,False
+1,Hardin-Simmons,19,6,57.22382145316529,False,False,False,False,False,False
+1,Hartford,10,16,48.7118950929835,False,False,False,False,False,False
+1,Hartwick,6,18,43.81197693409853,False,False,False,False,False,False
+1,Haverford,10,14,49.23572945261929,False,False,False,False,False,False
+1,Heidelberg,3,22,41.75585561199923,False,False,False,False,False,False
+1,Hendrix,8,17,44.6960047854791,False,False,False,False,False,False
+1,Hilbert,2,21,37.00151092886145,False,False,False,False,False,False
+1,Hiram,11,15,46.35003788011678,False,False,False,False,False,False
+1,Hobart & Smith,3,22,42.83276336305019,False,False,False,False,False,False
+1,Hollins,8,12,47.83851361838283,False,False,False,False,False,False
+1,Hood,7,17,46.414821104619655,False,False,False,False,False,False
+1,Hope,22,5,58.028629551642,False,True,True,False,False,False
+1,Houghton,17,9,51.188430032253656,False,False,False,False,False,False
+1,Howard Payne,4,20,42.826890351960856,False,False,False,False,False,False
+1,Hunter,21,5,53.464711086770514,True,False,True,False,False,False
+1,Huntingdon,11,15,46.01339465287448,False,False,False,False,False,False
+1,Husson,13,12,50.07694739771622,False,False,False,False,False,False
+1,IL Tech,10,14,45.43466804648369,False,False,False,False,False,False
+1,Illinois Wesleyan,25,2,64.27402291571691,False,True,True,False,True,True
+1,Illinois Col,10,15,47.23986920454575,False,False,False,False,False,False
+1,Immaculata,22,3,56.8373871548703,True,False,True,False,False,False
+1,Ithaca,18,8,55.45438630942163,False,False,False,False,False,False
+1,J&W RI,23,3,56.88829276817785,False,False,False,False,False,False
+1,John Carroll,19,7,57.051617741155816,False,False,False,False,False,False
+1,John Jay,12,15,46.1090224330881,False,False,False,False,False,False
+1,Johns Hopkins,21,4,61.55940100743688,False,True,True,False,False,False
+1,Juniata,10,15,48.33355225274925,False,False,False,False,False,False
+1,Kalamazoo,9,16,45.913525850091325,False,False,False,False,False,False
+1,Kean,13,14,49.714655201029124,False,False,False,False,False,False
+1,Keene St.,13,14,49.96824007969454,False,False,False,False,False,False
+1,Kenyon,1,22,36.89363568131079,False,False,False,False,False,False
+1,Keuka,5,20,41.262168350545245,False,False,False,False,False,False
+1,Keystone,13,10,46.18556612611913,False,False,False,False,False,False
+1,King's PA,8,16,44.85328385870199,False,False,False,False,False,False
+1,Knox,15,11,52.0457634691057,False,False,False,False,False,False
+1,La Roche,18,6,53.03660772958479,False,False,False,False,False,False
+1,La Verne,6,17,46.580483784447246,False,False,False,False,False,False
+1,LaGrange,12,11,47.54622769800731,False,False,False,False,False,False
+1,Lake Forest,4,21,42.282388689727725,False,False,False,False,False,False
+1,Lakeland,12,14,46.976800266349436,False,False,False,False,False,False
+1,Lancaster Bib,9,14,43.948273173546745,False,False,False,False,False,False
+1,Lasell,10,15,47.10521128753748,False,False,False,False,False,False
+1,Lawrence,18,8,52.92082803283044,False,False,False,False,False,False
+1,LeTourneau,6,16,45.562926104868936,False,False,False,False,False,False
+1,Lebanon Val,21,5,55.732915282816236,True,False,True,False,False,False
+1,Lehman,11,15,44.050124424828645,False,False,False,False,False,False
+1,Lesley,8,16,40.181939870532815,False,False,False,False,False,False
+1,Lewis & Clark,5,14,46.3360501284258,False,False,False,False,False,False
+1,Linfield,16,7,55.50824979076149,False,False,False,False,False,False
+1,Loras,9,16,49.30384561114001,False,False,False,False,False,False
+1,Luther,18,9,53.61985085039431,False,False,False,False,False,False
+1,Lycoming,4,21,41.922145550819806,False,False,False,False,False,False
+1,Lynchburg,10,14,49.512469175717285,False,False,False,False,False,False
+1,Lyon,8,16,44.10466714623701,False,False,False,False,False,False
+1,Mary Hardin-Baylor,17,7,57.3572199009267,False,False,False,False,False,False
+1,MA Boston,10,16,48.05167963513443,False,False,False,False,False,False
+1,MA Dartmouth,23,4,60.46294908831734,True,False,True,False,False,False
+1,Macalester,12,13,51.42410446619797,False,False,False,False,False,False
+1,Manchester,8,16,47.37856923843196,False,False,False,False,False,False
+1,Manhattanville,20,8,52.25119086411787,False,False,False,False,False,False
+1,Maranatha Bap,0,11,25.94157075482518,False,False,False,False,False,False
+1,Marian WI,7,18,44.14833620509672,False,False,False,False,False,False
+1,Marietta,15,11,53.525461544783724,False,False,False,False,False,False
+1,Martin Luther,16,10,47.75154061472197,False,False,False,False,False,False
+1,Mary Washington,9,17,49.57865086367947,False,False,False,False,False,False
+1,Marymount,10,15,50.61239802845751,False,False,False,False,False,False
+1,Maryville TN,11,15,46.14738226302124,False,False,False,False,False,False
+1,Marywood,12,14,47.10127728272831,False,False,False,False,False,False
+1,McDaniel,17,9,55.151346378538705,False,False,False,False,False,False
+1,McMurry,21,4,59.11421547889684,False,True,True,False,False,False
+1,ME Farmington,8,13,44.76559891381327,False,False,False,False,False,False
+1,ME Maritime,22,4,57.824194477471025,True,False,True,False,False,False
+1,ME Presque Isle,3,14,39.017068515105024,False,False,False,False,False,False
+1,Medgar Evers,3,18,39.22997277022848,False,False,False,False,False,False
+1,Merchant Marine,26,1,60.575504316369084,True,False,True,False,False,False
+1,Meredith,7,15,43.82355829789951,False,False,False,False,False,False
+1,Messiah,25,2,60.67274977574131,True,False,True,False,False,False
+1,Methodist,15,10,50.05907665288873,False,False,False,False,False,False
+1,Middlebury,15,10,56.22395509282403,False,False,False,False,False,False
+1,Millikin,9,18,49.740409819350944,False,False,False,False,False,False
+1,Millsaps,23,4,56.831704665078384,True,False,True,False,False,False
+1,Milwaukee Eng,15,12,50.94801663027595,False,False,False,False,False,False
+1,Misericordia,6,19,44.308122516054276,False,False,False,False,False,False
+1,MIT,11,15,52.09132541217978,False,False,False,False,False,False
+1,Mitchell,2,18,39.75785463466684,False,False,False,False,False,False
+1,MN Morris,9,10,46.37310910003626,False,False,False,False,False,False
+1,Monmouth IL,5,20,42.9120490274479,False,False,False,False,False,False
+1,Montclair St.,21,5,55.787282750665,False,False,False,False,False,False
+1,Moravian,6,19,45.289140802419695,False,False,False,False,False,False
+1,Morrisville St.,6,19,44.49833579729712,False,False,False,False,False,False
+1,MS Women,8,17,43.74233345303003,False,False,False,False,False,False
+1,Mt. Aloysius,15,10,49.30219325162251,False,False,False,False,False,False
+1,Mt. Holyoke,4,21,40.37385381548725,False,False,False,False,False,False
+1,Mt. Mary,6,11,39.18545862888899,False,False,False,False,False,False
+1,Mt. St. Joseph,20,8,55.95848545707783,False,False,False,False,False,False
+1,Mt. St. Mary,16,11,50.31275967090535,False,False,False,False,False,False
+1,Mt. St. Vincent,15,12,48.93439421454109,False,False,False,False,False,False
+1,Mt. Union,12,13,50.6269832433317,False,False,False,False,False,False
+1,Muhlenberg,15,10,52.25967302015346,False,False,False,False,False,False
+1,Muskingum,3,21,43.64503035861661,False,False,False,False,False,False
+1,N Central IL,10,15,50.24349062864052,False,False,False,False,False,False
+1,N Central MN,4,21,39.49370777087614,False,False,False,False,False,False
+1,N England Col,10,15,45.02131493175013,False,False,False,False,False,False
+1,Nazareth,20,7,54.6807703791302,False,False,False,False,False,False
+1,NC Wesleyan,16,9,50.653838114485275,False,False,False,False,False,False
+1,NE Wesleyan,2,21,41.83876871530057,False,False,False,False,False,False
+1,Neumann,14,10,51.282851307727974,False,False,False,False,False,False
+1,Nichols,13,12,50.03706036327614,False,False,False,False,False,False
+1,New Jersey City,10,16,48.95985310933758,False,False,False,False,False,False
+1,North Park,3,22,42.98679348683863,False,False,False,False,False,False
+1,Northland,0,21,31.066401962512586,False,False,False,False,False,False
+1,Northwestern MN,19,8,51.463616904427454,True,False,True,False,False,False
+1,Norwich,10,14,46.30490643105421,False,False,False,False,False,False
+1,Notre Dame MD,12,13,46.460543272574114,False,False,False,False,False,False
+1,NVU-Johnson,2,18,35.15707705624473,False,False,False,False,False,False
+1,NVU-Lyndon,8,14,41.94873161917739,False,False,False,False,False,False
+1,NYU,25,0,68.50826032288872,True,False,True,True,True,True
+1,Oberlin,14,12,51.844779563128995,False,False,False,False,False,False
+1,Occidental,9,11,49.993394348125506,False,False,False,False,False,False
+1,Oglethorpe,14,12,50.2224897859453,False,False,False,False,False,False
+1,Ohio Northern,18,8,57.03438281277211,False,False,False,False,False,False
+1,Ohio Wesleyan,24,3,61.52810324086689,False,True,True,False,False,False
+1,Old Westbury,0,25,30.158257891662785,False,False,False,False,False,False
+1,Olivet MI,5,20,43.40438366658149,False,False,False,False,False,False
+1,Oswego St.,18,10,53.611803692518684,False,False,False,False,False,False
+1,Otterbein,13,14,52.43471147887532,False,False,False,False,False,False
+1,Pac Lutheran,6,15,47.611089929614835,False,False,False,False,False,False
+1,Pacific,10,14,50.19057172936782,False,False,False,False,False,False
+1,Peace,4,20,40.70102716965723,False,False,False,False,False,False
+1,Penn Col Tech,13,11,47.50106198117894,False,False,False,False,False,False
+1,Pfeiffer,9,10,46.74575078505887,False,False,False,False,False,False
+1,Piedmont,20,7,53.94189139857257,True,False,True,False,False,False
+1,Pitt-Bradford,3,17,39.295946582528565,False,False,False,False,False,False
+1,Pitt-Greensburg,3,19,37.3234289579804,False,False,False,False,False,False
+1,Plattsburgh St.,14,12,50.76240888168105,False,False,False,False,False,False
+1,Plymouth St.,5,20,42.28703815647653,False,False,False,False,False,False
+1,Pomona-Pitzer,15,13,52.09943839412772,False,False,False,False,False,False
+1,Principia,13,12,48.697558798801914,False,False,False,False,False,False
+1,PSU-Abington,16,8,50.155333753136276,False,False,False,False,False,False
+1,PSU-Altoona,13,11,48.38614074895618,False,False,False,False,False,False
+1,Penn State-Behrend,20,5,55.024793045703106,True,False,True,False,False,False
+1,PSU-Berks,3,20,39.20439119841283,False,False,False,False,False,False
+1,PSU-Harrisburg,18,9,51.85467053017618,False,False,False,False,False,False
+1,Puget Sound,10,13,51.4164106050725,False,False,False,False,False,False
+1,Purchase,5,20,39.684588053037096,False,False,False,False,False,False
+1,Stockton,11,14,47.94988253918419,False,False,False,False,False,False
+1,Ramapo,3,22,41.50326011046655,False,False,False,False,False,False
+1,Randolph Col,10,14,49.51115517983807,False,False,False,False,False,False
+1,Randolph-Macon,25,2,62.85355177279824,False,True,True,False,False,True
+1,Redlands,13,13,51.819936264014274,False,False,False,False,False,False
+1,Regis MA,6,19,44.05917999602013,False,False,False,False,False,False
+1,Rensselaer,11,14,48.33938011754802,False,False,False,False,False,False
+1,Rhodes,6,18,46.70702051058014,False,False,False,False,False,False
+1,Rhode Island College,20,7,57.919169742054805,False,False,False,False,False,False
+1,Ripon,23,4,58.249225174458616,True,False,True,False,False,False
+1,Rivier,15,11,51.52827215540878,False,False,False,False,False,False
+1,Roanoke,13,13,51.42422623276178,False,False,False,False,False,False
+1,Rochester,12,13,54.51445001638626,False,False,False,False,False,False
+1,Rochester Tech,16,12,52.81609543447753,False,False,False,False,False,False
+1,Rockford,5,17,43.253826347946344,False,False,False,False,False,False
+1,Roger Williams,18,9,56.127673489435644,False,False,False,False,False,False
+1,Rose-Hulman,12,13,51.11447893506079,False,False,False,False,False,False
+1,Rosemont,2,22,37.270357845062684,False,False,False,False,False,False
+1,Rowan,17,9,52.86955319917954,False,False,False,False,False,False
+1,Sage,11,15,47.792249146667245,False,False,False,False,False,False
+1,Rutgers-Camden,8,16,45.01048485841028,False,False,False,False,False,False
+1,Rutgers-Newark,3,22,39.66727492504219,False,False,False,False,False,False
+1,S Maine,17,10,53.369168658924,False,False,False,False,False,False
+1,S Virginia,26,2,59.974958512911265,True,False,True,False,False,False
+1,Salem MA,17,12,52.15022707574505,True,False,True,False,False,False
+1,Salem NC,1,19,35.54389840485469,False,False,False,False,False,False
+1,Salisbury,12,14,50.66287328658041,False,False,False,False,False,False
+1,Salve Regina,15,11,53.21890648535677,False,False,False,False,False,False
+1,Sarah Lawrence,6,20,41.2744830700153,False,False,False,False,False,False
+1,Schreiner,5,17,45.88907416492228,False,False,False,False,False,False
+1,Scranton,26,1,66.72852773828244,True,False,True,True,True,True
+1,Sewanee,11,15,47.71642370978232,False,False,False,False,False,False
+1,Shenandoah,18,10,55.1056820227041,False,False,False,False,False,False
+1,Simpson (Iowa),14,11,52.79017380153844,False,False,False,False,False,False
+1,Skidmore,15,12,52.86417725577906,False,False,False,False,False,False
+1,Smith,26,2,63.31680608432597,True,False,True,False,False,True
+1,Spalding,10,16,45.58002878133723,False,False,False,False,False,False
+1,Springfield,15,11,55.24905259405541,False,False,False,False,False,False
+1,St. Benedict,17,10,54.818531935461785,False,False,False,False,False,False
+1,St. Catherine,13,12,52.326889348881785,False,False,False,False,False,False
+1,St. Elizabeth,13,12,47.06529591772596,False,False,False,False,False,False
+1,St. John Fisher,19,8,55.1972281617092,False,False,False,False,False,False
+1,St. Joseph CT,17,9,53.574499070859055,False,False,False,False,False,False
+1,St. Joseph's LI,17,10,50.711117768075454,False,False,False,False,False,False
+1,St. Joseph's ME,21,6,56.653761191783836,True,False,True,False,False,False
+1,St. Joseph's NY,9,16,44.326977560687695,False,False,False,False,False,False
+1,St. Lawrence,16,10,52.537502901816026,False,False,False,False,False,False
+1,St. Mary's IN,6,18,45.18466736980756,False,False,False,False,False,False
+1,St. Mary's MD,20,8,50.955740181933464,False,False,False,False,False,False
+1,St. Mary's MN,13,12,51.96103437431617,False,False,False,False,False,False
+1,St. Norbert,22,5,57.22487276654171,False,False,False,False,False,False
+1,St. Olaf,7,18,46.300750878651,False,False,False,False,False,False
+1,St. Scholastica,12,13,50.697114657152355,False,False,False,False,False,False
+1,St. Thomas TX,15,8,53.652187031461374,False,False,False,False,False,False
+1,St. Vincent,13,13,48.5113296521122,False,False,False,False,False,False
+1,Stevens,18,9,53.28536393868618,False,False,False,False,False,False
+1,Stevenson,9,16,48.17795673377548,False,False,False,False,False,False
+1,Suffolk,13,13,51.302201500122656,False,False,False,False,False,False
+1,SUNY Canton,15,11,50.956732251497144,False,False,False,False,False,False
+1,SUNY Cobleskill,23,5,54.65425705900496,False,False,False,False,False,False
+1,SUNY Delhi,0,22,28.125342393420215,False,False,False,False,False,False
+1,SUNY Fredonia,8,15,46.28136796823623,False,False,False,False,False,False
+1,SUNY New Paltz,16,10,53.372521799045906,False,False,False,False,False,False
+1,SUNY Oneonta,11,15,48.83081514544706,False,False,False,False,False,False
+1,SUNY Potsdam,9,15,46.9458041657223,False,False,False,False,False,False
+1,SUNYIT,6,19,44.19562827827541,False,False,False,False,False,False
+1,Susquehanna,15,11,52.49781300897201,False,False,False,False,False,False
+1,SW Univ TX,7,17,46.35406230181174,False,False,False,False,False,False
+1,Swarthmore,8,16,48.1762339373372,False,False,False,False,False,False
+1,Thiel,0,24,29.74171694477711,False,False,False,False,False,False
+1,Thomas ME,7,16,43.704826205430905,False,False,False,False,False,False
+1,Transylvania,22,5,58.60124667261823,True,False,True,False,False,False
+1,Trine,25,2,62.94630681448927,True,False,True,False,False,True
+1,Trinity (Conn),19,8,59.727919672792346,False,True,True,False,False,False
+1,Trinity DC,0,10,26.753957434821547,False,False,False,False,False,False
+1,Trinity (Texas),13,12,52.71914816438543,False,False,False,False,False,False
+1,Tufts,15,10,58.843649536604325,False,True,True,False,False,False
+1,TX Lutheran,20,5,57.29618682169629,False,False,False,False,False,False
+1,U New England,15,12,53.02002599837221,False,False,False,False,False,False
+1,UC Santa Cruz,5,13,47.332708119505625,False,False,False,False,False,False
+1,Union NY,13,12,50.37156283188396,False,False,False,False,False,False
+1,Univ Ozarks,13,12,49.93192873875469,False,False,False,False,False,False
+1,Ursinus,15,10,53.236553505564345,False,False,False,False,False,False
+1,Utica,4,21,41.69439308579993,False,False,False,False,False,False
+1,VA Wesleyan,4,19,42.77537947491024,False,False,False,False,False,False
+1,Valley Forge,3,18,37.89508910487047,False,False,False,False,False,False
+1,Vassar,21,6,56.94992564786703,True,False,True,False,False,False
+1,Western Connecticut,5,20,43.593060383017885,False,False,False,False,False,False
+1,W New England,25,2,61.730176476754316,True,False,True,False,False,True
+1,Warren Wilson,2,14,40.10574266631914,False,False,False,False,False,False
+1,Wartburg,25,2,61.36327033705458,True,False,True,False,False,False
+1,Washington & Jefferson,22,4,57.86023852362722,True,False,True,False,False,False
+1,Washington & Lee,25,3,61.64593681175663,True,False,True,False,False,True
+1,Washington MD,17,10,54.24013241917923,False,False,False,False,False,False
+1,WashU,17,8,58.27372902504364,False,True,True,False,False,False
+1,Waynesburg,13,11,47.70838966744635,False,False,False,False,False,False
+1,Webster,25,2,58.55866589768954,True,False,True,False,False,False
+1,Wellesley,8,16,46.091357028695285,False,False,False,False,False,False
+1,Wentworth Tech,2,23,39.47807380364417,False,False,False,False,False,False
+1,Wesleyan CT,8,16,50.969622231622196,False,False,False,False,False,False
+1,Wesleyan GA,0,18,30.752685289997608,False,False,False,False,False,False
+1,Westfield St.,16,10,52.23875691687384,False,False,False,False,False,False
+1,Westminster MO,20,6,54.454841655275885,False,False,False,False,False,False
+1,Westminster PA,4,21,40.309902154270986,False,False,False,False,False,False
+1,Wheaton (IL),15,12,54.35012446959548,False,False,False,False,False,False
+1,Wheaton MA,7,18,47.6105211142278,False,False,False,False,False,False
+1,Whitman,26,0,65.38581550768278,True,False,True,True,True,True
+1,Whittier,19,4,56.70806307478724,True,False,True,False,False,False
+1,Whitworth,7,17,47.23475147748514,False,False,False,False,False,False
+1,UW-Eau Claire,8,17,51.91682281704132,False,False,False,False,False,False
+1,UW-La Crosse,16,11,57.97487584697551,False,False,False,False,False,False
+1,Wisconsin Lutheran,21,7,56.63467471387011,True,False,True,False,False,False
+1,UW-Oshkosh,24,3,65.15320003432372,True,False,True,False,True,True
+1,UW-Platteville,8,17,51.712803285847215,False,False,False,False,False,False
+1,UW-River Falls,14,12,55.908898219950935,False,False,False,False,False,False
+1,UW-Stevens Point,18,8,58.159015244899166,False,True,True,False,False,False
+1,UW-Stout,19,7,60.83403254426905,False,True,True,False,False,False
+1,UW-Superior,16,10,49.962777867855785,False,False,False,False,False,False
+1,UW-Whitewater,21,7,60.98924271148186,False,True,True,False,False,False
+1,Widener,16,9,54.208438440054756,False,False,False,False,False,False
+1,Wilkes,0,25,33.53771859303058,False,False,False,False,False,False
+1,Willamette,8,16,48.82532372148751,False,False,False,False,False,False
+1,Williams,14,11,56.28585486074081,False,False,False,False,False,False
+1,Wilmington OH,7,18,47.92033398539473,False,False,False,False,False,False
+1,Wilson,8,16,42.87270477361923,False,False,False,False,False,False
+1,Wittenberg,16,10,52.53367458447643,False,False,False,False,False,False
+1,Wm Paterson,21,7,55.338626215756044,True,False,True,False,False,False
+1,Wooster,5,18,42.38044660601852,False,False,False,False,False,False
+1,Worcester St,9,17,47.46767242912603,False,False,False,False,False,False
+1,WPI,12,14,51.48932070756269,False,False,False,False,False,False
+1,Yeshiva,4,19,40.335424882185485,False,False,False,False,False,False
+1,York NY,3,17,37.697892651088516,False,False,False,False,False,False
+1,York PA,17,10,53.61282106588481,False,False,False,False,False,False
