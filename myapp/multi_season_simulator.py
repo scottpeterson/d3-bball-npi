@@ -135,15 +135,42 @@ def run_single_simulation(base_path: Path, year: str, sim_number: int) -> Tuple[
             season_results, conference_teams
         )
 
-        # Process tournament games
-        tournament_games = [
-            game for game in season_results if game["date"] >= "20250302"
-        ]
-
-        # Process conference tournament games
+        # Load conference tournament metadata
         tournament_structures, conference_end_dates = load_tournament_structures(
             base_path, year
         )
+
+        # Process tournament games using conference-specific end dates
+        tournament_games = []
+        for game in season_results:
+            date = game["date"]
+            team1_id = game["team1_id"]
+            team2_id = game["team2_id"]
+
+            # Skip if teams aren't in conference_teams
+            if team1_id not in conference_teams or team2_id not in conference_teams:
+                continue
+
+            team1_conf = conference_teams[team1_id].conference
+            team2_conf = conference_teams[team2_id].conference
+
+            # Skip non-conference matchups
+            if team1_conf != team2_conf:
+                continue
+
+            # Get conference end date (if available)
+            conf = team1_conf
+            conf_end_date = conference_end_dates.get(conf)
+
+            if conf_end_date and date > conf_end_date:
+                # This is a tournament game (after conference regular season)
+                tournament_games.append(game)
+
+        # Debug information
+        print(
+            f"Found tournament games for conferences: {sorted(set(conference_teams[game['team1_id']].conference for game in tournament_games))}"
+        )
+
         for game in tournament_games:
             # Skip if teams don't exist in conference_teams
             if (
@@ -479,6 +506,13 @@ def run_multiple_simulations(base_path: Path, year: str, num_sims: int = 1000) -
                         ]
                     )
 
+                # Add this before processing tournament results
+                print(f"Tournament results for sim {sim_number}:")
+                for team_id, result in tourn_results.items():
+                    print(
+                        f"  Team {valid_teams[team_id]}: exit_round={result.exit_round}, got_pool_c={result.got_pool_c}"
+                    )
+
                 # Process tournament results
                 for team_id, result in tourn_results.items():
                     stats = tournament_stats[team_id]
@@ -494,6 +528,10 @@ def run_multiple_simulations(base_path: Path, year: str, num_sims: int = 1000) -
                         stats.quarterfinal_total += 1
                         if result.got_pool_c:
                             stats.quarterfinal_pool_c += 1
+                    else:
+                        print(
+                            f"  WARNING: Team {valid_teams[team_id]} has unrecognized exit_round: {result.exit_round}"
+                        )
 
                 # Update other tracking
                 for team_id, result in sim_results.items():
@@ -712,11 +750,6 @@ def get_conference_champions(
                 if game["date"] > end_date:
                     conference_games[conf].append(game)
 
-    # Debug output to verify
-    print(f"Conferences with tournament games: {len(conference_games)}")
-    for conf, games in conference_games.items():
-        print(f"  {conf}: {len(games)} games")
-
     # Find the championship game for each conference
     for conf, conf_games in conference_games.items():
         # Sort games by date to get the last (championship) game
@@ -742,27 +775,79 @@ def get_conference_champions(
 def get_conference_tournament_results(
     tournament_games: List[dict],
     conference_teams: Dict[str, ConferenceTeam],
-    conference_champions: Set[str],
+    conference_champions: Dict[str, str],
     at_large_bids: Set[str],
 ) -> Dict[str, TeamTournamentResult]:
     """Analyze conference tournament performance and Pool C bid correlation."""
     results: Dict[str, TeamTournamentResult] = {}
+
+    # Debug: Check for E8 and other conferences
+    print(f"DEBUG: Number of tournament games: {len(tournament_games)}")
+    print(
+        f"DEBUG: Tournament games date range: {min([g['date'] for g in tournament_games])} to {max([g['date'] for g in tournament_games])}"
+    )
+
+    # Check if the games include E8 team IDs
+    e8_team_ids = [
+        team_id for team_id, team in conference_teams.items() if team.conference == "E8"
+    ]
+    print(f"DEBUG: Found {len(e8_team_ids)} E8 team IDs: {e8_team_ids}")
+
+    # Look for games with E8 teams directly
+    e8_games_found = []
+    for game in tournament_games:
+        if game["team1_id"] in e8_team_ids or game["team2_id"] in e8_team_ids:
+            e8_games_found.append(game)
+
+    print(f"DEBUG: Found {len(e8_games_found)} games with E8 teams directly")
+    for game in e8_games_found[:5]:  # Show first 5 for brevity
+        print(
+            f"  {game['date']}: {game['team1_id']} vs {game['team2_id']} ({game['team1_score']}-{game['team2_score']})"
+        )
 
     # First group games by conference
     conference_games: Dict[str, List[dict]] = {}
     for game in tournament_games:
         team1_id = game["team1_id"]
         team2_id = game["team2_id"]
+
+        # Debug for problematic teams
+        if team1_id in e8_team_ids or team2_id in e8_team_ids:
+            if team1_id not in conference_teams:
+                print(f"DEBUG: E8 team {team1_id} not in conference_teams")
+            if team2_id not in conference_teams:
+                print(f"DEBUG: E8 team {team2_id} not in conference_teams")
+
+            if team1_id in conference_teams and team2_id in conference_teams:
+                team1_conf = conference_teams[team1_id].conference
+                team2_conf = conference_teams[team2_id].conference
+                print(
+                    f"DEBUG: E8 game {team1_id} vs {team2_id} has conferences {team1_conf} and {team2_conf}"
+                )
+
         if team1_id not in conference_teams or team2_id not in conference_teams:
             continue
 
-        conf = conference_teams[team1_id].conference
+        team1_conf = conference_teams[team1_id].conference
+        team2_conf = conference_teams[team2_id].conference
+
+        # Both teams must be from the same conference for tournament games
+        if team1_conf != team2_conf:
+            continue
+
+        conf = team1_conf
         if conf not in conference_games:
             conference_games[conf] = []
         conference_games[conf].append(game)
 
+    # Print debug info about conferences found
+    print(
+        f"DEBUG: Found games for {len(conference_games)} conferences: {sorted(conference_games.keys())}"
+    )
+
     # Process each conference tournament
     for conf, games in conference_games.items():
+        is_e8 = conf == "E8"
 
         # Sort games by date and count games per date
         games_by_date = {}
@@ -771,7 +856,6 @@ def get_conference_tournament_results(
             if date not in games_by_date:
                 games_by_date[date] = []
             games_by_date[date].append(game)
-
         dates = sorted(games_by_date.keys())
         games_per_date = {date: len(games_by_date[date]) for date in dates}
 
@@ -802,16 +886,18 @@ def get_conference_tournament_results(
         eliminated_teams = set()
         for date in dates:
             if date not in round_by_date:
-                print(f"WARNING: Date {date} has no round assignment")
+                print(
+                    f"WARNING: Date {date} has no round assignment for conference {conf}"
+                )
                 continue
 
             round_name = round_by_date[date]
+
             for game in games_by_date[date]:
                 team1_id = game["team1_id"]
                 team2_id = game["team2_id"]
                 team1_score = game["team1_score"]
                 team2_score = game["team2_score"]
-
                 team1_is_winner = team1_score > team2_score
                 winner_id = team1_id if team1_is_winner else team2_id
                 loser_id = team2_id if team1_is_winner else team1_id
@@ -825,16 +911,25 @@ def get_conference_tournament_results(
                         got_pool_c=loser_id in at_large_bids,
                     )
 
-                if round_name == "Final":
-                    # Remove recording of winner - only record the loser
-                    if loser_id not in eliminated_teams:
-                        eliminated_teams.add(loser_id)
-                        results[loser_id] = TeamTournamentResult(
-                            team_id=loser_id,
-                            conference=conf,
-                            exit_round=round_name,
-                            got_pool_c=loser_id in at_large_bids,
-                        )
+            if round_name == "Final":
+                # This code appears to be redundant but keeping it as in original
+                if loser_id not in eliminated_teams:
+                    eliminated_teams.add(loser_id)
+                    results[loser_id] = TeamTournamentResult(
+                        team_id=loser_id,
+                        conference=conf,
+                        exit_round=round_name,
+                        got_pool_c=loser_id in at_large_bids,
+                    )
+
+    # Check results one more time
+    for conf in conference_champions.keys():
+        results_for_conf = [
+            team_id for team_id, result in results.items() if result.conference == conf
+        ]
+        print(
+            f"DEBUG: Conference {conf} has {len(results_for_conf)} teams with results"
+        )
 
     return results
 
