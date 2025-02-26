@@ -405,128 +405,176 @@ def run_multiple_simulations(base_path: Path, year: str, num_sims: int = 1000) -
     conf_games_file = base_path / f"conference_games_{year}.csv"
     sim_details_file = base_path / f"simulation_details_{year}.csv"
 
-    conf_writer = None
-    sim_writer = None
+    # Load teams once outside the loop
+    valid_teams = load_teams(base_path, year)
+
+    # Buffer for CSV data
+    conf_game_rows = []
+    sim_detail_rows = []
+    BATCH_SIZE = 1000  # Adjust based on memory constraints
 
     try:
         # Open files and create writers
-        cgf = open(conf_games_file, "w", newline="")
-        sdf = open(sim_details_file, "w", newline="")
+        with open(conf_games_file, "w", newline="") as cgf, open(
+            sim_details_file, "w", newline=""
+        ) as sdf:
+            conf_writer = csv.writer(cgf)
+            sim_writer = csv.writer(sdf)
 
-        conf_writer = csv.writer(cgf)
-        sim_writer = csv.writer(sdf)
+            # Write headers
+            conf_writer.writerow(
+                [
+                    "simulation_number",
+                    "conference",
+                    "round",
+                    "team1_id",
+                    "team2_id",
+                    "team1_score",
+                    "team2_score",
+                    "winner_id",
+                ]
+            )
+            sim_writer.writerow(
+                [
+                    "simulation_number",
+                    "team_name",
+                    "wins",
+                    "losses",
+                    "npi_rank",
+                    "got_auto_bid",
+                    "got_at_large",
+                    "made_tournament",
+                    "made_top_4",
+                    "made_top_8",
+                    "made_top_16",
+                ]
+            )
 
-        # Write headers
-        conf_writer.writerow(
-            [
-                "simulation_number",
-                "conference",
-                "round",
-                "team1_id",
-                "team2_id",
-                "team1_score",
-                "team2_score",
-                "winner_id",
-            ]
-        )
-        sim_writer.writerow(
-            [
-                "simulation_number",
-                "team_name",
-                "wins",
-                "losses",
-                "npi_rank",
-                "got_auto_bid",
-                "got_at_large",
-                "made_tournament",
-                "made_top_4",
-                "made_top_8",
-                "made_top_16",
-            ]
-        )
+            total_start_time = time.time()
+            completed_sims = 0
 
-        total_start_time = time.time()
+            for sim_number in range(1, num_sims + 1):
+                try:
+                    sim_start_time = time.time()
 
-        for sim_number in range(1, num_sims + 1):
-            try:
-                sim_start_time = time.time()
-
-                # Run simulation
-                sim_results, sim_bid_thieves, tourn_results, conf_games = (
-                    run_single_simulation(base_path, year, sim_number)
-                )
-
-                valid_teams = load_teams(base_path, year)
-
-                # Write conference games to CSV
-                for game in conf_games:
-                    conf_writer.writerow(
-                        [
-                            game.simulation_number,
-                            game.conference,
-                            game.round,
-                            valid_teams[game.team1_id],
-                            valid_teams[game.team2_id],
-                            game.team1_score,
-                            game.team2_score,
-                            game.winner_id,
-                        ]
+                    # Run simulation
+                    sim_results, sim_bid_thieves, tourn_results, conf_games = (
+                        run_single_simulation(base_path, year, sim_number)
                     )
 
-                # Write simulation results
-                for team_id, result in sim_results.items():
-                    sim_writer.writerow(
-                        [
-                            sim_number,
-                            valid_teams[team_id],
-                            result.wins,
-                            result.losses,
-                            result.npi_rank,
-                            result.got_auto_bid,
-                            result.got_at_large,
-                            result.made_tournament,
-                            result.made_top_4,
-                            result.made_top_8,
-                            result.made_top_16,
-                        ]
-                    )
+                    # Prepare conference games data for batch writing
+                    for game in conf_games:
+                        conf_game_rows.append(
+                            [
+                                game.simulation_number,
+                                game.conference,
+                                game.round,
+                                valid_teams[game.team1_id],
+                                valid_teams[game.team2_id],
+                                game.team1_score,
+                                game.team2_score,
+                                game.winner_id,
+                            ]
+                        )
 
-                # Process tournament results
-                for team_id, result in tourn_results.items():
-                    stats = tournament_stats[team_id]
-                    if result.exit_round == "Final":
-                        stats.final_total += 1
-                        if result.got_pool_c:
-                            stats.final_pool_c += 1
-                    elif result.exit_round == "Semifinal":
-                        stats.semifinal_total += 1
-                        if result.got_pool_c:
-                            stats.semifinal_pool_c += 1
-                    elif result.exit_round == "Quarterfinal":
-                        stats.quarterfinal_total += 1
-                        if result.got_pool_c:
-                            stats.quarterfinal_pool_c += 1
+                    # Prepare simulation results data for batch writing
+                    for team_id, result in sim_results.items():
+                        sim_detail_rows.append(
+                            [
+                                sim_number,
+                                valid_teams[team_id],
+                                result.wins,
+                                result.losses,
+                                result.npi_rank,
+                                result.got_auto_bid,
+                                result.got_at_large,
+                                result.made_tournament,
+                                result.made_top_4,
+                                result.made_top_8,
+                                result.made_top_16,
+                            ]
+                        )
 
-                # Update other tracking
-                for team_id, result in sim_results.items():
-                    all_results[team_id].append(result)
-                for team_id in sim_bid_thieves:
-                    bid_thief_counts[team_id] += 1
-                per_sim_bid_count.append(len(sim_bid_thieves))
+                    # Process tournament results
+                    for team_id, result in tourn_results.items():
+                        stats = tournament_stats[team_id]
+                        if result.exit_round == "Final":
+                            stats.final_total += 1
+                            if result.got_pool_c:
+                                stats.final_pool_c += 1
+                        elif result.exit_round == "Semifinal":
+                            stats.semifinal_total += 1
+                            if result.got_pool_c:
+                                stats.semifinal_pool_c += 1
+                        elif result.exit_round == "Quarterfinal":
+                            stats.quarterfinal_total += 1
+                            if result.got_pool_c:
+                                stats.quarterfinal_pool_c += 1
 
-            except Exception as e:
-                traceback.print_exc()
-                continue
+                    # Update other tracking
+                    for team_id, result in sim_results.items():
+                        all_results[team_id].append(result)
+
+                    # Count bid thieves more efficiently
+                    bid_thief_count = len(sim_bid_thieves)
+                    per_sim_bid_count.append(bid_thief_count)
+
+                    for team_id in sim_bid_thieves:
+                        bid_thief_counts[team_id] += 1
+
+                    # Write batch data to CSV files if buffer is large enough
+                    if len(conf_game_rows) >= BATCH_SIZE:
+                        conf_writer.writerows(conf_game_rows)
+                        conf_game_rows = []
+
+                    if len(sim_detail_rows) >= BATCH_SIZE:
+                        sim_writer.writerows(sim_detail_rows)
+                        sim_detail_rows = []
+
+                    completed_sims += 1
+
+                    # Print progress every 100 simulations
+                    if sim_number % 100 == 0:
+                        elapsed_time = time.time() - total_start_time
+                        avg_time_per_sim = elapsed_time / completed_sims
+                        estimated_remaining = avg_time_per_sim * (
+                            num_sims - completed_sims
+                        )
+                        print(
+                            f"Completed {sim_number}/{num_sims} simulations - {elapsed_time:.2f}s elapsed, ~{estimated_remaining:.2f}s remaining"
+                        )
+
+                except Exception as e:
+                    traceback.print_exc()
+                    continue
+
+            # Write any remaining rows
+            if conf_game_rows:
+                conf_writer.writerows(conf_game_rows)
+
+            if sim_detail_rows:
+                sim_writer.writerows(sim_detail_rows)
+
+            # Calculate and print total time
+            total_time = time.time() - total_start_time
+            avg_time_per_sim = total_time / completed_sims if completed_sims > 0 else 0
+            print(f"\nTotal simulation time: {total_time:.2f} seconds")
+            print(f"Average time per simulation: {avg_time_per_sim:.4f} seconds")
+            print(f"Successfully completed {completed_sims}/{num_sims} simulations")
 
         team_stats = calculate_team_stats(all_results, tournament_stats)
         return team_stats, bid_thief_counts, per_sim_bid_count, tournament_stats
 
-    finally:
-        # Clean up - close files
-        if conf_writer is not None:
-            cgf.close()
-        if sim_writer is not None:
-            sdf.close()
+    except Exception as e:
+        traceback.print_exc()
+        # Clean up in case of error
+        if conf_game_rows or sim_detail_rows:
+            with open(conf_games_file, "a", newline="") as cgf, open(
+                sim_details_file, "a", newline=""
+            ) as sdf:
+                csv.writer(cgf).writerows(conf_game_rows)
+                csv.writer(sdf).writerows(sim_detail_rows)
+        raise
 
 
 def save_simulation_stats(
