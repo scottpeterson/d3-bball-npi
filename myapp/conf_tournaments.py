@@ -394,6 +394,10 @@ def simulate_conference_tournaments(
                     if round_name in ["Final", "Semifinal"]:
                         team1_home = False
                         team2_home = False
+                elif conf == "SCAC":
+                    if round_name in ["Final", "Semifinal", "Quarterfinal"]:
+                        team1_home = False
+                        team2_home = False
 
                 game = simulate_tournament_game(
                     higher_seed.team_id,
