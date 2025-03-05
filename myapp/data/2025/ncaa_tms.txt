@@ -1,0 +1,64 @@
+Bowdoin,1
+Brooklyn Col,16
+Cortland,8
+Endicott,9
+Amherst,5
+Vassar,12
+Smith,4
+SUNY Cobleskill,13
+McMurry,6
+Cal Lutheran,11
+East Texas Baptist,3
+TX Lutheran,14
+Wartburg,7
+UW-Stevens Point,10
+Gustavus Adolphus,2
+Wisconsin Lutheran,15
+Illinois Wesleyan,2
+Centre,15
+Trine,7
+Transylvania,10
+UW-Oshkosh,3
+Calvin,14
+Bethel,6
+DePauw,11
+Ohio Wesleyan,4
+Immaculata,13
+Messiah,5
+Washington & Jefferson,12
+Washington & Lee,8
+Merchant Marine,9
+Baldwin Wallace,1
+La Roche,16
+NYU,1
+Gallaudet,16
+MA Dartmouth,8
+Trinity (Conn),9
+Christopher Newport,5
+Montclair St.,12
+Catholic,4
+Geneseo St.,13
+Elizabethtown,6
+Brockport St.,11
+Randolph-Macon,3
+Piedmont,14
+W New England,7
+Tufts,10
+Gettysburg,2
+Stevens,15
+Whitman,2
+UW-Superior,15
+UW-Stout,7
+Ripon,10
+UW-Whitewater,3
+Principia,14
+Colorado Col,6
+UW-La Crosse,11
+Johns Hopkins,4
+St. Joseph CT,13
+Carnegie Mellon,5
+Bridgewater MA,12
+S Virginia,8
+Bates,9
+Scranton,1
+Mt. St. Mary,16

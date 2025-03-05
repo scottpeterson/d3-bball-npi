@@ -5,6 +5,7 @@ from pathlib import Path
 from .conf_tournaments import load_conference_data
 from .eff_getter import efficiency_getter
 from .games_getter import games_getter
+from .host_proximity_calculator import run_host_analysis
 from .load_teams import load_teams
 from .massey_ratings_getter import massey_ratings_getter
 from .multi_season_simulator import (
@@ -317,6 +318,7 @@ if __name__ == "__main__":
         "teams": run_team_ids_getter,
         "generate_bracket": run_bracket_generator,
         "simulate_tournament": run_multiple_tournament_simulations,
+        "host_analysis": run_host_analysis,
     }
 
     if len(sys.argv) < 2 or sys.argv[1] not in commands:
@@ -335,6 +337,7 @@ if __name__ == "__main__":
         print("run team ids getter")
         print(" generate_bracket - Generate NCAA tournament bracket")
         print(" simulate_tournament - Simulate NCAA tournament games")
+        print("Calculate host proximity matrix")
         sys.exit(1)
 
     commands[sys.argv[1]]()
