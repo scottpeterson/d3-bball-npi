@@ -70,21 +70,27 @@ class DataLoader:
         return distances
 
 
-def analyze_host_proximity(base_path, year, proximity_threshold=500):
+def analyze_host_proximity(
+    base_path, year, proximity_threshold=500, excluded_hosts=None
+):
     """
     Analyze which teams can be potential hosts based on proximity to other teams.
-    For each quadrant, analyze all possible combinations of 4 teams (one from each pod)
+    For each quadrant, analyze all possible combinations of 4 teams (one from each pair)
     and determine the best host based on proximity and seed.
 
     Args:
         base_path: Path to the base directory
         year: Year for analysis
         proximity_threshold: Distance threshold in miles (default 500)
+        excluded_hosts: List of teams that cannot be hosts (default None)
 
     Returns:
         DataFrame with best host for each possible team combination
         DataFrame with statistics on team hosting percentages
     """
+    # Initialize excluded hosts if None
+    if excluded_hosts is None:
+        excluded_hosts = []
     year_path = Path(base_path) / year
     teams, seeds = DataLoader.load_teams(year_path / "ncaa_tms.txt")
     distances = DataLoader.load_distances(year_path / "team_distances.txt")
@@ -92,26 +98,26 @@ def analyze_host_proximity(base_path, year, proximity_threshold=500):
     print(f"Loaded {len(teams)} teams")
     print(f"Loaded distance data for {len(distances)} teams")
 
-    # Create pods (assuming teams are listed in pod order)
+    # Create pairs (assuming teams are listed in order)
     n_teams = len(teams)
-    pods = []
-    for i in range(0, n_teams, 4):
-        end_idx = min(i + 4, n_teams)
-        pods.append(teams[i:end_idx])
+    pairs = []
+    for i in range(0, n_teams, 2):
+        end_idx = min(i + 2, n_teams)
+        pairs.append(teams[i:end_idx])
 
-    # Create quadrants (groups of 16 teams, 4 pods per quadrant)
+    # Create quadrants (groups of 8 teams, 4 pairs per quadrant)
     quadrants = []
-    for i in range(0, len(pods), 4):
-        end_idx = min(i + 4, len(pods))
-        quadrant_pods = pods[i:end_idx]
-        quadrants.append(quadrant_pods)
+    for i in range(0, len(pairs), 4):
+        end_idx = min(i + 4, len(pairs))
+        quadrant_pairs = pairs[i:end_idx]
+        quadrants.append(quadrant_pairs)
 
     # Print quadrant structure for verification
     print(f"\nQuadrant structure:")
     for q_idx, quadrant in enumerate(quadrants):
-        print(f"Quadrant {q_idx+1}: {len(quadrant)} pods")
-        for p_idx, pod in enumerate(quadrant):
-            print(f"  Pod {p_idx+1}: {pod}")
+        print(f"Quadrant {q_idx+1}: {len(quadrant)} pairs")
+        for p_idx, pair in enumerate(quadrant):
+            print(f"  Pair {p_idx+1}: {pair}")
 
     # Analyze all possible combinations within each quadrant
     results = []
@@ -126,11 +132,11 @@ def analyze_host_proximity(base_path, year, proximity_threshold=500):
         # Skip incomplete quadrants
         if len(quadrant) < 4:
             print(
-                f"  Skipping quadrant {q_idx+1} - insufficient pods ({len(quadrant)})"
+                f"  Skipping quadrant {q_idx+1} - insufficient pairs ({len(quadrant)})"
             )
             continue
 
-        # Generate all possible team combinations (one from each pod)
+        # Generate all possible team combinations (one from each pair)
         team_combinations = list(itertools.product(*quadrant))
         print(f"  Analyzing {len(team_combinations)} possible team combinations")
 
@@ -155,11 +161,29 @@ def analyze_host_proximity(base_path, year, proximity_threshold=500):
 
                 proximity_counts[team] = count
 
-            # Find the team(s) with the highest proximity count
-            max_count = max(proximity_counts.values()) if proximity_counts else 0
-            best_hosts = [
-                team for team, count in proximity_counts.items() if count == max_count
-            ]
+            # Find the team(s) with the highest proximity count, excluding teams that cannot host
+            filtered_proximity_counts = {
+                team: count
+                for team, count in proximity_counts.items()
+                if team not in excluded_hosts
+            }
+
+            if not filtered_proximity_counts:
+                # If all teams are excluded from hosting, we'll need to use the original counts
+                # but this should be a rare case
+                max_count = max(proximity_counts.values()) if proximity_counts else 0
+                best_hosts = [
+                    team
+                    for team, count in proximity_counts.items()
+                    if count == max_count
+                ]
+            else:
+                max_count = max(filtered_proximity_counts.values())
+                best_hosts = [
+                    team
+                    for team, count in filtered_proximity_counts.items()
+                    if count == max_count
+                ]
 
             # If there's a tie, select the team with the highest seed (lowest seed number)
             if len(best_hosts) > 1:
@@ -318,16 +342,27 @@ def visualize_host_percentage(stats_df, output_path=None):
 def run_host_analysis():
     """
     Analyze which NCAA bracket teams can potentially host others based on proximity.
-    Examines all possible combinations of teams from different pods within a quadrant.
+    Examines all possible combinations of teams from different pairs within a quadrant.
     """
     year = "2025"  # Hardcoded year like in your other functions
     base_path = Path(__file__).parent / "data"
 
+    # Define teams that cannot host
+    excluded_hosts = [
+        "NYU",
+        "Illinois Wesleyan",
+        "Washington & Jefferson",
+        "Elizabethtown",
+    ]
+
     print(f"\nAnalyzing host proximity for NCAA teams {year}")
+    print(f"Teams excluded from hosting: {', '.join(excluded_hosts)}")
     print("-" * 50)
 
     try:
-        results_df, stats_df = analyze_host_proximity(base_path, year)
+        results_df, stats_df = analyze_host_proximity(
+            base_path, year, excluded_hosts=excluded_hosts
+        )
 
         # Create output directory
         output_dir = base_path / year
@@ -360,3 +395,7 @@ def run_host_analysis():
 
         traceback.print_exc()
         return False
+
+
+if __name__ == "__main__":
+    run_host_analysis()
