@@ -1,0 +1,65 @@
+Team,Overall_seed,Conf,Region
+Bowdoin,1,NESCAC,1
+NYU,2,UAA,4
+Scranton,3,LAND,5
+UW-Oshkosh,4,WIAC,9
+Illinois Wesleyan,5,CCIW,8
+Gustavus Adolphus,6,MIAC,9
+Whitman,7,NWC,10
+Gettysburg,8,CC,5
+Baldwin Wallace,9,OAC,7
+Smith,10,NEWMAC,2
+Randolph-Macon,11,ODAC,6
+Trine,12,MIAA,7
+Johns Hopkins,13,CC,5
+Bethel,14,MIAC,9
+Ohio Wesleyan,15,NCAC,7
+Christopher Newport,16,C2C,6
+East Texas Baptist,17,ASC,10
+Western New England,18,CNE,2
+Catholic,19,LAND,5
+Mass-Dartmouth,20,LEC,2
+UW-Stout,21,WIAC,9
+Carnegie Mellon,22,UAA,7
+Messiah,23,MACC,5
+Merchant Marine,24,SKY,3
+Colorado College,25,SCAC,10
+UW-Whitewater,26,WIAC,9
+Wartburg,27,ARC,9
+Washington & Lee,28,ODAC,6
+Southern Virginia,29,USAC,6
+Elizabethtown,30,LAND,5
+Cortland,31,SUNYAC,3
+Tufts,32,NESCAC,1
+McMurry,33,SCAC,10
+Trinity (CT),34,NESCAC,1
+Amherst,35,NESCAC,1
+Bates,36,NESCAC,1
+Hope,37,MIAA,7
+Ripon,38,MWC,9
+Transylvania,39,HCAC,8
+WashU,40,UAA,8
+Rhode Island College,41,LEC,2
+St. Norbert,42,NACC,8
+Texas Lutheran,43,SCAC,10
+UW-Stevens Point,44,WIAC,9
+Bridgewater St.,45,MASCAC,1
+Hardin-Simmons,46,ASC,10
+UW-La Crosse,47,WIAC,9
+Webster,48,SLIAC,8
+Maine-Maritime,49,NAC,1
+Vassar,50,LL,3
+SUNY Geneseo,51,E8,3
+Immaculata,52,AEC,5
+Millsaps,53,SAA,6
+Roger Williams,54,CNE,2
+St. Joseph's (ME),55,GNAC,1
+Chatham,56,PAC,7
+TCNJ,57,NJAC,4
+Cal Lutheran,58,SCIAC,10
+Lebanon Val,59,MACF,4
+Penn State-Behrend,60,AMCC,7
+Hunter,61,CUNYAC,4
+Northwestern (MN),62,UMAC,9
+Belhaven,63,CCS,6
+Penn State-Abington,64,UEC,4

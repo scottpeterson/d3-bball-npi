@@ -1,0 +1,32 @@
+Bowdoin,1
+Cortland,8
+Amherst,5
+Smith,4
+McMurry,6
+Texas Lutheran,14
+Wartburg,7
+Gustavus Adolphus, 2
+Illinois Wesleyan,2
+Trine,7
+UW-Oshkosh,3
+Bethel,6
+Ohio Wesleyan,4
+Washington & Jefferson,12
+Washington & Lee,8
+Baldwin Wallace,1
+NYU,1
+Trinity (CT),9
+Montclair St.,12
+SUNY Geneseo, 13
+Elizabethtown,6
+Randolph-Macon,3
+Western New England,7
+Gettysburg,2
+Whitman,2
+UW-Stout,7
+UW-Whitewater,3
+UW-La Crosse,11
+Johns Hopkins,4
+Carnegie Mellon,5
+Bates,9
+Scranton,1
