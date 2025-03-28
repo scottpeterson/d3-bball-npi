@@ -1,15 +1,15 @@
 SNYDER NAME,NAME NEEDED
-York (Pa.),York PA
-York (N.Y.),York NY
+York (Pa.),York (PA)
+York (N.Y.),York (NY)
 Yeshiva,Yeshiva
 WPI,WPI
-Worcester State,Worcester St
+Worcester State,Worcester St.
 Wooster,Wooster
-William Paterson,Wm Paterson
+William Paterson,William Paterson
 Wittenberg,Wittenberg
 Wisconsin Lutheran,Wisconsin Lutheran
 Wilson,Wilson
-Wilmington,Wilmington OH
+Wilmington,Wilmington
 Williams,Williams
 Willamette,Willamette
 Wilkes,Wilkes
@@ -17,28 +17,28 @@ Widener,Widener
 Whitworth,Whitworth
 Whittier,Whittier
 Whitman,Whitman
-Wheaton (Mass.),Wheaton MA
+Wheaton (Mass.),Wheaton (MA)
 Wheaton (Ill.),Wheaton (IL)
-Westminster (Pa.),Westminster PA
-Westminster (Mo.),Westminster MO
+Westminster (Pa.),Westminster (PA)
+Westminster (Mo.),Westminster (MO)
 Westfield State,Westfield St.
 Western Connecticut,Western Connecticut
-Wesleyan (Ga.),Wesleyan GA
-Wesleyan,Wesleyan CT
+Wesleyan (Ga.),Wesleyan (GA)
+Wesleyan,Wesleyan (CT)
 Wentworth,Wentworth Tech
 Wellesley,Wellesley
 Webster,Webster
 Waynesburg,Waynesburg
 Washington U.,WashU
-Washington College,Washington MD
+Washington College,Washington College
 Washington and Lee,Washington & Lee
 Washington and Jefferson,Washington & Jefferson
 Wartburg,Wartburg
 Warren Wilson,Warren Wilson
-Western New England,W New England
+Western New England,Western New England
 Vassar,Vassar
 Valley Forge,Valley Forge
-Virginia Wesleyan,VA Wesleyan
+Virginia Wesleyan,Virginia Wesleyan
 UW-Whitewater,UW-Whitewater
 UW-Superior,UW-Superior
 UW-Stout,UW-Stout
@@ -51,27 +51,27 @@ UW-Eau Claire,UW-Eau Claire
 Utica,Utica
 Ursinus,Ursinus
 University of the Ozarks,Univ Ozarks
-Union,Union NY
+Union,Union (NY)
 UC Santa Cruz,UC Santa Cruz
-University of New England,U New England
-Texas Lutheran,TX Lutheran
+University of New England,University of New England
+Texas Lutheran,Texas Lutheran
 Tufts,Tufts
-Trinity (D.C.),Trinity DC
-Trinity (Texas),Trinity (Texas)
-Trinity (Conn.),Trinity (Conn)
+Trinity (D.C.),Trinity (DC)
+Trinity (Texas),Trinity (TX)
+Trinity (Conn.),Trinity (CT)
 Trine,Trine
 Transylvania,Transylvania
-Thomas,Thomas ME
+Thomas,Thomas (ME)
 Thiel,Thiel
 TCNJ,TCNJ
 Swarthmore,Swarthmore
-Southwestern,SW Univ TX
+Southwestern,Southwestern
 Susquehanna,Susquehanna
 SUNYIT,SUNYIT
 SUNY Potsdam,SUNY Potsdam
 SUNY Oneonta,SUNY Oneonta
 SUNY New Paltz,SUNY New Paltz
-Fredonia,SUNY Fredonia
+Fredonia,Fredonia
 SUNY Delhi,SUNY Delhi
 SUNY-Cobleskill,SUNY Cobleskill
 SUNY-Canton,SUNY Canton
@@ -80,18 +80,18 @@ Stockton,Stockton
 Stevenson,Stevenson
 Stevens,Stevens
 St. Vincent,St. Vincent
-St. Thomas (Texas),St. Thomas TX
+St. Thomas (Texas),St. Thomas (TX)
 St. Scholastica,St. Scholastica
 St. Olaf,St. Olaf
 St. Norbert,St. Norbert
-St. Marys (Minn.),St. Mary's MN
-St. Marys (Md.),St. Mary's MD
-St. Marys (Ind.),St. Mary's IN
+St. Marys (Minn.),St. Mary's (MN)
+St. Marys (Md.),St. Mary's (MD)
+St. Marys (Ind.),St. Mary's (IN)
 St. Lawrence,St. Lawrence
-St. Josephs (Bklyn.),St. Joseph's NY
-St. Josephs (Maine),St. Joseph's ME
-St. Josephs (L.I.),St. Joseph's LI
-St. Joseph (Conn.),St. Joseph CT
+St. Josephs (Bklyn.),St. Joseph's (NY)
+St. Josephs (Maine),St. Joseph's (ME)
+St. Josephs (L.I.),St. Joseph's (LI)
+St. Joseph (Conn.),St. Joseph (CT)
 St. John Fisher,St. John Fisher
 St. Elizabeth,St. Elizabeth
 St. Catherine,St. Catherine
@@ -100,7 +100,7 @@ Springfield,Springfield
 Spalding,Spalding
 Smith,Smith
 Skidmore,Skidmore
-Simpson,Simpson (Iowa)
+Simpson,Simpson (IA)
 Shenandoah,Shenandoah
 Sewanee,Sewanee
 Scranton,Scranton
@@ -108,11 +108,11 @@ Schreiner,Schreiner
 Sarah Lawrence,Sarah Lawrence
 Salve Regina,Salve Regina
 Salisbury,Salisbury
-Salem,Salem NC
-Salem State,Salem MA
+Salem,Salem (NC)
+Salem State,Salem St.
 Sage,Sage
-Southern Virginia,S Virginia
-Southern Maine,S Maine
+Southern Virginia,Southern Virginia
+Southern Maine,Southern Maine
 Rutgers-Newark,Rutgers-Newark
 Rutgers-Camden,Rutgers-Camden
 Rowan,Rowan
@@ -128,17 +128,17 @@ Ripon,Ripon
 Rhodes,Rhodes
 Rhode Island College,Rhode Island College
 RPI,Rensselaer
-Regis (Mass.),Regis MA
+Regis (Mass.),Regis
 Redlands,Redlands
 Randolph-Macon,Randolph-Macon
 Randolph,Randolph Col
 Ramapo,Ramapo
-SUNY-Purchase,Purchase
+SUNY-Purchase,SUNY Purchase
 Puget Sound,Puget Sound
 Penn State-Harrisburg,PSU-Harrisburg
 Penn State-Berks,PSU-Berks
 Penn State-Altoona,PSU-Altoona
-Penn State-Abington,PSU-Abington
+Penn State-Abington,Penn State-Abington
 Principia,Principia
 Pomona-Pitzer,Pomona-Pitzer
 Plymouth State,Plymouth St.
@@ -148,7 +148,7 @@ Pitt-Bradford,Pitt-Bradford
 Piedmont,Piedmont
 Pfeiffer,Pfeiffer
 Penn State-Behrend,Penn State-Behrend
-Penn College,Penn Col Tech
+Penn College,Penn College
 William Peace,Peace
 Pacific,Pacific
 Pacific Lutheran,Pac Lutheran
@@ -164,20 +164,20 @@ Oberlin,Oberlin
 New York University,NYU
 NVU-Lyndon,NVU-Lyndon
 NVU-Johnson,NVU-Johnson
-Notre Dame (Md.),Notre Dame MD
+Notre Dame (Md.),Notre Dame (MD)
 Norwich,Norwich
-Northwestern (Minn.),Northwestern MN
+Northwestern (Minn.),Northwestern (MN)
 Northland,Northland
 North Park,North Park
 Nichols,Nichols
 New Jersey City,New Jersey City
 Neumann,Neumann
-Nebraska Wesleyan,NE Wesleyan
+Nebraska Wesleyan,Nebraska Wesleyan
 N.C. Wesleyan,NC Wesleyan
 Nazareth,Nazareth
-New England College,N England Col
-North Central (Minn.),N Central MN
-North Central (Ill.),N Central IL
+New England College,New England College
+North Central (Minn.),North Central (MN)
+North Central (Ill.),North Central (IL)
 Muskingum,Muskingum
 Muhlenberg,Muhlenberg
 Mount Union,Mt. Union
@@ -187,16 +187,16 @@ Mount St. Joseph,Mt. St. Joseph
 Mount Mary,Mt. Mary
 Mount Holyoke,Mt. Holyoke
 Mount Aloysius,Mt. Aloysius
-MUW,MS Women
+MUW,MUW
 Morrisville State,Morrisville St.
 Moravian,Moravian
 Montclair State,Montclair St.
 Monmouth,Monmouth IL
-Minnesota-Morris,MN Morris
+Minnesota-Morris,Minn-Morris
 Mitchell,Mitchell
 MIT,MIT
 Misericordia,Misericordia
-MSOE,Milwaukee Eng
+MSOE,MSOE
 Millsaps,Millsaps
 Millikin,Millikin
 Middlebury,Middlebury
@@ -205,25 +205,25 @@ Messiah,Messiah
 Meredith,Meredith
 Merchant Marine,Merchant Marine
 Medgar Evers,Medgar Evers
-Maine-Presque Isle,ME Presque Isle
-Maine Maritime,ME Maritime
-Maine-Farmington,ME Farmington
+Maine-Presque Isle,Maine-Presque Isle
+Maine Maritime,Maine-Maritime
+Maine-Farmington,Maine-Farmington
 McMurry,McMurry
 McDaniel,McDaniel
 Marywood,Marywood
-Maryville (Tenn.),Maryville TN
+Maryville (Tenn.),Maryville
 Marymount,Marymount
 Mary Washington,Mary Washington
 Mary Hardin-Baylor,Mary Hardin-Baylor
 Martin Luther,Martin Luther
 Marietta,Marietta
-Marian,Marian WI
+Marian,Marian
 Maranatha Baptist,Maranatha Bap
 Manhattanville,Manhattanville
 Manchester,Manchester
 Macalester,Macalester
-Mass-Dartmouth,MA Dartmouth
-Mass-Boston,MA Boston
+Mass-Dartmouth,Mass-Dartmouth
+Mass-Boston,Mass-Boston
 Lyon,Lyon
 Lynchburg,Lynchburg
 Lycoming,Lycoming
@@ -244,7 +244,7 @@ LaGrange,LaGrange
 La Verne,La Verne
 La Roche,La Roche
 Knox,Knox
-Kings,King's PA
+Kings,King's
 Keystone,Keystone
 Keuka,Keuka
 Kenyon,Kenyon
@@ -255,12 +255,12 @@ Juniata,Juniata
 Johns Hopkins,Johns Hopkins
 John Jay,John Jay
 John Carroll,John Carroll
-Johnson and Wales,J&W RI
+Johnson and Wales,Johnson & Wales (RI)
 Ithaca,Ithaca
 Immaculata,Immaculata
 Illinois Wesleyan,Illinois Wesleyan
 Illinois College,Illinois Col
-Illinois Tech,IL Tech
+Illinois Tech,Illinois Tech
 Husson,Husson
 Huntingdon,Huntingdon
 Hunter,Hunter
@@ -269,7 +269,7 @@ Houghton,Houghton
 Hope,Hope
 Hood,Hood
 Hollins,Hollins
-William Smith,Hobart & Smith
+William Smith,William Smith
 Hiram,Hiram
 Hilbert,Hilbert
 Hendrix,Hendrix
@@ -293,16 +293,16 @@ Gordon,Gordon
 Gettysburg,Gettysburg
 George Fox,George Fox
 Geneva,Geneva
-SUNY Geneseo,Geneseo St.
+SUNY Geneseo,SUNY Geneseo
 Gallaudet,Gallaudet
 Franklin,Franklin
-Franklin and Marshall,Frank & Marsh
-Franciscan (Ohio),Franciscan OH
+Franklin and Marshall,Franklin & Marshall
+Franciscan (Ohio),Franciscan
 Framingham State,Framingham St.
 Fontbonne,Fontbonne
 Fitchburg State,Fitchburg St.
 Ferrum,Ferrum
-FDU-Florham,FDU Madison
+FDU-Florham,FDU Florham
 Farmingdale State,Farmingdale
 Eureka,Eureka
 Endicott,Endicott
@@ -318,10 +318,10 @@ Eastern,Eastern Univ
 Eastern Connecticut,Eastern Connecticut
 East Texas Baptist,East Texas Baptist
 Earlham,Earlham
-Eastern Mennonite,E Mennonite
+Eastern Mennonite,Eastern Mennonite
 Dubuque,Dubuque
 Drew,Drew
-Dominican,Dominican IL
+Dominican,Dominican
 Dickinson,Dickinson
 DeSales,DeSales
 DePauw,DePauw
@@ -330,31 +330,31 @@ Delaware Valley,Delaware Val
 Dean,Dean
 University of Dallas,Dallas Univ
 Curry,Curry
-Connecticut College,CT College
-Crown,Crown MN
+Connecticut College,Connecticut College
+Crown,Crown
 Covenant,Covenant
 Cortland,Cortland
-Cornell,Cornell IA
-Concordia (Wis.),Concordia WI
-Concordia (Texas),Concordia TX
+Cornell,Cornell
+Concordia (Wis.),Concordia (WI)
+Concordia (Texas),Concordia (TX)
 Concordia-Moorhead,Concordia Moorhead
-Concordia-Chicago,Concordia IL
-Colorado College,Colorado Col
+Concordia-Chicago,Concordia-Chicago
+Colorado College,Colorado College
 Colby-Sawyer,Colby-Sawyer
 Colby,Colby
 Coe,Coe
 Coast Guard,Coast Guard
 Clarkson,Clarkson
-Clark,Clark MA
+Clark,Clark
 Claremont-Mudd-Scripps,Claremont-Mudd-Scripps
-CCNY,City Col NY
+CCNY,City College (NY)
 Christopher Newport,Christopher Newport
 Chicago,Chicago
 Chatham,Chatham
 Chapman,Chapman
 Centre,Centre
 Central,Central IA
-Centenary (N.J.),Centenary NJ
+Centenary (N.J.),Centenary (NJ)
 Centenary (La.),Centenary
 Cedar Crest,Cedar Crest
 Catholic,Catholic
@@ -373,9 +373,9 @@ Buffalo State,Buffalo St.
 Buena Vista,Buena Vista
 Bryn Mawr,Bryn Mawr
 Bryn Athyn,Bryn Athyn
-Brooklyn,Brooklyn Col
+Brooklyn,Brooklyn College
 Brockport,Brockport St.
-Bridgewater State,Bridgewater MA
+Bridgewater State,Bridgewater St.
 Bridgewater (Va.),Bridgewater (Va)
 Brevard,Brevard
 Brandeis,Brandeis
@@ -383,27 +383,27 @@ Bowdoin,Bowdoin
 Bluffton,Bluffton
 Blackburn,Blackburn
 Bethel,Bethel
-Bethany,Bethany WV
+Bethany,Bethany (WV)
 Bethany Lutheran,Bethany Luth
 Berry,Berry
 Berea,Berea
-Benedictine,Benedictine IL
+Benedictine,Benedictine
 Beloit,Beloit
-Belhaven,Belhaven MS
+Belhaven,Belhaven
 Bates,Bates
 Baruch,Baruch
 Bard,Bard
 Baldwin Wallace,Baldwin Wallace
 Babson,Babson
 Averett,Averett
-Austin,Austin Col
+Austin,Austin College
 Aurora,Aurora
 Augustana,Augustana
 Augsburg,Augsburg
 Asbury,Asbury
 Arcadia,Arcadia
 Anna Maria,Anna Maria
-Anderson,Anderson IN
+Anderson,Anderson
 Amherst,Amherst
 Alverno,Alverno
 Alvernia,Alvernia

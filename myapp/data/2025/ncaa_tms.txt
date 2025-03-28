@@ -3,7 +3,7 @@ Cortland,8
 Amherst,5
 Smith,4
 McMurry,6
-TX Lutheran,14
+Texas Lutheran,14
 Wartburg,7
 Gustavus Adolphus, 2
 Illinois Wesleyan,2
@@ -15,12 +15,12 @@ Washington & Jefferson,12
 Washington & Lee,8
 Baldwin Wallace,1
 NYU,1
-Trinity (Conn),9
+Trinity (CT),9
 Montclair St.,12
-Geneseo St., 13
+SUNY Geneseo, 13
 Elizabethtown,6
 Randolph-Macon,3
-W New England,7
+Western New England,7
 Gettysburg,2
 Whitman,2
 UW-Stout,7

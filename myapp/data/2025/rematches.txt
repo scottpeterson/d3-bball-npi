@@ -7,8 +7,8 @@ UW-Stout,UW-Stevens Point
 UW-Stevens Point,UW-Stout
 Carnegie Mellon,NYU
 NYU,Carnegie Mellon
-TX Lutheran,McMurry
-McMurry,TX Lutheran
+Texas Lutheran,McMurry
+McMurry,Texas Lutheran
 Scranton,Elizabethtown
 Elizabethtown,Scranton
 UW-La Crosse,UW-Stevens Point
@@ -17,16 +17,16 @@ UW-Oshkosh,UW-Stout
 UW-Stout,UW-Oshkosh
 Lebanon Val,Hunter
 Hunter,Lebanon Val
-Millsaps,Belhaven MS
-East Texas Baptist,Belhaven MS
+Millsaps,Belhaven
+East Texas Baptist,Belhaven
 Merchant Marine,Hunter
 Hunter,Merchant Marine
 UW-Oshkosh,UW-La Crosse
 UW-La Crosse,UW-Oshkosh
-Trinity (Conn),Bowdoin
+Trinity (CT),Bowdoin
 Trine,Hope
 Hope,Trine
-Bowdoin,Trinity (Conn)
+Bowdoin,Trinity (CT)
 UW-Whitewater,UW-La Crosse
 UW-Stevens Point,UW-Oshkosh
 UW-Oshkosh,UW-Stevens Point
@@ -44,15 +44,15 @@ East Texas Baptist,Hardin-Simmons
 Catholic,Scranton
 Bethel,Gustavus Adolphus
 Tufts,Amherst
-Trinity (Conn),Bates
-Bates,Trinity (Conn)
+Trinity (CT),Bates
+Bates,Trinity (CT)
 Amherst,Tufts
-W New England,Roger Williams
+Western New England,Roger Williams
 UW-Whitewater,UW-Oshkosh
 UW-Oshkosh,UW-Whitewater
-Roger Williams,W New England
-Rhode Island College,MA Dartmouth
-MA Dartmouth,Rhode Island College
+Roger Williams,Western New England
+Rhode Island College,Mass-Dartmouth
+Mass-Dartmouth,Rhode Island College
 Johns Hopkins,Gettysburg
 Gettysburg,Johns Hopkins
 Elizabethtown,Catholic
@@ -60,32 +60,32 @@ Catholic,Elizabethtown
 WashU,NYU
 NYU,WashU
 Washington & Lee,Randolph-Macon
-Tufts,Trinity (Conn)
-Trinity (Conn),Tufts
+Tufts,Trinity (CT)
+Trinity (CT),Tufts
 Randolph-Macon,Washington & Lee
 Bowdoin,Amherst
 Amherst,Bowdoin
-TX Lutheran,McMurry
-McMurry,TX Lutheran
+Texas Lutheran,McMurry
+McMurry,Texas Lutheran
 UW-Whitewater,UW-Stevens Point
 UW-Stout,UW-La Crosse
 UW-Stevens Point,UW-Whitewater
 UW-La Crosse,UW-Stout
-ME Maritime,Bowdoin
-Bowdoin,ME Maritime
+Maine-Maritime,Bowdoin
+Bowdoin,Maine-Maritime
 UW-Whitewater,UW-La Crosse
 UW-La Crosse,UW-Whitewater
-MA Dartmouth,Bates
-Bates,MA Dartmouth
+Mass-Dartmouth,Bates
+Bates,Mass-Dartmouth
 NYU,Carnegie Mellon
 Carnegie Mellon,NYU
 UW-Stevens Point,UW-Oshkosh
 UW-Oshkosh,UW-Stevens Point
-St. Joseph's ME,Bowdoin
-Bowdoin,St. Joseph's ME
+St. Joseph's (ME),Bowdoin
+Bowdoin,St. Joseph's (ME)
 WashU,Carnegie Mellon
-McMurry,Colorado Col
-Colorado Col,McMurry
+McMurry,Colorado College
+Colorado College,McMurry
 Carnegie Mellon,WashU
 UW-Stout,UW-Stevens Point
 UW-Stevens Point,UW-Stout
@@ -95,18 +95,18 @@ Scranton,Catholic
 Gustavus Adolphus,Bethel
 Catholic,Scranton
 Bethel,Gustavus Adolphus
-Trinity (Conn),Amherst
+Trinity (CT),Amherst
 Bowdoin,Bates
 Bates,Bowdoin
-Amherst,Trinity (Conn)
+Amherst,Trinity (CT)
 Hardin-Simmons,East Texas Baptist
 East Texas Baptist,Hardin-Simmons
 UW-Whitewater,UW-Oshkosh
 UW-Stout,UW-La Crosse
 UW-Oshkosh,UW-Whitewater
 UW-La Crosse,UW-Stout
-TX Lutheran,Colorado Col
-Colorado Col,TX Lutheran
+Texas Lutheran,Colorado College
+Colorado College,Texas Lutheran
 UW-Whitewater,UW-Stout
 UW-Stout,UW-Whitewater
 UW-Stevens Point,UW-La Crosse
@@ -122,26 +122,26 @@ Amherst,Bates
 UW-Whitewater,UW-Stevens Point
 UW-Stevens Point,UW-Whitewater
 Scranton,Elizabethtown
-Rhode Island College,MA Dartmouth
-MA Dartmouth,Rhode Island College
+Rhode Island College,Mass-Dartmouth
+Mass-Dartmouth,Rhode Island College
 Elizabethtown,Scranton
-W New England,Roger Williams
-Roger Williams,W New England
-Trinity (Conn),Rhode Island College
-Rhode Island College,Trinity (Conn)
+Western New England,Roger Williams
+Roger Williams,Western New England
+Trinity (CT),Rhode Island College
+Rhode Island College,Trinity (CT)
 UW-Stout,UW-Oshkosh
 UW-Oshkosh,UW-Stout
-Smith,Bridgewater MA
+Smith,Bridgewater St.
 Millsaps,East Texas Baptist
 East Texas Baptist,Millsaps
-Bridgewater MA,Smith
+Bridgewater St.,Smith
 St. Norbert,Ripon
 Ripon,St. Norbert
 UW-Stout,Bethel
 Smith,Roger Williams
 Roger Williams,Smith
 Bethel,UW-Stout
-WashU,Bridgewater MA
+WashU,Bridgewater St.
 Washington & Lee,Transylvania
 Vassar,Catholic
 Trine,Ripon
@@ -149,7 +149,7 @@ Transylvania,Washington & Lee
 Ripon,Trine
 Catholic,Vassar
 Carnegie Mellon,Baldwin Wallace
-Bridgewater MA,WashU
+Bridgewater St.,WashU
 Baldwin Wallace,Carnegie Mellon
 Vassar,Johns Hopkins
 UW-Oshkosh,Trine
@@ -163,8 +163,8 @@ Illinois Wesleyan,East Texas Baptist
 East Texas Baptist,Illinois Wesleyan
 Bethel,Amherst
 Amherst,Bethel
-UW-Oshkosh,Northwestern MN
-Northwestern MN,UW-Oshkosh
+UW-Oshkosh,Northwestern (MN)
+Northwestern (MN),UW-Oshkosh
 TCNJ,Cal Lutheran
 Cal Lutheran,TCNJ
 Rhode Island College,Ohio Wesleyan
@@ -177,24 +177,24 @@ McMurry,East Texas Baptist
 East Texas Baptist,McMurry
 UW-Stevens Point,St. Norbert
 St. Norbert,UW-Stevens Point
-St. Joseph's ME,ME Maritime
-Northwestern MN,Gustavus Adolphus
-ME Maritime,St. Joseph's ME
-Gustavus Adolphus,Northwestern MN
+St. Joseph's (ME),Maine-Maritime
+Northwestern (MN),Gustavus Adolphus
+Maine-Maritime,St. Joseph's (ME)
+Gustavus Adolphus,Northwestern (MN)
 Tufts,NYU
 NYU,Tufts
-MA Dartmouth,Bridgewater MA
-Bridgewater MA,MA Dartmouth
+Mass-Dartmouth,Bridgewater St.
+Bridgewater St.,Mass-Dartmouth
 Bowdoin,Bates
 Bates,Bowdoin
-S Virginia,Christopher Newport
+Southern Virginia,Christopher Newport
 Messiah,Gettysburg
 Gettysburg,Messiah
-Christopher Newport,S Virginia
+Christopher Newport,Southern Virginia
 WashU,Illinois Wesleyan
 Tufts,Rhode Island College
-Trinity (Conn),Smith
-Smith,Trinity (Conn)
+Trinity (CT),Smith
+Smith,Trinity (CT)
 Rhode Island College,Tufts
 Illinois Wesleyan,WashU
 Whitman,Cal Lutheran
@@ -203,17 +203,17 @@ UW-Whitewater,Illinois Wesleyan
 UW-La Crosse,Hope
 Tufts,Scranton
 Scranton,Tufts
-Roger Williams,MA Dartmouth
-Rhode Island College,Bridgewater MA
-MA Dartmouth,Roger Williams
+Roger Williams,Mass-Dartmouth
+Rhode Island College,Bridgewater St.
+Mass-Dartmouth,Roger Williams
 Lebanon Val,Elizabethtown
 Illinois Wesleyan,UW-Whitewater
 Hope,UW-La Crosse
 Elizabethtown,Lebanon Val
-Bridgewater MA,Rhode Island College
-Belhaven MS,East Texas Baptist
-Gustavus Adolphus,Colorado Col
-Colorado Col,Gustavus Adolphus
+Bridgewater St.,Rhode Island College
+Belhaven,East Texas Baptist
+Gustavus Adolphus,Colorado College
+Colorado College,Gustavus Adolphus
 Tufts,Roger Williams
 Roger Williams,Tufts
 Randolph-Macon,Johns Hopkins
@@ -221,20 +221,20 @@ Johns Hopkins,Randolph-Macon
 McMurry,Hardin-Simmons
 Hardin-Simmons,McMurry
 Trine,Baldwin Wallace
-Smith,MA Dartmouth
-MA Dartmouth,Smith
+Smith,Mass-Dartmouth
+Mass-Dartmouth,Smith
 Elizabethtown,Catholic
 Catholic,Elizabethtown
 Baldwin Wallace,Trine
-Vassar,Trinity (Conn)
-Trinity (Conn),Vassar
-Belhaven MS,Millsaps
+Vassar,Trinity (CT)
+Trinity (CT),Vassar
+Belhaven,Millsaps
 NYU,Merchant Marine
 Merchant Marine,NYU
 Johns Hopkins,Christopher Newport
 Christopher Newport,Johns Hopkins
 Whitman,East Texas Baptist
-St. Joseph's ME,Bates
+St. Joseph's (ME),Bates
 Randolph-Macon,Gettysburg
 Penn State-Behrend,Chatham
 Illinois Wesleyan,Hope
@@ -242,28 +242,28 @@ Hope,Illinois Wesleyan
 Gettysburg,Randolph-Macon
 East Texas Baptist,Whitman
 Chatham,Penn State-Behrend
-Bates,St. Joseph's ME
+Bates,St. Joseph's (ME)
 UW-La Crosse,Bethel
-Geneseo St.,Amherst
+SUNY Geneseo,Amherst
 Bethel,UW-La Crosse
-Amherst,Geneseo St.
+Amherst,SUNY Geneseo
 UW-Stout,Gustavus Adolphus
 Gustavus Adolphus,UW-Stout
-W New England,Rhode Island College
-Rhode Island College,W New England
-Whitman,Geneseo St.
-Washington & Lee,S Virginia
+Western New England,Rhode Island College
+Rhode Island College,Western New England
+Whitman,SUNY Geneseo
+Washington & Lee,Southern Virginia
 Scranton,Cortland
-S Virginia,Washington & Lee
-Geneseo St.,Whitman
+Southern Virginia,Washington & Lee
+SUNY Geneseo,Whitman
 Cortland,Scranton
-ME Maritime,MA Dartmouth
-MA Dartmouth,ME Maritime
+Maine-Maritime,Mass-Dartmouth
+Mass-Dartmouth,Maine-Maritime
 UW-La Crosse,Gustavus Adolphus
 Penn State-Behrend,Carnegie Mellon
 Ohio Wesleyan,Elizabethtown
 Gustavus Adolphus,UW-La Crosse
 Elizabethtown,Ohio Wesleyan
 Carnegie Mellon,Penn State-Behrend
-TX Lutheran,Hardin-Simmons
-Hardin-Simmons,TX Lutheran
+Texas Lutheran,Hardin-Simmons
+Hardin-Simmons,Texas Lutheran

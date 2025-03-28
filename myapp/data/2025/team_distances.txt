@@ -4,7 +4,7 @@ Principia,Calvin,453
 Principia,UW-La Crosse,404
 Principia,Montclair St.,961
 Principia,Centre,374
-Principia,St. Joseph CT,1094
+Principia,St. Joseph (CT),1094
 Principia,Stevens,966
 Gallaudet,Principia,837
 Calvin,Principia,453
@@ -12,39 +12,39 @@ Centre,Principia,374
 Montclair St.,Principia,961
 Stevens,Principia,966
 UW-La Crosse,Principia,404
-St. Joseph CT,Principia,1094
+St. Joseph (CT),Principia,1094
 Cal Lutheran,Bates,3158
 Bates,Cal Lutheran,3155
 Cal Lutheran,Bowdoin,3152
 Bowdoin,Cal Lutheran,3151
-Cal Lutheran,MA Dartmouth,3098
-MA Dartmouth,Cal Lutheran,3091
+Cal Lutheran,Mass-Dartmouth,3098
+Mass-Dartmouth,Cal Lutheran,3091
 Cal Lutheran,Endicott,3049
 Endicott,Cal Lutheran,3049
 Bates,Whitman,3047
 Whitman,Bates,3047
 Bowdoin,Whitman,3043
 Whitman,Bowdoin,3043
-Bridgewater MA,Cal Lutheran,3039
-Cal Lutheran,Bridgewater MA,3039
+Bridgewater St.,Cal Lutheran,3039
+Cal Lutheran,Bridgewater St.,3039
 Cal Lutheran,Tufts,3031
 Tufts,Cal Lutheran,3031
-MA Dartmouth,Whitman,3021
-Whitman,MA Dartmouth,3021
+Mass-Dartmouth,Whitman,3021
+Whitman,Mass-Dartmouth,3021
 Cal Lutheran,Amherst,2956
 Amherst,Cal Lutheran,2955
 Cal Lutheran,Smith,2950
 Smith,Cal Lutheran,2949
-Cal Lutheran,W New England,2947
-W New England,Cal Lutheran,2947
+Cal Lutheran,Western New England,2947
+Western New England,Cal Lutheran,2947
 Whitman,Endicott,2939
 Endicott,Whitman,2937
-St. Joseph CT,Cal Lutheran,2933
-Cal Lutheran,Trinity (Conn),2933
-Cal Lutheran,St. Joseph CT,2933
-Trinity (Conn),Cal Lutheran,2933
-Bridgewater MA,Whitman,2931
-Whitman,Bridgewater MA,2931
+St. Joseph (CT),Cal Lutheran,2933
+Cal Lutheran,Trinity (CT),2933
+Cal Lutheran,St. Joseph (CT),2933
+Trinity (CT),Cal Lutheran,2933
+Bridgewater St.,Whitman,2931
+Whitman,Bridgewater St.,2931
 Tufts,Whitman,2922
 Whitman,Tufts,2922
 Cal Lutheran,Vassar,2860
@@ -57,16 +57,16 @@ Cal Lutheran,Mt. St. Mary,2841
 Mt. St. Mary,Cal Lutheran,2840
 Smith,Whitman,2839
 Whitman,Smith,2839
-W New England,Whitman,2837
-Whitman,W New England,2837
+Western New England,Whitman,2837
+Whitman,Western New England,2837
 Cal Lutheran,SUNY Cobleskill,2831
 SUNY Cobleskill,Cal Lutheran,2831
-Brooklyn Col,Cal Lutheran,2826
-Cal Lutheran,Brooklyn Col,2825
-St. Joseph CT,Whitman,2823
-Trinity (Conn),Whitman,2823
-Whitman,Trinity (Conn),2823
-Whitman,St. Joseph CT,2823
+Brooklyn College,Cal Lutheran,2826
+Cal Lutheran,Brooklyn College,2825
+St. Joseph (CT),Whitman,2823
+Trinity (CT),Whitman,2823
+Whitman,Trinity (CT),2823
+Whitman,St. Joseph (CT),2823
 Stevens,Cal Lutheran,2816
 Cal Lutheran,NYU,2816
 Cal Lutheran,Stevens,2816
@@ -83,8 +83,8 @@ Cal Lutheran,Scranton,2746
 Scranton,Cal Lutheran,2745
 Merchant Marine,Whitman,2743
 Whitman,Merchant Marine,2743
-Brooklyn Col,Whitman,2730
-Whitman,Brooklyn Col,2730
+Brooklyn College,Whitman,2730
+Whitman,Brooklyn College,2730
 Cal Lutheran,Christopher Newport,2729
 Christopher Newport,Cal Lutheran,2729
 Mt. St. Mary,Whitman,2728
@@ -125,8 +125,8 @@ Cal Lutheran,Gettysburg,2632
 Gettysburg,Cal Lutheran,2632
 Catholic,Whitman,2631
 Whitman,Catholic,2631
-Cal Lutheran,Geneseo St.,2628
-Geneseo St.,Cal Lutheran,2628
+Cal Lutheran,SUNY Geneseo,2628
+SUNY Geneseo,Cal Lutheran,2628
 Cal Lutheran,Immaculata,2616
 Immaculata,Cal Lutheran,2615
 Elizabethtown,Whitman,2608
@@ -135,18 +135,18 @@ Messiah,Whitman,2585
 Whitman,Messiah,2585
 Gettysburg,Whitman,2572
 Whitman,Gettysburg,2572
-Whitman,S Virginia,2562
-S Virginia,Whitman,2562
+Whitman,Southern Virginia,2562
+Southern Virginia,Whitman,2562
 Washington & Lee,Whitman,2555
 Whitman,Washington & Lee,2555
-Cal Lutheran,S Virginia,2526
-S Virginia,Cal Lutheran,2526
+Cal Lutheran,Southern Virginia,2526
+Southern Virginia,Cal Lutheran,2526
 Cal Lutheran,Washington & Lee,2525
 Washington & Lee,Cal Lutheran,2525
 Brockport St.,Whitman,2524
 Whitman,Brockport St.,2524
-Geneseo St.,Whitman,2517
-Whitman,Geneseo St.,2517
+SUNY Geneseo,Whitman,2517
+Whitman,SUNY Geneseo,2517
 Immaculata,Whitman,2506
 Whitman,Immaculata,2506
 Whitman,Piedmont,2487
@@ -155,7 +155,7 @@ Cal Lutheran,La Roche,2476
 La Roche,Cal Lutheran,2476
 Cal Lutheran,Carnegie Mellon,2467
 Carnegie Mellon,Cal Lutheran,2467
-Colorado Col,Trine,2456
+Colorado College,Trine,2456
 Washington & Jefferson,Cal Lutheran,2443
 Cal Lutheran,Washington & Jefferson,2439
 Washington & Jefferson,Whitman,2397
@@ -186,14 +186,14 @@ Cal Lutheran,Transylvania,2202
 Transylvania,Cal Lutheran,2202
 Cal Lutheran,Centre,2186
 Centre,Cal Lutheran,2185
-Bates,Colorado Col,2135
-Bates,TX Lutheran,2135
-Colorado Col,Bates,2135
-TX Lutheran,Bates,2135
-Bowdoin,Colorado Col,2130
-Bowdoin,TX Lutheran,2130
-Colorado Col,Bowdoin,2130
-TX Lutheran,Bowdoin,2130
+Bates,Colorado College,2135
+Bates,Texas Lutheran,2135
+Colorado College,Bates,2135
+Texas Lutheran,Bates,2135
+Bowdoin,Colorado College,2130
+Bowdoin,Texas Lutheran,2130
+Colorado College,Bowdoin,2130
+Texas Lutheran,Bowdoin,2130
 Cal Lutheran,UW-Superior,2120
 UW-Superior,Cal Lutheran,2120
 Calvin,Whitman,2116
@@ -202,18 +202,18 @@ Cal Lutheran,UW-Stevens Point,2115
 UW-Stevens Point,Cal Lutheran,2115
 Cal Lutheran,UW-Oshkosh,2108
 UW-Oshkosh,Cal Lutheran,2107
-McMurry,MA Dartmouth,2104
-MA Dartmouth,McMurry,2104
+McMurry,Mass-Dartmouth,2104
+Mass-Dartmouth,McMurry,2104
 Whitman,Trine,2102
 Trine,Whitman,2102
 Cal Lutheran,Ripon,2099
 Ripon,Cal Lutheran,2098
-Colorado Col,MA Dartmouth,2097
-MA Dartmouth,Colorado Col,2097
+Colorado College,Mass-Dartmouth,2097
+Mass-Dartmouth,Colorado College,2097
 Cal Lutheran,Wisconsin Lutheran,2094
 Wisconsin Lutheran,Cal Lutheran,2094
-MA Dartmouth,TX Lutheran,2090
-TX Lutheran,MA Dartmouth,2090
+Mass-Dartmouth,Texas Lutheran,2090
+Texas Lutheran,Mass-Dartmouth,2090
 McMurry,Bates,2079
 Bates,McMurry,2079
 Cal Lutheran,DePauw,2076
@@ -222,60 +222,60 @@ McMurry,Bowdoin,2075
 Bowdoin,McMurry,2075
 Cal Lutheran,UW-Whitewater,2059
 UW-Whitewater,Cal Lutheran,2059
-Colorado Col,Endicott,2030
-TX Lutheran,Endicott,2029
-Endicott,Colorado Col,2029
-Endicott,TX Lutheran,2029
+Colorado College,Endicott,2030
+Texas Lutheran,Endicott,2029
+Endicott,Colorado College,2029
+Endicott,Texas Lutheran,2029
 Cal Lutheran,Illinois Wesleyan,2028
 Cal Lutheran,UW-Stout,2028
 Illinois Wesleyan,Cal Lutheran,2028
 UW-Stout,Cal Lutheran,2028
 DePauw,Whitman,2018
 Whitman,DePauw,2018
-Tufts,TX Lutheran,2015
-TX Lutheran,Tufts,2015
-Colorado Col,Tufts,2012
-Tufts,Colorado Col,2012
-Bridgewater MA,TX Lutheran,2007
-TX Lutheran,Bridgewater MA,2007
+Tufts,Texas Lutheran,2015
+Texas Lutheran,Tufts,2015
+Colorado College,Tufts,2012
+Tufts,Colorado College,2012
+Bridgewater St.,Texas Lutheran,2007
+Texas Lutheran,Bridgewater St.,2007
 UW-La Crosse,Cal Lutheran,1997
 Cal Lutheran,UW-La Crosse,1997
-Bridgewater MA,Colorado Col,1996
-Colorado Col,Bridgewater MA,1994
+Bridgewater St.,Colorado College,1996
+Colorado College,Bridgewater St.,1994
 Whitman,East Texas Baptist,1992
 East Texas Baptist,Whitman,1992
 Bethel,Cal Lutheran,1978
 Cal Lutheran,Bethel,1978
 McMurry,Endicott,1971
 Endicott,McMurry,1971
-Amherst,TX Lutheran,1957
-TX Lutheran,Amherst,1957
+Amherst,Texas Lutheran,1957
+Texas Lutheran,Amherst,1957
 McMurry,Tufts,1953
 Tufts,McMurry,1953
-Smith,TX Lutheran,1950
-TX Lutheran,Smith,1950
-McMurry,Bridgewater MA,1949
-Amherst,Colorado Col,1949
-Bridgewater MA,McMurry,1949
-Colorado Col,Amherst,1949
-Whitman,TX Lutheran,1947
-TX Lutheran,Whitman,1947
-Colorado Col,Smith,1942
-Smith,Colorado Col,1942
-Colorado Col,W New England,1940
-W New England,Colorado Col,1940
-W New England,TX Lutheran,1936
-TX Lutheran,W New England,1936
+Smith,Texas Lutheran,1950
+Texas Lutheran,Smith,1950
+McMurry,Bridgewater St.,1949
+Amherst,Colorado College,1949
+Bridgewater St.,McMurry,1949
+Colorado College,Amherst,1949
+Whitman,Texas Lutheran,1947
+Texas Lutheran,Whitman,1947
+Colorado College,Smith,1942
+Smith,Colorado College,1942
+Colorado College,Western New England,1940
+Western New England,Colorado College,1940
+Western New England,Texas Lutheran,1936
+Texas Lutheran,Western New England,1936
 Illinois Wesleyan,Whitman,1918
 Whitman,Illinois Wesleyan,1918
-TX Lutheran,St. Joseph CT,1914
-St. Joseph CT,TX Lutheran,1913
-Trinity (Conn),TX Lutheran,1908
-TX Lutheran,Trinity (Conn),1908
-St. Joseph CT,Colorado Col,1904
-Colorado Col,Trinity (Conn),1904
-Colorado Col,St. Joseph CT,1904
-Trinity (Conn),Colorado Col,1904
+Texas Lutheran,St. Joseph (CT),1914
+St. Joseph (CT),Texas Lutheran,1913
+Trinity (CT),Texas Lutheran,1908
+Texas Lutheran,Trinity (CT),1908
+St. Joseph (CT),Colorado College,1904
+Colorado College,Trinity (CT),1904
+Colorado College,St. Joseph (CT),1904
+Trinity (CT),Colorado College,1904
 Principia,Cal Lutheran,1900
 Cal Lutheran,Principia,1900
 McMurry,Amherst,1899
@@ -284,88 +284,88 @@ McMurry,Smith,1893
 Smith,McMurry,1893
 Gustavus Adolphus,Cal Lutheran,1891
 Cal Lutheran,Gustavus Adolphus,1890
-McMurry,W New England,1878
-W New England,McMurry,1878
-TX Lutheran,SUNY Cobleskill,1869
-SUNY Cobleskill,TX Lutheran,1869
+McMurry,Western New England,1878
+Western New England,McMurry,1878
+Texas Lutheran,SUNY Cobleskill,1869
+SUNY Cobleskill,Texas Lutheran,1869
 Cal Lutheran,Wartburg,1865
 Wartburg,Cal Lutheran,1865
-St. Joseph CT,McMurry,1853
-Vassar,TX Lutheran,1853
-TX Lutheran,Vassar,1853
+St. Joseph (CT),McMurry,1853
+Vassar,Texas Lutheran,1853
+Texas Lutheran,Vassar,1853
 Principia,Whitman,1852
-McMurry,St. Joseph CT,1852
-McMurry,Trinity (Conn),1852
-Trinity (Conn),McMurry,1852
+McMurry,St. Joseph (CT),1852
+McMurry,Trinity (CT),1852
+Trinity (CT),McMurry,1852
 Whitman,Principia,1852
-TX Lutheran,Mt. St. Mary,1834
-Mt. St. Mary,TX Lutheran,1834
-Colorado Col,Vassar,1830
-Vassar,Colorado Col,1830
-Colorado Col,SUNY Cobleskill,1824
-SUNY Cobleskill,Colorado Col,1824
-Merchant Marine,TX Lutheran,1821
-TX Lutheran,Merchant Marine,1821
+Texas Lutheran,Mt. St. Mary,1834
+Mt. St. Mary,Texas Lutheran,1834
+Colorado College,Vassar,1830
+Vassar,Colorado College,1830
+Colorado College,SUNY Cobleskill,1824
+SUNY Cobleskill,Colorado College,1824
+Merchant Marine,Texas Lutheran,1821
+Texas Lutheran,Merchant Marine,1821
 Whitman,Wisconsin Lutheran,1819
 Wisconsin Lutheran,Whitman,1819
-Colorado Col,Mt. St. Mary,1811
-Mt. St. Mary,Colorado Col,1811
-Colorado Col,Merchant Marine,1806
-Merchant Marine,Colorado Col,1806
-Brooklyn Col,TX Lutheran,1801
-TX Lutheran,Brooklyn Col,1801
+Colorado College,Mt. St. Mary,1811
+Mt. St. Mary,Colorado College,1811
+Colorado College,Merchant Marine,1806
+Merchant Marine,Colorado College,1806
+Brooklyn College,Texas Lutheran,1801
+Texas Lutheran,Brooklyn College,1801
 McMurry,Vassar,1794
 Vassar,McMurry,1794
 Whitman,UW-Whitewater,1794
 UW-Whitewater,Whitman,1794
-Cortland,TX Lutheran,1793
-TX Lutheran,Cortland,1793
-Stevens,TX Lutheran,1791
+Cortland,Texas Lutheran,1793
+Texas Lutheran,Cortland,1793
+Stevens,Texas Lutheran,1791
 Bowdoin,East Texas Baptist,1791
-NYU,TX Lutheran,1791
+NYU,Texas Lutheran,1791
 East Texas Baptist,Bowdoin,1791
-TX Lutheran,NYU,1791
-TX Lutheran,Stevens,1791
+Texas Lutheran,NYU,1791
+Texas Lutheran,Stevens,1791
 McMurry,SUNY Cobleskill,1789
 Bates,East Texas Baptist,1789
 East Texas Baptist,Bates,1789
 SUNY Cobleskill,McMurry,1789
-Brooklyn Col,Colorado Col,1787
-Colorado Col,Brooklyn Col,1787
-Montclair St.,TX Lutheran,1784
-TX Lutheran,Montclair St.,1784
-Stevens,Colorado Col,1777
-Colorado Col,NYU,1777
-Colorado Col,Stevens,1777
-NYU,Colorado Col,1777
+Brooklyn College,Colorado College,1787
+Colorado College,Brooklyn College,1787
+Montclair St.,Texas Lutheran,1784
+Texas Lutheran,Montclair St.,1784
+Stevens,Colorado College,1777
+Colorado College,NYU,1777
+Colorado College,Stevens,1777
+NYU,Colorado College,1777
 McMurry,Mt. St. Mary,1774
 Mt. St. Mary,McMurry,1774
 UW-Oshkosh,Whitman,1772
-Montclair St.,Colorado Col,1771
-Colorado Col,Montclair St.,1771
+Montclair St.,Colorado College,1771
+Colorado College,Montclair St.,1771
 Whitman,UW-Oshkosh,1770
 McMurry,Merchant Marine,1758
 Merchant Marine,McMurry,1758
 Ripon,Whitman,1750
 Whitman,Ripon,1750
-Cortland,Colorado Col,1747
-Colorado Col,Cortland,1746
-MA Dartmouth,East Texas Baptist,1746
-East Texas Baptist,MA Dartmouth,1746
-Scranton,TX Lutheran,1743
-TX Lutheran,Scranton,1743
-McMurry,Brooklyn Col,1739
+Cortland,Colorado College,1747
+Colorado College,Cortland,1746
+Mass-Dartmouth,East Texas Baptist,1746
+East Texas Baptist,Mass-Dartmouth,1746
+Scranton,Texas Lutheran,1743
+Texas Lutheran,Scranton,1743
+McMurry,Brooklyn College,1739
 McMurry,NYU,1739
-Brooklyn Col,McMurry,1739
+Brooklyn College,McMurry,1739
 NYU,McMurry,1739
 Stevens,McMurry,1729
 McMurry,Stevens,1729
 Montclair St.,McMurry,1724
 McMurry,Montclair St.,1724
-Christopher Newport,Colorado Col,1722
-Colorado Col,Christopher Newport,1722
-Colorado Col,Scranton,1716
-Scranton,Colorado Col,1716
+Christopher Newport,Colorado College,1722
+Colorado College,Christopher Newport,1722
+Colorado College,Scranton,1716
+Scranton,Colorado College,1716
 McMurry,Cortland,1711
 Cortland,McMurry,1711
 Whitman,UW-Stevens Point,1694
@@ -374,74 +374,74 @@ McMurry,Scranton,1683
 Scranton,McMurry,1683
 East Texas Baptist,Endicott,1683
 Endicott,East Texas Baptist,1683
-TX Lutheran,Brockport St.,1676
-Brockport St.,TX Lutheran,1675
+Texas Lutheran,Brockport St.,1676
+Brockport St.,Texas Lutheran,1675
 McMurry,Whitman,1672
 Whitman,McMurry,1672
-Bridgewater MA,East Texas Baptist,1668
+Bridgewater St.,East Texas Baptist,1668
 Tufts,East Texas Baptist,1668
-East Texas Baptist,Bridgewater MA,1668
+East Texas Baptist,Bridgewater St.,1668
 East Texas Baptist,Tufts,1668
-Geneseo St.,TX Lutheran,1666
-TX Lutheran,Geneseo St.,1666
-Colorado Col,Randolph-Macon,1661
-Randolph-Macon,Colorado Col,1661
+SUNY Geneseo,Texas Lutheran,1666
+Texas Lutheran,SUNY Geneseo,1666
+Colorado College,Randolph-Macon,1661
+Randolph-Macon,Colorado College,1661
 UW-La Crosse,Whitman,1651
 Whitman,UW-La Crosse,1651
-Gallaudet,Colorado Col,1647
-Colorado Col,Gallaudet,1647
-Colorado Col,Johns Hopkins,1645
-Elizabethtown,TX Lutheran,1645
-Johns Hopkins,Colorado Col,1645
-TX Lutheran,Elizabethtown,1645
-Catholic,Colorado Col,1641
-Colorado Col,Catholic,1641
+Gallaudet,Colorado College,1647
+Colorado College,Gallaudet,1647
+Colorado College,Johns Hopkins,1645
+Elizabethtown,Texas Lutheran,1645
+Johns Hopkins,Colorado College,1645
+Texas Lutheran,Elizabethtown,1645
+Catholic,Colorado College,1641
+Colorado College,Catholic,1641
 Wartburg,Whitman,1638
 Whitman,Wartburg,1638
 Cal Lutheran,East Texas Baptist,1637
 East Texas Baptist,Cal Lutheran,1637
-Immaculata,TX Lutheran,1634
-TX Lutheran,Immaculata,1634
-Brockport St.,Colorado Col,1629
-Colorado Col,Brockport St.,1629
-Colorado Col,Elizabethtown,1629
-Elizabethtown,Colorado Col,1629
-Colorado Col,Geneseo St.,1621
-Geneseo St.,Colorado Col,1621
+Immaculata,Texas Lutheran,1634
+Texas Lutheran,Immaculata,1634
+Brockport St.,Colorado College,1629
+Colorado College,Brockport St.,1629
+Colorado College,Elizabethtown,1629
+Elizabethtown,Colorado College,1629
+Colorado College,SUNY Geneseo,1621
+SUNY Geneseo,Colorado College,1621
 Amherst,East Texas Baptist,1618
 East Texas Baptist,Amherst,1618
-Messiah,TX Lutheran,1613
-TX Lutheran,Messiah,1613
-Johns Hopkins,TX Lutheran,1610
-TX Lutheran,Johns Hopkins,1610
-Colorado Col,Messiah,1608
-Messiah,Colorado Col,1608
+Messiah,Texas Lutheran,1613
+Texas Lutheran,Messiah,1613
+Johns Hopkins,Texas Lutheran,1610
+Texas Lutheran,Johns Hopkins,1610
+Colorado College,Messiah,1608
+Messiah,Colorado College,1608
 Smith,East Texas Baptist,1605
 East Texas Baptist,Smith,1605
-Gettysburg,TX Lutheran,1596
-TX Lutheran,Gettysburg,1596
+Gettysburg,Texas Lutheran,1596
+Texas Lutheran,Gettysburg,1596
 McMurry,Brockport St.,1595
 Brockport St.,McMurry,1595
-Colorado Col,Gettysburg,1593
-Gettysburg,Colorado Col,1593
-East Texas Baptist,W New England,1592
-W New England,East Texas Baptist,1590
-Colorado Col,Immaculata,1587
-Immaculata,Colorado Col,1587
-McMurry,Geneseo St.,1586
-Geneseo St.,McMurry,1586
+Colorado College,Gettysburg,1593
+Gettysburg,Colorado College,1593
+East Texas Baptist,Western New England,1592
+Western New England,East Texas Baptist,1590
+Colorado College,Immaculata,1587
+Immaculata,Colorado College,1587
+McMurry,SUNY Geneseo,1586
+SUNY Geneseo,McMurry,1586
 McMurry,Elizabethtown,1585
 Elizabethtown,McMurry,1585
-Catholic,TX Lutheran,1583
-TX Lutheran,Catholic,1583
-Gallaudet,TX Lutheran,1581
-TX Lutheran,Gallaudet,1581
-St. Joseph CT,East Texas Baptist,1574
-East Texas Baptist,St. Joseph CT,1574
+Catholic,Texas Lutheran,1583
+Texas Lutheran,Catholic,1583
+Gallaudet,Texas Lutheran,1581
+Texas Lutheran,Gallaudet,1581
+St. Joseph (CT),East Texas Baptist,1574
+East Texas Baptist,St. Joseph (CT),1574
 Bowdoin,UW-Superior,1571
 UW-Superior,Bowdoin,1571
-Trinity (Conn),East Texas Baptist,1569
-East Texas Baptist,Trinity (Conn),1569
+Trinity (CT),East Texas Baptist,1569
+East Texas Baptist,Trinity (CT),1569
 Whitman,UW-Stout,1558
 UW-Stout,Whitman,1558
 McMurry,Messiah,1554
@@ -453,23 +453,23 @@ Immaculata,McMurry,1552
 McMurry,Johns Hopkins,1550
 Johns Hopkins,McMurry,1550
 Bowdoin,Gustavus Adolphus,1548
-Christopher Newport,TX Lutheran,1548
+Christopher Newport,Texas Lutheran,1548
 Gustavus Adolphus,Bowdoin,1548
-TX Lutheran,Christopher Newport,1548
+Texas Lutheran,Christopher Newport,1548
 McMurry,Gettysburg,1536
 Gettysburg,McMurry,1536
-S Virginia,Colorado Col,1529
+Southern Virginia,Colorado College,1529
 McMurry,Christopher Newport,1527
 Christopher Newport,McMurry,1527
-Colorado Col,S Virginia,1527
+Colorado College,Southern Virginia,1527
 Bates,Bethel,1524
 Bethel,Bates,1524
 McMurry,Gallaudet,1522
 Gustavus Adolphus,Whitman,1521
 Whitman,Gustavus Adolphus,1521
 Bethel,Bowdoin,1520
-Colorado Col,Washington & Lee,1520
-Washington & Lee,Colorado Col,1520
+Colorado College,Washington & Lee,1520
+Washington & Lee,Colorado College,1520
 East Texas Baptist,SUNY Cobleskill,1519
 SUNY Cobleskill,East Texas Baptist,1519
 McMurry,Catholic,1518
@@ -480,34 +480,34 @@ Vassar,East Texas Baptist,1514
 East Texas Baptist,Vassar,1514
 Whitman,UW-Superior,1511
 UW-Superior,Whitman,1511
-Randolph-Macon,TX Lutheran,1505
-TX Lutheran,Randolph-Macon,1505
+Randolph-Macon,Texas Lutheran,1505
+Texas Lutheran,Randolph-Macon,1505
 East Texas Baptist,Mt. St. Mary,1495
 Mt. St. Mary,East Texas Baptist,1495
 Whitman,Bethel,1489
 Bethel,Whitman,1488
-La Roche,TX Lutheran,1479
-TX Lutheran,La Roche,1479
-Carnegie Mellon,TX Lutheran,1472
+La Roche,Texas Lutheran,1479
+Texas Lutheran,La Roche,1479
+Carnegie Mellon,Texas Lutheran,1472
 Merchant Marine,East Texas Baptist,1472
 East Texas Baptist,Merchant Marine,1472
-TX Lutheran,Carnegie Mellon,1472
+Texas Lutheran,Carnegie Mellon,1472
 UW-Superior,Endicott,1470
 Endicott,UW-Superior,1469
-MA Dartmouth,UW-Superior,1466
-UW-Superior,MA Dartmouth,1466
+Mass-Dartmouth,UW-Superior,1466
+UW-Superior,Mass-Dartmouth,1466
 McMurry,Randolph-Macon,1465
 Randolph-Macon,McMurry,1465
-Bridgewater MA,UW-Superior,1460
-UW-Superior,Bridgewater MA,1460
+Bridgewater St.,UW-Superior,1460
+UW-Superior,Bridgewater St.,1460
 Bates,UW-Stout,1457
 UW-Stout,Bates,1457
-Colorado Col,Piedmont,1454
-MA Dartmouth,Gustavus Adolphus,1454
-Gustavus Adolphus,MA Dartmouth,1454
-Piedmont,Colorado Col,1454
-Brooklyn Col,East Texas Baptist,1453
-East Texas Baptist,Brooklyn Col,1453
+Colorado College,Piedmont,1454
+Mass-Dartmouth,Gustavus Adolphus,1454
+Gustavus Adolphus,Mass-Dartmouth,1454
+Piedmont,Colorado College,1454
+Brooklyn College,East Texas Baptist,1453
+East Texas Baptist,Brooklyn College,1453
 Bowdoin,UW-Stout,1452
 NYU,East Texas Baptist,1452
 Tufts,UW-Superior,1452
@@ -515,41 +515,41 @@ UW-Stout,Bowdoin,1452
 UW-Superior,Tufts,1452
 East Texas Baptist,NYU,1452
 Gustavus Adolphus,Endicott,1451
-Washington & Jefferson,TX Lutheran,1447
-TX Lutheran,Washington & Jefferson,1447
+Washington & Jefferson,Texas Lutheran,1447
+Texas Lutheran,Washington & Jefferson,1447
 Endicott,Gustavus Adolphus,1447
 Stevens,East Texas Baptist,1443
 East Texas Baptist,Stevens,1443
-Bridgewater MA,Gustavus Adolphus,1442
-Gustavus Adolphus,Bridgewater MA,1442
+Bridgewater St.,Gustavus Adolphus,1442
+Gustavus Adolphus,Bridgewater St.,1442
 Cortland,East Texas Baptist,1441
 East Texas Baptist,Cortland,1441
 Montclair St.,East Texas Baptist,1439
 East Texas Baptist,Montclair St.,1439
-Colorado Col,La Roche,1438
-La Roche,Colorado Col,1438
-Cal Lutheran,TX Lutheran,1432
+Colorado College,La Roche,1438
+La Roche,Colorado College,1438
+Cal Lutheran,Texas Lutheran,1432
 Gustavus Adolphus,Tufts,1432
 Tufts,Gustavus Adolphus,1432
-TX Lutheran,Cal Lutheran,1432
-Carnegie Mellon,Colorado Col,1429
-Colorado Col,Carnegie Mellon,1429
-Baldwin Wallace,TX Lutheran,1419
-TX Lutheran,Baldwin Wallace,1419
+Texas Lutheran,Cal Lutheran,1432
+Carnegie Mellon,Colorado College,1429
+Colorado College,Carnegie Mellon,1429
+Baldwin Wallace,Texas Lutheran,1419
+Texas Lutheran,Baldwin Wallace,1419
 Bates,Wartburg,1418
 Wartburg,Bates,1418
 Bethel,Endicott,1416
 Endicott,Bethel,1416
 Bowdoin,Wartburg,1414
 Wartburg,Bowdoin,1414
-Bethel,Bridgewater MA,1408
-Bridgewater MA,Bethel,1406
+Bethel,Bridgewater St.,1408
+Bridgewater St.,Bethel,1406
 Scranton,East Texas Baptist,1404
 East Texas Baptist,Scranton,1404
 McMurry,La Roche,1403
 La Roche,McMurry,1403
-Colorado Col,Washington & Jefferson,1401
-Washington & Jefferson,Colorado Col,1401
+Colorado College,Washington & Jefferson,1401
+Washington & Jefferson,Colorado College,1401
 Bethel,Tufts,1398
 Tufts,Bethel,1398
 UW-La Crosse,Bates,1394
@@ -558,60 +558,60 @@ McMurry,Carnegie Mellon,1393
 Carnegie Mellon,McMurry,1393
 UW-La Crosse,Bowdoin,1389
 Bowdoin,UW-La Crosse,1389
-TX Lutheran,S Virginia,1387
-S Virginia,TX Lutheran,1387
-Washington & Lee,TX Lutheran,1386
-TX Lutheran,Washington & Lee,1386
+Texas Lutheran,Southern Virginia,1387
+Southern Virginia,Texas Lutheran,1387
+Washington & Lee,Texas Lutheran,1386
+Texas Lutheran,Washington & Lee,1386
 Bates,UW-Stevens Point,1377
 UW-Stevens Point,Bates,1377
 Amherst,UW-Superior,1376
 UW-Superior,Amherst,1376
 Bowdoin,UW-Stevens Point,1373
 UW-Stevens Point,Bowdoin,1373
-Baldwin Wallace,Colorado Col,1372
-Colorado Col,Baldwin Wallace,1372
+Baldwin Wallace,Colorado College,1372
+Colorado College,Baldwin Wallace,1372
 Smith,UW-Superior,1369
 UW-Superior,Smith,1369
-Calvin,TX Lutheran,1367
-W New England,UW-Superior,1367
-UW-Superior,W New England,1367
-TX Lutheran,Calvin,1367
+Calvin,Texas Lutheran,1367
+Western New England,UW-Superior,1367
+UW-Superior,Western New England,1367
+Texas Lutheran,Calvin,1367
 McMurry,Washington & Jefferson,1366
 Washington & Jefferson,McMurry,1366
-Bethel,MA Dartmouth,1362
-MA Dartmouth,Bethel,1356
-Trinity (Conn),UW-Superior,1354
-UW-Superior,Trinity (Conn),1354
-UW-Superior,St. Joseph CT,1354
-St. Joseph CT,UW-Superior,1353
+Bethel,Mass-Dartmouth,1362
+Mass-Dartmouth,Bethel,1356
+Trinity (CT),UW-Superior,1354
+UW-Superior,Trinity (CT),1354
+UW-Superior,St. Joseph (CT),1354
+St. Joseph (CT),UW-Superior,1353
 Amherst,Gustavus Adolphus,1353
 Gustavus Adolphus,Amherst,1353
-UW-Stevens Point,TX Lutheran,1353
-TX Lutheran,UW-Stevens Point,1353
+UW-Stevens Point,Texas Lutheran,1353
+Texas Lutheran,UW-Stevens Point,1353
 Endicott,UW-Stout,1350
-MA Dartmouth,Wartburg,1349
+Mass-Dartmouth,Wartburg,1349
 UW-Stout,Endicott,1349
-Gustavus Adolphus,W New England,1348
+Gustavus Adolphus,Western New England,1348
 Gustavus Adolphus,Smith,1347
 Smith,Gustavus Adolphus,1347
-Wartburg,MA Dartmouth,1347
-W New England,Gustavus Adolphus,1344
-UW-Superior,TX Lutheran,1341
-TX Lutheran,UW-Superior,1341
-Bridgewater MA,UW-Stout,1340
-UW-Stout,Bridgewater MA,1340
+Wartburg,Mass-Dartmouth,1347
+Western New England,Gustavus Adolphus,1344
+UW-Superior,Texas Lutheran,1341
+Texas Lutheran,UW-Superior,1341
+Bridgewater St.,UW-Stout,1340
+UW-Stout,Bridgewater St.,1340
 McMurry,Baldwin Wallace,1337
 Baldwin Wallace,McMurry,1337
-St. Joseph CT,Gustavus Adolphus,1334
-Gustavus Adolphus,St. Joseph CT,1334
-Gustavus Adolphus,Trinity (Conn),1331
-Trinity (Conn),Gustavus Adolphus,1331
+St. Joseph (CT),Gustavus Adolphus,1334
+Gustavus Adolphus,St. Joseph (CT),1334
+Gustavus Adolphus,Trinity (CT),1331
+Trinity (CT),Gustavus Adolphus,1331
 Tufts,UW-Stout,1331
 UW-Stout,Tufts,1331
 Principia,Bates,1327
-McMurry,S Virginia,1327
+McMurry,Southern Virginia,1327
 Bates,Principia,1327
-S Virginia,McMurry,1327
+Southern Virginia,McMurry,1327
 McMurry,Washington & Lee,1326
 Washington & Lee,McMurry,1326
 Brockport St.,East Texas Baptist,1324
@@ -624,40 +624,40 @@ Amherst,Bethel,1322
 Bethel,Amherst,1322
 Bethel,Smith,1316
 Smith,Bethel,1316
-UW-Oshkosh,TX Lutheran,1316
-TX Lutheran,UW-Oshkosh,1316
-Geneseo St.,East Texas Baptist,1315
-Ohio Wesleyan,TX Lutheran,1315
+UW-Oshkosh,Texas Lutheran,1316
+Texas Lutheran,UW-Oshkosh,1316
+SUNY Geneseo,East Texas Baptist,1315
+Ohio Wesleyan,Texas Lutheran,1315
 Wartburg,Endicott,1315
-East Texas Baptist,Geneseo St.,1315
-TX Lutheran,Ohio Wesleyan,1315
-TX Lutheran,Trine,1315
-Trine,TX Lutheran,1315
-Bethel,W New England,1314
-W New England,Bethel,1313
+East Texas Baptist,SUNY Geneseo,1315
+Texas Lutheran,Ohio Wesleyan,1315
+Texas Lutheran,Trine,1315
+Trine,Texas Lutheran,1315
+Bethel,Western New England,1314
+Western New England,Bethel,1313
 Endicott,Wartburg,1313
-Ripon,TX Lutheran,1307
-TX Lutheran,Ripon,1307
-Bridgewater MA,Wartburg,1306
-Wartburg,Bridgewater MA,1306
+Ripon,Texas Lutheran,1307
+Texas Lutheran,Ripon,1307
+Bridgewater St.,Wartburg,1306
+Wartburg,Bridgewater St.,1306
 McMurry,Cal Lutheran,1302
 Cal Lutheran,McMurry,1302
-St. Joseph CT,Bethel,1300
-Bethel,Trinity (Conn),1300
-Bethel,St. Joseph CT,1300
+St. Joseph (CT),Bethel,1300
+Bethel,Trinity (CT),1300
+Bethel,St. Joseph (CT),1300
 Christopher Newport,Gustavus Adolphus,1300
 Gustavus Adolphus,Christopher Newport,1300
-Trinity (Conn),Bethel,1300
+Trinity (CT),Bethel,1300
 Elizabethtown,East Texas Baptist,1299
 East Texas Baptist,Elizabethtown,1299
 Tufts,Wartburg,1296
 Wartburg,Tufts,1296
-UW-La Crosse,MA Dartmouth,1293
-MA Dartmouth,UW-La Crosse,1293
+UW-La Crosse,Mass-Dartmouth,1293
+Mass-Dartmouth,UW-La Crosse,1293
 Bates,UW-Oshkosh,1291
 UW-Oshkosh,Bates,1291
-MA Dartmouth,UW-Stout,1290
-UW-Stout,MA Dartmouth,1290
+Mass-Dartmouth,UW-Stout,1290
+UW-Stout,Mass-Dartmouth,1290
 UW-La Crosse,Endicott,1288
 Endicott,UW-La Crosse,1288
 Bates,Ripon,1287
@@ -668,8 +668,8 @@ Bowdoin,Ripon,1283
 Ripon,Bowdoin,1283
 Immaculata,East Texas Baptist,1282
 East Texas Baptist,Immaculata,1282
-UW-La Crosse,Bridgewater MA,1279
-Bridgewater MA,UW-La Crosse,1279
+UW-La Crosse,Bridgewater St.,1279
+Bridgewater St.,UW-La Crosse,1279
 Vassar,UW-Superior,1279
 UW-Superior,Vassar,1279
 Carnegie Mellon,Ripon,1273
@@ -686,26 +686,26 @@ UW-Stevens Point,Endicott,1269
 Endicott,UW-Stevens Point,1269
 Messiah,East Texas Baptist,1268
 East Texas Baptist,Messiah,1268
-Brooklyn Col,UW-Superior,1262
-Bridgewater MA,UW-Stevens Point,1261
-UW-Stevens Point,Bridgewater MA,1261
-UW-Superior,Brooklyn Col,1261
+Brooklyn College,UW-Superior,1262
+Bridgewater St.,UW-Stevens Point,1261
+UW-Stevens Point,Bridgewater St.,1261
+UW-Superior,Brooklyn College,1261
 UW-Superior,Mt. St. Mary,1261
 Mt. St. Mary,UW-Superior,1260
 Bates,UW-Superior,1259
-Bridgewater MA,S Virginia,1259
+Bridgewater St.,Southern Virginia,1259
 UW-Superior,Bates,1259
-S Virginia,Bridgewater MA,1259
+Southern Virginia,Bridgewater St.,1259
 Gustavus Adolphus,Vassar,1257
 Vassar,Gustavus Adolphus,1257
 Amherst,UW-Stout,1255
 UW-Stout,Amherst,1255
-Colorado Col,Ohio Wesleyan,1254
+Colorado College,Ohio Wesleyan,1254
 Gustavus Adolphus,Merchant Marine,1254
-Ohio Wesleyan,Colorado Col,1254
+Ohio Wesleyan,Colorado College,1254
 Merchant Marine,Gustavus Adolphus,1254
-TX Lutheran,Wisconsin Lutheran,1254
-Wisconsin Lutheran,TX Lutheran,1254
+Texas Lutheran,Wisconsin Lutheran,1254
+Wisconsin Lutheran,Texas Lutheran,1254
 NYU,UW-Superior,1253
 UW-Superior,NYU,1253
 Stevens,UW-Superior,1251
@@ -718,29 +718,29 @@ Gettysburg,East Texas Baptist,1250
 East Texas Baptist,Gettysburg,1250
 Smith,UW-Stout,1249
 UW-Stout,Smith,1249
-UW-Stout,TX Lutheran,1249
-TX Lutheran,UW-Stout,1249
-W New England,UW-Stout,1247
+UW-Stout,Texas Lutheran,1249
+Texas Lutheran,UW-Stout,1249
+Western New England,UW-Stout,1247
 Calvin,McMurry,1246
-UW-Stout,W New England,1246
+UW-Stout,Western New England,1246
 McMurry,Calvin,1245
 Randolph-Macon,UW-Superior,1245
 UW-Superior,Randolph-Macon,1245
 Catholic,East Texas Baptist,1244
 East Texas Baptist,Catholic,1244
-Calvin,Colorado Col,1242
-Brooklyn Col,Gustavus Adolphus,1242
-Colorado Col,Calvin,1242
-Gustavus Adolphus,Brooklyn Col,1242
+Calvin,Colorado College,1242
+Brooklyn College,Gustavus Adolphus,1242
+Colorado College,Calvin,1242
+Gustavus Adolphus,Brooklyn College,1242
 Montclair St.,UW-Superior,1240
 UW-Superior,Montclair St.,1240
 Mt. St. Mary,Gustavus Adolphus,1237
 Gallaudet,East Texas Baptist,1236
 East Texas Baptist,Gallaudet,1236
-St. Joseph CT,UW-Stout,1233
-Trinity (Conn),UW-Stout,1233
-UW-Stout,Trinity (Conn),1233
-UW-Stout,St. Joseph CT,1233
+St. Joseph (CT),UW-Stout,1233
+Trinity (CT),UW-Stout,1233
+UW-Stout,Trinity (CT),1233
+UW-Stout,St. Joseph (CT),1233
 Stevens,Gustavus Adolphus,1232
 Gustavus Adolphus,Stevens,1232
 McMurry,UW-Superior,1231
@@ -755,7 +755,7 @@ Christopher Newport,East Texas Baptist,1228
 East Texas Baptist,Christopher Newport,1228
 Bethel,Vassar,1227
 Gustavus Adolphus,Randolph-Macon,1227
-Trine,Colorado Col,1227
+Trine,Colorado College,1227
 Vassar,Bethel,1226
 Randolph-Macon,Gustavus Adolphus,1223
 McMurry,UW-Stevens Point,1222
@@ -771,12 +771,12 @@ Bethel,Merchant Marine,1219
 Merchant Marine,Bethel,1219
 UW-Whitewater,Bates,1219
 Endicott,Principia,1219
-UW-La Crosse,TX Lutheran,1218
+UW-La Crosse,Texas Lutheran,1218
 McMurry,Ohio Wesleyan,1218
 Ohio Wesleyan,McMurry,1218
-UW-Whitewater,TX Lutheran,1218
-TX Lutheran,UW-La Crosse,1218
-TX Lutheran,UW-Whitewater,1218
+UW-Whitewater,Texas Lutheran,1218
+Texas Lutheran,UW-La Crosse,1218
+Texas Lutheran,UW-Whitewater,1218
 Montclair St.,Gustavus Adolphus,1217
 Gustavus Adolphus,Montclair St.,1217
 Bates,UW-Whitewater,1216
@@ -786,13 +786,13 @@ UW-Whitewater,Bowdoin,1215
 Smith,Wartburg,1213
 Wartburg,Smith,1213
 Bowdoin,UW-Whitewater,1212
-Wartburg,W New England,1212
-W New England,Wartburg,1212
+Wartburg,Western New England,1212
+Western New England,Wartburg,1212
 Bates,Wisconsin Lutheran,1208
 Wisconsin Lutheran,Bates,1208
-Bethel,Brooklyn Col,1207
+Bethel,Brooklyn College,1207
 Bethel,Mt. St. Mary,1207
-Brooklyn Col,Bethel,1207
+Brooklyn College,Bethel,1207
 Mt. St. Mary,Bethel,1207
 Bowdoin,Wisconsin Lutheran,1204
 Wisconsin Lutheran,Bowdoin,1204
@@ -801,19 +801,19 @@ UW-Stout,Christopher Newport,1203
 Principia,Tufts,1201
 Tufts,Principia,1201
 Bethel,NYU,1200
-Bethel,TX Lutheran,1200
-Ripon,Colorado Col,1200
-TX Lutheran,Bethel,1200
+Bethel,Texas Lutheran,1200
+Ripon,Colorado College,1200
+Texas Lutheran,Bethel,1200
 McMurry,Trine,1199
-MA Dartmouth,UW-Stevens Point,1199
+Mass-Dartmouth,UW-Stevens Point,1199
 NYU,Bethel,1199
-UW-Stevens Point,MA Dartmouth,1199
+UW-Stevens Point,Mass-Dartmouth,1199
 Trine,McMurry,1199
-St. Joseph CT,Wartburg,1198
+St. Joseph (CT),Wartburg,1198
 Bethel,Stevens,1198
-Trinity (Conn),Wartburg,1198
-Wartburg,Trinity (Conn),1198
-Wartburg,St. Joseph CT,1198
+Trinity (CT),Wartburg,1198
+Wartburg,Trinity (CT),1198
+Wartburg,St. Joseph (CT),1198
 Stevens,Bethel,1197
 Bethel,SUNY Cobleskill,1197
 SUNY Cobleskill,Bethel,1197
@@ -824,17 +824,17 @@ Randolph-Macon,Bethel,1192
 UW-Superior,Piedmont,1191
 Piedmont,UW-Superior,1191
 UW-La Crosse,Smith,1188
-MA Dartmouth,Ripon,1188
-Ripon,MA Dartmouth,1188
+Mass-Dartmouth,Ripon,1188
+Ripon,Mass-Dartmouth,1188
 Smith,UW-La Crosse,1188
-Principia,Bridgewater MA,1186
+Principia,Bridgewater St.,1186
 Montclair St.,Bethel,1186
-UW-La Crosse,W New England,1186
+UW-La Crosse,Western New England,1186
 Bethel,Montclair St.,1186
-Bridgewater MA,Principia,1186
-W New England,UW-La Crosse,1186
-Principia,MA Dartmouth,1185
-MA Dartmouth,Principia,1185
+Bridgewater St.,Principia,1186
+Western New England,UW-La Crosse,1186
+Principia,Mass-Dartmouth,1185
+Mass-Dartmouth,Principia,1185
 Randolph-Macon,East Texas Baptist,1185
 East Texas Baptist,Randolph-Macon,1185
 UW-Oshkosh,Endicott,1183
@@ -843,27 +843,27 @@ Endicott,UW-Oshkosh,1182
 Endicott,Ripon,1181
 Amherst,UW-Stevens Point,1180
 UW-Stevens Point,Amherst,1180
-Centre,Colorado Col,1177
-Colorado Col,Centre,1177
-Bridgewater MA,UW-Oshkosh,1174
-UW-Oshkosh,Bridgewater MA,1174
-UW-La Crosse,Trinity (Conn),1173
+Centre,Colorado College,1177
+Colorado College,Centre,1177
+Bridgewater St.,UW-Oshkosh,1174
+UW-Oshkosh,Bridgewater St.,1174
+UW-La Crosse,Trinity (CT),1173
 Cortland,UW-Superior,1173
-Trinity (Conn),UW-La Crosse,1173
+Trinity (CT),UW-La Crosse,1173
 UW-Superior,Cortland,1173
-UW-La Crosse,St. Joseph CT,1172
-St. Joseph CT,UW-La Crosse,1172
-Bridgewater MA,Ripon,1172
-Ripon,Bridgewater MA,1172
-Colorado Col,Transylvania,1170
-Transylvania,Colorado Col,1170
-Gustavus Adolphus,TX Lutheran,1169
+UW-La Crosse,St. Joseph (CT),1172
+St. Joseph (CT),UW-La Crosse,1172
+Bridgewater St.,Ripon,1172
+Ripon,Bridgewater St.,1172
+Colorado College,Transylvania,1170
+Transylvania,Colorado College,1170
+Gustavus Adolphus,Texas Lutheran,1169
 Smith,UW-Stevens Point,1169
 UW-Stevens Point,Smith,1169
-TX Lutheran,Gustavus Adolphus,1169
+Texas Lutheran,Gustavus Adolphus,1169
 Gallaudet,UW-Superior,1167
-W New England,UW-Stevens Point,1167
-UW-Stevens Point,W New England,1167
+Western New England,UW-Stevens Point,1167
+UW-Stevens Point,Western New England,1167
 UW-Superior,Gallaudet,1167
 McMurry,Wisconsin Lutheran,1166
 Christopher Newport,Wartburg,1166
@@ -883,12 +883,12 @@ Gustavus Adolphus,Piedmont,1160
 Vassar,UW-Stout,1160
 UW-Stout,Vassar,1160
 Piedmont,Gustavus Adolphus,1160
-Trinity (Conn),UW-Stevens Point,1153
+Trinity (CT),UW-Stevens Point,1153
 Merchant Marine,UW-Stout,1153
-UW-Stevens Point,St. Joseph CT,1153
-UW-Stevens Point,Trinity (Conn),1153
+UW-Stevens Point,St. Joseph (CT),1153
+UW-Stevens Point,Trinity (CT),1153
 UW-Stout,Merchant Marine,1153
-St. Joseph CT,UW-Stevens Point,1152
+St. Joseph (CT),UW-Stevens Point,1152
 Gustavus Adolphus,Mt. St. Mary,1152
 Cortland,Gustavus Adolphus,1150
 Gustavus Adolphus,Cortland,1150
@@ -902,15 +902,15 @@ NYU,UW-Stout,1144
 UW-Stout,NYU,1144
 Gustavus Adolphus,Scranton,1143
 Scranton,Gustavus Adolphus,1143
-UW-Superior,S Virginia,1143
+UW-Superior,Southern Virginia,1143
 UW-La Crosse,Christopher Newport,1142
 Christopher Newport,UW-La Crosse,1142
 Gustavus Adolphus,Johns Hopkins,1142
 Johns Hopkins,Gustavus Adolphus,1142
-S Virginia,UW-Superior,1142
+Southern Virginia,UW-Superior,1142
 McMurry,UW-Stout,1140
-Brooklyn Col,UW-Stout,1140
-UW-Stout,Brooklyn Col,1140
+Brooklyn College,UW-Stout,1140
+UW-Stout,Brooklyn College,1140
 UW-Stout,McMurry,1140
 Mt. St. Mary,UW-Stout,1140
 Principia,Amherst,1139
@@ -923,56 +923,56 @@ Bethel,Piedmont,1137
 Piedmont,Bethel,1137
 Washington & Lee,UW-Superior,1136
 UW-Superior,Washington & Lee,1136
-Colorado Col,UW-Superior,1135
-UW-Superior,Colorado Col,1135
+Colorado College,UW-Superior,1135
+UW-Superior,Colorado College,1135
 UW-Superior,East Texas Baptist,1135
 East Texas Baptist,UW-Superior,1135
-Colorado Col,Whitman,1134
-Whitman,Colorado Col,1134
+Colorado College,Whitman,1134
+Whitman,Colorado College,1134
 Principia,Smith,1132
 McMurry,UW-Whitewater,1132
 Smith,Principia,1132
 UW-Whitewater,McMurry,1132
 Stevens,UW-Stout,1131
 UW-Stout,Stevens,1131
-Principia,W New England,1130
-Colorado Col,UW-Stevens Point,1130
-W New England,Principia,1130
-UW-Stevens Point,Colorado Col,1130
+Principia,Western New England,1130
+Colorado College,UW-Stevens Point,1130
+Western New England,Principia,1130
+UW-Stevens Point,Colorado College,1130
 UW-Stout,SUNY Cobleskill,1130
 SUNY Cobleskill,UW-Stout,1130
 East Texas Baptist,La Roche,1128
 La Roche,East Texas Baptist,1128
-MA Dartmouth,UW-Oshkosh,1126
-Gustavus Adolphus,S Virginia,1126
-UW-Oshkosh,MA Dartmouth,1126
-S Virginia,Gustavus Adolphus,1126
+Mass-Dartmouth,UW-Oshkosh,1126
+Gustavus Adolphus,Southern Virginia,1126
+UW-Oshkosh,Mass-Dartmouth,1126
+Southern Virginia,Gustavus Adolphus,1126
 Randolph-Macon,UW-Stout,1125
 UW-Stout,Randolph-Macon,1125
-TX Lutheran,Transylvania,1124
-Transylvania,TX Lutheran,1124
-Cal Lutheran,Colorado Col,1123
+Texas Lutheran,Transylvania,1124
+Transylvania,Texas Lutheran,1124
+Cal Lutheran,Colorado College,1123
 Christopher Newport,UW-Stevens Point,1123
-Colorado Col,Cal Lutheran,1123
+Colorado College,Cal Lutheran,1123
 Vassar,Wartburg,1123
 Wartburg,Vassar,1123
 UW-Stevens Point,Christopher Newport,1123
-Colorado Col,UW-Oshkosh,1122
-UW-Oshkosh,Colorado Col,1122
+Colorado College,UW-Oshkosh,1122
+UW-Oshkosh,Colorado College,1122
 Montclair St.,UW-Stout,1121
 UW-Stout,Montclair St.,1121
 Bethel,Cortland,1120
 Carnegie Mellon,East Texas Baptist,1120
 Cortland,Bethel,1120
 East Texas Baptist,Carnegie Mellon,1120
-St. Joseph CT,Ripon,1119
+St. Joseph (CT),Ripon,1119
 Gustavus Adolphus,Elizabethtown,1119
 Merchant Marine,Wartburg,1118
 Wartburg,Merchant Marine,1118
-DePauw,TX Lutheran,1117
+DePauw,Texas Lutheran,1117
 Messiah,UW-Superior,1117
 UW-Superior,Messiah,1117
-TX Lutheran,DePauw,1117
+Texas Lutheran,DePauw,1117
 Elizabethtown,Gustavus Adolphus,1116
 Bates,DePauw,1115
 DePauw,Bates,1115
@@ -983,7 +983,7 @@ Endicott,Illinois Wesleyan,1114
 Gallaudet,Bethel,1113
 UW-La Crosse,McMurry,1113
 Bethel,Gallaudet,1113
-Colorado Col,Ripon,1113
+Colorado College,Ripon,1113
 Bethel,Johns Hopkins,1112
 Bethel,Scranton,1112
 Scranton,Bethel,1112
@@ -994,21 +994,21 @@ DePauw,Bowdoin,1110
 Endicott,UW-Whitewater,1110
 McMurry,UW-La Crosse,1108
 Bethel,Catholic,1108
-Colorado Col,Wisconsin Lutheran,1108
-MA Dartmouth,Wisconsin Lutheran,1108
-Wisconsin Lutheran,Colorado Col,1108
-Wisconsin Lutheran,MA Dartmouth,1108
+Colorado College,Wisconsin Lutheran,1108
+Mass-Dartmouth,Wisconsin Lutheran,1108
+Wisconsin Lutheran,Colorado College,1108
+Wisconsin Lutheran,Mass-Dartmouth,1108
 Catholic,Bethel,1107
-Brooklyn Col,Wartburg,1106
-Wartburg,Brooklyn Col,1106
-Bridgewater MA,Illinois Wesleyan,1105
-Illinois Wesleyan,Bridgewater MA,1105
-Centre,TX Lutheran,1103
-Bridgewater MA,UW-Whitewater,1103
+Brooklyn College,Wartburg,1106
+Wartburg,Brooklyn College,1106
+Bridgewater St.,Illinois Wesleyan,1105
+Illinois Wesleyan,Bridgewater St.,1105
+Centre,Texas Lutheran,1103
+Bridgewater St.,UW-Whitewater,1103
 Gettysburg,UW-Superior,1103
 UW-Superior,Gettysburg,1103
-UW-Whitewater,Bridgewater MA,1103
-TX Lutheran,Centre,1103
+UW-Whitewater,Bridgewater St.,1103
+Texas Lutheran,Centre,1103
 Mt. St. Mary,Wartburg,1103
 Wisconsin Lutheran,Endicott,1102
 Endicott,Wisconsin Lutheran,1102
@@ -1022,70 +1022,70 @@ Illinois Wesleyan,Tufts,1095
 Tufts,Illinois Wesleyan,1095
 Wartburg,SUNY Cobleskill,1095
 SUNY Cobleskill,Wartburg,1095
-Principia,Trinity (Conn),1094
-Bridgewater MA,Wisconsin Lutheran,1094
+Principia,Trinity (CT),1094
+Bridgewater St.,Wisconsin Lutheran,1094
 Gustavus Adolphus,Messiah,1094
 Messiah,Gustavus Adolphus,1094
-Trinity (Conn),Principia,1094
-Wisconsin Lutheran,Bridgewater MA,1094
+Trinity (CT),Principia,1094
+Wisconsin Lutheran,Bridgewater St.,1094
 Tufts,UW-Whitewater,1093
 UW-Whitewater,Tufts,1093
 UW-La Crosse,Merchant Marine,1092
 Amherst,UW-Oshkosh,1092
 Merchant Marine,UW-La Crosse,1092
 UW-Oshkosh,Amherst,1092
-Bethel,S Virginia,1091
+Bethel,Southern Virginia,1091
 Washington & Jefferson,East Texas Baptist,1091
 East Texas Baptist,Washington & Jefferson,1091
 McMurry,Bethel,1090
 Bethel,McMurry,1090
 Wartburg,Randolph-Macon,1090
 Randolph-Macon,Wartburg,1089
-S Virginia,Bethel,1089
+Southern Virginia,Bethel,1089
 Amherst,Ripon,1088
 Ripon,Amherst,1088
 Smith,UW-Oshkosh,1086
-Wartburg,TX Lutheran,1086
+Wartburg,Texas Lutheran,1086
 UW-Oshkosh,Smith,1086
-TX Lutheran,Wartburg,1086
+Texas Lutheran,Wartburg,1086
 Bethel,Elizabethtown,1085
 Bethel,Washington & Lee,1085
-MA Dartmouth,UW-Whitewater,1085
+Mass-Dartmouth,UW-Whitewater,1085
 Elizabethtown,Bethel,1085
 Tufts,Wisconsin Lutheran,1085
-UW-Whitewater,MA Dartmouth,1085
+UW-Whitewater,Mass-Dartmouth,1085
 Wisconsin Lutheran,Tufts,1085
 Centre,Bates,1084
 Bates,Centre,1084
 Gustavus Adolphus,Gettysburg,1084
 Montclair St.,Wartburg,1083
-MA Dartmouth,Illinois Wesleyan,1083
-MA Dartmouth,Piedmont,1083
+Mass-Dartmouth,Illinois Wesleyan,1083
+Mass-Dartmouth,Piedmont,1083
 Wartburg,Montclair St.,1083
 Washington & Lee,Bethel,1083
-Piedmont,MA Dartmouth,1083
-Illinois Wesleyan,MA Dartmouth,1081
+Piedmont,Mass-Dartmouth,1083
+Illinois Wesleyan,Mass-Dartmouth,1081
 Gettysburg,Gustavus Adolphus,1080
 Ripon,Smith,1080
 Smith,Ripon,1080
 Vassar,UW-Stevens Point,1080
-W New England,UW-Oshkosh,1080
-UW-Oshkosh,W New England,1080
+Western New England,UW-Oshkosh,1080
+UW-Oshkosh,Western New England,1080
 UW-Stevens Point,Vassar,1080
 Centre,Bowdoin,1079
-UW-La Crosse,Brooklyn Col,1079
+UW-La Crosse,Brooklyn College,1079
 UW-La Crosse,Mt. St. Mary,1079
 Bowdoin,Centre,1079
-Brooklyn Col,UW-La Crosse,1079
-Ripon,W New England,1079
-W New England,Ripon,1079
+Brooklyn College,UW-La Crosse,1079
+Ripon,Western New England,1079
+Western New England,Ripon,1079
 Mt. St. Mary,UW-La Crosse,1079
 Merchant Marine,UW-Stevens Point,1073
 UW-Stevens Point,Merchant Marine,1073
 UW-La Crosse,NYU,1072
-Colorado Col,UW-Whitewater,1072
+Colorado College,UW-Whitewater,1072
 NYU,UW-La Crosse,1072
-UW-Whitewater,Colorado Col,1072
+UW-Whitewater,Colorado College,1072
 Stevens,UW-La Crosse,1070
 UW-La Crosse,Stevens,1070
 UW-Stout,Piedmont,1070
@@ -1093,20 +1093,20 @@ Piedmont,UW-Stout,1070
 UW-La Crosse,SUNY Cobleskill,1069
 SUNY Cobleskill,UW-La Crosse,1069
 Baldwin Wallace,East Texas Baptist,1067
-Trinity (Conn),UW-Oshkosh,1067
-UW-Oshkosh,Trinity (Conn),1067
+Trinity (CT),UW-Oshkosh,1067
+UW-Oshkosh,Trinity (CT),1067
 East Texas Baptist,Baldwin Wallace,1067
-St. Joseph CT,UW-Oshkosh,1066
-UW-Oshkosh,St. Joseph CT,1066
-Ripon,Trinity (Conn),1065
-Ripon,St. Joseph CT,1065
-Trinity (Conn),Ripon,1065
+St. Joseph (CT),UW-Oshkosh,1066
+UW-Oshkosh,St. Joseph (CT),1066
+Ripon,Trinity (CT),1065
+Ripon,St. Joseph (CT),1065
+Trinity (CT),Ripon,1065
 UW-La Crosse,Randolph-Macon,1064
 Randolph-Macon,UW-La Crosse,1064
 Messiah,Bethel,1063
 Bethel,Messiah,1062
-Brooklyn Col,UW-Stevens Point,1062
-UW-Stevens Point,Brooklyn Col,1062
+Brooklyn College,UW-Stevens Point,1062
+UW-Stevens Point,Brooklyn College,1062
 UW-Stevens Point,Mt. St. Mary,1060
 Mt. St. Mary,UW-Stevens Point,1060
 Montclair St.,UW-La Crosse,1058
@@ -1128,9 +1128,9 @@ UW-Stevens Point,Stevens,1051
 UW-Stevens Point,SUNY Cobleskill,1050
 SUNY Cobleskill,UW-Stevens Point,1050
 Bethel,Gettysburg,1049
-Geneseo St.,UW-Superior,1049
+SUNY Geneseo,UW-Superior,1049
 Gettysburg,Bethel,1049
-UW-Superior,Geneseo St.,1049
+UW-Superior,SUNY Geneseo,1049
 Bates,Transylvania,1048
 Cal Lutheran,Whitman,1048
 Transylvania,Bates,1048
@@ -1145,50 +1145,50 @@ UW-Stevens Point,Randolph-Macon,1045
 UW-Stout,Johns Hopkins,1045
 UW-Stout,Scranton,1045
 McMurry,Piedmont,1044
-Colorado Col,UW-Stout,1044
+Colorado College,UW-Stout,1044
 East Texas Baptist,UW-Stout,1044
 Endicott,Piedmont,1044
 Piedmont,McMurry,1044
 Piedmont,Endicott,1044
 Bowdoin,Transylvania,1043
-UW-Stout,Colorado Col,1043
+UW-Stout,Colorado College,1043
 UW-Stout,East Texas Baptist,1043
 Transylvania,Bowdoin,1043
 Centre,McMurry,1041
 McMurry,Centre,1041
 Catholic,UW-Stout,1041
-Illinois Wesleyan,TX Lutheran,1041
+Illinois Wesleyan,Texas Lutheran,1041
 UW-Stout,Catholic,1041
-East Texas Baptist,S Virginia,1041
-TX Lutheran,Illinois Wesleyan,1041
-S Virginia,East Texas Baptist,1041
+East Texas Baptist,Southern Virginia,1041
+Texas Lutheran,Illinois Wesleyan,1041
+Southern Virginia,East Texas Baptist,1041
 Montclair St.,UW-Stevens Point,1039
 UW-Stevens Point,Montclair St.,1039
-Colorado Col,DePauw,1038
-DePauw,Colorado Col,1038
+Colorado College,DePauw,1038
+DePauw,Colorado College,1038
 Christopher Newport,UW-Oshkosh,1036
 Immaculata,UW-Superior,1036
 UW-Oshkosh,Christopher Newport,1036
 UW-Superior,Immaculata,1036
 Christopher Newport,Ripon,1035
 Ripon,Christopher Newport,1035
-TX Lutheran,Piedmont,1035
-Piedmont,TX Lutheran,1035
+Texas Lutheran,Piedmont,1035
+Piedmont,Texas Lutheran,1035
 Brockport St.,Gustavus Adolphus,1033
 Gustavus Adolphus,Brockport St.,1033
 UW-Stevens Point,East Texas Baptist,1033
 East Texas Baptist,UW-Stevens Point,1033
-Geneseo St.,Gustavus Adolphus,1029
-Gustavus Adolphus,Geneseo St.,1029
+SUNY Geneseo,Gustavus Adolphus,1029
+Gustavus Adolphus,SUNY Geneseo,1029
 Tufts,Piedmont,1026
 Piedmont,Tufts,1026
-UW-Stout,S Virginia,1024
-S Virginia,UW-Stout,1024
-Bridgewater MA,Piedmont,1022
-Piedmont,Bridgewater MA,1022
+UW-Stout,Southern Virginia,1024
+Southern Virginia,UW-Stout,1024
+Bridgewater St.,Piedmont,1022
+Piedmont,Bridgewater St.,1022
 Principia,Vassar,1021
-Centre,MA Dartmouth,1021
-MA Dartmouth,Centre,1021
+Centre,Mass-Dartmouth,1021
+Mass-Dartmouth,Centre,1021
 Vassar,Principia,1021
 Amherst,Illinois Wesleyan,1020
 Illinois Wesleyan,Amherst,1020
@@ -1209,12 +1209,12 @@ Illinois Wesleyan,Smith,1014
 Smith,Illinois Wesleyan,1014
 Principia,SUNY Cobleskill,1013
 SUNY Cobleskill,Principia,1013
-UW-La Crosse,Colorado Col,1012
-Colorado Col,UW-La Crosse,1012
-Illinois Wesleyan,W New England,1011
-W New England,Illinois Wesleyan,1011
+UW-La Crosse,Colorado College,1012
+Colorado College,UW-La Crosse,1012
+Illinois Wesleyan,Western New England,1011
+Western New England,Illinois Wesleyan,1011
 UW-Whitewater,Smith,1011
-Transylvania,MA Dartmouth,1011
+Transylvania,Mass-Dartmouth,1011
 Gallaudet,Wartburg,1010
 DePauw,Endicott,1010
 Smith,UW-Whitewater,1010
@@ -1224,8 +1224,8 @@ Piedmont,UW-La Crosse,1010
 UW-La Crosse,Piedmont,1009
 Amherst,Wisconsin Lutheran,1009
 Scranton,Wartburg,1009
-W New England,UW-Whitewater,1009
-UW-Whitewater,W New England,1009
+Western New England,UW-Whitewater,1009
+UW-Whitewater,Western New England,1009
 Wisconsin Lutheran,Amherst,1009
 Endicott,DePauw,1009
 Johns Hopkins,Wartburg,1008
@@ -1241,28 +1241,28 @@ DePauw,McMurry,1002
 Smith,Wisconsin Lutheran,1002
 Wisconsin Lutheran,Smith,1002
 Principia,Mt. St. Mary,1001
-W New England,Wisconsin Lutheran,1001
+Western New England,Wisconsin Lutheran,1001
 Mt. St. Mary,Principia,1001
-Wisconsin Lutheran,W New England,1001
-Illinois Wesleyan,Trinity (Conn),998
-Trinity (Conn),Illinois Wesleyan,998
-St. Joseph CT,Illinois Wesleyan,997
-Illinois Wesleyan,St. Joseph CT,997
+Wisconsin Lutheran,Western New England,1001
+Illinois Wesleyan,Trinity (CT),998
+Trinity (CT),Illinois Wesleyan,998
+St. Joseph (CT),Illinois Wesleyan,997
+Illinois Wesleyan,St. Joseph (CT),997
 UW-Oshkosh,East Texas Baptist,996
 East Texas Baptist,UW-Oshkosh,996
 Principia,Merchant Marine,995
-St. Joseph CT,UW-Whitewater,995
-Bethel,Geneseo St.,995
-Geneseo St.,Bethel,995
+St. Joseph (CT),UW-Whitewater,995
+Bethel,SUNY Geneseo,995
+SUNY Geneseo,Bethel,995
 Messiah,UW-Stout,995
 Merchant Marine,Principia,995
 UW-Stout,Messiah,995
-UW-Whitewater,Trinity (Conn),995
-UW-Whitewater,St. Joseph CT,995
-Colorado Col,Bethel,994
-MA Dartmouth,Transylvania,994
-Trinity (Conn),UW-Whitewater,994
-Bethel,Colorado Col,993
+UW-Whitewater,Trinity (CT),995
+UW-Whitewater,St. Joseph (CT),995
+Colorado College,Bethel,994
+Mass-Dartmouth,Transylvania,994
+Trinity (CT),UW-Whitewater,994
+Bethel,Colorado College,993
 Bethel,East Texas Baptist,993
 Vassar,UW-Oshkosh,993
 East Texas Baptist,Bethel,993
@@ -1271,21 +1271,21 @@ Cortland,UW-La Crosse,992
 DePauw,Tufts,992
 Tufts,DePauw,992
 UW-Oshkosh,Vassar,992
-MA Dartmouth,DePauw,991
+Mass-Dartmouth,DePauw,991
 Ripon,Vassar,991
 Vassar,Ripon,991
 UW-Stevens Point,Piedmont,990
 Piedmont,UW-Stevens Point,990
 UW-La Crosse,Gallaudet,987
-St. Joseph CT,Wisconsin Lutheran,987
+St. Joseph (CT),Wisconsin Lutheran,987
 Ripon,East Texas Baptist,987
 Merchant Marine,UW-Oshkosh,987
 UW-Oshkosh,Merchant Marine,987
 East Texas Baptist,Ripon,987
-Wisconsin Lutheran,St. Joseph CT,987
+Wisconsin Lutheran,St. Joseph (CT),987
 Gallaudet,UW-La Crosse,986
-Trinity (Conn),Wisconsin Lutheran,986
-Wisconsin Lutheran,Trinity (Conn),986
+Trinity (CT),Wisconsin Lutheran,986
+Wisconsin Lutheran,Trinity (CT),986
 Ripon,Merchant Marine,985
 Merchant Marine,Ripon,985
 UW-La Crosse,Scranton,984
@@ -1309,24 +1309,24 @@ Piedmont,Wartburg,979
 Centre,Endicott,978
 McMurry,Wartburg,977
 Wartburg,McMurry,977
-Principia,Brooklyn Col,976
-Bridgewater MA,DePauw,976
-Brooklyn Col,Principia,976
-DePauw,Bridgewater MA,976
-Brooklyn Col,UW-Oshkosh,974
-UW-Oshkosh,Brooklyn Col,974
-Brooklyn Col,Ripon,973
+Principia,Brooklyn College,976
+Bridgewater St.,DePauw,976
+Brooklyn College,Principia,976
+DePauw,Bridgewater St.,976
+Brooklyn College,UW-Oshkosh,974
+UW-Oshkosh,Brooklyn College,974
+Brooklyn College,Ripon,973
 Cortland,UW-Stevens Point,973
-Ripon,Brooklyn Col,973
+Ripon,Brooklyn College,973
 UW-Stevens Point,Cortland,973
 Mt. St. Mary,Ripon,972
 Mt. St. Mary,UW-Oshkosh,972
 Amherst,Piedmont,971
 Piedmont,Amherst,971
-Calvin,MA Dartmouth,968
-MA Dartmouth,Calvin,968
+Calvin,Mass-Dartmouth,968
+Mass-Dartmouth,Calvin,968
 Gallaudet,UW-Stevens Point,966
-DePauw,MA Dartmouth,966
+DePauw,Mass-Dartmouth,966
 NYU,UW-Oshkosh,966
 UW-Oshkosh,NYU,966
 UW-Stevens Point,Gallaudet,966
@@ -1349,33 +1349,33 @@ SUNY Cobleskill,UW-Oshkosh,964
 Calvin,Bates,963
 Stevens,Ripon,963
 Bates,Calvin,963
-Colorado Col,Illinois Wesleyan,963
+Colorado College,Illinois Wesleyan,963
 Gustavus Adolphus,East Texas Baptist,963
-Illinois Wesleyan,Colorado Col,963
+Illinois Wesleyan,Colorado College,963
 Ripon,Stevens,963
 East Texas Baptist,Gustavus Adolphus,963
 Centre,Tufts,962
 Ripon,SUNY Cobleskill,962
 Tufts,Centre,962
-Wartburg,S Virginia,962
+Wartburg,Southern Virginia,962
 East Texas Baptist,Trine,962
 Trine,East Texas Baptist,962
-S Virginia,Wartburg,962
-UW-La Crosse,S Virginia,961
+Southern Virginia,Wartburg,962
+UW-La Crosse,Southern Virginia,961
 Catholic,UW-Stevens Point,961
 UW-Stevens Point,Catholic,961
 East Texas Baptist,Wisconsin Lutheran,961
 Wisconsin Lutheran,East Texas Baptist,961
-S Virginia,UW-La Crosse,961
+Southern Virginia,UW-La Crosse,961
 Messiah,Wartburg,960
 Wartburg,Messiah,960
 Randolph-Macon,UW-Oshkosh,959
 UW-Oshkosh,Randolph-Macon,959
 Calvin,Bowdoin,958
 Bowdoin,Calvin,958
-Centre,Bridgewater MA,957
+Centre,Bridgewater St.,957
 UW-La Crosse,Elizabethtown,957
-Bridgewater MA,Centre,957
+Bridgewater St.,Centre,957
 Elizabethtown,UW-La Crosse,957
 Randolph-Macon,Ripon,957
 Ripon,Randolph-Macon,957
@@ -1394,16 +1394,16 @@ Montclair St.,UW-Oshkosh,952
 Ripon,Montclair St.,952
 UW-Oshkosh,Montclair St.,952
 Bowdoin,Trine,950
-W New England,Piedmont,950
-Piedmont,W New England,950
+Western New England,Piedmont,950
+Piedmont,Western New England,950
 Trine,Bowdoin,950
 Gettysburg,Wartburg,948
 Wartburg,Gettysburg,948
 Washington & Jefferson,UW-Superior,948
 UW-Superior,Washington & Jefferson,948
 Transylvania,Endicott,945
-UW-Stevens Point,S Virginia,943
-S Virginia,UW-Stevens Point,943
+UW-Stevens Point,Southern Virginia,943
+Southern Virginia,UW-Stevens Point,943
 Endicott,Transylvania,942
 Elizabethtown,UW-Stevens Point,938
 UW-Stevens Point,Elizabethtown,938
@@ -1419,9 +1419,9 @@ Amherst,DePauw,929
 DePauw,Amherst,929
 Gustavus Adolphus,Washington & Jefferson,928
 Washington & Jefferson,Gustavus Adolphus,928
-Geneseo St.,UW-Stout,927
+SUNY Geneseo,UW-Stout,927
 Tufts,Transylvania,927
-UW-Stout,Geneseo St.,927
+UW-Stout,SUNY Geneseo,927
 Piedmont,SUNY Cobleskill,927
 Transylvania,Tufts,927
 SUNY Cobleskill,Piedmont,927
@@ -1429,45 +1429,45 @@ Carnegie Mellon,UW-Superior,924
 Illinois Wesleyan,Vassar,924
 Vassar,Illinois Wesleyan,924
 UW-Superior,Carnegie Mellon,924
-Piedmont,St. Joseph CT,924
-St. Joseph CT,Piedmont,923
-Trinity (Conn),Piedmont,923
-Piedmont,Trinity (Conn),923
+Piedmont,St. Joseph (CT),924
+St. Joseph (CT),Piedmont,923
+Trinity (CT),Piedmont,923
+Piedmont,Trinity (CT),923
 UW-La Crosse,Gettysburg,922
-Bridgewater MA,Transylvania,922
+Bridgewater St.,Transylvania,922
 DePauw,Smith,922
 Gettysburg,UW-La Crosse,922
 Smith,DePauw,922
-Transylvania,Bridgewater MA,922
+Transylvania,Bridgewater St.,922
 Principia,Christopher Newport,921
 Christopher Newport,Principia,921
-DePauw,W New England,920
+DePauw,Western New England,920
 Vassar,UW-Whitewater,920
 UW-Whitewater,Vassar,920
-W New England,DePauw,919
+Western New England,DePauw,919
 Illinois Wesleyan,Merchant Marine,917
 Merchant Marine,Illinois Wesleyan,917
 Immaculata,UW-Stout,916
 UW-Stout,Immaculata,916
-Colorado Col,TX Lutheran,915
+Colorado College,Texas Lutheran,915
 Messiah,UW-Stevens Point,915
 Merchant Marine,UW-Whitewater,915
 UW-Stevens Point,Messiah,915
 UW-Whitewater,Merchant Marine,915
-TX Lutheran,Colorado Col,915
+Texas Lutheran,Colorado College,915
 UW-Superior,La Roche,914
 La Roche,UW-Superior,914
-Principia,TX Lutheran,912
+Principia,Texas Lutheran,912
 Vassar,Wisconsin Lutheran,912
-TX Lutheran,Principia,912
+Texas Lutheran,Principia,912
 Wisconsin Lutheran,Vassar,912
 Merchant Marine,Wisconsin Lutheran,907
 Wisconsin Lutheran,Merchant Marine,907
 Principia,Scranton,906
 Centre,Amherst,906
 Amherst,Centre,906
-Colorado Col,Gustavus Adolphus,906
-Gustavus Adolphus,Colorado Col,906
+Colorado College,Gustavus Adolphus,906
+Gustavus Adolphus,Colorado College,906
 Scranton,Principia,906
 Carnegie Mellon,Gustavus Adolphus,905
 Mt. St. Mary,Illinois Wesleyan,905
@@ -1475,10 +1475,10 @@ UW-Oshkosh,Piedmont,904
 Piedmont,UW-Oshkosh,904
 Ripon,Piedmont,903
 Piedmont,Ripon,903
-Brooklyn Col,UW-Whitewater,902
+Brooklyn College,UW-Whitewater,902
 Gettysburg,UW-Stevens Point,902
 UW-Stevens Point,Gettysburg,902
-UW-Whitewater,Brooklyn Col,902
+UW-Whitewater,Brooklyn College,902
 Gustavus Adolphus,Carnegie Mellon,901
 Mt. St. Mary,UW-Whitewater,901
 Centre,Smith,900
@@ -1490,23 +1490,23 @@ East Texas Baptist,UW-Whitewater,899
 Gustavus Adolphus,La Roche,895
 La Roche,Gustavus Adolphus,895
 Bethel,Washington & Jefferson,894
-Brooklyn Col,Wisconsin Lutheran,894
+Brooklyn College,Wisconsin Lutheran,894
 Illinois Wesleyan,SUNY Cobleskill,894
 NYU,UW-Whitewater,894
 Washington & Jefferson,Bethel,894
 UW-Whitewater,NYU,894
-Wisconsin Lutheran,Brooklyn Col,894
+Wisconsin Lutheran,Brooklyn College,894
 SUNY Cobleskill,Illinois Wesleyan,894
 Stevens,UW-Whitewater,893
-Geneseo St.,Wartburg,893
-Wartburg,Geneseo St.,893
+SUNY Geneseo,Wartburg,893
+Wartburg,SUNY Geneseo,893
 UW-Whitewater,Stevens,893
 Mt. St. Mary,Wisconsin Lutheran,893
 UW-Whitewater,SUNY Cobleskill,892
 SUNY Cobleskill,UW-Whitewater,892
-Brooklyn Col,Illinois Wesleyan,889
-Illinois Wesleyan,Brooklyn Col,889
-Centre,W New England,887
+Brooklyn College,Illinois Wesleyan,889
+Illinois Wesleyan,Brooklyn College,889
+Centre,Western New England,887
 Randolph-Macon,UW-Whitewater,887
 UW-Whitewater,Randolph-Macon,887
 Cortland,UW-Oshkosh,886
@@ -1514,13 +1514,13 @@ NYU,Wisconsin Lutheran,886
 UW-Oshkosh,Cortland,886
 Wisconsin Lutheran,NYU,886
 Cortland,Ripon,885
-DePauw,Trinity (Conn),885
+DePauw,Trinity (CT),885
 Ripon,Cortland,885
-Trinity (Conn),DePauw,885
-W New England,Centre,885
+Trinity (CT),DePauw,885
+Western New England,Centre,885
 Stevens,Wisconsin Lutheran,884
-St. Joseph CT,DePauw,884
-DePauw,St. Joseph CT,884
+St. Joseph (CT),DePauw,884
+DePauw,St. Joseph (CT),884
 Wisconsin Lutheran,Stevens,884
 Wisconsin Lutheran,SUNY Cobleskill,884
 SUNY Cobleskill,Wisconsin Lutheran,884
@@ -1530,14 +1530,14 @@ Montclair St.,Illinois Wesleyan,882
 Illinois Wesleyan,Montclair St.,882
 Montclair St.,UW-Whitewater,881
 Stevens,Illinois Wesleyan,881
-Colorado Col,East Texas Baptist,881
+Colorado College,East Texas Baptist,881
 Illinois Wesleyan,Stevens,881
 Immaculata,Wartburg,881
 Wartburg,Immaculata,881
 UW-Whitewater,Montclair St.,881
-East Texas Baptist,Colorado Col,881
-Colorado Col,Wartburg,880
-Wartburg,Colorado Col,880
+East Texas Baptist,Colorado College,881
+Colorado College,Wartburg,880
+Wartburg,Colorado College,880
 Wartburg,East Texas Baptist,880
 East Texas Baptist,Wartburg,880
 Gallaudet,Ripon,879
@@ -1574,61 +1574,61 @@ Piedmont,Cortland,872
 Transylvania,Amherst,872
 Bethel,Carnegie Mellon,870
 Carnegie Mellon,Bethel,870
-UW-La Crosse,Geneseo St.,867
+UW-La Crosse,SUNY Geneseo,867
 Brockport St.,Piedmont,866
 Christopher Newport,Illinois Wesleyan,866
-Geneseo St.,UW-La Crosse,866
+SUNY Geneseo,UW-La Crosse,866
 Illinois Wesleyan,Christopher Newport,866
 Piedmont,Brockport St.,866
 Mt. St. Mary,Piedmont,864
 Piedmont,Mt. St. Mary,864
 Smith,Transylvania,863
 Transylvania,Smith,863
-St. Joseph CT,Centre,862
-Centre,St. Joseph CT,861
+St. Joseph (CT),Centre,862
+Centre,St. Joseph (CT),861
 Bethel,La Roche,860
 Ripon,Mt. St. Mary,860
 La Roche,Bethel,860
 Principia,Randolph-Macon,858
-Geneseo St.,Piedmont,858
+SUNY Geneseo,Piedmont,858
 Randolph-Macon,Principia,858
-Piedmont,Geneseo St.,858
-Centre,Trinity (Conn),857
-Trinity (Conn),Centre,857
+Piedmont,SUNY Geneseo,858
+Centre,Trinity (CT),857
+Trinity (CT),Centre,857
 Brockport St.,UW-Stevens Point,856
-UW-Oshkosh,S Virginia,856
+UW-Oshkosh,Southern Virginia,856
 UW-Stevens Point,Brockport St.,856
-S Virginia,UW-Oshkosh,856
+Southern Virginia,UW-Oshkosh,856
 Calvin,Endicott,855
 UW-La Crosse,Immaculata,855
 Immaculata,UW-La Crosse,855
-Ripon,S Virginia,855
+Ripon,Southern Virginia,855
 Endicott,Calvin,855
-S Virginia,Ripon,854
-Principia,Colorado Col,852
-Colorado Col,Principia,852
+Southern Virginia,Ripon,854
+Principia,Colorado College,852
+Colorado College,Principia,852
 UW-Oshkosh,Mt. St. Mary,852
 Elizabethtown,Ripon,851
 Elizabethtown,UW-Oshkosh,851
 Ripon,Elizabethtown,851
-W New England,Transylvania,851
+Western New England,Transylvania,851
 UW-Oshkosh,Elizabethtown,851
-Transylvania,W New England,851
+Transylvania,Western New England,851
 Washington & Lee,UW-Oshkosh,849
 UW-Oshkosh,Washington & Lee,849
-Geneseo St.,UW-Stevens Point,848
+SUNY Geneseo,UW-Stevens Point,848
 Ripon,Washington & Lee,848
 Washington & Lee,Ripon,848
-UW-Stevens Point,Geneseo St.,848
+UW-Stevens Point,SUNY Geneseo,848
 Trine,Endicott,847
-Calvin,Bridgewater MA,846
-Bridgewater MA,Calvin,846
+Calvin,Bridgewater St.,846
+Bridgewater St.,Calvin,846
 Endicott,Trine,846
 UW-Superior,Centre,841
 Centre,UW-Superior,839
-Trine,Bridgewater MA,838
+Trine,Bridgewater St.,838
 Calvin,Tufts,837
-Bridgewater MA,Trine,837
+Bridgewater St.,Trine,837
 Tufts,Calvin,837
 Immaculata,UW-Stevens Point,836
 UW-Stevens Point,Immaculata,836
@@ -1652,14 +1652,14 @@ Washington & Jefferson,UW-Stout,827
 UW-Stout,Washington & Jefferson,827
 Principia,McMurry,826
 McMurry,Principia,826
-St. Joseph CT,Transylvania,825
-Transylvania,Trinity (Conn),825
-Transylvania,St. Joseph CT,825
+St. Joseph (CT),Transylvania,825
+Transylvania,Trinity (CT),825
+Transylvania,St. Joseph (CT),825
 Wisconsin Lutheran,Piedmont,824
 Piedmont,Wisconsin Lutheran,824
 Centre,Gustavus Adolphus,823
 Gustavus Adolphus,Centre,823
-Trinity (Conn),Transylvania,821
+Trinity (CT),Transylvania,821
 Principia,Brockport St.,819
 Principia,Elizabethtown,819
 Brockport St.,Principia,819
@@ -1680,18 +1680,18 @@ Calvin,Christopher Newport,812
 Christopher Newport,Calvin,812
 Gustavus Adolphus,Transylvania,811
 Transylvania,Gustavus Adolphus,811
-Principia,Geneseo St.,810
+Principia,SUNY Geneseo,810
 DePauw,Vassar,810
-Geneseo St.,Principia,810
+SUNY Geneseo,Principia,810
 Illinois Wesleyan,Scranton,810
 Scranton,Illinois Wesleyan,810
 Vassar,DePauw,810
 Centre,SUNY Cobleskill,809
 SUNY Cobleskill,Centre,809
 Gallaudet,UW-Whitewater,808
-Brooklyn Col,Piedmont,808
+Brooklyn College,Piedmont,808
 UW-Whitewater,Gallaudet,808
-Piedmont,Brooklyn Col,808
+Piedmont,Brooklyn College,808
 NYU,Piedmont,807
 Scranton,UW-Whitewater,807
 UW-Whitewater,Johns Hopkins,807
@@ -1712,8 +1712,8 @@ Vassar,Centre,803
 UW-Stout,Carnegie Mellon,803
 UW-Whitewater,Catholic,803
 Piedmont,Stevens,803
-MA Dartmouth,Trine,801
-Trine,MA Dartmouth,801
+Mass-Dartmouth,Trine,801
+Trine,Mass-Dartmouth,801
 Gallaudet,Wisconsin Lutheran,800
 Baldwin Wallace,UW-Superior,800
 UW-Superior,Baldwin Wallace,800
@@ -1736,8 +1736,8 @@ Bethel,Centre,786
 DePauw,Merchant Marine,786
 Merchant Marine,DePauw,786
 UW-Whitewater,Mt. St. Mary,786
-UW-Whitewater,S Virginia,786
-S Virginia,UW-Whitewater,786
+UW-Whitewater,Southern Virginia,786
+Southern Virginia,UW-Whitewater,786
 Baldwin Wallace,Bates,785
 Bates,Baldwin Wallace,785
 Principia,Gettysburg,783
@@ -1754,15 +1754,15 @@ UW-Whitewater,Washington & Lee,779
 Baldwin Wallace,Gustavus Adolphus,778
 Gustavus Adolphus,Baldwin Wallace,778
 Principia,Immaculata,777
-Calvin,Trinity (Conn),777
-Calvin,St. Joseph CT,777
-St. Joseph CT,Calvin,777
+Calvin,Trinity (CT),777
+Calvin,St. Joseph (CT),777
+St. Joseph (CT),Calvin,777
 Immaculata,Principia,777
 Ohio Wesleyan,UW-Superior,777
-Trinity (Conn),Calvin,777
+Trinity (CT),Calvin,777
 UW-Superior,Ohio Wesleyan,777
-Wisconsin Lutheran,S Virginia,777
-S Virginia,Wisconsin Lutheran,775
+Wisconsin Lutheran,Southern Virginia,777
+Southern Virginia,Wisconsin Lutheran,775
 Ohio Wesleyan,Endicott,773
 Elizabethtown,Wisconsin Lutheran,772
 Scranton,Piedmont,772
@@ -1782,8 +1782,8 @@ Carnegie Mellon,Wartburg,768
 Ripon,Brockport St.,768
 UW-Oshkosh,Brockport St.,768
 Centre,Merchant Marine,767
-Brooklyn Col,DePauw,767
-DePauw,Brooklyn Col,767
+Brooklyn College,DePauw,767
+DePauw,Brooklyn College,767
 Merchant Marine,Centre,767
 Wartburg,Carnegie Mellon,767
 UW-La Crosse,Washington & Jefferson,766
@@ -1792,27 +1792,27 @@ Vassar,Transylvania,766
 Washington & Jefferson,UW-La Crosse,766
 East Texas Baptist,DePauw,766
 Transylvania,Vassar,766
-Bridgewater MA,Ohio Wesleyan,764
-Ohio Wesleyan,Bridgewater MA,764
+Bridgewater St.,Ohio Wesleyan,764
+Ohio Wesleyan,Bridgewater St.,764
 Calvin,Amherst,761
 Amherst,Calvin,761
-Geneseo St.,UW-Oshkosh,761
-UW-Oshkosh,Geneseo St.,761
+SUNY Geneseo,UW-Oshkosh,761
+UW-Oshkosh,SUNY Geneseo,761
 Calvin,Merchant Marine,760
-Geneseo St.,Ripon,760
-Ripon,Geneseo St.,760
+SUNY Geneseo,Ripon,760
+Ripon,SUNY Geneseo,760
 Merchant Marine,Calvin,760
 Gustavus Adolphus,Ohio Wesleyan,759
 Wartburg,La Roche,759
 La Roche,Wartburg,759
 Stevens,DePauw,757
-Bates,S Virginia,757
+Bates,Southern Virginia,757
 DePauw,NYU,757
 DePauw,Stevens,757
 Messiah,UW-Whitewater,757
 NYU,DePauw,757
 UW-Whitewater,Messiah,757
-S Virginia,Bates,757
+Southern Virginia,Bates,757
 Calvin,Smith,755
 Smith,Calvin,755
 Ohio Wesleyan,Gustavus Adolphus,754
@@ -1820,16 +1820,16 @@ Ohio Wesleyan,Tufts,754
 Tufts,Ohio Wesleyan,754
 Amherst,Trine,753
 Bates,Washington & Lee,753
-MA Dartmouth,Ohio Wesleyan,753
-Ohio Wesleyan,MA Dartmouth,753
+Mass-Dartmouth,Ohio Wesleyan,753
+Ohio Wesleyan,Mass-Dartmouth,753
 Washington & Lee,Bates,753
 Trine,Amherst,753
-Calvin,W New England,752
+Calvin,Western New England,752
 Centre,East Texas Baptist,752
-Bowdoin,S Virginia,752
-W New England,Calvin,752
+Bowdoin,Southern Virginia,752
+Western New England,Calvin,752
 East Texas Baptist,Centre,752
-S Virginia,Bowdoin,752
+Southern Virginia,Bowdoin,752
 Montclair St.,DePauw,751
 DePauw,Montclair St.,751
 Illinois Wesleyan,Mt. St. Mary,750
@@ -1839,12 +1839,12 @@ Gallaudet,Illinois Wesleyan,749
 Illinois Wesleyan,Gallaudet,749
 Immaculata,UW-Oshkosh,749
 UW-Oshkosh,Immaculata,749
-Calvin,Brooklyn Col,748
-Centre,Brooklyn Col,748
+Calvin,Brooklyn College,748
+Centre,Brooklyn College,748
 Bethel,Baldwin Wallace,748
 Bowdoin,Washington & Lee,748
-Brooklyn Col,Calvin,748
-Brooklyn Col,Centre,748
+Brooklyn College,Calvin,748
+Brooklyn College,Centre,748
 Immaculata,Ripon,748
 Ripon,Immaculata,748
 Washington & Lee,Bowdoin,748
@@ -1860,9 +1860,9 @@ Trine,Smith,747
 Christopher Newport,DePauw,744
 DePauw,Christopher Newport,744
 Gettysburg,UW-Whitewater,744
-W New England,Trine,744
+Western New England,Trine,744
 UW-Whitewater,Gettysburg,744
-Trine,W New England,744
+Trine,Western New England,744
 Calvin,Vassar,743
 UW-La Crosse,Carnegie Mellon,743
 Carnegie Mellon,UW-La Crosse,743
@@ -1897,18 +1897,18 @@ La Roche,UW-La Crosse,732
 Transylvania,Merchant Marine,732
 Centre,Cortland,731
 Cortland,Centre,731
-Trine,Trinity (Conn),731
-St. Joseph CT,Trine,730
-Trinity (Conn),Trine,730
-Trine,St. Joseph CT,730
+Trine,Trinity (CT),731
+St. Joseph (CT),Trine,730
+Trinity (CT),Trine,730
+Trine,St. Joseph (CT),730
 Calvin,Montclair St.,727
 Montclair St.,Calvin,727
 Cortland,DePauw,726
 DePauw,Cortland,726
-Principia,S Virginia,725
+Principia,Southern Virginia,725
 Carnegie Mellon,UW-Stevens Point,725
 UW-Stevens Point,Carnegie Mellon,725
-S Virginia,Principia,725
+Southern Virginia,Principia,725
 Bethel,Ohio Wesleyan,724
 Ohio Wesleyan,Bethel,723
 UW-Stevens Point,La Roche,723
@@ -1921,8 +1921,8 @@ Centre,UW-Stout,720
 UW-Stout,Centre,720
 Principia,Washington & Lee,719
 Washington & Lee,Principia,719
-MA Dartmouth,S Virginia,717
-S Virginia,MA Dartmouth,717
+Mass-Dartmouth,Southern Virginia,717
+Southern Virginia,Mass-Dartmouth,717
 Bowdoin,Washington & Jefferson,716
 Washington & Jefferson,Bowdoin,716
 UW-Stout,Transylvania,716
@@ -1930,9 +1930,9 @@ Transylvania,UW-Stout,716
 East Texas Baptist,Piedmont,714
 Piedmont,East Texas Baptist,714
 Bates,La Roche,712
-Brooklyn Col,Transylvania,712
+Brooklyn College,Transylvania,712
 La Roche,Bates,712
-Transylvania,Brooklyn Col,712
+Transylvania,Brooklyn College,712
 Illinois Wesleyan,Messiah,709
 Messiah,Illinois Wesleyan,709
 Bowdoin,La Roche,708
@@ -1963,26 +1963,26 @@ Cortland,Transylvania,693
 Transylvania,Cortland,693
 Centre,Scranton,692
 Amherst,Ohio Wesleyan,692
-Geneseo St.,Illinois Wesleyan,692
-Illinois Wesleyan,Geneseo St.,692
+SUNY Geneseo,Illinois Wesleyan,692
+Illinois Wesleyan,SUNY Geneseo,692
 Ohio Wesleyan,Amherst,692
 Scranton,Centre,692
 Brockport St.,Wisconsin Lutheran,689
-Geneseo St.,UW-Whitewater,689
-UW-Whitewater,Geneseo St.,689
+SUNY Geneseo,UW-Whitewater,689
+UW-Whitewater,SUNY Geneseo,689
 Wisconsin Lutheran,Brockport St.,689
-Washington & Lee,MA Dartmouth,686
+Washington & Lee,Mass-Dartmouth,686
 Ohio Wesleyan,Smith,685
 Smith,Ohio Wesleyan,685
-Ohio Wesleyan,W New England,683
-W New England,Ohio Wesleyan,683
-MA Dartmouth,Washington & Lee,682
+Ohio Wesleyan,Western New England,683
+Western New England,Ohio Wesleyan,683
+Mass-Dartmouth,Washington & Lee,682
 DePauw,Randolph-Macon,682
 Baldwin Wallace,UW-Stout,681
-Geneseo St.,Wisconsin Lutheran,681
+SUNY Geneseo,Wisconsin Lutheran,681
 Randolph-Macon,DePauw,681
 UW-Stout,Baldwin Wallace,681
-Wisconsin Lutheran,Geneseo St.,681
+Wisconsin Lutheran,SUNY Geneseo,681
 Illinois Wesleyan,Immaculata,680
 Immaculata,Illinois Wesleyan,680
 Baldwin Wallace,Endicott,679
@@ -1993,12 +1993,12 @@ Principia,UW-Superior,675
 Elizabethtown,Piedmont,675
 UW-Superior,Principia,675
 Piedmont,Elizabethtown,675
-Christopher Newport,MA Dartmouth,673
-MA Dartmouth,Christopher Newport,673
-Illinois Wesleyan,S Virginia,672
-S Virginia,Illinois Wesleyan,672
-Baldwin Wallace,Bridgewater MA,671
-Bridgewater MA,Baldwin Wallace,671
+Christopher Newport,Mass-Dartmouth,673
+Mass-Dartmouth,Christopher Newport,673
+Illinois Wesleyan,Southern Virginia,672
+Southern Virginia,Illinois Wesleyan,672
+Baldwin Wallace,Bridgewater St.,671
+Bridgewater St.,Baldwin Wallace,671
 Immaculata,Wisconsin Lutheran,670
 Wisconsin Lutheran,Immaculata,670
 Illinois Wesleyan,Washington & Lee,665
@@ -2021,10 +2021,10 @@ UW-Oshkosh,Washington & Jefferson,659
 Centre,Wartburg,658
 Centre,UW-La Crosse,658
 Wartburg,Centre,658
-Calvin,S Virginia,657
+Calvin,Southern Virginia,657
 Ohio Wesleyan,UW-Stout,657
 UW-Stout,Ohio Wesleyan,657
-S Virginia,Calvin,657
+Southern Virginia,Calvin,657
 Scranton,Transylvania,656
 Vassar,Trine,656
 Transylvania,Scranton,656
@@ -2033,17 +2033,17 @@ Calvin,Gallaudet,655
 Gallaudet,Calvin,654
 Calvin,Johns Hopkins,653
 Johns Hopkins,Calvin,653
-S Virginia,Endicott,653
+Southern Virginia,Endicott,653
 Calvin,Scranton,652
 UW-La Crosse,Transylvania,652
-McMurry,Colorado Col,652
-Colorado Col,McMurry,652
+McMurry,Colorado College,652
+Colorado College,McMurry,652
 Scranton,Calvin,652
 Wartburg,Transylvania,652
 Transylvania,UW-La Crosse,652
-MA Dartmouth,Washington & Jefferson,651
-Washington & Jefferson,MA Dartmouth,651
-Endicott,S Virginia,651
+Mass-Dartmouth,Washington & Jefferson,651
+Washington & Jefferson,Mass-Dartmouth,651
+Endicott,Southern Virginia,651
 Transylvania,Wartburg,651
 Principia,Piedmont,650
 Calvin,Washington & Lee,650
@@ -2056,14 +2056,14 @@ UW-Superior,Calvin,650
 Piedmont,Principia,650
 Trine,NYU,650
 Trine,Merchant Marine,650
-MA Dartmouth,La Roche,649
-La Roche,MA Dartmouth,649
+Mass-Dartmouth,La Roche,649
+La Roche,Mass-Dartmouth,649
 Calvin,Catholic,648
 Catholic,Calvin,648
-St. Joseph CT,Ohio Wesleyan,647
-Ohio Wesleyan,Trinity (Conn),647
-Ohio Wesleyan,St. Joseph CT,647
-Trinity (Conn),Ohio Wesleyan,647
+St. Joseph (CT),Ohio Wesleyan,647
+Ohio Wesleyan,Trinity (CT),647
+Ohio Wesleyan,St. Joseph (CT),647
+Trinity (CT),Ohio Wesleyan,647
 Endicott,Washington & Lee,647
 Baldwin Wallace,Wartburg,646
 Ohio Wesleyan,Wartburg,646
@@ -2072,16 +2072,16 @@ Wartburg,Ohio Wesleyan,646
 Messiah,Piedmont,643
 Piedmont,Messiah,643
 DePauw,Mt. St. Mary,642
-Carnegie Mellon,MA Dartmouth,641
-MA Dartmouth,Carnegie Mellon,641
+Carnegie Mellon,Mass-Dartmouth,641
+Mass-Dartmouth,Carnegie Mellon,641
 Centre,UW-Stevens Point,640
 DePauw,UW-Superior,640
 UW-Stevens Point,Centre,640
 UW-Superior,DePauw,640
-Carnegie Mellon,S Virginia,639
-S Virginia,Carnegie Mellon,639
-Brooklyn Col,Trine,638
-Trine,Brooklyn Col,638
+Carnegie Mellon,Southern Virginia,639
+Southern Virginia,Carnegie Mellon,639
+Brooklyn College,Trine,638
+Trine,Brooklyn College,638
 Carnegie Mellon,UW-Oshkosh,637
 Christopher Newport,Endicott,637
 Mt. St. Mary,Trine,637
@@ -2089,8 +2089,8 @@ Endicott,Christopher Newport,637
 Calvin,SUNY Cobleskill,636
 UW-Oshkosh,Carnegie Mellon,636
 SUNY Cobleskill,Calvin,636
-Tufts,S Virginia,635
-S Virginia,Tufts,635
+Tufts,Southern Virginia,635
+Southern Virginia,Tufts,635
 UW-Stevens Point,Transylvania,634
 Transylvania,UW-Stevens Point,634
 UW-Superior,Trine,633
@@ -2102,9 +2102,9 @@ Stevens,Trine,628
 Trine,Stevens,628
 Principia,La Roche,627
 Gallaudet,DePauw,627
-Bridgewater MA,Washington & Lee,627
+Bridgewater St.,Washington & Lee,627
 DePauw,Gallaudet,627
-Washington & Lee,Bridgewater MA,627
+Washington & Lee,Bridgewater St.,627
 UW-Oshkosh,La Roche,627
 La Roche,Principia,627
 La Roche,UW-Oshkosh,627
@@ -2124,9 +2124,9 @@ Randolph-Macon,Trine,623
 Trine,Randolph-Macon,623
 DePauw,Gustavus Adolphus,622
 Gustavus Adolphus,DePauw,622
-Baldwin Wallace,MA Dartmouth,621
+Baldwin Wallace,Mass-Dartmouth,621
 Catholic,DePauw,621
-MA Dartmouth,Baldwin Wallace,621
+Mass-Dartmouth,Baldwin Wallace,621
 DePauw,Catholic,621
 UW-La Crosse,Baldwin Wallace,619
 Baldwin Wallace,UW-La Crosse,619
@@ -2142,8 +2142,8 @@ Trine,Montclair St.,616
 Endicott,Washington & Jefferson,615
 Centre,Brockport St.,614
 Brockport St.,Centre,614
-Bridgewater MA,Christopher Newport,611
-Christopher Newport,Bridgewater MA,611
+Bridgewater St.,Christopher Newport,611
+Christopher Newport,Bridgewater St.,611
 Gustavus Adolphus,Trine,610
 Trine,Gustavus Adolphus,610
 DePauw,Elizabethtown,609
@@ -2152,25 +2152,25 @@ Brockport St.,DePauw,608
 DePauw,Brockport St.,608
 La Roche,Piedmont,607
 Piedmont,La Roche,607
-Centre,Geneseo St.,606
-Geneseo St.,Centre,606
+Centre,SUNY Geneseo,606
+SUNY Geneseo,Centre,606
 La Roche,Endicott,606
 Endicott,La Roche,606
 Calvin,Messiah,602
 Messiah,Calvin,602
 Baldwin Wallace,UW-Stevens Point,601
-DePauw,Geneseo St.,601
-Geneseo St.,DePauw,601
+DePauw,SUNY Geneseo,601
+SUNY Geneseo,DePauw,601
 UW-Stevens Point,Baldwin Wallace,601
 Tufts,Washington & Jefferson,600
 Washington & Jefferson,Tufts,600
-Randolph-Macon,MA Dartmouth,599
+Randolph-Macon,Mass-Dartmouth,599
 Carnegie Mellon,Endicott,597
 Carnegie Mellon,Piedmont,597
 Piedmont,Carnegie Mellon,597
-Bridgewater MA,La Roche,596
-Washington & Jefferson,Bridgewater MA,596
-La Roche,Bridgewater MA,596
+Bridgewater St.,La Roche,596
+Washington & Jefferson,Bridgewater St.,596
+La Roche,Bridgewater St.,596
 Endicott,Carnegie Mellon,596
 Principia,East Texas Baptist,595
 Calvin,Bethel,595
@@ -2179,9 +2179,9 @@ Bethel,Calvin,595
 Ohio Wesleyan,UW-La Crosse,595
 East Texas Baptist,Principia,595
 Centre,Christopher Newport,594
-Bridgewater MA,Washington & Jefferson,594
+Bridgewater St.,Washington & Jefferson,594
 Christopher Newport,Centre,594
-MA Dartmouth,Randolph-Macon,593
+Mass-Dartmouth,Randolph-Macon,593
 Principia,Washington & Jefferson,590
 Calvin,Gettysburg,590
 Gettysburg,Calvin,590
@@ -2191,11 +2191,11 @@ DePauw,Piedmont,589
 Washington & Jefferson,UW-Whitewater,589
 UW-Whitewater,Washington & Jefferson,589
 Piedmont,DePauw,589
-Carnegie Mellon,Bridgewater MA,588
+Carnegie Mellon,Bridgewater St.,588
 Tufts,La Roche,588
 La Roche,Tufts,588
 Centre,Elizabethtown,587
-Bridgewater MA,Carnegie Mellon,587
+Bridgewater St.,Carnegie Mellon,587
 DePauw,Bethel,587
 DePauw,Messiah,587
 Elizabethtown,Centre,587
@@ -2210,18 +2210,18 @@ Washington & Jefferson,Wisconsin Lutheran,581
 Washington & Lee,Amherst,581
 Piedmont,Gallaudet,581
 Wisconsin Lutheran,Washington & Jefferson,580
-Amherst,S Virginia,579
+Amherst,Southern Virginia,579
 Baldwin Wallace,Smith,579
 Bethel,Trine,579
 Smith,Baldwin Wallace,579
 Trine,Bethel,579
-S Virginia,Amherst,579
+Southern Virginia,Amherst,579
 Bates,Mt. St. Mary,578
 Carnegie Mellon,Tufts,578
 Tufts,Carnegie Mellon,578
-Baldwin Wallace,W New England,577
+Baldwin Wallace,Western New England,577
 Ohio Wesleyan,UW-Stevens Point,577
-W New England,Baldwin Wallace,577
+Western New England,Baldwin Wallace,577
 UW-Stevens Point,Ohio Wesleyan,577
 Gallaudet,Centre,576
 Centre,Gallaudet,576
@@ -2237,9 +2237,9 @@ Ohio Wesleyan,Vassar,573
 Vassar,Ohio Wesleyan,573
 Catholic,Bates,572
 Ohio Wesleyan,Piedmont,572
-Smith,S Virginia,572
+Smith,Southern Virginia,572
 Piedmont,Ohio Wesleyan,572
-S Virginia,Smith,572
+Southern Virginia,Smith,572
 Gallaudet,Bates,571
 Centre,Catholic,571
 Bates,Gallaudet,571
@@ -2253,11 +2253,11 @@ Smith,Washington & Lee,568
 Washington & Lee,Smith,568
 Catholic,Bowdoin,567
 DePauw,Immaculata,567
-Geneseo St.,Transylvania,567
+SUNY Geneseo,Transylvania,567
 Immaculata,DePauw,567
 Ohio Wesleyan,Merchant Marine,567
 Merchant Marine,Ohio Wesleyan,567
-Transylvania,Geneseo St.,567
+Transylvania,SUNY Geneseo,567
 Gallaudet,Bowdoin,566
 Bowdoin,Gallaudet,566
 Ohio Wesleyan,SUNY Cobleskill,566
@@ -2268,21 +2268,21 @@ Bowdoin,Catholic,564
 Centre,Messiah,563
 Messiah,Centre,563
 Principia,Baldwin Wallace,562
-St. Joseph CT,Baldwin Wallace,562
+St. Joseph (CT),Baldwin Wallace,562
 Amherst,Christopher Newport,562
 Baldwin Wallace,Principia,562
-Baldwin Wallace,Trinity (Conn),562
-Baldwin Wallace,St. Joseph CT,562
+Baldwin Wallace,Trinity (CT),562
+Baldwin Wallace,St. Joseph (CT),562
 Bates,Immaculata,562
 Bowdoin,Mt. St. Mary,562
 Christopher Newport,Amherst,562
 Immaculata,Bates,562
-Trinity (Conn),Baldwin Wallace,562
+Trinity (CT),Baldwin Wallace,562
 Brockport St.,Christopher Newport,561
 Christopher Newport,Brockport St.,561
 Calvin,Cortland,559
 Cortland,Calvin,559
-S Virginia,W New England,559
+Southern Virginia,Western New England,559
 Bowdoin,Immaculata,558
 Christopher Newport,Transylvania,558
 Christopher Newport,SUNY Cobleskill,558
@@ -2291,22 +2291,22 @@ Transylvania,Christopher Newport,558
 SUNY Cobleskill,Christopher Newport,558
 Carnegie Mellon,Wisconsin Lutheran,557
 Randolph-Macon,Endicott,557
-W New England,S Virginia,557
+Western New England,Southern Virginia,557
 Wisconsin Lutheran,Carnegie Mellon,557
 Endicott,Randolph-Macon,557
 Principia,UW-Stout,556
 Smith,Christopher Newport,556
-Washington & Lee,W New England,556
-W New England,Washington & Lee,556
+Washington & Lee,Western New England,556
+Western New England,Washington & Lee,556
 UW-Stout,Principia,556
 Christopher Newport,Smith,555
 UW-Whitewater,La Roche,555
 La Roche,UW-Whitewater,555
 Centre,UW-Oshkosh,554
 Bates,Gettysburg,554
-Brooklyn Col,Ohio Wesleyan,554
+Brooklyn College,Ohio Wesleyan,554
 Gettysburg,Bates,554
-Ohio Wesleyan,Brooklyn Col,554
+Ohio Wesleyan,Brooklyn College,554
 UW-Oshkosh,Centre,554
 Mt. St. Mary,Ohio Wesleyan,554
 Ripon,Centre,553
@@ -2316,9 +2316,9 @@ Transylvania,Elizabethtown,551
 Cortland,Trine,550
 Trine,Cortland,550
 Bowdoin,Gettysburg,549
-DePauw,S Virginia,549
+DePauw,Southern Virginia,549
 Gettysburg,Bowdoin,549
-S Virginia,DePauw,549
+Southern Virginia,DePauw,549
 UW-Oshkosh,Transylvania,548
 Transylvania,UW-Oshkosh,548
 Centre,Immaculata,547
@@ -2333,9 +2333,9 @@ Gettysburg,Centre,545
 Ripon,Transylvania,545
 Transylvania,Ripon,545
 Stevens,Ohio Wesleyan,544
-Christopher Newport,W New England,544
+Christopher Newport,Western New England,544
 Ohio Wesleyan,Stevens,544
-W New England,Christopher Newport,544
+Western New England,Christopher Newport,544
 Gallaudet,Trine,543
 Amherst,Washington & Jefferson,543
 Bates,Brockport St.,543
@@ -2346,11 +2346,11 @@ Washington & Jefferson,Amherst,543
 Trine,Gallaudet,543
 Trine,Johns Hopkins,543
 Trine,Scranton,543
-Trine,S Virginia,543
-S Virginia,Trine,543
+Trine,Southern Virginia,543
+Southern Virginia,Trine,543
 DePauw,Washington & Lee,542
-Bates,Geneseo St.,541
-Geneseo St.,Bates,541
+Bates,SUNY Geneseo,541
+SUNY Geneseo,Bates,541
 Gallaudet,Transylvania,540
 Illinois Wesleyan,La Roche,540
 La Roche,Illinois Wesleyan,540
@@ -2366,13 +2366,13 @@ Transylvania,Johns Hopkins,538
 Trine,Catholic,538
 Smith,Washington & Jefferson,537
 Washington & Jefferson,Smith,537
-Bowdoin,Geneseo St.,536
-Bridgewater MA,Randolph-Macon,536
-Geneseo St.,Bowdoin,536
-Randolph-Macon,Bridgewater MA,536
+Bowdoin,SUNY Geneseo,536
+Bridgewater St.,Randolph-Macon,536
+SUNY Geneseo,Bowdoin,536
+Randolph-Macon,Bridgewater St.,536
 Washington & Lee,Trine,536
 Trine,Washington & Lee,536
-St. Joseph CT,S Virginia,535
+St. Joseph (CT),Southern Virginia,535
 Bates,Johns Hopkins,535
 Johns Hopkins,Bowdoin,535
 Washington & Lee,DePauw,535
@@ -2382,7 +2382,7 @@ Ohio Wesleyan,Montclair St.,534
 Transylvania,Catholic,534
 Christopher Newport,Piedmont,533
 Piedmont,Christopher Newport,533
-S Virginia,St. Joseph CT,533
+Southern Virginia,St. Joseph (CT),533
 Amherst,La Roche,532
 Baldwin Wallace,Christopher Newport,532
 Christopher Newport,Baldwin Wallace,532
@@ -2391,13 +2391,13 @@ Centre,Randolph-Macon,531
 Bowdoin,Johns Hopkins,531
 Illinois Wesleyan,Carnegie Mellon,531
 Randolph-Macon,Centre,531
-St. Joseph CT,Washington & Lee,530
+St. Joseph (CT),Washington & Lee,530
 Carnegie Mellon,Illinois Wesleyan,530
-Trinity (Conn),Washington & Lee,530
-Trinity (Conn),S Virginia,530
-Washington & Lee,Trinity (Conn),530
-Washington & Lee,St. Joseph CT,530
-S Virginia,Trinity (Conn),530
+Trinity (CT),Washington & Lee,530
+Trinity (CT),Southern Virginia,530
+Washington & Lee,Trinity (CT),530
+Washington & Lee,St. Joseph (CT),530
+Southern Virginia,Trinity (CT),530
 Calvin,UW-Stout,528
 Bates,Messiah,528
 Messiah,Bates,528
@@ -2407,7 +2407,7 @@ Transylvania,Messiah,528
 Trine,Mt. St. Mary,528
 Smith,La Roche,526
 La Roche,Smith,526
-Washington & Jefferson,W New England,525
+Washington & Jefferson,Western New England,525
 Calvin,Immaculata,523
 Immaculata,Calvin,523
 Amherst,Carnegie Mellon,522
@@ -2415,30 +2415,30 @@ Bates,Elizabethtown,522
 Carnegie Mellon,Amherst,522
 DePauw,UW-Stout,522
 Elizabethtown,Bates,522
-W New England,Washington & Jefferson,522
+Western New England,Washington & Jefferson,522
 UW-Stout,DePauw,522
 Bowdoin,Messiah,520
 Messiah,Bowdoin,520
-Brockport St.,S Virginia,519
-S Virginia,Brockport St.,519
-SUNY Cobleskill,S Virginia,518
-S Virginia,SUNY Cobleskill,518
+Brockport St.,Southern Virginia,519
+Southern Virginia,Brockport St.,519
+SUNY Cobleskill,Southern Virginia,518
+Southern Virginia,SUNY Cobleskill,518
 Bowdoin,Elizabethtown,517
 Elizabethtown,Bowdoin,517
 Smith,Carnegie Mellon,516
 Principia,Bethel,515
-St. Joseph CT,Christopher Newport,515
+St. Joseph (CT),Christopher Newport,515
 Bethel,Principia,515
 Brockport St.,Washington & Lee,515
 Carnegie Mellon,Smith,515
-Christopher Newport,St. Joseph CT,515
+Christopher Newport,St. Joseph (CT),515
 Elizabethtown,Trine,515
 Washington & Lee,Brockport St.,515
 Trine,Elizabethtown,515
 Baldwin Wallace,UW-Oshkosh,514
-Christopher Newport,Trinity (Conn),514
+Christopher Newport,Trinity (CT),514
 Illinois Wesleyan,UW-Superior,514
-Trinity (Conn),Christopher Newport,514
+Trinity (CT),Christopher Newport,514
 Washington & Lee,SUNY Cobleskill,514
 UW-Oshkosh,Baldwin Wallace,514
 UW-Superior,Illinois Wesleyan,514
@@ -2450,12 +2450,12 @@ UW-Stout,Trine,512
 Principia,Gustavus Adolphus,511
 Gustavus Adolphus,Principia,511
 Immaculata,Transylvania,511
-W New England,La Roche,511
-La Roche,W New England,511
+Western New England,La Roche,511
+La Roche,Western New England,511
 Transylvania,Immaculata,511
 Transylvania,Mt. St. Mary,511
-Christopher Newport,Geneseo St.,509
-Geneseo St.,Christopher Newport,509
+Christopher Newport,SUNY Geneseo,509
+SUNY Geneseo,Christopher Newport,509
 Gettysburg,Transylvania,509
 Transylvania,Gettysburg,509
 Christopher Newport,Cortland,507
@@ -2464,27 +2464,27 @@ Ohio Wesleyan,Randolph-Macon,507
 Randolph-Macon,Ohio Wesleyan,505
 Illinois Wesleyan,Washington & Jefferson,503
 Washington & Jefferson,Illinois Wesleyan,503
-Carnegie Mellon,W New England,501
-W New England,Carnegie Mellon,501
-St. Joseph CT,Washington & Jefferson,499
-Washington & Jefferson,St. Joseph CT,499
-Gallaudet,MA Dartmouth,496
+Carnegie Mellon,Western New England,501
+Western New England,Carnegie Mellon,501
+St. Joseph (CT),Washington & Jefferson,499
+Washington & Jefferson,St. Joseph (CT),499
+Gallaudet,Mass-Dartmouth,496
 Calvin,Centre,496
 Centre,Calvin,496
-MA Dartmouth,Gallaudet,496
+Mass-Dartmouth,Gallaudet,496
 Transylvania,Randolph-Macon,496
 Randolph-Macon,Transylvania,495
-Trinity (Conn),Washington & Jefferson,494
-Washington & Jefferson,Trinity (Conn),494
+Trinity (CT),Washington & Jefferson,494
+Washington & Jefferson,Trinity (CT),494
 Messiah,Trine,493
 Ohio Wesleyan,UW-Oshkosh,493
 UW-Oshkosh,Ohio Wesleyan,493
 Trine,Messiah,493
 Calvin,Wartburg,491
 Wartburg,Calvin,491
-Catholic,MA Dartmouth,490
-MA Dartmouth,Catholic,490
-MA Dartmouth,Mt. St. Mary,490
+Catholic,Mass-Dartmouth,490
+Mass-Dartmouth,Catholic,490
+Mass-Dartmouth,Mt. St. Mary,490
 Cortland,Ohio Wesleyan,489
 Ohio Wesleyan,Cortland,489
 Ohio Wesleyan,Ripon,489
@@ -2502,71 +2502,71 @@ Merchant Marine,Baldwin Wallace,482
 Brockport St.,Randolph-Macon,481
 Randolph-Macon,Brockport St.,481
 Randolph-Macon,SUNY Cobleskill,481
-Trinity (Conn),La Roche,481
-La Roche,Trinity (Conn),481
+Trinity (CT),La Roche,481
+La Roche,Trinity (CT),481
 SUNY Cobleskill,Randolph-Macon,481
-St. Joseph CT,La Roche,480
+St. Joseph (CT),La Roche,480
 Christopher Newport,Vassar,480
 Gettysburg,Trine,480
 Vassar,Christopher Newport,480
-La Roche,St. Joseph CT,480
+La Roche,St. Joseph (CT),480
 Trine,Gettysburg,480
 Randolph-Macon,Smith,479
 Smith,Randolph-Macon,479
-MA Dartmouth,Gettysburg,478
-Gettysburg,MA Dartmouth,478
+Mass-Dartmouth,Gettysburg,478
+Gettysburg,Mass-Dartmouth,478
 UW-Whitewater,Transylvania,478
 Transylvania,UW-Whitewater,478
 Wartburg,Trine,476
 Trine,Wartburg,476
 Principia,UW-Stevens Point,475
-Vassar,S Virginia,475
+Vassar,Southern Virginia,475
 UW-Stevens Point,Principia,475
-S Virginia,Vassar,475
+Southern Virginia,Vassar,475
 Wisconsin Lutheran,Centre,474
 Centre,Wisconsin Lutheran,472
 Gustavus Adolphus,Illinois Wesleyan,472
 Illinois Wesleyan,Gustavus Adolphus,472
-St. Joseph CT,Carnegie Mellon,471
-Carnegie Mellon,Trinity (Conn),471
-Carnegie Mellon,St. Joseph CT,471
-Trinity (Conn),Carnegie Mellon,471
+St. Joseph (CT),Carnegie Mellon,471
+Carnegie Mellon,Trinity (CT),471
+Carnegie Mellon,St. Joseph (CT),471
+Trinity (CT),Carnegie Mellon,471
 Vassar,Washington & Lee,471
 Washington & Lee,Vassar,471
-Baldwin Wallace,Brooklyn Col,470
-Brooklyn Col,Baldwin Wallace,470
-Geneseo St.,S Virginia,470
-S Virginia,Geneseo St.,470
+Baldwin Wallace,Brooklyn College,470
+Brooklyn College,Baldwin Wallace,470
+SUNY Geneseo,Southern Virginia,470
+Southern Virginia,SUNY Geneseo,470
 Mt. St. Mary,Baldwin Wallace,469
-Geneseo St.,Washington & Lee,466
+SUNY Geneseo,Washington & Lee,466
 Washington & Jefferson,SUNY Cobleskill,466
-Washington & Lee,Geneseo St.,466
+Washington & Lee,SUNY Geneseo,466
 Wisconsin Lutheran,Transylvania,466
 Transylvania,Wisconsin Lutheran,466
 SUNY Cobleskill,Washington & Jefferson,466
 Calvin,UW-La Crosse,464
 UW-La Crosse,Calvin,464
 Catholic,Endicott,464
-Cortland,S Virginia,464
-S Virginia,Cortland,464
+Cortland,Southern Virginia,464
+Southern Virginia,Cortland,464
 Gallaudet,Endicott,463
-Randolph-Macon,W New England,463
-W New England,Randolph-Macon,463
+Randolph-Macon,Western New England,463
+Western New England,Randolph-Macon,463
 Endicott,Catholic,463
 Endicott,Gallaudet,463
 Baldwin Wallace,NYU,462
 Bethel,Illinois Wesleyan,462
-MA Dartmouth,Elizabethtown,462
-Elizabethtown,MA Dartmouth,462
+Mass-Dartmouth,Elizabethtown,462
+Elizabethtown,Mass-Dartmouth,462
 NYU,Baldwin Wallace,462
 La Roche,SUNY Cobleskill,461
 Stevens,Baldwin Wallace,460
 Baldwin Wallace,Stevens,460
 Baldwin Wallace,SUNY Cobleskill,460
 Cortland,Washington & Lee,460
-MA Dartmouth,Johns Hopkins,460
+Mass-Dartmouth,Johns Hopkins,460
 Illinois Wesleyan,Bethel,460
-Johns Hopkins,MA Dartmouth,460
+Johns Hopkins,Mass-Dartmouth,460
 Washington & Lee,Cortland,460
 Mt. St. Mary,Christopher Newport,460
 SUNY Cobleskill,Baldwin Wallace,460
@@ -2576,12 +2576,12 @@ Ohio Wesleyan,Scranton,459
 Scranton,Ohio Wesleyan,459
 Calvin,Transylvania,458
 Transylvania,Calvin,458
-MA Dartmouth,Messiah,457
-Messiah,MA Dartmouth,457
+Mass-Dartmouth,Messiah,457
+Messiah,Mass-Dartmouth,457
 Bates,Cortland,456
 Cortland,Bates,456
 Immaculata,Endicott,456
-Mt. St. Mary,S Virginia,456
+Mt. St. Mary,Southern Virginia,456
 Endicott,Immaculata,456
 Baldwin Wallace,Randolph-Macon,454
 Randolph-Macon,Baldwin Wallace,454
@@ -2596,8 +2596,8 @@ Trine,UW-La Crosse,449
 Calvin,UW-Stevens Point,448
 UW-Stevens Point,Calvin,448
 Endicott,Gettysburg,448
-Bridgewater MA,Immaculata,447
-Immaculata,Bridgewater MA,447
+Bridgewater St.,Immaculata,447
+Immaculata,Bridgewater St.,447
 SUNY Cobleskill,La Roche,447
 Catholic,Tufts,446
 Tufts,Catholic,446
@@ -2607,72 +2607,72 @@ DePauw,Wartburg,445
 Illinois Wesleyan,Baldwin Wallace,445
 Tufts,Gallaudet,445
 Wartburg,DePauw,445
-Calvin,Geneseo St.,444
+Calvin,SUNY Geneseo,444
 Principia,Ohio Wesleyan,443
 Baldwin Wallace,UW-Whitewater,443
-Geneseo St.,Calvin,443
+SUNY Geneseo,Calvin,443
 Ohio Wesleyan,Principia,443
 UW-Whitewater,Baldwin Wallace,443
-Bridgewater MA,Catholic,441
-Catholic,Bridgewater MA,441
-Gallaudet,Bridgewater MA,440
-Bridgewater MA,Gallaudet,440
+Bridgewater St.,Catholic,441
+Catholic,Bridgewater St.,441
+Gallaudet,Bridgewater St.,440
+Bridgewater St.,Gallaudet,440
 DePauw,UW-Stevens Point,440
 Immaculata,Tufts,440
 Tufts,Immaculata,440
-Merchant Marine,S Virginia,440
+Merchant Marine,Southern Virginia,440
 UW-Stevens Point,DePauw,440
-S Virginia,Merchant Marine,440
-Baldwin Wallace,S Virginia,439
-S Virginia,Baldwin Wallace,439
+Southern Virginia,Merchant Marine,440
+Baldwin Wallace,Southern Virginia,439
+Southern Virginia,Baldwin Wallace,439
 Principia,UW-Oshkosh,437
-St. Joseph CT,Randolph-Macon,437
+St. Joseph (CT),Randolph-Macon,437
 Carnegie Mellon,SUNY Cobleskill,437
-Randolph-Macon,Trinity (Conn),437
-Randolph-Macon,St. Joseph CT,437
-Trinity (Conn),Randolph-Macon,437
+Randolph-Macon,Trinity (CT),437
+Randolph-Macon,St. Joseph (CT),437
+Trinity (CT),Randolph-Macon,437
 Merchant Marine,Washington & Lee,437
 Washington & Lee,Merchant Marine,437
 UW-Oshkosh,Principia,437
 SUNY Cobleskill,Carnegie Mellon,437
 Brockport St.,Endicott,436
 Endicott,Brockport St.,436
-Geneseo St.,Endicott,435
-Endicott,Geneseo St.,435
+SUNY Geneseo,Endicott,435
+Endicott,SUNY Geneseo,435
 Calvin,Washington & Jefferson,434
 Washington & Jefferson,Calvin,434
 Baldwin Wallace,Washington & Lee,433
 Baldwin Wallace,Wisconsin Lutheran,433
 Brockport St.,Trine,433
-Geneseo St.,Randolph-Macon,433
+SUNY Geneseo,Randolph-Macon,433
 Washington & Lee,Baldwin Wallace,433
 Wisconsin Lutheran,Baldwin Wallace,433
 Trine,Brockport St.,433
 Gettysburg,Tufts,432
-Randolph-Macon,Geneseo St.,432
+Randolph-Macon,SUNY Geneseo,432
 Tufts,Gettysburg,432
 UW-Stevens Point,Trine,432
 Trine,UW-Stevens Point,432
 Johns Hopkins,Endicott,431
 Endicott,Johns Hopkins,430
 Principia,Ripon,428
-Bridgewater MA,Gettysburg,428
-Gettysburg,Bridgewater MA,428
+Bridgewater St.,Gettysburg,428
+Gettysburg,Bridgewater St.,428
 Ripon,Principia,428
 Gallaudet,Ohio Wesleyan,427
-Bridgewater MA,Brockport St.,427
-Brockport St.,Bridgewater MA,427
+Bridgewater St.,Brockport St.,427
+Brockport St.,Bridgewater St.,427
 Cortland,Randolph-Macon,427
 Ohio Wesleyan,Gallaudet,427
 Randolph-Macon,Cortland,427
 Vassar,Washington & Jefferson,426
 Washington & Jefferson,Vassar,426
-Bridgewater MA,Geneseo St.,425
-Geneseo St.,Bridgewater MA,425
-Geneseo St.,Trine,425
+Bridgewater St.,SUNY Geneseo,425
+SUNY Geneseo,Bridgewater St.,425
+SUNY Geneseo,Trine,425
 Johns Hopkins,Ohio Wesleyan,425
 Ohio Wesleyan,Johns Hopkins,425
-Trine,Geneseo St.,425
+Trine,SUNY Geneseo,425
 Principia,Trine,424
 Trine,Principia,424
 Calvin,Brockport St.,423
@@ -2685,8 +2685,8 @@ Christopher Newport,Merchant Marine,421
 Messiah,Endicott,421
 Ohio Wesleyan,Catholic,421
 Merchant Marine,Christopher Newport,421
-Brooklyn Col,S Virginia,420
-S Virginia,Brooklyn Col,420
+Brooklyn College,Southern Virginia,420
+Southern Virginia,Brooklyn College,420
 Centre,La Roche,419
 Ohio Wesleyan,UW-Whitewater,419
 UW-Whitewater,Ohio Wesleyan,419
@@ -2696,15 +2696,15 @@ Bowdoin,Scranton,418
 DePauw,La Roche,418
 Elizabethtown,Endicott,418
 Scranton,Bowdoin,418
-Tufts,Geneseo St.,418
+Tufts,SUNY Geneseo,418
 La Roche,DePauw,418
 Brockport St.,Tufts,417
-Brooklyn Col,Washington & Lee,417
-Geneseo St.,Tufts,417
+Brooklyn College,Washington & Lee,417
+SUNY Geneseo,Tufts,417
 Tufts,Brockport St.,417
-Washington & Lee,Brooklyn Col,417
-Piedmont,S Virginia,417
-S Virginia,Piedmont,417
+Washington & Lee,Brooklyn College,417
+Piedmont,Southern Virginia,417
+Southern Virginia,Piedmont,417
 Washington & Lee,Piedmont,416
 Endicott,Elizabethtown,416
 Piedmont,Washington & Lee,416
@@ -2712,22 +2712,22 @@ Christopher Newport,La Roche,415
 La Roche,Christopher Newport,415
 Johns Hopkins,Tufts,414
 Tufts,Johns Hopkins,414
-NYU,S Virginia,413
-S Virginia,NYU,413
-Stevens,S Virginia,411
+NYU,Southern Virginia,413
+Southern Virginia,NYU,413
+Stevens,Southern Virginia,411
 Carnegie Mellon,DePauw,411
 DePauw,Carnegie Mellon,411
 Ohio Wesleyan,Elizabethtown,411
-S Virginia,Stevens,411
+Southern Virginia,Stevens,411
 Calvin,Carnegie Mellon,410
 Centre,Carnegie Mellon,410
 Carnegie Mellon,Calvin,410
 Carnegie Mellon,Centre,410
 Ohio Wesleyan,Wisconsin Lutheran,410
 Wisconsin Lutheran,Ohio Wesleyan,410
-Bridgewater MA,Johns Hopkins,409
+Bridgewater St.,Johns Hopkins,409
 Elizabethtown,Ohio Wesleyan,409
-Johns Hopkins,Bridgewater MA,409
+Johns Hopkins,Bridgewater St.,409
 NYU,Washington & Lee,409
 Washington & Lee,NYU,409
 Vassar,La Roche,408
@@ -2735,14 +2735,14 @@ La Roche,Vassar,408
 Stevens,Washington & Lee,407
 Washington & Lee,Stevens,407
 Mt. St. Mary,Washington & Jefferson,407
-Montclair St.,S Virginia,406
+Montclair St.,Southern Virginia,406
 Carnegie Mellon,Christopher Newport,406
 Christopher Newport,Carnegie Mellon,406
 Merchant Marine,Washington & Jefferson,406
 Merchant Marine,La Roche,406
 Washington & Jefferson,Merchant Marine,406
 La Roche,Merchant Marine,406
-S Virginia,Montclair St.,406
+Southern Virginia,Montclair St.,406
 Christopher Newport,Scranton,404
 Scranton,Christopher Newport,404
 Christopher Newport,Washington & Jefferson,403
@@ -2757,15 +2757,15 @@ Calvin,La Roche,401
 La Roche,Calvin,401
 Elizabethtown,Tufts,400
 Tufts,Elizabethtown,400
-Centre,S Virginia,399
-S Virginia,Centre,399
+Centre,Southern Virginia,399
+Southern Virginia,Centre,399
 Montclair St.,Christopher Newport,398
-Bridgewater MA,Messiah,398
-Brooklyn Col,Christopher Newport,398
+Bridgewater St.,Messiah,398
+Brooklyn College,Christopher Newport,398
 Carnegie Mellon,Merchant Marine,398
-Christopher Newport,Brooklyn Col,398
+Christopher Newport,Brooklyn College,398
 Christopher Newport,Montclair St.,398
-Messiah,Bridgewater MA,398
+Messiah,Bridgewater St.,398
 NYU,Christopher Newport,398
 Merchant Marine,Carnegie Mellon,398
 Carnegie Mellon,Vassar,397
@@ -2773,10 +2773,10 @@ Vassar,Carnegie Mellon,397
 Stevens,Christopher Newport,396
 Christopher Newport,Stevens,396
 Christopher Newport,NYU,395
-Elizabethtown,Bridgewater MA,395
+Elizabethtown,Bridgewater St.,395
 Gallaudet,Brockport St.,394
 Gallaudet,SUNY Cobleskill,394
-Bridgewater MA,Elizabethtown,394
+Bridgewater St.,Elizabethtown,394
 Brockport St.,Catholic,394
 Brockport St.,Gallaudet,394
 Catholic,Brockport St.,394
@@ -2792,17 +2792,17 @@ Amherst,Catholic,391
 Amherst,Gallaudet,391
 Amherst,Mt. St. Mary,391
 Catholic,Amherst,391
-Brooklyn Col,La Roche,388
-La Roche,Brooklyn Col,388
+Brooklyn College,La Roche,388
+La Roche,Brooklyn College,388
 Mt. St. Mary,La Roche,388
 Messiah,Ohio Wesleyan,387
 Ohio Wesleyan,Messiah,387
 UW-Superior,Wisconsin Lutheran,387
 Wisconsin Lutheran,UW-Superior,387
-Brooklyn Col,Washington & Jefferson,386
-MA Dartmouth,Immaculata,386
-Immaculata,MA Dartmouth,386
-Washington & Jefferson,Brooklyn Col,386
+Brooklyn College,Washington & Jefferson,386
+Mass-Dartmouth,Immaculata,386
+Immaculata,Mass-Dartmouth,386
+Washington & Jefferson,Brooklyn College,386
 Catholic,Smith,385
 Cortland,La Roche,385
 Washington & Jefferson,Centre,385
@@ -2812,9 +2812,9 @@ Smith,Catholic,384
 Smith,Gallaudet,384
 Smith,Mt. St. Mary,384
 Baldwin Wallace,Cortland,383
-Brockport St.,MA Dartmouth,383
+Brockport St.,Mass-Dartmouth,383
 Cortland,Baldwin Wallace,383
-MA Dartmouth,Brockport St.,383
+Mass-Dartmouth,Brockport St.,383
 Mt. St. Mary,Randolph-Macon,383
 Centre,Washington & Jefferson,382
 Amherst,Immaculata,382
@@ -2825,15 +2825,15 @@ Immaculata,Christopher Newport,381
 Washington & Jefferson,DePauw,381
 La Roche,Transylvania,380
 Transylvania,La Roche,380
-Brooklyn Col,Carnegie Mellon,379
-Carnegie Mellon,Brooklyn Col,379
+Brooklyn College,Carnegie Mellon,379
+Carnegie Mellon,Brooklyn College,379
 NYU,La Roche,379
 La Roche,NYU,379
 Carnegie Mellon,Mt. St. Mary,378
 Gettysburg,Amherst,378
-Ohio Wesleyan,S Virginia,378
+Ohio Wesleyan,Southern Virginia,378
 Mt. St. Mary,Carnegie Mellon,378
-S Virginia,Ohio Wesleyan,378
+Southern Virginia,Ohio Wesleyan,378
 Stevens,La Roche,377
 NYU,Washington & Jefferson,377
 Washington & Jefferson,NYU,377
@@ -2842,8 +2842,8 @@ Gallaudet,Baldwin Wallace,376
 Stevens,Washington & Jefferson,376
 Amherst,Gettysburg,376
 Baldwin Wallace,Gallaudet,376
-MA Dartmouth,Geneseo St.,376
-Geneseo St.,MA Dartmouth,376
+Mass-Dartmouth,SUNY Geneseo,376
+SUNY Geneseo,Mass-Dartmouth,376
 Immaculata,Smith,376
 Smith,Immaculata,376
 Washington & Jefferson,Stevens,376
@@ -2866,18 +2866,18 @@ Montclair St.,Washington & Jefferson,370
 Baldwin Wallace,Catholic,370
 Carnegie Mellon,NYU,370
 Catholic,Baldwin Wallace,370
-Catholic,W New England,370
+Catholic,Western New England,370
 NYU,Carnegie Mellon,370
 Ohio Wesleyan,Washington & Lee,370
 Washington & Jefferson,Montclair St.,370
 Washington & Lee,Ohio Wesleyan,370
-W New England,Catholic,370
+Western New England,Catholic,370
 Transylvania,Carnegie Mellon,370
-Gallaudet,W New England,369
+Gallaudet,Western New England,369
 Carnegie Mellon,Stevens,369
 Gettysburg,Smith,369
 Smith,Gettysburg,369
-W New England,Gallaudet,369
+Western New England,Gallaudet,369
 Principia,Transylvania,368
 Centre,Illinois Wesleyan,368
 Stevens,Carnegie Mellon,368
@@ -2887,53 +2887,53 @@ Gustavus Adolphus,Wisconsin Lutheran,367
 Wisconsin Lutheran,Gustavus Adolphus,367
 Cortland,Washington & Jefferson,366
 Washington & Jefferson,Cortland,366
-Brockport St.,Brooklyn Col,364
-Brooklyn Col,Brockport St.,364
-Geneseo St.,Ohio Wesleyan,364
-Ohio Wesleyan,Geneseo St.,364
-Scranton,S Virginia,364
-S Virginia,Scranton,364
+Brockport St.,Brooklyn College,364
+Brooklyn College,Brockport St.,364
+SUNY Geneseo,Ohio Wesleyan,364
+Ohio Wesleyan,SUNY Geneseo,364
+Scranton,Southern Virginia,364
+Southern Virginia,Scranton,364
 Montclair St.,Carnegie Mellon,363
 Carnegie Mellon,Montclair St.,363
 Illinois Wesleyan,Transylvania,363
-Transylvania,S Virginia,363
-S Virginia,Transylvania,363
+Transylvania,Southern Virginia,363
+Southern Virginia,Transylvania,363
 Transylvania,Illinois Wesleyan,362
 Calvin,Ripon,361
 Calvin,UW-Oshkosh,361
 Montclair St.,Bates,361
 Bates,Montclair St.,361
-Immaculata,W New England,361
+Immaculata,Western New England,361
 Ripon,Calvin,361
 Scranton,Washington & Lee,361
 Washington & Lee,Scranton,361
-W New England,Immaculata,361
+Western New England,Immaculata,361
 UW-Oshkosh,Calvin,361
 UW-Superior,UW-Whitewater,361
 UW-Whitewater,UW-Superior,361
-MA Dartmouth,Scranton,360
+Mass-Dartmouth,Scranton,360
 Piedmont,Transylvania,360
 Transylvania,Piedmont,360
 Amherst,Johns Hopkins,359
 Johns Hopkins,Amherst,359
-St. Joseph CT,Brockport St.,358
-Brockport St.,St. Joseph CT,358
-Geneseo St.,St. Joseph CT,358
+St. Joseph (CT),Brockport St.,358
+Brockport St.,St. Joseph (CT),358
+SUNY Geneseo,St. Joseph (CT),358
 Centre,Baldwin Wallace,357
 Montclair St.,Bowdoin,357
-St. Joseph CT,Geneseo St.,357
+St. Joseph (CT),SUNY Geneseo,357
 Baldwin Wallace,Centre,357
 Bowdoin,Montclair St.,357
-Brockport St.,Trinity (Conn),357
-Gettysburg,W New England,357
-Trinity (Conn),Brockport St.,357
+Brockport St.,Trinity (CT),357
+Gettysburg,Western New England,357
+Trinity (CT),Brockport St.,357
 Washington & Lee,Transylvania,357
-W New England,Gettysburg,357
+Western New England,Gettysburg,357
 Transylvania,Washington & Lee,357
-Geneseo St.,Trinity (Conn),356
+SUNY Geneseo,Trinity (CT),356
 Illinois Wesleyan,Ohio Wesleyan,356
 Ohio Wesleyan,Illinois Wesleyan,356
-Trinity (Conn),Geneseo St.,356
+Trinity (CT),SUNY Geneseo,356
 Brockport St.,Johns Hopkins,355
 Johns Hopkins,Brockport St.,355
 Johns Hopkins,SUNY Cobleskill,355
@@ -2941,9 +2941,9 @@ SUNY Cobleskill,Johns Hopkins,355
 DePauw,UW-Oshkosh,354
 UW-Oshkosh,DePauw,354
 Baldwin Wallace,DePauw,353
-Bates,Brooklyn Col,353
+Bates,Brooklyn College,353
 Brockport St.,NYU,353
-Brooklyn Col,Bates,353
+Brooklyn College,Bates,353
 DePauw,Baldwin Wallace,353
 Johns Hopkins,Smith,353
 NYU,Brockport St.,353
@@ -2956,8 +2956,8 @@ UW-Superior,Wartburg,352
 Smith,Johns Hopkins,351
 Cortland,Endicott,349
 NYU,Bates,349
-Bowdoin,Brooklyn Col,348
-Brooklyn Col,Bowdoin,348
+Bowdoin,Brooklyn College,348
+Brooklyn College,Bowdoin,348
 Elizabethtown,Baldwin Wallace,348
 Messiah,Amherst,348
 Endicott,Cortland,348
@@ -2966,47 +2966,47 @@ Amherst,Messiah,347
 Baldwin Wallace,Elizabethtown,347
 Baldwin Wallace,Mt. St. Mary,347
 Bates,Stevens,347
-Trinity (Conn),Mt. St. Mary,347
+Trinity (CT),Mt. St. Mary,347
 Centre,Trine,346
 Bates,NYU,346
 Elizabethtown,Amherst,346
 Randolph-Macon,Merchant Marine,346
 Merchant Marine,Randolph-Macon,346
 Trine,Centre,346
-Gallaudet,Geneseo St.,345
+Gallaudet,SUNY Geneseo,345
 Bates,SUNY Cobleskill,345
-Geneseo St.,Gallaudet,345
+SUNY Geneseo,Gallaudet,345
 NYU,Bowdoin,345
 UW-Oshkosh,Trine,345
-East Texas Baptist,TX Lutheran,345
-TX Lutheran,East Texas Baptist,345
+East Texas Baptist,Texas Lutheran,345
+Texas Lutheran,East Texas Baptist,345
 Trine,UW-Oshkosh,345
 SUNY Cobleskill,Bates,345
-Gallaudet,St. Joseph CT,344
-St. Joseph CT,Catholic,344
+Gallaudet,St. Joseph (CT),344
+St. Joseph (CT),Catholic,344
 Amherst,Elizabethtown,344
-Catholic,Trinity (Conn),344
-Catholic,St. Joseph CT,344
+Catholic,Trinity (CT),344
+Catholic,St. Joseph (CT),344
 Ripon,Trine,344
 Trine,Ripon,344
-Gallaudet,Trinity (Conn),343
-Catholic,Geneseo St.,343
-Geneseo St.,Catholic,343
-Trinity (Conn),Gallaudet,343
+Gallaudet,Trinity (CT),343
+Catholic,SUNY Geneseo,343
+SUNY Geneseo,Catholic,343
+Trinity (CT),Gallaudet,343
 Washington & Jefferson,Transylvania,343
 Transylvania,Washington & Jefferson,343
 Centre,Piedmont,342
-St. Joseph CT,Gallaudet,342
+St. Joseph (CT),Gallaudet,342
 Amherst,Brockport St.,342
 Brockport St.,Amherst,342
-Trinity (Conn),Catholic,342
+Trinity (CT),Catholic,342
 Piedmont,Centre,342
 Stevens,Bowdoin,341
-Amherst,Geneseo St.,341
+Amherst,SUNY Geneseo,341
 Bates,Merchant Marine,341
 Bowdoin,NYU,341
 Bowdoin,Stevens,341
-Geneseo St.,Amherst,341
+SUNY Geneseo,Amherst,341
 Merchant Marine,Bates,341
 Principia,UW-Whitewater,340
 Montclair St.,Brockport St.,340
@@ -3016,20 +3016,20 @@ Carnegie Mellon,Cortland,340
 Catholic,Cortland,340
 Cortland,Carnegie Mellon,340
 Cortland,Catholic,340
-Geneseo St.,Merchant Marine,340
+SUNY Geneseo,Merchant Marine,340
 Messiah,Smith,340
 Smith,Messiah,340
-Merchant Marine,Geneseo St.,340
+Merchant Marine,SUNY Geneseo,340
 UW-Whitewater,Principia,340
 SUNY Cobleskill,Bowdoin,340
 Gallaudet,Cortland,339
-Bridgewater MA,Cortland,339
-Cortland,Bridgewater MA,339
+Bridgewater St.,Cortland,339
+Cortland,Bridgewater St.,339
 Cortland,Gallaudet,339
 Gustavus Adolphus,UW-Whitewater,338
-Johns Hopkins,W New England,338
+Johns Hopkins,Western New England,338
 Randolph-Macon,La Roche,338
-W New England,Johns Hopkins,338
+Western New England,Johns Hopkins,338
 UW-Whitewater,Gustavus Adolphus,338
 La Roche,Randolph-Macon,338
 Bowdoin,Merchant Marine,337
@@ -3040,28 +3040,28 @@ McMurry,East Texas Baptist,336
 Brockport St.,Smith,336
 Smith,Brockport St.,336
 East Texas Baptist,McMurry,336
-Geneseo St.,Smith,335
-Smith,Geneseo St.,335
+SUNY Geneseo,Smith,335
+Smith,SUNY Geneseo,335
 Principia,Wartburg,333
 UW-La Crosse,Illinois Wesleyan,333
 Bethel,Wisconsin Lutheran,333
-Brockport St.,W New England,333
+Brockport St.,Western New England,333
 Illinois Wesleyan,UW-La Crosse,333
-Immaculata,St. Joseph CT,333
+Immaculata,St. Joseph (CT),333
 Wartburg,Principia,333
-W New England,Brockport St.,333
+Western New England,Brockport St.,333
 Wisconsin Lutheran,Bethel,333
 Bates,Vassar,332
-Geneseo St.,W New England,332
+SUNY Geneseo,Western New England,332
 Vassar,Bates,332
-W New England,Geneseo St.,332
-St. Joseph CT,Immaculata,331
-St. Joseph CT,Gettysburg,331
+Western New England,SUNY Geneseo,332
+St. Joseph (CT),Immaculata,331
+St. Joseph (CT),Gettysburg,331
 Cortland,Tufts,331
-Gettysburg,Trinity (Conn),331
-Gettysburg,St. Joseph CT,331
-Immaculata,Trinity (Conn),331
-Trinity (Conn),Immaculata,331
+Gettysburg,Trinity (CT),331
+Gettysburg,St. Joseph (CT),331
+Immaculata,Trinity (CT),331
+Trinity (CT),Immaculata,331
 Tufts,Cortland,331
 UW-Oshkosh,UW-Superior,331
 UW-Superior,UW-Oshkosh,331
@@ -3069,47 +3069,47 @@ Immaculata,Ohio Wesleyan,330
 Ohio Wesleyan,Immaculata,330
 Carnegie Mellon,Randolph-Macon,329
 Randolph-Macon,Carnegie Mellon,329
-La Roche,S Virginia,329
-Brooklyn Col,Geneseo St.,328
-Geneseo St.,Brooklyn Col,328
+La Roche,Southern Virginia,329
+Brooklyn College,SUNY Geneseo,328
+SUNY Geneseo,Brooklyn College,328
 Mt. St. Mary,Bates,328
-S Virginia,La Roche,328
+Southern Virginia,La Roche,328
 Bowdoin,Vassar,327
-Messiah,W New England,327
+Messiah,Western New England,327
 Randolph-Macon,Scranton,327
 Scranton,Randolph-Macon,327
-Trinity (Conn),Gettysburg,327
+Trinity (CT),Gettysburg,327
 Vassar,Bowdoin,327
 Messiah,Baldwin Wallace,326
-Elizabethtown,W New England,325
+Elizabethtown,Western New England,325
 Randolph-Macon,Washington & Jefferson,325
 Washington & Jefferson,Randolph-Macon,325
 Washington & Lee,La Roche,325
-W New England,Messiah,325
+Western New England,Messiah,325
 La Roche,Washington & Lee,325
 Baldwin Wallace,Messiah,324
 Mt. St. Mary,Bowdoin,324
 Brockport St.,Vassar,323
 Vassar,Brockport St.,323
 Washington & Jefferson,Trine,323
-W New England,Elizabethtown,323
+Western New England,Elizabethtown,323
 Trine,Washington & Jefferson,323
-Brooklyn Col,Randolph-Macon,321
+Brooklyn College,Randolph-Macon,321
 NYU,Randolph-Macon,321
-Randolph-Macon,Brooklyn Col,321
+Randolph-Macon,Brooklyn College,321
 Randolph-Macon,NYU,321
 Montclair St.,Randolph-Macon,319
 Stevens,Randolph-Macon,319
-Geneseo St.,NYU,319
-NYU,Geneseo St.,319
+SUNY Geneseo,NYU,319
+NYU,SUNY Geneseo,319
 Randolph-Macon,Montclair St.,319
 Randolph-Macon,Stevens,319
 Baldwin Wallace,Transylvania,318
-Scranton,MA Dartmouth,318
+Scranton,Mass-Dartmouth,318
 Transylvania,Baldwin Wallace,318
-Stevens,Geneseo St.,317
+Stevens,SUNY Geneseo,317
 Brockport St.,Mt. St. Mary,317
-Geneseo St.,Stevens,317
+SUNY Geneseo,Stevens,317
 Illinois Wesleyan,UW-Stevens Point,317
 Ripon,UW-Superior,317
 Scranton,Endicott,317
@@ -3123,45 +3123,45 @@ Washington & Lee,Carnegie Mellon,316
 Endicott,Scranton,316
 Gettysburg,SUNY Cobleskill,315
 SUNY Cobleskill,Gettysburg,315
-St. Joseph CT,Johns Hopkins,312
+St. Joseph (CT),Johns Hopkins,312
 Baldwin Wallace,Gettysburg,312
 Gettysburg,Baldwin Wallace,312
-Johns Hopkins,Trinity (Conn),312
-Johns Hopkins,St. Joseph CT,312
+Johns Hopkins,Trinity (CT),312
+Johns Hopkins,St. Joseph (CT),312
 Scranton,Washington & Jefferson,312
 Washington & Jefferson,Scranton,312
 Gustavus Adolphus,UW-Oshkosh,311
 UW-Oshkosh,Gustavus Adolphus,311
-Trinity (Conn),Johns Hopkins,309
+Trinity (CT),Johns Hopkins,309
 Bethel,UW-Whitewater,308
-Bridgewater MA,Scranton,308
-Scranton,Bridgewater MA,308
+Bridgewater St.,Scranton,308
+Scranton,Bridgewater St.,308
 Transylvania,Trine,308
 Trine,Transylvania,308
 Catholic,Vassar,307
 Vassar,Catholic,307
 UW-Whitewater,Bethel,307
 Gallaudet,Vassar,306
-Montclair St.,Geneseo St.,306
-Geneseo St.,Johns Hopkins,306
-Geneseo St.,Montclair St.,306
-Johns Hopkins,Geneseo St.,306
+Montclair St.,SUNY Geneseo,306
+SUNY Geneseo,Johns Hopkins,306
+SUNY Geneseo,Montclair St.,306
+Johns Hopkins,SUNY Geneseo,306
 Vassar,Gallaudet,306
 Immaculata,Randolph-Macon,304
-Messiah,Trinity (Conn),304
+Messiah,Trinity (CT),304
 Randolph-Macon,Immaculata,304
-St. Joseph CT,Messiah,301
+St. Joseph (CT),Messiah,301
 Carnegie Mellon,Trine,301
 Cortland,Johns Hopkins,301
 Johns Hopkins,Cortland,301
-Messiah,St. Joseph CT,301
-Trinity (Conn),Messiah,301
+Messiah,St. Joseph (CT),301
+Trinity (CT),Messiah,301
 Trine,Carnegie Mellon,301
 Brockport St.,Washington & Jefferson,300
 Washington & Jefferson,Brockport St.,300
-Washington & Jefferson,S Virginia,300
-St. Joseph CT,Elizabethtown,299
-Elizabethtown,St. Joseph CT,299
+Washington & Jefferson,Southern Virginia,300
+St. Joseph (CT),Elizabethtown,299
+Elizabethtown,St. Joseph (CT),299
 Immaculata,SUNY Cobleskill,299
 Scranton,Tufts,299
 Tufts,Scranton,299
@@ -3172,13 +3172,13 @@ Gustavus Adolphus,Ripon,298
 Ripon,Gustavus Adolphus,298
 Calvin,DePauw,297
 DePauw,Calvin,297
-S Virginia,Washington & Jefferson,297
-Elizabethtown,Trinity (Conn),295
-Trinity (Conn),Elizabethtown,295
-Immaculata,S Virginia,294
+Southern Virginia,Washington & Jefferson,297
+Elizabethtown,Trinity (CT),295
+Trinity (CT),Elizabethtown,295
+Immaculata,Southern Virginia,294
 Wartburg,UW-Oshkosh,294
 UW-Oshkosh,Wartburg,294
-S Virginia,Immaculata,294
+Southern Virginia,Immaculata,294
 Scranton,La Roche,293
 Wartburg,Illinois Wesleyan,293
 La Roche,Scranton,293
@@ -3186,13 +3186,13 @@ Calvin,Illinois Wesleyan,292
 Illinois Wesleyan,Calvin,292
 Illinois Wesleyan,Wartburg,292
 Calvin,Ohio Wesleyan,291
-Cortland,MA Dartmouth,291
-MA Dartmouth,Cortland,291
+Cortland,Mass-Dartmouth,291
+Mass-Dartmouth,Cortland,291
 Elizabethtown,SUNY Cobleskill,291
-Geneseo St.,Washington & Jefferson,291
+SUNY Geneseo,Washington & Jefferson,291
 Immaculata,Washington & Lee,291
 Ohio Wesleyan,Calvin,291
-Washington & Jefferson,Geneseo St.,291
+Washington & Jefferson,SUNY Geneseo,291
 Washington & Jefferson,Washington & Lee,291
 Washington & Lee,Immaculata,291
 Washington & Lee,Washington & Jefferson,291
@@ -3222,15 +3222,15 @@ UW-Whitewater,DePauw,284
 Carnegie Mellon,Scranton,283
 Scranton,Carnegie Mellon,283
 Calvin,Wisconsin Lutheran,282
-Geneseo St.,Mt. St. Mary,282
-Mt. St. Mary,Geneseo St.,282
+SUNY Geneseo,Mt. St. Mary,282
+Mt. St. Mary,SUNY Geneseo,282
 Wisconsin Lutheran,Calvin,282
-Montclair St.,MA Dartmouth,281
-MA Dartmouth,Montclair St.,281
-Geneseo St.,Vassar,281
-Vassar,Geneseo St.,281
-McMurry,TX Lutheran,280
-TX Lutheran,McMurry,280
+Montclair St.,Mass-Dartmouth,281
+Mass-Dartmouth,Montclair St.,281
+SUNY Geneseo,Vassar,281
+Vassar,SUNY Geneseo,281
+McMurry,Texas Lutheran,280
+Texas Lutheran,McMurry,280
 Brockport St.,Carnegie Mellon,279
 Carnegie Mellon,Brockport St.,279
 Wartburg,Wisconsin Lutheran,279
@@ -3241,43 +3241,43 @@ UW-Oshkosh,Illinois Wesleyan,277
 Trine,Illinois Wesleyan,277
 Christopher Newport,Messiah,276
 Messiah,Christopher Newport,276
-Brooklyn Col,MA Dartmouth,275
-MA Dartmouth,Brooklyn Col,275
+Brooklyn College,Mass-Dartmouth,275
+Mass-Dartmouth,Brooklyn College,275
 Cortland,Mt. St. Mary,274
 Johns Hopkins,Vassar,274
 Vassar,Johns Hopkins,274
-MA Dartmouth,NYU,273
+Mass-Dartmouth,NYU,273
 DePauw,Wisconsin Lutheran,273
-NYU,MA Dartmouth,273
+NYU,Mass-Dartmouth,273
 UW-Whitewater,Trine,273
 Wisconsin Lutheran,DePauw,273
 Trine,UW-Whitewater,273
-St. Joseph CT,Cortland,272
-Cortland,St. Joseph CT,272
+St. Joseph (CT),Cortland,272
+Cortland,St. Joseph (CT),272
 Gettysburg,Vassar,272
 Gustavus Adolphus,UW-Stevens Point,272
 Vassar,Gettysburg,272
 UW-Stevens Point,Gustavus Adolphus,272
-Stevens,MA Dartmouth,270
-Cortland,Trinity (Conn),270
-MA Dartmouth,Stevens,270
+Stevens,Mass-Dartmouth,270
+Cortland,Trinity (CT),270
+Mass-Dartmouth,Stevens,270
 Illinois Wesleyan,Ripon,270
 Ripon,Illinois Wesleyan,270
-Trinity (Conn),Cortland,270
+Trinity (CT),Cortland,270
 Brockport St.,La Roche,268
-Carnegie Mellon,Geneseo St.,268
-Geneseo St.,Carnegie Mellon,268
+Carnegie Mellon,SUNY Geneseo,268
+SUNY Geneseo,Carnegie Mellon,268
 La Roche,Brockport St.,268
-Elizabethtown,S Virginia,267
-Geneseo St.,Gettysburg,267
-Gettysburg,Geneseo St.,267
-S Virginia,Elizabethtown,267
+Elizabethtown,Southern Virginia,267
+SUNY Geneseo,Gettysburg,267
+Gettysburg,SUNY Geneseo,267
+Southern Virginia,Elizabethtown,267
 Baldwin Wallace,Brockport St.,266
 Brockport St.,Baldwin Wallace,266
 UW-Stout,Wisconsin Lutheran,266
 Wisconsin Lutheran,UW-Stout,266
-MA Dartmouth,Merchant Marine,265
-Merchant Marine,MA Dartmouth,265
+Mass-Dartmouth,Merchant Marine,265
+Merchant Marine,Mass-Dartmouth,265
 Wisconsin Lutheran,Trine,265
 Trine,Wisconsin Lutheran,265
 Bethel,Ripon,263
@@ -3286,14 +3286,14 @@ Ripon,Bethel,263
 Washington & Lee,Elizabethtown,263
 Cortland,Gettysburg,262
 Gettysburg,Cortland,262
-La Roche,Geneseo St.,260
+La Roche,SUNY Geneseo,260
 Gallaudet,La Roche,259
-Geneseo St.,La Roche,259
+SUNY Geneseo,La Roche,259
 La Roche,Gallaudet,259
 Immaculata,Vassar,258
 Vassar,Immaculata,258
-Baldwin Wallace,Geneseo St.,257
-Geneseo St.,Baldwin Wallace,257
+Baldwin Wallace,SUNY Geneseo,257
+SUNY Geneseo,Baldwin Wallace,257
 Johns Hopkins,La Roche,257
 La Roche,Johns Hopkins,257
 Amherst,Cortland,255
@@ -3324,16 +3324,16 @@ Cortland,Smith,249
 Immaculata,Brockport St.,249
 Smith,Cortland,249
 Carnegie Mellon,Johns Hopkins,248
-Elizabethtown,Geneseo St.,248
-Geneseo St.,Elizabethtown,248
+Elizabethtown,SUNY Geneseo,248
+SUNY Geneseo,Elizabethtown,248
 Johns Hopkins,Carnegie Mellon,248
-Mt. St. Mary,MA Dartmouth,248
+Mt. St. Mary,Mass-Dartmouth,248
 Gallaudet,Washington & Jefferson,247
-Brooklyn Col,Endicott,247
+Brooklyn College,Endicott,247
 Washington & Jefferson,Gallaudet,247
-Endicott,Brooklyn Col,247
-Cortland,W New England,246
-W New England,Cortland,246
+Endicott,Brooklyn College,247
+Cortland,Western New England,246
+Western New England,Cortland,246
 Baldwin Wallace,Immaculata,245
 Immaculata,Baldwin Wallace,245
 Johns Hopkins,Washington & Jefferson,245
@@ -3355,19 +3355,19 @@ UW-Stout,UW-Whitewater,241
 UW-Whitewater,UW-Stout,241
 Endicott,Stevens,241
 Gallaudet,Scranton,240
-Brooklyn Col,Immaculata,240
-MA Dartmouth,Vassar,240
-Geneseo St.,Messiah,240
-Immaculata,Brooklyn Col,240
-Messiah,Geneseo St.,240
+Brooklyn College,Immaculata,240
+Mass-Dartmouth,Vassar,240
+SUNY Geneseo,Messiah,240
+Immaculata,Brooklyn College,240
+Messiah,SUNY Geneseo,240
 Scranton,Gallaudet,240
-Vassar,MA Dartmouth,240
+Vassar,Mass-Dartmouth,240
 Endicott,NYU,240
 Centre,DePauw,239
 DePauw,Centre,239
 Endicott,SUNY Cobleskill,239
 SUNY Cobleskill,Endicott,239
-Brooklyn Col,Mt. St. Mary,238
+Brooklyn College,Mt. St. Mary,238
 Catholic,Scranton,238
 Cortland,Elizabethtown,238
 Elizabethtown,Cortland,238
@@ -3386,34 +3386,34 @@ Merchant Marine,Endicott,236
 Endicott,Merchant Marine,236
 Montclair St.,Tufts,235
 Christopher Newport,Mt. St. Mary,235
-Messiah,S Virginia,235
+Messiah,Southern Virginia,235
 Smith,Bates,235
 Tufts,Montclair St.,235
-S Virginia,Messiah,235
-St. Joseph CT,Bates,234
-Bates,St. Joseph CT,234
+Southern Virginia,Messiah,235
+St. Joseph (CT),Bates,234
+Bates,St. Joseph (CT),234
 Elizabethtown,Vassar,234
 Vassar,Elizabethtown,234
 Bates,Smith,233
-Bates,Trinity (Conn),233
+Bates,Trinity (CT),233
 DePauw,Ohio Wesleyan,233
 DePauw,Transylvania,233
 Ohio Wesleyan,DePauw,233
-Trinity (Conn),Bates,233
+Trinity (CT),Bates,233
 Transylvania,DePauw,233
 UW-La Crosse,UW-Superior,232
-Brooklyn Col,Tufts,232
+Brooklyn College,Tufts,232
 Cortland,Messiah,232
-Johns Hopkins,S Virginia,232
+Johns Hopkins,Southern Virginia,232
 Messiah,Cortland,232
 Messiah,Washington & Lee,232
-Tufts,Brooklyn Col,232
+Tufts,Brooklyn College,232
 Washington & Lee,Messiah,232
 UW-Superior,UW-La Crosse,232
 La Roche,Mt. St. Mary,232
-S Virginia,Johns Hopkins,232
-Montclair St.,Bridgewater MA,231
-Bridgewater MA,Montclair St.,231
+Southern Virginia,Johns Hopkins,232
+Montclair St.,Bridgewater St.,231
+Bridgewater St.,Montclair St.,231
 Elizabethtown,La Roche,231
 Immaculata,NYU,231
 Immaculata,Stevens,231
@@ -3421,30 +3421,30 @@ NYU,Immaculata,231
 Smith,Bowdoin,231
 La Roche,Elizabethtown,231
 Stevens,Immaculata,229
-St. Joseph CT,Bowdoin,229
-Bowdoin,St. Joseph CT,229
-Bridgewater MA,SUNY Cobleskill,229
+St. Joseph (CT),Bowdoin,229
+Bowdoin,St. Joseph (CT),229
+Bridgewater St.,SUNY Cobleskill,229
 Elizabethtown,Washington & Jefferson,229
 Washington & Jefferson,Carnegie Mellon,229
 Washington & Jefferson,Elizabethtown,229
-SUNY Cobleskill,Bridgewater MA,229
+SUNY Cobleskill,Bridgewater St.,229
 Bowdoin,Smith,228
-Bowdoin,Trinity (Conn),228
-Brooklyn Col,Catholic,228
-Catholic,Brooklyn Col,228
+Bowdoin,Trinity (CT),228
+Brooklyn College,Catholic,228
+Catholic,Brooklyn College,228
 Cortland,NYU,228
 Johns Hopkins,Washington & Lee,228
 NYU,Cortland,228
-Trinity (Conn),Bowdoin,228
+Trinity (CT),Bowdoin,228
 Washington & Lee,Johns Hopkins,228
 Principia,DePauw,227
-Gallaudet,Brooklyn Col,227
-Brooklyn Col,Gallaudet,227
+Gallaudet,Brooklyn College,227
+Brooklyn College,Gallaudet,227
 DePauw,Principia,227
 NYU,Catholic,226
 Stevens,Tufts,225
-Bridgewater MA,Brooklyn Col,225
-Brooklyn Col,Bridgewater MA,225
+Bridgewater St.,Brooklyn College,225
+Brooklyn College,Bridgewater St.,225
 Catholic,NYU,225
 Tufts,Stevens,225
 Gallaudet,NYU,224
@@ -3454,9 +3454,9 @@ NYU,Gallaudet,224
 Vassar,Endicott,224
 Mt. St. Mary,Messiah,224
 Stevens,Catholic,223
-Brooklyn Col,Cortland,223
+Brooklyn College,Cortland,223
 Catholic,Stevens,223
-Cortland,Brooklyn Col,223
+Cortland,Brooklyn College,223
 Gustavus Adolphus,UW-Superior,223
 NYU,Tufts,223
 Tufts,NYU,223
@@ -3468,76 +3468,76 @@ Montclair St.,Gallaudet,222
 Stevens,Gallaudet,222
 Carnegie Mellon,Elizabethtown,222
 NYU,Mt. St. Mary,222
-Scranton,W New England,222
-W New England,Scranton,222
+Scranton,Western New England,222
+Western New England,Scranton,222
 Elizabethtown,Carnegie Mellon,221
 Tufts,SUNY Cobleskill,221
 Mt. St. Mary,Endicott,221
 Endicott,Mt. St. Mary,221
 SUNY Cobleskill,Tufts,221
 Washington & Jefferson,Mt. St. Mary,220
-Stevens,Bridgewater MA,219
-Bates,W New England,219
-Bridgewater MA,Stevens,219
+Stevens,Bridgewater St.,219
+Bates,Western New England,219
+Bridgewater St.,Stevens,219
 Catholic,Immaculata,219
 Immaculata,Catholic,219
 Tufts,Merchant Marine,219
 Merchant Marine,Tufts,219
-W New England,Bates,219
+Western New England,Bates,219
 Montclair St.,Immaculata,218
-Bridgewater MA,NYU,218
-Brooklyn Col,Gettysburg,218
-Gettysburg,Brooklyn Col,218
-Gettysburg,S Virginia,218
+Bridgewater St.,NYU,218
+Brooklyn College,Gettysburg,218
+Gettysburg,Brooklyn College,218
+Gettysburg,Southern Virginia,218
 Immaculata,Montclair St.,218
 Johns Hopkins,Merchant Marine,218
-NYU,Bridgewater MA,218
+NYU,Bridgewater St.,218
 Merchant Marine,Johns Hopkins,218
-S Virginia,Gettysburg,218
+Southern Virginia,Gettysburg,218
 Gallaudet,Immaculata,217
 Immaculata,Gallaudet,217
 Brockport St.,SUNY Cobleskill,216
-Geneseo St.,SUNY Cobleskill,216
+SUNY Geneseo,SUNY Cobleskill,216
 Washington & Lee,Mt. St. Mary,216
 UW-Oshkosh,UW-Stout,216
 UW-Stout,UW-Oshkosh,216
 SUNY Cobleskill,Brockport St.,216
-SUNY Cobleskill,Geneseo St.,216
-Bridgewater MA,Vassar,215
+SUNY Cobleskill,SUNY Geneseo,216
+Bridgewater St.,Vassar,215
 DePauw,Trine,215
-Vassar,Bridgewater MA,215
+Vassar,Bridgewater St.,215
 Trine,DePauw,215
 Stevens,Cortland,214
-Bowdoin,W New England,214
-Bridgewater MA,Merchant Marine,214
+Bowdoin,Western New England,214
+Bridgewater St.,Merchant Marine,214
 Cortland,Stevens,214
 Elizabethtown,Randolph-Macon,214
 Gettysburg,Washington & Lee,214
 Ohio Wesleyan,Transylvania,214
-Merchant Marine,Bridgewater MA,214
+Merchant Marine,Bridgewater St.,214
 Washington & Lee,Gettysburg,214
-W New England,Bowdoin,214
+Western New England,Bowdoin,214
 Mt. St. Mary,Elizabethtown,214
 Transylvania,Ohio Wesleyan,214
 Illinois Wesleyan,Wisconsin Lutheran,213
 Wisconsin Lutheran,Illinois Wesleyan,213
 Bethel,Wartburg,212
-Bridgewater MA,Mt. St. Mary,212
+Bridgewater St.,Mt. St. Mary,212
 Johns Hopkins,Christopher Newport,212
-Mt. St. Mary,Bridgewater MA,212
+Mt. St. Mary,Bridgewater St.,212
 Wartburg,Bethel,211
 Carnegie Mellon,Ohio Wesleyan,210
 Gettysburg,NYU,210
 NYU,Gettysburg,210
 Bethel,UW-Stevens Point,209
-Christopher Newport,S Virginia,209
+Christopher Newport,Southern Virginia,209
 Messiah,La Roche,209
 Ohio Wesleyan,La Roche,209
 Randolph-Macon,Elizabethtown,209
 UW-Stevens Point,Bethel,209
 La Roche,Messiah,209
 La Roche,Ohio Wesleyan,209
-S Virginia,Christopher Newport,209
+Southern Virginia,Christopher Newport,209
 Stevens,Gettysburg,208
 Christopher Newport,Johns Hopkins,208
 Christopher Newport,Washington & Lee,208
@@ -3553,28 +3553,28 @@ Bates,Amherst,206
 Tufts,Vassar,206
 Vassar,Tufts,206
 UW-La Crosse,Wisconsin Lutheran,205
-Catholic,S Virginia,205
+Catholic,Southern Virginia,205
 Elizabethtown,Merchant Marine,205
 Merchant Marine,Elizabethtown,205
 Wisconsin Lutheran,UW-La Crosse,205
-S Virginia,Catholic,205
-Gallaudet,S Virginia,203
+Southern Virginia,Catholic,205
+Gallaudet,Southern Virginia,203
 Montclair St.,Cortland,203
 Montclair St.,Gettysburg,203
 Cortland,Montclair St.,203
 Gettysburg,Montclair St.,203
-S Virginia,Gallaudet,203
+Southern Virginia,Gallaudet,203
 Amherst,Bowdoin,202
 Bowdoin,Amherst,202
-Geneseo St.,Scranton,202
-Scranton,Geneseo St.,202
+SUNY Geneseo,Scranton,202
+Scranton,SUNY Geneseo,202
 Tufts,Mt. St. Mary,202
 Mt. St. Mary,Tufts,202
 Johns Hopkins,Scranton,201
 Scranton,Johns Hopkins,201
-S Virginia,Mt. St. Mary,201
-Geneseo St.,Immaculata,200
-Immaculata,Geneseo St.,200
+Southern Virginia,Mt. St. Mary,201
+SUNY Geneseo,Immaculata,200
+Immaculata,SUNY Geneseo,200
 Gallaudet,Washington & Lee,199
 Carnegie Mellon,Messiah,199
 Messiah,Carnegie Mellon,199
@@ -3584,41 +3584,41 @@ Randolph-Macon,Messiah,198
 Cortland,Immaculata,197
 Immaculata,Cortland,197
 Montclair St.,Johns Hopkins,196
-Brooklyn Col,Johns Hopkins,196
+Brooklyn College,Johns Hopkins,196
 Catholic,Washington & Lee,196
-Johns Hopkins,Brooklyn Col,196
+Johns Hopkins,Brooklyn College,196
 Johns Hopkins,Montclair St.,196
 Ripon,UW-Stout,196
 Washington & Lee,Catholic,196
 UW-Stout,Ripon,196
-Bowdoin,MA Dartmouth,195
-MA Dartmouth,Bowdoin,195
+Bowdoin,Mass-Dartmouth,195
+Mass-Dartmouth,Bowdoin,195
 Gettysburg,La Roche,195
 La Roche,Gettysburg,195
 Gettysburg,Washington & Jefferson,193
 NYU,Johns Hopkins,193
 Washington & Jefferson,Gettysburg,193
 Johns Hopkins,NYU,192
-Scranton,Trinity (Conn),192
-Trinity (Conn),Scranton,192
-St. Joseph CT,Scranton,191
-Scranton,St. Joseph CT,191
+Scranton,Trinity (CT),192
+Trinity (CT),Scranton,192
+St. Joseph (CT),Scranton,191
+Scranton,St. Joseph (CT),191
 Stevens,Johns Hopkins,190
 Johns Hopkins,Stevens,190
-Brooklyn Col,Messiah,188
-Messiah,Brooklyn Col,188
+Brooklyn College,Messiah,188
+Messiah,Brooklyn College,188
 Ohio Wesleyan,Trine,188
 Wartburg,UW-Stout,188
 UW-Stout,Wartburg,188
 Trine,Ohio Wesleyan,188
 Carnegie Mellon,Gettysburg,186
 Gettysburg,Carnegie Mellon,186
-MA Dartmouth,SUNY Cobleskill,183
-SUNY Cobleskill,Brooklyn Col,183
-SUNY Cobleskill,MA Dartmouth,183
-Brooklyn Col,Elizabethtown,182
-Brooklyn Col,SUNY Cobleskill,182
-Elizabethtown,Brooklyn Col,182
+Mass-Dartmouth,SUNY Cobleskill,183
+SUNY Cobleskill,Brooklyn College,183
+SUNY Cobleskill,Mass-Dartmouth,183
+Brooklyn College,Elizabethtown,182
+Brooklyn College,SUNY Cobleskill,182
+Elizabethtown,Brooklyn College,182
 Illinois Wesleyan,UW-Whitewater,182
 Ohio Wesleyan,Washington & Jefferson,182
 Washington & Jefferson,Ohio Wesleyan,182
@@ -3648,8 +3648,8 @@ SUNY Cobleskill,Merchant Marine,177
 Catholic,Christopher Newport,176
 Gallaudet,Christopher Newport,175
 Montclair St.,Smith,175
-Amherst,Brooklyn Col,175
-Brooklyn Col,Amherst,175
+Amherst,Brooklyn College,175
+Brooklyn College,Amherst,175
 Christopher Newport,Gallaudet,175
 Smith,Montclair St.,175
 Montclair St.,Messiah,174
@@ -3666,22 +3666,22 @@ Stevens,Amherst,169
 UW-La Crosse,Gustavus Adolphus,169
 Amherst,NYU,169
 Amherst,Stevens,169
-Bates,Bridgewater MA,169
-Bridgewater MA,Bates,169
+Bates,Bridgewater St.,169
+Bridgewater St.,Bates,169
 Gettysburg,Randolph-Macon,169
 Gustavus Adolphus,UW-La Crosse,169
 NYU,Amherst,169
-Brooklyn Col,Smith,168
-Smith,Brooklyn Col,168
+Brooklyn College,Smith,168
+Smith,Brooklyn College,168
 Montclair St.,SUNY Cobleskill,167
 SUNY Cobleskill,Montclair St.,167
 Stevens,SUNY Cobleskill,166
 SUNY Cobleskill,Stevens,166
 Montclair St.,Elizabethtown,165
-Bowdoin,Bridgewater MA,165
-Bridgewater MA,Bowdoin,165
-Bridgewater MA,MA Dartmouth,165
-MA Dartmouth,Bridgewater MA,165
+Bowdoin,Bridgewater St.,165
+Bridgewater St.,Bowdoin,165
+Bridgewater St.,Mass-Dartmouth,165
+Mass-Dartmouth,Bridgewater St.,165
 Elizabethtown,Montclair St.,165
 Amherst,Merchant Marine,163
 NYU,Smith,163
@@ -3694,49 +3694,49 @@ Gettysburg,Scranton,162
 Illinois Wesleyan,Principia,162
 Scranton,Gettysburg,162
 Smith,Stevens,162
-SUNY Cobleskill,St. Joseph CT,162
+SUNY Cobleskill,St. Joseph (CT),162
 UW-La Crosse,Bethel,161
-St. Joseph CT,SUNY Cobleskill,161
+St. Joseph (CT),SUNY Cobleskill,161
 UW-Stevens Point,UW-Whitewater,161
 UW-Whitewater,UW-Stevens Point,161
-Montclair St.,W New England,160
+Montclair St.,Western New England,160
 Bethel,UW-La Crosse,160
-Trinity (Conn),SUNY Cobleskill,160
-W New England,Montclair St.,160
-SUNY Cobleskill,Trinity (Conn),160
+Trinity (CT),SUNY Cobleskill,160
+Western New England,Montclair St.,160
+SUNY Cobleskill,Trinity (CT),160
 Smith,NYU,158
-St. Joseph CT,MA Dartmouth,157
-Brooklyn Col,W New England,157
-MA Dartmouth,St. Joseph CT,157
+St. Joseph (CT),Mass-Dartmouth,157
+Brooklyn College,Western New England,157
+Mass-Dartmouth,St. Joseph (CT),157
 Smith,Merchant Marine,157
 Merchant Marine,Smith,157
 DePauw,Illinois Wesleyan,156
 Illinois Wesleyan,DePauw,156
 Baldwin Wallace,Washington & Jefferson,155
-Bates,MA Dartmouth,155
-MA Dartmouth,Bates,155
+Bates,Mass-Dartmouth,155
+Mass-Dartmouth,Bates,155
 Washington & Jefferson,Baldwin Wallace,155
-MA Dartmouth,Trinity (Conn),154
+Mass-Dartmouth,Trinity (CT),154
 Randolph-Macon,Mt. St. Mary,154
-Trinity (Conn),MA Dartmouth,154
-W New England,Brooklyn Col,154
+Trinity (CT),Mass-Dartmouth,154
+Western New England,Brooklyn College,154
 Scranton,SUNY Cobleskill,153
 SUNY Cobleskill,Scranton,153
 UW-La Crosse,UW-Oshkosh,151
 Immaculata,La Roche,151
 UW-Oshkosh,UW-La Crosse,151
 La Roche,Immaculata,151
-Stevens,W New England,150
-W New England,Stevens,150
-NYU,W New England,148
-W New England,NYU,148
+Stevens,Western New England,150
+Western New England,Stevens,150
+NYU,Western New England,148
+Western New England,NYU,148
 Bethel,UW-Superior,147
 UW-Superior,Bethel,147
-Randolph-Macon,S Virginia,146
+Randolph-Macon,Southern Virginia,146
 UW-Stout,UW-Superior,146
 UW-Superior,UW-Stout,146
 Mt. St. Mary,Amherst,146
-S Virginia,Randolph-Macon,146
+Southern Virginia,Randolph-Macon,146
 Amherst,SUNY Cobleskill,145
 SUNY Cobleskill,Amherst,145
 Immaculata,Scranton,143
@@ -3745,19 +3745,19 @@ Washington & Lee,Randolph-Macon,143
 Randolph-Macon,Washington & Lee,142
 Scranton,Merchant Marine,142
 Merchant Marine,Scranton,142
-Merchant Marine,W New England,142
-W New England,Merchant Marine,142
+Merchant Marine,Western New England,142
+Western New England,Merchant Marine,142
 Carnegie Mellon,Immaculata,141
 Immaculata,Carnegie Mellon,141
-Endicott,MA Dartmouth,141
+Endicott,Mass-Dartmouth,141
 UW-Stevens Point,UW-Stout,140
 UW-Stout,UW-Stevens Point,140
 Mt. St. Mary,Smith,140
 Amherst,Vassar,139
 Brockport St.,Cortland,139
 Cortland,Brockport St.,139
-Cortland,Geneseo St.,139
-Geneseo St.,Cortland,139
+Cortland,SUNY Geneseo,139
+SUNY Geneseo,Cortland,139
 Smith,SUNY Cobleskill,139
 Vassar,Amherst,139
 SUNY Cobleskill,Smith,139
@@ -3769,22 +3769,22 @@ Scranton,Elizabethtown,138
 Tufts,Bates,138
 UW-La Crosse,Ripon,136
 Ripon,UW-La Crosse,136
-W New England,SUNY Cobleskill,136
-SUNY Cobleskill,W New England,136
-MA Dartmouth,W New England,135
-MA Dartmouth,Endicott,135
-Montclair St.,Trinity (Conn),134
+Western New England,SUNY Cobleskill,136
+SUNY Cobleskill,Western New England,136
+Mass-Dartmouth,Western New England,135
+Mass-Dartmouth,Endicott,135
+Montclair St.,Trinity (CT),134
 Bowdoin,Tufts,134
 Gustavus Adolphus,UW-Stout,134
-Trinity (Conn),Montclair St.,134
+Trinity (CT),Montclair St.,134
 Tufts,Bowdoin,134
 UW-Stout,Gustavus Adolphus,134
 Baldwin Wallace,Carnegie Mellon,133
-Brooklyn Col,St. Joseph CT,133
-W New England,MA Dartmouth,133
+Brooklyn College,St. Joseph (CT),133
+Western New England,Mass-Dartmouth,133
 Calvin,Trine,132
-Montclair St.,St. Joseph CT,132
-St. Joseph CT,Montclair St.,132
+Montclair St.,St. Joseph (CT),132
+St. Joseph (CT),Montclair St.,132
 Carnegie Mellon,Baldwin Wallace,132
 Johns Hopkins,Randolph-Macon,132
 Messiah,Scranton,132
@@ -3796,60 +3796,60 @@ Wartburg,UW-La Crosse,131
 Bates,Endicott,130
 Endicott,Bates,130
 Bowdoin,Endicott,129
-Brooklyn Col,Scranton,129
-MA Dartmouth,Tufts,129
-Scranton,Brooklyn Col,129
+Brooklyn College,Scranton,129
+Mass-Dartmouth,Tufts,129
+Scranton,Brooklyn College,129
 Smith,Vassar,129
-Tufts,MA Dartmouth,129
+Tufts,Mass-Dartmouth,129
 Vassar,Smith,129
-St. Joseph CT,Endicott,128
+St. Joseph (CT),Endicott,128
 Smith,Endicott,128
-Vassar,W New England,128
-W New England,Vassar,128
-Endicott,St. Joseph CT,128
-St. Joseph CT,Brooklyn Col,127
-Trinity (Conn),Endicott,127
+Vassar,Western New England,128
+Western New England,Vassar,128
+Endicott,St. Joseph (CT),128
+St. Joseph (CT),Brooklyn College,127
+Trinity (CT),Endicott,127
 Endicott,Smith,127
-Endicott,Trinity (Conn),127
-Brooklyn Col,Trinity (Conn),126
-Trinity (Conn),Brooklyn Col,126
+Endicott,Trinity (CT),127
+Brooklyn College,Trinity (CT),126
+Trinity (CT),Brooklyn College,126
 Endicott,Bowdoin,126
 UW-La Crosse,UW-Stevens Point,125
-Amherst,Bridgewater MA,125
-W New England,Mt. St. Mary,125
+Amherst,Bridgewater St.,125
+Western New England,Mt. St. Mary,125
 UW-Stevens Point,UW-La Crosse,125
-Mt. St. Mary,W New England,125
-Stevens,St. Joseph CT,124
-St. Joseph CT,NYU,124
-St. Joseph CT,Stevens,124
-NYU,St. Joseph CT,124
+Mt. St. Mary,Western New England,125
+Stevens,St. Joseph (CT),124
+St. Joseph (CT),NYU,124
+St. Joseph (CT),Stevens,124
+NYU,St. Joseph (CT),124
 Gallaudet,Messiah,123
 Baldwin Wallace,La Roche,123
 Messiah,Gallaudet,123
 La Roche,Baldwin Wallace,123
-NYU,Trinity (Conn),122
+NYU,Trinity (CT),122
 Catholic,Messiah,121
 Messiah,Catholic,121
 NYU,Scranton,121
 Scranton,NYU,121
 Stevens,Scranton,120
-Stevens,Trinity (Conn),120
-St. Joseph CT,Merchant Marine,120
+Stevens,Trinity (CT),120
+St. Joseph (CT),Merchant Marine,120
 Elizabethtown,Immaculata,120
 Immaculata,Elizabethtown,120
 Scranton,Stevens,120
-Trinity (Conn),Stevens,120
-Merchant Marine,St. Joseph CT,120
-Bridgewater MA,Smith,119
-Smith,Bridgewater MA,119
-St. Joseph CT,Bridgewater MA,118
-Bridgewater MA,Trinity (Conn),118
-Bridgewater MA,St. Joseph CT,118
+Trinity (CT),Stevens,120
+Merchant Marine,St. Joseph (CT),120
+Bridgewater St.,Smith,119
+Smith,Bridgewater St.,119
+St. Joseph (CT),Bridgewater St.,118
+Bridgewater St.,Trinity (CT),118
+Bridgewater St.,St. Joseph (CT),118
 Scranton,Vassar,118
-Trinity (Conn),Bridgewater MA,118
+Trinity (CT),Bridgewater St.,118
 Vassar,Scranton,118
-Trinity (Conn),Merchant Marine,117
-Merchant Marine,Trinity (Conn),117
+Trinity (CT),Merchant Marine,117
+Merchant Marine,Trinity (CT),117
 Gallaudet,Elizabethtown,115
 Baldwin Wallace,Ohio Wesleyan,115
 Cortland,SUNY Cobleskill,115
@@ -3857,53 +3857,53 @@ Elizabethtown,Gallaudet,115
 Ohio Wesleyan,Baldwin Wallace,115
 SUNY Cobleskill,Cortland,115
 UW-La Crosse,UW-Stout,114
-W New England,Endicott,114
+Western New England,Endicott,114
 UW-Stout,UW-La Crosse,114
 Amherst,Endicott,113
 Catholic,Elizabethtown,113
 Elizabethtown,Catholic,113
 Endicott,Amherst,113
-Endicott,W New England,113
+Endicott,Western New England,113
 Immaculata,Messiah,112
 Messiah,Immaculata,112
-St. Joseph CT,Tufts,110
-Bridgewater MA,Amherst,110
-Trinity (Conn),Tufts,110
-Tufts,Trinity (Conn),110
-Tufts,St. Joseph CT,110
-MA Dartmouth,Smith,109
-Smith,MA Dartmouth,109
+St. Joseph (CT),Tufts,110
+Bridgewater St.,Amherst,110
+Trinity (CT),Tufts,110
+Tufts,Trinity (CT),110
+Tufts,St. Joseph (CT),110
+Mass-Dartmouth,Smith,109
+Smith,Mass-Dartmouth,109
 Smith,Tufts,109
 Tufts,Smith,109
 SUNY Cobleskill,Mt. St. Mary,109
 Montclair St.,Scranton,108
-Amherst,MA Dartmouth,108
-MA Dartmouth,Amherst,108
+Amherst,Mass-Dartmouth,108
+Mass-Dartmouth,Amherst,108
 Scranton,Montclair St.,108
 Mt. St. Mary,SUNY Cobleskill,108
-Trinity (Conn),NYU,106
-Bridgewater MA,W New England,104
-W New England,Bridgewater MA,104
+Trinity (CT),NYU,106
+Bridgewater St.,Western New England,104
+Western New England,Bridgewater St.,104
 Vassar,SUNY Cobleskill,101
 SUNY Cobleskill,Vassar,101
 Cortland,Scranton,99
 Scranton,Cortland,99
-St. Joseph CT,Vassar,98
-Trinity (Conn),Vassar,98
-Vassar,Trinity (Conn),98
-Vassar,St. Joseph CT,98
+St. Joseph (CT),Vassar,98
+Trinity (CT),Vassar,98
+Vassar,Trinity (CT),98
+Vassar,St. Joseph (CT),98
 Mt. St. Mary,Scranton,98
 Catholic,Randolph-Macon,96
 Randolph-Macon,Catholic,96
 Gallaudet,Randolph-Macon,95
-St. Joseph CT,Mt. St. Mary,95
-Brooklyn Col,Vassar,95
+St. Joseph (CT),Mt. St. Mary,95
+Brooklyn College,Vassar,95
 Randolph-Macon,Gallaudet,95
-Tufts,W New England,95
-Vassar,Brooklyn Col,95
-W New England,Tufts,95
-Mt. St. Mary,Trinity (Conn),95
-Mt. St. Mary,St. Joseph CT,95
+Tufts,Western New England,95
+Vassar,Brooklyn College,95
+Western New England,Tufts,95
+Mt. St. Mary,Trinity (CT),95
+Mt. St. Mary,St. Joseph (CT),95
 Ripon,UW-Stevens Point,92
 UW-Stevens Point,Ripon,92
 Gallaudet,Gettysburg,91
@@ -3931,7 +3931,7 @@ Vassar,Montclair St.,83
 Ripon,UW-Whitewater,82
 UW-Oshkosh,Wisconsin Lutheran,82
 UW-Whitewater,Ripon,82
-Mt. St. Mary,Brooklyn Col,82
+Mt. St. Mary,Brooklyn College,82
 Wisconsin Lutheran,UW-Oshkosh,82
 Ripon,Wisconsin Lutheran,81
 Wisconsin Lutheran,Ripon,81
@@ -3953,28 +3953,28 @@ Mt. St. Mary,Montclair St.,67
 Gettysburg,Johns Hopkins,61
 Johns Hopkins,Gettysburg,61
 Johns Hopkins,Mt. St. Mary,59
-Endicott,Bridgewater MA,59
-Bridgewater MA,Endicott,58
+Endicott,Bridgewater St.,59
+Bridgewater St.,Endicott,58
 Gettysburg,Elizabethtown,58
 Elizabethtown,Gettysburg,57
-St. Joseph CT,Amherst,54
-Amherst,St. Joseph CT,54
-Amherst,Trinity (Conn),53
-Trinity (Conn),Amherst,53
+St. Joseph (CT),Amherst,54
+Amherst,St. Joseph (CT),54
+Amherst,Trinity (CT),53
+Trinity (CT),Amherst,53
 UW-Whitewater,Wisconsin Lutheran,49
 Wisconsin Lutheran,UW-Whitewater,49
-St. Joseph CT,Smith,47
-Smith,Trinity (Conn),47
-Smith,St. Joseph CT,47
-Trinity (Conn),Smith,47
+St. Joseph (CT),Smith,47
+Smith,Trinity (CT),47
+Smith,St. Joseph (CT),47
+Trinity (CT),Smith,47
 Messiah,Mt. St. Mary,43
 Washington & Jefferson,La Roche,40
 La Roche,Washington & Jefferson,40
-Brockport St.,Geneseo St.,39
-Geneseo St.,Brockport St.,39
-Bridgewater MA,Tufts,38
+Brockport St.,SUNY Geneseo,39
+SUNY Geneseo,Brockport St.,39
+Bridgewater St.,Tufts,38
 Johns Hopkins,Catholic,38
-Tufts,Bridgewater MA,38
+Tufts,Bridgewater St.,38
 Gallaudet,Johns Hopkins,37
 Montclair St.,Merchant Marine,37
 Catholic,Johns Hopkins,37
@@ -3982,29 +3982,29 @@ Johns Hopkins,Gallaudet,37
 Merchant Marine,Montclair St.,37
 Centre,Transylvania,36
 Transylvania,Centre,36
-St. Joseph CT,W New England,33
+St. Joseph (CT),Western New England,33
 Gettysburg,Messiah,33
-W New England,St. Joseph CT,33
+Western New England,St. Joseph (CT),33
 Messiah,Gettysburg,32
-Trinity (Conn),W New England,32
-W New England,Amherst,32
-W New England,Trinity (Conn),32
+Trinity (CT),Western New England,32
+Western New England,Amherst,32
+Western New England,Trinity (CT),32
 Carnegie Mellon,Washington & Jefferson,31
 Messiah,Elizabethtown,31
-Amherst,W New England,30
+Amherst,Western New England,30
 Elizabethtown,Messiah,30
-Brooklyn Col,Merchant Marine,29
-Merchant Marine,Brooklyn Col,29
-Montclair St.,Brooklyn Col,26
-Brooklyn Col,Montclair St.,26
+Brooklyn College,Merchant Marine,29
+Merchant Marine,Brooklyn College,29
+Montclair St.,Brooklyn College,26
+Brooklyn College,Montclair St.,26
 Tufts,Endicott,26
 Endicott,Tufts,26
 Stevens,Merchant Marine,25
 Merchant Marine,Stevens,25
 NYU,Merchant Marine,23
-Smith,W New England,23
+Smith,Western New England,23
 Merchant Marine,NYU,23
-W New England,Smith,23
+Western New England,Smith,23
 Bates,Bowdoin,22
 Bowdoin,Bates,22
 Mt. St. Mary,Vassar,22
@@ -4015,19 +4015,19 @@ NYU,Montclair St.,19
 Gettysburg,Mt. St. Mary,17
 Montclair St.,Stevens,16
 Stevens,Montclair St.,16
-Stevens,Brooklyn Col,12
-Brooklyn Col,Stevens,12
+Stevens,Brooklyn College,12
+Brooklyn College,Stevens,12
 Carnegie Mellon,La Roche,11
 La Roche,Carnegie Mellon,10
-Brooklyn Col,NYU,9
-NYU,Brooklyn Col,9
+Brooklyn College,NYU,9
+NYU,Brooklyn College,9
 Amherst,Smith,7
 Smith,Amherst,7
-Washington & Lee,S Virginia,7
-S Virginia,Washington & Lee,7
+Washington & Lee,Southern Virginia,7
+Southern Virginia,Washington & Lee,7
 Stevens,NYU,4
-St. Joseph CT,Trinity (Conn),4
+St. Joseph (CT),Trinity (CT),4
 NYU,Stevens,4
-Trinity (Conn),St. Joseph CT,4
+Trinity (CT),St. Joseph (CT),4
 Gallaudet,Catholic,3
 Catholic,Gallaudet,3
